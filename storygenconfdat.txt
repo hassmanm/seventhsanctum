@@ -1,0 +1,15 @@
+Free-For-All
+	SEEDTELL
+		storygendat.txt
+Fantasy
+	SEEDFAN
+		storygendat.txt
+Modern
+	SEEDMOD
+		storygendat.txt
+Science-Fiction
+	SEEDSCI
+		storygendat.txt
+Random Category
+	SEED
+		storygendat.txt

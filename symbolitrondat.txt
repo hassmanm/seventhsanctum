@@ -1,0 +1,572 @@
+//Environmental Elements
+//1 Theme  (example: romantic)
+//2 Setting/Genre (example: western)
+//4 Mapping (the characters map to)
+//Elemental
+//8 Elements (example: taking place in a building where each floor maps to)
+//16 Characters (example: mad scientists)
+//Enviromnetal.
+//32 Environment (example: country)
+//Specific
+//64 Specific (example: A fantasy story where the races map to)
+//Numerics
+//128 Numbeirc (example: the seven deadly sins)
+--ORGANIZATION
+//Basics
+1,4,128
+The , story where , ,.
+2,4,128
+The , story where , ,.
+1,2,4,128
+The , , story where , ,.
+//Elements
+8,128
+The story , ,.
+1,8,128
+The , story , ,.
+//Characters
+1,16,128
+The , story about , where the characters map to ,.
+16,128
+The story about , where the characters map to ,.
+16,4,128
+The story about , where , ,.
+//Environment
+32,128
+The story where the , map to ,.
+1,32,128
+The , story where the , map to ,.
+//Specicis
+64,128
+, ,.
+--VOCABULARY
+//1 Theme  (example: romantic)
+action-packed,1
+allegorical,1
+comedic,1
+dark,1
+dramatic,1
+epic,3
+light-hearted,1
+philosophical,1
+psychological,1
+romantic,1
+satirical,1
+screwball comedy,1
+swashbuckling,1
+//2 Setting/Genre (example: western)
+adventure,2
+buddy,2
+character study,2
+coming-of-age,2
+crime,2
+cyberpunk,2
+detective,2
+fantasy,2
+high fantasy,2
+horror,2
+love,2
+occult,2
+pirate,2
+post-apocalyptic,2
+retro-futuristic,2
+revenge,2
+road trip,2
+science-fiction,2
+slice-of-life,3
+spy,2
+steampunk,2
+western,2
+//4 Mapping (the characters map to)
+the characters map to,4
+the major plot twists map to,4
+the chapters map to,4
+the locations map to,4
+the character evolution maps to,4
+the main character moods map to,4
+the characters' births map to,4
+the characters' deaths map to,4
+the character relationships map to,4
+//8 Elements (example: taking place in a building where each floor maps to)
+taking place in a building where the floors map to,8
+taking place in a town where the sections map to,8
+where the major 'plot devices' map to,8
+where the eras of history map to,8
+set in an apartment building where each apartment and its residents map to,8
+where different styles of martial arts map to,8
+set on a space station where the different sections map to,8
+set in a world where the crimes recognized by the legal system map to,8
+set in a world where the punishments for crime map to,8
+set in a world where the different professions map to,8
+where major magical artifacts map to,8
+involving a computer system whose components map to,8
+where the moral codes map to,8
+where the diseases map to,8
+//16 Characters (example: mad scientists)
+acrobats,16
+actors,16
+adventurers,16
+alchemists,16
+aliens,16
+ambassadors,16
+androids,16
+angels,16
+anthropomorphic animals,16
+arch-angels,16
+arch-demons,16
+arch-druids,16
+archers,16
+architects,16
+arch-mages,16
+armorers,16
+artificial intelligences,16
+artificial life forms,16
+assassins,16
+astrologers,16
+astronauts,16
+astronomers,16
+bandits,16
+banshees,16
+barbarians,16
+bards,16
+bartenders,16
+beastmasters,16
+beggars,16
+blacksmiths,16
+blasphemers,16
+boatmen,16
+bodyguards,16
+bounty hunters,16
+bowmen,16
+brewers,16
+businesspeople,16
+cartographers,16
+centaurs,16
+champions,16
+chief engineers,16
+circuit priestesses,16
+circuit priests,16
+clerics,16
+clones,16
+coachmen,16
+colonists,16
+comics,16
+communications officers,16
+communications technicians,16
+computer techicians,16
+conjurers,16
+conquerors,16
+coroners,16
+cyberneticists,16
+cyberpunks,16
+cyborgs,16
+cyclopses,16
+dancers,16
+dark elves,16
+deities,16
+demigods,16
+demonologists,16
+demons,16
+devils,16
+dinosaurs,16
+dopplegangers,16
+druids,16
+dryads,16
+dukes,16
+dungeon delvers,16
+dutchesses,16
+dwarves,16
+elementalists,16
+elementals,16
+elves,16
+emperesses,16
+emperors,16
+engineers,16
+executioners,16
+exorcists,16
+explorers,16
+farmers,16
+fences,16
+fighter pilots,16
+first contact specialists,16
+first officers,16
+fishermen,16
+fortune-tellers,16
+gamblers,16
+gargoyles,16
+genies,16
+ghosts,16
+giant monsters,16
+gigolos,16
+gladiators,16
+goddesses,16
+gods,16
+grave robbers,16
+guardians,16
+guardsmen,16
+hangmen,16
+healers,16
+heirs,16
+herbologists,16
+heretics,16
+hermits,16
+heroes,16
+heroines,16
+hunters,16
+husbands,16
+impostors,16
+inquisitors,16
+inventors,16
+jailers,16
+kids,16
+killers,16
+kings,16
+knights,16
+laborers,16
+lawmen,16
+leaders,16
+liches,16
+linguistics experts,16
+mad scientists,16
+madmen/women,16
+magical girls,16
+magical knights,16
+magicians,16
+marines,16
+martial artists,16
+medical officers,16
+medical technicians,16
+medusae,16
+mentors,16
+mercenarys,16
+merchants,16
+midwifes,16
+miners,16
+minotaurs,16
+monks,16
+monster trainers,16
+monsters,16
+murderers,16
+musicians,16
+musicians,16
+mutants,16
+nanotechnologists,16
+necromancers,16
+nobles,16
+novelists,16
+nuns,16
+occultists,16
+officials,16
+operations managers,16
+outlaws,16
+paladins,16
+peasants,16
+pedlars,16
+pharmacists,16
+philanthropists,16
+philosophers,16
+planetary explorers,16
+planetologists,16
+playwrights,16
+poets,16
+politicians,16
+preachers,16
+pretenders,16
+priestesss,16
+priests,16
+princes,16
+princesss,16
+prophets,16
+prospectors,16
+prostitutes,16
+quartermasters,16
+queens,16
+rabble-rousers,16
+rangers,16
+rascals,16
+rat-catchers,16
+robot pilots,16
+robots,16
+rogues,16
+sailors,16
+scribes,16
+security agents,16
+security officers,16
+seers,16
+sentai team members,16
+serfs,16
+servants,16
+shamans,16
+singers,16
+slaves,16
+smugglers,16
+soldiers,16
+sorcerors,16
+space cargo haulers,16
+space fighters,16
+space hitchikers,16
+space pirates,16
+spies,16
+spirits,16
+starship captains,16
+starship engineers,16
+starship navigators,16
+starship pilots,16
+starship salespersons,16
+stellar cartographers,16
+students,16
+super computers,16
+superheroes,16
+supervillains,16
+tactical officers,16
+talking animals,16
+teachers,16
+technicians,16
+terraformers,16
+theologians,16
+thieves,16
+time travel technicians,16
+time travellers,16
+tomb-robbers,16
+traders,16
+traitors,16
+travelers,16
+treasure-hunters,16
+vampires,16
+villains,16
+virtual reality engineers,16
+virtual reality programmers,16
+wanderers,16
+watchmen,16
+weapons masters,16
+werewolves,16
+witch-hunters,16
+wives,16
+wizards,16
+writers,16
+zombies,16
+//32 Environment (example: country)
+artistic styles,32
+animal species,32
+avatars of a god,32
+businesses,32
+cities,32
+constellations,32
+continents,32
+corporations,32
+countries,32
+cultures,32
+dimensions,32
+diseases,32
+eras of history,32
+galaxies,32
+heavenly bodies,32
+islands,32
+kingdoms,32
+landmarks,32
+levels of heaven,32
+levels of hell,32
+major buildings,32
+major mountains,32
+major roadways,32
+megacorporations,32
+moons,32
+moral principles,32
+oceans,32
+organizations,32
+planets,32
+professions,32
+races,32
+religions,32
+seas,32
+space colonies,32
+spacecraft,32
+species,32
+towns,32
+wonders of the world,32
+worlds of the afterlife,32
+//64 Specific (example: A fantasy story where the races map to)
+The crime drama where each crime maps to,64
+The cyberpunk story where major Artificial Intelligences map to,64
+The fantasy story where major magical artifacts map to,64
+The fantasy story where the kinds of magic map to,64
+The fantasy story where the races map to,64
+The giant monster story where the monsters map to,64
+The giant robot story where the robots map to,64
+The harem anime-type story where each love interest maps to,64
+The heist story where each stage of the caper maps to,64
+The high seas adventure where each ship maps to,64
+The hospital story where each patient maps to,64
+The magical girl story where the characters' powers map to,64
+The martial arts story where each martial arts style maps to,64
+The military story where the military units map to,64
+The monster trainer story where the kinds of monsters map to,64
+The puzzle/mystery story where each challenge maps to,64
+The road trip story where each destination maps to,64
+The science fiction story where the alien species map to,64
+The science fiction story where the kinds of spacecraft map to,64
+The sentai story where the character's abilities and vehicles map to,64
+The space exploration story where each planet visited maps to,64
+The time travel story where each time visited maps to,64
+The treasure hunt story where each treasure maps to,64
+The underworld adventure where each level of descent maps to,64
+//128 Numbeirc (example: the seven deadly sins)
+yin and yang,128
+the two tablets of the Ten Commandments,128
+the duality of good and evil,128
+the duality of body and mind,128
+the animus and anima of Jungian psychology,128
+the three primary colors (red-yellow-blue),128
+the three secondary colors (orange-green-purple),128
+the three Sephiroth of the Supernal Triad (Kether-Chokmah-Binah),128
+the three parts of man (body-mind-soul),128
+the three stages of the scientific method,128
+the three components of an atom (proton-electon-neutron),128
+the three dimensions (height-width-depth),128
+Asimov's Three Laws of Robotics,128
+the three parts of the Fruedian personality (id-ego-superergo),128
+the three kinds of life (flora-fauna-mycotia),128
+the three Fates,128
+the three gems of Buddhism,128
+the three Abrahamic religions (Judaism-Christianity-Islam),128
+the three elements of the Holy Trinity,128
+the faces of the Triple Goddess(Mother-Maiden-Crone),128
+the trinity of father-mother-child,128
+the trinity of past-present-future,128
+the three energies of Taoist internal alchemy (Spirit-Vitality-Essence),128
+the four court cards of the Tarot (Kings-Queens-Knights-Pages),128
+the four elementals (salamanders-sylphs-undines-gnomes),128
+the four forces of Taoist internal alchemy (Void-Spirit-Vitality-Essence),128
+the four qualities of the greek elements (heat-moisture-cold-dryness)
+the four letters of the Tetragrammaton,128
+the Four Horsemen of the Apocalypse (war-famine-pestillence-death),128
+The Four Noble Truths of Buddhism,128
+the four human blood groups (A-B-O-AB),128
+the four basic stages of matter (solid-liquid-gas-plasma),128
+the four color process of printing (CMYK),128
+the four rules of math (addition-subtraction-multiplication-division),128
+the four classic Greek elements (fire-air-water-earth),128
+the four seasons (spring-summer-autumn-winter),128
+the four parts of a day (night-morning-afternoon-evening),128
+the four cardinal directions (north-south-east-west),128
+the four temperaments (sanguine-choleric-melancholic-phlegmatic),128
+the four humors (blood-yellow bile-black bile-phlegm),128
+the four canonical Christian Gospels (Matthew-Mark-Luke-John),128
+the four suits of playing cards (hearts-diamonds-clubs-spades),128
+the four suits of Tarot Cards (disks-cups-swords-rods),128
+the four Jungian mental capacities (Feeling-Thinking-Intuition-Sensation),128
+the four fundamental forces (electromagentism-gravity-weak nuclear force-strong nucelar force),128
+the Archangels of the Four Corners (Michael-Raphael-Gabriel-Uriel),128
+the four ages of Man created by Ovid (Golden-Silver-Bronze-Iron),128
+the five evils of Sikhism (lust-rage-greed-attachment-ego),128
+the five ages of Man created by Hesiod (Golden-Silver-Bronze-Heroic-Iron),128
+the Five Pillars of Islam,128
+The Five Books of the Torah (Genesis-Exodus-Leviticus-Numbers-Deuteronomy),128
+the five worlds of the Maya,128
+the five Chinese Elements (water-wood-fire-earth-metal),128
+the five occult elements (air-earth-water-fire-spirit),128
+the five oceans of Earth (Arctic-Atlantic-Indian-Pacific-Southern),128
+the five senses (sight-smell-sound-touch-taste),128
+the five tastes (sweet-salty-sour-bitter-savory),128
+the five vowels in the English alphabet (a-e-i-o-u),128
+the six tastes in Indian Medicine (sweet-sour-salty-bitter-pungent-astringent),128
+the six senses (sight-smell-sound-touch-taste-psychic),128
+the six Biblical days of creation,128
+the six Buddist realms of incarnation (hell-hungry ghosts-animals-humans-angry gods-gods),128
+the six primary emotions (sadness-happiness-anger-fear-disgust-surprise),128
+the seven Biblical days of creation,128
+the seven days of the week,128
+the seven colors of the rainbow (ROYGBIV),128
+the seven liberal arts (grammar-rhetoric-logic-geometry-arithmetic-music-astronomy),128
+the seven wonders of the ancient world,128
+the Seven Virtues (chastity-moderation-liberality-charity-meekness-zeal-humility),128
+the Seven deadly sins (lust-gluttony-greed-sloth-wrath-envy-pride),128
+the seven heavens,128
+the seven gateways of Innana,128
+the seven lucky gods of Japanese legend,128
+the seven astrological planets(Sun-Moon-Mercury-Venus-Mars-Jupiter-Saturn),128
+the seven basic literary plots,128
+the seven chakras,128
+the Eight Levels of conciousness (Leary),128
+the Eight Days of Hanukkah,128
+the Eightfold path of Buddhism,128
+the Eight Immortals of chinese legend,128
+the eight Beatitudes,128
+the eight Neopagan Sabbats (Samhain-Yule-Imbolic-Ostra-Beltane-Midsummer-Lughnasadh-Mabon),128
+the nine days Odin hung from an ash tree,128
+the nine planets in our solar system,128
+the nine forms of a Chinese Dragon,128
+the nine circles of hell in the Divine Comedy: Inferno,128
+the nine circles of heaven in the Divine Comedy: Paradiso,128
+the nine taoist psychic centers,128
+the Ten Commandments,128
+the Ten Plagues of Egypt,128
+the Ten Marytrs of Judaism,128
+the Ten Sephiroth of the Kabbalah,128
+the ten Avatars of Vishnu,128
+the twelve signs of the zodiac,128
+the twelve months of the year,128
+the twelve tribes of Israel,128
+the twelve signs of the Chinese zodiac,128
+the twelve labors of Hercules,128
+the twelve master grades (dan) of judo,128
+the twelve apostles,128
+the twelve Olympians of Greecian Legend,128
+the twelve months of a year,128
+the thirteen guests at the Last Supper,128
+the thirteen Norse gods present when Balder was killed,128
+the fourteen stations of the cross,128
+the fourteen meridians of acupuncture,128
+the 'fifteen men on a dead man's chest' from the fictional sea chanty,128
+the sixteen Minor Arcana of the tarot,128
+the sixteen personalites of the MBTI (Myers-Briggs Type Inventory),128
+the sixteen geomantic symbols,128
+the eighteen chapters of the Bhagavad-Gita,128
+the eighteen books of the Mahabharta,128
+the eighteen Bronze Monks of Shaolin from Chinese legend,128
+the twenty letters of the Druidic Alphabet,128
+the twenty-two letters of the Hebrew Alphabet,128
+the twenty-two paths of the Kabbalah,128
+the twenty-two Major Aracana of the Tarot,128
+the twenty-four letters of the Greek alphabet,128
+the twenty-four hours of the day,128
+the twenty-four Norse Runes,128
+the twenty-six letters of the Alphabet,128
+the twenty-seven books of the New Testament,128
+the thirty-two Kabbalistic paths of wisdom,128
+the thirty-three degrees of Freemasonry,128
+the thirty-six righteous people (Tzadikim) of Jewish legend,128
+the thirty-six dramatic situations of literature,128
+the thirty-eight slots of a Roulette wheel,128
+the forty numbered Tarot cards,128
+the fifty-two playing cards,128
+the sixty-four non-Trump Tarot cards,128
+the seventy-two demons of the classic Goetia,128
+the seventy-eight tarot cards,128
+//LARGE:
+the elements of the periodic table,128
+the knights of the Round Table,128
+the pieces on a chess board,128
+//MISC:
+kinds of spices,128
+kinds of gemstones,128
+kinds of weather,128
+kinds of metals,128
+kinds of plants,128
+kinds of animals,128
+specific stars,128
+Egyptian Gods,128
+Greek Gods,128
+Aztec Gods,128
+Norse Gods,128
+Celtic Gods,128
+Japanese Gods,128
+kinds of gemstones,128
+styles of art,128
+styles of music,128
+creatures of Greek mythology,128
+creatures of Egyptian mythology,128
+creatures of Norse mythology,128
+Cathloic Saints,128
+angels,128
+common natural disasters,128

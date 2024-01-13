@@ -1,0 +1,350 @@
+//Vocab types:
+//1- Blendable Flator
+//2 - Unblendable flavor
+//4 - Addition
+//8 - Sauce
+//
+--ORGANIZATION
+//Regular
+// First
+1,4
+, ice cream with ,.
+1,4,4
+, ice cream with , and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Regular x2
+1,4
+, ice cream with ,.
+1,4,4
+, ice cream with , and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Regular x3
+1,4
+, ice cream with ,.
+1,4,4
+, ice cream with , and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Regular x4
+1,4
+, ice cream with ,.
+1,4,4
+, ice cream with , and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Regular x 5
+1,4
+, ice cream with ,.
+1,4,4
+, ice cream with , and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Exotic
+2,4
+, ice cream with ,.
+2,4,4
+, ice cream with , and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Exotic x2
+2,4
+, ice cream with ,.
+2,4,4
+, ice cream with , and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Exotic x3
+2,4
+, ice cream with ,.
+2,4,4
+, ice cream with , and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Exotic x4
+2,4
+, ice cream with ,.
+2,4,4
+, ice cream with , and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Blend
+1,1,4
+A , and , ice cream blend with ,.
+1,1,4,4
+A , and , ice cream blend with , and ,.
+1,1,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,1,4,4,4,4
+A , and , ice cream blend with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+// Sauces
+1,4,8
+, ice cream with , and ,.
+1,4,4,8
+, ice cream with ,<COMMA> , and ,.
+1,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,4,4,4,4,8
+, ice cream with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+--VOCABULARY
+//Vocabulary
+//1- Blendable Flator
+bannana,1
+black raspberry,1
+butterscotch,1
+chocolate,1
+coconut,1
+dark chocolate,1
+fudge,1
+green tea,1
+lemon,1
+mango,1
+maple,1
+peach,1
+peanut butter,1
+pistatcho,1
+raspberry,1
+strawberry,1
+toffee,1
+vanilla,1
+//2 - Unblendable flavor
+bubblegum,2
+cheesecake,2
+chocolate chip cookie dough,2
+coffee,2
+cookie dough,2
+cotton candy,2
+marscapone,2
+pumpkin pie,2
+salted caramel,2
+sweet cream,2
+tutti-fruiti,2
+watermelon,2
+//4 - Addition
+almonds,4
+apple pie filling,4
+bananas,4
+blueberries,4
+blueberry pie filling,4
+boston baked beans,4
+brownies,4
+butterscotch candies,4
+dried cranberries,4
+candied ginger,4
+candy corn,4
+crushed candy bar (of your choice),4
+candy-coated chocolates (of your choice),4
+caramel chips,4
+cashews,4
+cherries,4
+cherry pie filling,4
+chocolate cake,4
+chocolate chip cookie dough,4
+chocolate chips,4
+chocolate shavings,4
+cinnamon candies,4
+circus peanuts,4
+cookie dough,4
+crushed gingerbread cookies,4
+crushed peppermint candy,4
+crushed sugar cookies,4
+cinnamon sprinkles,4
+dark chocolate chips,4
+graham crackers,4
+gumdrops,4
+gummy candy,4
+hazelnuts,4
+jelly beans,4
+jordan almonds,4
+licorice,4
+malted milk balls,4
+mango,4
+masrshmallows,4
+peanut brittle,4
+peanut butter,4
+peanuts,4
+pineapple,4
+pistachios,4
+pumpkin pie filling,4
+rainbow sprinkles,4
+raisins,4
+raspberries,4
+rock candy,4
+shredded coconuts,4
+toffee chips,4
+vanilla cake,4
+walnuts,4
+white chocolate chips,4
+yellow cake,4
+//8 - Sauce
+butterscotch sauce,8
+chocolate sauce,8
+caramel sauce,8
+fudge sauce,8
+mint sauce,8
+peanut butter sauce,8
+raspberry sauce,8
+strawberry sauce,8
+vanilla bean sauce,8
+whipped cream,8

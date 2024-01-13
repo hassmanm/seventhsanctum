@@ -1,0 +1,1613 @@
+//Vocab types:
+//1- Male
+//2 - female
+//4 - Pokemon
+//8 - Superheroes
+//16 - SF Characters
+//32 - Fantasy Characters
+//64 - SF Things
+//128 - Fantasy things
+//256 - video game characters
+//512 - Misc animated and other
+//1024 - Misc other
+//2048 - Monsters
+//4096 - Anime
+--ORGANIZATION
+//Pokemon
+1,4
+Design Challenge: , based on , (Pokemon)
+2,4
+Design Challenge: , based on , (Pokemon)
+//Superheroes
+1,8
+Design Challenge: , based on ,
+2,8
+Design Challenge: , based on ,
+//SF Characters
+1,16
+Design Challenge: , based on ,
+2,16
+Design Challenge: , based on ,
+// Fantasy characters
+1,32
+Design Challenge: , based on ,
+2,32
+Design Challenge: , based on ,
+// SF Things
+1,64
+Design Challenge: , based on ,
+2,64
+Design Challenge: , based on ,
+// Fantasy Things
+1,128
+Design Challenge: , based on ,
+2,128
+Design Challenge: , based on ,
+// Video game characters
+1,256
+Design Challenge: , based on ,
+2,256
+Design Challenge: , based on ,
+//512 - Misc animated and other
+1,512
+Design Challenge: , based on ,
+2,512
+Design Challenge: , based on ,
+//1024 - Misc other
+1,1024
+Design Challenge: , based on ,
+2,1024
+Design Challenge: , based on ,
+//2048 - Monsters
+1,2048
+Design Challenge: , based on ,
+2,2048
+Design Challenge: , based on ,
+//4096 - Anime
+1,4096
+Design Challenge: , based on ,
+2,4096
+Design Challenge: , based on ,
+//Vocabulary
+--VOCABULARY
+//Male Outfits
+Men's Casual Outfit,1
+Men's Dance Club Outfit,1
+Men's Business Suit,1
+Men's Gym Outfit,1
+Men's Swimsuit,1
+Tuxedo,1
+Dinner Suit,1
+Wedding Suit,1
+Men's Winter Coat,1
+Men's Military Uniform,1
+Men's Business Uniform,1
+//Women's Outfit
+Women's Dance Club Outfit,2
+Women's Casual Outfit,2
+Women's Gymwear,2
+Business Dress,2
+Ball gown,2
+Women's Swimsuit,2
+Yukata,2
+Wedding dress,2
+Formal Dress,2
+Evening gown,2
+Sundress,2
+Cocktail Dress,2
+Women's Winter Coat,2
+Lingerie,2
+Maternity Wear,2
+Muumuu,2
+Women's Business Uniform,2
+Women's Military Uniform,2
+//DATA
+//POKEMON - 4
+Abomasnow,4
+Abra,4
+Absol,4
+Accelgor,4
+Aegislash,4
+Aerodactyl,4
+Aggron,4
+Aipom,4
+Alakazam,4
+Alomomola,4
+Altaria,4
+Amaura,4
+Ambipom,4
+Amoonguss,4
+Ampharos,4
+Anorith,4
+Arbok,4
+Arcanine,4
+Arceus,4
+Archen,4
+Archeops,4
+Ariados,4
+Armaldo,4
+Aromatisse,4
+Aron,4
+Articuno,4
+Audino,4
+Aurorus,4
+Avalugg,4
+Axew,4
+Azelf,4
+Azumarill,4
+Azurill,4
+Bagon,4
+Baltoy,4
+Banette,4
+Barbaracle,4
+Barboach,4
+Basculin,4
+Bastiodon,4
+Bayleef,4
+Beartic,4
+Beautifly,4
+Beedrill,4
+Beheeyem,4
+Beldum,4
+Bellossom,4
+Bellsprout,4
+Bergmite,4
+Bibarel,4
+Bidoof,4
+Binacle,4
+Bisharp,4
+Blastoise,4
+Blaziken,4
+Blissey,4
+Blitzle,4
+Boldore,4
+Bonsly,4
+Bouffalant,4
+Braixen,4
+Braviary,4
+Breloom,4
+Bronzong,4
+Bronzor,4
+Budew,4
+Buizel,4
+Bulbasaur,4
+Buneary,4
+Bunnelby,4
+Burmy,4
+Butterfree,4
+Cacnea,4
+Cacturne,4
+Camerupt,4
+Carbink,4
+Carnivine,4
+Carracosta,4
+Carvanha,4
+Cascoon,4
+Castform,4
+Caterpie,4
+Celebi,4
+Chandelure,4
+Chansey,4
+Charizard,4
+Charmander,4
+Charmeleon,4
+Chatot,4
+Cherrim,4
+Cherubi,4
+Chesnaught,4
+Chespin,4
+Chikorita,4
+Chimchar,4
+Chimecho,4
+Chinchou,4
+Chingling,4
+Cinccino,4
+Clamperl,4
+Clauncher,4
+Clawitzer,4
+Claydol,4
+Clefable,4
+Clefairy,4
+Cleffa,4
+Cloyster,4
+Cobalion,4
+Cofagrigus,4
+Combee,4
+Combusken,4
+Conkeldurr,4
+Corphish,4
+Corsola,4
+Cottonee,4
+Cradily,4
+Cranidos,4
+Crawdaunt,4
+Cresselia,4
+Croagunk,4
+Crobat,4
+Croconaw,4
+Crustle,4
+Cryogonal,4
+Cubchoo,4
+Cubone,4
+Cyndaquil,4
+Darkrai,4
+Darmanitan,4
+Darumaka,4
+Dedenne,4
+Deerling,4
+Deino,4
+Delcatty,4
+Delibird,4
+Delphox,4
+Deoxys†,4
+Dewgong,4
+Dewott,4
+Dialga,4
+Diancie,4
+Diggersby,4
+Diglett,4
+Ditto,4
+Dodrio,4
+Doduo,4
+Donphan,4
+Doublade,4
+Dragalge,4
+Dragonair,4
+Dragonite,4
+Drapion,4
+Dratini,4
+Drifblim,4
+Drifloon,4
+Drilbur,4
+Drowzee,4
+Druddigon,4
+Ducklett,4
+Dugtrio,4
+Dunsparce,4
+Duosion,4
+Durant,4
+Dusclops,4
+Dusknoir,4
+Duskull,4
+Dustox,4
+Dwebble,4
+Eelektrik,4
+Eelektross,4
+Eevee,4
+Ekans,4
+Electabuzz,4
+Electivire,4
+Electrike,4
+Electrode,4
+Elekid,4
+Elgyem,4
+Emboar,4
+Emolga,4
+Empoleon,4
+Entei,4
+Escavalier,4
+Espeon,4
+Espurr,4
+Excadrill,4
+Exeggcute,4
+Exeggutor,4
+Exploud,4
+Farfetch'd,4
+Fearow,4
+Feebas,4
+Fennekin,4
+Feraligatr,4
+Ferroseed,4
+Ferrothorn,4
+Finneon,4
+Flaaffy,4
+Flabébé,4
+Flareon,4
+Fletchinder,4
+Fletchling,4
+Floatzel,4
+Floette,4
+Florges,4
+Flygon,4
+Foongus,4
+Forretress,4
+Fraxure,4
+Frillish,4
+Froakie,4
+Frogadier,4
+Froslass,4
+Furfrou,4
+Furret,4
+Gabite,4
+Gallade,4
+Galvantula,4
+Garbodor,4
+Garchomp,4
+Gardevoir,4
+Gastly,4
+Gastrodon,4
+Genesect,4
+Gengar,4
+Geodude,4
+Gible,4
+Gigalith,4
+Girafarig,4
+Giratina,4
+Glaceon,4
+Glalie,4
+Glameow,4
+Gligar,4
+Gliscor,4
+Gloom,4
+Gogoat,4
+Golbat,4
+Goldeen,4
+Golduck,4
+Golem,4
+Golett,4
+Golurk,4
+Goodra,4
+Goomy,4
+Gorebyss,4
+Gothita,4
+Gothitelle,4
+Gothorita,4
+Gourgeist,4
+Granbull,4
+Graveler,4
+Greninja,4
+Grimer,4
+Grotle,4
+Groudon,4
+Grovyle,4
+Growlithe,4
+Grumpig,4
+Gulpin,4
+Gurdurr,4
+Gyarados,4
+Happiny,4
+Hariyama,4
+Haunter,4
+Hawlucha,4
+Haxorus,4
+Heatmor,4
+Heatran,4
+Heliolisk,4
+Helioptile,4
+Heracross,4
+Herdier,4
+Hippopotas,4
+Hippowdon,4
+Hitmonchan,4
+Hitmonlee,4
+Hitmontop,4
+Ho-Oh†,4
+Honchkrow,4
+Honedge,4
+Hoothoot,4
+Hoppip,4
+Horsea,4
+Houndoom,4
+Houndour,4
+Huntail,4
+Hydreigon,4
+Hypno,4
+Igglybuff,4
+Illumise,4
+Infernape,4
+Inkay,4
+Ivysaur,4
+Jellicent,4
+Jigglypuff,4
+Jirachi†,4
+Jolteon,4
+Joltik,4
+Jumpluff,4
+Jynx,4
+Kabuto,4
+Kabutops,4
+Kadabra,4
+Kakuna,4
+Kangaskhan,4
+Karrablast,4
+Kecleon,4
+Keldeo,4
+Kingdra,4
+Kingler,4
+Kirlia,4
+Klang,4
+Klefki,4
+Klink,4
+Klinklang,4
+Koffing,4
+Krabby,4
+Kricketot,4
+Kricketune,4
+Krokorok,4
+Krookodile,4
+Kyogre,4
+Kyurem,4
+Lairon,4
+Lampent,4
+Landorus,4
+Lanturn,4
+Lapras,4
+Larvesta,4
+Larvitar,4
+Latias,4
+Latios,4
+Leafeon,4
+Leavanny,4
+Ledian,4
+Ledyba,4
+Lickilicky,4
+Lickitung,4
+Liepard,4
+Lileep,4
+Lilligant,4
+Lillipup,4
+Linoone,4
+Litleo,4
+Litwick,4
+Lombre,4
+Lopunny,4
+Lotad,4
+Loudred,4
+Lucario,4
+Ludicolo,4
+Lugia†,4
+Lumineon,4
+Lunatone,4
+Luvdisc,4
+Luxio,4
+Luxray,4
+Machamp,4
+Machoke,4
+Machop,4
+Magby,4
+Magcargo,4
+Magikarp,4
+Magmar,4
+Magmortar,4
+Magnemite,4
+Magneton,4
+Magnezone,4
+Makuhita,4
+Malamar,4
+Mamoswine,4
+Manaphy,4
+Mandibuzz,4
+Manectric,4
+Mankey,4
+Mantine,4
+Mantyke,4
+Maractus,4
+Mareep,4
+Marill,4
+Marowak,4
+Marshtomp,4
+Masquerain,4
+Mawile,4
+Medicham,4
+Meditite,4
+Meganium,4
+Meloetta,4
+Meowstic,4
+Meowth,4
+Mesprit,4
+Metagross,4
+Metang,4
+Metapod,4
+Mew†,4
+Mewtwo,4
+Mienfoo,4
+Mienshao,4
+Mightyena,4
+Milotic,4
+Miltank,4
+Mime Jr.,4
+Minccino,4
+Minun,4
+Misdreavus,4
+Mismagius,4
+Moltres,4
+Monferno,4
+Mothim,4
+Mr. Mime,4
+Mudkip,4
+Muk,4
+Munchlax,4
+Munna,4
+Murkrow,4
+Musharna,4
+Natu,4
+Nidoking,4
+Nidoqueen,4
+Nidoran♀,4
+Nidoran♂,4
+Nidorina,4
+Nidorino,4
+Nincada,4
+Ninetales,4
+Ninjask,4
+Noctowl,4
+Noibat,4
+Noivern,4
+Nosepass,4
+Numel,4
+Nuzleaf,4
+Octillery,4
+Oddish,4
+Omanyte,4
+Omastar,4
+Onix,4
+Oshawott,4
+Pachirisu,4
+Palkia,4
+Palpitoad,4
+Pancham,4
+Pangoro,4
+Panpour,4
+Pansage,4
+Pansear,4
+Paras,4
+Parasect,4
+Patrat,4
+Pawniard,4
+Pelipper,4
+Persian,4
+Petilil,4
+Phanpy,4
+Phantump,4
+Phione,4
+Pichu,4
+Pidgeot,4
+Pidgeotto,4
+Pidgey,4
+Pidove,4
+Pignite,4
+Pikachu,4
+Piloswine,4
+Pineco,4
+Pinsir,4
+Piplup,4
+Plusle,4
+Politoed,4
+Poliwag,4
+Poliwhirl,4
+Poliwrath,4
+Ponyta,4
+Poochyena,4
+Porygon-Z,4
+Porygon,4
+Porygon2,4
+Primeape,4
+Prinplup,4
+Probopass,4
+Psyduck,4
+Pumpkaboo,4
+Pupitar,4
+Purrloin,4
+Purugly,4
+Pyroar,4
+Quagsire,4
+Quilava,4
+Quilladin,4
+Qwilfish,4
+Raichu,4
+Raikou,4
+Ralts,4
+Rampardos,4
+Rapidash,4
+Raticate,4
+Rattata,4
+Rayquaza,4
+Regice,4
+Regigigas,4
+Regirock,4
+Registeel,4
+Relicanth,4
+Remoraid,4
+Reshiram,4
+Reuniclus,4
+Rhydon,4
+Rhyhorn,4
+Rhyperior,4
+Riolu,4
+Roggenrola,4
+Roselia,4
+Roserade,4
+Rotom,4
+Rufflet,4
+Sableye,4
+Salamence,4
+Samurott,4
+Sandile,4
+Sandshrew,4
+Sandslash,4
+Sawk,4
+Sawsbuck,4
+Scatterbug,4
+Sceptile,4
+Scizor,4
+Scolipede,4
+Scrafty,4
+Scraggy,4
+Scyther,4
+Seadra,4
+Seaking,4
+Sealeo,4
+Seedot,4
+Seel,4
+Seismitoad,4
+Sentret,4
+Serperior,4
+Servine,4
+Seviper,4
+Sewaddle,4
+Sharpedo,4
+Shaymin,4
+Shedinja,4
+Shelgon,4
+Shellder,4
+Shellos,4
+Shelmet,4
+Shieldon,4
+Shiftry,4
+Shinx,4
+Shroomish,4
+Shuckle,4
+Shuppet,4
+Sigilyph,4
+Silcoon,4
+Simipour,4
+Simisage,4
+Simisear,4
+Skarmory,4
+Skiddo,4
+Skiploom,4
+Skitty,4
+Skorupi,4
+Skrelp,4
+Skuntank,4
+Slaking,4
+Slakoth,4
+Sliggoo,4
+Slowbro,4
+Slowking,4
+Slowpoke,4
+Slugma,4
+Slurpuff,4
+Smeargle,4
+Smoochum,4
+Sneasel,4
+Snivy,4
+Snorlax,4
+Snorunt,4
+Snover,4
+Snubbull,4
+Solosis,4
+Solrock,4
+Spearow,4
+Spewpa,4
+Spheal,4
+Spinarak,4
+Spinda,4
+Spiritomb,4
+Spoink,4
+Spritzee,4
+Squirtle,4
+Stantler,4
+Staraptor,4
+Staravia,4
+Starly,4
+Starmie,4
+Staryu,4
+Steelix,4
+Stoutland,4
+Stunfisk,4
+Stunky,4
+Sudowoodo,4
+Suicune,4
+Sunflora,4
+Sunkern,4
+Surskit,4
+Swablu,4
+Swadloon,4
+Swalot,4
+Swampert,4
+Swanna,4
+Swellow,4
+Swinub,4
+Swirlix,4
+Swoobat,4
+Sylveon,4
+Taillow,4
+Talonflame,4
+Tangela,4
+Tangrowth,4
+Tauros,4
+Teddiursa,4
+Tentacool,4
+Tentacruel,4
+Tepig,4
+Terrakion,4
+Throh,4
+Thundurus,4
+Timburr,4
+Tirtouga,4
+Togekiss,4
+Togepi,4
+Togetic,4
+Torchic,4
+Torkoal,4
+Tornadus,4
+Torterra,4
+Totodile,4
+Toxicroak,4
+Tranquill,4
+Trapinch,4
+Treecko,4
+Trevenant,4
+Tropius,4
+Trubbish,4
+Turtwig,4
+Tympole,4
+Tynamo,4
+Typhlosion,4
+Tyranitar,4
+Tyrantrum,4
+Tyrogue,4
+Tyrunt,4
+Umbreon,4
+Unfezant,4
+Unown,4
+Ursaring,4
+Uxie,4
+Vanillish,4
+Vanillite,4
+Vanilluxe,4
+Vaporeon,4
+Venipede,4
+Venomoth,4
+Venonat,4
+Venusaur,4
+Vespiquen,4
+Vibrava,4
+Victini,4
+Victreebel,4
+Vigoroth,4
+Vileplume,4
+Virizion,4
+Vivillon,4
+Volbeat,4
+Volcarona,4
+Voltorb,4
+Vullaby,4
+Vulpix,4
+Wailmer,4
+Wailord,4
+Walrein,4
+Wartortle,4
+Watchog,4
+Weavile,4
+Weedle,4
+Weepinbell,4
+Weezing,4
+Whimsicott,4
+Whirlipede,4
+Whiscash,4
+Whismur,4
+Wigglytuff,4
+Wingull,4
+Wobbuffet,4
+Woobat,4
+Wooper,4
+Wormadam,4
+Wurmple,4
+Wynaut,4
+Xatu,4
+Xerneas,4
+Yamask,4
+Yanma,4
+Yanmega,4
+Yveltal,4
+Zangoose,4
+Zapdos,4
+Zebstrika,4
+Zekrom,4
+Zigzagoon,4
+Zoroark,4
+Zorua,4
+Zubat,4
+Zweilous,4
+Zygarde,4
+//Supehreores - 8
+Aquaman,8
+Doctor Strange,8
+Storm,8
+The Flash,8
+Martian Manhunter,8
+Beast (X-Men),8
+Professor X (X-Men),8
+Magneto (X-Men),8
+Ghost Rider,8
+Green Arrow,8
+Nick Fury,8
+Hawkeye (Avengers),8
+Thor (Avengers),8
+Nightcrawler (X-Men),8
+Blue Beetle,8
+Booster Gold,8
+Orion (New Gods),8
+Darkseid (New Gods),8
+The Punisher,8
+The Tick,8
+The Flaming Carrot,8
+Catwoman,8
+Cyclops (X-Men),8
+The Hulk,8
+She-Hulk,8
+Deadpool,8
+John Constantine,8
+Swamp Thing,8
+Robin (Batman),8
+Judge Dredd,8
+The Phantom,8
+Morhpeus (Sandman),8
+The Thing (Fantastic Four),8
+Rorsach (Watchmen),8
+Nite Owl (Watchmen),8
+SilK Spectre (Watchmen),8
+Captain Marvel,8
+Spawn,8
+Captain Atom,8
+Hellboy,8
+Daredevil,8
+Psylocke,8
+Doctor Octopus,8
+Loki (Comics),8
+Ra's Al Ghul,8
+Dormammu,8
+The Red Skull,8
+Bane,8
+The Mandarin,8
+Sabertooth (X-Men),8
+Wolverine (X-Men),8
+Braniac,8
+Bullseye,8
+Mr. Freeze,8
+Shredder (TMNT),8
+Juggernaut,8
+Clayface,8
+Thanos,8
+Deadshot,8
+The Parasite,8
+The Penguin,8
+Kraven the Hunter,8
+Poison Ivy,8
+Doctor Doom,8
+Galactus,8
+The Silver Surfer,8
+Captain America,8
+Batman,8
+Spider-Man,8
+Wonder Woman,8
+The Joker,8
+Harley Quinn,8
+Iron Man,8
+Supergirl,8
+Green Lantern,8
+Abe Sapien (Hellboy),8
+Arsenal (Teen Titans),8
+Aunt May (Spider-Man),8
+Bart Allen (Impulse),8
+Beast Boy,8
+Big Barda (New Gods),8
+Blastarr (Fantastic Four),8
+Cyborg (Teen Titans),8
+Cyclops (X-Men),8
+Deathstrike (X-Men),8
+Elektra (Marvel),8
+Hawkeye (Avengers),8
+Hawkgirl (Justice League),8
+Highfather (New Gods),8
+Kang (Marvel comics),8
+Lightray (New Gods),8
+Mister Miracle (New Gods),8
+Namor,8
+Raven (Teen Titans),8
+//16 - SF Characters
+Captain Kirk (Star Trek),16
+Delenn (Babylon 5),16
+The Cybermen (Doctor Who),16
+Mr. Sulu (Star Trek),16
+The Daleks (Doctor Who),16
+The 1st Doctor (Doctor Who),16
+The 2nd Doctor (Doctor Who),16
+The 3rd Doctor (Doctor Who),16
+The 4th Doctor (Doctor Who),16
+The 5th Doctor (Doctor Who),16
+The 6th Doctor (Doctor Who),16
+The 7th Doctor (Doctor Who),16
+The 8th Doctor (Doctor Who),16
+The 9th Doctor (Doctor Who),16
+The 10th Doctor (Doctor Who),16
+The 11th Doctor (Doctor Who),16
+Darth Vader,16
+Boba Fett,16
+Han Solo,16
+Luke Skywalker,16
+Captain Mal Reynolds,16
+Bender (Futurama),16
+Fry (Futurama),16
+Leela (Futurama),16
+The Xenomorphs (Aliens),16
+The Klingons,16
+The Ferengi,16
+RoboCop,16
+The Predators,16
+Chewbacca,16
+Princess Leia,16
+Yoda,16
+Mister Spock,16
+Mr. Data,16
+Obi-Wan Kenobi,16
+Captian Nemo,16
+The Master (Doctor Who - any),16
+C-3P0,16
+R2-D2,16
+Emmal Peel (Avengers),16
+Ace Rimmer (Red Dwarf),16
+Admiral Ackbar (Star Wars),16
+Aeryn Sun (Farscape),16
+Agent Smith (Matrix),16
+Aldric (Dr. Who),16
+Apollo (Battlestar Galactica),16
+Apophis (Stargate SG-1),16
+Arnold J. Rimmer (Red Dwarf),16
+Arthur Dent (Hitchhiker's Guide),16
+Athena (Battlestar Galactica),16
+Bilar Crais (Farscape),16
+Boomer (Battlestar Galactica 2004),16
+Captain Jack Harkness (Doctor Who),16
+Captain Janeway (ST:Voyager),16
+Chakotay (ST:Voyager),16
+Chiana (Farscape),16
+Commander Adama (Battlestar Galactica),16
+Commander Riker (ST:TNG),16
+Counselor Troi (ST:TNG),16
+Crow T. Robot (MST3K),16
+D'Argo (Farscape),16
+Dark Helmet (Spaceballs),16
+Dave Lister (Red Dwarf),16
+Dooku (Star Wars),16
+Dr. Beverly Crusher (Star Trek: TNG),16
+Dr. Daniel Jackson (Stargate),16
+Dr. McCoy (Star Trek),16
+Dr. Zoidberg (Futurama),16
+Garibaldi (Babylon 5),16
+General Grievous (SW),16
+Greedo (Star Wars),16
+Hugh of Borg (ST:TNG),16
+Jabba the Hutt,16
+Jar Jar Binks (Star Wars) ,16
+Jayne Cobb (Firefly),16
+Jean-Luc Picard (Star Trek) ,16
+John Crichton (Farscape),16
+John Sheridan (Babylon 5),16
+John Steed (Avengers),16
+Jool (Farscape),16
+K-9 (Doctor Who),16
+Kaylee (Firefly),16
+KITT (Knight Rider),16
+Kosh I (Babylon 5),16
+Kosh II (Babylon 5),16
+Kryten (Red Dwarf),16
+Leeloo (The Fifth Element),16
+Lennier (B5),16
+Londo Mollari (Babylon 5),16
+Lone Star (Spaceballs),16
+Lwaxana Troi (Star Trek),16
+Mace Windu (Star Wars),16
+Maj. John Sheppard (Stargate Atlantis),16
+Marcus Cole (Babylon 5),16
+Neroon (Babylon 5),16
+Nibbler (Futurama),16
+Riddick (The Chronicles of Riddick) ,16
+Romana (Doctor Who),16
+Rygel (Farscape),16
+Sara Jane Smith (Doctor Who),16
+Scorpius (Farscape),16
+Susan Ivanova (Babylon 5),16
+The Cat (Red Dwarf),16
+Vala Malduran (Stargate SG-1),16
+Vir Cotto (Babylon 5),16
+Wash (Firefly),16
+Zhaan (Farscape),16
+Zoe (Firefly),16
+Pilot (Farscape),16
+The Weeping Angels (Doctor Who),16
+The Borg,16
+The Wookies,16
+The Sand Worms (Dune),16
+The Vogons,16
+The Skrulls,16
+Tron,16
+Zardoz,16
+Snake Plissken,16
+Marvin The Paranoid Android,16
+The Silence (Doctor Who),16
+The Zygons (Doctor Who),16
+Gort,16
+Ultraman,16
+Jet Jaguar,16
+The Robot (Lost In Space),16
+Twiki (1970's Buck Rogers),16
+Max Headroom,16
+Judge Dredd,16
+//32 - Fantasy Characters
+Khal Drogo (Game Of Thrones),32
+Tyrion Lannister (Game Of Thrones),32
+The Black Knight (Monty Python And The Holy Grail),32
+A Banshee,32
+A Cockatrice,32
+A Dragon,32
+A Fairy,32
+A Faun,32
+A Gnome,32
+A Goblin,32
+A Griffin,32
+A Harpy,32
+A Hippogriff,32
+A Mermaid,32
+A Satyr,32
+A Sylph,32
+A Unicorn,32
+Xena,32
+Bilbo Baggins,32
+The Eye of Sauron,32
+Conan,32
+Harry Potter,32
+Aragorn (Lord of the Rings),32
+Galadriel (Lord of the Rings),32
+Fafhrd (Fafhrd and the Gray Mouser),32
+The Gray Mouser (Fafhrd and the Gray Mouser),32
+Elric of Melnibone (Michael Moorcock's Elric series),32
+Rincewind (Discworld),32
+Hermione Granger (Harry Potter),32
+Arioch of the Seven Darks (Elric Saga) ,32
+Arwen (Lord of the Rings),32
+Autolycus (Hercules/Xena),32
+Bellatrix Black (HP),32
+Bellatrix Lestrange (HP),32
+Boromir (Lord of the Rings),32
+Cedric Diggory (HP),32
+Cheri Littlebottom (Discworld),32
+Death of Rats (Discworld),32
+Dolores Umbridge (Harry Potter),32
+Draco Malfoy (Harry Potter) ,32
+Elrond (LOTR),32
+Errol (Discworld),32
+Faramir (Lord of the Rings),32
+Fred Weasley (HP),32
+Frodo Baggins (Lord of the Rings),32
+Gilderoy Lockhart (Harry Potter) ,32
+Gimli (Lord of the Rings),32
+Granny Weatherwax (Discworld),32
+Havelock Vetinari (Discworld),32
+Lady Sybil Ramkin (Discworld),32
+Luna Lovegood (Harry Potter),32
+Magrat (Discworld),32
+Mustrum Ridcully (Discworld),32
+Nanny Ogg (Discworld) ,32
+Narcissa Malfoy (HP),32
+Remus Lupin (Harry Potter) ,32
+Sirius Black (Harry Potter),32
+The Librarian (Discworld),32
+Treebeard (Lord of the Rings),32
+Tik-Tok (Oz),32
+//64 - SF Things
+The Guardian of Forever (Star Trek),64
+The Interocitor (This Island Earth),64
+Voltron,64
+Giant Robo,64
+Mazinger Z,64
+The TARDIS (Doctor Who),64
+The Starship Enterprise (Star Trek),64
+The Stargate (Any Stargate Series),64
+Babylon 5,64
+The Death Star,64
+Battlestar Galactica,64
+New Genesis (New Gods),64
+Apokolips (New Gods),64
+The Infinity Gauntlet (Marvel Comics),64
+Imperial Tie Fighter (Star Wars),64
+The Red Dwarf (From Red Dwarf),64
+Moya (Farscape),64
+Hal-9000,64
+A Light Sabre,64
+The Delorean (Back To The Future),64
+Captain America's Shield,64
+A Pokeball,64
+The Mystery Machine (Scooby Doo),64
+A Tricorder (Star Trek),64
+The Buster Sword (FF VII),64
+The Launch Clock Tower (Samurai Pizza Cats),64
+The Batmobile,64
+The Chaos Emeralds (Sonic The Hedgehog),64
+A Pokedex,64
+RahXephon,64
+Gurren Lagann,64
+Eva-001,64
+A Ghosbuster's Proton Pack,64
+H.E.L.P.E.R. (Venture Brothers),64
+An Imperial Walker (Star Wars),64
+The Technodrome (TMNT),64
+The Caster Gun (Outlaw Star),64
+Sephiroth's Masamune,64
+The Atomic Axe (Legion of Superheroes),64
+//128 - Fantasy things
+Ebony/Ivory (Devil May Cry),128
+The Samaritan (Hellboy),128
+Howl's Moving Castle,128
+The Master Sword (Legend of Zelda),128
+The Ocarina of Time (Legend of Zelda),128
+The Elements Of Harmony (My Little Pony),128
+A Fire Flower (Mario Games),128
+The Ponyville Library (My Little Pony),128
+Queen Beryl's crystal ball / staff (Sailor Moon),128
+A Dream Mirror (Sailor Moon),128
+The Door of Space-Time (Sailor Moon),128
+Sailor Pluto's Garnet Rod (Sailor Moon),128
+Sailor Neptune's Deep Aqua Mirror (Sailor Moon),128
+Sailor Uranus' Space Sword (Sailor Moon),128
+The Bloody Rose (the anti-vampire gun from Vampire Knight),128
+The Cursed Springs of Jusenkyou (Ranma 1/2),128
+The Golden Snitch,128
+The Sailor Moon Disguise Pen,128
+Luna Ball (Sailor Moon),128
+The Dark Tower, 128
+Sword of Omens (Thundercats),128
+The Master Sword (Zelda),128
+The Soul Reaver,128
+A Keyblade (Kingdom Hearts),128
+The Soul Calibur/Soul Edge,128
+The Sword of Shannara,128
+The Necronomicon,128
+Mjolnir (Thor's Hammer),128
+The Mirror of Erised,128
+Sting,128
+The One Ring,128
+The Eye of Vecna (D&D),128
+Stormbringer (Elric series),128
+The Discworld,128
+Hogwarts Castle (Harry Potter),128
+Tetsusaiga (Inuyasha),128
+The Witcblade (Witchblade),128
+//256 - Video game characters
+The Zerg,256
+The Protoss,256
+Claptrap (Borderlands),256
+Lilith (Borderlands),256
+Roland (Borderlands),256
+Mordecai (Borderlands),256
+Mad Moxxi (Borderlands),256
+Dr. Zed (Borderlands),256
+A Cactaur,256
+A Tonberry,256
+A Mog,256
+Cait Sith (FF VII),256
+Felicia (Darkstalkers),256
+M. Bison (Street Fighter),256
+Sonic the Hedgehog,256
+Amy the Hedgehog,256
+Cloud Strife,256
+Aeris,256
+Lara Croft,256
+Kratos,256
+Donkey Kong,256
+Mario,256
+Princess Peach,256
+Bowser (Mario),256
+Pyramid Head (Silent Hill),256
+Doctor Robotnik,256
+Dante (Devil May Cry),256
+Pac-Man,256
+Big Daddy (Bioshock),256
+Travis Touchdown (No More Heroes),256
+Samus Aran,256
+Solid Snake,256
+GLADOS,256
+Chel,256
+Sephiroth,256
+Master Chief,256
+Link,256
+Blanka (Street Fighter),256
+Kirby,256
+Auron (Final Fantasy X),256
+Baralai (FFX-2),256
+Captain Qwark (Ratchet and Clank),256
+Carmelita Fox (Sly Cooper),256
+Carmen Sandiego (Where in Time is Carmen Sandiego?),256
+Clank (Ratchet and Clank),256
+Etna (Disgaea),256
+Falco (Starfox),256
+Fox McCloud (Starfox games),256
+Ganondorf (The Legend of Zelda: Ocarina of Time),256
+Hojo (Final Fantasy VII),256
+Jin (Tekken),256
+Johnny Cage (Mortal Kombat),256
+Julius Belmont (Castlevania: Aria of Sorrow),256
+Knuckles the Echidna (Sonic the Hedgehog games),256
+KOS-MOS (Xenosaga),256
+Kuja (Final Fantasy 9),256
+Lucca (Chrono Trigger),256
+Magus (Chronos Trigger),256
+Matthew (Fire Emblem),256
+Mileena (Mortal Kombat),256
+Navi the Fairy (Legend of Zelda),256
+Nikki (Chrono Cross),256
+Princess Kitana (Mortal Kombat),256
+Princess Sally Acorn (Sonic The Hedgehog),256
+Ratchet (Ratchet and Clank),256
+Reno (Final Fantasy 7),256
+Richter Belmont (Castlevania: Symphony of the Night),256
+Riku (Kingdom Hearts),256
+Rogue the Bat (Sonic the Hedgehog),256
+Shion Uzuki (Xenosaga),256
+Sly Cooper,256
+Sora (Kingdom Hearts),256
+The King of All Cosmos (Katamari Damacy),256
+Tidus (FFX),256
+Vivi Ornitier (Final Fantasy 9),256
+Vyers (Disgaea: Hour of Darkness),256
+Wakka (Final Fantasy 10),256
+Xion (Bloody Roar: Primal Fury),256
+Yuffie (Final Fantasy VII),256
+Yuna (Final Fantasy 10),256
+SubZero (Mortal Kombat),256
+Lilith (Darkstalkers),256
+Morrigan (Darkstalkers),256
+Guile (Street Fighter),256
+Rainbow Mika,256
+Cammy White (Street Fighter),256
+I-No (Guilty Gear),256
+Axl Low (Guilty Gear),256
+Bridget (Guilty Gear),256
+Dizzy (Guilty Gear),256
+Milia Rage (Guilty Gear),256
+Sol Badguy (Guilty Gear),256
+//512 - Misc animated and other
+Optimus Prime,512
+Starscream,512
+Bumblebee (Transformers),512
+Megatron,512
+Weeljack (Transformers),512
+Ratchet (Transformers),512
+Ironhide (Transformers),512
+Arcee (Transformers),512
+Grimlock (Transformers),512
+Soundwave (Transformers),512
+Shockwave (Transformers),512
+Twilight Sparkle (My Little Pony),512
+Fluttershy (My Little Pony),512
+Rarity (My Little Pony),512
+Applejack (My Little Pony),512
+Pinkie Pie (My Little Pony),512
+Rainbow Dash (My Little Pony),512
+Princess Celestia (My Little Pony),512
+Princess Luna (My Little Pony),512
+Dexter (Dexter's Laboratory),512
+DeeDee (Dexter's Laboratory),512
+Scooby Doo,512
+Fred (Scooby Doo),512
+Daphne (Scooby Doo),512
+Velma (Scooby Doo),512
+Shaggy (Scooby Doo),512
+Aang (Avatar: The Last Airbender),512
+Katara (Avatar: The Last Airbender),512
+Sokka (Avatar: The Last Airbender),512
+Zuko (Avatar: The Last Airbender),512
+Toph (Avatar: The Last Airbender),512
+Bugs Bunny,512
+Daffy Duck,512
+Mickey Mouse,512
+Minnie Mouse,512
+Donald Duck,512
+Goofy,512
+SpongeBob Squarepants,512
+Fat Albert,512
+Bubbles (Powerpuff Girls),512
+Buttercup (Powerpuff Girls),512
+Blossom (Powerpuff Girls),512
+Professor Utonium (Powerpuff Girls),512
+Popeye,512
+Underdog,512
+Sylvester The Cat,512
+Pepe Le Pew,512
+Tweetybird,512
+Yogi Bear,512
+Woody Woodpecker,512
+Porky Pig,512
+Boris Badenov,512
+Natasha Fatale,512
+Rocky The Squirrel,512
+Bullwinkle,512
+Mighty Mouse,512
+Space Ghost,512
+The Pink Panther,512
+George Jetson,512
+Judy Jetson,512
+Akku (Samurai Jack),512
+Ariel (The Little Mermaid),512
+Baron Unterbheit (Venture Brothers),512
+Belle (Beauty and the Beast),512
+Brock Sampson (Venture Brothers),512
+Buzz Lightyear (Toy Story) ,512
+Captain Planet (Captain Planet),512
+Captain Pollution (Captain Planet),512
+Cartman (South Park),512
+Chicken Boo (Animaniacs),512
+Dean Venture  (Venture Brothers),512
+Demona (Gargoyles),512
+Dib (Invader Zim),512
+Die Fledermaus (The Tick cartoon),512
+Doctor Girlfriend (Venture Brothers),512
+Doctor Venture (Venture Brothers),512
+Evil-Lynn,512
+Gaston (Beauty and the Beast),512
+Gaz (Invader Zim),512
+Genie (Aladdin),512
+GIR (Invader Zim),512
+Gizmoduck (Darkwing Duck),512
+Hades (Disney's Hercules),512
+Hank Venture (Venture Brothers),512
+He-Man,512
+Inspector Gadget,512
+Jafar (Disney's Aladdin),512
+Jessica Rabbit (Who Framed Roger Rabbit),512
+Jonny Quest,512
+Kronk (The Emporer's New Groove),512
+Lion-O (Thundercats),512
+Maleficent (Sleeping Beauty),512
+Man-At-Arms,512
+Marvin the Martian (Looney Tunes),512
+Mike Wazowski (Monsters Inc.),512
+Molotov Cocktease (Venture Brothers),512
+Orko,512
+Pebbles (Flintstones),512
+Piglet (Winnie the Pooh),512
+Pinky (Pinky and the Brain),512
+Pizzazz (Jem),512
+Pumyra (Thundercats),512
+Sandy Cheeks (Spongebob Squarepants),512
+Scar (The Lion King),512
+Scrooge McDuck (Duck Tales),512
+She-Ra The Princess of Power,512
+Skeletor,512
+Slappy Squirrel (Animaniacs),512
+Snarf (Thundercats),512
+Stormer (Jem and the Holograms),512
+The Sorceress (Masters of the Universe),512
+Thundarr the Barbarian,512
+Unicron (Transformers),512
+Ursula (The Little Mermaid),512
+Wakko Warner (Animaniacs),512
+Wily-kit (Thundercats),512
+Zim (Invader Zim),512
+Battle-Cat (He-Man),512
+Teela (He-Man),512
+//1024 - Misc other
+Barnabas Collins,1024
+Animal (The Muppets),1024
+Ash (Evil Dead trilogy),1024
+Baldrick (Blackadder),1024
+Barbossa (PotC),1024
+Beetlejuice,1024
+Bert Gummer (Tremors),1024
+BlackAdder (BlackAdder),1024
+Butters (South Park),1024
+Captain Barbossa (PotC),1024
+Captain Hook (Peter Pan),1024
+Captain Jack Sparrow (Pirates of the Caribbean),1024
+Cheshire Cat (Alice in Wonderland),1024
+Chucky (Child's Play),1024
+Commodore Norrington (PotC),1024
+Dante Hicks (Clerks),1024
+David St. Hubbins (Spinal Tap),1024
+Death (Sandman),1024
+Delerium (Sandman),1024
+Desire (Sandman),1024
+Despair (Sandman) ,1024
+Destiny (Sandman),1024
+Destruction (Sandman),1024
+Dr. Frank N Furter (Rocky Horror Picture Show),1024
+Edward Scissorhands ,1024
+Elizabeth Swann (PotC),1024
+Elphaba (Wicked),1024
+Eric Draven (The Crow),1024
+Evil the Cat (Earthworm Jim),1024
+Gabe (Penny Arcade),1024
+Gomez Adams,1024
+Gonzo (Muppets),1024
+Jack Burton (Big Trouble in Little China),1024
+Jack Skellington (Nightmare Before Christmas),1024
+Jareth (Labyrinth),1024
+Jughead Jones (Archie comics),1024
+Kermit the Frog (Muppets),1024
+Lattice (Lost Skeleton of Cadavra),1024
+Miss Piggy (The Muppets),1024
+Neo (The Matrix),1024
+Pearl Forrester,1024
+Riff Raff (Rocky Horror Picture Show),1024
+Scarlett (G.I. Joe),1024
+Westley (The Princess Bride),1024
+Will Turner (PotC),1024
+//2048 - Monsters
+Godzilla,2048
+Dracula,2048
+Frankenstein,2048
+The Bride of Frankenstein,2048
+The Mummy,2048
+King Ghidora,2048
+Mothra,2048
+Jason Voorhees,2048
+Freddy Kreuger,2048
+Gamera,2048
+Baragon,2048
+King Kong,2048
+The Stay Puft Marshmallow Man,2048
+Cthulu,2048
+Yog-Sothoth,2048
+Azazoth,2048
+Shub-Niggurath,2048
+Bruce The Shark (Jaws),2048
+The Creature From The Black Lagoon,2048
+Rodan,2048
+Torgo (Manos The Hands of Fate),2048
+Graboids (Tremors),2048
+Hedorah (Godzilla),2048
+Megalon,2048
+MechaGodzilla,2048
+Pinhead (Hellraiser),2048
+The Lost Skeleton of Cadavra,2048
+The Phantom Of The Opera,2048
+//4096 - Anime
+Mink (Dragon Half),4096
+Akane Tendou (Ranma 1/2),4096
+Alphonse Elric (Fullmetal Alchemist),4096
+Alucard (Hellsing),4096
+Android 18 (DBZ),4096
+Aoyagi Ritsuka (Loveless),4096
+Aoyagi Seimei (Loveless),4096
+Ash Ketchum (Pokemon),4096
+Astroboy (Astroboy),4096
+Ayame (Fruits Basket),4096
+Bakura (Yu-Gi-Oh),4096
+Botan (YYH),4096
+Brock/Takeshi (Pokemon),4096
+CatBus (My Neighbor Totoro),4096
+Chang Wufei (Gundam Wing),4096
+Chii (Chobots),4096
+Dante (Fullmetal Alchemist),4096
+Dilandau (Escaflowne),4096
+Duo Maxwell (Gundam Wing),4096
+Eboshi (Princess Mononoke),4096
+Ed (Cowboy Bebop),4096
+Ed Elric (Fullmetal Alchemist),4096
+Ein (Cowboy Bebop),4096
+Enrico Maxwell (Hellsing),4096
+Envy (Fullmetal Alchemist),4096
+Esther Blanchett (Trinity Blood),4096
+Excel (Excel Saga),4096
+Faye Valentine (Cowboy Bebop),4096
+Fuu (Samurai Champloo),4096
+Gaara (Naruto),4096
+Gendo Ikari (Evangelion),4096
+Genma Santome (Ranma 1/2),4096
+Gluttony (Fullmetal Alchemist),4096
+Greed (Fullmetal Alchemist),4096
+Hiei (Yuu Yuu Hakusho),4096
+Hitomi (Escaflowne),4096
+Hotaru Tomoe (Sailor Moon),4096
+Hyatt (Excel Saga),4096
+Ikari Shinji (NGE),4096
+Il Palazzo (Excel Saga),4096
+Integra Hellsing (Hellsing),4096
+Inu-Yasha,4096
+Isshin Kurosaki (Bleach),4096
+Itachi Uchiha (Naruto),4096
+James (Pokemon),4096
+Jet Black (Cowboy Bebop),4096
+Jin (Samurai Champloo),4096
+Jinnai (El Hazard),4096
+Jiraiya (Naruto),4096
+Kakashi Hatake (Naruto),4096
+Kaname (Full Metal Panic),4096
+Kasumi (Pokemon),4096
+Keisuke Yuuki (Fushugi Yuugi),4096
+Kikyou (Inuyasha),4096
+Kisa (Fruits Basket),4096
+Kisara (Yu-Gi-Oh!),4096
+Kouga (Inuyasha),4096
+Kouji (Fushugi Yuugi),4096
+Kuwabara (YYH),4096
+L (Death Note),4096
+Lady Eboshi (Princess Mononoke),4096
+Light Yagami (Death Note),4096
+Luna (Sailor Moon),4096
+Lust (Fullmetal Alchemist),4096
+Lynn Minmei (Macross) ,4096
+Maes Hughes (Fullmetal Alchemist),4096
+Major Motoko Kusanagi (Ghost in the Shell),4096
+Malik (Yu-Gi-Oh),4096
+Max Sterling (Robotech/Macross),4096
+Meer Campbell (Gundam SEED Destiny),4096
+Menchi (Excel Saga),4096
+Miaka (Fushigi Yugi),4096
+Miroku (Inuyasha),4096
+Misty (Pokemon),4096
+Momoji Sohma (Fruits Basket) ,4096
+Mr. Joker (Read or Die),4096
+Mugen (Samurai Champloo),4096
+Murata Azrael (Gundam SEED),4096
+Naga the White Serpent (Slayers),4096
+Naraku (Inuyasha),4096
+Naruto,4096
+Nuriko (Fushigi Yugi),4096
+Okkotonushi (Princess Mononoke),4096
+Orochimaru (Naruto),4096
+Piccolo (DBZ),4096
+Queen Beryl (Sailor Moon),4096
+Rei Ayanami (Neon Genesis Evangelion),4096
+Relena Peacecraft (Gundam Wing),4096
+Rin Sohma (Fruits Basket),4096
+Riza Hawkeye (Fullmetal Alchemist),4096
+Rock Lee (Naruto),4096
+Roronoa Zoro (One Piece),4096
+Rose (Fullmetal Alchemist),4096
+Roy Mustang (Fullmetal Alchemist),4096
+Ryoko,4096
+Sailor Moon,4096
+Sakura (Card Captor Sakura),4096
+Sakura (Naruto),4096
+Scar (Fullmetal Alchemist),4096
+Sesshoumaru (Inuyasha),4096
+Seto Kaiba (Yu-Gi-Oh),4096
+Shampoo (Ranma 1/2),4096
+Siren (Fullmetal Alchemist),4096
+Spike Spiegel (Cowboy Bebop),4096
+Trowa Barton (Gundam Wing),4096
+Tuxedo Mask (Sailor Moon),4096
+Urd (Ah My Goddess),4096
+Ussop (One Piece),4096
+Vash the Stampede (Trigun),4096
+Vegeta (Dragonball Z),4096
+Walter Dornez (Hellsing),4096
+Washu (Tenchi Muyo),4096
+Yami Bakura (Yu-Gi-Oh),4096
+Yomiko Readman (Read or Die),4096
+Yuusuke Urameshi (Yu Yu Hakusho),4096
+Blair (Soul Eater),4096
+Soul (SouL Eater),4096
+Dr. Stein (Soul Eater),4096
+Meduas (Soul Eater),4096
+Miaka (Soul Eater),4096
+Death (Soul Eater),4096
+Ichigo (Bleach),4096
+Yuki Cross (Vampire Knight),4096
+Zero Kiryu (Vampire Knight),4096
+Haruhi (Ouran High School Host Club).4096
+Lelouch (Code Geass),4096
+Lucy (Fairy Tail),4096
+Natsu (Fairy Tail),4096
+Gray (Fairy Tail),4096
+Erza Scarlett (Fairy Tail),4096
+Happy (Fairy Tail),4096
+Lucy(Elfen Lied),4096
+Sebastian (Kuroshitsuji),4096
+Grell (Kuroshitsuji),4096
+Doraemon,4096
+Panty (Panty & Stocking With Garterbelt),4096
+Stocking (Panty & Stocking With Garterbelt),4096

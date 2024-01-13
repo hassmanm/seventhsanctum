@@ -1,0 +1,842 @@
+//Seeds
+SEED
+	<SEEDBASIC>
+	<SEEDDETAILED>
+	<SEEDSETTING>
+SEEDBASIC
+	<SEEDPHYSICALBASE>
+	<SEEDPHYSICALBASE> <SEEDTRAITSPECIFIC>
+SEEDDETAILED
+	<SEEDBASIC> <SEEDDETAILROUTE>
+SEEDSETTING
+	<SEEDBASIC> <SEEDDETAILROUTE> <SEEDSETTINGDETAIL>
+SEEDPHYSICALBASE
+	<SEEDPHYSICALBASENOELEMENT>
+	<SEEDPHYSICALBASENOELEMENT>
+	<SEEDPHYSICALBASENOELEMENT>
+	<SEEDPHYSICALBASENOELEMENT>
+	<SEEDPHYSICALBASEELEMENT>
+SEEDPHYSICALBASENOELEMENT
+	The <REFFORM> race.
+//	The <REFRACEDESC> race.
+	The <REFRACEDESCROUTENOCOMMA>.
+	The <REFINTEGUMENTROUTE> race.
+//	The <REFFORM>, <REFRACEDESC> race.
+	The <REFFORM><REFRACEDESCROUTE>.
+	The <REFFORM>, <REFINTEGUMENTROUTE> race.
+	The <REFFORM> race of <REFRACEPLURAL>.
+SEEDPHYSICALBASEELEMENT
+	The <REFELEMENT> race.
+	The <REFFORM>, <REFELEMENT> race.
+//	The <REFFORM>, <REFELEMENT>, <REFRACEDESC> race.
+	The <REFFORM>, <REFELEMENT><REFRACEDESCROUTE>.
+	The <REFFORM>, <REFELEMENT>, <REFINTEGUMENTROUTE> race.
+//	The <REFELEMENT>, <REFRACEDESC> race.
+	The <REFELEMENT><REFRACEDESCROUTE>.
+	The <REFELEMENT>, <REFINTEGUMENTROUTE> race.
+	The <REFELEMENT> race of <REFRACEPLURAL>.
+	The <REFFORM>, <REFELEMENT> race of <REFRACEPLURAL>.
+SEEDTRAITSPECIFIC
+	<REFSENSORY>
+	<REFLIMBS>
+	<REFMOTIVE>
+	<REFROUTEDIET>
+	<REFABILITIES>
+	<REFSENSORY> <REFLIMBS>
+	<REFSENSORY> <REFMOTIVE>
+	<REFSENSORY>  <REFROUTEDIET>
+	<REFSENSORY> <REFABILITIES>
+	<REFSENSORY> <REFLIMBS> <REFMOTIVE>
+	<REFSENSORY> <REFLIMBS> <REFROUTEDIET>
+	<REFSENSORY> <REFLIMBS> <REFABILITIES>
+	<REFSENSORY> <REFMOTIVE> <REFROUTEDIET>
+	<REFSENSORY> <REFMOTIVE> <REFABILITIES>
+	<REFSENSORY> <REFROUTEDIET> <REFABILITIES>
+	<REFSENSORY> <REFLIMBS> <REFMOTIVE> <REFROUTEDIET>
+	<REFSENSORY> <REFLIMBS> <REFMOTIVE> <REFABILITIES>
+	<REFSENSORY> <REFLIMBS> <REFROUTEDIET> <REFABILITIES>
+	<REFSENSORY> <REFMOTIVE> <REFROUTEDIET> <REFABILITIES>
+	<REFSENSORY> <REFLIMBS> <REFMOTIVE> <REFROUTEDIET> <REFABILITIES>
+	<REFLIMBS> <REFMOTIVE>
+	<REFLIMBS> <REFROUTEDIET>
+	<REFLIMBS> <REFABILITIES>
+	<REFLIMBS> <REFMOTIVE> <REFROUTEDIET>
+	<REFLIMBS> <REFMOTIVE> <REFABILITIES>
+	<REFLIMBS> <REFMOTIVE> <REFROUTEDIET> <REFABILITIES>
+	<REFMOTIVE> <REFROUTEDIET>
+	<REFMOTIVE> <REFABILITIES>
+	<REFMOTIVE> <REFROUTEDIET> <REFABILITIES>	
+SEEDDETAILROUTE
+	<SEEDDETAILREGULAR>
+	<SEEDDETAILREGULAR>
+	<SEEDDETAILGOVERNMENT>
+SEEDDETAILREGULAR
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>.
+	<REFEXTRAROUTE>
+	<REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.
+	<REFPSYCHOLOGY>
+	<REFROUTEGOVERMENT>
+	<REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.
+	<REFEXTRAROUTE> <REFPSYCHOLOGY>
+	<REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>
+	<REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFPSYCHOLOGY>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFPSYCHOLOGY>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>
+SEEDDETAILGOVERNMENT
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFROUTEGOVERMENT>
+	<REFEXTRAROUTE> <REFROUTEGOVERMENT>
+	<REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFROUTEGOVERMENT>
+	<REFPSYCHOLOGY> <REFROUTEGOVERMENT>
+	<REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.  <REFROUTEGOVERMENT>
+	<REFEXTRAROUTE> <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE>  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>.  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>  <REFROUTEGOVERMENT>
+	<REFPROCESSIONTRAIT> <REFPROFESSIONS>. <REFEXTRAROUTE> <REFTECHNOLOGYFOCUS> <REFTECHNOLOGY>. <REFPSYCHOLOGY>   <REFROUTEGOVERMENT>
+SEEDSETTINGDETAIL
+	<REFPOLITICS>
+	<REFEXTRADETAIL>
+	<REFROUTEWORLDDETAIL>
+	<REFPOLITICS> <REFEXTRADETAIL>
+	<REFPOLITICS> <REFROUTEWORLDDETAIL>
+	<REFEXTRADETAIL> <REFROUTEWORLDDETAIL>
+	<REFPOLITICS> <REFEXTRADETAIL> <REFROUTEWORLDDETAIL>
+//REFS
+REFFORM
+	bulky
+	colossal
+	cumbersome
+	delicate-looking
+	deformed
+	diminutive
+	elegant
+	enormous
+	gigantic
+	graceful
+	hulking
+	malformed
+	massive
+	misshapen
+	monstrous-looking
+	skeletal
+	spindly
+	statuesque
+	squat
+	tall
+	thin
+	tiny
+REFELEMENT
+	crystalline
+	earth-based
+	energy-based
+	fire-based
+	gas-based
+	ghost-like
+	ice-based
+	light-based
+	metal-based
+	plant-based
+	semi-gaseous
+	semi-liquid
+	semi-material
+	water-based
+	fungus-based
+REFRACEDESCROUTENOCOMMA
+	 <REFRACEDESC> race
+	 <REFRACEDESC> race
+	 race that resembles the <REFRACEDESCMYTH> of earth mythology
+REFRACEDESCROUTE
+	, <REFRACEDESC> race
+	, <REFRACEDESC> race
+	 race that resembles the <REFRACEDESCMYTH> of earth mythology
+REFRACEDESC
+	ape-like
+	aquatic
+	arachnid
+	armadillo-like
+	avian
+	bat-like
+	bovine
+	cainine
+	crustacean
+	delphine
+	eel-like
+	elephantine
+	equine
+	feline
+	ferret-like
+	fish-like
+	frog-like
+	humanoid
+	insectile
+	jellyfish-like
+	mammalian
+	manta-like
+	octopus-like
+	porcine
+	reptilian
+	rhinocerous-like
+	rodent-like
+	saurian
+	serpentine
+	shark-like
+	simian
+	slug-like
+	snail-like
+	turtle-like
+	ursine
+	vulpine
+	worm-like
+REFRACEDESCMYTH
+	angels
+	basilisks
+	centaurs
+	chimeras
+	cockatrices
+	demons
+	dragons
+	griffins
+	hydra
+	kraken
+	manticores
+	medusae
+	minotaurs
+	merfolk
+	nagas
+	pegasi
+	trolls
+	unicorn
+	vampires
+	werewolves	
+REFINTEGUMENTROUTE
+	<REFINTEGUMENT>
+	<REFCOLOR>-<REFINTEGUMENTCOLORED>
+REFINTEGUMENT
+	armored
+	bony-plated
+	furred
+	scaled
+	shell-covered
+	skinless
+	slime-covered
+	spine-covered
+	thick-skinned
+	loose-skinned
+REFINTEGUMENTCOLORED
+	armored
+	feathered
+	furred
+	hided
+	scaled
+	shelled
+	skinned
+	spined
+REFRACEPLURAL
+	arachnids
+	armadillo-<REFSPECIESREF>
+	avians
+	bat-<REFSPECIESREF>
+	bovines
+	canines
+	crab-<REFSPECIESREF>
+	delphines
+	felines
+	fish-<REFSPECIESREF>
+	frog-<REFSPECIESREF>
+	horse-<REFSPECIESREF>
+	humanoids
+	insects
+	leech-creatures
+	octopi
+	primates
+	rabbit-creatures
+	reptiles
+	rodents
+	saurians
+	serpent-<REFSPECIESREF>
+	turtle-<REFSPECIESREF>
+	ursines
+	worm-creatures
+REFPROCESSIONTRAIT
+	Biologically they are inclined to be 
+	They are a race of
+	By tradition, they are a race of
+	By necessity, they are a race of 
+	Many members of their species are
+	They are famous for producing
+	The most revered members of their society are
+	Their greatest leaders were once
+REFPROFESSIONS
+	adventurers
+	ambassadors
+	anthropologists
+	archaeologists
+	artists
+	assassins
+	bureaucrats
+	conquerors
+	craftsmen
+	doctors
+	economists
+	entertainers
+	explorers
+	healers
+	historians
+	hunters
+	intellectuals
+	inventors
+	linguists
+	mercenaries
+	merchants
+	mystics
+	negotiators
+	philosophers
+	pirates
+	politicians
+	researchers
+	scavengers
+	scholars
+	scientists
+	servants
+	spies
+	strategists
+	thieves
+	traders
+	warriors
+REFSENSORY
+	Their sensitive whiskers provide powerful tactile senses.
+	Their skin is their major sensory organ.
+	They are earless.
+	They are mouthless.
+	They have a powerful sense of taste.
+	They have a radar-like sense.
+	They have a single eye.
+	They have a strange sixth sense.
+	They have an advanced sense of touch.
+	They have eyes on extendable stalks.
+	They have many eyes.
+	They have multiple hearing organs.
+	They have multiple mouths.
+	They have multiple nasal organs.
+	They have no sense of smell.
+	They have powerful eyesight.
+	They have powerful hearing.
+	They have powerful nasal senses.
+	They have prominent ears.
+	They have strange and unusual senses.
+	This race is eyeless.
+	They can sense electromagnetic radiation.
+	They have enormous eyes.
+	They have compound eyes.
+	Their tongues are used not just for taste, but for smell as well.
+	They have senses that let them navigate through hyperspace.
+	Their eyes give them 360 degree vision.
+	Their long snouts are powerful sensory organs.
+	They have no obvious sensory organs - yet display definite senses of a mysterious nature.
+	Their tongues act as manipulatory limbs.
+REFLIMBS
+	This race has elongated limbs.
+	This race has no specific manipulatory appendages.
+	This race has highly specialized limbs for various uses.
+	This race has relatively undeveloped limbs.
+	This race has tentacular limbs.
+	This race has stubby limbs.
+	Their limbs are not so much specific, but are used for multiple functions.
+	They have <REFLIMBCOUNT> manipulatory limbs.
+	They have <REFLIMBCOUNT> <REFLIMBDESC> manipulatory limbs.
+REFLIMBCOUNT
+	two
+	three
+	four
+	five
+	six
+	many
+REFLIMBDESC
+	elongated
+	highly specialized
+	long-fingered
+	tentacular
+	stubby
+	under-developed
+REFMOTIVE
+	This race moves bipedally.
+	This race moves quadrupedially.
+	They are tripedial.
+	This race moves on many legs.
+	This race moves along on tentacles instead of legs.
+	This race travels by wings.
+	This race moves along on a sluglike foot.
+	This race is able to adhere to solid surfaces, making climbing easy.
+	They fly by means of gas sacks.
+	They move by dragging themselves along the ground.
+	They move by crawling along the ground.
+REFROUTEDIET
+	<REFDIETREGULAR>
+	<REFDIETREGULAR>
+	<REFDIETREGULAR>
+	<REFDIETREGULAR>
+	<REFDIETUNUSUAL>
+	<REFDIETUNUSUAL>
+	<REFDIETWIERD>
+REFDIETREGULAR
+	They are carnivores.
+	They are omnivores.
+	They are herbivores.
+	They are omnivores, but prefer to be carnivorous.
+	They are omnivores, but prefer to be herbivores.
+REFDIETUNUSUAL
+	They are blood-drinkers.
+	They live on light.
+	They consume energy.
+	They can consume almost anything material.
+	They are lithovores.
+	They can adsorb nutrients, plant-like, from the soil or similar substances.
+REFDIETWIERD
+	They live off of psychic energy.
+	They live off of life energy.
+	They feed on radiation.
+	They feed on time itself.
+REFABILITIES
+	They are immune to disease.
+	They are extremely long-lived.
+	They extrude a deadly toxin.
+	They have incredible strength.
+	They are very dexterous.
+	Their intellect is very advanced.
+	They have powerful psychic abilities.
+	They have powerful stink glands.
+	They use acidic spit as a weapon.
+	They move at incredible speeds.
+	They never need to sleep.
+	They can change shape to mimic others.
+	They can change the color of their integument to mimic their background.
+	They can adsorb the DNA of another species and take on its traits.
+	They carry many diseases but do not suffer from them.
+	They learn quickly
+	They have perfect memories
+	They have powerful claws
+	They have the ability to withstand a wide range of temperatures.
+	They can enter a hybernating state where their body becomes stonelike.
+	They are natural tool-users.
+	They have incredible navigation abilities.
+	They bear a powerful horns as natural weapons.
+	They have a strange hypnotic ability.
+	They are virtually immune to toxins.
+	They can transfer their minds to the bodies of others.
+	They are precognitive.
+	Severe trauma can trigger a regenerative state that re-constructs their bodies.
+	They have an ability to bend reality that some may call magic.
+	They mutate in ways that let them adapt to their environment.
+	They can consume other living things to power their own healing.
+	They are able to render themselves invisible.
+	They are able to phase through solid matter.
+	They can discharge energy as a natural weapon.
+	They can generate a protective force field around themselves.
+	They can astrally project their minds.
+	They can enter people's dreams.
+	They can take on the form of someone's worst fears.
+	They have a tail with a venomous stinger.
+	Detatched body parts can be grafted back on with ease.
+	They regrow lost limbs and organs.
+	They can discharge sticky fluid from their bodies to trap and ensnare others, or to make webs.
+	They can manipulate time.
+	They are telepathic.
+	They can teleport.
+	They can roll themselves into a protective ball.
+	Their limbs and other bodily extensions can be withdrawn into their body.
+	They have fine control over their bodily processes.
+	Their brains let them process massive amounts of information in parallel.
+	They can duplicate the abilities of other species they encounter.
+	Individual members can link their minds up so they can process information faster.
+	They can manipulate magnetism.
+	They can temporarily split into duplicates of themselves.
+	They discharge electricity as a weapon.
+	They can manipulate matter to change it from one form to another.
+	They can inject a toxin into other creatures that turns them into slaves.
+	Nearly every element of their bodies is toxic in some way.
+	They can breathe a variety of atmospheres.
+	They can create illusions.
+	They can adsorb the minds of others.
+	They can modify some of their bodily secretions to become various useful substances.
+	They are tough enough to survive in the vaccum of space.
+	They are naturally, almost supernaturally, stealthy.
+	They can change their size.
+	They can withstand incredible damage before dying - or even slowing down.
+REFEXTRAROUTE
+	<REFEXTRA>
+	<REFEXTRA> <REFEXTRASEX>
+	<REFEXTRASEX>
+REFEXTRA
+	Their entire lives are spent inside cybernetic pods.
+	They long ago converted to a cybernetic existence.
+	They exist in symbiosis with another species.
+	They now largely live in virtual reality.
+	They are mutating quickly.
+	They are evolving quickly.
+	They are almost immune to mutation - and thus evolutionarily stagnant.
+	They communicate with pheromones.
+	They communicate by changing the color of their integument.
+	As they age, they evolve into another species entirely.
+	They shed their integument as they grow.
+	They naturally hybernate.
+	When severely hurt, they enter a regenerative trance.
+	They are easily addicted to certain substances.
+	The species has 'subspecies' that specialize in different tasks.
+	They spend their lives tied to a giant central computer.
+	They have voracious appetites.
+	They are actually the embodiment of another, extra-dimensional being.
+	Their bodies have useful natural pouches.
+	Individual members can merge their bodies to produce more powerful or different "composite" members.
+	They appear to be degenerating as a species.
+	They are very long-lived.
+	They have short lifespans.
+	They have to merge with a host in order to survive.
+	The color of their integument changes with mood.
+	Their internal structure is very delicate - so any wound can be fatal.
+	They are known to have terrible body odor.
+	They have an odd scent many races find attractive.
+	Their bodies are so efficient they do not excrete.
+	Their method of extretion is infamously disgusting.
+	Certain sensory extremes are painful to them.
+REFEXTRASEX
+	They reproduce quickly.
+	They reproduce slowly.
+	Their society is split by gender - males and females are separate cultures.
+	They have elaborate mating displays.
+	They do not reproduce, but instead infect and transform other beings into new members of their species.
+	They reproduce by budding off new members of their race.
+	They are an all-female race.
+	They are an all-male race.
+	They are a hermaphroditic race.
+	They change genders as they age.
+	They can change genders under certain conditions.
+	They interbreed easily with other species.
+	They lay eggs.
+	They have a complex reproductive cycle.
+	They have more than two genders, which makes things rather complex.
+	They have large litters.
+	They have only one child at a time.
+	They are sterile.
+REFTECHNOLOGY
+	anti-gravity
+	artificial life
+	biology
+	botany
+	chemistry
+	cloning
+	computers
+	cybernetics
+	drugs
+	faster-than-light travel
+	force fields
+	genetic engineering
+	manufacturing
+	medicine
+	nanotechnology
+	psychic technology
+	psychology
+	robotics
+	space travel
+	teleportation
+	terraforming
+	time travel
+	virtual reality
+	weaponry
+REFTECHNOLOGYFOCUS
+	They are masters of
+	Their major advancements are in
+	Their major technical achievements are in
+	Their society is dependent on one technology:
+	Their economy is dependent on one technology:
+REFPSYCHOLOGY
+	Religion is very important to them.
+	They are naturally cooperative.
+	They are naturally competitive.
+	They despise originality.
+	They are highly creative.
+	They are natural survivors.
+	They are extremely morose.
+	They are bound by tradition.
+	They exist as a hive mind.
+	They have an elaborate caste system.
+	They are capable of going into a berserk rage under certain conditions.
+	They have a rich culture.
+	They are promiscuous - and species doesn't matter to them.
+	They are extremely prudish.
+	They are meticulous record-keepers.
+	They have a tightly organized military.
+	They have a very ritualized culture.
+	They have a tradition of elaborate holidays.
+	They throw incredible parties.
+	They have a rich artistic tradition.
+	They are split into two conflicting factions.
+	Honor is more important to them than anything.
+	Knowledge is the most valuable thing to them.
+	They never quit or surrender.
+	They are addicted to the pleasures taking nutrition (whatever method they use).
+	Their emotions are hard to understand for others.
+	They are unswervingly practical.
+	They are naturally aquisitive.
+	They are naturally curious.
+	They seek any alliance, technology, or advantage that will benefit them.
+	They are very xenophobic.
+	They love to encounter new species.
+	They have a complex justice system.
+	Their cuisine is spectacular.
+	They are thrill-seekers.
+	Their language is maddeningly complex.
+	They have no sense of individuality.
+	They love elaborate clothing.
+	They dislike wearing clothing.
+	Social status, job, and so forth are demarked by a clear dress code.
+	They live in a very stratified society.
+	They live in a very egaltarian society.
+	They tattoo/mark their integument in various ways for cultural purposes.
+	Elaborate jewelry and accessories denote social standing, class, and soforth.
+	They employ a servant species for some tasks.
+	Their speech patterns are confusing.
+	Despite their intelligence, their speech is rather childlike.
+	They despise politeness as a kind of falsehood.
+	They value civility and politeness.
+	They have no concept of subtlety.
+	They are very industrious.
+	They are very lazy.
+	They are packrats.
+	They crave forbidden knowledge.
+	They are very forgiving.
+	They are very unforgiving.
+	They seem emotionless.
+	They are highly emotional.
+	They are easily bored.
+	They are natural tricksters.
+	They believe they have to protect others from forbidden knowledge.
+	They are obsessively clean.
+	They are notoriously sloppy.
+	They have a very ordered view of the universe.
+	They exist only to wipe out all other competing life forms.
+	They seek enlightenment.
+	They love epic poetry and sagas.
+	They return insults with violence.
+	They have quite the sense of humor.
+	They are extremely patronizing.
+	They have a definite sense of fair play.
+	They are very literal.
+	They have no sense of personal space.
+	They have incredibly complex family arrangements.
+	They are adept at justifying their actions no matter what.
+	They are merciless towards the weak - even among their own species.
+	They are fatalistic.
+	They have little sense of being a separate species - and integrate well with other races.
+	They know deep secrets about the universe.
+	They have an impeccable sense of fashion.
+	They are experts at working the system - any system.
+	Under stress, they undergo distinct personality changes.
+	Though not xenophobic, they do like to keep a distance from other races.
+	Their people have a tradition of very powerful martial arts.
+	They are extremely snobbish.
+	They are notoriously hyperactive.
+	They are notoriously laid-back.
+	They keep their promises - even if it means death.
+	They are very dishonest.
+	Professions are passed on through family lines.
+REFPOLITICS
+	They control a vast galactic empire.
+	They control a solar system.
+	They control only one planet.
+	They exist as wandering nomads.
+	They are the fallen remnants of a once-mighty empire.
+	They are a conquered people.
+	They are a growing empire.
+	They are in decline.
+	They have not yet mastered even one world.
+	They are rapidly expanding into the universe.
+	They are rapidly expanding out of their solar system.
+	Space is their home, they have no world of their own.
+	They are expanding by infiltrating other societies.
+	They control a great government from behind the scenes.
+	They once ruled a great empire, but were utterly defeated in a war.
+	They are regarded virtually as gods by some races.
+	They are ancient, widespread, and powerful.
+	They work behind the scenes, uplifting other races.
+	They are working to join a large, star system-spanning government.
+	They are currently plotting to take over a star system-spanning government.
+	Their homeworld destroyed, they are seeking to find a new one at any cost.
+	They are involved in a subtle conflict with another race to determine the destiny of other, younger species.
+	They are all but gone - yet their many artifacts remain on other worlds.
+	They would conquer the galaxy if they could, but so far haven't proven to be very good at it.
+REFROUTEGOVERMENT
+	Their government is <REFGOVERMENTTYPE>.
+	Their government is <REFGOVERMENTTYPEFUNCTION>.
+	Their government is <REFGOVERMENTTYPE> that is <REFGOVERMENTTYPEFUNCTION>.
+REFGOVERMENTTYPE
+	an aristocracy
+	a bureaucracy
+	a confederacy
+	a democracy
+	a dictatorship
+	a feudal system
+	a meritocracy
+	a plutocracy
+	a representative democracy
+	a theocracy
+	a technocracy
+REFGOVERMENTTYPEFUNCTION
+	efficient
+	functional
+	inefficient
+	non-functional
+	corrupt
+	ethical in its own way
+	extremely corrupt
+	entirely dysfunctional
+REFEXTRADETAIL
+	Another race uplifted them to sentience.
+	Another race created them artificially.
+	A past war nearly destroyed them completely.
+	They have a rivalry with another race.
+	They are locked in an battle with age-old enemies.
+	Alien artifacts figured prominently in their past.
+	They are in possession of advanced technology from an ancient race.
+	They are the descendants of another sentient race, but are a separate species.
+	They are actually a biomechanical race created by another people.
+	They are actually highly sophisticated machines created by another people.
+	Their origin is a mystery - even their supposed world of origin doesn't seem to be their homeworld.
+	They are close relatives of another race, from whom they split over cultural differences ages ago.
+	Their species is very diverse in individual appearances.
+	There is little variance in appearance among individuals, making one easy to mistake for another.
+	The different genders of the species are very distinct physically.
+	They are the results of other species interbreeding.
+	There is another race they worship as gods.
+	Most of their species ascented to a godlike existence - they are the descendents of those that did not.
+	They were once a dead people - what brought them back to life is a matter of speculation.
+REFROUTEWORLDDETAIL
+	<REFWORLDDETAILPLANET>
+	<REFWORLDDETAILPLANET>
+	<REFWORLDDETAILPLANET>
+	<REFWORLDDETAILPLANET>
+	<REFWORLDDETAILNOPLANET>
+REFWORLDDETAILNOPLANET
+	They once came from another dimension.
+	They come from another universe.
+	They come from another time.
+	They come from a different level of reality.
+REFWORLDDETAILPLANET
+	Their world of origin is <REFWORLDTYPEROUTE>.
+	Their world of origin is <REFWORLDRESOURCEMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER> world.
+	Their planet of origin is a world that <REFROUTEWORLDMODIFIER>.
+	Their world of origin is <REFWORLDTYPEROUTE> and <REFWORLDRESOURCEMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE> world.
+	Their world of origin is <REFWORLDTYPEROUTE> and <REFROUTEWORLDMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDRESOURCEMODIFIER> world.
+	Their world of origin is <REFWORLDRESOURCEMODIFIER> and <REFROUTEWORLDMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER> world.
+	Their world of origin is <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER>, and <REFROUTEWORLDMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE> world that <REFROUTEWORLDMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDRESOURCEMODIFIER> world that <REFROUTEWORLDMODIFIER>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER> world that <REFROUTEWORLDMODIFIER>.
+	Their planet of origin <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDTYPEROUTE> and <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDRESOURCEMODIFIER> and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER> world that <REFWORLDMODEXTRAS>.
+	Their planet of origin is a world that <REFROUTEWORLDMODIFIER> and <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER>, and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE> world that <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDTYPEROUTE>, <REFROUTEWORLDMODIFIER>, and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDRESOURCEMODIFIER> world that <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDRESOURCEMODIFIER>, <REFROUTEWORLDMODIFIER> and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER> world that <REFWORLDMODEXTRAS>.
+	Their world of origin is <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER>, <REFROUTEWORLDMODIFIER>, and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE> world that <REFROUTEWORLDMODIFIER> and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDRESOURCEMODIFIER> world that <REFROUTEWORLDMODIFIER> and <REFWORLDMODEXTRAS>.
+	They come from a <REFWORLDGRAVMODIFIER>, <REFWORLDTYPEROUTE>, <REFWORLDRESOURCEMODIFIER> world that <REFROUTEWORLDMODIFIER> and <REFWORLDMODEXTRAS>.
+REFWORLDTYPEROUTE
+	<REFWORLDTYPEGENERAL>
+	<REFWORLDTYPESPECIFIC>
+REFWORLDTYPEGENERAL
+	barren
+	desolate
+	pleasant
+	flourishing
+REFWORLDTYPESPECIFIC
+	desert-like
+	icy
+	rocky
+	watery
+	hot
+	cold
+REFWORLDRESOURCEMODIFIER
+	mineral-rich
+	mineral-poor
+	resource-rich
+	resource-poor
+REFWORLDGRAVMODIFIER
+	high-gravity
+	low-gravity
+REFROUTEWORLDMODIFIER
+	has <REFWORLDMODIFIERMOONS>
+	has <REFWORLDMODIFIERMOONS>
+	has <REFWORLDMODIFIERMOONS>
+	has <REFWORLDMODIFIERMOONS>
+	has <REFWORLDMODIFIERRINGS>
+	has <REFWORLDMODIFIERRINGS>
+	has <REFWORLDMODIFIERMOONS> and <REFWORLDMODIFIERRINGS>
+REFWORLDMODIFIERMOONS
+	no moon
+	a single moon
+	two moons
+	three moons
+	many moons
+REFWORLDMODIFIERRINGS
+	a single ring surrounding it
+	many rings surrounding it
+	several, broken rings surrounding it
+REFWORLDMODEXTRAS
+	is known for its dangerous wildlife
+	is known for its many natural wonders
+	is known for its diverse life forms
+	is known for having its own special natural beauty
+	is known for having some particuarly unusual plant life
+	is known for having some particuarly unusual wildlife
+	is known for having some unusual ore deposits
+	is known for its odd weather
+	is known for being home to powerful diseases
+	is known for its relatively few life forms
+	is known for its archeological wonders
+	is known for being an excellent place to observe astronomical phenomena
+	is known for its calm weather
+	is known for being incredibly polluted
+	is and only a small part of the world is habitable to the species.
+	has only a small area that is actual habitable by this species
+	is known to have dissappeared mysteriously some time in the past
+	is known to have been desrtroyed some time in the past
+//GENERAL REFS
+REFCOLOR
+	black
+	blue
+	brown
+	gold
+	gray
+	green
+	orange
+	purple
+	red
+	silver
+	white
+	yellow
+	dark
+	light
+REFSPECIESREF
+	beings
+	people
+	creatures

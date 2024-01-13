@@ -1,0 +1,22 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Organizational Configurations
+//These are basic configurations
+--VOCABULARY
+Female Android Hunter (HUcaseal),8
+Female Android Ranger (RAcaseal),8
+Female Human Force (FOmarl),8
+Female Human Ranger (RAmarl),8
+Female Newman Force (FOnewearl),8
+Female Newman Hunter (HUnewearl),8
+Male Android Hunter (HUcast),8
+Male Android Ranger (RAcast),8
+Male Human Force (FOmar),8
+Male Human Hunter (HUmar),8
+Male Human Ranger (RAmar),8
+Male Newman Force (FOnewm),8

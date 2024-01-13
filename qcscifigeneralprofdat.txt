@@ -1,0 +1,37 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+AI computer,8
+alien,8
+android,8
+ancient entity,8
+artificial life form,8
+astronaut,8
+clone,8
+colonist,8
+computer personality copy,8
+cyberneticist,8
+cyberpunk,8
+cyborg,8
+mutant,8
+nanotechnologist,8
+planetary explorer,8
+robot,8
+space fighter,8
+space hitchiker,8
+space cargo hauler,8
+space pirate,8
+starship salesperson,8
+super computer,8
+terraformer,8
+time traveller,8
+time travel technician,8
+virtual reality engineer,8
+virtual reality programmer,8

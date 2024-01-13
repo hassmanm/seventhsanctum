@@ -1,0 +1,6 @@
+Fantasy
+	FANTASYCIV
+		lostcivgenfantasydat.txt
+Science-Fiction
+	SCIFICIV
+		lostcivgensfdat.txt

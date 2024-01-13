@@ -1,0 +1,337 @@
+//Vocab types:
+//1- Metadescriptor
+//2-Descriptor
+//4-Object
+//8-Defined Actor
+//16 - Actor
+//32- Nondefined Actor
+//64 - Reference
+--ORGANIZATION
+1,8
+, ,
+1,8
+, ,
+1,4,8
+, , ,
+8,64
+, of ,
+8,64
+, of ,
+1,8,64
+, , of ,
+1,16
+, ,
+1,16
+, ,
+1,16,64
+, , of ,
+1,4,16
+, , ,
+2,16
+, ,
+2,16
+, ,
+2,4,16
+, , ,
+2,16,64
+, , of ,
+4,16
+, ,
+4,16
+, ,
+4,16,64
+, , of ,
+8,16
+, ,
+8,16
+, ,
+16,64
+, of ,
+16,64
+, of ,
+1,2,32
+, , ,
+1,4,32
+, , ,
+1,32,64
+, , of ,
+2,32
+, ,
+2,32
+, ,
+2,32,64
+, , of ,
+2,16,32
+, , ,
+8,32
+, ,
+8,32
+, ,
+8,32,64
+, , of ,
+//Vocabulary
+--VOCABULARY
+//1- Metadescriptor
+Ancestral,1
+Ancient,1
+Appointed,1
+Arch,3
+Elite,3
+Forgotten,1
+Great,1
+Imperial,1
+Infamous,1
+Legendary,3
+Respected,1
+Royal,1
+Unknowable,1
+Unknown,1
+Unspeakable,1
+Unspoken,1
+//2-Descriptor
+Alchemical,2
+Astral,2
+Black,2
+Blessed,2
+Blue,2
+Celestial,2
+Chaotic,2
+Cursed,2
+Damned,2
+Dark,2
+Demonic,2
+Dreaming,2
+Ethereal,2
+Golden,2
+Gray,2
+Green,2
+Heavenly,2
+Holy,2
+Impure,2
+Infernal,2
+Pure,2
+Red,2
+Sacred,2
+Silent,2
+Sorcerous,2
+Spiritual,2
+Unholy,2
+White,2
+Wicked,2
+//4-Object
+Air,4
+Arctic,6
+Autumn,68
+Battle,4
+Blade,4
+Blood,4
+Bridge,4
+Castle,4
+Cave,4
+Chaos,4
+Circuit,4
+City,4
+Cloud,4
+Criminal,6
+Crypt,4
+Day,4
+Death,4
+Decay,4
+Desert,6
+Destiny,4
+Dream,6
+Dungeon,4
+Earth,4
+Fate,4
+Fire,68
+Flame,68
+Forge,4
+Ghost,6
+Gold,6
+Honor,68
+Ice,68
+Illusion,6
+Iron,6
+Jewel,4
+Key,4
+Law,4
+Legend,4
+Light,6
+Lock,4
+Magic,4
+Militia,4
+Mountain,6
+Mystery,4
+Night,4
+Ocean,6
+Order,4
+Path,4
+Patrol,4
+Siege,4
+Plain,6
+Prayer,4
+Prayer,4
+River,6
+Road,4
+Rock,6
+Rune,4
+Scroll,4
+Sea,6
+Secret,6
+Silver,6
+Soil,4
+Song,4
+Sorcery,4
+Soul,4
+Spectre,4
+Spell,4
+Spirit,6
+Spring,68
+Steel,4
+Storm,4
+Summer,68
+Sword,4
+Tale,4
+Time,4
+Tomb,4
+Town,4
+War,4
+Wind,4
+Winter,68
+Woodland,6
+//8-Defined Actor
+Acrobat,8
+Alchemist,8
+Archer,8
+Armorer,8
+Astrologer,8
+Barbarian,10
+Bowman,8
+Conjurer,24
+Demonologist,8
+Druid,8
+Elementalist,8
+Enchanter,24
+Enchanter,8
+Evoker,40
+Exorcist,8
+Fletcher,8
+Gladiator,24
+Heretic,42
+Illusionist,12
+Invoker,40
+Necromancer,8
+Pirate,10
+Ranger,24
+Warlock,12
+Witch,12
+//16 - Actor
+Cleric,16
+Cleric,16
+Hunter,48
+Knight,16
+Mage,22
+Magician,16
+Magician,16
+Mercenary,26
+Miner,16
+Monk,16
+Paladin,24
+Prophet,24
+Robber,16
+Sapper,16
+Scout,56
+Shaman,24
+Socreror,22
+Templar,24
+Thief,16
+//32- Nondefined Actor
+Adventurer,32
+Bandit,48
+Bard,48
+Dancer,32
+Diviner,40
+Explorer,40
+Fighter,48
+Finder,32
+Gambler,56
+Healer,32
+Hunter,32
+Inventor,32
+Killer,32
+Lady,34
+Lord,34
+Master,32
+Messenger,48
+Mistress,32
+Outlaw,38
+Quester,32
+Seeker,32
+Seer,32
+Singer,32
+Slayer,32
+Smith,32
+Summoner,48
+Tracker,32
+Trapper,48
+Warrior,48
+//64 - Reference
+Deeds,64
+Eternity,64
+Heaven,68
+Hell,68
+Hope,64
+Infinity,64
+Intellect,64
+Might,64
+Oaths,64
+Strength,64
+the Abyss,64
+the Afterlife,64
+the Borderlands,64
+the Constellations,64
+the Country,64
+the Darkness,64
+the Day,64
+the Death God(dess),64
+the Domain,64
+the Dominion,64
+the Dutchy,64
+the Earth God(dess),64
+the East,64
+the Empire,64
+the Future,64
+the God(dess) of Justice,64
+the God(dess) of the Forge,64
+the God(dess) of Wisdom,64
+the Harvest God(dess),64
+the Imperium,64
+the Kingdom,64
+the Life God(dess),64
+the Light,64
+the Moon God(dess),64
+the Night,64
+the North,64
+the Northeast,64
+the Northwest,64
+the Past,64
+the Planes,64
+the Present,64
+the Sea God(dess),64
+the Sky,64
+the South,64
+the Southeast,64
+the Southwest,64
+the Sun God(dess),64
+the Underworld,64
+the War God(dess),64
+the West,64
+Wisdom,64
+the Arctics,64
+the Deserts,64
+the Woodlands,64
+the Plains,64
+the Mountains,64
+the Rivers,64
+the Ocean,64
+the Sea,64

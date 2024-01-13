@@ -1,0 +1,172 @@
+//Vocab types:
+//1- first
+//2-last
+--ORGANIZATION
+1,2
+, ,
+//Vocabulary
+--VOCABULARY
+//Lasts
+Aguilar,2
+Ash,2
+Black,2
+Blacke,2
+Blackman,2
+Blood,2
+Bloodgood,2
+Bloodsworth,2
+Bloodworth,2
+Bludworth,2
+Borges,2
+Borgia,2
+Breedlove,2
+Bright,2
+Callisto,2
+Cane,2
+Carpathia,2
+Cervantes,2
+Chrisanti,2
+Christian,2
+Christiansen,2
+Church,2
+Cole,2
+Constantine,2
+Cornelius,2
+Corona,2
+Crane,2
+Creighton,2
+Cromwell,2
+Cross,2
+Crowe,2
+Crowley,2
+Dark,2
+Dejesus,2
+Delacroix,2
+Delarosa,2
+Delgado,
+Devon,2
+Devonshire,2
+DeVries,2
+Doom,2
+Drabek,2
+Drach,2
+Dracul,2
+Drake,2
+Dupree,2
+Faust,2
+Fortune,2
+Geiger,2
+Giovanni,2
+Gore,2
+Gray,2
+Grey,2
+Gutierrez,2
+Hitchcock,2
+Hunter,2
+Hyde,2
+Kilgore,2
+King,2
+Krauss,2
+La Croix,2
+Lance,2
+Le Blank,2
+Le Doux,2
+Le Mort,2
+Le Roi,2
+Le Rouge,2
+Le Torneau,2
+Lessard,2
+Lestat,2
+Levi,2
+Lobo,2
+Locke,2
+Lockhart,2
+Lord,2
+Loveless,2
+Lovelock,2
+Luna,2
+Luther,2
+Maganti,2
+Maldonado,2
+Marquis,2
+Mock,2
+Montgomery,2
+Morelli,2
+Morelock,2
+Moretti,2
+Morgan,2
+Morganti,2
+Morgenstern,2
+Moriarty,2
+Morningstar,2
+Mortensen,2
+Mortenson,2
+Morvant,2
+Nestor,2
+Nicodemeus,2
+Nicolai,2
+Nicoletti,2
+Night,2
+Nix,2
+Noble,2
+Norwood,2
+Orlando,2
+Pagan,2
+Rasputin,2
+Riddle,2
+Roman,2
+Rosario,2
+Rosenberg,2
+Roth,2
+Salizar,2
+Sandoval,2
+Sangrey,2
+Sangria,2
+Santana,2
+Santi,2
+Santiago,2
+Savage,2
+Serrano,2
+Shade,2
+Sharpe,2
+Sierra,2
+Silver,2
+Skinner,2
+Slaughter,2
+Solomon,2
+Stark,2
+Sturm,2
+Sturmer,2
+Talbot,2
+Thorn,2
+Tobin,2
+Trueblood,2
+Tuck,2
+Valentine,2
+Valentine,2
+Vallejo,2
+Vanderpoole,2
+Victor,2
+Vigil,2
+Villalobos,2
+Villarreal,2
+Vincent,2
+Von Bargen,2
+Von Blood,2
+Von Hagen,2
+Von Ruden,2
+Von Seggrern,2
+Von Stein,2
+Vonderheide,2
+Vondrack,2
+Vondrak,2
+Vondran,2
+Vonner,2
+Vorhis,2
+Vorkink,2
+Vosmus,2
+Voss,2
+Vossen,2
+Wolfe,2
+Wolff,2
+Youngblood,2

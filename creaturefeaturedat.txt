@@ -1,0 +1,249 @@
+//ROUTES
+//SETS set RET
+//REFS are Refs
+//* means no show
+//<*> means no return
+// A tab provides what is set, followed by true/false if it's erased or added.
+//Each seed has a sub seed of type.
+SEED
+	<SEEDANIMAL> <ROUTESEQUELS>
+	<SEEDANIMAL> <REFTITLEEND>
+	<SEEDANIMALMORE> <ROUTESEQUELS>
+SEEDANIMAL
+	<REFPREFIX><REFANIMALGENERAL>
+//doubled up
+	<REFDESCRIPTOR> <REFANIMALGENERAL>
+	<REFDESCRIPTOR> <REFANIMALGENERAL>
+//end double up
+	<REFANIMALGENERAL><REFPHENOMENA>
+	<REFANIMALENDC><REFSUFFIXV>
+	<REFANIMALENDV><REFSUFFIXC>
+SEEDANIMALMORE
+	<SEEDANIMAL> versus <SEEDANIMAL>
+	<REFTITLESTART> <SEEDANIMAL>
+	<SEEDANIMALMORESPAWN>
+SEEDANIMALMORESPAWN
+	<REFSPAWN> <SEEDANIMAL> versus <SEEDANIMAL>
+	<SEEDANIMAL> versus <REFSPAWN> <SEEDANIMAL>	
+	<REFSPAWN> <SEEDANIMAL> versus <REFSPAWN> <SEEDANIMAL>	
+//Regulars
+	<REFSPAWN> <SEEDANIMAL>
+	<REFSPAWN> <SEEDANIMAL> 
+	<REFSPAWN> <SEEDANIMAL>
+	<REFSPAWN> <SEEDANIMAL>
+	<REFSPAWN> <SEEDANIMAL>
+	<REFSPAWN> <SEEDANIMAL> 
+REFPREFIX
+	Astro
+	Bio
+	Cryo
+	Cyber
+	Electro
+	Mecha
+	Mega
+	Metallo
+	Necro
+	Pyro
+	Robo
+	Techno
+	Toxi
+	Ultra
+REFDESCRIPTOR
+	Alien
+	Atomic
+	Cyborg
+	Death
+	Demon
+	Devil
+	Electric
+	Ghost
+	Hell
+	Killer
+	Magnetic
+	Metal
+	Monster
+	Mummy
+	Nuclear
+	Phantom
+	Psychic
+	Robot
+	Skeleton
+	Time
+	Toxic
+	Two-Headed
+	Undead
+	Zombie
+REFANIMALGENERAL
+	Aligator
+	Anaconda
+	Barracuda
+	Bear
+	Bee
+	Beast
+	Cobra
+	Crocodile
+	Dinosaur
+	Dragon
+	Kraken
+	Lion
+	Mamba
+	Man
+	Octopus
+	Orca
+	Piranha
+	Scorpion
+	Serpent
+	Shark
+	Snake
+	Spider
+	Squid
+	Tarantula
+	Tiger
+	Tyranosaurus
+	Viper
+	Wasp
+	Wolf
+REFANIMALENDC
+	Anacond
+	Bear
+	Beast
+	Croc
+	Dragon
+	Man
+	Mosquit
+	Oct
+	Scorp
+	Shark
+	Squid
+	Tarant
+	Tiger
+	Viper
+	Wasp
+	Wolf
+REFANIMALENDV
+	Bee
+	Cobra
+	Croco
+	Dino
+	Draco
+	Kraken
+	Insecto
+	Lion
+	Mamba
+	Mosquito
+	Octo
+	Orca
+	Piranha
+	Scorpi
+	Snake
+	Tarantu
+	Tyrano
+REFSUFFIXV
+	<REFRANDVOWEL>sect
+	aconda
+	adroid
+	antula
+	asaurus
+	igator
+	ion
+	oborg
+	obot
+	odile
+	osaurus
+REFSUFFIXC
+	borg
+	bot
+	conda
+	cuda
+	dile
+	droid
+	gator
+	noid
+	rantula
+	saurus
+	sect
+	shark
+	snake
+	wolf
+REFPHENOMENA
+	alanche
+	icane
+	nado
+	nami
+	quake
+	storm
+//Modifiers
+REFSPAWN
+	Child of
+	Daughter of
+	Son of
+	Spawn of
+REFTITLESTART
+	The Dawn Of
+	The Dawn Of
+	The Night Of
+	The Return Of
+	The Revenge Of
+	The Rise Of
+//Title Ends
+REFTITLEEND
+	Assault
+	Attack
+	Reborn
+	Reloaded
+	Returns
+	Rises Again
+	Triumphant
+	Victorious
+	: The Return
+	: The Rebirth
+	: The Next Generation
+	: The Real Story
+	: The Untold Story
+	: The Legend Continues
+//Sequels
+ROUTESEQUELS
+	<*>
+	<*>
+	<REFSEQUELS>
+REFSEQUELS
+	Part <REFSEQUELNUM>
+	Part <REFSEQUELNUM>
+	: <REFSEQUELEXPAND>
+	Part <REFSEQUELNUM>: <REFSEQUELEXPAND>
+REFSEQUELNUM
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+REFSEQUELEXPAND
+	The Rebirth
+	Reloaded
+	The Next Generation
+	The Legend Continues
+	The Legend Ends
+	The Final Battle
+	The Showdown
+// General assistance
+REFNUM
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+REFRANDVOWEL
+	a
+	e
+	i
+	o
+	u

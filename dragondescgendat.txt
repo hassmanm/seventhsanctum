@@ -1,0 +1,1033 @@
+//Seeds
+SEED
+	<SEEDBUILDINDICATIVE>  <RELAYCOLOR><SEEDSCALESPOSESSIVE><TAILROUTE>  <SEEDLIMBSINDICATIVE>  <SEEDPOSESSIVEWINGSROUTE><SEEDBACKROUTE>  <SEEDHEADINDICATIVE><SEEDHEADFEATURES>
+	<RELAYCOLOR><SEEDSCALESINDICATIVE>  <SEEDBUILDPOSESSIVE><TAILROUTE>  <SEEDLIMBSINDICATIVE>  <SEEDPOSESSIVEWINGSROUTE><SEEDBACKROUTE>  <SEEDHEADINDICATIVE><SEEDHEADFEATURES>
+SEEDHEADFEATURES
+	  <SEEDNOASEPOSESSIVE>  <REFEYEINDICATIVE>  <SEEDEXTRAHEADFEATURES>
+	  <SEEDNOASEPOSESSIVE>  <REFEYEINDICATIVE>  <REFEARPOSESSIVE>  <SEEDEXTRAHEADFEATURES>
+	  <REFEYEPOSESSIVE> <REFEARINDICATIVE>  <SEEDEXTRAHEADFEATURES>
+	  <REFEYEPOSESSIVE>  <SEEDEXTRAHEADFEATURES>
+SEEDEXTRAHEADFEATURES
+	<REFBACKOFHEAD>
+	<REFCHINMOUTH>
+	<REFNOSEMOD>
+	<REFOREHEAD>
+	<REFBACKOFHEAD> <REFCHINMOUTH>
+	<REFBACKOFHEAD>  <REFNOSEMOD>
+	<REFCHINMOUTH>  <REFNOSEMOD>
+	<REFBACKOFHEAD> <REFCHINMOUTH> <REFNOSEMOD>
+	<REFBACKOFHEAD> <REFCHINMOUTH> <REFOREHEAD>
+	<REFBACKOFHEAD>  <REFNOSEMOD> <REFOREHEAD>
+	<REFCHINMOUTH>  <REFNOSEMOD> <REFOREHEAD>
+	<REFBACKOFHEAD> <REFCHINMOUTH> <REFNOSEMOD> <REFOREHEAD>
+//SCALES
+SEEDSCALESPOSESSIVE
+	Its<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	Its<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	Its<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	Its<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	Its  <SEEDSCALESUNUSUAL>.
+SEEDSCALESINDICATIVE
+	This dragon's<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	This dragon's<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	This dragon's<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	This dragon's<SCALEEXTRASROUTE> scales are <SCALECOLORREF><SCALEMODROUTE>.
+	This dragon's <SEEDSCALESUNUSUAL>.
+SEEDSCALESUNUSUAL
+	<SEEDSCALEUNUSUALHAVESCALES>
+	<SEEDSCALEUNUSUALHAVESCALES>
+	<SEEDSCALEUNUSUALNOSCALES>
+SEEDSCALEUNUSUALHAVESCALES
+	<REFBASECOLOR> scales are more plates of armor, like those of <SEEDSCALESUNUSUALARMORREF>
+	scales are <REFBASECOLOR>, and it has a turtle-like shell on its back
+SEEDSCALEUNUSUALNOSCALES
+	<SEEDNONSCALESKIN> skin is <REFBASECOLOR>
+	<SEEDNONSCALESKIN> skin is <REFFANCYCOLOR>
+	<SEEDNONSCALESKIN> skin is the color of <REFCOLORTHING>
+	<SEEDNONSCALEFUR> fur is <REFBASECOLOR>
+	<SEEDNONSCALEFUR> fur is <REFFANCYCOLOR>
+	<SEEDNONSCALEFUR> fur is the color of <REFCOLORTHING
+SEEDSCALESUNUSUALARMORREF
+	an armadillo
+	an insect
+	a war machine
+SEEDNONSCALESKIN
+	leathery
+	loose-hanging
+	translucent
+	thick
+	scaly
+SEEDNONSCALEFUR
+	fine
+	long
+	silky
+	thick
+	thin
+SCALECOLORREF
+	<REFBASECOLOR>
+	<REFFANCYCOLOR>
+	the color of <REFCOLORTHING>
+//Scale extras
+SCALEEXTRASROUTE
+	<*>
+	<SCALEEXTRAS>
+SCALEEXTRAS
+	 <SCALECOLOREXTRA>
+	 <*SCALEFORMEXTRA><REFSCALEFORM>, <SCALECOLOREXTRA>
+	 <*SCALEFORMEXTRA><REFSCALEFORM>
+//Scale color enhancements.
+SCALECOLOREXTRA
+	gemlike
+	metallic
+	translucent
+	unreflective
+//Scale forms
+SCALEFORMEXTRA
+	<SCALEFORMFINE>
+	<SCALEFORMTHICK>
+SCALEFORMFINE
+	<*>
+		REFSCALEFORM,true
+			fine
+		SCALETHICKROUTE,true
+			<SCALETHICKER>
+SCALEFORMTHICK
+	<*>
+		REFSCALEFORM,true
+			plate-like
+			thick
+		SCALETHICKROUTE,true
+			<SCALETHINNER>
+REFSCALEFORM
+	REFSCALEFORM
+//Scale modification - shading and thickness
+SCALEMODROUTE
+	<*>
+	<*>
+	<*>
+	, <SCALESHADEROUTE>
+	, <SCALETHICKROUTE>
+	, <SCALESHADEROUTE> and <SCALETHICKROUTE>
+SCALESHADEROUTE
+	<SCALESHADELIGHT>
+	<SCALESHADEDARK>
+SCALESHADELIGHT
+	shading to lighter on its underside
+	shading to lighter on its underside
+	shading to lighter on its belly
+	shading to lighter on the underside of it's neck
+	shading to lighter towards the front of its body
+	shading to lighter on some random patches of its body
+SCALESHADEDARK
+	shading to darker on its back
+	shading to darker on its back
+	shading to darker on its belly
+	shading to darker on the back of its neck
+	shading to darker towards its hindquarters
+	shading to darker on some random patches of its body	
+SCALETHICKROUTE
+	<SCALETHICKER>
+	<SCALETHINNER>
+SCALETHICKER
+	getting much thicker on its back
+	getting much thicker on its tail
+	getting much thicker around its head
+SCALETHINNER
+	getting finer and less thick on its underbelly
+	getting finer and less thick on its limbs
+	getting finer and less thick on its neck
+	getting finer and less thick on its neck and tail
+//END SCALES
+//FORMS
+SEEDBUILDPOSESSIVE
+	It has <REFBUILD> body<SEEDBUILDEXTENSIONSROUTE>.
+	It has <REFBUILD>, <REFBUILDLENGTH> body<SEEDBUILDEXTENSIONSROUTE>.
+SEEDBUILDINDICATIVE
+	This dragon has <REFBUILD> body<SEEDBUILDEXTENSIONSROUTE>.
+	This dragon has <REFBUILD>, <REFBUILDLENGTH> body<SEEDBUILDEXTENSIONSROUTE>.
+SEEDBUILDEXTENSIONSROUTE
+	<*>
+	 <SEEDBUILDEXTENSIONS>
+	 <SEEDBUILDEXTENSIONS>
+SEEDBUILDEXTENSIONS
+	with a <REFEXLENGTH> tail
+	with a <REFEXLENGTH> neck
+	with a <REFEXLENGTH> tail and neck
+	with a <REFEXLENGTH> tail and neck
+	with a <REFEXTHICKNESS> tail
+	with a <REFEXTHICKNESS> neck
+	with a <REFEXTHICKNESS> tail and neck
+	with a <REFEXTHICKNESS> tail and neck
+	with a <REFEXLENGTH>, <REFEXTHICKNESS> tail
+	with a <REFEXLENGTH>, <REFEXTHICKNESS> neck
+	with a <REFEXLENGTH>, <REFEXTHICKNESS> tail and neck
+	with a <REFEXLENGTH>, <REFEXTHICKNESS> tail and neck
+REFBUILD
+	<REFBUILDTHICK>
+	<REFBUILDTHIN>
+REFBUILDTHICK
+	<REFBUILDHOLDER>
+		REFBUILDHOLDER,true
+			a broad
+			a muscular
+			a stocky
+			a thick
+		REFEXTHICKNESS,true
+			<REFEXTHICK>
+		LIMBMAKE,true
+			<LIMBMAKETHICK>
+REFBUILDTHIN
+	<REFBUILDHOLDER>
+		REFBUILDHOLDER,true
+			an elegant
+			a thin
+			a serpentine
+		REFEXTHICKNESS,true
+			<REFEXTHIN>
+REFBUILDLENGTH
+	<REFBUILDLENGTHLONG>
+	<REFBUILDLENGTHSHORT>
+REFBUILDLENGTHLONG
+	elongated
+	long
+REFBUILDLENGTHSHORT
+	short
+//Extensions
+REFEXLENGTH
+	<REFEXLENGTHSHORT>
+	<REFEXLENGTHLONG>
+REFEXTHICKNESS
+	<REFEXTHICK>
+	<REFEXTHIN>
+REFEXLENGTHSHORT
+	short
+	stubby
+REFEXLENGTHLONG
+	long
+	very long
+REFEXTHICK
+	wide
+	thick
+REFEXTHIN
+	slender
+	thin
+REFBUILDHOLDER
+	REFBUILDHOLDER
+//END FORMS
+//TAILS
+TAILROUTE
+	<*>
+	<*>
+	  <TAILTYPE>  
+TAILTYPE
+	On the end of its tail is a stinger.
+	On the end of its tail is a clublike extension.
+	On the end of its tail is a long spike.
+	On the end of its tail is a spiked ball.
+	On the end of its tail is a bladelike extension.
+	On the end of its tail is an axelike extension.
+	On either side of its tail are sharp, bladelike extensions.
+	On the end of its tail is a hooklike extension.
+//END TAILS
+//LIMBS AND CLAWS
+SEEDLIMBSPOSESSIVE
+	It has<LIMBCOUNTROUTE> <LIMBLENGTH> limbs <SEEDCLAWS>.
+	It has<LIMBCOUNTROUTE> <LIMBMAKE> limbs <SEEDCLAWS>.
+	It has<LIMBCOUNTROUTE> <LIMBLENGTH>, <LIMBMAKE> limbs <SEEDCLAWS>.
+SEEDLIMBSINDICATIVE
+	This dragon has<LIMBCOUNTROUTE> <LIMBLENGTH> limbs <SEEDCLAWS>.
+	This dragon has<LIMBCOUNTROUTE> <LIMBMAKE> limbs <SEEDCLAWS>.
+	This dragon has<LIMBCOUNTROUTE> <LIMBLENGTH>, <LIMBMAKE> limbs <SEEDCLAWS>.
+LIMBCOUNTROUTE
+	<*>
+	<*>
+	<*>
+	<*>
+	<*>
+	<*>
+	<*>
+	<*>
+	<*>
+	 six
+	 six
+	 eight
+LIMBMAKE
+	<LIMBMAKETHICK>
+	<LIMBMAKETHIN>
+LIMBMAKETHICK
+	<LIMBMAKEDESC>
+		LIMBMAKEDESC,true
+			muscular
+			powerful
+			thick
+LIMBMAKETHIN
+	<LIMBMAKEDESC>
+		LIMBMAKEDESC,true
+			slender
+			thin
+LIMBLENGTH
+	<LIMBLENGTHLONG>
+	<LIMBLENGTHSHORT>
+LIMBLENGTHLONG
+	<LIMBLENGTHDESC>
+		LIMBLENGTHDESC,true
+			elongated
+			long
+LIMBLENGTHSHORT
+	<LIMBLENGTHDESC>
+		LIMBLENGTHDESC,true
+			short
+LIMBMAKEDESC
+	LIMBMAKEDESC
+LIMBLENGTHDESC
+	LIMBLENGTHDESC
+//claws
+SEEDCLAWS
+	with <REFCLAWNUMBER> <REFCLAWMOUNT> digits on each foot
+	with <REFCLAWNUMBER> digits on each foot
+	with <REFCLAWNUMBER> digits on each foot that end in <REFCLAWLENGTH> claws
+	with <REFCLAWNUMBER> <REFCLAWMOUNT> digits on each foot that end in <REFCLAWLENGTH> claws
+	with <REFCLAWNUMBER> digits on each foot that end in <REFCLAWLENGTH> claws
+	with <REFCLAWNUMBER> <REFCLAWMOUNT> digits on each foot that end in <REFCLAWLENGTH> claws
+	with <REFCLAWNUMBER> digits on each foot that end in <REFCLAWTYPE> claws
+	with <REFCLAWNUMBER> <REFCLAWMOUNT> digits on each foot that end in <REFCLAWTYPE> claws
+	with <REFCLAWNUMBER> digits on each foot that end in <REFCLAWLENGTH>, <REFCLAWTYPE> claws
+	with <REFCLAWNUMBER> <REFCLAWMOUNT> digits on each foot that end in <REFCLAWLENGTH>, <REFCLAWTYPE> claws
+REFCLAWNUMBER
+	two
+	three
+	three
+	four
+	four
+	four
+	five
+	six
+REFCLAWMOUNT
+	closely-mounted
+	splayed
+REFCLAWLENGTH
+	<REFCLAWLENGTHLONG>
+	<REFCLAWLENGTHSHORT>
+REFCLAWLENGTHLONG
+	long
+	very long
+REFCLAWLENGTHSHORT
+	short
+	very short
+REFCLAWTYPE
+	blunt
+	sharp
+//END LIMBS AND CLAWS
+//WINGS
+SEEDPOSESSIVEWINGSROUTE
+	It has no wings.
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+	<SEEDPOSESSIVEWING>
+SEEDSINDICATIVEWINGSROUTE
+	This dragon has no wings.
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+	<SEEDSINDICATIVEWING>
+SEEDPOSESSIVEWING
+	It <SEEDWINGSUNUSUAL>.
+	It <SEEDWINGSREGULAR>.
+	It <SEEDWINGSREGULAR>.
+	It <SEEDWINGSREGULAR>.
+	It <SEEDWINGSREGULAR>.
+SEEDSINDICATIVEWING
+	This dragon <SEEDWINGSUNUSUAL>.
+	This dragon <SEEDWINGSREGULAR>.
+	This dragon <SEEDWINGSREGULAR>.
+	This dragon <SEEDWINGSREGULAR>.
+	This dragon <SEEDWINGSREGULAR>.
+SEEDWINGSREGULAR
+	has <REFWINGDESCEX>, <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGDESCEX><REFWINGSDESCNMROUTE> wings
+	has <REFWINGDESCEX><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has<REFWINGSDESCNMROUTE2> wings <REFWINGLENGTH>
+	has <REFWINGSETTING><REFWINGSDESCNMROUTE> wings
+	has <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE> <REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE>, <REFWINGDESCEX>, <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE>, <REFWINGDESCEX><REFWINGSDESCNMROUTE> wings
+	has <REFWINGSIZE>, <REFWINGDESCEX><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE>, <REFWINGSETTING><REFWINGSDESCNMROUTE> wings
+	has <REFWINGSIZE>, <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE>, <REFWINGSETTING><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE><REFWINGSDESCNMROUTE> wings
+	has <REFWINGSIZE><REFWINGSDESCNMROUTE> wings
+	has <REFWINGSIZE><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSIZE><REFWINGSDESCNMROUTE> wings <REFWINGLENGTH>
+	has <REFWINGSDESCNM> wings
+	has<REFWINGSDESCNMROUTE2> wings <REFWINGLENGTH>
+SEEDWINGSUNUSUAL
+	has <SEEDWINGSUNUSUALBETWEEN>
+	has wings <SEEDWINGSUNUSUALTYPE>
+SEEDWINGSUNUSUALBETWEEN
+	<REFWINGSDESCFULL> wings that stretch between its limbs
+	<REFWINGSDESCFULL> wings that stretch between its forelimbs and the end of its tail
+SEEDWINGSUNUSUALTYPE
+	like those of a dragonfly
+	like those of a manta ray
+	like those of some strange mechanical device
+	like those of a butterfly
+	that resemble rays of light more than anything else
+	that seem to have no definite shape
+	that seem to be amorphous, like a cloud of smoke
+REFWINGSDESCNMROUTE
+	, <REFWINGSDESCNM>
+	<*>
+	<*>
+	<*>
+REFWINGSDESCNMROUTE2
+	 <REFWINGSDESCNM>
+	<*>
+	<*>
+	<*>
+REFWINGDESCEX
+	elegant
+	graceful
+	ragged-looking
+	strange
+REFWINGSDESCNM
+	fanlike
+	frill-like
+REFWINGSDESCFULL
+	fanlike
+	frill-like
+	membranous
+REFWINGLENGTH
+	running from its shoulders to its lower back
+	running from its shoulders to its lower back
+	running from its shoulders to its hips
+	running from its shoulders to its hips
+	running from its shoulders to the middle of its tail
+	running from its shoulders to the end of its tail
+REFWINGSETTING
+	close-set
+	wide-set
+REFWINGSIZE
+	<REFWINGSIZELARGE>
+	<REFWINGSIZESMALL>
+REFWINGSIZELARGE
+	enormous
+	gigantic
+	huge
+	large
+REFWINGSIZESMALL
+	small
+//END WINGS
+//START BACK
+SEEDBACKROUTE
+	<*>
+	  <SETBACKDETAILS><REFBACKNUMBERROUTE>.
+REFBACKNUMBERROUTE
+	<RETBACKDETAILSINGLE> <REFBACKHOWSINGLE>
+	<REFBACKNUMBER> <RETBACKDETAILPLURAL> <REFBACKHOWPLURAN>
+REFBACKNUMBER
+	Two
+	Three
+REFBACKHOWSINGLE
+	runs down its back
+	runs down its back
+	runs from the base of its skull to its shoulders
+	runs from its shoulders to the tip of its tail
+	runs from the base of its skull, down its back, to the tip of its tail
+REFBACKHOWPLURAN
+	run down its back
+	run down its back
+	run from the base of its skull to its shoulders
+	run from its shoulders to the tip of its tail
+	run from the base of its skull, down its back, to the tip of its tail
+//Back information
+SETBACKDETAILS
+	<*>
+		RETBACKDETAILSINGLE,true
+			A membranous crest
+			A ragged, membranous crest
+			A semi-transparent, membranous crest
+		RETBACKDETAILPLURAL,true
+			membranous crests
+			ragged, membranous crests
+			semi-transparent, membranous crests
+	<*>
+		RETBACKDETAILSINGLE,true
+			A row of spines
+			A row of quills
+		REFBACKNUMBERROUTE,true
+			<RETBACKDETAILSINGLE> <REFBACKHOWSINGLE>
+	<*>
+		RETBACKDETAILSINGLE,true
+			A row of bony plates
+		RETBACKDETAILPLURAL,true
+			rows of bony plates
+	<*>
+		RETBACKDETAILSINGLE,true
+			A row of bony knobs
+		RETBACKDETAILPLURAL,true
+			rows of bony knobs
+	<*>
+		RETBACKDETAILSINGLE,true
+			A membranous frill
+		RETBACKDETAILPLURAL,true
+			membranous frills
+	<*>
+		RETBACKDETAILSINGLE,true
+			A row of tendrils
+		RETBACKDETAILPLURAL,true
+			rows of tendrils
+RETBACKDETAILSINGLE
+	RETBACKDETAILSINGLE
+RETBACKDETAILPLURAL
+	RETBACKDETAILPLURAL
+
+//END BACK
+//START HEAD/JAW
+SEEDHEADPOSESSIVE
+	It's head is <REFHEADTYPES> with a <REFJAWTYPES><ROUTEJAWMODS>.
+	It's head is <REFHEADTYPES>.
+	It has a <REFJAWTYPES><ROUTEJAWMODS>.
+SEEDHEADINDICATIVE
+	This dragon's head is <REFHEADTYPES> and it has a <REFJAWTYPES><ROUTEJAWMODS>.
+	This dragon's head is <REFHEADTYPES>.
+	This dragon has a <REFJAWTYPES><ROUTEJAWMODS>.
+ROUTEJAWMODS
+	<*>
+	 <REFJAWMODS>
+REFJAWMODS
+	and has <REFJAWMODSBITE>
+	with <REFJAWMODSTEETH>
+	with <REFJAWMODSBITE> and <REFJAWMODSTEETH>
+REFJAWMODSBITE
+	a prounounced overbite
+	a pronounced underbite
+REFJAWMODSTEETH
+	huge teeth
+	fine, sharp teeth
+	multiple rows of teeth
+	two tusklike teeth in front
+	irregularly shaped teeth
+REFHEADTYPES
+	bluntly-formed
+	blocky
+	elongated
+	narrow
+	misshapen
+	wedge-shaped
+	wide
+REFJAWTYPES
+	<REFJAWTYPESLARGE>
+	<REFJAWTYPESSMALL>
+REFJAWTYPESLARGE
+	wide mouth
+	huge mouth
+	mouth that takes up most of its face
+	mouth that runs most of the length of its face
+REFJAWTYPESSMALL
+	small mouth
+	tiny mouth
+//END HEAD JAW
+//START NOSTRILS
+SEEDNOASEPOSESSIVE
+	It has <REFNOSESIZE> <REFNOSEFORM> nostrils <REFNOSELOCATION>.
+	It has <REFNOSESIZE> nostrils <REFNOSELOCATION>.
+	It has <REFNOSEFORM> nostrils <REFNOSELOCATION>.
+	It has <REFNOSESIZE> <REFNOSEFORM> nostrils.
+	It has <REFNOSESIZE> nostrils.
+	It has <REFNOSEFORM> nostrils.
+SEEDNOSEINDICATIVE
+	This dragon has <REFNOSESIZE> <REFNOSEFORM> nostrils <REFNOSELOCATION>.
+	This dragon has <REFNOSESIZE> nostrils <REFNOSELOCATION>.
+	This dragon has <REFNOSEFORM> nostrils <REFNOSELOCATION>.
+	This dragon has <REFNOSESIZE> <REFNOSEFORM> nostrils.
+	This dragon has <REFNOSESIZE> nostrils.
+	This dragon has <REFNOSEFORM> nostrils.
+REFNOSESIZE
+	<REFNOSESIZESMALL>
+	<REFNOSESIZELARGE>
+REFNOSESIZESMALL
+	tiny
+	small
+REFNOSESIZELARGE
+	large
+	giant
+REFNOSEFORM
+	round
+	oval
+	slitted
+REFNOSELOCATION
+	located close together
+	located on either side of its snout
+	located unusually far back on its snout
+//END NOSTRILS
+//START EYES
+REFEYEPOSESSIVE
+	It <REFEYEFULL>.
+REFEYEINDICATIVE
+	This dragon <REFEYEFULL>.
+REFEYEFULL
+	has<RELAYCOLORSCRAMBLE><SETEYETYPEROUTE><EYENUMROUTE> <REFEYEFORMROUTE><RETEYETYPE> <RETEYEREF> that <REFEYETRANS> <REFBASECOLOR>
+	has<RELAYCOLORSCRAMBLE><SETEYETYPEROUTE><EYENUMROUTE> <REFEYEFORMROUTE><RETEYETYPE> <RETEYEREF> that <REFEYETRANS> <REFFANCYCOLOR>
+	has<RELAYCOLORSCRAMBLE><SETEYETYPEROUTE><EYENUMROUTE> <REFEYEFORMROUTE><RETEYETYPE> <RETEYEREF> that <REFEYETRANS> the color of <REFCOLORTHING>
+REFEYEFORMROUTE
+	<REFEYEFORM>
+REFEYEFORM
+	almond-shaped
+	beady
+	deep-set
+	droopy
+	hooded
+	large
+	narrow
+	round
+	slanted
+	slitted
+	small
+	wide
+EYENUMROUTE
+	<*>
+	<*>
+	<*>
+	<*>
+	 <EYENUMDIFFER>
+EYENUMDIFFER
+	one
+		REFEYEFORMROUTE,true
+			<*>
+		RETEYEREF,true
+			eye
+		REFEYETRANS,true
+			is
+	three
+SETEYETYPEROUTE
+	<*>
+	<*>
+	<*>
+	<SETEYETYPE>
+SETEYETYPE
+	<*>
+		RETEYETYPE,true
+			 faceted 
+	<*>
+		RETEYETYPE,true
+			 gem-like 
+	<*>
+		RETEYETYPE,true
+			 mirror-like 
+RETEYETYPE
+	<*>
+RETEYEREF
+	eyes
+REFEYETRANS
+	are
+//END EYES
+//START EARS
+REFEARPOSESSIVE
+	It <REFEARFULL>.
+REFEARINDICATIVE
+	This dragon <REFEARFULL>.
+REFEARFULL
+	has no visible ears.
+	has <REFEARSIZE>, pointed ears
+	has <REFEARSIZE>, frilled ears
+	has <REFEARSIZE> holes for ears
+	has strange membranes that function as ears
+REFEARSIZE
+	<REFEARSIZESMALL>
+	<REFEARSIZELARGE>
+REFEARSIZESMALL
+	small
+	tiny
+REFEARSIZELARGE
+	huge
+	large
+//END EARS
+//START BACK OF HEAD
+REFBACKOFHEAD
+	A bony plate projects from the back of its skull, protecting its upper neck
+	A series of tendrils extends, hair-like, from the back of its head.
+	A mane of spines sprouts from the back of its head.
+	A mane of bony spikes sprout from the back of its head.
+	Two large frilled membranes sprout from each side of its head, framing its face.
+	Winglike bony plates project from the back of its head.
+	The back of this dragon's head and neck is protected by thick bone.
+//END BACK OF HEAD
+//START CHINMOUTH
+REFCHINMOUTH
+	<REFCHIN>
+	<REFMOUTH>
+REFCHIN
+	A single horn projects from the base of its chin.
+	A series of tentalce-like tendrils sprouts from its chin.
+	Bladelike bony plates sprout from its chin.
+	It's chin is very pointed.
+REFMOUTH
+	Tendrils surround its mouth.
+	Spiky, bony knobs surround its mouth.
+	It's lips are drawn back, making it look like it's smiling.
+	It has oddly thick lips.
+//END CHINMOUTH
+//STARTNOSE
+REFNOSEMOD
+	Projecting above its nose is a single horn.
+	Bony knobs surround its nostrils.
+	A hornlike projection juts straight out between its nostrils.
+	A bony ridge separates its nostrils.
+	Flaps of skin allow it to completely close its nostrils.
+//ENDNOSE
+//STARTFOREHEAD
+REFOREHEAD
+	<REFFOREHEADNONHORN>
+	<REFFOREHEADHORNS>
+	<REFFOREHEADHORNS>
+	<REFFOREHEADHORNS>
+	<REFFOREHEADHORNS>
+REFFOREHEADNONHORN
+	Two antennae <REFFEATUREDIRECTION> from its forehead.
+	Two feelers <REFFEATUREDIRECTION> from its forhead.
+REFFOREHEADHORNS
+	<REFFOREHEADHORNSVARY>
+	<REFFOREHEADHORNSNORMAL>
+	<REFFOREHEADHORNSNORMAL>
+	<REFFOREHEADHORNSNORMAL>
+	<REFFOREHEADHORNSNORMAL>
+REFFOREHEADHORNSVARY
+	<REFFOREHEADHORNSVARYSINGLE>
+	<REFFOREHEADHORNSVARYPLURAL>
+REFFOREHEADHORNSVARYSINGLE
+	One <REFHORNSIZE>, <REFHORNTYPE> horn <REFFEATUREDIRECTIONSINGLE> from its forhead.
+	One <REFHORNSIZE> horn <REFFEATUREDIRECTIONSINGLE> from its forhead.
+	One <REFHORNTYPE> horn <REFFEATUREDIRECTIONSINGLE> from its forhead.
+	One <REFHORNSIZE>, <REFHORNTYPE> horn extends from its forhead.
+	One horn <REFFEATUREDIRECTIONSINGLE> from its forhead.
+	One horn extends from its forhead.
+REFFOREHEADHORNSVARYPLURAL
+	<REFHORNNUMBER> <REFHORNSIZE>, <REFHORNTYPE> horns <REFFEATUREDIRECTION> from its forhead.
+	<REFHORNNUMBER> <REFHORNSIZE> horns <REFFEATUREDIRECTION> from its forhead.
+	<REFHORNNUMBER> <REFHORNTYPE> horns <REFFEATUREDIRECTION> from its forhead.
+	<REFHORNNUMBER> <REFHORNSIZE>, <REFHORNTYPE> horns extend from its forhead.
+	<REFHORNNUMBER> horns <REFFEATUREDIRECTION> from its forhead.
+	<REFHORNNUMBER> horns extend from its forhead.
+REFFOREHEADHORNSNORMAL
+	Two <REFHORNSIZE>, <REFHORNTYPE> horns <REFFEATUREDIRECTION> from its forhead.
+	Two <REFHORNSIZE> horns <REFFEATUREDIRECTION> from its forhead.
+	Two <REFHORNTYPE> horns <REFFEATUREDIRECTION> from its forhead.
+	Two <REFHORNSIZE>, <REFHORNTYPE> horns extend from its forhead.
+	Two horns <REFFEATUREDIRECTION> from its forhead.
+	Two horns extend from its forhead.
+REFHORNNUMBER
+	Three
+	Four
+	An irregular mass of 
+REFFEATUREDIRECTION
+	extend forward
+	extend backwards
+	extend straight up
+REFFEATUREDIRECTIONSINGLE
+	extends forward
+	extends backwards
+	extends straight up
+REFHORNSIZE
+	short
+	long
+REFHORNTYPE
+	curly
+	misshapen
+	straight
+//ENDFOREHEAD
+//Colors
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLORSCRAMBLE
+	<RELAYCOLOR>
+	<RELAYCOLOR><RELAYCOLOR>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+		REFCOLORTHING,true
+			dying embers
+			fresh roses
+			rust
+			valuable rubies
+		RELAYCOLOR,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+		REFCOLORTHING,true
+			burning flames
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+		REFCOLORTHING,true
+			polished amber
+			fine gold
+			ripe lemons
+			desert sand
+			the sun
+			yellowed ivory
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+		REFCOLORTHING,true
+			beyrls
+			valuable emeralds
+			fine jade
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+		REFCOLORTHING,true
+			blue tropical waters
+			sapphires
+			the afternoon sky
+			the evening sky
+			turquoises
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+		REFCOLORTHING,true
+			amethysts
+			fine purple wine
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+		REFCOLORTHING,true
+			alabaster
+			bleached bone
+			fine china
+			ivory
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		SCALESHADEROUTE,true
+			<SCALESHADEDARK>
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+		REFCOLORTHING,true
+			charcoal
+			obsidian
+			the midnight sky
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		SCALESHADEROUTE,true
+			<SCALESHADELIGHT>
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+			silver
+			platinum
+		REFFANCYCOLOR,true
+			slate-gray
+			platinum
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+		REFCOLORTHING,true
+			an overcast sky
+			cold ashes
+			burnished iron
+			smoke
+			fine silver
+			polished platinum
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+			bronze
+		REFFANCYCOLOR,true
+			beige
+			chestnut
+			bronze
+		REFCOLORTHING,true
+			varnished wood
+			polished bronze
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+REFCOLORTHING
+	REFCOLORTHING

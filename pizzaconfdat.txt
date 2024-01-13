@@ -1,0 +1,18 @@
+Any
+	ANY
+		pizzamixdat.txt
+		pizzameatdat.txt
+		pizzavegdat.txt
+		pizzadat.txt
+Combinations
+	COMBO
+		pizzamixdat.txt
+		pizzadat.txt
+Meat Pizzas
+	MEAT
+		pizzameatdat.txt
+		pizzadat.txt
+Vegetable Pizzas
+	VEG
+		pizzavegdat.txt
+		pizzadat.txt

@@ -1,0 +1,1836 @@
+//Seeds
+SEED
+	The <ROUTEGETASSOCFRONT> <*GETSCHOOL><GENSCHOOLTYPE>.  <SEEDKNOWNRANGE>  <SEEDFOCUSES>  <SEEDMOVES>
+	The <*GETSCHOOL><GENSCHOOLTYPE> of <ROUTEGETASSOCBACK>.  <SEEDKNOWNRANGE>  <SEEDFOCUSES>  <SEEDMOVES>
+	The <*GETSCHOOL><GETSCHOOLDESC> <GENSCHOOLTYPE> of <ROUTEGETASSOCBACK>.  <SEEDKNOWNRANGE>  <SEEDFOCUSES>  <SEEDMOVES>
+SEEDKNOWNRANGE
+	<REFSCHOOLREF> is <GENKNOWN> and <GENSPREAD>.
+SEEDFOCUSES
+	<REFSCHOOLREF> has <REFREPCLASS> for <GENSCHOOLFOCUS>, and <REFFOCUSCLASS> <GENSCHOOLSKILLS>.
+SEEDMOVES
+	<REFSCHOOLREF> is known for the "<SEEDINDVMOVES>".
+	<REFSCHOOLREF> is known for the <REFMOVEREP> "<SEEDINDVMOVES>".
+	<REFSCHOOLREF> is known for the "<SEEDINDVMOVES>" and the "<SEEDINDVMOVES>".
+	<REFSCHOOLREF> is known for the <REFMOVEREP> "<SEEDINDVMOVES>" and the <REFMOVEREP> "<SEEDINDVMOVES>".
+	<REFSCHOOLREF> <REFMOVEGUARD> guards its ultimate technique, the "<SEEDINDVMOVES>".
+	<REFSCHOOLREF> initially teaches beginners the "<SEEDINDVMOVES>" and builds up to the "<SEEDINDVMOVES>".
+SEEDINDVMOVES
+	<GETDESA> <GETACTB>
+	<GETDESA> <GETACTC>
+	<GETOBJA> <GETACTB>
+	<GETOBJA> <GETACTC>
+	<GETDESB> <GETACTA>
+	<GETDESB> <GETACTC>
+	<GETOBJB> <GETACTA>
+	<GETOBJB> <GETACTC>
+	<GETDESC> <GETACTA>
+	<GETDESC> <GETACTB>
+	<GETOBJC> <GETACTA>
+	<GETOBJC> <GETACTB>
+	<GETDESA> <GETOBJB> <GETACTA>
+	<GETDESA> <GETOBJC> <GETACTA>
+	<GETDESA> <GETOBJC> <GETACTB>
+	<GETDESA> <GETOBJB> <GETACTC>
+	<GETDESB> <GETOBJA> <GETACTB>
+	<GETDESB> <GETOBJC> <GETACTB>
+	<GETDESB> <GETOBJC> <GETACTA>
+	<GETDESB> <GETOBJA> <GETACTC>
+	<GETDESC> <GETOBJA> <GETACTC>
+	<GETDESC> <GETOBJB> <GETACTC>
+	<GETDESC> <GETOBJA> <GETACTB>
+	<GETDESC> <GETOBJB> <GETACTA>
+//Routing Gets
+ROUTEGETASSOCFRONT
+	<*GETANIMAL><GENNAMEFOCUS>
+	<*GETANIMAL><GENNAMEFOCUSPOS>
+	<*GETELEMENT><GENNAMEFOCUS>
+	<*GETANIMAL><GENFOCUSDESC> <GENNAMEFOCUS>
+	<*GETANIMAL><GENFOCUSDESC> <GENNAMEFOCUSPOS>
+	<*GETELEMENT><GENFOCUSDESC> <GENNAMEFOCUS>
+ROUTEGETASSOCBACK
+	<*GETANIMAL><GENNAMEFOCUSPLURAL>
+	the <*GETELEMENT><GENNAMEFOCUS>
+	the <*GETELEMENT><GENNAMEFOCUSPLURAL>
+	<*GETANIMAL><GENFOCUSDESC> <GENNAMEFOCUSPLURAL>
+	the <*GETELEMENT><GENFOCUSDESC> <GENNAMEFOCUS>
+	the <*GETELEMENT><GENFOCUSDESC> <GENNAMEFOCUSPLURAL>
+	<ROUTEGETASSOCBACKNUMBERS>
+ROUTEGETASSOCBACKNUMBERS
+	the <GETNUMBERSINGLE> <*GETANIMAL><GENNAMEFOCUS>
+	the <GETNUMBERSINGLE> <*GETELEMENT><GENNAMEFOCUS>
+	the <GETNUMBERPLURAL> <*GETANIMAL><GENNAMEFOCUSPLURAL>
+	the <GETNUMBERPLURAL> <*GETELEMENT><GENNAMEFOCUSPLURAL>
+	the <GETNUMBERPLURAL> <*GETANIMAL><GENFOCUSDESC> <GENNAMEFOCUSPLURAL>
+	the <GETNUMBERPLURAL> <*GETELEMENT><GENFOCUSDESC> <GENNAMEFOCUSPLURAL>
+//Gets
+GETANIMAL
+	<*>
+		GENNAMEFOCUS,true
+			Bat
+		GENNAMEFOCUSPLURAL,true
+			Bats
+		GENNAMEFOCUSPOS,true
+			Bat's
+		GENFOCUSDESC,true
+			<GETAERIAL>
+			<GETANGER>
+			<GETHATER>
+			<GETHUNTER>
+		GENSCHOOLFOCUS,false
+			morbidity
+			secrecy
+			strange rituals
+		GENSCHOOLSKILLS,false
+			blind-fighting
+			night fighting
+			stealth
+		GETDESB,true
+			Bat's
+			Biting
+			Dark
+			Flying
+		GETOBJB,true
+			Bat
+			Claw
+			Fang
+			Night
+			Wing
+		GETACTB,true
+			Bite
+			Claw
+			Dive
+			Strike
+			Swoop
+			Wing
+	<*>
+		GENNAMEFOCUS,true
+			Bear
+		GENNAMEFOCUSPLURAL,true
+			Bears
+		GENNAMEFOCUSPOS,true
+			Bear's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHUNTER>
+		GENSCHOOLFOCUS,false
+			thoughtfulness
+			serenity
+		GENSCHOOLSKILLS,false
+			endurance
+			fishing skills
+			hunting skills
+			stealth
+			strength
+			developing trance skills
+		GETDESB,true
+			Bear's
+			Roaring
+		GETOBJB,true
+			Claw
+			Fang
+			Bear
+		GETACTB,true
+			Claw
+			Fang
+			Paw
+			Rake
+			Swipe
+	<*>
+		GENNAMEFOCUS,true
+			Cat
+		GENNAMEFOCUSPLURAL,true
+			Cats
+		GENNAMEFOCUSPOS,true
+			Cat's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHUNTER>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+			sudden violence
+		GENSCHOOLSKILLS,false
+			agility
+			endurance
+			grace
+			hunting skills
+			stealth
+			strength
+		GETDESB,true
+			Cat's
+			Feline
+			Feline's
+			Graceful
+		GETOBJB,true
+			Claw
+			Fang
+			Lion
+			Mane
+		GETACTB,true
+			Claw
+			Fang
+			Paw
+			Pounce
+			Rake
+			Swipe
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Dragon
+		GENNAMEFOCUSPLURAL,true
+			Dragons
+		GENNAMEFOCUSPOS,true
+			Dragon's
+		GENFOCUSDESC,true
+			<GETAERIAL>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			aloofness
+			distance
+			mysticism
+			occult powers
+		GENSCHOOLSKILLS,false
+			developing mental powers
+			meditation
+			mysticism
+		GETDESB,true
+			Dragon's
+			Flying
+			Pearl
+			Soaring
+			Thundering
+		GETOBJB,true
+			Dragon
+			Pearl
+			Scale
+			Sky
+			Thunder
+			Wind
+		GETACTB,true
+			Claw
+			Dive
+			Strike
+			Thunder
+	<*>
+		GENNAMEFOCUS,true
+			Eagle
+		GENNAMEFOCUSPLURAL,true
+			Eagles
+		GENNAMEFOCUSPOS,true
+			Eagle's
+		GENFOCUSDESC,true
+			<GETAERIAL>
+			<GETHUNTER>
+			<GETNOBLE>
+			<GETSPIN>
+		GENSCHOOLFOCUS,false
+			aloofness
+			strategic thinking
+		GENSCHOOLSKILLS,false
+			fishing skills
+			hunting skills
+			tactics
+			swiftness
+		GETDESB,true
+			Flying
+			Eagle's
+			Soaring
+		GETOBJB,true
+			Beak
+			Claw
+			Eagle
+			Feather
+			Wing
+		GETACTB,true
+			Beak
+			Claw
+			Dive
+			Strike
+			Swoop
+			Wing
+	<*>
+		GENNAMEFOCUS,true
+			Hawk
+		GENNAMEFOCUSPLURAL,true
+			Hawks
+		GENNAMEFOCUSPOS,true
+			Hawk's
+		GENFOCUSDESC,true
+			<GETAERIAL>
+			<GETHUNTER>
+			<GETSPIN>
+		GENSCHOOLFOCUS,false
+			aloofness
+			strategic thinking
+		GENSCHOOLSKILLS,false
+			fishing skills
+			hunting skills
+			tactics
+			swiftness
+		GETDESB,true
+			Flying
+			Hawk's
+			Soaring
+		GETOBJB,true
+			Beak
+			Claw
+			Feather
+			Hawk
+			Wing
+		GETACTB,true
+			Beak
+			Claw
+			Dive
+			Strike
+			Swoop
+			Wing
+	<*>
+		GENNAMEFOCUS,true
+			Horse
+		GENNAMEFOCUSPLURAL,true
+			Horses
+		GENNAMEFOCUSPOS,true
+			Horse's
+		GENFOCUSDESC,true
+			<GETGALLOPER>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			having a love of music
+			cheerfulness
+			ignoring social mores
+			impatience
+		GENSCHOOLSKILLS,false
+			craftsman skills
+			endurance
+			grace
+			musical skills
+			producing cultured individuals
+			social skills
+		GETDESB,true
+			Clever
+			Horse's
+			Skillful
+			Wise
+		GETOBJB,true
+			Mane
+			Skill
+			Wisdom
+		GETACTB,true
+			Dance
+			Hoof
+			Skill
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Lion
+		GENNAMEFOCUSPLURAL,true
+			Lions
+		GENNAMEFOCUSPOS,true
+			Lion's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHUNTER>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+			sudden violence
+		GENSCHOOLSKILLS,false
+			agility
+			endurance
+			grace
+			hunting skills
+			stealth
+			strength
+		GETDESB,true
+			Cat's
+			Graceful
+			Lion's
+		GETOBJB,true
+			Claw
+			Fang
+			Lion
+			Mane
+		GETACTB,true
+			Claw
+			Fang
+			Paw
+			Pounce
+			Rake
+			Swipe
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Monkey
+		GENNAMEFOCUSPLURAL,true
+			Monkeys
+		GENNAMEFOCUSPOS,true
+			Monkey's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETLEAPER>
+		GENSCHOOLFOCUS,false
+			a playful attitude
+			a lack of seriousness
+			having a sense of humor
+			cleverness
+		GENSCHOOLSKILLS,false
+			agility
+			climbking skills
+			dexterity
+			surprise tactics
+		GETDESB,true
+			Monkey's
+			Playful
+			Swinging
+		GETOBJB,true
+			Branch
+			Jungle
+			Monkey
+			Tail
+			Tree
+		GETACTB,true
+			Grab
+			Paw
+			Punch
+			Snatch
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Panther
+		GENNAMEFOCUSPLURAL,true
+			Panthers
+		GENNAMEFOCUSPOS,true
+			Panther's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHUNTER>
+			<GETLEAPER>
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+			sudden violence
+		GENSCHOOLSKILLS,false
+			agility
+			endurance
+			grace
+			hunting skills
+			stealth
+			strength
+		GETDESB,true
+			Cat's
+			Graceful
+			Panther's
+		GETOBJB,true
+			Claw
+			Fang
+			Panther
+		GETACTB,true
+			Claw
+			Fang
+			Paw
+			Pounce
+			Rake
+			Swipe
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Rat
+		GENNAMEFOCUSPLURAL,true
+			Rats
+		GENNAMEFOCUSPOS,true
+			Rat's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHATER>
+		GENSCHOOLFOCUS,false
+			intolerance
+			perfectionism
+			sudden anger
+			thriftiness
+		GENSCHOOLSKILLS,false
+			developing diverse skills
+			ettiquette
+			speaking skills
+		GETDESB,true
+			Angry
+			Perfect
+			Rat's
+			Tactical
+			Ultimate
+		GETOBJB,true
+			Anger
+			Bite
+			Claw
+			Rage
+			Rat
+		GETACTB,true
+			Bite
+			Claw
+			Scratch
+			Swipe
+	<*>
+		GENNAMEFOCUS,true
+			Scorpion
+		GENNAMEFOCUSPLURAL,true
+			Scorpions
+		GENNAMEFOCUSPOS,true
+			Scorpion's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHATER>
+			<GETHUNTER>
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+			use of poisons
+		GENSCHOOLSKILLS,false
+			agility
+			precision
+			stealth
+			toxicology
+		GETDESB,true
+			Deadly
+			Fatal
+			Final
+			Killing
+			Scorpion's
+			Stinging
+			Poisonous
+			Venemous
+		GETOBJB,true
+			Poison
+			Stinger
+			Venom
+		GETACTB,true
+			Kill
+			Strike
+			Stinger
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Serpent
+			Snake
+		GENNAMEFOCUSPLURAL,true
+			Serpents
+			Snakes
+		GENNAMEFOCUSPOS,true
+			Serpent's
+			Snake's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHATER>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			being thinned-skinned
+			perseverance
+			talking little
+			wisdom
+		GENSCHOOLSKILLS,false
+			empathy
+			endurance
+			finacial skills
+			independence
+			stealth
+		GETDESB,true
+			Quiet
+			Scaled
+			Serpent's
+			Stealthy
+			Snake's
+			Slithering
+			Unseen
+			Unstoppable
+			Wise
+		GETOBJB,true
+			Bite
+			Fang
+			Scale
+			Slither
+			Stealth
+		GETACTB,true
+			Bite
+			Fang
+			Strike
+	<*>
+		GENNAMEFOCUS,true
+			Tiger
+		GENNAMEFOCUSPLURAL,true
+			Tigers
+		GENNAMEFOCUSPOS,true
+			Tiger's
+		GENFOCUSDESC,true
+			<GETANGER>
+			<GETHUNTER>
+			<GETLEAPER>
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+			sudden violence
+		GENSCHOOLSKILLS,false
+			agility
+			endurance
+			grace
+			hunting skills
+			stealth
+			strength
+		GETDESB,true
+			Cat's
+			Graceful
+			Tiger's
+		GETOBJB,true
+			Claw
+			Fang
+			Tiger
+		GETACTB,true
+			Claw
+			Fang
+			Paw
+			Pounce
+			Rake
+			Swipe
+			Tail
+	<*>
+		GENNAMEFOCUS,true
+			Unicorn
+			Ki-Rin
+		GENNAMEFOCUSPLURAL,true
+			Unicorns
+			Ki-Rins
+		GENNAMEFOCUSPOS,true
+			Unicorn's
+			Ki-Rin's
+		GENFOCUSDESC,true
+			<GETGALLOPER>
+			<GETNOBLE>
+		GENSCHOOLFOCUS,false
+			aloofness
+			mysticism
+		GENSCHOOLSKILLS,false
+			meditation
+			mystical abilities
+			philosophy
+		GETDESB,true
+			Clever
+			Heavenly
+			Horned
+			Skillful
+			Wise
+		GETOBJB,true
+			Horn
+			Mane
+			Wisdom
+		GETACTB,true
+			Dance
+			Hoof
+			Horn
+			Skill
+			Tail
+GETELEMENT
+	<*>
+		GENNAMEFOCUS,true
+			Earth
+			Land
+			Soil
+		GENNAMEFOCUSPLURAL,true
+			Lands
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+		GENSCHOOLFOCUS,false
+			a strange focus on diet
+			adaptibility
+			being accepting and understanding
+			open-mindedness
+		GENSCHOOLSKILLS,false
+			adaptability
+			dietary discipines
+			endurance
+		GETDESB,true
+			Adapting
+			Grounded
+			Standing
+		GETOBJB,true
+			Earth
+			Land
+			Soil
+		GETACTB,true
+			Return
+			Stance
+			Stand
+	<*>
+		GENNAMEFOCUS,true
+			Fire
+			Flame
+		GENNAMEFOCUSPLURAL,true
+			Blazes
+			Fires
+			Flames
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETFIRER>
+			<GETLIGHTER>
+		GENSCHOOLFOCUS,false
+			cultivating rage
+			obsessiveness
+			short-temperedness
+			using holds
+		GENSCHOOLSKILLS,false
+			agility
+			awareness
+			swift movement
+			wrestling
+		GETDESB,true
+			Burning
+			Clinging
+			Firey
+			Flaming
+			Grasping
+		GETOBJB,true
+			Blaze
+			Fire
+			Flame
+		GETACTB,true
+			Cling
+			Grab
+			Grasp
+			Sieze
+	<*>
+		GENNAMEFOCUS,true
+			Crag
+			Mountain
+			Peak
+		GENNAMEFOCUSPLURAL,true
+			Crags
+			Mountains
+			Peaks
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETHIGHER>
+		GENSPREAD,false
+			<REFSPREADLOCAL>
+		GENSCHOOLFOCUS,false
+			aloofness
+			emotional distance
+			persistance
+			serenity
+		GENSCHOOLSKILLS,false
+			developing concentration
+			outdoor survival
+			strength
+		GETDESB,true
+			High
+			Immovable
+			Mountain's
+			Rock
+			Still
+			Steadfast
+			Stone
+			Tall
+		GETOBJB,true
+			Cliff
+			Height
+			Mountain
+			Peak
+		GETACTB,true
+			Avalanche
+			Hand
+			Stand
+	<*>
+		GENNAMEFOCUS,true
+			Heavens
+			Sky
+		GENNAMEFOCUSPLURAL,true
+			Heavens
+			Skies
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETFIRER>
+			<GETHIGHER>
+			<GETLIGHTER>
+			<GETSPIN>
+		GENSPREAD,false
+			<REFSPREADFULL>
+		GENSCHOOLFOCUS,false
+			aloofness
+			mysticism
+			nobility
+			serenity
+		GENSCHOOLSKILLS,false
+			meditation
+			mind-building exercises
+			mysticism
+			philosophy
+			theology
+		GETDESB,true
+			Divine
+			Distant
+			Great
+			Heavenly
+			Heaven's
+			High
+			Holy
+		GETOBJB,true
+			Heaven
+			Sky
+		GETACTB,true
+			Finality
+			Smite
+			Strike
+	<*>
+		GENNAMEFOCUS,true
+			Lake
+			Ocean
+			Sea
+		GENNAMEFOCUSPLURAL,true
+			Lakes
+			Oceans
+			Seas
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+		GENSPREAD,false
+			<REFSPREADLOCAL>
+		GENSCHOOLFOCUS,false
+			adaptability
+			freedom
+			hedonism
+			looking down on social mores
+			passivity
+			sexual mysticism
+			use of odd substances
+		GENSCHOOLSKILLS,false
+			herbology
+			nerve strikes
+			negotiation
+			swimming
+			verbal skills
+		GETDESB,true
+			Deep
+			Diving
+			Drowning
+			Glad
+			Happy
+		GETOBJB,true
+			Depth
+			Happiness
+			Wave
+			Water
+		GETACTB,true
+			Caress
+			Cascade
+			Touch
+	<*>
+		GENNAMEFOCUS,true
+			Light
+			Star
+			Sun
+		GENNAMEFOCUSPLURAL,true
+			Lights
+			Stars
+			Suns
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETLIGHTER>
+			<GETSPIN>
+		GENSCHOOLFOCUS,false
+			mysticism
+			nobility
+			strictness
+		GENSCHOOLSKILLS,false
+			ethics
+			literacy
+			morality
+			meditation
+		GETDESB,true
+			Glowing
+			Illuminated
+			Luminous
+			Shining
+			Solar
+			Stellar
+		GETOBJB,true
+			Star
+			Sun
+			Light
+		GETACTB,true
+			Attack
+			Star
+			Strike
+			Sun
+	<*>
+		GENNAMEFOCUS,true
+			Thunder
+		GENNAMEFOCUSPLURAL,true
+			Thunders
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETSOUND>
+		GENSCHOOLFOCUS,false
+			being mysterious
+			sneakiness
+		GENSCHOOLSKILLS,false
+			ambushes
+			surprise
+		GETDESB,true
+			Shaking
+			Swift
+			Sudden
+			Thunder's
+			Thundering
+			Vibrating
+		GETOBJB,true
+			Sky
+			Thunder
+		GETACTB,true
+			Foot
+			Kick
+			Shake
+			Strike
+	<*>
+		GENNAMEFOCUS,true
+			Hurricane
+			Tornado
+			Whirlwind
+		GENNAMEFOCUSPLURAL,true
+			Hurricanes
+			Tornadoes
+			Whirlwinds
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETSPIN>
+		GENSCHOOLFOCUS,false
+			distance
+			brutality
+			ferocity
+			mercilessness
+			unpredictability
+		GENSCHOOLSKILLS,false
+			learning killing disciplines
+			misdirection
+			survival skills
+			travel skills
+		GETDESB,true
+			Billowing
+			Ripping
+			Rotating
+			Spinning
+			Twisting
+		GETOBJB,true
+			Force
+			Power
+			Wind
+		GETACTB,true
+			Destruction
+			Rotation
+			Spin
+			Twist
+	<*>
+		GENNAMEFOCUS,true
+			Forest
+			Tree
+			Wood
+		GENNAMEFOCUSPLURAL,true
+			Forests
+			Trees
+			Woods
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETHIGHER>
+		GENSCHOOLFOCUS,false
+			adaptiveness
+			gentleness
+			passivity
+			peacefulness
+			using violence as a last resort
+		GENSCHOOLSKILLS,false
+			peacemaking
+			negotiation
+			survival
+			wildnerness survival
+		GETDESB,true
+			Adapting
+			Gentle
+			Random
+			Wild
+		GETOBJB,true
+			Branch
+			Peace
+			Forest
+			Wood
+			Tree
+			Vine
+		GETACTB,true
+			Impairment
+			Takedown
+			Tap
+			Touch
+	<*>
+		GENNAMEFOCUS,true
+			Breeze
+			Wind
+			Zephyr
+		GENNAMEFOCUSPLURAL,true
+			Breezes
+			Winds
+			Zephyrs
+		GENFOCUSDESC,true
+			<GETELEMGENERAL>
+			<GETSPIN>
+			<GETWINDER>
+		GENSCHOOLFOCUS,false
+			adaptiveness
+			gentleness
+			passivity
+			peacefulness
+			using violence as a last resort
+		GENSCHOOLSKILLS,false
+			peacemaking
+			negotiation
+			stealth
+			swift movement
+			survival
+			wildnerness survival
+		GETDESB,true
+			Adapting
+			Blowing
+			Gentle
+			Invisible
+			Random
+			Spinning
+			Unseen
+		GETOBJB,true
+			Breeze
+			Wind
+			Zephyr
+		GETACTB,true
+			Blow
+			Impairment
+			Spin
+			Takedown
+			Tap
+			Touch
+			Wind
+GETSCHOOL
+	<*>
+		GENSCHOOLTYPE,true
+			Academy
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSPREAD,true
+			<REFSPREADLOCAL>
+		GENSCHOOLFOCUS,false
+			bureaucracy
+			discipline
+			decadance
+			literacy
+			scholarship
+		GENSCHOOLSKILLS,false
+			discipline
+			language skills
+			scholarship
+			training well-rounded individuals
+	<*>
+		GENSCHOOLTYPE,true
+			School
+		GENKNOWN,true
+			<REFREPFULL>
+		GENSPREAD,true
+			<REFSPREADMED>
+		GENSCHOOLFOCUS,false
+			discipline
+			intellectualism
+			loyalty
+			scholarship
+		GENSCHOOLSKILLS,false
+			discipline
+			training well-rounded individuals
+			tutoring skills
+			scholarship
+	<*>
+		GENSCHOOLTYPE,true
+			Path
+		GENKNOWN,true
+			<REFREPFULL>
+		GENSPREAD,true
+			<REFSPREADFULL>
+		GENSCHOOLFOCUS,false
+			commitment
+			discipline
+			independence
+			philosophy
+			mysticism
+		GENSCHOOLSKILLS,false
+			meditation
+			philosophy
+			traveling skills
+	<*>
+		GENSCHOOLTYPE,true
+			Way
+		GENKNOWN,true
+			<REFREPFULL>
+		GENSPREAD,true
+			<REFSPREADFULL>
+		GENSCHOOLFOCUS,false
+			philosophy
+			mysticism
+		GENSCHOOLSKILLS,false
+			meditation
+			philosophy
+GETSCHOOLDESC
+	<GETSDTEMP>
+		GETSDTEMP,true
+			Blessed
+			Divine
+			Holy
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			morality
+			mysticism
+		GENSCHOOLSKILLS,true
+			ethics
+			philosophy
+			theology
+		GETDESA,true
+			Blessed
+			Divine
+			Heavenly
+			Holy
+		GETOBJA,true
+			Blessing
+			Heaven
+			God
+			Soul
+			Spirit
+	Feared
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			arrogance
+			brutality
+			deadliness
+		GENSCHOOLSKILLS,true
+			discipline
+			killing combat
+	Grand
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			arrogance
+			nobility
+		GENSCHOOLSKILLS,true
+			discipline
+			history
+	Honorable
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			ethics
+			honor
+			a good public image
+		GENSCHOOLSKILLS,true
+			ethical behavior
+			politeness
+	Illuminated
+		GENSCHOOLFOCUS,false
+			aloofness
+			forthrightness
+			honesty
+			mysticism
+		GENSCHOOLSKILLS,false
+			meditation
+			mysticism
+			theology
+		GETDESA,true
+			Enlightening
+			Illuminated
+			Luminous
+			Mysterious
+		GETOBJA,true
+			Insight
+			Light
+			Mystery
+	Mysterious
+		GENKNOWN,true
+			<REFREPLOW>
+		GENSCHOOLFOCUS,true
+			aloofness
+			deceptiveness
+			distance
+			having a secret language
+		GENSCHOOLSKILLS,true
+			disguise
+			linguistics
+			mysticism
+			stealth
+		GETDESA,true
+			Deceptive
+			Dark
+			Mysterious
+			Stealthy
+			Unkonwable
+		GETOBJA,true
+			Mystery
+			Stealth
+			Void
+	Mystic
+		GENKNOWN,true
+			<REFREPLOW>
+		GENSCHOOLFOCUS,true
+			contemplation
+			philosophy
+			mysticism
+		GENSCHOOLSKILLS,true
+			meditation			
+			philosophy
+		GETDESA,true
+			Mysterious
+			Mystic
+		GETOBJA,true
+			Mystery
+			Spirit
+			Soul
+	Respected
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			discipline
+			ethics
+			honor
+			a good public image
+		GENSCHOOLSKILLS,true
+			ethical behavior
+			ettiquette
+			politeness
+	Shadowy
+		GENKNOWN,true
+			<REFREPLOW>
+		GENSCHOOLFOCUS,false
+			stealth
+		GENSCHOOLSKILLS,false
+			stealth
+		GETDESA,true
+			Mysterious
+			Shadowy
+		GETOBJA,true
+			Shadow
+			Night
+			Stealth
+		GETACTA,true
+			Deception
+			Fall
+	Wondrous
+		GENKNOWN,true
+			<REFREPMEDWELL>
+		GENSCHOOLFOCUS,true
+			arrogance
+		GENSCHOOLSKILLS,true
+			history
+			public image skills
+//Special Gets
+GETAERIAL
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Flying
+			Soaring
+			Swooping
+		GENSCHOOLFOCUS,false
+			aloofness
+			secrecy
+		GENSCHOOLSKILLS,false
+			agility
+			grace
+			swift motion
+		GETDESB,true
+			Aerial
+			Diving
+			Flying
+			Soaring
+		GETOBJB,true
+			Air
+			Flight
+			Sky
+			Wind
+		GETACTB,true
+			Dive
+			Swoop
+			Strike
+GETANGER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Battling
+			Deadly
+			Destructive
+			Fighting
+			Raging
+			Warring
+		GENSCHOOLFOCUS,false
+			bloodlust
+			combativeness
+			deadliness
+			ruthlessness
+		GENSCHOOLSKILLS,false
+			both armed and unarmed combat
+			enduring damage
+			killing opponents
+			mastering other martial arts
+		GETDESB,true
+			Deadly
+			Destructive
+			Fighting
+			Final
+			Raging
+		GETOBJB,true
+			Battle
+			Combat
+			Death
+			War
+		GETACTB,true
+			Destruction
+			Decimation
+			Kill
+			Strike
+GETELEMGENERAL
+	Ancient
+		GENSCHOOLFOCUS,false
+			an ancient lineage
+			scholarsip
+		GENSCHOOLSKILLS,false
+			learning history
+			learning tradition
+	Great
+		GENSCHOOLFOCUS,false
+			being well-known
+		GENSCHOOLSKILLS,false
+			ettiquette
+			learing history
+	Legendary
+		GENSCHOOLFOCUS,false
+			an ancient lineage
+			obedience
+			producing many famous martial artists
+		GENSCHOOLSKILLS,false
+			learning history
+			philosophy
+			theology
+GETFIRER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Burning
+			Blazing
+			Hellish
+		GENSCHOOLFOCUS,false
+			cruelty
+			decisiveness
+			rapid motion
+		GENSCHOOLSKILLS,false
+			agility
+			rapid attacks
+			speed
+		GETDESC,true
+			Burning
+			Blazing
+			Hellish
+			Immolating
+			Swift
+		GETOBJC,true
+			Burn
+			Blaze
+			Hell
+		GETACTC,true
+			Assault
+			Decimation
+			Destruction
+			Immolation
+			Strike
+GETGALLOPER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Charging
+			Galloping
+			Running
+			Trampling
+		GENSCHOOLFOCUS,false
+			intransigence
+			insensitivty
+		GENSCHOOLSKILLS,false
+			endurance
+			strength
+			swift motion
+		GETDESB,true
+			Charging
+			Galloping
+			Running
+			Trampling
+		GETOBJB,true
+			Charge
+			Impact
+			Ram
+			Trample
+		GETACTB,true
+			Charge
+			Impact
+			Ram
+			Trample
+GETHIGHER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			High
+			Tall
+		GENSCHOOLFOCUS,false
+			nobility
+			serenity
+			steadfastness
+		GENSCHOOLSKILLS,false
+			ettiquette
+			meditaton
+			philosophy
+		GETDESC,true
+			Calm
+			High
+			Immovable
+			Immobile
+			Peaceful
+			Serene
+		GETOBJC,true
+			Calm
+			Height
+			Peace
+		GETACTC,true
+			Attack
+			Drop
+			Redirect
+			Reflect
+GETHATER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Cruel
+			Hateful
+			Vengeful
+		GENSCHOOLFOCUS,false
+			cruelty
+			deadliness
+			hatefulness
+			holding vendettas
+			ruthlessness
+		GENSCHOOLSKILLS,false
+			asssasination skills
+			toxicology
+			tracking
+		GETDESC,true
+			Cruel
+			Hateful
+			Fatal
+			Final
+			Vengeful
+		GETOBJC,true
+			Agony
+			Cruelty
+			Hate
+			Pain
+			Torture
+			Vengeance
+		GETACTC,true
+			Assasination
+			Kill
+			Fatality
+			Torment
+GETHUNTER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Hunting
+			Stalking
+			Tracking
+		GENSCHOOLFOCUS,false
+			deadliness
+			ruthlessness
+		GENSCHOOLSKILLS,false
+			precision
+			stealth
+			tracking
+		GETDESC,true
+			Hunting
+			Hunter's
+			Seeking
+			Sudden
+			Stalking
+			Tracking
+		GETOBJC,true
+			Hunt
+			Stalk
+		GETACTC,true
+			Ambush
+			Attack
+			Seeker
+			Surprise
+			Tackle
+GETLEAPER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Bounding
+			Jumping
+			Leaping
+			Springing
+		GENSCHOOLFOCUS,false
+			agility
+			grace
+		GENSCHOOLSKILLS,false
+			escaping combat when needed
+			developing leaping ability
+			swift motion
+			unusual combat techniques
+		GETDESC,true
+			Bounding
+			Far
+			Jumping
+			Leaping
+			Long
+			Springing
+		GETOBJC,true
+			Air
+			Impact
+			Sky
+		GETACTC,true
+			Bound
+			Jump
+			King
+			Impact
+			Leap
+			Ram
+GETLIGHTER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Blazing
+			Bright
+			Glowing
+			Illuminated
+			Luminous
+			Shining
+		GENSCHOOLFOCUS,false
+			mysticism
+			nobility
+			strictness
+		GENSCHOOLSKILLS,false
+			ethics
+			literacy
+			morality
+			meditation
+		GETDESC,true
+			Blazing
+			Bright
+			Glowing
+			Illuminated
+			Luminous
+			Shining
+		GETOBJC,true
+			Beam
+			Blaze
+			Glow
+			Light
+			Ray
+			Shine
+		GETACTC,true
+			Blaze
+			Illumination
+GETNOBLE
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Grand
+			Imperial
+			Noble
+		GENSCHOOLFOCUS,false
+			aloofness
+			arrogance
+			distance
+			politeness
+			regality
+		GENSCHOOLSKILLS,false
+			etiquette
+			historical knowledge
+		GETDESB,true
+			Grand
+			Great
+			High
+			Imperial
+			Noble
+			Virtuous
+		GETOBJB,true
+			Command
+			Virtue
+		GETACTB,true
+			Command
+			Decree
+			Destruction
+			Elimination
+			End
+			Hold
+			Strike
+GETNUMBERSINGLE
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Lone
+			Single
+		GENSCHOOLFOCUS,false
+			antisociality
+			making pilgramages
+			territoriality
+		GENSCHOOLSKILLS,false
+			contemplation
+			fighting without support
+			independence
+			travelling swiftly
+		GETDESC,true
+			Lone
+			Single
+			Solitary
+			Standing
+		GETOBJC,true
+			Queit
+			Solitude
+		GETACTC,true
+			Stand
+GETNUMBERPLURAL
+	<GENTEMPREF>
+		GENTEMPREF,true
+			One Hundred
+			One Thousand
+		GENSCHOOLFOCUS,false
+			making pilgramages
+			wanderlust
+		GENSCHOOLSKILLS,false
+			cartography
+			contemplation
+			travelling swiftly
+		GETDESC,true
+			Many
+			Multiple
+		GETOBJC,true
+			Myriad
+		GETACTC,true
+			Assault
+			Attacks
+			Blows
+			Kicks
+			Punches
+			Strikes
+	Ten Thousand
+		GENSCHOOLFOCUS,false
+			antisociality
+			spirituality
+		GENSCHOOLSKILLS,false
+			contemplation
+			mysticism
+		GETDESC,true
+			Infinite
+			Many
+			Multiple
+		GETOBJC,true
+			Infinity
+			Myriad
+		GETACTC,true
+			Assault
+			Attacks
+			Blows
+			Kicks
+			Punches
+			Strikes
+GETSOUND
+	Loud
+		GENSCHOOLFOCUS,false
+			ruthlessness
+			using odd battle cries
+			using terror against opponents
+		GENSCHOOLSKILLS,false
+			developing strength
+			furious attacks
+		GETDESC,true
+			Loud
+			Screaming
+			Shaking
+		GETOBJC,true
+			Scream
+		GETACTC,true
+			Blast
+			Shock
+	Resonant
+		GENSCHOOLFOCUS,false
+			persistance
+			strength
+		GENSCHOOLSKILLS,false
+			developing strength
+			developing endurance
+		GETDESC,true
+			Vibrating
+			Strong
+		GETOBJC,true
+			Dodge
+			Sound
+		GETACTC,true
+			Dodge
+			Stance
+			Stand
+	Soft
+		GENSCHOOLFOCUS,false
+			adaptability
+			sneakiness
+		GENSCHOOLSKILLS,false
+			adaption
+			stealth
+			using an opponents strength against them
+		GETDESC,true
+			Gentle
+			Quiet
+		GETOBJC,true
+			Breeze
+			Cloud
+		GETACTC,true
+			Avoid
+			Dodge
+GETSPIN
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Spinning
+			Spiralling
+			Whirling
+		GENSCHOOLFOCUS,false
+			adaptability
+			cleverness
+			deceptiveness
+			moral relativism
+			philosophical understanding
+			unpredictability
+		GENSCHOOLSKILLS,false
+			adaptability
+			philosophy
+			subtrefuge
+		GETDESB,true
+			Confusing
+			Deceptive
+			Misdirecting
+			Spinning
+			Spiralling
+			Spiral
+			Unpredictable
+			Whirling
+		GETOBJB,true
+			Confusion
+			Mystery
+			Spin
+			Spiral
+			Whirl
+		GETACTB,true
+			Misdirection
+			Spin
+			Spiral
+			Whirl
+GETWINDER
+	<GENTEMPREF>
+		GENTEMPREF,true
+			Blowing
+			Billowing
+			Wafting
+//Move Gets
+GETDESA
+	Defensive
+	Offensive
+GETOBJA
+	Battle
+	Defense
+GETACTA
+	Attack
+	Charge
+	Finger
+	Grapple
+	Grasp
+	Guard
+	Punch
+	Kick
+	Knee
+	Roll
+	Strike
+GETDESB
+	<GETDESA>
+GETOBJB
+	<GETOBJA>
+GETACTB
+	<GETACTA>
+GETDESC
+	<GETDESA>
+	<GETDESB>
+GETOBJC
+	<GETOBJA>
+	<GETOBJB>
+GETACTC
+	<GETACTA>
+	<GETACTB>
+//REFS
+//REFS - Reputation
+REFREPLOW
+	practacally unknown
+	relatively unknown
+	reasonably well-known
+REFREPFULL
+	practacally unknown
+	relatively unknown
+	reasonably well-known
+	well-known
+	very well-known
+	famous
+	very famous
+REFREPMEDWELL
+	reasonably well-known
+	well-known
+	very well-known
+	famous
+//REFS - Spread
+REFSPREADFULL
+	taught all over
+	taught in schools and informally
+	taught in various schools
+	only taught in specific schools
+	taught only in one location
+REFSPREADMED
+	taught in schools and informally
+	taught in various schools
+	only taught in specific schools
+REFSPREADLOCAL
+	only taught in specific schools
+	taught only in one location
+//REFS - Misc
+REFFOCUSCLASS
+	places an additional emphasis on
+	has a casual, but important, focus on
+	focuses on
+	strongly focuses on
+	is virtually obsessed with
+REFMOVEGUARD
+	carefully
+	cautiously
+	jealously
+	obsessively
+REFMOVEREP
+	dangerous
+	deadly
+	difficult
+	famous
+	highly effective
+	infamous
+	intricate
+	mysterious
+	painful
+REFREPCLASS
+	a deserved reputation
+	a legendary reputation
+	a popular reputation
+	a reputation
+	a well-deserved reputation
+	a well-documented reputation
+	an inaccurate reputation
+	an unearned reputation
+REFSCHOOLREF
+	It
+	This art
+	This martial art
+	This martial path
+	This martial technique
+	This warrior's way

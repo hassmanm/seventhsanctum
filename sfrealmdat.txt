@@ -1,0 +1,115 @@
+//Vocab types:
+// Meta Descriptor 1
+// SF Modifier 2
+// Non_SF Modifier 4
+// SF Focus 8
+// Non_SF Focus 16
+//
+//Organizational Configurations
+//There are four possible combinations.  These reflect the fact that either the
+//subject or its modifier is magical, and the other is not.  Thuis one will have
+//"Advanced Pyromancy" or "Necromantic Instruction" but not "Necromantic
+//Pyromancy" as, simply, that would be two specifics together.
+--ORGANIZATION
+1,2,16
+, , ,
+1,4,8
+, , ,
+2,16
+, ,
+4,8
+, ,
+//Vocabulary
+--VOCABULARY
+Academic,4
+Academics,16
+Advanced,1
+Alien,2
+Analytical,1
+Ancient,4
+Android,2
+Anthropology,16
+Applied,4
+Archeology,16
+Artificial Intelligence,8
+Artificially Intelligent,2
+Arts,16
+Astronautics,8
+Basic,1
+Biology,16
+Botany,16
+Business,20
+Chemistry,16
+Chronology of,1
+Clinical,5
+Common,4
+Communications,16
+Comparative,1
+Computerized,2
+Computing,8
+Cybernetic,2
+Dimensional,2
+Economic,4
+Economics,16
+Education,16
+Electronics,16
+Engineering,16
+Essential,5
+Ethical,5
+Experimental,4
+Experimentation,16
+Future,5
+Genetic Engineering,8
+Historical,4
+History of,1
+History,16
+Hyperspatial,2
+Industrial,4
+Instruction,16
+Inter-Dimensional,2
+Intergalactic,2
+Inter-Planar,2
+Interplanetary,2
+Interstellar,2
+Inter-System,2
+Intra-System,2
+Laboratory,7
+Law,16
+Linguistics,16
+Mathematics,16
+Military,5
+Modern,1
+Nanotechnological,2
+Nanotechnology,8
+Paradoxical,5
+Parapsychology,16
+Pharmacology,16
+Philosophy of,1
+Philosophy,16
+Physics,16
+Political,4
+Popular,4
+Practical,4
+Psychology,16
+Quantumn,2
+Recent,4
+Relativistic,4
+Religion,16
+Remedial,5
+Research,16
+Robotic,2
+Robotics,8
+Science,16
+Space Travel,8
+Space-Based,2
+Statistics,16
+Studies,16
+Studies,16
+Taxonomic,4
+Taxonomy,16
+Terraforming,8
+Theology,16
+Theoretical,1
+Virtual Reality,8
+Virtual,2
+Zoology,16

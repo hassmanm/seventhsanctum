@@ -1,0 +1,4209 @@
+//ROUTES
+SEED
+	<SEEDANY>
+	<SEEDMALE>
+	<SEEDFEMALE>
+SEEDANY
+	<*SETGENDEREITHER><SEEDSHOW>
+SEEDMALE
+	<*SETGENDERMALE><SEEDSHOW>
+SEEDFEMALE
+	<*SETGENDERFEMALE><SEEDSHOW>
+SEEDSHOW
+	<SEEDSHOWHUMAN>
+	<SEEDSHOWHUMANEXOTIC>
+	<SEEDSHOWHUMANANIMAL>
+	<SEEDSHOWHUMANVARIANT>
+//Human norm.  Except for some color variants has nothing beyond human physigonomy.
+SEEDSHOWHUMAN
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRNORM>  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYENORM>  <SEEDSKINNORM>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL>  <SEEDABILITIES><SEEDALTERFORM>
+//Human exotic.
+SEEDSHOWHUMANEXOTIC
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDCLOTHES>  <SEEDSKINROUTE>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDCLOTHES>  <SEEDSKINROUTE>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDCLOTHES>  <SEEDSKINROUTE>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDCLOTHES>  <SEEDSKINROUTE>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANY>  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEROUTE>  <SEEDSKINROUTE>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALUNUSUAL>  <SEEDABILITIES><SEEDALTERFORM>
+//Human animal-headed.
+SEEDSHOWHUMANANIMAL
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDCLOTHES>  <SEEDABILITIES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDCLOTHES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDCLOTHES>  <SEEDOBJECTREF>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEUSUAL>  <SEEDCLOTHES>  <SEEDABILITIES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEUSUAL>  <SEEDCLOTHES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEUSUAL>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES>
+	<*SETSPHERE>This <SEEDBASICANIMAL>  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDEYEUSUAL>  <SEEDCLOTHES>  <SEEDOBJECTREF>
+//Human physical variation.
+SEEDSHOWHUMANVARIANT
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANYODD>  <SEEDEYEROUTE>  <SEEDSKINROUTEEXTRA>  <SEEDCLOTHES>  <SEEDOBJECTREF><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANYODD>  <SEEDEYEROUTE>  <SEEDSKINROUTEEXTRA>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <SEEDABILITIES><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANYODD>  <SEEDEYEROUTE>  <SEEDSKINROUTEEXTRA>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALNONHUMAN><SEEDALTERFORM>
+	<*SETSPHERE>This <SEEDBASIC>.  <RETGENDERCAP><REFHEIGHT>has <RETBUILD> build.  <SEEDHAIRANYODD>  <SEEDEYEROUTE>  <SEEDSKINROUTEEXTRA>  <SEEDCLOTHES>  <SEEDOBJECTREF>  <REFPHYSICALNONHUMAN>  <SEEDABILITIES><SEEDALTERFORM>
+//SEED ALTERS
+SEEDBASIC
+	<REFPERSONALITY> <RETDIRREF> of <RETSPHERE> takes the form of <RETFORM>
+	<RETDIRREF> of <RETSPHERE> takes the form of <RETFORM>
+SEEDBASICANIMAL
+	<SEEDBASIC> with the head of <REFANIMALROUTE>.
+	<SEEDBASIC> with the traits of <REFANIMALROUTE>.
+SEEDFEATURES
+	<SEEDHAIRANY>
+	<SEEDHAIRANY> <REFPHYSICALUNUSUALROUTE>
+	<REFPHYSICALUNUSUALROUTE>
+	<*>
+//SEED HAIR
+SEEDHAIRANY
+	<SEEDHAIRUSUAL>
+	<RETHAIRMOD>
+	<SEEDHAIRUNUSUAL>
+SEEDHAIRANYODD
+	<SEEDHAIRUSUAL>
+	<RETHAIRMOD>
+	<SEEDHAIRUNUSUAL>
+	<SEEDHAIRUNUSUAL>
+SEEDHAIRUSUAL
+	<SEEDHAIRMETAPHOR>
+	<SEEDHAIRGENERAL>
+SEEDHAIRNORM
+	<SEEDHAIRMETAPHORNORM>
+	<SEEDHAIRGENERALNORM>
+SEEDHAIRMETAPHOR
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+SEEDHAIRMETAPHORNORM
+	<RETGENDERCAP> has <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+SEEDHAIRGENERAL
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair.
+SEEDHAIRGENERALNORM
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <*RELAYCOLORHAIRNORM><ROUTECOLORREF> hair.
+SEEDHAIRUNUSUAL
+	<RETGENDERCAP> is bald.
+	<RETGENDERCAP> has no hair, but instead <RETPOSESSIVE> head is covered in <REFHAIRALTER>.
+//SEED EYES
+SEEDEYEROUTE
+	<SEEDEYEUSUAL>
+	<RETEYEMOD>
+SEEDEYENORM
+	<RETPOSESSIVECAP> <REFEYEFORM> eyes are <*RELAYCOLOREYENORM><ROUTECOLORREF>.
+SEEDEYEUSUAL
+	<RETPOSESSIVECAP> <REFEYEFORM> eyes are <*RELAYCOLOR><ROUTECOLORREF>.
+//SEED SKIN
+SEEDSKINROUTE
+	<SEEDSKINNORM>
+	<RETSKINMOD>
+	<SEEDSKIN>
+SEEDSKINROUTEEXTRA
+	<SEEDSKINNORM>
+	<RETSKINMOD>
+	<SEEDSKIN>
+	<SEEDSKINUNUSUAL>
+SEEDSKINNORM
+	<RETGENDERCAP> has <REFSKINCOLOR> skin.
+SEEDSKIN
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> skin.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> skin.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> skin.
+SEEDSKINUNUSUAL
+	<RETPOSESSIVECAP> body is covered in <*RELAYCOLOR><ROUTECOLORREF> <REFSKINALTER>.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> skin covered in <REFSKINEXTRAREF>.
+//CLOTHES
+SEEDCLOTHES
+	<RETGENDERCAP> is usually portrayed nude.
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+	<SEEDCLOTHESREF>
+SEEDCLOTHESREF
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>.
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>.
+	<RETPOSESSIVECAP> outfit is made from <REFCLOTHESMADE>, and is that of <REFPROFESSION>.
+	<RETPOSESSIVECAP> outfit is made from <REFCLOTHESMADE>, and is that of <REFPROFESSION>.
+	<RETPOSESSIVECAP> outfit <REFCLOTHESDESIGN>, and is that of <REFPROFESSION>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> made from <REFCLOTHESMADE>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> made from <REFCLOTHESMADE>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS>, which <REFCLOTHESDESIGN>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> and <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> and <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> made from <REFCLOTHESMADE>, and <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> made from <REFCLOTHESMADE>, and <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> (which <REFCLOTHESDESIGN>) and <REFCLOTHESEXTRA>.
+//Colors
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>, and it is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>, <REFCLOTHESDESIGN>, and it is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> that is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> that is mostly <*RELAYCOLOR><ROUTECOLORREF> in color, and which <REFCLOTHESDESIGN>.
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>, and it is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.  <RETGENDERCAP> also wears <REFCLOTHESEXTRA>.
+	<RETPOSESSIVECAP> outfit is that of <REFPROFESSION>, <REFCLOTHESDESIGN>, and it is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.  <RETGENDERCAP> also wears <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> that is mostly <*RELAYCOLOR><ROUTECOLORREF> in color.  <RETGENDERCAP> also wears <REFCLOTHESEXTRA>.
+	<RETGENDERCAP> is usually portrayed as wearing <REFCLOTHESSTYLE> <REFCLOTHESELEMENTS> that is mostly <*RELAYCOLOR><ROUTECOLORREF> in color, and which <REFCLOTHESDESIGN>.  <RETGENDERCAP> also wears <REFCLOTHESEXTRA>.
+//SEEDObjects
+SEEDOBJECTREF
+	<RETGENDERCAP> carries <REFOBJECTROUTE>.
+//Abilites
+SEEDABILITIES
+	<RETABILITY>
+//Companion animal
+SEEDALTERFORM
+	<*>
+	<*>
+	  <RETGENDERCAP> sometimes takes the form of <SEEDALTERFORMROUTE>.
+SEEDALTERFORMROUTE
+	<REFANIMALROUTE>
+	<RETALTERFORM>
+//SETS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			goddess
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETPERREF,true
+			her
+		RETFORM,true
+			a maiden
+			a young woman
+			a young woman
+			an adult woman
+			an adult woman
+			a mature woman
+			an older woman
+			a crone
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			god
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPERREF,true
+			him
+		RETPOSESSIVECAP,true
+			His
+		RETFORM,true
+			a teenage boy
+			a young man
+			a young man
+			an adult man
+			an adult man
+			a mature man
+			an older man
+			an elderly man
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+//SET SPHERES
+SETSPHERE
+	<*>
+		RETSPHERE,true
+			agriculture
+			farming
+			the harvest
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair resembles a sheaf of wheat.
+			<RETPOSESSIVECAP> hair looks like some kind of husk.
+			<RETPOSESSIVECAP> hair reminds one of a row of cultivated plants.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks like it is a kind of husk.
+			<RETPOSESSIVECAP> skin looks more like that of a plant.
+			<RETPOSESSIVECAP> skin has plants growing from it.
+		RETABILITY,true
+			<RETGENDERCAP> causes plants to grow around <RETPERREF>.
+			<RETGENDERCAP> causes plants to ripen instantly.
+			<RETGENDERCAP> can grant fertility to land.
+		RETSYMBOLS,true
+			plant
+			leaf
+			seed			
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			the husks of plants
+			plant life
+			growing plants
+		REFOBJECTROUTE,true
+			<REFOBJECTFARMING>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			animals
+			wildlife
+		RETABILITY,true
+			<RETGENDERCAP> can call any kind of animal to appear instantly.
+			<RETGENDERCAP> is always surrounded by animals.
+			<RETGENDERCAP> can age animals, making them younger or older.
+		RETSYMBOLS,true
+			claw-like
+			animal-head
+		RETALTERFORM,true
+			any forest animal
+			any animal
+			a strange compositve of many animals
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			artisans
+			craftspeople
+		RETABILITY,true
+			<RETGENDERCAP> can impart or take away skills.
+			<RETGENDERCAP> can craft items from raw materials in an instant.
+			<RETGENDERCAP> can bring to life any creation of the hand of man
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			an artisan
+			a craftsperson
+			a laborer
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			architecture
+			architects
+			buildings
+			building constructions
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin appears to be covered in diagrams.
+			<RETPOSESSIVECAP> skin looks more like something made than something organic.
+		RETABILITY,true
+			<RETGENDERCAP> can re-create any building ever made.
+			<RETGENDERCAP> can impart new ideas to any architect.
+			<RETGENDERCAP> can construct things with a thought.
+		RETSYMBOLS,true
+			block
+			line
+			cube
+		RETALTERFORM,true
+			a strange abstract being
+			a living building
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			an architect
+			a laborer
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			assassins
+			assassination
+			murder
+			killing
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair can elongage and strangle victims.
+			<RETPOSESSIVECAP> hair can turn into weapons.
+			<RETPOSESSIVECAP> hair can elongate and wield weapons.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in a toxic substance.
+			<RETPOSESSIVECAP> skin forms into weapons.
+			<RETPOSESSIVECAP> skin is covered in the faces of the murdered.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are gateways into the underworld.
+			<RETPOSESSIVECAP> eyes are more like the eyeholes of a skull.
+			<RETPOSESSIVECAP> eyes are those of <RETPOSESSIVE> latest victim.
+			<RETPOSESSIVECAP> eyes can suck out a soul with a glance.
+		RETABILITY,true
+			<RETGENDERCAP> is surrounded by a lethal <*RELAYCOLOR><ROUTECOLORREF> aura.
+			<RETGENDERCAP> can slay anyone with a touch.
+			<RETGENDERCAP> devours the souls of the slain.
+			<RETGENDERCAP> adsorbs the bodies of the slain.
+			<RETGENDERCAP> is surrounded by a poison mist.
+			<RETGENDERCAP> can exhale leathal toxin.
+			<RETGENDERCAP> has no shadow.
+			<RETGENDERCAP> moves without a sound.
+		RETSYMBOLS,true
+			knife
+			blade
+			skull
+			bone
+		RETALTERFORM,true
+			a toxic cloud
+			a shadow
+			a monster so hideous it causes people to die of fright
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+			poisonous plants
+			clouds of toxic gas
+			the blood of <RETPOSESSIVE> victims
+		REFOBJECTROUTE,true
+			<REFOBJECTHUMANPART>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			art
+			artists
+			creativity
+			imagination
+			inspiration
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair constantly changes style and color.
+			<RETPOSESSIVECAP> hair moves and changes like a living thing.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin constantly changes colors.
+			<RETPOSESSIVECAP> skin displays constantly-changing images.
+			<RETPOSESSIVECAP> skin displays cosntantly-changing writing.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes constantly change color.
+			<RETPOSESSIVECAP> eyes flash with a rainbow of colors.
+		RETALTERFORM,true
+			any great work of art
+			anything imagined by the seer
+		RETABILITY,true
+			<RETGENDERCAP> is surrounded by a multi-colored aura.	
+			<RETGENDERCAP> is surrounded by imagined ideas made into images in the air.
+			<RETGENDERCAP> can make imagined ideas real.
+			<RETGENDERCAP> seems to be surrounded by voices whispering new ideas.
+			<RETGENDERCAP> leaves behind writing with every step.
+			<RETGENDERCAP> leaves behind multi-colored footprints with every step.
+			<RETGENDERCAP> causes people to lapse into creative trances.
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFROGUE>
+		REFCLOTHESMADE,true
+			a riotous mix of materials
+			a patchwork of materials
+			multicolored lights
+			the fabric of space itself
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+	<*>
+		RETSPHERE,true
+			autumn
+			fall
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair resembles a pile of autumn leaves.
+			<RETPOSESSIVECAP> hair looks like withered plants.
+			<RETPOSESSIVECAP> hair looks like ripe wheat.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks more like the texture and color of an autumn leaf.
+			<RETPOSESSIVECAP> skin looks more like it is that of a dead or dormant plant.
+		RETABILITY,true
+			<RETGENDERCAP> causes plants to ripen instantly.
+			<RETGENDERCAP> causes plants to go dormant.
+		RETSYMBOLS,true
+			leaf
+			setting-sun
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			autumn leaves
+	<*>
+		RETSPHERE,true
+			blacksmiths
+			smithing
+			smithies
+			metalworking
+			the forge
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks like molten metal.
+			<RETPOSESSIVECAP> hair looks like strands of metal.
+			<RETPOSESSIVECAP> hair looks like a flame.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in soot.
+			<RETPOSESSIVECAP> body seems to glow with an inner light, like a forge's fire.
+			<RETPOSESSIVECAP> skin looks like it is made of metal.
+			<RETPOSESSIVECAP> skin looks like it is made of metal, and various metal tools emerge from it.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like burning flames.
+			<RETPOSESSIVECAP> eyes are like <*RELAYCOLOR><ROUTECOLORREF> metal spheres.
+			<RETPOSESSIVECAP> eyes weep tears of molten metal.
+		RETABILITY,true
+			<RETGENDERCAP> can shape metal at a touch.
+			<RETGENDERCAP> can turn into metal.
+			<RETGENDERCAP> is invulnerable to anything made of metal.
+			<RETGENDERCAP> can draw metal forth from ore with a touch.
+		RETSYMBOLS,true
+			hammer
+			anvil
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			a blacksmith
+			a blacksmith
+			a blacksmith
+			a blacksmith
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			metal
+			metal plates
+			metal fibers
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTOOL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			bloodshed
+			massacres
+			slaughter
+			wanton killing
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair can elongage and strangle victims.
+			<RETPOSESSIVECAP> hair can turn into weapons.
+			<RETPOSESSIVECAP> hair can elongate and wield weapons.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in dried blood.
+			<RETPOSESSIVECAP> skin forms into weapons.
+			<RETPOSESSIVECAP> skin is covered in faces, each frozen in a mute scream.
+			<RETPOSESSIVECAP> body is a bloody skeleton.
+			<RETPOSESSIVECAP> body is that of a rotting corpse.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are bloody pits.
+			<RETPOSESSIVECAP> eyes are more like the eyeholes of a skull.
+			<RETPOSESSIVECAP> eyes are those of <RETPOSESSIVE> latest victim.
+		RETABILITY,true
+			<RETGENDERCAP> is surrounded by a lethal <*RELAYCOLOR><ROUTECOLORREF> aura.
+			<RETGENDERCAP> can slay anyone with a touch.
+			<RETGENDERCAP> devours the souls of the slain.
+			<RETGENDERCAP> adsorbs the bodies of the slain.
+			<RETGENDERCAP> causes madness with <RETPOSESSIVE> presence.
+		RETSYMBOLS,true
+			skull
+			broken-line
+			chaotic
+		RETALTERFORM,true
+			a toxic cloud
+			previous victims
+			the worst nightmare of any seer
+			a monster composed of the bodies of the slain
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+			the bones of <RETPOSESSIVE> victims
+			the blood of <RETPOSESSIVE> victims
+		REFOBJECTROUTE,true
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			cold
+			ice
+			snow
+			winter
+			blizzards
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair is like a patch of snow.
+			<RETPOSESSIVECAP> hair looks more like frozen water.
+			<RETPOSESSIVECAP> hair looks like a bunch of icicles.
+			<RETPOSESSIVECAP> hair appears frozen.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks like it is ice instead of flesh.
+			<RETPOSESSIVECAP> skin looks like it is ice instead of flesh - it is even transparent.
+			<RETPOSESSIVECAP> skin looks more like snow.
+			<RETPOSESSIVECAP> skin has an oddly bloodless color to it.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like crystals of ice.
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by an aura of cold.
+			<RETGENDERCAP> freezes anything <RETGENDER> touches.
+			<RETGENDERCAP> brings snow and frost wherever <RETGENDER> goes.
+		RETSYMBOLS,true
+			snowflake
+		RETALTERFORM,true
+			a humanoid made from snow
+			an avalanche
+			a living snowstorm
+			a hairy snow-beast
+			a polar bear
+		RELAYCOLOR,true
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			living ice
+			living snow
+			a mysterious frozen liquid
+			the very essence of cold
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			commerce
+			merchants
+			money
+			trade
+		RETABILITY,true
+			<RETGENDERCAP> can bestow or take away fortune with ease.
+			<RETGENDERCAP> can detect fraud and lies.
+			<RETGENDERCAP> can give anyone the ability to detect lies.
+			<RETGENDERCAP> can bless any business with prosperity.
+		RETSYMBOLS,true
+			coin
+			money-symbol
+			circle
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMERCHANT>
+			<REFPROFMYSTIC>
+			<REFPROFROGUE>
+		REFCLOTHESMADE,true
+			gold
+			golden fillaments
+			the finest materials imagineable
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+	<*>
+		RETSPHERE,true
+			civilization
+			culture
+		RETABILITY,true
+			<RETGENDERCAP> knows all that is currently known by scholars.
+			<RETGENDERCAP> can impart knowledge of history and culture.
+			<RETGENDERCAP> can impart wisdom and intelligence to anyone.
+			<RETGENDERCAP> can reveal the history of any object.
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			the afterlife
+			death
+			dying
+			funerals
+			the underworld
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in a toxic substance.
+			<RETPOSESSIVECAP> body is skinless.
+			<RETPOSESSIVECAP> body is just a ghostly form.
+			<RETPOSESSIVECAP> body is that of a rotting corpse.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are gateways into the underworld.
+			<RETPOSESSIVECAP> eyes are more like the eyeholes of a skull.
+			<RETPOSESSIVECAP> eyes are ever-changing.
+			<RETPOSESSIVECAP> eyes are black pits.
+		RETABILITY,true
+			<RETGENDERCAP> is surrounded by a lethal <*RELAYCOLOR><ROUTECOLORREF> aura.
+			<RETGENDERCAP> can slay anyone with a touch.
+			<RETGENDERCAP> has no shadow.
+			<RETGENDERCAP> has muiltiple shadows.
+			<RETGENDERCAP> can raise the dead or slay the living.
+			<RETGENDERCAP> is surrounded by the stench of death.
+			<RETGENDERCAP> is surrounded by the ghosts of the dead.
+		RETSYMBOLS,true
+			skull
+			bone
+			portal
+			coffin
+		RETALTERFORM,true
+			anyone who has died
+			a creature of pure darkness
+			the gate to the underworld itself
+			a skeleton
+		RELAYCOLOR,true
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			disease
+			illness
+			plague
+			sickness
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in a toxic substance.
+			<RETPOSESSIVECAP> body is covered in tatters of rotted skin.
+			<RETPOSESSIVECAP> body is skinless.
+			<RETPOSESSIVECAP> body is just a skeleton.
+			<RETPOSESSIVECAP> body is that of a rotting corpse.
+			<RETPOSESSIVECAP> body is covered in sores and boils.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are decayed pits of pus.
+			<RETPOSESSIVECAP> eyes are merely bloody pits.
+			<RETPOSESSIVECAP> eyes constantly flowing with tears
+			<RETPOSESSIVECAP> eyes are more like the eyeholes of a skull.
+		RETABILITY,true
+			<RETGENDERCAP> can breathe forth disease-carrying fumes.
+			<RETGENDERCAP> can slay anyone with a touch.
+			<RETGENDERCAP> is surrounded by the stench of death.
+			<RETGENDERCAP> can inflict or cure disease.
+		RETALTERFORM,true
+			a plague victim
+			a great mass of putrid flesh
+			any disease-carrying animal
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEGREEN>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+			rotting flesh
+			the very essence of decay
+			the bodies of disease-bearing creatures
+			the living bodies of disease-bearing creatures
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			doctors
+			healers
+			healing
+			medicine
+		RETABILITY,true
+			<RETGENDERCAP> emits a healing light.
+			<RETGENDERCAP> can raise the dead and heal the sick.
+			<RETGENDERCAP> can purify any area of disease.
+			<RETGENDERCAP> can heal any wound or injury.
+			<RETGENDERCAP> can impart healing powers.
+		RETALTERFORM,true
+			any of the great healers of history
+			a doctor of any gender
+			a column of <*RELAYCOLOR><ROUTECOLORREF> light that heals all it touches
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			a doctor
+			a healer
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			a doctor's bag
+			a doctor's bag
+			a doctor's bag
+			a satchel of medical herbs
+			a satchel of medical herbs
+			a satchel of medical herbs
+			various surgical instruments
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			doorways
+			gates
+			portals
+		RETABILITY,true
+			<RETGENDERCAP> can pass from any location to another with ease.
+			<RETGENDERCAP> can enter or bar entry to anyplace, to anyone.
+			<RETGENDERCAP> can change any doorway so it leads to any other location.
+			<RETGENDERCAP> can pass from any location to another with ease.
+			<RETGENDERCAP> can transport someone anywhere, from one location to another.
+		RETALTERFORM,true
+			a living portal
+			a strange blur that jumps from place to place
+			a living key that unlocks all things
+		RETSYMBOLS,true
+			door
+			gate
+			key
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			earth
+			rock
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks more like it is sculpted from rock than styled.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks as if it was soil - it even has plants growing on it.
+			<RETPOSESSIVECAP> body looks as if it was sculpted from rock.
+			<RETPOSESSIVECAP> body looks more like it was molded from soil.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like gems.
+		RETABILITY,true
+			<RETGENDERCAP> can pass through the earth as if it was air.
+			<RETGENDERCAP> can cause earthquakes.
+			<RETGENDERCAP> can control earth and shape it into anything.
+		RETALTERFORM,true
+			a creature of stone
+			a statue
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			plates of stone
+			living stone
+			a strange, rocklike material.
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			evil
+			villainy
+		RETABILITY,true
+			<RETGENDERCAP> is surrounded by a sinister aura.
+			<RETGENDERCAP> can twist the hearts of the most pure to evil.
+			<RETGENDERCAP> can find a person's weakness easily.
+		RETALTERFORM,true
+			a great shadow
+			the worst nightmare of any seer
+			a hideous monstrosity
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			famine
+			starvation
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks like some kind of dead plant.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is that of a corpse.
+			<RETPOSESSIVECAP> skin is dry and withered.
+			<RETPOSESSIVECAP> skin is nearly transparent.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are sunken, like those of a corpse.
+		RETABILITY,true
+			<RETGENDERCAP> causes plants to wither and die.
+			<RETGENDERCAP> can starve a person to death with a touch.
+			<RETGENDERCAP> can cause people to starve to death.
+			<RETGENDERCAP> is surrounded by an aura that causes people to starve and wither quickly.
+		RETALTERFORM,true
+			a victim of starvation
+			a putrid cloud
+			a putrid wind
+			a withered corpse
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTFARMING>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			fate
+			destiny
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin as if it has writing on it.
+			<RETPOSESSIVECAP> skin has images crawling along it.
+			<RETPOSESSIVECAP> skin is like a mirror.
+			<RETPOSESSIVECAP> skin is covered in faces, each whispering secrets.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like mirrors.
+			<RETPOSESSIVECAP> eyes are like mouths.
+			<RETPOSESSIVECAP> eyes are windows onto other possibilities.
+		RETABILITY,true
+			<RETGENDERCAP> knows the destinies of gods and men.
+			<RETGENDERCAP> knows the past and the future, and can impart knowledge of it.
+			<RETGENDERCAP> can change the threads of fate.
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTFARMING>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			heroism
+			heroes
+			honor
+			valor
+		RETABILITY,true
+			<RETGENDERCAP> can inspire people with <RETPOSESSIVE> voice.
+			<RETGENDERCAP> can inspire people with <RETPOSESSIVE> mere presence.
+			<RETGENDERCAP> knows the hearts of people easily.
+			<RETGENDERCAP> manifests in the hearts of would-be-heroes.
+		RETALTERFORM,true
+			any of the greatest heroes of history
+			a great being of golden light
+			an armored giant
+			an army of duplicates
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			pure light
+			a strange, radiant substance
+			the souls of great heroes
+		REFOBJECTROUTE,true
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONRANGED>
+	<*>
+		RETSPHERE,true
+			hunting
+			the hunt
+			hunters
+			trappers
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin has a camoflage-like pattern to it.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are strangely animal-like.
+			<RETPOSESSIVECAP> eyes are strangely cat-like.
+		RETABILITY,true
+			<RETGENDERCAP> can strike a target perfectly, no matter the distance.
+			<RETGENDERCAP> can track anything or anyone.
+			<RETGENDERCAP> can blend into the surroundings perfectly.
+			<RETGENDERCAP> is always surrounded by unnaturally powerful hunting-dogs.
+		RETALTERFORM,true
+			any animal that is a great hunter
+		RETSYMBOLS,true
+			arrow
+			point-like
+			animal-claw
+			animal-head
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			a hunter
+			a hunter
+			a hunter
+			<REFPROFOUTDOORS>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+	<*>
+		RETSPHERE,true
+			justice
+			law
+			lawyers
+			lawmakers
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in eyes.
+			<RETPOSESSIVECAP> skin has odd, almost unnatural angles to it.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are strangely piercing.
+			<RETPOSESSIVECAP> eyes have no pupils or iris.
+			<RETGENDERCAP> never blinks.
+		RETABILITY,true
+			<RETGENDERCAP> knows the hearts of people.
+			<RETGENDERCAP> can cause anyone to speak the truth.
+			<RETGENDERCAP> can slay the unjust with a glance.
+			<RETGENDERCAP> inspires people to justice.
+			<RETGENDERCAP> can speak, and force anyone listening to obey.
+			<RETGENDERCAP> is surrounded by disembodied, all-seeing eyes.
+		RETSYMBOLS,true
+			scale
+			sword
+			ruler
+			balance
+			circle
+			line
+		RETALTERFORM,true
+			a living sword
+			a living book
+			a great eye
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			lies
+			falsehood
+			deception
+			trickery
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is constantly changing colors.
+			<RETPOSESSIVECAP> skin is covered in ever-speaking, ever-lying faces.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are constantly changing colors.
+			<RETPOSESSIVECAP> eyes have a hypnotic quality to them.
+		RETABILITY,true
+			<RETGENDERCAP> can weave subtle illusions.
+			<RETGENDERCAP> is surrounded by strange, deceptive, ever-changing images.
+			<RETGENDERCAP> can strike people with delusions and confuison.
+			<RETGENDERCAP> causes confusion with his very presence.
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			a strange substance that is always changing colors
+			a substance that has a concealing, chameleon-like nature
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			light
+			illumination
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> <*RELAYCOLOR><ROUTECOLORREF> hair looks more like rays of light.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin seems to be lit from within.
+			<RETPOSESSIVECAP> skin seems almost transparent, with a strange glow inside <RETPOSESSIVE> body.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes glow with <*RELAYCOLOR><ROUTECOLORREF> light.
+			<RETPOSESSIVECAP> eyes emit bright light.
+			<RETPOSESSIVECAP> eyes emit powerful beams of light.
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by an aura of light.
+			<RETGENDERCAP> can cause anything to give off illumination.
+			<RETGENDERCAP> is always surrounded by an aura of light that is <*RELAYCOLOR><ROUTECOLORREF> in color.
+		RETSYMBOLS,true
+			sun-symbol
+			triangle
+			line
+		RETALTERFORM,true
+			a being of pure light
+			a column of light
+			a glowing sphere
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+			pure radiance
+			solidified light
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			lightning
+			thunder
+			storms
+			thunderstorms
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks more like a cloud.
+			<RETPOSESSIVECAP> hair looks like a thundercloud.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes can shoot forth bolts of lightning.
+			<RETPOSESSIVECAP> eyes glow strangely.
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by clouds.
+			<RETGENDERCAP> is always surrounded by flashes of lightning.
+			<RETGENDERCAP> can call up storms.
+			<RETGENDERCAP> can strike anyone dead with lightning from afar.
+		RETSYMBOLS,true
+			lightning-symbol
+		RETALTERFORM,true
+			a great thundercloud
+			a living bolt of lightning
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			clouds
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			attraction
+			love
+			lovers
+			passion
+			romance
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes have a hypnotic quality.
+		RETABILITY,true
+			<RETGENDERCAP> inspires love in all <RETGENDER> encounters.
+			<RETGENDERCAP> can induce overwhelming passion in anyone.
+			<RETGENDERCAP> can create - or destroy - love.
+		RETSYMBOLS,true
+			heart
+			suggestive
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+			a strangely transparent substance
+			a gauzy, mysterious substance
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTFARMING>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			luck
+			fortune
+			gambling
+		RETABILITY,true
+			<RETGENDERCAP> brings good fortune to anyone within range, unconciously.
+			<RETGENDERCAP> can alter chance and bend odds with ease.
+			<RETGENDERCAP> can bestow or take good fortune.
+		RETSYMBOLS,true
+			dice
+			money-signs
+			wheel
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			magic
+			sorcery
+			mages
+			sorcerors
+			alchemists
+			alchemy
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is covered in occult symbols.
+			<RETPOSESSIVECAP> skin is covered in writing.
+			<RETPOSESSIVECAP> skin seems to flow and move, as if it is a kind of liquid.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like prisms.
+			<RETPOSESSIVECAP> eyes are like gates into another dimension.
+			<RETPOSESSIVECAP> eyes are constantly changing in color.
+		RETABILITY,true
+			<RETGENDERCAP> can grant or take away the knowledge of spells.
+			<RETGENDERCAP> can grant or take away magical ability.
+			<RETGENDERCAP> can grant or take away the knowledge of any language.
+			<RETGENDERCAP> can comprehend any language with ease.
+			<RETGENDERCAP> is accompanied by the souls of past sorcerors.
+			<RETGENDERCAP> is surrounded by a strange aura that gives glimpses into other dimensions.
+			<RETGENDERCAP> is accompanied by otherworldly creatures.
+		RETSYMBOLS,true
+			circle
+			magical
+			pentagram
+			rune
+		RETALTERFORM,true
+			a mystic circle
+			a strange swirl of colors
+			a creature made of living runes
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFMYSTIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			the very essence of magic
+			the fabric of reality itself
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			mining
+			miners
+			mineral wealth
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks like metal wires.
+			<RETPOSESSIVECAP> hair looks more like it is sculpted from <*RELAYCOLOR><ROUTECOLORREF> stone.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is like rock.
+			<RETPOSESSIVECAP> skin is like metal.
+			<RETPOSESSIVECAP> skin reminds one of rock strata.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like <*RELAYCOLOR><ROUTECOLORREF> gems.
+		RETABILITY,true
+			<RETGENDERCAP> can pass through rock as if it were air.
+			<RETGENDERCAP> can form metal with a thought.
+			<RETGENDERCAP> knows where valuable gems and minerals are deposited.
+			<RETGENDERCAP> seeds valuable ores and gems for miners to find.
+			<RETGENDERCAP> can cause great quakes or subside them.
+		RETSYMBOLS,true
+			pick
+			map-like
+			irregular			
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			a badger
+			a mole
+			a worm
+			<REFANIMALCANINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			a stonelike substance
+			metal
+			metal fibers
+			the living earth
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			the moon
+			the lunar cycle
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by a mild glow.
+			<RETGENDERCAP> changes in appearance with the lunar cycle.
+			<RETGENDERCAP> can vanish or appear easily.
+		RETSYMBOLS,true
+			crescent
+			circle
+		RETALTERFORM,true
+			a pale column of light
+			a sphere of soft light
+		RELAYCOLOR,true
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			pale moonlight
+			the essence of night
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			music
+			musicians
+			musicianship
+		RETABILITY,true
+			<RETPOSESSIVECAP> voice can sound like any instrument.
+			<RETGENDERCAP> can grant or withhold musical knowledge.
+			<RETGENDERCAP> can bless any instrument with perfect sound.
+			<RETGENDERCAP> always seems to be accompanied by an invisible band.
+		RETSYMBOLS,true
+			musical note
+			wave
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+			a strange, multicolored substance
+			solidified music
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			night
+			midnight
+			nighttime
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks like it is made from darkness.
+			<RETPOSESSIVECAP> hair looks like it is made from darkness, and can move and enshroud others in blackness.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks as if it is made from darkness.
+			<RETPOSESSIVECAP> skin looks as if it is made from darkness, and can envelop others in blackness.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like black pits.
+		RETABILITY,true
+			<RETGENDERCAP> casts no shadow.
+			<RETGENDERCAP> can plunge an area into darkness.
+			<RETGENDERCAP> is surrounded by a dark aura.
+			<RETGENDERCAP> can move <RETPOSESSIVE> shadow to envelop others in darkness.
+		RETALTERFORM,true
+			a shadow
+			a creature made of blackness
+		RELAYCOLOR,true
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			rain
+			rainstorms
+		RETABILITY,true
+			<RETGENDERCAP> can stop or start rainstorms.
+			<RETGENDERCAP> can impart knowledge of weather.
+		RETSYMBOLS,true
+			raindrop-shape
+			line
+		RETALTERFORM,true
+			a raincloud
+			a cloud
+			a column of water
+		RELAYCOLOR,true
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+		REFCLOTHESMADE,true
+			of a material like solid water
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			revenge
+			vengeance
+			avengers
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is inscribed with the names of those to be punished.
+			<RETPOSESSIVECAP> skin is covered in screaming faces of the punished.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are terrible to behold.
+			<RETPOSESSIVECAP> eyes seem to pierce into people's souls.
+		RETABILITY,true
+			<RETGENDERCAP> can see into a person's heart.
+			<RETGENDERCAP> can posess those who wish <RETPERREF> help.
+			<RETGENDERCAP> can kill with a touch.
+		RETALTERFORM,true
+			a hideous monster
+			a whirling cloud of blades
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			scholars
+			teachers
+			academics
+			education
+			educators
+		RETABILITY,true
+			<RETGENDERCAP> can impart or take away knowledge.
+			<RETGENDERCAP> can impart or take away the knowledge of languages.
+			<RETGENDERCAP> can recall anything ever written down.
+		RETSYMBOLS,true
+			rune
+			quill
+			abstract
+		RETALTERFORM,true
+			a strange abstract design
+			a creature made of living runes
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFACADEMIC>
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+	<*>
+		RETSPHERE,true
+			seas
+			oceans
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks as if it was made of water.
+			<RETPOSESSIVECAP> hair looks as if it was made of seafoam.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> body appears to be made of water.
+			<RETPOSESSIVECAP> skin is covered in scales.
+			<RETPOSESSIVECAP> skin is like that of a dolphin.
+		RETABILITY,true
+			<RETGENDERCAP> can walk upon water as if it was dry land.
+			<RETGENDERCAP> can call forth waves of water no matter where <RETGENDER> is.
+			<RETGENDERCAP> can raise storms and waves or calm the same.
+		RETSYMBOLS,true
+			wave
+			fish
+		RETALTERFORM,true
+			a being made of water
+			a living wave
+			a waterspout
+		RELAYCOLOR,true
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFWARRIOR>
+			sailor
+			pirate
+		REFCLOTHESMADE,true
+			the skin of a great sea monster
+			the living ocean
+			solidified sea foam
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			the sun
+			sunlight
+			sunshine
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks more like the rays of the sun.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin glows like the sun itself.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes always glow.
+			<RETPOSESSIVECAP> eyes can emit blinding light.
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by an aura of light.
+			<RETGENDERCAP> brings sunlight into the darkest corners.
+			<RETGENDERCAP> can strike down creatures of impurity and darkness.
+		RETSYMBOLS,true
+			sun
+			line
+		RETALTERFORM,true
+			a bright sphere of light
+			a column of light
+			a being made entirely of light
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			pure radiance
+			sunlight
+			the very essence of light
+			solidified light
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			spring
+			summer
+		RETABILITY,true
+			<RETGENDERCAP> can cause plants to burst into life and ripen.
+			<RETGENDERCAP> can impart knowledge of the seasons.
+		RETSYMBOLS,true
+			sun
+			plant
+		RETALTERFORM,true
+			a bright sphere of light
+			a gigantic tree in bloom
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			pure sunlight
+			living plants
+			flower blooms
+			flower petals
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTFARMING>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			thieves
+			burglars
+			robbers
+		RETABILITY,true
+			<RETGENDERCAP> can vanish or appear without a trace.
+			<RETGENDERCAP> can grant or take away theiving abilities.
+			<RETGENDERCAP> can go anywhere unimpeded, even by other deities.
+		RETALTERFORM,true
+			a shadowy figure
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFROGUE>
+		REFOBJECTROUTE,true
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMISC>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			time
+			history
+			the passage of time
+		RETABILITY,true
+			<RETGENDERCAP> can speed or slow the passage of time.
+			<RETGENDERCAP> can age or de-age anyone or anything.
+			<RETGENDERCAP> can see the past and future.
+		RETSYMBOLS,true
+			number
+			clock
+			sundial
+			spiral
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			the essence of time itself
+			a mysterious many-dimensional substance
+			strange, abstract forms
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			truth
+			honesty
+		RETABILITY,true
+			<RETGENDERCAP> can cause anyone to tell the truth.
+			<RETGENDERCAP> can never be decieved.
+			<RETGENDERCAP> can grant anyone the ability to tell if someone is truthful.
+			<RETGENDERCAP> can read minds.
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			strange, abstract forms
+			thought itself
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTHUMANPART>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			war
+			battle
+			combat
+			warriors
+			soldiers
+			fighters
+			guardsmen
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin is like armor.
+		RETABILITY,true
+			<RETGENDERCAP> can instill great heroism in people.
+			<RETGENDERCAP> can impart an unstoppable berserker rage in worshippers.
+			<RETGENDERCAP> can impart combat skills to anyone.
+			<RETGENDERCAP> can raise the souls of the heroic dead.
+		RETSYMBOLS,true
+			triangle
+			shield
+			eye
+		RETALTERFORM,true
+			a living suit of armor
+			a whirling cloud of weapons
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFWARRIOR>
+		REFOBJECTROUTE,true
+			<REFOBJECTMISC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			water
+			rivers
+			lakes
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks as if it is made from water.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks more like the scales of a fish.
+			<RETPOSESSIVECAP> body looks as if it is made of water.
+		RETABILITY,true
+			<RETGENDERCAP> can walk upon water as if it was dry land.
+			<RETGENDERCAP> can call forth waves of water no matter where <RETGENDER> is.
+		RETSYMBOLS,true
+			line
+			spiral
+			squiggle		
+		RELAYCOLOR,true
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFART>
+			<REFPROFMERCHANT>
+			<REFPROFMUSIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		REFCLOTHESMADE,true
+			fish scales
+			the essence of water
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTFARMING>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMINING>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			wealth
+			riches
+			fortune
+		RETABILITY,true
+			<RETGENDERCAP> can bestow or take away fortune with ease.
+			<RETGENDERCAP> can lead people to treasure.
+			<RETGENDERCAP> can lead people to business opportunities.
+		RETSYMBOLS,true
+			circle
+			coin
+			money-symbol
+		RETALTERFORM,true
+			a golden humanoid
+			a shower of golden coins
+			a creature made of gems
+			a living gemstone
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAQUATIC>
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMERCHANT>
+			<REFPROFMERCHANT>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+		REFCLOTHESMADE,true
+			gold
+			golden materials
+			the finest materials
+			<REFCLOTHESMADEOTHER>
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+//Test
+	<*>
+		RETSPHERE,true
+			fire
+			flame
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair is like a burning flame.
+			<RETPOSESSIVECAP> hair looks like it is made of molten metal.
+			<RETPOSESSIVECAP> hair looks like it has been singed.
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like burning flames.
+			Fire shoots from <RETPOSESSIVE> eyes.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin glows as if it were flame itself.
+			<RETPOSESSIVECAP> skin looks like molten metal.
+			<RETPOSESSIVECAP> body appears to be illuminated by an inner fire.
+		RETALTERFORM,true
+			a being made of fire
+			a living fire
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+			<REFANIMALREPTILE>
+		REFPROFESSION,true
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		RETABILITY,true
+			<RETGENDERCAP> is always surrounded by an aura of fire.
+			<RETGENDERCAP> leaves behind a trail of fire wherever <RETGENDER> goes.
+			<RETGENDERCAP> can set items ablaze instantly.
+			<RETGENDERCAP> can immolate anything - or protect it from fire.
+		RETSYMBOLS,true
+			flame
+			triangle
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			flames
+			solid fire
+			a strange, ever-burning substance
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			forests
+			woodlands
+		RETHAIRMOD,true
+			<RETPOSESSIVECAP> hair looks like it's made of leaves.
+			<RETPOSESSIVECAP> hair looks like it's made of vines.
+			<RETPOSESSIVECAP> hair looks like it's some kind of odd plant.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin looks like the surface of some mysterious plant.
+			<RETPOSESSIVECAP> skin has plants growing from it.
+			<RETPOSESSIVECAP> skin is like bark.
+			<RETPOSESSIVECAP> body actually looks like its a plant, not flesh.
+		RETALTERFORM,true
+			a living tree
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+			<REFANIMALMAMMAL>
+			<REFANIMALPRIMATE>
+		REFPROFESSION,true
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		RETABILITY,true
+			<RETGENDERCAP> causes plants to grow around <RETPERREF>.
+			<RETGENDERCAP> is always surrounded by growing plants and wildlife.
+			<RETGENDERCAP> is always surrounded by forest life.
+			<RETGENDERCAP> travels through trees as if they were doors.
+		RETSYMBOLS,true
+			tree
+			leaf
+			vine
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEANIMAL>
+			<REFCLOTHESMADEOTHER>
+			plants
+			leaves
+		REFOBJECTROUTE,true
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			prophets
+			seers
+			prophecy
+			diviners
+			premonitions
+		RETEYEMOD,true
+			<RETPOSESSIVECAP> eyes are like mirrors.
+			<RETPOSESSIVECAP> eyes are like crystal spheres.
+			<RETPOSESSIVECAP> eyes seem to show strange scenes, as if they were windows.
+		RETSKINMOD,true
+			<RETPOSESSIVECAP> skin appears to be covered in writing.
+			<RETPOSESSIVECAP> skin is like a mirror.
+			<RETPOSESSIVECAP> skin appears to be covered in drawings.
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+		RETABILITY,true
+			<RETGENDERCAP> seems to distort space around <RETPERREF>.
+			<RETGENDERCAP> has an unsettling presence.
+		RETSYMBOLS,true
+			eye-like
+		RETALTERFORM,true
+			a giant eye
+			a cloud of eyes
+			a cloud of mirrors
+		REFCLOTHESMADE,true
+			<REFCLOTHESMADEHUMAN>
+			<REFCLOTHESMADEOTHER>
+			the eyes of many creatures
+			folds in the fabric of space
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTMISC>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>
+	<*>
+		RETSPHERE,true
+			travel
+			travelers
+		REFANIMALROUTE,true
+			<REFANIMALAVIAN>
+			<REFANIMALCANINE>
+			<REFANIMALFELINE>
+			<REFANIMALINSECTOID>
+		REFPROFESSION,true
+			<REFPROFACADEMIC>
+			<REFPROFMYSTIC>
+			<REFPROFOUTDOORS>
+			<REFPROFROGUE>
+			<REFPROFWARRIOR>
+		RETABILITY,true
+			<RETGENDERCAP> seems to distort space around <RETPERREF>.
+			<RETGENDERCAP> moves from place to place instantly.
+			<RETGENDERCAP> can impart a perfect sense of direction to anyone.
+			<RETGENDERCAP> can transport anyone anywhere in the world.
+		RETSYMBOLS,true
+			map-like
+		RETALTERFORM,true
+			a whirlwind
+			a living portal
+		REFOBJECTROUTE,true
+			<REFOBJECTABSTRACT>
+			<REFOBJECTINTELLECTUAL>
+			<REFOBJECTMISC>
+			<REFOBJECTMUSIC>
+			<REFOBJECTPROTECTIVE>
+			<REFOBJECTSPIRTUAL>
+			<REFOBJECTTIME>
+			<REFOBJECTTIME>
+			<REFOBJECTTIME>
+			<REFOBJECTTOOL>
+			<REFOBJECTTRAVEL>
+			<REFOBJECTWEAPONHAND>
+			<REFOBJECTWEAPONHANDSUBTLE>
+			<REFOBJECTWEAPONRANGED>
+			<REFOBJECTWEAPONRANGEDSUBTLE>
+			<REFOBJECTWEAPONODBALL>			
+//REFS
+REFPERSONALITY
+	aggravated
+	alienated
+	aloof
+	altruistic
+	ambitious
+	amiable
+	antisocial
+	anxious
+	apathetic
+	arrogant
+	artistic
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	brave
+	broken-hearted
+	brutal
+	bullying
+	calm
+	charismatic
+	cheerful
+	clever
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	contemplative
+	cooperative
+	courageous
+	crazy
+	creative
+	cruel
+	cunning
+	cynical
+	detached
+	diabolical
+	disillusioned
+	disloyal
+	dissatisfied
+	distant
+	domineering
+	driven
+	eccentric
+	elegant
+	energetic
+	ethical
+	extraverted
+	fearsome
+	focused
+	forceful
+	friendly
+	funny
+	generous
+	gentle
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	heroic
+	humble
+	illogical
+	immature
+	immoral
+	industrious
+	infamous
+	inhibited
+	innocent
+	intelligent
+	intimidating
+	introverted
+	intuitive
+	irrational
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	narrow-minded
+	negative
+	nice
+	nihilistic
+	noisy
+	nosy
+	nurturing
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	playful
+	plucky
+	poised
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	private
+	promiscuous
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	righteous
+	romantic
+	rude
+	ruthless
+	sadistic
+	sarcastic
+	seasoned
+	secretive
+	selfish
+	selfless
+	self-righteous
+	serene
+	serious
+	shifty
+	short-tempered
+	silly
+	sleazy
+	slothful
+	smart
+	smooth
+	snide
+	social
+	spiritual
+	stressed
+	strong
+	studious
+	tactful
+	tactless
+	tired
+	tireless
+	tolerant
+	tough
+	ugly
+	unambitious
+	unbalanced
+	unfriendly
+	unhappy
+	unjust
+	unpopular
+	unpredictable
+	unstable
+	unwise
+	vicious
+	violent
+	vocal
+	watchful
+	weary
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	wrathful
+//Builds
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFHEIGHT
+	 is very short and 
+	 is short and 
+	 
+	  
+	 is tall and 
+	 is very tall and 
+	 is inhumanly tall and 
+//Eye refs
+REFEYEFORM
+	almond-shaped
+	beady
+	deep-set
+	droopy
+	hooded
+	large
+	narrow
+	round
+	slanted
+	slitted
+	wide
+//Hair
+REFHAIRTYPE
+	curly
+	straight
+	straight
+	wavy
+REFFURLENGTH
+	very short
+	short
+	long
+	very long
+REFHAIRLENGTH
+	<REFHAIRLENGTHSHORT>
+	<REFHAIRLENGTHMEDIUM>
+	<REFHAIRLENGTHMEDIUM>
+	<REFHAIRLENGTHLONG>
+REFHAIRSTYLE
+	a bizarre
+	a businesslike
+	a carefully-crafted
+	a complex
+	a dignified
+	a practical
+	a precise
+	a severe
+	a silly
+	a simple
+	a straightforward
+	a strange
+	a utilitarian
+	a weird
+	an artistic
+	an attractive
+	an elaborate
+	an elegant
+	an exotic
+	an impractical
+	an uncomplicated
+REFHAIRSTYLEMETAPHOR
+	a bird's wing
+	a burning fire
+	a cascading waterfall
+	a cobra's hood
+	a comet's trail
+	a crown
+	a pair of horns
+	a reptile's scales
+	a drifting cloud
+	a flame
+	a flower's petals
+	a flowing stream
+	a gush of water
+	a helmet
+	a halo
+	a horse's mane
+	a strange set of spines
+	a lion's mane
+	a monk's cowl
+	a mysterious hood
+	a mysterious mask
+	a pair of wings
+	a peacock's tail
+	a pennant blowing in the wind
+	a plume of smoke
+	a porcupine's quills
+	a river
+	a rocky outcropping
+	a rooster's crest
+	a sea urchin
+	a seashell
+	a shark's fin
+	a strange headdress
+	a tangled bush
+	a trailing ribbon
+	a turtle's shell
+	a waterfall
+	a wave of water
+	an animal's ears
+	the aurora borealis
+	the petals of a flower
+	the rays of the sun
+REFHAIRLENGTHSHORT
+	very short
+	short
+REFHAIRLENGTHMEDIUM
+	medium-length
+	neck-length
+REFHAIRLENGTHLONG
+	long
+	shoulder-length
+	waist-length
+	very long
+REFHAIRALTER
+	bony plates
+	feathers
+	spines
+	tentacle-like appendages
+//REF SKIN
+REFSKINCOLOR
+	<REFSKINPALE>
+	<REFSKINREGULAR>
+	<REFSKINDARKER>
+	<REFSKINDARKEST>
+REFSKINPALE
+	china-white
+	pale
+	white
+REFSKINREGULAR
+	light-colored
+REFSKINDARKER
+	ruddy
+	tan
+	tanned
+REFSKINDARKEST
+	dark
+	black
+REFSKINALTER
+	feathers
+	scales
+	fur
+	spines
+	faces
+	bony plates
+REFSKINEXTRAREF
+	<REFSKINEXTRA>
+	<REFSKINEXTRA>
+	<REFSKINEXTRAPLUS> <REFSKINEXTRA>
+REFSKINEXTRA
+	<REFGEOMETRYROUTE> designs
+	<REFGEOMETRYROUTE> designs
+	tatoos
+	writings
+REFSKINEXTRAPLUS
+	changing
+	moving
+//Animal References
+REFANIMALROUTE
+	<REFANIMALAQUATIC>
+	<REFANIMALAVIAN>
+	<REFANIMALCANINE>
+	<REFANIMALFELINE>
+	<REFANIMALINSECTOID>
+	<REFANIMALMAMMAL>
+	<REFANIMALPRIMATE>
+	<REFANIMALREPTILE>
+REFANIMALAQUATIC
+	a baraccuda
+	a fish
+	a hammerhead shark
+	an octopus
+	a squid
+	a shark
+REFANIMALAVIAN
+	a bird
+	an eagle
+	an owl
+	a raven
+	a hawk
+REFANIMALCANINE
+	a dog
+	a fox
+	a jackal
+	a wolf
+REFANIMALFELINE
+	a cat
+	a lion
+	a tiger
+	a panther
+	a puma
+REFANIMALINSECTOID
+	a bee
+	an ant
+	a spider
+	a grasshopper
+	a mantis
+	a wasp
+	a scorpion
+REFANIMALMAMMAL
+	a bear
+	a bovine
+	a rat
+	a deer
+	a squirrel
+	a flying squirrel
+	a rabbit
+REFANIMALPRIMATE
+	an ape
+	a baboon
+	a chimpanzee
+	a gorilla
+	a monkey
+REFANIMALREPTILE
+	an alligator
+	a crocodile
+	a lizard
+	a chameleon
+//Physical extra
+REFPHYSICALUNUSUALROUTE
+	<REFPHYSICALUNUSUAL>
+	<REFPHYSICALNONHUMAN>
+REFPHYSICALUNUSUAL
+	<RETGENDERCAP> has a high forehead. 
+	<RETGENDERCAP> has a low forehead.
+	<RETGENDERCAP> has a wide forehead.
+	<RETGENDERCAP> has a domed forehead.
+	<RETPOSESSIVECAP> nose is upturned.
+	<RETPOSESSIVECAP> nose is elegant.
+	<RETPOSESSIVECAP> nose is hooked.
+	<RETPOSESSIVECAP> nose is large.
+	<RETPOSESSIVECAP> nose is small.
+	<RETPOSESSIVECAP> nose is crooked.
+	<RETPOSESSIVECAP> nose is knobby.
+	<RETGENDERCAP> has high cheekbones.
+	<RETGENDERCAP> has prominent cheekbones.
+	<RETGENDERCAP> has hollow cheeks.
+	<RETPOSESSIVECAP> ears are small.
+	<RETPOSESSIVECAP> ears are prominent.
+	<RETPOSESSIVECAP> ears are knobby.
+	<RETGENDERCAP> has bushy eyebrows.
+	<RETGENDERCAP> has thin eyebrows.
+	<RETGENDERCAP> has thick eyebrows.
+	<RETGENDERCAP> has nearly-nonexistent eyebrows.
+	<RETPOSESSIVECAP> lips are very thin.
+	<RETPOSESSIVECAP> lips are very full.
+	<RETPOSESSIVECAP> mouth is large.
+	<RETPOSESSIVECAP> mouth is small.
+	<RETGENDERCAP> has a wide chin.
+	<RETGENDERCAP> has a pointed chin.
+	<RETGENDERCAP> has a weak chin.
+	<RETGENDERCAP> has  a strong chin.
+	<RETPOSESSIVECAP> hands are large.
+	<RETPOSESSIVECAP> hands are small.
+	<RETPOSESSIVECAP> hands have long fingers.
+	<RETPOSESSIVECAP> hands have stubby fingers.
+	<RETGENDERCAP> has large feet.
+	<RETGENDERCAP> has small feet.
+	<RETGENDERCAP> has wide feet.
+REFPHYSICALNONHUMAN
+	<REFPHYSICALNONHUMANSINGLE>
+	<REFPHYSICALNONHUMANSINGLE>
+	<REFPHYSICALNONHUMANMULTIPLE>
+REFPHYSICALNONHUMANSINGLE
+	<REFPHYSICALNONHUMANFACE>
+	<REFPHYSICALNONHUMANARMS>
+	<REFPHYSICALNONHUMANARMS>
+	<REFPHYSICALNONHUMANLEGS>
+	<REFPHYSICALNONHUMANBODY>
+REFPHYSICALNONHUMANMULTIPLE
+	<REFPHYSICALNONHUMANFACE> <REFPHYSICALNONHUMANARMS>
+	<REFPHYSICALNONHUMANFACE> <REFPHYSICALNONHUMANARMS>
+	<REFPHYSICALNONHUMANFACE> <REFPHYSICALNONHUMANLEGS>
+	<REFPHYSICALNONHUMANARMS> <REFPHYSICALNONHUMANLEGS>
+	<REFPHYSICALNONHUMANFACE> <REFPHYSICALNONHUMANBODY>
+	<REFPHYSICALNONHUMANFACE> <REFPHYSICALNONHUMANBODY>
+	<REFPHYSICALNONHUMANARMS> <REFPHYSICALNONHUMANBODY>
+	<REFPHYSICALNONHUMANARMS> <REFPHYSICALNONHUMANBODY>
+	<REFPHYSICALNONHUMANLEGS> <REFPHYSICALNONHUMANBODY>
+REFPHYSICALNONHUMANFACE
+	<RETGENDERCAP> has <REFANYNUMBERBUTTWO> eyes.
+	<RETGENDERCAP> has <REFANYNUMBERBUTTWO> eyes.
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> eyes and ears.
+	<RETGENDERCAP> has <REFANYNUMBERBUTTWO> faces.
+	<RETGENDERCAP> has <REFANYNUMBERBUTTWO> faces, but not all on <RETGENDER> head.
+	<RETGENDERCAP> has <REFANYNUMBERBUTONE> heads.
+	<RETPOSESSIVECAP> face is on <RETPOSESSIVE> chest.
+REFPHYSICALNONHUMANARMS
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> arms.
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> arms.
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> arms.
+	<RETGENDERCAP> has arms that split into <REFSMALLNUMBERPLUS> arms at the elbow.
+	<RETGENDERCAP> has <REFSMALLNUMBERPLUS> hands at the end of each arm.
+REFPHYSICALNONHUMANLEGS
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> legs.
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> legs.
+	<RETGENDERCAP> has the lower body of <REFANIMALROUTE>.
+REFPHYSICALNONHUMANBODY
+	<REFPHYSICALNONHUMANBODYFACIAL>
+	<REFPHYSICALNONHUMANBODYFACIAL>
+	<REFPHYSICALNONHUMANBODYWINGS>
+	<REFPHYSICALNONHUMANBODYWINGS>
+	<REFPHYSICALNONHUMANBODYFACIAL> <REFPHYSICALNONHUMANBODYWINGS>
+REFPHYSICALNONHUMANBODYFACIAL
+	<RETGENDERCAP> has fangs instead of teeth.
+	<RETGENDERCAP> has catlike eyes.
+	<RETGENDERCAP> has long, pointed ears.
+	<RETGENDERCAP> has an inhumanly elongated face.
+REFPHYSICALNONHUMANBODYWINGS
+	<RETGENDERCAP> has a pair of <REFWINGTYPE>wings.
+	<RETGENDERCAP> has <REFEVENNUMBERPLUS> pairs of <REFWINGTYPE>wings.
+REFWINGTYPE
+	<*>
+	bird-like 
+	bat-like 
+//Clothes
+REFCLOTHESSTYLE
+	an artistic
+	an attractive
+	a bizarre
+	a businesslike
+	a classy
+	a complicated
+	a dignified
+	an elaborate
+	an elegant
+	a flattering
+	an impractical
+	a mysterious
+	a no-nonsense
+	an odd
+	a plain
+	a practical
+	a revealing
+	a risque
+	a severe
+	a sexy
+	a simple
+	a strange
+	a tight
+	an uncomplicated
+	an unconventional
+	an unusual
+	an utilitarian
+	a weird
+REFCLOTHESELEMENTS
+	<REFCLOTHESCASUAL>
+	<REFCLOTHESWAR>
+REFCLOTHESCASUAL
+	costume
+	outfit
+	uniform
+REFCLOTHESWAR
+	suit of armor
+	uniform
+REFCLOTHESMADE
+	<REFCLOTHESMADEHUMAN>
+	<REFCLOTHESMADEANIMAL>
+	<REFCLOTHESMADEOTHER>
+REFCLOTHESMADEHUMAN
+	human skin
+	human bones
+	human corpses
+	human limbs
+	living human bodies
+	human souls
+	human dreams
+REFCLOTHESMADEANIMAL
+	animal skins
+	animal hides
+	living animals
+	animal bones
+REFCLOTHESMADEOTHER
+	the skin of a dead god
+	the skin of a dead goddess
+	the skin of an ancient monster
+	the skin of an ancient monster
+	the bones of a dead god
+	the bones of a dead goddess
+	the bones of an ancient monster
+	the bones of an ancient monster
+	the primeval material of the universe
+	the primeval material of the universe
+REFCLOTHESEXTRA
+	<REFCLOTHESEXTRAJEWELRY>
+	<REFCLOTHESEXTRAJEWELRYPLURAL>
+	<REFCLOTHESEXTRAHEAD>
+REFCLOTHESEXTRAJEWELRY
+	an armband
+	a amulet
+	a bracelet
+	a brooch
+	a charm
+	a locket
+	a necklace
+	a ring
+	a talisman
+REFCLOTHESEXTRAJEWELRYPLURAL
+	various bracelets
+	various necklaces
+	various rings
+	various armbands
+	various ornaments
+	various pieces of jewelry
+	various talismans
+	various amulets
+REFCLOTHESEXTRAHEAD
+	a crown
+	a diadem
+	a hat
+	a helm
+	a monocle
+	a protective visor
+	a mask
+	a hood
+	a headdress
+REFCLOTHESDESIGN
+	is covered in <REFGEOMETRYROUTE> designs
+	incorporates <REFGEOMETRYROUTE> designs
+//PROFESSIONREF
+REFPROFESSION
+	<REFPROFACADEMIC>
+	<REFPROFART>
+	<REFPROFMERCHANT>
+	<REFPROFMUSIC>
+	<REFPROFMYSTIC>
+	<REFPROFOUTDOORS>
+	<REFPROFROGUE>
+	<REFPROFWARRIOR>
+REFPROFACADEMIC
+	an academic
+	an archivist
+	a professor
+	a scholar
+	a sage
+	a scribe
+	a teacher
+REFPROFART
+	an artisan
+	an artist
+	a painter
+	a sculptor
+REFPROFMERCHANT
+	a banker
+	a businessperson
+	a merchant
+	a money-lender
+	a pedlar
+	a shopkeeper
+	a trader
+	a tycoon
+REFPROFMUSIC
+	a bard
+	a composer
+	a minstrel
+	a musician
+	a singer
+	a troubadour
+REFPROFMYSTIC
+	a cleric
+	a diviner
+	a mystic
+	a magician
+	a seer
+	a shaman
+	a sorceror
+REFPROFOUTDOORS
+	a druid
+	a hunter
+	a ranger
+	a trapper
+	a woodsman
+REFPROFROGUE
+	a burglar
+	a cat burglar
+	a con-artist
+	a highwayman
+	a pickpocket
+	a pirate
+	a robber
+	a thief
+REFPROFWARRIOR
+	a barbarian
+	a fighter
+	a gladiator
+	a knight
+	a soldier
+	a warrior
+//DESIGNS
+REFGEOMETRYROUTE
+	<RETSYMBOLS>
+	<REFGEOMETRY>
+REFGEOMETRY
+	<REFGEOMETRYNONSHAPE>
+	<REFGEOMETRYSHAPE>
+REFGEOMETRYNONSHAPE
+	abstract
+	bizarre
+	geometric
+	irregular
+	line-like
+	spiral
+	wave-like
+	zig-zag
+REFGEOMETRYSHAPE
+	circular
+	hexagon
+	pentagon
+	octagon
+	oval
+	rectangular
+	square
+	triangle
+//REFOBJECTS
+REFOBJECTROUTE
+	<REFOBJECTFARMING>
+	<REFOBJECTHUMANPART>
+	<REFOBJECTINTELLECTUAL>
+	<REFOBJECTMINING>
+	<REFOBJECTMISC>
+	<REFOBJECTMUSIC>
+	<REFOBJECTPROTECTIVE>
+	<REFOBJECTSPIRTUAL>
+	<REFOBJECTTIME>
+	<REFOBJECTTOOL>
+	<REFOBJECTTRAVEL>
+	<REFOBJECTWEAPONHAND>
+	<REFOBJECTWEAPONHANDSUBTLE>
+	<REFOBJECTWEAPONRANGED>
+	<REFOBJECTWEAPONRANGEDSUBTLE>
+	<REFOBJECTWEAPONODBALL>
+REFOBJECTABSTRACT
+	a disc
+	an orb
+	a crescent
+	a cube
+REFOBJECTFARMING
+	a scythe
+	a stalk of wheat
+	a sack of grain
+	an almanac
+	a gourd
+REFOBJECTHUMANPART
+	a still-beating human heart
+	a human heart
+	a human skull
+	a human skull
+	a still-living human head
+	a human head	
+REFOBJECTINTELLECTUAL
+	a scroll
+	a book
+	a satchel of scrolls
+	a satchel of books
+	a quill
+	a lens
+	a folio
+REFOBJECTMINING
+	a pick
+	a satchel of ore
+	a map
+	an ingot of metal
+REFOBJECTMISC
+	a bag
+	a basket
+	a bell
+	a box
+	a mirror
+	a sack
+	a satchel
+REFOBJECTMUSIC
+	a cymbal
+	a lute
+	a drum
+	a flute
+	a trumpet
+	sheet music
+	a mandolin
+	a tuning fork
+	a bell
+REFOBJECTPROTECTIVE
+	a shield
+	a shield
+	a buckler
+REFOBJECTSPIRTUAL
+	a prayer wheel
+	a burning stick of incense
+	a fuming censer
+	a holy scripture
+	a holy icon
+	an idol
+	a blessed bell
+REFOBJECTTIME
+	a watch
+	an almanac
+	a sundial
+	a calendar
+	a clock
+REFOBJECTTOOL
+	a satchel of tools
+	a hammer
+	a ring of keys
+	a saw
+	a ruler
+	a tape measure
+	a rope
+	a magnifying glass
+REFOBJECTTRAVEL
+	a map
+	a wheel
+	a compass
+	a walking-staff
+	a telescope
+	a guidebook
+REFOBJECTWEAPONHAND
+	a sword
+	an axe
+	a spear
+	a halbierd
+	a cutlass
+	a club
+	a warhammer
+	a quarterstaff
+REFOBJECTWEAPONHANDSUBTLE
+	a shiv
+	a poisoned dagger
+	a garotte
+	a stiletto
+REFOBJECTWEAPONRANGED
+	a bow
+	a crossbow
+	a boomerang
+	a spear
+REFOBJECTWEAPONRANGEDSUBTLE
+	a dart
+	a sling
+	a throwing knife
+	a throwing star
+	a blowgun
+	a pistol crossbow
+REFOBJECTWEAPONODBALL
+	a man-catcher
+	a sword-breaker
+	a net
+//Colors
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLORHAIRNORM
+	<ROUTERED>
+	<ROUTEYELLOW>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLOREYENORM
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			beige
+			chestnut
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+ROUTECOLORREF
+	<REFBASECOLOR>
+	<REFFANCYCOLOR>
+//NUMBERS
+REFSMALLNUMBERPLUS
+	two
+	three
+REFEVENNUMBERPLUS
+	four
+	six
+	eight
+REFANYNUMBERBUTTWO
+	three
+	four
+	five
+	six
+	seven
+	eight
+REFANYNUMBERBUTONE
+	two
+	three
+	four
+	five
+	six
+//RETS
+RETDIRREF
+	diety
+RETGENDER
+	it
+RETGENDERCAP
+	It
+RETPERREF,true
+	it
+RETPOSESSIVE
+	its
+RETPOSESSIVECAP
+	Its
+RETBUILD
+	<REFBUILDGENERAL>
+	<REFBUILDFEMALE>
+	<REFBUILDMALE>
+RETFORM
+	a person
+RETSPHERE
+	general stuff
+RETHAIRMOD
+	<SEEDHAIRUSUAL>
+	<SEEDHAIRUSUAL>
+	<SEEDHAIRUSUAL>
+	<SEEDHAIRUNUSUAL>
+RETEYEMOD
+	<SEEDEYEUSUAL>
+RETSKINMOD
+	<SEEDSKINNORM>
+	<SEEDSKIN>
+RETABILITY
+	This deity is capable of great feats.
+RETSYMBOLS
+	<REFGEOMETRY>
+RETALTERFORM
+	<REFANIMALROUTE>

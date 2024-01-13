@@ -1,0 +1,620 @@
+//Seeds
+SEED
+	<REFALTSETTING>
+	<REFBADEXPERIENCESCHANGE>
+	<REFCHARDISCOVERCHANGE>
+	<REFCHARFLAWSHOW>
+	<REFCHARPLUSSHOW>
+	<REFCHARSHIFT>
+	<REFCHARTURN>
+	<SEEDCHARWRONG>
+	<REFCHECKOV>
+	<REFPLOTACCIDENTALEXPRESSION>
+	<REFORTUNECHANGE>
+	<REFOFFSPRING>
+	<REFPLOTOCCURENCE>
+	<REFPLOTOCCURENCECHANGE>
+	<REFPLOTRELATION> - <REFCOMPREVELATION>.
+	<REFPLOTRELATION>.
+	<REFRELATIONCHANGEPLOT>
+	<REFREVEAL>
+	<REFREVELATION>
+	<REFRNICKNAME>
+	<REFSUBSTANCE>
+	<REFUNRELIABLENARRATOR>
+	<REFWORLDCHANGE>
+// Base Plots
+REFALTSETTING
+//double up
+	The world is revealed to be <REFWORLDSHIFT>.
+	The world is revealed to be <REFWORLDSHIFT>.
+	The world is revealed to be <REFWORLDSHIFT>.
+	The world is revealed to be <REFWORLDSHIFT>.
+	The world is revealed to be <REFWORLDSHIFT>	- <REFCOMPREVELATION>.
+	The world is revealed to be <REFWORLDSHIFT>	- <REFCOMPREVELATION>.
+	The world is revealed to be <REFWORLDSHIFT>	- <REFCOMPREVELATION>.
+	The world is revealed to be <REFWORLDSHIFT>	- <REFCOMPREVELATION>.
+//switch 1
+	The world is a world of <REFWORLDTYPESHIFT>.
+	The world is a world of <REFWORLDTYPESHIFT> - <REFCOMPREVELATION>.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that this is a world of <REFWORLDTYPESHIFT>.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that this is a world of <REFWORLDTYPESHIFT>.
+//switch 2
+	What people think of as <REFWORLDELEMENTMAGIC> is really <REFWORLDELEMENTTECHNOLOGY>.
+	What people think of as <REFWORLDELEMENTTECHNOLOGY> is really <REFWORLDELEMENTMAGIC>.
+	What people think of as <REFWORLDELEMENTMAGIC> is really <REFWORLDELEMENTTECHNOLOGY> - <REFCOMPREVELATION>.
+	What people think of as <REFWORLDELEMENTTECHNOLOGY> is really <REFWORLDELEMENTMAGIC> - <REFCOMPREVELATION>.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, what people think of as <REFWORLDELEMENTMAGIC> is really <REFWORLDELEMENTTECHNOLOGY>
+	We discover that, once a specific <REFREFERENCE> is analyzed, what people think of as <REFWORLDELEMENTMAGIC> is really <REFWORLDELEMENTTECHNOLOGY>
+	We discover that, thanks to <REFDISCOVERTYPEREF>, what people think of as <REFWORLDELEMENTTECHNOLOGY> is really <REFWORLDELEMENTMAGIC>.
+	We discover that, once a specific <REFREFERENCE> is analyzed, what people think of as <REFWORLDELEMENTTECHNOLOGY> is really <REFWORLDELEMENTMAGIC>.
+//regular
+	The world is revealed to be dependent on <REFWORLDELEMENTMAGIC>.
+	The world is revealed to be dependent on <REFWORLDELEMENTTECHNOLOGY>.
+	The world is revealed to be dependent on <REFWORLDELEMENTMAGIC> - <REFCOMPREVELATION>.
+	The world is revealed to be dependent on <REFWORLDELEMENTTECHNOLOGY> - <REFCOMPREVELATION>.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, the world is dependent on <REFWORLDELEMENTMAGIC>.
+	We discover that, once a specific <REFREFERENCE> is analyzed, the world is dependent on <REFWORLDELEMENTMAGIC>.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, the world is dependent on <REFWORLDELEMENTMAGIC>.
+	We discover that, once a specific <REFREFERENCE> is analyzed, the world is ependent on <REFWORLDELEMENTMAGIC>.
+REFBADEXPERIENCESCHANGE
+	Due to <REFBADEXPERIENCE> the <REFANTPROD> <REFBADEXPERIENCERESULT>.
+	Due to <REFBADEXPERIENCE> a character <REFBADEXPERIENCERESULT>.
+	Due to <REFBADEXPERIENCE> the <REFANTPROD> <REFBADEXPERIENCERESULT>.
+	Due to <REFBADEXPERIENCE> a character <REFBADEXPERIENCERESULT>.	
+	Due to <REFBADEXPERIENCE> the <REFANTPROD> <REFBADEXPERIENCERESULT> - yet this reveals <REFCHARPLUS>.
+	Due to <REFBADEXPERIENCE> a character <REFBADEXPERIENCERESULT> - yet this reveals <REFCHARPLUS>.		
+	Due to <REFBADEXPERIENCE>, the <REFANTPROD> shows <REFCHARPLUS>.	
+	Due to <REFBADEXPERIENCE>, now a character shows <REFCHARPLUS>.	
+REFCHARDISCOVERCHANGE
+	The main character discovers everyone else actually is <REFCHARTWIST>.
+	The main character discovers everyone else actually is <REFCHARTYPETWIST>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTWIST>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTYPETWIST>.
+	The main character discovers everyone else actually is <REFCHARTWIST> - <REFCOMPREVELATION>.
+	The main character discovers everyone else actually is <REFCHARTYPETWIST> - <REFCOMPREVELATION>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTWIST> - <REFCOMPREVELATION>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTYPETWIST> - <REFCOMPREVELATION>.
+	The main character discovers everyone else actually is <REFCHARTWIST> - <REFBELIEVEREASON>.
+	The main character discovers everyone else actually is <REFCHARTYPETWIST> - <REFBELIEVEREASON>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTWIST> - <REFBELIEVEREASON>.
+	The <REFANTPROTROUTE>  discovers everyone else actually is <REFCHARTYPETWIST> - <REFBELIEVEREASON>.
+REFCHARFLAWSHOW
+	Because of <REFOCCURENCEGENERALREF>, a character is revealed to have <REFCHARFLAW>.
+	Because of <REFOCCURENCEPOWERREF>, a character is revealed to have <REFCHARFLAW>.
+	Because of <REFOCCURENCEGENERALREF>, the <REFANTPROD> is revealed to have <REFCHARFLAW>.
+	Because of <REFOCCURENCEPOWERREF>, the <REFANTPROD> is revealed to have <REFCHARFLAW>.
+	A character is revealed to have <REFCHARFLAW>.
+	The <REFANTPROD> is revealed to have <REFCHARFLAW>.
+	A character is shown to have <REFCHARFLAW>, <REFCOMPREVELATION>.
+	The <REFANTPROD> is shown to have <REFCHARFLAW>, <REFCOMPREVELATION>.
+REFCHARPLUSSHOW
+	Because of <REFOCCURENCEGENERALREF>, a character is revealed to have <REFCHARPLUS>.
+	Because of <REFOCCURENCEPOWERREF>, a character is revealed to have <REFCHARPLUS>.
+	Because of <REFOCCURENCEGENERALREF>, the <REFANTPROD> is revealed to have <REFCHARPLUS>.
+	Because of <REFOCCURENCEPOWERREF>, the <REFANTPROD> is revealed to have <REFCHARPLUS>.
+	A character is revealed to have <REFCHARPLUS>.
+	The <REFANTPROD> is revealed to have <REFCHARPLUS>.
+	A character is shown to have <REFCHARPLUS> - <REFCOMPREVELATION>.
+	The <REFANTPROD> is shown to have <REFCHARPLUS> - <REFCOMPREVELATION>.
+REFCHARREVEAL
+	Due to <REFOCCURENCEGENERALREF>, a character is revealed to be <REFCHARTWIST>.
+	Due to <REFOCCURENCEPOWERREF>, the <REFANTPROTROUTE> is revealed to be <REFCHARTWIST>. . 
+	Due to <REFOCCURENCEGENERALREF>, a character is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+	Due to <REFOCCURENCEGENERALREF>, the <REFANTPROTROUTE> is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+	Due to <REFOCCURENCEPOWERREF>, a character is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+	Due to <REFOCCURENCEPOWERREF>, the <REFANTPROTROUTE> is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+//doubled up
+	A character is revealed to be <REFCHARTWIST>.
+	The <REFANTPROTROUTE> is revealed to be <REFCHARTWIST>.
+	A character is revealed to be <REFCHARTWIST>.
+	The <REFANTPROTROUTE> is revealed to be <REFCHARTWIST>.
+//complex reveals
+	A character is revealed to be <REFCHARTWIST> - <REFCOMPREVELATION>.
+	The <REFANTPROTROUTE> is revealed to be <REFCHARTWIST> - <REFCOMPREVELATION>.
+	A character is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+	The <REFANTPROTROUTE> is revealed to be <REFCHARTWIST> - and <REFBELIEVEREASON>.
+REFCHARSHIFT
+	A character suddenly reveals a <REFTRAITROUTE> side.
+	The <REFANTPROD> suddenly reveals a <REFTRAITROUTE> side.
+	A character suddenly reveals a <REFTRAITROUTE> side - <REFGENERALCOMPLICATOR>.
+	The <REFANTPROD> suddenly reveals a <REFTRAITROUTE> side - <REFGENERALCOMPLICATOR>
+REFCHARTURN
+	In order to fulfill their goals, a character must <REFREGRETFULCHOICE>.
+	In order to fulfill their goals, a character must <REFREGRETFULCHOICE>, <REFGENERALCOMPLICATOR>.
+	In order to fulfill their goals, a character must <REFREGRETFULCHOICE> - and they do it.
+	In order to fulfill their goals, a character must <REFREGRETFULCHOICE> - and they can't bring themselves to do it.
+	In order to fulfill their goals, the <REFANTPROTROUTE> must <REFREGRETFULCHOICE>.
+	In order to fulfill their goals, the <REFANTPROTROUTE> must <REFREGRETFULCHOICE>, <REFGENERALCOMPLICATOR>.
+	In order to fulfill their goals, the <REFANTPROTROUTE> must <REFREGRETFULCHOICE> - and they do it.
+	In order to fulfill their goals, the <REFANTPROTROUTE> must <REFREGRETFULCHOICE> - and they can't bring themselves to do it.
+SEEDCHARWRONG
+	A character is revealed to be a different gender than thought.
+	A character is revealed to be a different race/species than thought.
+	A character is revealed to be a different person than thought.
+	A character is revealed to not have <REFCHARPLUS>.
+	A character is revealed not to be as <REFTRAITROUTE> as thought.
+	The narrator is revealed to be a different gender than thought.
+	The narrator is revealed to be a different race/species than thought.
+	The narrator is revealed to be a different person than thought.
+	The narrator is revealed to not have <REFCHARPLUS>.
+	The narrator is revealed not to be as <REFTRAITROUTE> as thought.
+	The <REFANTPROTROUTE> is revealed to be a different gender than thought.
+	The <REFANTPROTROUTE> is revealed to be a different race/species than thought.
+	The <REFANTPROTROUTE> is revealed to be a different person than thought.
+	The <REFANTPROTROUTE> is revealed to not have <REFCHARPLUS>.
+	The <REFANTPROTROUTE> is revealed not to be as <REFTRAITROUTE> as thought.
+	A character is revealed to be a different gender than thought, <REFGENERALCOMPLICATOR>.
+	A character is revealed to be a different race/species than thought, <REFGENERALCOMPLICATOR>.
+	A character is revealed to be a different person than thought, <REFGENERALCOMPLICATOR>.
+	A character is revealed to not have <REFCHARPLUS>, <REFGENERALCOMPLICATOR>.
+	A character is revealed not to be as <REFTRAITROUTE> as thought, <REFGENERALCOMPLICATOR>.
+	The narrator is revealed to be a different gender than thought, <REFGENERALCOMPLICATOR>.
+	The narrator is revealed to be a different race/species than thought, <REFGENERALCOMPLICATOR>.
+	The narrator is revealed to be a different person than thought, <REFGENERALCOMPLICATOR>.
+	The narrator is revealed to not have <REFCHARPLUS>, <REFGENERALCOMPLICATOR>.
+	The narrator is revealed not to be as <REFTRAITROUTE> as thought, <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed to be a different gender than thought, <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed to be a different race/species than thought, <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed to be a different person than thought, <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed to not have <REFCHARPLUS>, <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed not to be as <REFTRAITROUTE> as thought, <REFGENERALCOMPLICATOR>.
+REFCHECKOV
+	At the start of the story <REFINDICPLOTOBJECT> is introduced - and of course it is used by the story's end.
+	At the start of the story <REFINDICPLOTOBJECT> is introduced - everyone expects it to be used by story's end, but it's not.
+	At the start of the story <REFINDICPLOTOBJECT> is introduced - everyone expects it to be used, but it's use is <REFPLOTSHIFT> than everyone expected
+	At the start of the story <REFINDICPLOTOBJECT> is introduced - and of course it is used by the story's end, only it's use is <REFPLOTSHIFT> than many would expect.
+REFORTUNECHANGE
+	The <REFANTPROTROUTE>'s life changes for the <REFQUALITYCHANGE>.
+	The <REFANTPROTROUTE>'s believes their life has changed for the <REFQUALITYCHANGE> -  this turns out to be <REFBELIEVEREASON>
+	The <REFANTPROTROUTE>'s life changes for the <REFQUALITYCHANGE> because of <REFDISCOVERTYPEREF>.
+	The <REFANTPROTROUTE>'s life changes for the <REFQUALITYCHANGE> because of a <REFOCCURENCEGENERAL>.
+	The <REFANTPROTROUTE>'s life changes for the <REFQUALITYCHANGE> because of <REFOCCURENCEPOWERREF>.
+REFRNICKNAME
+	A mysterious <REFREFERENCE> turns out to refer to the <REFANTPROD>'s <REFOBJECTRANDOM>.
+	A mysterious <REFREFERENCE> turns out to refer to the <REFANTPROD>'s <REFOBJECTRANDOM>, revealing a <REFTRAITROUTE> side of their character.
+	A <REFREFERENCE> turns out to refer to <REFREFERENCESECOND>.
+	A <REFREFERENCE> turns out to refer to <REFREFERENCESECOND> - <REFGENERALCOMPLICATOR>.
+REFOFFSPRING
+	A character is found to have an unexpected child they didn't know about.
+	A character is found to have an unexpected child they didn't know about - one they hid.	
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they didn't know about.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they hid.
+	A character is found to have an unexpected child they didn't know about - <REFGENERALCOMPLICATOR>.
+	A character is found to have an unexpected child they didn't know about - one they hid - <REFGENERALCOMPLICATOR>.	
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they didn't know about - <REFGENERALCOMPLICATOR>.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they hid - <REFGENERALCOMPLICATOR>.
+	A character is found to have an unexpected child they didn't know about.  However it turns out they are <REFCHARTWIST>.
+	A character is found to have an unexpected child they didn't know about - one they hid.	  However it turns out they are <REFCHARTWIST>.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they didn't know about.  However it turns out they are <REFCHARTWIST>.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they hid.  However it turns out they are <REFCHARTWIST>.
+	A character is found to have an unexpected child they didn't know about.  However it turns out they are <REFCHARTYPETWIST>.
+	A character is found to have an unexpected child they didn't know about - one they hid.	  However it turns out they are <REFCHARTYPETWIST>.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they didn't know about.  However it turns out they are <REFCHARTYPETWIST>.
+	The <REFANTPROTROUTE> is revealed to have an unexpected child - one they hid.  However it turns out they are <REFCHARTYPETWIST>.
+REFPLOTACCIDENTALEXPRESSION
+	An accidental <REFEMOTIONALEXPRESSION> leads to complications.
+	An accidental <REFEMOTIONALEXPRESSION> by the <REFANTPROTROUTE> leads to complications.
+	A supposedly accidental <REFEMOTIONALEXPRESSION> is actually caused by <REFSOURCECHANGE>.
+REFPLOTRELATION
+	The <REFANTAGONIST> turns out to be the <REFPROTAGONIST>'s <REFRELATION>
+	The <REFPROTAGONIST> turns out to be the <REFANTAGONIST>'s <REFRELATION>
+REFPLOTOCCURENCE
+	There is a sudden <REFOCCURENCEPOWER>.
+	There is a predicted <REFOCCURENCEPOWER> - but it's not what was expected.
+	There is a sudden <REFOCCURENCEPOWER>, complicating the plans of the <REFANTPROTROUTE>.
+	There is a predicted <REFOCCURENCEPOWER> - but it's not what was expected, and this complicates the plans of the <REFANTPROTROUTE>.
+REFPLOTOCCURENCECHANGE
+	Because of <REFOCCURENCEROUTEREF> it's discovered that the <REFANTAGONIST> is the <REFPROTAGONIST>'s <REFRELATION>.
+	Because of <REFOCCURENCEROUTEREF> it's discovered that the <REFPROTAGONIST> is the <REFANTAGONIST>'s <REFRELATION>.
+	Because of <REFOCCURENCEROUTEREF>, a character suddenly reveals a <REFTRAITROUTE> side.
+	Because of <REFOCCURENCEROUTEREF>, the <REFANTPROD> suddenly reveals a <REFTRAITROUTE> side.
+	Because of <REFOCCURENCEROUTEREF>, a character suddenly reveals a <REFTRAITROUTE> side - <REFGENERALCOMPLICATOR>.
+	Because of <REFOCCURENCEROUTEREF>, the <REFANTPROD> suddenly reveals a <REFTRAITROUTE> side - <REFGENERALCOMPLICATOR>
+	Because of <REFOCCURENCEROUTEREF>, a character is revealed to be <REFCHARTWIST>
+	Because of <REFOCCURENCEROUTEREF>, the <REFANTPROTROUTE> is revealed to be <REFCHARTWIST>
+	Because of <REFOCCURENCEROUTEREF>, a character is revealed to be <REFCHARTWIST>
+	Because of <REFOCCURENCEROUTEREF>, the <REFANTPROTROUTE> is revealed to be <REFCHARTWIST>
+	Because of <REFOCCURENCEROUTEREF>,	the world is revealed to be <REFWORLDSHIFT>.
+	Because of <REFOCCURENCEROUTEREF>, we discover everyone else actually is <REFCHARTWIST>.
+	Because of <REFOCCURENCEROUTEREF>, we discover everyone else actually is <REFCHARTYPETWIST>.
+REFRELATIONCHANGEPLOT
+	A character suddenly <REFRELATIONCHANGE> someone.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE>.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE>'s <REFRELATION>.	
+	A character suddenly <REFRELATIONCHANGE> someone - but this is due to <REFCHARFLAW>.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE> - but this is due to <REFCHARFLAW>.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE>'s <REFRELATION> - but this is due to <REFCHARFLAW>.	
+	A character suddenly <REFRELATIONCHANGE> someone - this brings out <REFCHARPLUS>.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE> - this brings out <REFCHARPLUS>.
+	A character suddenly <REFRELATIONCHANGE> the <REFANTPROTROUTE>'s <REFRELATION> - this brings out <REFCHARPLUS>.
+REFREVEAL
+	It's revealed that everything that is happening <REFTWIST>.
+	It turns out that everything that is happening <REFTWIST> - <REFCOMPREVELATION>.
+	The <REFANTPROTROUTE> thinks that everything happening <REFTWIST> - and <REFBELIEVEREASON>.
+	It's revealed that everything that is happening <REFTWIST>.  That's when everything becomes <REFPLOTSHIFT>.
+	It turns out that everything that is happening <REFTWIST> - <REFCOMPREVELATION>.  That's when everything becomes <REFPLOTSHIFT>.
+	The <REFANTPROTROUTE> thinks that everything happening <REFTWIST> - and <REFBELIEVEREASON>.  That's when everything becomes <REFPLOTSHIFT>.
+REFREVELATION
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that everything is not what it seems.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that everything is exactly what it seems - despite evidence to the contrary.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that a character is not what he/she seems.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that a character is exactly who they seem to be - despite evidence to the contrary.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that a character is <REFCHARTYPETWIST>.
+	We discover that, thanks to <REFDISCOVERTYPEREF>, that a character has <REFCHARFLAW>.
+// message type.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that everything is not what it seems.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that everything is exactly what it seems - despite evidence to the contrary.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that a character is not what he/she seems.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that a character is exactly who they seem to be - despite evidence to the contrary.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that a character is <REFCHARTYPETWIST>.
+	We discover that, once a specific <REFREFERENCE> is analyzed, that a character has <REFCHARFLAW>.
+REFSUBSTANCE
+	The <REFANTPROTROUTE> needs an important substance.
+	The <REFANTPROTROUTE> needs an important substance - but this substance is <REFMADECOMPLICATOR>.
+	An important substance is revealed to be <REFMADECOMPLICATOR>.
+REFUNRELIABLENARRATOR
+	It turns out the narrator of the tale is unreliable as they are <REFNARRATORCHANGE>.
+	Once we find out the narrator of the tale is <REFNARRATORCHANGE> we're left wondering how reliable they are.
+	The suspicion arises the narrator of the tale is actually <REFNARRATORCHANGE>.
+	The character filling the <REFANTPROD> on what is 'really going on' turns out to be unreiable as they are  <REFNARRATORCHANGE>.
+REFWORLDCHANGE
+	Thanks to <REFSOURCECHANGE>, the characters end up in <REFWORLDSHIFT>.
+	Thanks to <REFSOURCECHANGE>, the <REFANTPROTROUTE> ends up in <REFWORLDSHIFT>.
+//Other stuff
+//Complicators
+REFCOMPREVELATION
+	this is revealed by the <REFANTPROTROUTE>
+	this is revealed by a prophecy
+	this is revealed by a hidden document
+	this is revealed by a blackmailer
+	this is revealed in an emotional breakdown
+	this is revealed in an ancient book
+	this is revealed when a mysterious code is broken
+	this is revealed when someone has a psychic vision
+	this is revealed after a divinatory spell is cast
+	this is revealed by a series of strange co-incidences
+	this is revealed when a character is mercilessly tortured.
+	this is revealed after a careful medical study
+//References
+REFANTAGONIST
+	antagonist
+	antagonist
+	antagonist
+	secondary antagonist
+	alternate antagonist
+REFANTPROD
+	antagonist
+	lead
+	protagonist
+REFPROTAGONIST
+	protagonist
+	protagonist
+	protagonist
+	secondary protagonist
+	alternate protagonist
+REFANTPROTROUTE
+	<REFANTAGONIST>
+	<REFPROTAGONIST>
+REFBADEXPERIENCE
+	a failed surgical procedure
+	a fall
+	a mental breakdown
+	a mis-prescribed medication
+	a panic attack
+	a reaction to a recreational drug
+	a vehicular accident
+	an experiment
+	illness
+	torture
+REFBADEXPERIENCERESULT
+	becomes addicted to a substance
+	becomes injured
+	becomes paralyzed
+	goes insane
+	has to be hospitalized
+	has to get physical therapy
+	has to get psychological therapy
+	is disfigured
+	loses a leg
+	loses an arm
+	loses an ear
+	loses an eye
+REFBELIEVEREASON
+	this is correct
+	this is due to a simple miscommunication
+	this is due to a substance abuse problem
+	this is due to being decieved
+	this is due to being lied to by others
+	this is due to brainwashing
+	this is due to mental illness
+	this is totally wrong
+REFCHARTWIST
+	addicted to a substance
+	being manipulated by someone else
+	brainwashed
+	hallucinating
+	having their own hidden plans
+	insane
+	mentally ill
+	plotting against them
+REFCHARTYPETWIST
+	a clone
+	a demonic entity
+	a dream
+	a hallucination
+	a robot
+	a visitor from a parallel world
+	a zombie
+	an alien
+	an artifical life form
+	dead
+REFCHARFLAW
+	a case of falsely implanted memories
+	a crippling irrational belief
+	a dangerous compulsion
+	a mental illness
+	a paranoid fear
+	an abusive upbringing
+	an addiction
+	an irrational fear
+	another soul posessing them
+REFCHARPLUS
+	a hidden talent
+	amazing fighting abilities
+	magical gifts
+	strange powers
+	unexpected skills
+REFDISCOVERTYPEREF
+	a drunken discussion
+	a dying confession
+	a flashback
+	a heartfelt confession
+	a sudden discovery
+	a sudden personal revelation
+	a tortured confession
+REFEMOTIONALEXPRESSION
+	kiss
+	hug
+	cuddle
+REFMADECOMPLICATOR
+	made by a complicated process few know
+	made by a horrible and disgusting process
+	made by a process that creates terrible pollution
+	made by an illegal process
+	made by some very dangerous people
+	made from dangerous creatures
+	made from dangerous substances
+	made from illegal substances
+	made from people
+	made from rare creatures
+	made from substances that supposedly are mythical
+REFOCCURENCEROUTEREF
+	<REFOCCURENCEGENERALREF>
+	<REFOCCURENCEPOWERREF>
+REFOCCURENCEGENERAL
+	discovery
+	dream
+	protest
+	religious confession
+	riot
+	scientific experiment
+	vehicle accident
+REFOCCURENCEGENERALREF
+	a discovery
+	a dream
+	a natural disaster
+	a protest
+	a religious confession
+	a riot
+	a scientific experiment
+	a time of political turmoil
+	a vehicle accident
+	an assassination
+	an economic disaster
+REFOCCURENCEPOWER
+	earthquake
+	hurricane
+	magical disaster
+	plague
+	rainstorm
+	snowstorm
+	solar flare
+	tornado
+REFOCCURENCEPOWERREF
+	a hurricane
+	a magical disaster
+	a plague
+	a rainstorm
+	a snowstorm
+	a solar flare
+	a tornado
+	an earthquake
+REFOBJECTRANDOM
+	a beloved painting
+	a favorite hideaway
+	childhood home
+	childhood toy
+	favorite book
+	favorite weapon
+	favroite vacation spot
+REFCHARTWIST
+	a fictional construct
+	a hallucination of another character
+	a mental projection
+	a reanimated corpse
+	an artificial life form (robot, golem, etc.)
+	an impostor
+	dead
+	from a parallel universe
+REFGENERALCOMPLICATOR
+	which makes things much easier
+	which makes things much more complicated
+	which interferes with everyone's plans
+	which suddenly makes what's going on much clearer
+	which provides an unexpected difficulty
+	which someone uses to their advantage
+REFINDICPLOTOBJECT
+	a document
+	a drug
+	a gun
+	a mysterious book
+	a mysterious box
+	a mysterious breifcase
+	a mysterious document
+	a potion
+	a potion
+	a sword
+	a weapon
+	some money
+	some poison
+REFNARRATORCHANGE
+	a computer simulation
+	a construct
+	a demon
+	a pathological liar
+	a substance abuser
+	a supernatural creature
+	an alien being
+	an angel
+	an artificial life form
+	dead
+	drunk
+	from a parallel universe
+	hallucinating
+	mad
+	obsessed with their own image
+REFPLOTSHIFT
+	bizarre
+	darker
+	dramatic
+	funnier
+	hilarious
+	lighter
+	mysterious
+	romantic
+	sillier
+	stranger
+	terrible
+	weirder
+REFTRAITROUTE
+	<REFTRAITNEGATIVE>
+	<REFTRAITPOSITIVE>
+REFTRAITNEGATIVE
+	angry
+	cruel
+	deceptive
+	dishonest
+	greedy
+	hateful
+	malicious
+	sadistic
+REFTRAITPOSITIVE
+	clever
+	witty
+	romantic
+	intelligent
+	sentimental
+	funny
+	imaginative
+	creative
+	kind
+	helpful
+REFQUALITYCHANGE
+	better
+	worse
+	horrific
+	strange
+REFREFERENCE
+	famous quote
+	name
+	nonsense phrase
+	religious verse
+	rhyme
+	song lyric
+	string of numbers
+REFREFERENCESECOND
+	a combination on a safe
+	a hidden treasure
+	a magical formula
+	a medical formula
+	an important password
+	the key to an inheritance
+	the key to exorcising a terrible occult being
+	the name of a betrayer
+	the name of a famous ancestor
+	the name of a forgotten god
+	the name of a terrible occult being
+REFREGRETFULCHOICE
+	betray their <REFRELATION>
+	betray their best friend
+	betray their true love
+	kill their <REFRELATION>
+	kill their best friend
+	kill their true love
+REFRELATION
+	aunt
+	brother
+	father
+	grandfather
+	grandmother
+	mother
+	sister
+	twin
+	uncle
+REFRELATIONCHANGE
+	begins to hate
+	develops a fear of
+	develops an obsession with
+	falls in love with
+	falls out of love with
+REFSOURCECHANGE
+	magic
+	sorcery
+	alien forces
+	strange technology
+	technology
+	psychic abilities
+REFTWIST
+	a complicated game
+	a misinterpretation of something else
+	actually takes place inside a computer
+	is all a dream
+	is all a game played by higher powers
+	is in a hallucination
+	is inside a plan
+	is inside a story
+	is occurring in an alternate universe
+REFWORLDELEMENTMAGIC
+	alchemy
+	demonology
+	magic
+	necromancy
+	sorcery
+	witchcraft
+	wizardry
+REFWORLDELEMENTTECHNOLOGY
+	a vast computer network
+	cybernetics
+	dimension travel
+	genetic engineering
+	hyperspace travel
+	nanotechnology
+REFWORLDSHIFT
+	a virtual reality program
+	a world after an apocalypse
+	another world instead of the one we were led to believe
+	heaven
+	in another time instead of the one we were led to believe
+	in hell
+	purgatory
+	the afterlife
+	the earth after an apocalypse
+	the earth in an earlier age
+	the earth's future
+	the earth's past
+REFWORLDTYPESHIFT
+	magic not science
+	science not magic
+	technology not sorcery
+	sorcery not technology

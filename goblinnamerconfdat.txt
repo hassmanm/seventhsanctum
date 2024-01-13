@@ -1,0 +1,9 @@
+First Names
+	FIRSTNAME
+		goblinnamerfirstdat.txt
+Full Names
+	FULLNAME
+		goblinnamerfulldat.txt
+Last/Clan Names
+	LASTNAME
+		goblinnamerlastdat.txt

@@ -1,0 +1,10 @@
+Female
+	FNAME
+		quicknameftdat.txt
+		quicknameffdat.txt
+		quicknamelndat.txt
+Male
+	MNAME
+		quicknamemtdat.txt
+		quicknamemfdat.txt
+		quicknamelndat.txt

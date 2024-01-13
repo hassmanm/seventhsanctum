@@ -1,0 +1,1633 @@
+//Seeds
+SEED
+	<SETGENDER><SETAGE><SEEDRELAY>
+SEEDRELAY
+	<SETCOLOR><SETFEATURE><SETBREATH><SETPERSONALITY><SETSKILL><SETHABITAT><SEEDSHOW>
+SEEDSHOW
+	<SEEDSHOWREGULAR>
+SEEDSHOWNOSKILLNOHOARD
+	<SEEDNAME> - <RETGENDERINDICATE> is <RETAGE> dragon.  <RETGENDERINDICATE> has <RETCOLOR> scales <RETFEATURE>.  <RETGENDERPOSESSIVE> breath is <RETBREATH>.  <RETGENDERINDICATE> <RETPERSONALITY>.  <RETGENDERINDICATE> lives <REFHABITAT>.
+SEEDSHOWNOSKILL
+	<SEEDNAME> - <RETGENDERINDICATE> is <RETAGE> dragon.  <RETGENDERINDICATE> has <RETCOLOR> scales <RETFEATURE>.  <RETGENDERPOSESSIVE> breath is <RETBREATH>.  <RETGENDERINDICATE> <RETPERSONALITY>.  <RETGENDERINDICATE> lives <REFHABITAT>.  <RETGENDERPOSESSIVE> hoard is <REFHOARDSIZE><REFHOARDROUTEEXTRA>
+SEEDSHOWREGULAR
+	<SEEDNAME> - <RETGENDERINDICATE> is <RETAGE> dragon.  <RETGENDERINDICATE> has <RETCOLOR> scales <RETFEATURE>.  <RETGENDERPOSESSIVE> breath is <RETBREATH>.  <RETGENDERINDICATE> <RETPERSONALITY>.  <RETGENDERPOSESSIVE> <RETSKILL>.  <RETGENDERINDICATE> lives <REFHABITAT>.  <RETGENDERPOSESSIVE> hoard is <REFHOARDSIZE><REFHOARDROUTEEXTRA>
+SEEDNAME
+	<SEEDNAMEFIRST><SEEDNAMELAST>
+//NAMING
+SEEDNAMETITLE
+	<RETGENDERTITLE>
+SEEDNAMETITLEMALE
+SEEDNAMETITLEFEMALE
+SEEDNAMEFIRST
+SEEDNAMELAST
+	wyrm
+	serpent
+SEEDNAMEMOD
+//Genders
+SETGENDER
+	<*>
+		RETGENDERINDICATE,true
+			He
+		RETGENDERPOSESSIVE,true
+			His
+		RETGENDERPOSESSIVESMALL,true
+			his
+		RETGENDERTITLE,true
+			<SEEDNAMETITLEMALE>
+	<*>
+		RETGENDERINDICATE,true
+			She
+		RETGENDERPOSESSIVE,true
+			Her
+		RETGENDERPOSESSIVESMALL,true
+			her
+		RETGENDERTITLE,true
+			<SEEDNAMETITLEFEMALE>
+RETGENDERINDICATE
+	RETGENDERINDICATE
+RETGENDERPOSESSIVE
+	RETGENDERPOSESSIVE
+RETGENDERPOSESSIVESMALL
+	RETGENDERPOSESSIVESMALL	
+//Ages
+SETAGE
+	<*>
+		RETAGE,true
+			a very young
+		SEEDRELAY,true
+			<SETCOLOR><SETFEATURE><SETBREATH><SETPERSONALITY><SETHABITAT><SEEDSHOW>
+		SEEDSHOW,true
+			<SEEDSHOWNOSKILLNOHOARD>
+		REFHOARDSIZE,true
+			<REFHOARDTINY>
+			<REFHOARDTINY>
+			<REFHOARDTINY>
+		SEEDNAMEFIRST,true
+			Young
+			Small
+	<*>
+		RETAGE,true
+			a young
+		SEEDRELAY,true
+			<SETCOLOR><SETFEATURE><SETBREATH><SETPERSONALITY><SETHABITAT><SEEDSHOW>
+		SEEDSHOW,true
+			<SEEDSHOWNOSKILL>
+		REFHOARDSIZE,true
+			<REFHOARDTINY>
+			<REFHOARDTINY>
+			<REFHOARDSMALL>
+		SEEDNAMEFIRST,true
+			Young
+			Small
+	<*>
+		RETAGE,true
+			a young adult
+		REFHOARDSIZE,true
+			<REFHOARDTINY>
+			<REFHOARDSMALL>
+			<REFHOARDSMALL>
+		SEEDNAME,true
+			<SEEDNAMEFIRST><SEEDNAMELAST>
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+	<*>
+		RETAGE,true
+			an adult
+		REFHOARDSIZE,true
+			<REFHOARDSMALL>
+			<REFHOARDMEDIUM>
+			<REFHOARDBIG>
+		SEEDNAME,true
+			<SEEDNAMEFIRST><SEEDNAMELAST>
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+	<*>
+		RETAGE,true
+			a mature adult
+		REFHOARDSIZE,true
+			<REFHOARDMEDIUM>
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMETITLEMALE,true
+			Father
+			Lord
+		SEEDNAMETITLEFEMALE,true
+			Mother
+			Lady
+		SEEDNAME,true
+			<SEEDNAMEFIRST><SEEDNAMELAST>
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+			<SEEDNAMETITLE> <SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+	<*>
+		RETAGE,true
+			an elder
+		REFHOARDSIZE,true
+			<REFHOARDMEDIUM>
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMETITLEMALE,true
+			Father
+			Grandfather
+			King
+			Lord
+		SEEDNAMETITLEFEMALE,true
+			Grandmother
+			Queen
+			Lady
+			Mother
+		SEEDNAMEMOD,false
+			the Elder
+		SEEDNAME,true
+			<SEEDNAMEFIRST><SEEDNAMELAST>
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+			<SEEDNAMETITLE> <SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+	<*>
+		RETAGE,true
+			an ancient
+		REFHOARDSIZE,true
+			<REFHOARDBIG>
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMETITLEMALE,true
+			Emperor
+			Grandfather
+			King
+		SEEDNAMETITLEFEMALE,true
+			Grandmother
+			Queen
+			Empress
+		SEEDNAMEMOD,false
+			the Ancient
+			the Legendary
+		SEEDNAME,true
+			<SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+			<SEEDNAMETITLE> <SEEDNAMEFIRST><SEEDNAMELAST> <SEEDNAMEMOD>
+RETAGE
+	RETAGE
+//Color
+SETCOLOR
+	<*>
+		RETCOLOR,true
+			red
+		SEEDNAMEFIRST,false
+			Red
+			Ruby
+		SEEDNAMEMOD,false
+			the Crimson
+			the Scarlet
+	<*>
+		RETCOLOR,true
+			blue
+		SEEDNAMEFIRST,false
+			Blue
+			Azure
+		SEEDNAMEMOD,false
+			the Sapphire-scaled
+	<*>
+		RETCOLOR,true
+			green
+		SEEDNAMEFIRST,false
+			Green
+			Jade
+		SEEDNAMEMOD,false
+			the Emerald-scaled
+	<*>
+		RETCOLOR,true
+			violet
+		SEEDNAMEFIRST,false
+			Violet
+		SEEDNAMEMOD,false
+			the Purple-scaled
+	<*>
+		RETCOLOR,true
+			copper
+		SEEDNAMEFIRST,false
+			Bronze
+		SEEDNAMEMOD,false
+			the Copper-scaled
+	<*>
+		RETCOLOR,true
+			silver
+		SEEDNAMEFIRST,false
+			Silver
+	<*>
+		RETCOLOR,true
+			gold
+		SEEDNAMEFIRST,false
+			Gold
+		SEEDNAMEMOD,false
+			the Golden
+	<*>
+		RETCOLOR,true
+			black
+		SEEDNAMEFIRST,false
+			Black
+			Dark
+			Jet
+		SEEDNAMEMOD,false
+			the Obsidian
+			the Midnight-black
+	<*>
+		RETCOLOR,true
+			white
+		SEEDNAMEFIRST,false
+			White
+			Pearl
+		SEEDNAMEMOD,false
+			the White-hided
+RETCOLOR
+	RETCOLOR
+// Features
+SETFEATURE
+	<SETFEATUREHORNS>
+	<SETFEATUREWINGS>
+	<SETFEATURETAIL>
+	<SETFEATURETEETH>
+	<SETFEATURECLAWS>
+	<SETFEATUREHIDE>
+	<SETFEATUREEYES>
+	<SETFEATUREBODY>
+SETFEATUREHORNS
+	<*>
+		RETFEATURE,true
+			and two large horns jutting from <RETGENDERPOSESSIVESMALL> head
+		SEEDNAMELAST,false
+			horn
+			gore
+		SEEDNAMEMOD,false
+			the Horned
+			the Impaler
+	<*>
+		RETFEATURE,true
+			and multiple horns jutting from <RETGENDERPOSESSIVESMALL> head
+		SEEDNAMELAST,true
+			horn
+		SEEDNAMEMOD,true
+			the Many-Horned
+			the Impaler
+SETFEATUREWINGS
+	<*>
+		RETFEATURE,true
+			and exceptionally large wings
+		SEEDNAMEFIRST,true
+			Wind
+			Flight
+			High
+		SEEDNAMELAST,true
+			wing
+			wings
+			soar
+			soarer
+		SEEDNAMEMOD,true
+			the Great-winged
+SETFEATURETAIL
+	<*>
+		RETFEATURE,true
+			and a venomous stinger on <RETGENDERPOSESSIVESMALL> tail
+		SEEDNAMEFIRST,true
+			Venom
+			Toxin
+			Poison
+			Vile
+		SEEDNAMELAST,true
+			stinger
+			sting
+			tail
+		SEEDNAMEMOD,true
+			the Venomous
+	<*>
+		RETFEATURE,true
+			and a bony club on the end <RETGENDERPOSESSIVESMALL> tail
+		SEEDNAMEFIRST,true
+			Break
+		SEEDNAMELAST,true
+			smash
+			smasher
+			club
+			tail
+		SEEDNAMEMOD,true
+			the Breaker
+	<*>
+		RETFEATURE,true
+			and a bony spike on <RETGENDERPOSESSIVESMALL> tail
+		SEEDNAMEFIRST,true
+			Spike
+		SEEDNAMELAST,true
+			striker
+			stabber
+			tail
+		SEEDNAMEMOD,true
+			the Impaler
+	<*>
+		RETFEATURE,true
+			and a tail sporting bony blades
+		SEEDNAMEFIRST,true
+			Blade
+			Edge
+		SEEDNAMELAST,true
+			cut
+			slash
+			slice
+			rip
+			tail
+		SEEDNAMEMOD,true
+			the Slasher
+			the Cutter
+SETFEATURETEETH
+	<*>
+		RETFEATURE,true
+			and exceptionally large fangs
+		SEEDNAMELAST,true
+			fang
+			tooth
+			maw
+		SEEDNAMEMOD,true
+			the Great-fanged
+	<*>
+		RETFEATURE,true
+			and venomous fangs
+		SEEDNAMEFIRST,true
+			Poison
+			Venom
+			Toxin
+		SEEDNAMELAST,true
+			fang
+			tooth
+			bite
+		SEEDNAMEMOD,true
+			the Venomous
+SETFEATURECLAWS
+	<*>
+		RETFEATURE,true
+			and noteably large and vicious claws
+		SEEDNAMELAST,true
+			claw
+			talon
+		SEEDNAMEMOD,true
+			the Great-clawed
+SETFEATUREHIDE
+	<*>
+		RETFEATURE,true
+			which are unusually thick
+		SEEDNAMEFIRST,true
+			Armor
+			Shield
+		SEEDNAMELAST,true
+			scale
+			hide
+		SEEDNAMEMOD,true
+			the Armored
+			the Invulnerable
+	<*>
+		RETFEATURE,true
+			which are almost mirror-like
+		SEEDNAMELAST,true
+			gleam
+			mirror
+		SEEDNAMEMOD,true
+			the Gleaming
+			the Mirror-hided
+SETFEATUREEYES
+	<*>
+		RETFEATURE,true
+			and exceptionally large eyes
+	<*>
+		RETFEATURE,true
+			and hypnotic eyes
+		SEEDNAMELAST,true
+			eye
+			charm
+		SEEDNAMEMOD,true
+			the Charmer
+			the Gazer
+	<*>
+		RETFEATURE,true
+			and eyes that induce terror
+		SEEDNAMEFIRST,true
+			Fear
+			Terror
+			Horror
+		SEEDNAMELAST,true
+			eye
+			gaze
+			sight
+		SEEDNAMEMOD,true
+			the Blood-chiller
+SETFEATUREBODY
+	<*>
+		RETFEATURE,true
+			and ridges on <RETGENDERPOSESSIVESMALL> back
+		SEEDNAMELAST,true
+			ridge
+	<*>
+		RETFEATURE,true
+			and bone spikes on <RETGENDERPOSESSIVESMALL> back
+		SEEDNAMELAST,true
+			spike
+	<*>
+		RETFEATURE,true
+			and quills on <RETGENDERPOSESSIVESMALL> back
+		SEEDNAMELAST,true
+			quill
+		SEEDNAMEMOD,true
+			the Untouchable
+RETFEATURE
+	RETFEATURE
+//BREATH
+SETBREATH
+	<*>
+		RETBREATH,true
+			gouts of fire
+			a gout of a burning lava-like substance
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATFIRE>
+			<SETHABITATUNDERGROUND>
+		SEEDNAMEFIRST,false
+			Flame
+			Fire
+			Cinder
+			Ember
+		SEEDNAMELAST,false
+			burner
+			blaze
+			blazer
+		SEEDNAMEMOD,false
+			the Creamator
+			the Incinerator
+			the Infernal
+	<*>
+		RETBREATH,true
+			a stream of frigid mist
+			a gout of icy shards
+		SETHABITAT,true
+			<SETHABITATDISTANT>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Ice
+			Cold
+			Snow
+		SEEDNAMELAST,false
+			freezer
+			chiller
+			glacier
+		SEEDNAMEMOD,false
+			the Chilling
+			the Arctic
+			the Frigid
+	<*>
+		RETBREATH,true
+			a beam of searing light
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Light
+			Sun
+			Star
+		SEEDNAMELAST,false
+			beam
+			ray
+			gleam
+		SEEDNAMEMOD,false
+			the Bright
+			the Blinding
+			the Sun-gifted
+	<*>
+		RETBREATH,true
+			a gush of acid
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+		SEEDNAMEFIRST,false
+			Acid
+			Vitriol
+		SEEDNAMELAST,false
+			melter
+			melt
+			waster
+		SEEDNAMEMOD,false
+			the Disintegrator
+			the Vitriolic
+			the Corroder
+	<*>
+		RETBREATH,true
+			a cloud of poison gas
+			a jet of poisonous fluid
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Poison
+			Vile
+			Venom
+		SEEDNAMELAST,false
+			wreck
+			bane
+		SEEDNAMEMOD,false
+			the Poisoner
+			the Toxic
+			the Venomous
+	<*>
+		RETBREATH,true
+			a bolt of electricity
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Sky
+			Storm
+		SEEDNAMELAST,false
+			bolt
+			beam
+			strike
+		SEEDNAMEMOD,false
+			the Thunderer
+	<*>
+		RETBREATH,true
+			a damaging stream of pure magic
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATTHINKER>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+	<*>
+		RETBREATH,true
+			a disruptive wave of sound
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Dirge
+			Howl
+		SEEDNAMELAST,false
+			cry
+			voice
+			song
+		SEEDNAMEMOD,false
+			the Screamer
+			the Singer
+	<*>
+		RETBREATH,true
+			a viscous gout of slime
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Slime
+			Sludge
+			Muck
+		SEEDNAMELAST,false
+			trapper
+			trap
+			gout
+		SEEDNAMEMOD,false
+			the Disgusting
+			the Vomitous
+	<*>
+		RETBREATH,true
+			a powerful blast of air
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Sky
+			Storm
+		SEEDNAMELAST,false
+			wind
+			breeze
+			blast
+		SEEDNAMEMOD,false
+			the Wind-gifted
+	<*>
+		RETBREATH,true
+			a cloud of gas that puts most beings to sleep
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Sleep
+			Night
+			Doze
+		SEEDNAMELAST,false
+			doze
+			stunner
+			stopper
+		SEEDNAMEMOD,false
+			the Dream-bringer
+	<*>
+		RETBREATH,true
+			a cloud of hallucinogenic gas
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Dream
+			Vision
+			Mind
+		SEEDNAMELAST,false
+			warper
+			twister
+			dreamer
+		SEEDNAMEMOD,false
+			the Mind-twister
+	<*>
+		RETBREATH,true
+			a cloud of gas that makes its victims easily suggestable
+		SETHABITAT,true
+			<SETHABITATDESERT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATPOISON>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Soul
+			Mind
+			Thought
+		SEEDNAMELAST,false
+			charmer
+			trancer
+		SEEDNAMEMOD,false
+			the Controller
+RETBREATH
+	RETBREATH
+//PERSONALITY
+SETPERSONALITY
+	<*>
+		RETPERSONALITY,true
+			has a love of violence
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAWEAPONS>
+		SEEDNAMEFIRST,false
+			War
+			Battle
+		SEEDNAMELAST,false
+			fighter
+			kill
+			slayer
+		SEEDNAMEMOD,false
+			the Deadly
+			the Slayer
+	<*>
+		RETPERSONALITY,true
+			is very brave
+		SEEDNAMEFIRST,false
+			Strong
+			Great
+		SEEDNAMELAST,false
+			heart
+			soul
+		SEEDNAMEMOD,false
+			the Courageous
+			the Fearless
+	<*>
+		RETPERSONALITY,true
+			is very composed
+		SEEDNAMEFIRST,false
+			Calm
+		SEEDNAMEMOD,false
+			the Immovable
+	<*>
+		RETPERSONALITY,true
+			is very friendly
+	<*>
+		RETPERSONALITY,true
+			is very arrogant
+	<*>
+		RETPERSONALITY,true
+			is very aristocratic
+	<*>
+		RETPERSONALITY,true
+			is very conteplative
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAART>
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAMAPSPLUS>
+		SEEDNAMEFIRST,false
+			Deep
+		SEEDNAMELAST,false
+			soul
+			mind
+		SEEDNAMEMOD,false
+			the Contemplator
+			the Thinker
+	<*>
+		RETPERSONALITY,true
+			is extremely sadistic
+		SETHABITAT,false
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Cruel
+			Pain
+			Hate
+		SEEDNAMELAST,false
+			ripper
+			tearer
+			tearer
+		SEEDNAMEMOD,false
+			the Cruel
+	<*>
+		RETPERSONALITY,true
+			has a love of adventure
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAART>
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAMAPSPLUS>
+			<REFHOARDEXTRASPICES>
+			<REFHOARDEXTRAWEAPONS>
+		SEEDNAMEFIRST,false
+			Far
+		SEEDNAMELAST,false
+			wanderer
+			quester
+			seeker
+		SEEDNAMEMOD,false
+			the Adventurer
+			the Quester
+			the Ever-wandering
+	<*>
+		RETPERSONALITY,true
+			is very cunning
+		REFHOARDSIZE,false
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMEMOD,false
+			the Cunning
+			the Clever
+	<*>
+		RETPERSONALITY,true
+			has a love of travel
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAART>
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAMAPSPLUS>
+			<REFHOARDEXTRASPICES>
+			<REFHOARDEXTRAWEAPONS>
+		SEEDNAMEFIRST,false
+			Far
+		SEEDNAMELAST,false
+			wanderer
+			quester
+			seeker
+			travel
+		SEEDNAMEMOD,false
+			the Traveler
+
+	<*>
+		RETPERSONALITY,true
+			is driven by a love of power
+		SETHABITAT,false
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAWEAPONS>
+		SEEDNAMELAST,false
+			master
+			ruler
+		SEEDNAMEMOD,false
+			the Controller
+			the Dominator
+	<*>
+		RETPERSONALITY,true
+			is very curious
+		SEEDNAMEMOD,false
+			the Ever-Wondering
+			the Curious
+	<*>
+		RETPERSONALITY,true
+			is extremely intelligent
+		SETHABITAT,true
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+		REFHOARDROUTEEXTRA,true
+			 <REFHOARDEXTRA>.
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAART>
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAMAPSPLUS>
+		REFHOARDSIZE,false
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMEFIRST,false
+			Thought
+			Mind
+		SEEDNAMELAST,false
+			thinker
+			knower
+		SEEDNAMEMOD,false
+			the Knowledgeable
+			the Intellectual
+	<*>
+		RETPERSONALITY,true
+			is very mystical
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Weird
+			Deep
+		SEEDNAMELAST,false
+			soul
+			spirit
+		SEEDNAMEMOD,false
+			the Mystic
+			the Touched
+	<*>
+		RETPERSONALITY,true
+			is a scholar at heart
+		SETHABITAT,true
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+		REFHOARDROUTEEXTRA,true
+			 <REFHOARDEXTRA>.
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAART>
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+			<REFHOARDEXTRAMAPSPLUS>
+		SEEDNAMEFIRST,false
+			Scroll
+			Tome
+			Mind
+		SEEDNAMELAST,false
+			reader
+			thinker
+			scholar
+		SEEDNAMEMOD,false
+			the Learned
+			the Wise
+	<*>
+		RETPERSONALITY,true
+			is lazy
+		REFHOARDSIZE,false
+			<REFHOARDTINY>
+		SEEDNAMELAST,false
+			sleeper
+		SEEDNAMEMOD,false
+			the Ever-slumbering
+	<*>
+		RETPERSONALITY,true
+			is very proud
+		SEEDNAMEFIRST,false
+			High
+		SEEDNAMELAST,false
+			pride
+		SEEDNAMEMOD,false
+			the Prideful
+	<*>
+		RETPERSONALITY,true
+			is quite seductive
+		SEEDNAMEFIRST,false
+			Love
+			Lust
+		SEEDNAMELAST,false
+			heart
+			charm
+		SEEDNAMEMOD,false
+			the Seducer
+			the Charming
+	<*>
+		RETPERSONALITY,true
+			is very solemn and serious
+	<*>
+		RETPERSONALITY,true
+			is quite deceptive
+		SEEDNAMEFIRST,false
+			False
+		SEEDNAMELAST,false
+			lie
+		SEEDNAMEMOD,false
+			the Deceptive
+			the Deciever
+	<*>
+		RETPERSONALITY,true
+			is very mistrustful
+		SETHABITAT,false
+			<SETHABITATDESERT>
+			<SETHABITATDISTANT>
+			<SETHABITATFIRE>
+			<SETHABITATICE>
+			<SETHABITATPOISON>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+		SEEDNAMEMOD,false
+			the Cautious
+	<*>
+		RETPERSONALITY,true
+			is surprisingly helpful towards non-draconic races
+		SETHABITAT,true
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+		SEEDNAMEFIRST,false
+			Aid
+			Bless
+		SEEDNAMELAST,false
+			giver
+			heart
+			soul
+		SEEDNAMEMOD,false
+			the Compassionate
+	<*>
+		RETPERSONALITY,true
+			is miserly
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+		REFHOARDSIZE,false
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMEFIRST,false
+			Greed
+			Coin
+		SEEDNAMELAST,false
+			grasp
+			vault
+			hoard
+		SEEDNAMEMOD,false
+			the Greedy
+			the Miserly
+	<*>
+		RETPERSONALITY,true
+			is quite the gourmand
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRASPICES>
+		SEEDNAMELAST,false
+			hunger
+			maw
+		SEEDNAMEMOD,false
+			the Hungry
+RETPERSONALITY
+	RETPERSONALITY
+//SKILLS
+SETSKILL
+	<*>
+		RETSKILL,true
+			ability to detect magic is very strong
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+		SEEDNAMEFIRST,false
+			Magic
+			Rune
+		SEEDNAMELAST,false
+			sight
+			gazer
+		SEEDNAMEMOD,false
+			the Magic-seer
+	<*>
+		RETSKILL,true
+			ability to apprase and evaluate treasure is exceptional
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRACOINS>
+			<REFHOARDEXTRAJEWELS>
+		REFHOARDSIZE,false
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMEFIRST,false
+			Clever
+			Coin
+			Jewel
+		SEEDNAMELAST,false
+			sight
+			knower
+		SEEDNAMEMOD,false
+			the Appraiser
+	<*>
+		RETSKILL,true
+			ability to read minds is an invaluable talent
+		REFHOARDSIZE,false
+			<REFHOARDBIG>
+			<REFHOARDHUGE>
+		SEEDNAMEFIRST,false
+			Mind
+			Soul
+			Spirit
+		SEEDNAMELAST,false
+			senser
+			reader
+		SEEDNAMEMOD,false
+			the Mind-knower
+	<*>
+		RETSKILL,true
+			fighting skills are exceptional
+		SEEDNAMEFIRST,false
+			War
+			Battle
+		SEEDNAMELAST,false
+			fighter
+			clash
+		SEEDNAMEMOD,false
+			the Deadly
+	<*>
+		RETSKILL,true
+			hunting skills are impressive
+		SEEDNAMEFIRST,false
+			Seek
+		SEEDNAMELAST,false
+			trail
+			mark
+			hunt
+		SEEDNAMEMOD,false
+			the Hunter
+			the Seeker
+	<*>
+		RETSKILL,true
+			skill at creating traps is both impressive and deadly
+		SETHABITAT,true
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATTHINKER>
+			<SETHABITATUNDERGROUND>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Sneak
+			Sly
+		SEEDNAMELAST,false
+			trap
+			snare
+			catch
+		SEEDNAMEMOD,false
+			the Hunter
+			the Trapper
+	<*>
+		RETSKILL,true
+			skill at mechanical items is quite refined despite <RETGENDERPOSESSIVESMALL> size
+		SETHABITAT,true
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATTHINKER>
+		SEEDNAMEFIRST,false
+			Gear
+			Cog
+		SEEDNAMELAST,false
+			craft
+			crafter
+			smith
+		SEEDNAMEMOD,false
+			the Maker
+			the Mechanic
+	<*>
+		RETSKILL,true
+			knowledge of draconic history and culture is superb
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEMOD,false
+			the Historian
+			the Way-keeper
+			the Legend-keeper
+	<*>
+		RETSKILL,true
+			language skills are broad and deep
+		SETHABITAT,false
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Word
+			Prose
+		SEEDNAMELAST,false
+			knower
+			holder
+			speaker
+		SEEDNAMEMOD,false
+			the Reader
+			the Librarian
+	<*>
+		RETSKILL,true
+			magical skills are superb
+		SETHABITAT,false
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Mage
+			Magic
+		SEEDNAMELAST,false
+			rune
+			spell
+			chant
+		SEEDNAMEMOD,false
+			the Mystic
+			the Magician
+	<*>
+		RETSKILL,true
+			knowledge of history is deep and detailed
+		SETHABITAT,false
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+			<SETHABITATTHINKER>
+		SEEDNAMEFIRST,false
+			Memory
+			Past
+		SEEDNAMELAST,false
+			writer
+			keeper
+		SEEDNAMEMOD,false
+			the Historian
+			the Chronicle-bearer
+	<*>
+		RETSKILL,true
+			knowledge of the subterranean world is detailed
+		SETHABITAT,true
+			<SETHABITATUNDERGROUND>
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAINGOTS>
+			<REFHOARDEXTRAJEWELS>
+			<REFHOARDEXTRAORE>
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Depth
+		SEEDNAMELAST,false
+			digger
+		SEEDNAMEMOD,false
+			the Deep-dweller
+	<*>
+		RETSKILL,true
+			knowledge of ancient and forbidden secrets is exceptional
+		SETHABITAT,true
+			<SETHABITATDISTANT>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATTHINKER>
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Dark
+			Wyrd
+			Lost
+		SEEDNAMELAST,false
+			dreamer
+			knower
+			holder
+		SEEDNAMEMOD,false
+			the Dark-touched
+	<*>
+		RETSKILL,true
+			senses are extremely powerful
+		SEEDNAMEFIRST,false
+			Sure
+			Clear
+		SEEDNAMELAST,false
+			finder
+			seeker
+		SEEDNAMEMOD,false
+			the Undecievable
+			the Unavoidable
+	<*>
+		RETSKILL,true
+			charisma and leadership are exceptional
+		SETHABITAT,false
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACT>
+			<SETHABITATINTERACTRULE>
+			<SETHABITATINTERACTRULE>
+		SEEDNAMEFIRST,false
+			Heart
+			Word
+		SEEDNAMELAST,false
+			charm
+			charmer
+			speaker
+		SEEDNAMEMOD,false
+			the Charming
+			the Silver-tongued
+	<*>
+		RETSKILL,true
+			most noteworthy ability is <RETGENDERPOSESSIVESMALL> the power to communicate mentally with animals
+		SETHABITAT,true
+			<SETHABITATPOISON>
+			<SETHABITATWATER>
+			<SETHABITATWOOD>
+		SEEDNAMEFIRST,false
+			Wild
+		SEEDNAMELAST,false
+			speaker
+		SEEDNAMEMOD,false
+			the Animal-friend
+	<*>
+		RETSKILL,true
+			most noteworthy ability is the power to change shape into a variety of creatures
+		SEEDNAMELAST,true
+			changer
+			shifter
+		SEEDNAMEMOD,true
+			the Shapeshifter
+	<*>
+		RETSKILL,true
+			ability to work necromantic magic is powerful and dangerous
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Hell
+			Demon
+			Devil
+		SEEDNAMELAST,false
+			caller
+			rune
+		SEEDNAMEMOD,false
+			the Demon-friend
+			the Deomonolgist
+	<*>
+		RETSKILL,true
+			ability to work necromantic magic is powerful and dangerous
+		REFHOARDEXTRA,true
+			<REFHOARDEXTRAARTIFACTS>
+			<REFHOARDEXTRAKNOWLEDGE>
+		SEEDNAMEFIRST,false
+			Death
+			Dead
+			Doom
+			Tomb
+		SEEDNAMELAST,false
+			litch
+			rune
+		SEEDNAMEMOD,false
+			the Dead-raiser
+			the Deathbringer
+	<*>
+		RETSKILL,true
+			power to take on a human form has proven to be very useful
+		SEEDNAMELAST,true
+			changer
+			shifter
+		SEEDNAMEMOD,true
+			the Man-kin
+	<*>
+		RETSKILL,true
+			role <RETGENDERPOSESSIVESMALL> among other dragons is that of a shaman
+		SEEDNAMEFIRST,false
+			Holy
+			High
+		SEEDNAMELAST,false
+			prayer
+			chant
+		SEEDNAMEMOD,false
+			the Shaman
+			the Worshipful
+			the God-touched
+RETSKILL
+	RETSKILL
+//HABITAT
+SETHABITAT
+	<SETHABITATDESERT>
+	<SETHABITATDISTANT>
+	<SETHABITATFIRE>
+	<SETHABITATICE>
+	<SETHABITATINTERACT>
+	<SETHABITATINTERACTRULE>
+	<SETHABITATPOISON>
+	<SETHABITATTHINKER>
+	<SETHABITATUNDERGROUND>
+	<SETHABITATWATER>
+	<SETHABITATWOOD>
+SETHABITATDESERT
+	<*>
+		REFHABITAT,true
+			in a desert
+		SEEDNAMEFIRST,false
+			Dune
+			Sand
+		SEEDNAMEMOD,false
+			of the Desert
+	<*>
+		REFHABITAT,true
+			in a desert oasis
+		SEEDNAMEFIRST,false
+			Sand
+		SEEDNAMEMOD,false
+			of the Desert
+			of the Oasis
+	<*>
+		REFHABITAT,true
+			in a ruined city in the desert
+		SEEDNAMEFIRST,false
+			Sand
+		SEEDNAMEMOD,false
+			of the Desert
+			of the Ruins
+SETHABITATDISTANT
+	<*>
+		REFHABITAT,true
+			in a distant, uninhabited city built by a lost civilization
+		SEEDNAMEMOD,false
+			of the Lost City
+	<*>
+		REFHABITAT,true
+			in a well-hidden cavern
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Deep
+		SEEDNAMEMOD,false
+			of the Depths
+	<*>
+		REFHABITAT,true
+			in a forboding wasteland
+		SEEDNAMEMOD,false
+			of the Wasteland
+SETHABITATFIRE
+	<*>
+		REFHABITAT,true
+			in an active volcano
+		SEEDNAMEMOD,false
+			of the Fire-Mountain
+	<*>
+		REFHABITAT,true
+			on a volcanic island
+		SEEDNAMEMOD,false
+			of the Firey Island
+	<*>
+		REFHABITAT,true
+			in a cave
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Deep
+		SEEDNAMEMOD,false
+			of the Depths
+SETHABITATICE
+	<*>
+		REFHABITAT,true
+			on a huge glacier
+		SEEDNAMEMOD,false
+			of the Glacier
+	<*>
+		REFHABITAT,true
+			in an icy cavern in a frozen wasteland
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Deep
+		SEEDNAMEMOD,false
+			of the Depths
+SETHABITATINTERACT
+	<*>
+		REFHABITAT,true
+			in a friendly city
+			in a friendly castle
+SETHABITATINTERACTRULE
+	<*>
+		REFHABITAT,true
+			in a city under <RETGENDERPOSESSIVESMALL> control
+			in a castle under <RETGENDERPOSESSIVESMALL> control
+SETHABITATPOISON
+	<*>
+		REFHABITAT,true
+			in a foul swamp
+		SEEDNAMEFIRST,false
+			Swamp
+		SEEDNAMEMOD,false
+			of the Swamps
+	<*>
+		REFHABITAT,true
+			in an exotic forest of strange and poisonous plant life
+		SEEDNAMEMOD,false
+			of the Forest
+SETHABITATTHINKER
+	<*>
+		REFHABITAT,true
+			in an abandoned temple
+		SEEDNAMEMOD,false
+			of the Temple
+			of the Lost Temple
+	<*>
+		REFHABITAT,true
+			in an ancient library
+		SEEDNAMEFIRST,false
+			Book
+			Scroll
+			Tome
+		SEEDNAMEMOD,false
+			of the Archives
+			of the Library
+	<*>
+		REFHABITAT,true
+			underneath a series of standing stones
+		SEEDNAMEMOD,false
+			of the Circle
+SETHABITATUNDERGROUND
+	<*>
+		REFHABITAT,true
+			in an underground cavern
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Deep
+		SEEDNAMEMOD,false
+			of the Depths
+	<*>
+		REFHABITAT,true
+			in an abandoned underground city
+		SEEDNAMEMOD,false
+			of the City of the Depths
+SETHABITATWATER
+	<*>
+		REFHABITAT,true
+			in an underwater cavern
+		SEEDNAMEFIRST,false
+			Cave
+			Cavern
+			Deep
+			Water
+		SEEDNAMEMOD,false
+			of the Watery Depths
+	<*>
+		REFHABITAT,true
+			on a remote island
+		SEEDNAMEMOD,false
+			of the Far Island
+	<*>
+		REFHABITAT,true
+			on a coral atol
+		SEEDNAMEFIRST,false
+			Coral
+		SEEDNAMEMOD,false
+			of the Atol
+	<*>
+		REFHABITAT,true
+			in the ruins of a sunken city
+		SEEDNAMEFIRST,false
+			Deep
+		SEEDNAMEMOD,false
+			of the Deep City
+	<*>
+		REFHABITAT,true
+			in a lagoon
+		SEEDNAMEMOD,false
+			of the Lagoon
+SETHABITATWOOD
+	<*>
+		REFHABITAT,true
+			in a deep and mysterious forest
+		SEEDNAMEFIRST,false
+			Wood
+		SEEDNAMEMOD,false
+			of the Forest
+	<*>
+		REFHABITAT,true
+			in an exotic jungle
+		SEEDNAMEFIRST,false
+			Vine
+		SEEDNAMEMOD,false
+			of the Jungle
+REFHABITAT
+	REFHABITAT
+//HOARD
+REFHOARDROUTEEXTRA
+	.
+	 <REFHOARDEXTRA>.
+REFHOARDSIZE
+	<REFHOARDTINY>
+	<REFHOARDSMALL>
+	<REFHOARDMEDIUM>
+	<REFHOARDBIG>
+	<REFHOARDHUGE>
+REFHOARDTINY
+	infintesimal
+	tiny
+REFHOARDSMALL
+	small
+REFHOARDMEDIUM
+	average-sized
+	medium-sized
+REFHOARDBIG
+	large
+	big
+	impressive
+REFHOARDHUGE
+	huge
+	legendary in size
+	giant
+REFHOARDEXTRA
+	<REFHOARDEXTRAART>
+	<REFHOARDEXTRAARTIFACTS>
+	<REFHOARDEXTRACOINS>
+	<REFHOARDEXTRAINGOTS>
+	<REFHOARDEXTRAJEWELS>
+	<REFHOARDEXTRAKNOWLEDGE>
+	<REFHOARDEXTRAMAPSPLUS>
+	<REFHOARDEXTRAORE>
+	<REFHOARDEXTRASPICES>
+	<REFHOARDEXTRAWEAPONS>
+REFHOARDEXTRAART
+	and consists <REFHOARDCONSIST> of objects of art.
+REFHOARDEXTRAARTIFACTS
+	and consists <REFHOARDCONSIST> of magical artifacts
+REFHOARDEXTRACOINS
+	and consists <REFHOARDCONSIST> of <REFHOARDPRECIOUSMETALS> coins
+REFHOARDEXTRAINGOTS
+	and consists <REFHOARDCONSIST> of ingots of <REFHOARDPRECIOUSMETALS>
+REFHOARDEXTRAJEWELS
+	and consists <REFHOARDCONSIST> of jewels
+REFHOARDEXTRAKNOWLEDGE
+	and consists <REFHOARDCONSIST> of valuable tomes
+REFHOARDEXTRAMAPSPLUS
+	and consists <REFHOARDCONSIST> of valuable maps and historical documents
+REFHOARDEXTRAORE
+	and consists <REFHOARDCONSIST> of valuable ores, <REFHOARDPRECIOUSMETALS> predominating
+REFHOARDEXTRASPICES
+	and consists <REFHOARDCONSIST> of rare and valuable spices
+REFHOARDEXTRAWEAPONS
+	and consists <REFHOARDCONSIST> of magical weapons and armor
+REFHOARDCONSIST
+	mostly
+	almost entirely
+REFHOARDPRECIOUSMETALS
+	silver
+	gold
+	platinum

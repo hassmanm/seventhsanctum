@@ -1,0 +1,270 @@
+//Seeds
+SEED
+	<ROUTEALLMOOD>
+	<REFMODS> <ROUTEALLMOOD>
+	<SEEDCONCEALED>
+	<SEEDCONCEALEDMOTIVE>
+	<SEEDMISTAKE>
+	<SEEDPAIRS>
+SEEDCONCEALED
+	<ROUTEPOSITIVEMOOD> on the surface, but <ROUTENEGATIVEMOOD> underneath.
+	<ROUTENEGATIVEMOOD> on the surface, but <ROUTEPOSITIVEMOOD> underneath.
+SEEDCONCEALEDMOTIVE
+	<SEEDCONCEALEDDELIBERATE>
+	<SEEDCONCEALEDUNDELIBERATE>
+SEEDCONCEALEDDELIBERATE
+	<ROUTEPOSITIVEMOOD> - which deliberately conceals being <ROUTENEGATIVEMOOD>.
+	<ROUTENEGATIVEMOOD> - which deliberately conceals being <ROUTEPOSITIVEMOOD>.
+SEEDCONCEALEDUNDELIBERATE
+	<ROUTEPOSITIVEMOOD> - which unconciously conceals being <ROUTENEGATIVEMOOD>.
+	<ROUTENEGATIVEMOOD> - which unconciously conceals being <ROUTEPOSITIVEMOOD>.
+SEEDMISTAKE
+	<ROUTEPOSITIVEMOOD>, but many mistake it for being <ROUTENEGATIVEMOOD>.
+	<ROUTENEGATIVEMOOD>, but many mistake it for being <ROUTEPOSITIVEMOOD>.
+SEEDPAIRS
+	<SEEDPOSNEGPAIR>
+	<SEEDNEGPOSPAIR>
+SEEDPOSNEGPAIR
+	<REFAFFECTION> and <REFANGRY>.
+	<REFAFFECTION> and <REFFEAR>.
+	<REFAFFECTION> and <REFMISCNEG>.
+	<REFAFFECTION> and <REFSAD>.
+	<REFAFFECTION> and <REFUNASSERTIVE>.
+	<REFAFFECTION> and <REFUNFOCUSED>.
+	<REFCONFIDENT> and <REFANGRY>.
+	<REFCONFIDENT> and <REFANTISOCIAL>.
+	<REFCONFIDENT> and <REFFEAR>.
+	<REFCONFIDENT> and <REFHATRED>.
+	<REFCONFIDENT> and <REFMISCNEG>.
+	<REFCONFIDENT> and <REFSAD>.
+	<REFFOCUSED> and <REFANGRY>.
+	<REFFOCUSED> and <REFANTISOCIAL>.
+	<REFFOCUSED> and <REFFEAR>.
+	<REFFOCUSED> and <REFHATRED>.
+	<REFFOCUSED> and <REFMISCNEG>.
+	<REFFOCUSED> and <REFSAD>.
+	<REFMISCPOS> and <REFANGRY>.
+	<REFMISCPOS> and <REFANTISOCIAL>.
+	<REFMISCPOS> and <REFFEAR>.
+	<REFMISCPOS> and <REFHATRED>.
+	<REFMISCPOS> and <REFMISCNEG>.
+	<REFMISCPOS> and <REFSAD>.
+	<REFMISCPOS> and <REFUNASSERTIVE>.
+	<REFMISCPOS> and <REFUNFOCUSED>.
+	<REFSOCIAL> and <REFANGRY>.
+	<REFSOCIAL> and <REFFEAR>.
+	<REFSOCIAL> and <REFMISCNEG>.
+	<REFSOCIAL> and <REFSAD>.
+	<REFSOCIAL> and <REFUNASSERTIVE>.
+	<REFSOCIAL> and <REFUNFOCUSED>.
+SEEDNEGPOSPAIR
+	<REFANGRY> and <REFCONFIDENT>.
+	<REFANGRY> and <REFFOCUSED>.
+	<REFANGRY> and <REFMISCPOS>.
+	<REFANTISOCIAL> and <REFCONFIDENT>.
+	<REFANTISOCIAL> and <REFFOCUSED>.
+	<REFANTISOCIAL> and <REFHAPPY>.
+	<REFANTISOCIAL> and <REFMISCPOS>.
+	<REFFEAR> and <REFAFFECTION>.
+	<REFFEAR> and <REFFOCUSED>.
+	<REFFEAR> and <REFMISCPOS>.
+	<REFFEAR> and <REFSOCIAL>.
+	<REFHATRED> and <REFCONFIDENT>.
+	<REFHATRED> and <REFFOCUSED>.
+	<REFHATRED> and <REFMISCPOS>.
+	<REFMISCNEG> and <REFAFFECTION>.
+	<REFMISCNEG> and <REFCONFIDENT>.
+	<REFMISCNEG> and <REFFOCUSED>.
+	<REFMISCNEG> and <REFHAPPY>.
+	<REFMISCNEG> and <REFMISCPOS>.
+	<REFMISCNEG> and <REFSOCIAL>.
+	<REFSAD> and <REFAFFECTION>.
+	<REFSAD> and <REFFOCUSED>.
+	<REFSAD> and <REFMISCPOS>.
+	<REFSAD> and <REFSOCIAL>.
+	<REFUNASSERTIVE> and <REFAFFECTION>.
+	<REFUNASSERTIVE> and <REFHAPPY>.
+	<REFUNASSERTIVE> and <REFMISCPOS>.
+	<REFUNASSERTIVE> and <REFSOCIAL>.
+	<REFUNFOCUSED> and <REFAFFECTION>.
+	<REFUNFOCUSED> and <REFCONFIDENT>.
+	<REFUNFOCUSED> and <REFHAPPY>.
+	<REFUNFOCUSED> and <REFMISCPOS>.
+	<REFUNFOCUSED> and <REFSOCIAL>.
+//MOOD ROUTES
+ROUTEALLMOOD
+	<REFAFFECTION>
+	<REFANGRY>
+	<REFANTISOCIAL>
+	<REFCONFIDENT>
+	<REFFEAR>
+	<REFFOCUSED>
+	<REFHAPPY>
+	<REFHATRED>
+	<REFMISCNEG>
+	<REFMISCPOS>
+	<REFSAD>
+	<REFSOCIAL>
+	<REFUNASSERTIVE>
+	<REFUNFOCUSED>
+ROUTEPOSITIVEMOOD
+	<REFAFFECTION>
+	<REFCONFIDENT>
+	<REFFOCUSED>
+	<REFHAPPY>
+	<REFMISCPOS>
+	<REFSOCIAL>
+ROUTENEGATIVEMOOD
+	<REFANGRY>
+	<REFANTISOCIAL>
+	<REFFEAR>
+	<REFHATRED>
+	<REFMISCNEG>
+	<REFSAD>
+	<REFUNASSERTIVE>
+	<REFUNFOCUSED>
+//MOOD REFS
+REFAFFECTION
+	affectionate
+	close
+	cuddly
+	friendly
+	loving
+	loyal
+	understanding
+	warm
+REFANGRY
+	angry
+	annoyed
+	frustrated
+	fuming
+	furious
+	grumpy
+	hostile
+	indignant
+	irate
+	irritated
+	offended
+	provoked
+REFANTISOCIAL
+	antisocial
+	unfriendly
+	withdrawn
+REFCONFIDENT
+	ambitious
+	assertive
+	confident
+	courageous
+REFFEAR
+	apprehensive
+	fearful
+	frightened
+	hesitant
+	nervous
+	petrified
+	scared
+	terrified
+	threatened
+	timid
+	worried
+REFFOCUSED
+	earnest
+	excited
+	fascinated 
+	focused
+	inquisitive
+	inspired
+	intent
+	intrigued
+REFHAPPY
+	cheerful
+	contented
+	ecstatic
+	elated
+	enthusiastic
+	excited
+	festive
+	glad
+	grateful
+	happy
+	inspired
+	joyous
+	jubilant
+	lighthearted
+	optimistic
+	peaceful
+	playful
+	pleased
+	relaxed
+	satisfied
+	serene
+	thrilled
+REFHATRED
+	aggressive
+	cruel
+	hateful
+	mean-spirited
+REFMISCNEG
+	agitated
+	envious
+	evasive
+	impulsive
+	jealous
+	stubborn
+REFMISCPOS
+	humble
+	creative
+	contemplative
+REFPAINED
+	heartbroken
+	miserable
+	unhappy
+REFSAD
+	despairing
+	dull
+	hopeless
+	low
+	melancholy
+	miserable
+	moody
+	pessimistic
+	somber
+	sulky 
+	sad
+REFSOCIAL
+	social
+	sociable
+REFUNASSERTIVE
+	dependent
+	embarrassed
+	helpless
+	hesitant
+	humiliated
+	powerless
+	skeptical
+	suspicious
+	uncertain
+	uncomfortable
+	wavering
+	weak
+REFUNFOCUSED
+	bored
+	confused
+	disoriented
+	preoccupied
+	puzzled
+	torn
+	uninspired
+//Enhancerefs
+REFMODS
+	<REFMODMILD>
+	<REFMODSTRONG>
+REFMODMILD
+	mildly
+	slightly
+	somewhat
+	vageuly
+REFMODSTRONG
+	extremely
+	incredibly
+	very

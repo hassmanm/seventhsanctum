@@ -1,0 +1,373 @@
+//Vocab types:
+//1 Descriptor
+//2 Number
+//4 Realm, Single
+//8 Realm, Plural
+//16 Object/Posessive
+//32 Numeric quantifier.
+--ORGANIZATION
+//There are duplicates of the Basics and In Pieces for proper ratios
+//Basics
+1,4
+, ,
+1,4,16
+, , of ,
+4,16
+, of ,
+1,4
+, ,
+1,4,16
+, , of ,
+4,16
+, of ,
+1,8
+, ,
+8,16
+, of ,
+1,8,16
+, , of ,
+2,8
+, ,
+2,1,8
+, , ,
+2,8,16
+, , of ,
+2,1,8,16
+, , , of  ,
+32,1,4
+, , ,
+32,4
+, ,
+32,1,4,16
+, , , of ,
+32,4,16
+, , of ,
+--VOCABULARY
+//1 Descriptor
+Abyssimal,1
+Amethyst,1
+Ancestral,1
+Ancient,1
+Azure,1
+Bitter,1
+Black,1
+Blasphemous,1
+Bleak,1
+Blessed,1
+Bloodstained,1
+Bloody,1
+Blue,1
+Boggy,1
+Boiling,1
+Brilliant,1
+Broad,1
+Burning,1
+Calm,1
+Celestial,1
+Central,1
+Cerulian,1
+Chaotic,1
+Chaotic,1
+Clockwork,1
+Cold,1
+Common,1
+Concordant,1
+Crooked,1
+Crystal,1
+Crystaline,1
+Cursed,1
+Dark,1
+Deadly,1
+Decaying,1
+Decrepid,1
+Demonic,1
+Desecrated,1
+Despicable,1
+Diamond,1
+Dry,1
+Dying,1
+Ebony,1
+Emerald,1
+Eternal,1
+Ethereal,1
+Ever-changing,1
+Ever-living,1
+Evil,17
+Fair,1
+Fallen,1
+False,1
+Far,1
+Firey,1
+First,1
+Flaming,1
+Flat,1
+Fluctuating,1
+Forbidden,1
+Forgotten,1
+Foul,1
+Frozen,1
+Ghastly,1
+Ghostly,1
+Golden,1
+Good,17
+Grand,1
+Gray,1
+Great,1
+Green,1
+Happy,1
+Haunted,1
+Healing,1
+Heavenly,1
+Hellish,1
+Heroic,1
+Hidden,1
+High,1
+Holy,1
+Hot,1
+Icy,1
+Inescapable,1
+Infernal,1
+Infinite,1
+Insane,1
+Inverted,1
+Iron,1
+Ivory,1
+Jade,1
+Lawful,1
+Legendary,1
+Living,1
+Lost,1
+Low,1
+Luminous,1
+Magic,1
+Middle,1
+Mighty,1
+Misty,1
+Mysterious,1
+Mystic,1
+Necromantic,1
+New,1
+Noble,1
+Olympian,1
+Peacable,1
+Pleasant,1
+Primal,1
+Profane,1
+Purple,1
+Quiet,1
+Radiant,1
+Rainy,1
+Red,1
+Renewing,1
+Rocky,1
+Rogue,1
+Royal,1
+Ruby,1
+Ruddy,1
+Rugged,1
+Sacred,1
+Sad,1
+Saintly,1
+Savage,1
+Secret,1
+Self-renewing,1
+Shadowed,1
+Shadowy,1
+Silent,1
+Silver,1
+Smoking,1
+Smoky,1
+Spectral,1
+Steel,1
+Stone,1
+Straight,1
+Sulphurous,1
+Supreme,1
+Sylvan,1
+Tarterian,1
+Terrible,1
+Terrifying,1
+Thundering,1
+Titanic,1
+True,1
+Twin,1
+Twinlking,1
+Twisted,1
+Underwater,1
+Unholy,1
+Unknowable,1
+Unknown,1
+Unnamed,1
+Unspeakable,1
+Unthinkable,1
+Virgin,1
+Viridian,1
+Warm,1
+Warped,1
+Wicked,1
+Wild,1
+Windswept,1
+Windy,1
+Wintry,1
+//2 Number
+Two,2
+Twin,2
+Three,2
+Four,2
+Five,2
+Six,2
+Seven,2
+Eight,2
+Nine,2
+One-hundred,2
+Infinite,2
+Countless,2
+//4 Realm, Single
+Abyss,4
+Battlefield,4
+Citadel,4
+Cities,4
+Demense,4
+Domain,4
+Gauntlet,4
+Glade,4
+Ground,4
+Hall,4
+Heaven,4
+Hell,4
+Island,4
+Kingdom,4
+Land,4
+Outland,4
+Paradise,4
+Pit,4
+Plane,4
+Prison,4
+Realm,4
+Region,4
+Sanctum,4
+Valley,4
+Vortex,4
+Waste,4
+Wilderness,4
+//8 Realm, Plural
+Abysses,8
+Battlefields,8
+Citadels,8
+Cities,8
+Demenses,8
+Depths,8
+Domains,8
+Fields,8
+Gauntlets,8
+Glades,8
+Grounds,8
+Halls,8
+Heavens,8
+Hells,8
+Hills,8
+Hunting Grounds,8
+Islands,8
+Kingdoms,8
+Lands,8
+Limbos,8
+Outlands,8
+Paradises,8
+Pits,8
+Planes,8
+Prisons,8
+Realms,8
+Regions,8
+Sanctums,8
+Valleys,8
+Vorticies,8
+Wastes,8
+Wildernesses,8
+//16 Object/Posessive
+Angels,16
+Avatars,16
+Balance,16
+Chaos,20
+Cowards,16
+Darkness,16
+Demons,16
+Desire,16
+Devils,16
+Dreams,16
+Eternals,16
+Eternity,16
+Forever,16
+Gates,16
+Hate,16
+Heroes,16
+Honor,16
+Immortals,16
+Infinity,16
+Injustice,16
+Insanity,16
+Joy,16
+Justice,16
+Law,16
+Light,16
+Limbo,20
+Lost Souls,16
+Love,16
+Lust,16
+Misery,16
+Negation,16
+Oblivion,16
+Pain,16
+Pleasure,16
+Redemption,16
+Sadness,16
+Salvation,16
+Sinners,16
+Suffering,16
+the Brave,16
+the Charitable,16
+the Compassionate,16
+the Cruel,16
+the Damned,16
+the Dead,16
+the Dishonorable,16
+the Foolish,16
+the Future,16
+the Gluttonous,16
+the Greedy,16
+the Hateful,16
+the Holy,16
+the Honorable,16
+the Impure,16
+the Insane,16
+the Joyful,16
+the Just,16
+the Kind,16
+the Kind,16
+the Living,16
+the Lost,16
+the Miserable,16
+the Past,16
+the Pure,16
+the Righteous,16
+the Saved,16
+the Unbaptized,16
+the Unborn,16
+the Unholy,16
+the Unholy,16
+the Unjust,16
+the Unknowable,16
+the Unknown,16
+the Unnamed,16
+the Unspeakable,16
+the Unthinkable,16
+the Wise,16
+//32 Numeric quantifier.
+First,32
+Second,32
+Third,32
+Fourth,32
+Fifth,32
+Sixth,32
+Seventh,32
+Eighth,32
+Ninth,32

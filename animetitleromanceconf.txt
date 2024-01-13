@@ -1,0 +1,13 @@
+General
+	GENERAL
+		animetitleromance.txt
+		animetitleromancemale.txt
+		animetitleromancefemale.txt
+Male-Oriented
+	MALE
+		animetitleromance.txt
+		animetitleromancemale.txt
+Female-Oriented
+	FEMALE
+		animetitleromance.txt
+		animetitleromancefemale.txt

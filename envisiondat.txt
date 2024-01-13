@@ -1,0 +1,573 @@
+//Vocab types:
+//1 - Legend
+//2 -  Beings
+//4 - Singular Theme
+//8 - Setting Descriptor
+//16 - Story Type
+//32 - Location Type
+--ORGANIZATION
+//Regular.  Done at x3
+1,2
+The , being about a group of ,.
+1,4
+The ,  envisioned as a , tale.
+1,32
+The , set ,.
+1,16
+The , envisioned as a , tale.
+1,8,16
+The , envisioned as a , , tale.
+//Regular dupes
+1,2
+The , being about a group of ,.
+1,4
+The ,  envisioned as a , tale.
+1,32
+The , set ,.
+1,16
+The , envisioned as a , tale.
+1,8,16
+The , envisioned as a , , tale.
+1,2
+The , being about a group of ,.
+1,4
+The ,  envisioned as a , tale.
+1,32
+The , set ,.
+1,16
+The , envisioned as a , tale.
+1,8,16
+The , envisioned as a , , tale.
+1,2
+The , being about a group of ,.
+1,4
+The ,  envisioned as a , tale.
+1,32
+The , set ,.
+1,16
+The , envisioned as a , tale.
+1,8,16
+The , envisioned as a , , tale.
+//Fusions
+1,1
+A fusion of the , and the ,.
+1,1
+A fusion of the , and the ,.
+1,1
+A fusion of the , and the ,.
+1,1
+A fusion of the , and the ,.
+1,1
+A fusion of the , and the ,.
+1,1,2
+A fusion of the , and the , that concerns a group of ,.
+1,1,4
+A fusion of the , and the , envisioned as a , tale.
+1,1,32
+A fusion of the , and the ,<COMMA> set ,.
+1,1,16
+A fusion of the , and the , envisioned as a , tale.
+1,1,8,16
+A fusion of the , and the , envisioned as a , , tale.
+--VOCABULARY
+//1 - Legend
+//2 -  Beings
+//4 - Singular Theme
+//8 - Setting Descriptor
+//16 - Story Type
+//32 - Location Type
+//Legends
+legend of Ben-Hur,1
+legend of Beowulf,1
+legend of Cassandra,1
+legend of Electra,1
+legend of Gilgamesh,1
+legend of Hercules,1
+legend of Hiawatha,1
+legend of Ikaros and Deadelus,1
+legend of Ilmarinen,1
+legend of Jack O'Lantern,1
+legend of John Henry,1
+legend of Johnny Appleseed,1
+legend of King Arthur,1
+legend of King Midas,1
+legend of King Solomon,1
+legend of Lemminkainen,1
+legend of Merlin,1
+legend of Morgan Le Faye,1
+legend of Oedipus,1
+legend of Orion,1
+legend of Orpheus,1
+legend of Paul Bunyan,1
+legend of Pecos Bill,1
+legend of Persephone,1
+legend of Perseus,1
+legend of Prestor John,1
+legend of Roland,1
+legend of Romulus and Remus,1
+legend of Samson,1
+legend of Sleepy Hollow,1
+legend of Sparticus,1
+legend of Spring-Heeled Jack,1
+legend of the Flying Dutchman,1
+legend of the Golden Hind,1
+legend of the Golem,1
+legend of the Phantom Hitchiker,1
+legend of the Wandering Jew,1
+legend of Theseus and the Minotaur,1
+legend of Vainamoinen,1
+story 'A Connecticut Yankee in King Arthur's Court',1
+story of 'A Christmas Carol',1
+story of Aladdin,1
+story of Ali Baba,1
+story of Alice in Wonderland,1
+story of Buddha,1
+story of Cain and Abel,1
+story of Chicken Little,1
+story of Christian Rosenkreuz,1
+story of Cinderella,1
+story of Dante,1
+story of Don Quixote,1
+story of Dracula,1
+story of Faust,1
+story of Frankenstein,1
+story of 'Gulliver's Travels',1
+story of Hamlet,1
+story of Hansel and Gretel,1
+story of Ivanhoe,1
+story of Jack and the Beanstalk,1
+story of Jason and the Argonauts,1
+story of Jesus,1
+story of 'Journey to the East',1
+story of Moby Dick,1
+story of Mohammed,1
+story of Moses,1
+story of Noah,1
+story of Oliver Twist,1
+story of Pinocchio,1
+story of Pygmalion and Galataea,1
+story of Rapunzel,1
+story of Romeo and Juliet,1
+story of Rumplestiltskin,1
+story of Sinbad,1
+story of Snow White,1
+story of Talesin,1
+story of Tannhauser,1
+story of the 3 Musketeers,1
+story of 'The Boy Who Cried Wolf',1
+story of The Hunchback of Notre Dame,1
+story of the Jersey Devil,1
+story of the little Dutch boy,1
+story of The Man in the Iron Mask,1
+story of the Odyssey,1
+story of the Pilgrim's Progress,1
+story of the Shui Hu Zhuan,1
+story of Thumbellina,1
+story of Tom Sawyer,1
+story of Tom Thumb,1
+story of 'Treasure Island',1
+story 'The Prince and the Pauper',1
+tale of Casey Jones,1
+tale of Cupid and Psyche,1
+tale of Joan of Arc,1
+tale of Juan Bobo,1
+tale of Lady Godiva,1
+tale of Rip Van Winkle,1
+tale of the Genji,1
+tale of the Good Samaritan,1
+tale of the Princess and the Pea,1
+tale of the Prodigal Son,1
+tale of William Tell,1
+//Beings
+accountants,2
+advertising executives,2
+airline pilots,2
+alchemists,2
+aliens,2
+androids,2
+angels,2
+animal trainers,2
+animators,2
+Artificial Intelligences,2
+artists,2
+assasins,2
+astrologers,2
+astronauts,2
+astronomers,2
+auto mechanics,2
+band members,2
+banshees,2
+barbarians,2
+barbers,2
+bards,2
+baseball players,2
+big game hunters,2
+biologists,2
+blacksmiths,2
+bookies,2
+botanists,2
+boyband members,2
+burglars,2
+butchers,2
+butlers,2
+cab drivers,2
+cartographers,2
+cartoon characters,2
+cavemen,2
+centaurs,2
+CEOs,2
+chefs,2
+chemists,2
+circus members,2
+clerics,2
+clerks,2
+con artists,2
+construction workers,2
+cooks,2
+counterfeiters,2
+cowboys,2
+criminals,2
+cultists,2
+cute creatures,2
+cyberpunks,2
+cyborgs,2
+daredevils,2
+demigods,2
+demonologists,2
+demons,2
+detectives,2
+dimension-travellers,2
+doctors,2
+dolphins,2
+dragons,2
+drug addicts,2
+drug dealers,2
+druids,2
+dryads,2
+electricians,2
+elementals,2
+explorers,2
+fallen angels,2
+farmers,2
+fighter pilots,2
+firefighters,2
+football players,2
+fortune-tellers,2
+frontiersmen,2
+fugitives,2
+game designers,2
+gangsters,2
+garbagemen,2
+genies,2
+ghosts,2
+giant robot pilots,2
+gladiators,2
+g-men,2
+goldsmiths,2
+gorgons,2
+gorillas,2
+government agents,2
+graphic artists,2
+grave robbers,2
+groundskeepers,2
+hackers,2
+hair stylists,2
+henchmen,2
+herbologists,2
+hippies,2
+hockey players,2
+hunters,2
+hustlers,2
+indian-fighters,2
+inventors,2
+janitors,2
+jewelers,2
+jocks,2
+knights,2
+librarians,2
+librarians,2
+linguists,2
+lumberjacks,2
+mages,2
+magical girls,2
+maids,2
+managers,2
+manicurists,2
+marching band members,2
+mathmeticians,2
+mechanics,2
+media personalities,2
+media technicians,2
+merchants,2
+minotaurs,2
+missionaries,2
+mobsters,2
+models,2
+monks,2
+movie actors,2
+movie producers,2
+musicians,2
+mutants,2
+nanotechnologists,2
+nature spirits,2
+necromancers,2
+network engineers,2
+newscasters,2
+newspaper reporters,2
+novelists,2
+nuns,2
+nurses,2
+otherworldly horrors,2
+painters,2
+philosophers,2
+physicists,2
+pimps,2
+pirates,2
+pit fighters,2
+planetologists,2
+poachers,2
+police officers,2
+popes,2
+professors,2
+professors,2
+programmers,2
+prophets,2
+prostitutes,2
+psychiatrists,2
+psychics,2
+psychologists,2
+race car drivers,2
+repairmen,2
+reporters,2
+robots,2
+sailors,2
+salespersons,2
+sanitation engineers,2
+samurai,2
+satyrs,2
+scientists,2
+scribes,2
+sculptors,2
+seamstresses,2
+secret agents,2
+secretaries,2
+seers,2
+sherrifs,2
+soldiers,2
+songwriters,2
+sorcerors,2
+space adventurers,2
+space pirates,2
+spies,2
+starship commanders,2
+stockbrokers,2
+strippers,2
+stuffed animals,2
+stuntmen,2
+tailors,2
+talking animals,2
+talking farm animals,2
+taxi drivers,2
+technicians,2
+telegraph operators,2
+television actors,2
+television executives,2
+tennis players,2
+terraformers,2
+time-travellers,2
+tomb-robbers,2
+toys,2
+treasure-hunters,2
+unicorns,2
+valets,2
+vampires,2
+vetrenarians,2
+virtual reality programmers,2
+waitresses,2
+war veterans,2
+warlocks,2
+watchmen,2
+whalers,2
+witches,2
+witch-hunters,2
+xenobiologists,2
+zookeepers,2
+zoologists,2
+//Theme/descriptors
+action,16
+action adventure,4
+adventure,16
+autobiographical,20
+beach party,4
+blaxploitation,12
+buddy,20
+character study,20
+city-smashing monster,20
+class comedy,20
+college comedy,4
+comedy,16
+comedy of manners,20
+coming-of-age,16
+conspiracy,20
+costume drama,20
+cyberpunk,20
+detective,20
+drama,20
+drug comedy,4
+erotic,16
+escape-from-prison,4
+exploitation,4
+fish-out-of-water,20
+for-the-gentlemen,20
+for-the-ladies,20
+gender-bending,20
+gross-out comedy,4
+high adventure,4
+high-school comedy,4
+historical,8
+historical reinactment,4
+horror,16
+legal drama,20
+lowbrow comedy,4
+martial arts,20
+metaphorical,8
+mockumentary,4
+modern-day,8
+musical,8
+natural disaster,20
+near-future,8
+occult,8
+party comedy,4
+period,8
+period piece,4
+political,8
+post-apocalyptic,12
+propaganda piece,4
+psychological,8
+quest,16
+rags-to-riches,28
+realistic,8
+religious,12
+retro-futuristic,8
+revenge,16
+road trip,20
+romance,16
+slapstick comedy,20
+slasher horror,20
+sports drama,4
+superhero,4
+superheroic,8
+supernatural,24
+supernatural horror,20
+surrealistic,8
+swashbuckling,24
+sword-and-sorcery,8
+talking animal,20
+thriller,16
+vengeance,16
+western,8
+//Locations
+a government agency,32
+at a bar,32
+at a baseball park,32
+at a bookstore,32
+at a clothing shop,32
+at a college,32
+at a drug den,32
+at a factory,32
+at a football stadium,32
+at a funhouse,32
+at a gentlemen's club,32
+at a graveyard,32
+at a high school,32
+at a recording studio,32
+at a rock concert,32
+at a shopping mall,32
+at a strip club,32
+at a strip mall,32
+at a subway,32
+at a summer camp,32
+at a truckstop,32
+at a used bookstore,32
+at a veteran's hospital,32
+at a vetrenary hospital,32
+at an abandoned mall,32
+at an airport,32
+at an alpine resort,32
+at an amusement park,32
+at an elementary school,32
+at an underground club,32
+in a black hole,32
+in a coffeehouse,32
+in a craft shop,32
+in a crypt,32
+in a dark alley,32
+in a haunted house,32
+in a hospital,32
+in a hotel,32
+in a hotel lobby,32
+in a laboratory,32
+in a log cabin,32
+in a missile silo,32
+in a mortuary,32
+in a mosh pit,32
+in a prison,32
+in a secret research facility,32
+in a sleazy hotel room,32
+in a suburban home,32
+in a suburban subdivision,32
+in a superhero lair,32
+in a supervillain lair,32
+in an alternate universe,32
+in an apartment complex,32
+in an arcade,32
+in an evil parallel universe,32
+in an experimental laboratory,32
+in Atlantis after it sank,32
+in Atlantis before it sank,32
+in heaven,32
+in hell,32
+in purgatory,32
+in someone's mind,32
+in the afterlife,32
+in the inner city,32
+in the ruins of a city,32
+inside a child's storybook,32
+inside a computer,32
+inside a computer game,32
+inside a dream,32
+inside a military installation,32
+inside a nightmare,32
+inside a secret base,32
+inside someone's deepest fantasies,32
+inside a supercomputer,32
+inside a tapestry,32
+inside a toybox,32
+inside a virtual reality program,32
+on a blimp,32
+on a cartoon show,32
+on a cruise ship,32
+on a doomed planet,32
+on a fishing boat,32
+on a floating city,32
+on a gameboard,32
+on a giant chessboard,32
+on a giant flying city,32
+on a lunar base,32
+on a luxury yacht,32
+on a reality television show,32
+on a sailboat,32
+on a space station,32
+on a spaceship,32
+on a speedboat,32
+on a starship,32
+on a submarine,32
+on a subterranean city,32
+on a television show,32
+on a volcanic island,32
+on an asteroid,32
+on an uncharted island,32
+on another planet,32
+on the back of a giant creature of mythology,32
+on the moon,32
+on the river styx,32

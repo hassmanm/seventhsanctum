@@ -1,0 +1,125 @@
+//Vocab types:
+// MD A value of 1 is a Metadescriptor
+// D A value of 2 is a Descriptor
+// DS A  4specific descriptor
+// F A value of 8 is a Focus
+// DS a 16 specific Focus
+--ORGANIZATION
+2,8
+, ,
+2,16
+, ,
+4,8
+, ,
+1,16
+, ,
+1,2,8
+, , ,
+1,2,16
+, , ,
+1,4,8
+, , ,
+//Vocabulary
+--VOCABULARY
+Academic,3
+Academics,16
+Advanced,1
+Analytical,1
+Ancient,1
+Anthropological,4
+Anthropology,16
+Applied,1
+Archeological,4
+Archeology,16
+Artistic,7
+Arts,8
+Astronomical,4
+Astronomy,16
+Basic,1
+Biological,4
+Biology,16
+Botanical,4
+Botany,16
+Business,7
+Chemical,4
+Chemistry,16
+Chronology of,1
+Civil,7
+Clinical,7
+Common,1
+Communication,4
+Communications,16
+Comparative,3
+Computer,4
+Computerized,4
+Computing,16
+Cultural,6
+Custodial,7
+Economic,4
+Economics,16
+Education,16
+Educational,4
+Electrical,4
+Electronics,16
+Engineering,24
+Essential,1
+Ethical,5
+Ethics,16
+Experimental,3
+Experimentation,8
+Fine,1
+Future,1
+Genetics,16
+Geological,4
+Geology,16
+Graphic,3
+Historical,4
+History,16
+History of,1
+Industrial,6
+Instruction,8
+International,3
+Laboratory,1
+Law,16
+Legal,4
+Linguistics,16
+Lingusitic,4
+Literary,4
+Literature,16
+Mathematical,4
+Mathematics,16
+Medical,4
+Medicine,16
+Military,7
+Modern,1
+National,3
+Parapsychological,4
+Parapsychology,16
+Pharmacological,4
+Pharmacology,16
+Philosohpical,4
+Philosophy,16
+Philosophy of,1
+Physical,4
+Physics,16
+Political,4
+Politics,16
+Popular,1
+Practical,3
+Psychological,4
+Psychology,16
+Recent,3
+Religion,16
+Remedial,3
+Research,31
+Science,8
+Scientific,2
+Social,3
+Statistical,4
+Statistics,16
+Studies,8
+Theological,4
+Theology,16
+Theoretical,3
+Zoological,4
+Zoology,16

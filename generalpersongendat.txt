@@ -1,0 +1,1797 @@
+//SEEDS
+SEED
+	<SEEDANY>
+	<SEEDMALE>
+	<SEEDFEMALE>
+	<SEEDANIMEANY>
+	<SEEDANIMEMALE>
+	<SEEDANIMEFEMALE>
+SEEDANY
+	<*SETGENDEREITHER><*SETTYPEREGULAR><*ROUTESETRACE><SEEDSHOW>
+SEEDMALE
+	<*SETGENDERMALE><*SETTYPEREGULAR><*ROUTESETRACE><SEEDSHOW>
+SEEDFEMALE
+	<*SETGENDERFEMALE><*SETTYPEREGULAR><*ROUTESETRACE><SEEDSHOW>
+SEEDANIMEANY
+	<*SETGENDEREITHER><*SETTYPEANIME><SEEDSHOW>
+SEEDANIMEMALE
+	<*SETGENDERMALE><*SETTYPEANIME><SEEDSHOW>
+SEEDANIMEFEMALE
+	<*SETGENDERFEMALE><*SETTYPEANIME><SEEDSHOW>
+//Activity
+SEEDSHOW
+	<*SETHAIRLENGTH><*SETHAIRTYPE><*SETSKINCOLOR><*ROUTECLOTHESSTYLE><SEEDSHOWATT>  <SEEDSHOWEYESOPEN> <SEEDSHOWHAIRPOSESSROUTE> <SEEDSHOWBODYINDICATE> <SEEDSHOWSKINPOSESS> <SEEDSHOWBODYEXTRAINDICATE> <SEEDSHOWWARDROBEPOSESS>
+	<*ROUTEATTMETAPHOR><*SETHAIRLENGTH><*SETHAIRTYPE><*SETSKINCOLOR><*ROUTECLOTHESSTYLE><SEEDSHOWMETA>. <SEEDSHOWEYESINDICATE> <SEEDSHOWHAIRPOSESSROUTE> <SEEDSHOWBODYINDICATE> <SEEDSHOWSKINPOSESS> <SEEDSHOWBODYEXTRAINDICATE> <SEEDSHOWWARDROBEPOSESS>
+SEEDSHOWATT
+	This <RETATTITUDEDESC> <RETGENDERDESC>
+SEEDSHOWMETA
+	This <RETGENDERDESC> <REFMETACONNECTOR> <RETMETAPHORPER>
+//EYES
+SEEDSHOWEYESOPEN
+	<SEEDSHOWEYESOPENGENERAL>
+	<SEEDSHOWEYESOPENMETAPHOR>
+SEEDSHOWEYESOPENGENERAL
+	has <REFEYEFORM> <*RETEYECOLOR><REFBASECOLOR> eyes.
+	has <REFEYEFORM> <*RETEYECOLOR><REFFANCYCOLOR> eyes.
+	has <REFEYEFORM> <*RETEYECOLOR> eyes the color of <REFCOLORTHING>.
+SEEDSHOWEYESOPENMETAPHOR
+	has <REFEYEFORM> <*RETEYECOLOR><REFBASECOLOR> eyes that are like <REFCOLOREYES>.
+SEEDSHOWEYESINDICATE
+	<SEEDSHOWEYESINDICATEMETAPHOR>
+	<SEEDSHOWEYESINDICATEGENERAL>
+SEEDSHOWEYESINDICATEGENERAL
+	<RETGENDERCAP> has <REFEYEFORM> <*RETEYECOLOR><REFBASECOLOR> eyes.
+	<RETGENDERCAP> has <REFEYEFORM> <*RETEYECOLOR><REFFANCYCOLOR> eyes.
+	<RETGENDERCAP> has <REFEYEFORM> <*RETEYECOLOR> eyes the color of <REFCOLORTHING>.
+SEEDSHOWEYESINDICATEMETAPHOR
+	<RETGENDERCAP> has <REFEYEFORM> <*RETEYECOLOR><REFBASECOLOR> eyes that are like <REFCOLOREYES>.
+SEEDSHOWHAIRPOSESSROUTE
+	<SEEDSHOWHAIRPOSESS>
+SEEDSHOWHAIRPOSESS
+	<SEEDSHOWHAIRPOSESSREGULAR>
+	<SEEDSHOWHAIRPOSESSMETAPHOR>
+SEEDSHOWHAIRPOSESSMETAPHOR
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFBASECOLOR> hair is worn in a style that reminds you of <REFHAIRSTYLEMETAPHOR>.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFFANCYCOLOR> hair is worn in a style that reminds you of <REFHAIRSTYLEMETAPHOR>.
+SEEDSHOWHAIRPOSESSREGULAR
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFBASECOLOR> hair is <RETHAIRLENGTH> and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF> style.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFBASECOLOR> hair is <RETHAIRLENGTH> and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF>, <*ROUTEHAIRSTYLE><RETHAIRSTYLEREF> style.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFFANCYCOLOR> hair is <RETHAIRLENGTH> and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF> style.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFFANCYCOLOR> hair is <RETHAIRLENGTH> and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF>, <*ROUTEHAIRSTYLE><RETHAIRSTYLEREF> style.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <RETHAIRLENGTH> hair is the color of  <*RETHAIRCOLOR><REFCOLORTHING>, and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF> style.
+	<RETPOSESSIVECAP> <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <RETHAIRLENGTH> hair is the color of  <*RETHAIRCOLOR><REFCOLORTHING>, and is worn in <*ROUTEHAIRSTYLE><RETHAIRSTYLECON> <RETHAIRSTYLEREF>, <*ROUTEHAIRSTYLE><RETHAIRSTYLEREF> style.
+SEEDSHOWHAIRPOSESSBALD
+	<RETGENDERCAP> is bald, but used to have <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFBASECOLOR> hair.
+	<RETGENDERCAP> is bald, but used to have <REFHAIRCONSISTENCY>, <RETHAIRTYPE>, <*RETHAIRCOLOR><REFFANCYCOLOR> hair.
+	<RETGENDERCAP> is bald, but used to have <REFHAIRCONSISTENCY>, <RETHAIRTYPE> hair the color of  <*RETHAIRCOLOR><REFCOLORTHING>
+SEEDSHOWFACIALHAIRROUTE
+	<*>
+	<*>
+	<*>
+	<*>
+	<SEEDSHOWFACIALHAIRROUTEDESC>
+SEEDSHOWFACIALHAIRROUTEDESC
+	He's got <REFFACIALHAIR>. 
+SEEDSHOWBODYINDICATE
+	<RETGENDERCAP> <REFHEIGHT> has <RETBUILD> build.
+SEEDSHOWSKINPOSESS
+	<RETPOSESSIVECAP> skin is <RETSKINCOLOR>.
+SEEDSHOWBODYEXTRAINDICATE
+	<RETGENDERCAP> has <ROUTETRAITS>.
+SEEDSHOWWARDROBEPOSESS
+	<SEEDSHOWWARDROBEPOSESSSIMPLE>
+	<SEEDSHOWWARDROBEPOSESSCOMPLEX>
+SEEDSHOWWARDROBEPOSESSSIMPLE
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>, with a lot of <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>, with a lot of <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>, and is mostly <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>, and is completely <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+SEEDSHOWWARDROBEPOSESSCOMPLEX
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF> and <*ROUTECLOTHESSTYLE><RETCLOTHESSTYLEREF>, with a lot of <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF> and <*ROUTECLOTHESSTYLE><RETCLOTHESSTYLEREF>, with a lot of <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE>.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF> and <*ROUTECLOTHESSTYLE><RETCLOTHESSTYLEREF>, with a mostly <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE> color scheme.
+	<RETPOSESSIVECAP> wardrobe is <RETCLOTHESSTYLEREF> and <*ROUTECLOTHESSTYLE><RETCLOTHESSTYLEREF>, with a completely <SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE> color scheme.
+SEEDSHOWWARDROBEPOSESSCOLORSCRAMBLE
+	<*RELAYCOLOR><REFBASECOLOR>
+	<*RELAYCOLOR><REFBASECOLOR> and <*RELAYCOLOR><REFBASECOLOR>
+//Styles
+SETTYPEANIME
+	<*>
+		RETEYECOLOR,true
+			<RELAYCOLORALTERNATOR>
+		RETHAIRCOLOR,true
+			<RELAYCOLORALTERNATOR>
+		SEEDSHOWFACIALHAIRROUTE,true
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<SEEDSHOWFACIALHAIRROUTEDESC>
+SETTYPEREGULAR
+	<*>
+		RETEYECOLOR,true
+			<RELAYCOLORREGULAREYES>
+		RETHAIRCOLOR,true
+			<RELAYCOLORREGULARHAIR>
+//Regular racial issues
+//The basic profiles are Dark (african/hispanic/native american), light (nordic/northern europe), and varied
+ROUTESETRACE
+	<*>
+	<SETRACEDARK>
+	<SETRACELIGHT>
+	<SETRACEVARIED>
+SETRACEDARK
+	<*>
+		SETSKINCOLOR,true
+			<SETSKINCOLORMEDIUMDARK>
+			<SETSKINCOLORDARK>
+		RELAYCOLORREGULAREYES,true
+			<ROUTEGRAY>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+			<ROUTEBROWN>
+		RELAYCOLORREGULARHAIR,true
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBLACK>
+			<ROUTEBLACK>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+			<ROUTEBROWN>
+SETRACELIGHT
+	<*>
+		SETSKINCOLOR,true
+			<SETSKINCOLORLIGHT>
+			<SETSKINCOLORMEDIUM>
+		RELAYCOLORREGULARHAIR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+			<ROUTEBROWN>
+			<ROUTEBROWN>
+SETRACEVARIED
+	<*>
+		SETSKINCOLOR,true
+			<SETSKINCOLORLIGHT>
+			<SETSKINCOLORMEDIUM>
+			<SETSKINCOLORMEDIUMDARK>
+//Style Refs
+RETEYECOLOR
+	<RELAYCOLOR>
+RETHAIRCOLOR
+	<RELAYCOLOR>
+//PERSONALITY
+RETATTITUDEDESC
+	aloof
+	angry
+	antisocial
+	argumentative
+	aristocratic
+	arrogant
+	boorish
+	bouncy
+	brave
+	bubbly
+	calm
+	cheerful
+	clever
+	compassionate
+	composed
+	confident
+	confused
+	contemplative
+	courageous
+	cruel
+	cunning
+	curious
+	determined
+	dishonest
+	dynamic
+	energetic
+	enthusiastic
+	foul-mouthed
+	friendly
+	generous
+	gentle
+	greedy
+	harried
+	hateful
+	humorous
+	innocent
+	intelligent
+	intimidating
+	laid-back
+	lazy
+	lonely
+	misguided
+	mistrustful
+	mysterious
+	mystical
+	noble
+	peaceful
+	personable
+	placid
+	playful
+	proud
+	romantic
+	seductive
+	sensitive
+	sensual
+	serene
+	serious
+	silly
+	sinful
+	sneaky
+	solem
+	soulful
+	spiritual
+	studious
+	tense
+	thoughtful
+	trusting
+	vain
+	wild
+	wily
+	willfull
+	wise
+	witty
+	wordy
+//Metaphors
+ROUTEATTMETAPHOR
+	<RETMETAPHORAQUATIC>
+	<RETMETAPHORARTIFICE>
+	<RETMETAPHORAVIAN>
+	<RETMETAPHORCANINE>
+	<RETMETAPHORFELINE>
+	<RETMETAPHORINSECTILE>
+	<RETMETAPHORMISCMAMMAL>
+	<RETMETAPHORNATURE>
+	<RETMETAPHORPEOPLE>
+	<RETMETAPHORREPTILE>
+	<RETMETAPHORSUPERNAT>
+RETMETAPHORAQUATIC
+	<*>
+		RETMETAPHORPER,true
+			a deadly eel
+	<*>
+		RETMETAPHORPER,true
+			a playful dolphin
+	<*>
+		RETMETAPHORPER,true
+			a dangerous but beautiful lionfish
+	<*>
+		RETMETAPHORPER,true
+			a darting fish
+	<*>
+		RETMETAPHORPER,true
+			a menacing shark
+	<*>
+		RETMETAPHORPER,true
+			a mysterious manta ray
+	<*>
+		RETMETAPHORPER,true
+			a vicious barracuda
+RETMETAPHORARTIFICE
+	<*>
+		RETMETAPHORPER,true
+			a precise mechanism
+	<*>
+		RETMETAPHORPER,true
+			a perfect arrow
+	<*>
+		RETMETAPHORPER,true
+			an elegant piece of art.
+	<*>
+		RETMETAPHORPER,true
+			an impenetrable fortress
+	<*>
+		RETMETAPHORPER,true
+			a mysterious monolith
+	<*>
+		RETMETAPHORPER,true
+			a precise clock
+	<*>
+		RETMETAPHORPER,true
+			a clock that can't keep proper time
+	<*>
+		RETMETAPHORPER,true
+			a clockwork mechanism
+	<*>
+		RETMETAPHORPER,true
+			an inhuman statue
+	<*>
+		RETMETAPHORPER,true
+			an unstoppable machine
+	<*>
+		RETMETAPHORPER,true
+			a dangerous weapon
+	<*>
+		RETMETAPHORPER,true
+			a tightly coiled spring
+RETMETAPHORAVIAN
+	<*>
+		RETMETAPHORPER,true
+			a joyous songbird
+	<*>
+		RETMETAPHORPER,true
+			a chirping parakeete
+	<*>
+		RETMETAPHORPER,true
+			a lost baby bird
+	<*>
+		RETMETAPHORPER,true
+			a waiting vulture
+	<*>
+		RETMETAPHORPER,true
+			a wise owl
+	<*>
+		RETMETAPHORPER,true
+			a fluttering hummingbird
+	<*>
+		RETMETAPHORPER,true
+			a proud peacock
+	<*>
+		RETMETAPHORPER,true
+			a noble eagle
+	<*>
+		RETMETAPHORPER,true
+			a dignified swan
+	<*>
+		RETMETAPHORPER,true
+			a mysterious raven
+	<*>
+		RETMETAPHORPER,true
+			a dangerous bird of prey
+RETMETAPHORCANINE
+	<*>
+		RETMETAPHORPER,true
+			a playful puppy
+	<*>
+		RETMETAPHORPER,true
+			a lone wolf
+	<*>
+		RETMETAPHORPER,true
+			a loyal dog
+	<*>
+		RETMETAPHORPER,true
+			a prowling jackal
+	<*>
+		RETMETAPHORPER,true
+			a rabid dog
+	<*>
+		RETMETAPHORPER,true
+			an unavoidable bloodhound
+	<*>
+		RETMETAPHORPER,true
+			a clever fox
+	<*>
+		RETMETAPHORPER,true
+			an unstoppable hunting dog
+RETMETAPHORFELINE
+	<*>
+		RETMETAPHORPER,true
+			a proud lion
+	<*>
+		RETMETAPHORPER,true
+			a hunting tiger
+	<*>
+		RETMETAPHORPER,true
+			a playful kitten
+	<*>
+		RETMETAPHORPER,true
+			a strutting cat
+	<*>
+		RETMETAPHORPER,true
+			a curious cat
+	<*>
+		RETMETAPHORPER,true
+			a prowling panther
+	<*>
+		RETMETAPHORPER,true
+			a dashing cheetah
+	<*>
+		RETMETAPHORPER,true
+			a savvy alley cat
+RETMETAPHORINSECTILE
+	<*>
+		RETMETAPHORPER,true
+			a dangerous spider
+	<*>
+		RETMETAPHORPER,true
+			a flutering butterfly
+	<*>
+		RETMETAPHORPER,true
+			a deadly scorpion
+	<*>
+		RETMETAPHORPER,true
+			a busy bee
+	<*>
+		RETMETAPHORPER,true
+			an industrious ant
+	<*>
+		RETMETAPHORPER,true
+			an elegant dragonfly
+RETMETAPHORMISCMAMMAL
+	<*>
+		RETMETAPHORPER,true
+			a wild animal
+	<*>
+		RETMETAPHORPER,true
+			an enraged bear
+	<*>
+		RETMETAPHORPER,true
+			a randy rabbit
+	<*>
+		RETMETAPHORPER,true
+			a playful otter
+	<*>
+		RETMETAPHORPER,true
+			an industrious beaver
+	<*>
+		RETMETAPHORPER,true
+			a flighty gazelle
+	<*>
+		RETMETAPHORPER,true
+			a curious squirrel
+	<*>
+		RETMETAPHORPER,true
+			a menacing bat
+	<*>
+		RETMETAPHORPER,true
+			a cautious chipmunk
+RETMETAPHORNATURE
+	<*>
+		RETMETAPHORPER,true
+			a raging river
+	<*>
+		RETMETAPHORPER,true
+			a sturdy tree
+	<*>
+		RETMETAPHORPER,true
+			an immovable mountain
+	<*>
+		RETMETAPHORPER,true
+			a placid lake
+	<*>
+		RETMETAPHORPER,true
+			a mysterious shadow
+	<*>
+		RETMETAPHORPER,true
+			a brightly-shining star
+	<*>
+		RETMETAPHORPER,true
+			a deep ocean
+	<*>
+		RETMETAPHORPER,true
+			a billowing sandstorm
+	<*>
+		RETMETAPHORPER,true
+			a looming thundercloud
+	<*>
+		RETMETAPHORPER,true
+			an unstoppable storm
+	<*>
+		RETMETAPHORPER,true
+			shooting star
+	<*>
+		RETMETAPHORPER,true
+			a bolt of lightning
+	<*>
+		RETMETAPHORPER,true
+			a menacing tornado
+RETMETAPHORPEOPLE
+	<*>
+		RETMETAPHORPER,true
+			a dishonest shyster
+	<*>
+		RETMETAPHORPER,true
+			a regal ruler
+	<*>
+		RETMETAPHORPER,true
+			a brilliant inventor
+	<*>
+		RETMETAPHORPER,true
+			a sensitive artist
+	<*>
+		RETMETAPHORPER,true
+			a witty comedian
+	<*>
+		RETMETAPHORPER,true
+			a crazed lunatic
+	<*>
+		RETMETAPHORPER,true
+			a clever stage magician
+RETMETAPHORREPTILE
+	<*>
+		RETMETAPHORPER,true
+			a sneaky serpent
+	<*>
+		RETMETAPHORPER,true
+			a cobra waiting to strike
+	<*>
+		RETMETAPHORPER,true
+			a scuttling lizard
+	<*>
+		RETMETAPHORPER,true
+			a prowling alligator
+RETMETAPHORSUPERNAT
+	<*>
+		RETMETAPHORPER,true
+			a mysterious sphinx
+	<*>
+		RETMETAPHORPER,true
+			a regal dragon
+	<*>
+		RETMETAPHORPER,true
+			a lost and wandering spirit
+	<*>
+		RETMETAPHORPER,true
+			a glorious phoenix
+	<*>
+		RETMETAPHORPER,true
+			an elusive unicorn
+	<*>
+		RETMETAPHORPER,true
+			a dangerous vampire
+	<*>
+		RETMETAPHORPER,true
+			a malevolent demon
+	<*>
+		RETMETAPHORPER,true
+			a benevolent angel
+	<*>
+		RETMETAPHORPER,true
+			a randy demon
+RETMETAPHORPER
+	RETMETAPHORPER
+//GENDERS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+		RETGENDERDESC,true
+			<RETGENDERDESCFEMALE>
+SETGENDERMALE
+	<*>
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+		RETGENDERDESC,true
+			<RETGENDERDESCMALE>
+		SEEDSHOWHAIRPOSESSROUTE,true
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESS>  <SEEDSHOWFACIALHAIRROUTE>
+			<SEEDSHOWHAIRPOSESSBALD>  <SEEDSHOWFACIALHAIRROUTE>
+//GENDER REFS
+RETGENDER
+	it
+RETGENDERCAP
+	It
+RETPOSESSIVE
+	it's
+RETPOSESSIVECAP
+	It's
+RETSTARTREF
+	being
+//GENDER REFS - Descripve
+RETGENDERDESC
+	RETGENDERDESC
+RETGENDERDESCFEMALE
+	girl
+	lady
+	woman
+RETGENDERDESCMALE
+	guy
+	gentleman
+	man
+//eyeforms
+//EYE - FORMS
+REFEYEFORM
+	almond-shaped
+	beady
+	deep-set
+	droopy
+	hooded
+	large
+	narrow
+	round
+	slanted
+	slitted
+	wide
+//HAIR
+SETHAIRLENGTH
+	<*>
+		RETHAIRLENGTH,true
+			<RETHAIRLENGTHSHORT>
+	<*>
+		RETHAIRLENGTH,true
+			<RETHAIRLENGTHMEDIUM>
+	<*>
+		RETHAIRLENGTH,true
+			<RETHAIRLENGTHMEDIUM>
+	<*>
+		RETHAIRLENGTH,true
+			<RETHAIRLENGTHLONG>
+SETHAIRTYPE
+	<*>
+		RETHAIRTYPE,true
+			curly
+	<*>
+		RETHAIRTYPE,true
+			straight
+	<*>
+		RETHAIRTYPE,true
+			straight
+	<*>
+		RETHAIRTYPE,true
+			wavy
+SETHAIRSTYLE
+	<RETHAIRSTYLEBEAUTY>
+	<RETHAIRSTYLESERIOUS>
+	<RETHAIRSTYLESIMPLE>
+	<RETHAIRSTYLEWILD>
+//Hair Lengths
+RETHAIRLENGTHSHORT
+	very short
+	short
+RETHAIRLENGTHMEDIUM
+	medium-length
+	neck-length
+RETHAIRLENGTHLONG
+	long
+	shoulder-length
+	waist-length
+	very long
+//Hair styles
+ROUTEHAIRSTYLE
+	<RETHAIRSTYLEART>
+	<RETHAIRSTYLESERIOUS>
+	<RETHAIRSTYLESIMPLE>
+	<RETHAIRSTYLEWILD>
+RETHAIRSTYLECON
+	a
+RETHAIRSTYLEREF
+	style
+RETHAIRSTYLEART
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			artistic
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+			<RETHAIRSTYLEWILD>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			attractive
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+			<RETHAIRSTYLEWILD>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			carefully-crafted
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+			<RETHAIRSTYLEWILD>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			elegant
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+			<RETHAIRSTYLEWILD>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			handsome
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+			<RETHAIRSTYLEWILD>
+RETHAIRSTYLESERIOUS
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			businesslike
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESIMPLE>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			dignified
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESIMPLE>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			precise
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESIMPLE>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			severe
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESIMPLE>
+RETHAIRSTYLESIMPLE
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			practical
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			simple
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			uncomplicated
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			utilitarian
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLESERIOUS>
+RETHAIRSTYLEWILD
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			bizarre
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLEART>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			complex
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLEART>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			exotic
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLEART>
+	<*>
+		RETHAIRSTYLECON,true
+			an
+		RETHAIRSTYLEREF,true
+			impractacal
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLEART>
+	<*>
+		RETHAIRSTYLECON,true
+			a
+		RETHAIRSTYLEREF,true
+			weird
+		ROUTEHAIRSTYLE,true
+			<RETHAIRSTYLEART>
+REFHAIRSTYLEMETAPHOR
+	a bale of hay
+	a bird's wing
+	a burning fire
+	a cascading waterfall
+	a cobra's hood
+	a comet's trail
+	a complex device
+	a crown
+	a devil's horns
+	a dragon's scales
+	a drifting cloud
+	a dustball
+	a flame
+	a flower's petals
+	a flowing cape
+	a flowing stream
+	a fluttering flag
+	a gush of water
+	a helmet
+	a holy halo
+	a horse's mane
+	a lionfish's spines
+	a lion's mane
+	a monk's cowl
+	a mysterious hood
+	a mysterious mask
+	a pair of horns
+	a pair of wings
+	a peacock's tail
+	a pennant blowing in the wind
+	a pile of leaves
+	a pile of shredded paper
+	a plume of smoke
+	a porcupine's quills
+	a puffy dandelion
+	a river
+	a rocky outcropping
+	a rooster's crest
+	a sea urchin
+	a seashell
+	a shark's fin
+	a strange headdress
+	a tangled bush
+	a trailing ribbon
+	a turtle's shell
+	a waterfall
+	a wave of water
+	an animal's ears
+	an elaborate sculpture
+	an overused mop
+	the aurora borealis
+	the petals of a flower
+	the rays of the sun
+//Hair slots
+RETHAIRLENGTH
+	RETHAIRLENGTH
+RETHAIRTYPE
+	RETHAIRTYPE
+RETHAIRSTYLE
+	RETHAIRSTYLE
+//Hair refs
+REFHAIRCONSISTENCY
+	fine
+	luxurious
+	silky
+	thick
+//Facial hair
+REFFACIALHAIR
+	<REFBEARDANDMOUSTACHE>
+	<REFBEARDANDMOUSTACHE>
+	<REFBEARDANDMOUSTACHE>
+	<REFBEARD>
+	<REFFACIALHAIRMINOR>
+	<REFFACIALHAIRMINOR>
+	<REFMOUSTACHE>
+	<REFMOUSTACHE>
+	<REFMOUSTACHE>
+REFFACIALHAIRMINOR
+	five o'clock shadow
+	stubble
+REFBEARD
+	a beard
+	a <REFBEARDDESC> beard
+REFMOUSTACHE
+	a moustache
+	a <REFMOUSTACHEDESC> moustache
+REFBEARDANDMOUSTACHE
+	a beard and moustache
+	a beard and moustache
+	a beard and moustache
+	a <REFBEARDDESC> beard and a moustache
+	a beard and a <REFMOUSTACHEDESC> moustache
+	a <REFBEARDDESC> beard and a <REFMOUSTACHEDESC> moustache
+REFBEARDDESC
+	full
+	long
+	short
+	small
+REFMOUSTACHEDESC
+	long
+	prominent
+	thick
+	thin
+	small
+	stylish
+//BUILDS
+RETBUILD
+	<REFBUILDGENERAL>
+	<REFBUILDFEMALE>
+	<REFBUILDMALE>
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFHEIGHT
+	is very short and
+	is short and
+	<*>
+	<*>
+	is tall and
+	is very tall and
+//SKIN
+SETSKINCOLOR
+	<SETSKINCOLORLIGHT>
+	<SETSKINCOLORMEDIUM>
+	<SETSKINCOLORMEDIUMDARK>
+	<SETSKINCOLORDARK>
+SETSKINCOLORLIGHT
+	<*>
+		RETSKINCOLOR,true
+			china-white
+	<*>
+		RETSKINCOLOR,true
+			pale
+	<*>
+		RETSKINCOLOR,true
+			white
+SETSKINCOLORMEDIUM
+	<*>
+		RETSKINCOLOR,true
+			light-colored
+			cream-colored
+SETSKINCOLORMEDIUMDARK
+	<*>
+		RETSKINCOLOR,true
+			ruddy
+	<*>
+		RETSKINCOLOR,true
+			tan
+			tanned
+	<*>
+		RETSKINCOLOR,true
+			brown
+			chocolate-brown
+			nut-brown
+SETSKINCOLORDARK
+	<*>
+		RETSKINCOLOR,true
+			black
+	<*>
+		RETSKINCOLOR,true
+			dark
+	<*>
+		RETSKINCOLOR,true
+			deeply-tanned
+RETSKINCOLOR
+	RETSKINCOLOR
+//OTHER TRAITS
+ROUTETRAITS
+	<ROUTETRAITSONE>
+	<ROUTETRAITSTWO>
+ROUTETRAITSONE
+	<REFFOREHEAD>
+	<REFNOSE>
+	<REFCHEEKBONES>
+	<REFEARS>
+	<REFEYES>
+	<REFMOUTH>
+	<REFCHIN>
+	<REFHANDS>
+	<REFFEET>
+ROUTETRAITSTWO
+	<REFFOREHEAD> and <REFNOSE>
+	<REFFOREHEAD> and <REFCHEEKBONES>
+	<REFFOREHEAD> and <REFEARS>
+	<REFFOREHEAD> and <REFEYES>
+	<REFFOREHEAD> and <REFMOUTH>
+	<REFFOREHEAD> and <REFCHIN>
+	<REFFOREHEAD> and <REFHANDS>
+	<REFFOREHEAD> and <REFFEET>
+	<REFNOSE> and <REFCHEEKBONES>
+	<REFNOSE> and <REFEARS>
+	<REFNOSE> and <REFEYES>
+	<REFNOSE> and <REFMOUTH>
+	<REFNOSE> and <REFCHIN>
+	<REFNOSE> and <REFHANDS>
+	<REFNOSE> and <REFFEET>
+	<REFCHEEKBONES> and <REFEARS>
+	<REFCHEEKBONES> and <REFEYES>
+	<REFCHEEKBONES> and <REFMOUTH>
+	<REFCHEEKBONES> and <REFCHIN>
+	<REFCHEEKBONES> and <REFHANDS>
+	<REFCHEEKBONES> and <REFFEET>
+	<REFEARS> and <REFEYES>
+	<REFEARS> and <REFMOUTH>
+	<REFEARS> and <REFCHIN>
+	<REFEARS> and <REFHANDS>
+	<REFEYES> and <REFFEET>
+	<REFEYES> and <REFMOUTH>
+	<REFEYES> and <REFCHIN>
+	<REFEYES> and <REFHANDS>
+	<REFEYES> and <REFFEET>
+	<REFMOUTH> and <REFCHIN>
+	<REFMOUTH> and <REFHANDS>
+	<REFMOUTH> and <REFFEET>
+	<REFCHIN> and <REFHANDS>
+	<REFCHIN> and <REFFEET>
+	<REFHANDS> and 	<REFFEET>
+REFFOREHEAD
+	a high forehead
+	a low forehead
+	a wide forehead
+	a domed forehead
+REFNOSE
+	an upturned nose
+	an elegant nose
+	a hooked nose
+	a large nose
+	a small nose
+	a crooked nose
+REFCHEEKBONES
+	high cheekbones
+	prominent cheekbones
+	hollow cheeks
+REFEARS
+	small ears
+	prominent ears
+	delicate ears
+	knobby ears
+REFEYES
+	bushy eyebrows
+	thin eyebrows
+	thick eyebrows
+	nearly-nonexistent eyebrows
+REFMOUTH
+	full lips
+	thin lips
+	a large mouth
+	a small mouth
+REFCHIN
+	a wide chin
+	a pointed chin
+	a weak chin
+	a strong chin
+REFHANDS
+	large hands
+	small hands
+	long-fingered hands
+	stubby-fingered hands
+REFFEET
+	large feet
+	small feet
+	wide feet
+//CLOTHES
+ROUTECLOTHESSTYLE
+	<REFCLOTHESDESCATT>
+	<REFCLOTHESDESCMYSTERY>
+	<REFCLOTHESDESCSERIOUS>
+	<REFCLOTHESDESCSEXY>
+	<REFCLOTHESDESCSIMPLE>
+	<REFCLOTHESDESCWILD>
+RETCLOTHESSTYLECON
+	a
+RETCLOTHESSTYLEREF
+	style
+REFCLOTHESDESCATT
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			artistic
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			attractive
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			classy
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			elegant
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			flattering
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+REFCLOTHESDESCMYSTERY
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			mysterious
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCSERIOUS>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			strange
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCSERIOUS>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			unusual
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCSERIOUS>
+			<REFCLOTHESDESCSEXY>
+			<REFCLOTHESDESCWILD>
+REFCLOTHESDESCSERIOUS
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			businesslike
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			dignified
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			professional
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			severe
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+REFCLOTHESDESCSEXY
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			revealing
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			risque
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			sexy
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+			<REFCLOTHESDESCWILD>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			tight
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSIMPLE>
+			<REFCLOTHESDESCWILD>
+REFCLOTHESDESCSIMPLE
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			no-nonsense
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			plain
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			practical
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			simple
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			uncomplicated
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			utilitarian
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCSERIOUS>
+REFCLOTHESDESCWILD
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			bizarre
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			complicated
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			elaborate
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			impractacal
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			odd
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			unconventional
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+	<*>
+		RETCLOTHESSTYLECON,true
+			a
+		RETCLOTHESSTYLEREF,true
+			weird
+		ROUTECLOTHESSTYLE,true
+			<REFCLOTHESDESCATT>
+			<REFCLOTHESDESCMYSTERY>
+			<REFCLOTHESDESCSEXY>
+//COLOR SPECIAL RELAYS
+RELAYCOLORALTERNATOR
+	<RELAYCOLOR>
+	<RELAYCOLOR>
+	<RELAYCOLORALL>
+//COLORS
+RELAYCOLORREGULAREYES
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEBLUE>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEGRAY>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+	<ROUTEBROWN>
+	<ROUTEBROWN>
+RELAYCOLORREGULARHAIR
+	<ROUTERED>
+	<ROUTEYELLOW>
+	<ROUTEYELLOW>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+	<ROUTEBROWN>
+	<ROUTEBROWN>
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLORALL
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+		REFCOLORTHING,true
+			autum leaves
+			fresh blood
+			red bricks
+			ripe cherries
+			dying embers
+			fresh roses
+			rust
+			valuable rubies
+		RELAYCOLOR,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two glowing embers
+			two garnets
+			two setting suns
+			two drops of blood
+			two drops of wine
+			two rubies
+			two rose petals
+			two blooming roses
+			two flames
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+		REFCOLORTHING,true
+			burning flames
+			ripe apricots
+			fresh peaches
+			ripe tangerines
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two glowing embers
+			two setting suns
+			two rising suns
+			two flames
+			two chunks of amber
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+		REFCOLORTHING,true
+			polished amber
+			fine gold
+			ripe lemons
+			desert sand
+			the sun
+			yellowed ivory
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+		REFCOLOREYES,true
+			two shining suns
+			two gold coins
+			two drops of molten gold
+			two chunks of agend ivory
+			two pieces of fools' gold
+			two pools of melted butter
+			two sunflowers
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+		REFCOLORTHING,true
+			fresh green apples
+			beyrl
+			valuable emeralds
+			wild grass
+			fine jade
+			wild moss
+			pine needles
+			summer leaves
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two emeralds
+			two chunks of jade
+			two pools of stangant water
+			two clumps of moss
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+		REFCOLORTHING,true
+			blue tropical waters
+			blueberries
+			sapphires
+			the afternoon sky
+			the evening sky
+			turquoises
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two sapphires
+			two pools of water
+			two windows on the afternoon sky
+			two chunks of lapis lazuli
+			two turquoises
+			two lagoons
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+		REFCOLORTHING,true
+			amethysts
+			ripe plums
+			blooming violets
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two drops of wine
+			two amethysts
+			two windows on the evening sky
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+		REFCOLORTHING,true
+			alabaster
+			bleached bone
+			rich cream
+			fine china
+			ivory
+			milk
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two pearls
+			two pieces of ivory
+			two discs of bone
+			two bleached skulls
+			two lotus blossoms
+			two spheres of alabaster
+			two shining stars
+			two plates of fine china
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+		REFCOLORTHING,true
+			charcoal
+			black coffee
+			obsidian
+			the midnight sky
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two pieces of obsidian
+			two onyxes
+			two drops of oil
+			two dark pits
+			two windows on the midnight sky
+			two lumps of coal
+			two spheres of night-black marble.
+			two cups of black coffee
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+			gunmetal-gray
+		REFCOLORTHING,true
+			an overcast sky
+			cold ashes
+			burnished iron
+			smoke
+			fine silver
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two silver coins
+			two pieces of steel
+			two windows looking out on an overcast sky
+			two pools of mercury
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+		REFCOLORTHING,true
+			chestnuts
+			coffee with cream
+			dark chocolate
+			milk chocolate
+			varnished wood
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two drops of chocolate
+			two patches of dried blood
+			two bronze coins
+			two tiger-eye gems
+			two discs of wood
+			two acorns
+			two splotches of mud
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+REFCOLORTHING
+	REFCOLORTHING
+REFCOLOREYES
+	REFCOLOREYES
+//General stuff
+REFMETACONNECTOR
+	reminds you of
+	puts you in mind of
+	makes you think of

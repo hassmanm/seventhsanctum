@@ -1,0 +1,93 @@
+Any
+	SEEDITEMALL
+		spellitemgendat.txt
+Abstract/Shape
+	SEEDITEMABSTRACT
+		spellitemgendat.txt
+Armor - All
+	SEEDITEMARMORALL
+		spellitemgendat.txt
+Armor - Full Armors
+	SEEDITEMARMOR
+		spellitemgendat.txt
+Armor - Parts
+	SEEDITEMARMORPART
+		spellitemgendat.txt
+Armor - Shields
+	SEEDITEMARMORSHIELD
+		spellitemgendat.txt
+Clothes and Jewelry
+	SEEDITEMOUTFITTING
+		spellitemgendat.txt
+Clothes
+	SEEDITEMCLOTHES
+		spellitemgendat.txt
+Containers
+	SEEDITEMCONTAINERS
+		spellitemgendat.txt
+Device/Mechanisms
+	SEEDITEMDEVICE
+		spellitemgendat.txt
+Jewelry
+	SEEDITEMJEWELRY
+		spellitemgendat.txt
+Literatry/Written
+	SEEDITEMLITERATURE
+		spellitemgendat.txt
+Medicine
+	SEEDITEMMEDICINE
+		spellitemgendat.txt
+Musical Instruments
+	SEEDITEMINSTRUMENTS
+		spellitemgendat.txt
+Potions
+	SEEDITEMPOTIONS
+		spellitemgendat.txt
+Religious Items
+	SEEDITEMRELIGIOUS
+		spellitemgendat.txt
+Staves and related
+	SEEDITEMSTAVESPLUS
+		spellitemgendat.txt
+Weapons - All
+	SEEDITEMWEAPONALL
+		spellitemgendat.txt
+Weapons - One-edged
+	SEEDITEMWEAPONONEEDGE
+		spellitemgendat.txt
+Weapons - Two-edged
+	SEEDITEMWEAPONTWOEDGE
+		spellitemgendat.txt
+Weapons - Crushing
+	SEEDITEMWEAPONCRUSHING
+		spellitemgendat.txt
+Weapons - Polearms
+	SEEDITEMWEAPONPOLE
+		spellitemgendat.txt
+Weapons - Thrown
+	SEEDITEMWEAPONTHROWN
+		spellitemgendat.txt
+Weapons - Projectile
+	SEEDITEMWEAPONPROJECTILE
+		spellitemgendat.txt
+Character Mix - Alchemist
+	SEEDITEMALCHEMIST
+		spellitemgendat.txt
+Character Mix - Bard
+	SEEDITEMBARD
+		spellitemgendat.txt
+Character Mix - Cleric
+	SEEDITEMCLERIC
+		spellitemgendat.txt
+Character Mix - Magic-User
+	SEEDITEMMAGICUSER
+		spellitemgendat.txt
+Character Mix - Paladin
+	SEEDITEMPALADIN
+		spellitemgendat.txt
+Character Mix - Tinker
+	SEEDITEMTINKER
+		spellitemgendat.txt
+Character Mix - Warrior
+	SEEDTITEMWARRIOR
+		spellitemgendat.txt

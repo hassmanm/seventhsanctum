@@ -1,0 +1,9 @@
+First Names
+	FIRSTNAME
+		dwarfnamerfirstdat.txt
+Full Name
+	FULLDWARF
+		dwarfnamerfulldat.txt
+Last Name/Clan
+	LASTDWARF
+		dwarfnamerlastdat.txt

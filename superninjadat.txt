@@ -1,0 +1,1695 @@
+//ROUTES
+SEED
+	<SEEDANY>
+	<SEEDMALE>
+	<SEEDFEMALE>
+SEEDANY
+	<*SETGENDEREITHER><SEEDSHOW>
+SEEDMALE
+	<*SETGENDERMALE><SEEDSHOW>
+SEEDFEMALE
+	<*SETGENDERFEMALE><SEEDSHOW>
+SEEDSHOW
+	This <REFPERSONALITY> <RETDIRREF> <REFHEIGHT>has <RETBUILD> build. <SEEDPHYSICALROUTE><RETPOSESSIVECAP> <REFEYEFORM> eyes are <*RELAYCOLOR><ROUTECOLORREF>.  <SEEDHAIR><SEEDCLOTHINGROUTE> <SEEDMASTYLE><SEEDWPSTYLE>  <SEEDSKILLUSE>  <SEEDNINJAPOWER>
+//SEED ALTERS
+SEEDHAIR
+	<SEEDHAIRMETAPHOR>
+	<SEEDHAIRGENERAL>
+SEEDHAIRMETAPHOR
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in a style that resembles <REFHAIRSTYLEMETAPHOR>.
+SEEDHAIRGENERAL
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE>, <REFHAIRLENGTH>, <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <REFHAIRTYPE> <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <REFHAIRLENGTH> <*RELAYCOLOR><ROUTECOLORREF> hair.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair worn in <REFHAIRSTYLE> style.
+	<RETGENDERCAP> has <*RELAYCOLOR><ROUTECOLORREF> hair.
+SEEDPHYSICALROUTE
+	<*>
+	<*>
+	 <REFPHYSICALROUTE> 
+SEEDCLOTHINGROUTE
+	<*>
+	<*>
+	 <RETPOSESSIVECAP> outfit includes <REFCLOTHINGEXTRA>.
+	 <SEEDCLOTHING>.
+	 <SEEDCLOTHING> and include <REFCLOTHINGEXTRA>.
+SEEDCLOTHING
+	<RETPOSESSIVECAP> outfits are usually <*RELAYCOLOR><ROUTECOLORREF>
+	<RETPOSESSIVECAP> <REFCLOTHESSTYLE> outfits are usually <*RELAYCOLOR><ROUTECOLORREF>
+	<RETPOSESSIVECAP> outfits are <REFCLOTHESSTYLE>
+	<RETPOSESSIVECAP> outfits are <REFCLOTHESSTYLE>
+SEEDMASTYLE
+	<*>
+	<SEEDMAUSE> 
+	<SEEDMAUSE> 
+	<SEEDMAUSE> 
+SEEDMAUSE
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAGOAL>.
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAMOVE>.
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAGOAL> and using <REFMAMOVE>.
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAGOAL>.
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAMOVE>.
+	<RETGENDERCAP> uses <REFMADESC> form of martial arts that emphasizes <REFMAGOAL> and using <REFMAMOVE>.
+SEEDWPSTYLE
+	<*>
+	<SEEDWPUSE> 
+	<SEEDWPUSE> 
+	<SEEDWPUSE> 
+SEEDWPUSE
+	<SEEDWPUSECAT>
+	<SEEDWPUSESPEC>
+SEEDWPUSECAT
+	<RETPOSESSIVECAP> preferred weapons are <REFWEAPONCATEGORIES>.
+SEEDWPUSESPEC
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	<RETPOSESSIVECAP> preferred weapon is <REFWEAPONROUTE><SEEDWPUSESPECMODROUTE>.
+	Instead of using more traditional weapons, <RETGENDER> uses <REFWEAPONWEIRD>.
+SEEDWPUSESPECMODROUTE
+	<*>
+	<*>
+	<*>
+	 (which <REFWPMOD>)
+SEEDSKILLUSE
+	<SEEDSKILLUSEONE>
+	<SEEDSKILLUSETWO>
+	<SEEDSKILLUSETHREE>
+SEEDSKILLUSEONE
+	<RETGENDERCAP> is skilled in <REFPHYSICALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFMINDSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFSOCIALSKILLS><SEEDSKILLCOMBATROUTE>.
+SEEDSKILLUSETWO
+	<RETGENDERCAP> is skilled in <REFPHYSICALSKILLS> and <REFMINDSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFMINDSKILLS> and <REFPHYSICALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFPHYSICALSKILLS> and <REFSOCIALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFSOCIALSKILLS> and <REFPHYSICALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFMINDSKILLS> and <REFSOCIALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFSOCIALSKILLS> and <REFMINDSKILLS><SEEDSKILLCOMBATROUTE>.
+SEEDSKILLUSETHREE
+	<RETGENDERCAP> is skilled in <REFMINDSKILLS>, <REFPHYSICALSKILLS>,  and <REFSOCIALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFMINDSKILLS>, <REFSOCIALSKILLS>, and <REFPHYSICALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFPHYSICALSKILLS>,  <REFSOCIALSKILLS>, and <REFMINDSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFPHYSICALSKILLS>, <REFMINDSKILLS>, and <REFSOCIALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFSOCIALSKILLS>,  <REFMINDSKILLS>, and <REFPHYSICALSKILLS><SEEDSKILLCOMBATROUTE>.
+	<RETGENDERCAP> is skilled in <REFSOCIALSKILLS>,  <REFPHYSICALSKILLS>, and <REFMINDSKILLS><SEEDSKILLCOMBATROUTE>.
+SEEDSKILLCOMBATROUTE
+	<*>
+	<*>
+	<*>
+	<*>
+	 (which <RETGENDER> uses in <RETPOSESSIVE> combat techniques)
+SEEDNINJAPOWER
+	<SEEDNPCOMBATEFFECT>
+	<SEEDNPELEMENTAL>
+	<SEEDNPANIMALS>
+	<SEEDNPMENTALISM>
+	<SEEDNPSELFMANIPULATION>
+	<SEEDNPSUMMONS>
+	<SEEDNPSECRETION>
+	<SEEDNPENERGY>
+	<SEEDNPTRANSPORT>
+	<SEEDNPTRAIT>
+//Ninjapower seeds
+SEEDNPCOMBATEFFECT
+	<RETGENDERCAP> uses <RETPOSESSIVE> weapon to produce <REFNPCOMBATEFFECT>.
+	<RETGENDERCAP> uses <RETPOSESSIVE> martial arts to produce <REFNPCOMBATEFFECT>.
+	<RETGENDERCAP> uses a mixture of weapons and martial arts to produce <REFNPCOMBATEFFECT>.
+SEEDNPELEMENTAL
+	<RETGENDERCAP> can <SEEDNPELEMENTALENERGY>.
+	<RETGENDERCAP> can <SEEDNPELEMENTALMATTER>.
+SEEDNPELEMENTALENERGY
+	use various special skills related to <REFNPELEMENTENERGY>
+	create <REFNPELEMENTENERGY><REFNPELEMENTEMITROUTE>
+	control <REFNPELEMENTENERGY>
+	create and control <REFNPELEMENTENERGY><REFNPELEMENTEMITROUTE>
+SEEDNPELEMENTALMATTER
+	use various special skills related to <REFNPELEMENTMATTER>
+	use various special skills related to <REFNPELEMENTMATTER>
+	create <REFNPELEMENTMATTER><REFNPELEMENTEMITROUTE>
+	create <REFNPELEMENTMATTER><REFNPELEMENTEMITROUTE> - as well as form the product<REFNPELEMENTPURPOSEROUTE>
+	mentally shape <REFNPELEMENTMATTER><REFNPELEMENTPURPOSEROUTE>
+	mentally shape and control <REFNPELEMENTMATTER>
+	mentally control and manipulate <REFNPELEMENTMATTER>
+	create <REFNPELEMENTMATTER><REFNPELEMENTEMITROUTE>, shape the product<REFNPELEMENTPURPOSEROUTE>, and control it
+SEEDNPANIMALS
+	<SEEDNPANIMALSTRAITS>
+	<SEEDNPANIMALSTRAITS>
+	<SEEDNPANIMALSTRAITS>
+	<SEEDNPANIMALSHOST>
+	<SEEDNPANIMALSHOST>
+	<SEEDNPANIMALSRELATE>
+	<SEEDNPANIMALSRELATE>
+	<SEEDNPANIMALSRELATE>
+SEEDNPANIMALSTRAITS
+	<RETGENDERCAP> can take on the traits of <REFANIMALSROUTESINGLE>.
+	<RETPOSESSIVECAP> body has traits reminicent of <REFANIMALSROUTESINGLE>.
+SEEDNPANIMALSHOST
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body and controls them.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body and communicates with them.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body in a symbiotic relationship.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body, controls them, and take on their traits.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body, communicates with them, and take on their traits.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> body symbiotically, and take on their traits.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes and controls them.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes and communicates with them.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes in a symbiotic relationship.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes, controls them, and takes on their traits.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes, communicates with them, and can take on their traits.
+	<RETGENDERCAP> hosts <REFANIMALSHOST> in <RETPOSESSIVE> clothes in a symbiotic relationship, and can take on their traits.
+SEEDNPANIMALSRELATE
+	<RETGENDERCAP> can summon <REFANIMALSREGULAR>.
+	<RETGENDERCAP> can control <REFANIMALSREGULAR>.
+	<RETGENDERCAP> can communicate with <REFANIMALSREGULAR>.
+	<RETGENDERCAP> can summon and control <REFANIMALSREGULAR>.
+	<RETGENDERCAP> can summon and communicate with <REFANIMALSREGULAR>.
+	<RETGENDERCAP> can summon and control <REFANIMALSREGULAR>, as well as take on their traits.
+	<RETGENDERCAP> can summon and communicate with <REFANIMALSREGULAR>, as well as take on their traits.
+//Mentalism
+SEEDNPMENTALISM
+	<SEEDNPMENTALISMTELEPATHY>
+	<SEEDNPMENTALISMASTRAL>
+	<SEEDNPMENTALISMILLUSIONS>
+	<SEEDNPMENTALISMSOUL>
+	<SEEDNPMENTALISMSENSES>
+SEEDNPMENTALISMTELEPATHY
+	<RETGENDERCAP> can read people's surface thoughts.
+	<RETGENDERCAP> can read the thoughts of others.
+	<RETGENDERCAP> read the thoughts of any living creature.
+	<RETGENDERCAP> communicate mentally with others.
+	<RETGENDERCAP> mentally create subconcious suggestions.
+	<RETGENDERCAP> mentally enter and control another's body.
+SEEDNPMENTALISMASTRAL
+	<RETGENDERCAP> can leave her body in astral form.
+	<RETGENDERCAP> can leave her body in astral form, yet affect the material world in limited ways.
+	<RETGENDERCAP> can leave her body in astral form and posess others.
+SEEDNPMENTALISMILLUSIONS
+	<RETGENDERCAP> create illusions and deicieve an individual.
+	<RETGENDERCAP> can create illusions that decieve multiple people.
+	<RETGENDERCAP> can create hypntoic illusions.
+SEEDNPMENTALISMSOUL
+	<RETGENDERCAP> can transfer <RETPOSESSIVE> soul to another body.
+	<RETGENDERCAP> can transfer <RETPOSESSIVE> soul to another body upon death.
+SEEDNPMENTALISMSENSES
+	<RETGENDERCAP> can see the future.
+	<RETGENDERCAP> can read the psychic impressions off of objects.
+	<RETGENDERCAP> can see into the past.
+//Self Manipulation
+SEEDNPSELFMANIPULATION
+	<SEEDNPSELFMANIPULATIONMETABOL>
+	<SEEDNPSELFMANIPULATIONEXPAND>
+	<SEEDNPSELFMANIPULATIONDETATCH>
+	<SEEDNPSELFMANIPULATIONREUSE>
+	<SEEDNPSELFMANIPULATIONRUBBER>
+	<SEEDNPSELFMANIPULATIONEXTRA>
+	<SEEDNPSELFMANIPULATIONSHAPE>
+	<SEEDNPSELFMANIPULATIONSTEAL>
+SEEDNPSELFMANIPULATIONMETABOL
+	<RETGENDERCAP> can heighten <RETPOSESSIVE> metabolism, increasing healing.
+	<RETGENDERCAP> can heighten <RETPOSESSIVE> metabolism, increasing strength.
+	<RETGENDERCAP> can heighten <RETPOSESSIVE> metabolism, increasing all bodily functions.
+SEEDNPSELFMANIPULATIONEXPAND
+	<RETGENDERCAP> can increase the size of <RETPOSESSIVE> <REFBODYPARTUSE>.
+	<RETGENDERCAP> can inflate <RETPOSESSIVE> body like a baloon.
+SEEDNPSELFMANIPULATIONDETATCH
+	<RETGENDERCAP> can detach and reattach <RETPOSESSIVE> <REFBODYPARTDETACH>.
+	<RETGENDERCAP> can detach and reattach <RETPOSESSIVE> <REFBODYPARTDETACH>, and all detached parts operate independently.
+SEEDNPSELFMANIPULATIONREUSE
+	<RETGENDERCAP> can make weapons from <RETPOSESSIVE> own skeleton.
+	<RETGENDERCAP> can make weapons and tools from <RETPOSESSIVE> own skeleton.
+	<RETGENDERCAP> can use <RETPOSESSIVE> sinews and muscles like rope or ensnaring weapons.
+	<RETGENDERCAP> can use <RETPOSESSIVE> sinews and muscles like rope or ensnaring weapons.
+	<RETGENDERCAP> can transform <RETPOSESSIVE> limbs into weapons.
+	<RETGENDERCAP> can transform <RETPOSESSIVE> limbs into various tools
+	<RETGENDERCAP> can transform <RETPOSESSIVE> limbs into various tools or weapons.
+	<RETGENDERCAP> can transform <RETPOSESSIVE> skin into weapons.
+	<RETGENDERCAP> can transform <RETPOSESSIVE> skin into armor
+SEEDNPSELFMANIPULATIONRUBBER
+	<RETPOSESSIVECAP> body can stretch and reform like living rubber.
+	<RETPOSESSIVECAP> limbs can stretch like rubber.
+SEEDNPSELFMANIPULATIONEXTRA
+	<RETGENDERCAP> can create extra <REFBODYPARTPLURAL>
+	<RETGENDERCAP> can create extra <REFBODYPARTPLURAL> anywhere on <RETPOSESSIVE> body.
+SEEDNPSELFMANIPULATIONSHAPE
+	<RETGENDERCAP> can change <RETPOSESSIVE> form into that of other people.
+	<RETGENDERCAP> can change <RETPOSESSIVE> form into that of animals.
+	<RETGENDERCAP> can change <RETPOSESSIVE> form into that of any living being.
+	<RETGENDERCAP> can change <RETPOSESSIVE> form into virtually any other shape.
+SEEDNPSELFMANIPULATIONSTEAL
+	<RETGENDERCAP> can steal the body parts of others and replace ones <RETGENDER> has lost.
+	<RETGENDERCAP> can steal the body parts of others and replace ones <RETGENDER> has lost.
+	<RETGENDERCAP> can steal the body parts of others and attach them to <RETPOSESSIVE> body.
+	<RETGENDERCAP> can steal the body parts of others and attach them to <RETPOSESSIVE> body.
+//Summons
+SEEDNPSUMMONS
+	<RETGENDERCAP> can summon <REFSUPERNATURAL>.
+	<RETGENDERCAP> can summon <REFANIMALSREGULARSINGLE>-<REFSUPERNATURALTYPESINGLE>.
+	<RETGENDERCAP> can summon and take on the traits of <REFSUPERNATURAL>.
+	<RETGENDERCAP> can summon and take on the traits of <REFANIMALSREGULARSINGLENOINDICATOR>-<REFSUPERNATURALTYPE>.
+//Secretion manipulation
+SEEDNPSECRETION
+	<RETGENDERCAP> can change <RETPOSESSIVE> <REFSECRETION> into <REFSECRETIONCHANGEROUTE>.
+	<RETPOSESSIVECAP> <REFSECRETIONREF> actually <REFSECRETIONAFFECT>.
+//Telekinesis.
+SEEDNPTELEKINESIS
+	<SEEDNPTELEKINESISGENERAL>
+	<SEEDNPTELEKINESISSPEC>
+SEEDNPTELEKINESISGENERAL
+	<RETGENDERCAP> can lift things by telekinesis.
+	<RETGENDERCAP> can propell things by telekinesis.
+	<RETGENDERCAP> can lift things by telekinesis, just as if <RETGENDER> was holding them.
+SEEDNPTELEKINESISSPEC
+	<RETGENDERCAP> can lift and manipulate inanimate objects via telekinesis.
+	<RETGENDERCAP> can lift and manipulate any object <RETGENDER> has specially prepared via telekinesis.
+	<RETGENDERCAP> can lift and manipulate any part of <RETGENDER> body that has been separated from it, from limbs to hair.
+//Energy
+SEEDNPENERGY
+	<SEEDNPENERGYOTHER>
+	<RETGENDERCAP> can  use <RETPOSESSIVE> mystical energies to <SEEDNPENERGYUSE>.
+SEEDNPENERGYOTHER
+	<RETGENDERCAP> can disrupt the mystical energies of others.
+	<RETGENDERCAP> can adsorb the mystical energies of others.
+	<RETGENDERCAP> can adsorb the mystical energies of others and use them to <SEEDNPENERGYUSE>.
+SEEDNPENERGYUSE
+	increase <RETPOSESSIVE> <REFTRAIT>
+	create <REFENERGYCREATE>
+//Transport
+SEEDNPTRANSPORT
+	<SEEDNPTRANSPORTGENERAL>
+	<SEEDNPTRANSPORTPASS>
+SEEDNPTRANSPORTGENERAL
+	<RETGENDERCAP> can fly.
+	<RETGENDERCAP> can teleport.
+	<RETGENDERCAP> can become immaterial.
+	<RETGENDERCAP> can turn into a mist.
+	<RETGENDERCAP> can run at inhumanly fast speeds.
+SEEDNPTRANSPORTPASS
+	<RETGENDERCAP> can pass through <REFPASSELEMENT> as if it were air.
+	<RETGENDERCAP> can merge with <REFPASSELEMENT>.
+	<RETGENDERCAP> can pass through and merge with <REFPASSELEMENT>.
+//Trait
+SEEDNPTRAIT
+	<RETGENDERCAP> has superhuman <REFTRAIT>.
+//Enhance
+REFTRAIT
+	strength
+	agility
+	speed
+	intellect
+	willpower
+	healing ability
+	endurance
+	senses
+	sight
+	hearing
+	intuition
+//SETS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			kunoichi
+			female ninja
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			ninja
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+//REFS
+REFPERSONALITY
+	absent-minded
+	acrobatic
+	addled
+	aggravated
+	alienated
+	aloof
+	altruistic
+	ambitious
+	amiable
+	antisocial
+	anxious
+	apathetic
+	arrogant
+	artistic
+	atheistic
+	awkward
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	boring
+	brave
+	broken-hearted
+	brutal
+	bullying
+	burnt-out
+	calm
+	charismatic
+	cheerful
+	clever
+	clinging
+	clueless
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	conformist
+	confused
+	contemplative
+	cooperative
+	corrupt
+	courageous
+	cowardly
+	craven
+	crazy
+	creative
+	cruel
+	cunning
+	cynical
+	delusional
+	depressed
+	detached
+	dexterous
+	diabolical
+	disillusioned
+	disloyal
+	disorganized
+	dispirited
+	dissatisfied
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	educated
+	elegant
+	enduring
+	energetic
+	ethical
+	experienced
+	extraverted
+	fearful
+	fear-ridden
+	fearsome
+	focused
+	forceful
+	friendly
+	frustrated
+	funny
+	generous
+	gentle
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	healthy
+	heroic
+	homely
+	humble
+	hypocritical
+	hysterical
+	ignorant
+	ignored
+	illogical
+	immature
+	immoral
+	incoherent
+	indecisive
+	industrious
+	inexperienced
+	infamous
+	inhibited
+	innocent
+	intelligent
+	intimidating
+	introverted
+	intuitive
+	irrational
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	materialistic
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	naive
+	narrow-minded
+	negative
+	nervous
+	neurotic
+	nice
+	nihilistic
+	noisy
+	nostalgic
+	nurturing
+	obedient
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patriotic
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	pious
+	plain
+	playful
+	plucky
+	poised
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	private
+	promiscuous
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	religious
+	righteous
+	romantic
+	rude
+	ruthless
+	sadistic
+	sarcastic
+	scatterbrained
+	seasoned
+	secretive
+	selfish
+	selfless
+	self-righteous
+	serene
+	serious
+	shiftless
+	shifty
+	short-tempered
+	silly
+	sleazy
+	sloppy
+	slothful
+	slovenly
+	smart
+	smooth
+	snide
+	social
+	spendthrift
+	spiritual
+	stingy
+	stressed
+	strong
+	studious
+	stupid
+	tactful
+	tactless
+	tired
+	tireless
+	tolerant
+	tough
+	ugly
+	unambitious
+	unathletic
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unhealthy
+	unheroic
+	unjust
+	unpopular
+	unpredictable
+	unremarkable
+	unstable
+	unwise
+	vicious
+	violent
+	vocal
+	watchful
+	weak-willed
+	weary
+	whiny
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	worldwise
+	worried
+//Builds
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFHEIGHT
+	is very short and 
+	is short and 
+	<*>
+	<*>
+	is tall and 
+	is very tall and 
+//Eye refs
+REFEYEFORM
+	almond-shaped
+	beady
+	deep-set
+	droopy
+	hooded
+	large
+	narrow
+	round
+	slanted
+	slitted
+	wide
+//Hair
+REFHAIRTYPE
+	curly
+	straight
+	straight
+	wavy
+REFHAIRLENGTH
+	<REFHAIRLENGTHSHORT>
+	<REFHAIRLENGTHMEDIUM>
+	<REFHAIRLENGTHMEDIUM>
+	<REFHAIRLENGTHLONG>
+REFHAIRSTYLE
+	a bizarre
+	a businesslike
+	a carefully-crafted
+	a complex
+	a dignified
+	a practical
+	a precise
+	a severe
+	a silly
+	a simple
+	a straightforward
+	a strange
+	a utilitarian
+	a weird
+	an artistic
+	an attractive
+	an elaborate
+	an elegant
+	an exotic
+	an impractical
+	an uncomplicated
+REFHAIRSTYLEMETAPHOR
+	a bale of hay
+	a bird's wing
+	a burning fire
+	a cascading waterfall
+	a cobra's hood
+	a comet's trail
+	a complex device
+	a crown
+	a devil's horns
+	a dragon's scales
+	a drifting cloud
+	a dustball
+	a flame
+	a flower's petals
+	a flowing cape
+	a flowing stream
+	a fluttering flag
+	a gush of water
+	a helmet
+	a holy halo
+	a horse's mane
+	a lionfish's spines
+	a lion's mane
+	a monk's cowl
+	a mysterious hood
+	a mysterious mask
+	a pair of horns
+	a pair of wings
+	a peacock's tail
+	a pennant blowing in the wind
+	a pile of leaves
+	a pile of shredded paper
+	a plume of smoke
+	a porcupine's quills
+	a puffy dandelion
+	a river
+	a rocky outcropping
+	a rooster's crest
+	a sea urchin
+	a seashell
+	a shark's fin
+	a strange headdress
+	a tangled bush
+	a trailing ribbon
+	a turtle's shell
+	a waterfall
+	a wave of water
+	an animal's ears
+	an elaborate sculpture
+	an overused mop
+	the aurora borealis
+	the petals of a flower
+	the rays of the sun
+REFHAIRLENGTHSHORT
+	very short
+	short
+REFHAIRLENGTHMEDIUM
+	medium-length
+	neck-length
+REFHAIRLENGTHLONG
+	long
+	shoulder-length
+	waist-length
+	very long
+//Physical extra
+REFPHYSICALROUTE
+	<REFPHYSICALUNUSUAL>
+	<REFPHYSICALUNUSUAL>
+	<REFPHYSICALUNUSUAL>
+	<REFPHYSICALUNUSUAL>
+	<REFPHYSICALMOD>
+	<REFPHYSICALMOD>
+	<REFPHYSICALWEIRD>
+	<REFPHYSICALWEIRD>
+REFPHYSICALUNUSUAL
+	<RETGENDERCAP> has a high forehead. 
+	<RETGENDERCAP> has a low forehead.
+	<RETGENDERCAP> has a wide forehead.
+	<RETGENDERCAP> has a domed forehead.
+	<RETPOSESSIVECAP> nose is upturned.
+	<RETPOSESSIVECAP> nose is elegant.
+	<RETPOSESSIVECAP> nose is hooked.
+	<RETPOSESSIVECAP> nose is large.
+	<RETPOSESSIVECAP> nose is small.
+	<RETPOSESSIVECAP> nose is crooked.
+	<RETPOSESSIVECAP> nose is knobby.
+	<RETGENDERCAP> has high cheekbones.
+	<RETGENDERCAP> has prominent cheekbones.
+	<RETGENDERCAP> has hollow cheeks.
+	<RETPOSESSIVECAP> ears are small.
+	<RETPOSESSIVECAP> ears are prominent.
+	<RETPOSESSIVECAP> ears are knobby.
+	<RETGENDERCAP> has bushy eyebrows.
+	<RETGENDERCAP> has thin eyebrows.
+	<RETGENDERCAP> has thick eyebrows.
+	<RETGENDERCAP> has nearly-nonexistent eyebrows.
+	<RETPOSESSIVECAP> lips are very thin.
+	<RETPOSESSIVECAP> lips are very full.
+	<RETPOSESSIVECAP> mouth is large.
+	<RETPOSESSIVECAP> mouth is small.
+	<RETGENDERCAP> has a wide chin.
+	<RETGENDERCAP> has a pointed chin.
+	<RETGENDERCAP> has a weak chin.
+	<RETGENDERCAP> has  a strong chin.
+	<RETPOSESSIVECAP> hands are large.
+	<RETPOSESSIVECAP> hands are small.
+	<RETPOSESSIVECAP> hands have long fingers.
+	<RETPOSESSIVECAP> hands have stubby fingers.
+	<RETGENDERCAP> has large feet.
+	<RETGENDERCAP> has small feet.
+	<RETGENDERCAP> has wide feet.
+REFPHYSICALMOD
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODGENERAL>
+	<REFPHYSICALMODLOST>
+REFPHYSICALMODGENERAL
+	<RETGENDERCAP> has tatoos all over <RETPOSESSIVE> body.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> face.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> arms.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> left arm.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> right arm.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> legs.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> left leg.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> right leg.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> body.
+	<RETGENDERCAP> has tatoos on <RETPOSESSIVE> back.
+	<RETGENDERCAP> has scars all over <RETPOSESSIVE> body.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> face.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> arms.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> left arm.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> right arm.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> legs.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> left leg.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> right leg.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> body.
+	<RETGENDERCAP> has scars on <RETPOSESSIVE> back.
+	<RETGENDERCAP> has burn marks all over <RETPOSESSIVE> body.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> face.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> arms.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> left arm.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> right arm.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> legs.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> left leg.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> right leg.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> body.
+	<RETGENDERCAP> has burn marks on <RETPOSESSIVE> back.
+	<RETGENDERCAP> has piercings all over <RETPOSESSIVE> body.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> face.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> arms.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> arms.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> legs.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> legs.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> body.
+	<RETGENDERCAP> has piercings on <RETPOSESSIVE> back.
+REFPHYSICALMODLOST
+	<RETGENDERCAP> is missing <RETPOSESSIVE> right eye.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> left eye.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> right ear.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> left ear.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> right arm.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> left arm.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> right leg.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> left leg.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> nose.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> ears.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> eyes.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> arms.
+	<RETGENDERCAP> is missing <RETPOSESSIVE> legs.
+REFPHYSICALWEIRD
+	<RETGENDERCAP> has a third eye on <RETPOSESSIVE> forehead.
+	<RETGENDERCAP> has transparent skin.
+	<RETGENDERCAP> has a sucker-like mouth.
+	<RETGENDERCAP> has metallic skin.
+	<RETGENDERCAP> has no skin.
+	<RETGENDERCAP> looks as if <RETGENDER> was turned inside out.
+	<RETPOSESSIVECAP> tongue is unusually long.
+	<RETPOSESSIVECAP> entire body is double-jointed.
+	<RETPOSESSIVECAP> joints seem to be backwards.
+	<RETPOSESSIVECAP> head seems on backwards.
+	<RETPOSESSIVECAP> face is more of a skull.
+	<RETPOSESSIVECAP> nose is just a hole in <RETPOSESSIVE> face.
+	<RETPOSESSIVECAP> face is covered by a mask that is actually attached to it.
+	<RETPOSESSIVECAP> head is set in the center of <RETPOSESSIVE> torso.
+	<RETPOSESSIVECAP> nose is more of a trunk.
+	<RETGENDERCAP> has weaponlike bony protrusions on <RETPOSESSIVE> elbows and knees.
+	<RETPOSESSIVECAP> skin has porcupine-like spines.
+	<RETPOSESSIVECAP> torso is oddly elongated.
+	<RETPOSESSIVECAP> mouth is inhumanly large.
+	<RETPOSESSIVECAP> eyes seem to be set too far apart.
+	<RETPOSESSIVECAP> fingers and toes are webbed
+	<RETPOSESSIVECAP> eyes are inhumanly wide.
+	<RETGENDERCAP> has a seemingly jointless body.
+	<RETGENDERCAP> has fingers that are more tentacles.
+	<RETGENDERCAP> has a winglike webbing between <RETPOSESSIVE> arms and torso.
+	<RETGENDERCAP> has a vestigal tail
+	<RETGENDERCAP> has webbed fingers and toes.
+	<RETGENDERCAP> has six fingers and toes.
+	<RETGENDERCAP> has seven fingers and toes.
+	<RETGENDERCAP> has clawlike finger nails.
+	<RETGENDERCAP> has pointed ears.
+	<RETGENDERCAP> has oddly elongated arms.
+	<RETGENDERCAP> has oddly elongated legs.
+	<RETGENDERCAP> has oddly short arms.
+	<RETGENDERCAP> has oddly short legs.
+	<RETGENDERCAP> has an oddly elongated neck.
+	<RETGENDERCAP> has fangs instead of teeth.
+	<RETGENDERCAP> has four legs.
+	<RETGENDERCAP> has four arms.
+	<RETGENDERCAP> has as set of smaller, vestigial arms.
+	<RETGENDERCAP> has armor plates attached to <RETPOSESSIVE> skin.
+//Clothes
+REFCLOTHESSTYLE
+	artistic
+	attractive
+	bizarre
+	businesslike
+	classy
+	complicated
+	dignified
+	elaborate
+	elegant
+	flattering
+	impractical
+	mysterious
+	no-nonsense
+	odd
+	plain
+	practical
+	professional
+	revealing
+	risque
+	severe
+	sexy
+	simple
+	strange
+	tight
+	uncomplicated
+	unconventional
+	unusual
+	utilitarian
+	weird
+//EXPAND
+REFCLOTHINGEXTRA
+	a backpack
+	a belt with many pouches
+	a blindfold
+	a chain belt
+	a crown
+	a face-concealing collar
+	a face-concealing hood
+	a false tail
+	a flaired collar
+	a headband
+	a headdress
+	a headdress that resembles animal ears
+	a large amount of pockets
+	a loincloth
+	a lot of bandages
+	a lot of belts
+	a lot of bracelets
+	a lot of odd patches
+	a lot of rings
+	a lot of scarves
+	a lot of zippers
+	a mask
+	a pair of boots
+	a pair of elbow-length gloves
+	a pair of gloves
+	a pair of gloves
+	a pair of goggles
+	a pair of suspenders
+	a pair of thigh-high boots
+	a set of armbands
+	a set of shinguards
+	a set of sunglasses
+	a skullcap
+	a strange collar
+	a straw hat
+	a tiara
+	a vest with many pockets
+	a wide-brimmed hat
+	an elaborate necklace
+	an eyepatch
+	an overlarge belt
+	an overlarge pair of boots
+	an overlarge pair of gloves
+	armored plates
+	bell-bottom pants
+	fingerless gloves
+	flaired cuffs
+	huge elbow pads
+	huge kneepads
+	huge shoulder pads
+	includes a lot of mismatched pieces from other outfits
+	large earrings
+	overlarge buttons
+	sandals
+	spiked boots
+	spiked elbow and shoulder pads
+//Martial arts
+REFMADESC
+	an acrobatic
+	an ancient
+	an artistic
+	a brutal
+	a classic
+	a complex
+	a complicated
+	a dishonorable
+	an elaborate
+	an elegant
+	a graceful
+	a grueling
+	a honorable
+	an innovative
+	a modified
+	an odd
+	a painful
+	a sadistic
+	a simple
+	a straightforward
+	a strange
+	a weird
+REFMAGOAL
+	breaking an opponent's bones
+	confusing one's opponent
+	deceiving one's opponent
+	dodging one's opponent
+	duplicating the moves of one's opponent
+	killing one's opponent
+	knocking one's opponent out
+	overwhelming an opponent quickly
+	slowly wearing down an opponent
+	tormenting one's opponent
+	turning an opponents' strength against them
+	using the environment to one's advantage
+REFMAMOVE
+	blocks
+	blows to vital organs
+	chokeholds
+	dives
+	dodges
+	elbow jabs
+	flips
+	grappling
+	guarding
+	headbutting
+	holds
+	kicks
+	knee-strikes
+	leaps
+	nerve strikes
+	punches
+	slaps
+	submission holds
+	trips
+//Weapons
+REFWEAPONCATEGORIES
+	axes
+	bows
+	crushing weapons
+	knives
+	polearms
+	swords
+	throwing weapons
+	unusual weapons
+//Weapons-expanded
+REFWEAPONROUTE
+	<REFWEAPONAXE>
+	<REFWEAPONBOW>
+	<REFWEAPONCRUSH>
+	<REFWEAPONKNIFE>
+	<REFWEAPONPOLE>
+	<REFWEAPONSWORD>
+	<REFWEAPONTHROW>
+	<REFWEAPONUNUSUAL>
+REFWEAPONAXE
+	an axe
+	a battleaxe
+	a hatchet
+REFWEAPONBOW
+	a bow
+	a crossbow
+	a crossbow pistol
+REFWEAPONCRUSH
+	a club
+	a hammer
+	a mace
+	a morningstar
+	a warhammer
+	a pair of nunchucks
+	a quarterstaff
+REFWEAPONKNIFE
+	a knife
+	a shiv
+	a stiletto
+REFWEAPONPOLE
+	a halbierd
+	a glaive
+	a spear
+	a man-catcher
+REFWEAPONSWORD
+	a cutlass
+	a two-handed sword
+	a katana
+	a rapier
+	a sword
+	a sword-breaker
+REFWEAPONTHROW
+	a throwing knife
+	a shuriken
+	a net
+REFWEAPONUNUSUAL
+	a garotte
+	a sling
+	a chain
+	a spiked gauntlet
+	a whip
+REFWEAPONWEIRD
+	a baloon
+	a baloon animal
+	a beer keg
+	a book
+	a bookshelf
+	a boombox
+	a bounder
+	a bra
+	a briefcase
+	a camera
+	a camera
+	a cauldron
+	a chair
+	a coat hanger
+	a coffin
+	a comb
+	a concrete block
+	a dinosaur bone
+	a doll
+	a drum
+	a flute
+	a frying pan
+	a garbage can
+	a garbage dumpster
+	a guitar
+	a hat
+	a kitchen counter
+	a knitting needle
+	a lantern
+	a laundry basket
+	a little black book
+	a mailbox
+	a manhole cover
+	a mascot costume
+	a movie camera
+	a necklace
+	a notebook
+	a pair of glasses
+	a pair of shoes
+	a pair of socks
+	a pen
+	a piece of timber
+	a pinata
+	a potted plant
+	a religious icon
+	a romance novel
+	a rug
+	a scarf
+	a set of encyclopedias
+	a set of kitchen utensils
+	a skull
+	a small refrigerator
+	a spatula
+	a statue
+	a stuffed animal
+	a tombstone
+	a toy train
+	a videotape
+	a violin
+	a wig
+	a wine bottle
+	a wine jug
+	an anatomy class skeleton
+	an embalmed corpse
+	an I-beam
+	an unbrella
+	an unfinished block of stone
+	CDs
+	deoderant
+	feathers
+	film cannisters
+	love letters
+	part of a fence
+	reams of paper
+	ribbons
+	soap
+	toys
+REFWPMOD
+	is a family heirloom
+	has an ancient and terrible past
+	belonged to a deceased relative
+	belonged to a  deceased friend
+	is composed of an unknown material
+	is actually a legendary weapon
+	is cursed with strange powers
+	is blessed with strange powers
+	has the soul of a great ninja inside of it
+	has a long history behind it
+	seems to be almost alive
+	has holy powers
+	has demonic powers
+	is made out of body parts from a supernatrual creature
+	is made out of human body parts
+	is a copy of a legendary weapon
+	has a past surrounded by secrets and lies
+	is made of valuable metals and gems
+	is carved from a single crystal
+	is covered in strange markings
+	appears to be alive
+//Skills
+//EXPAND
+REFPHYSICALSKILLS
+	acrobatics
+	balance
+	breakfall
+	climbing
+	concealment
+	dancing
+	escape artistry
+	hiding
+	horseback riding
+	juggling
+	pickpocketing
+	pole-vaulting
+	skiing
+	snowboarding
+	sports
+	sprinting
+	stealth
+	stuntsmanship
+	swimming
+	tightrope walking
+REFSOCIALSKILLS
+	acting
+	comedy
+	conversation
+	debate
+	deception
+	disguise
+	gossip
+	impersonation
+	interrogation
+	lying
+	mimicry
+	negotiation
+	salesmanship
+	seduction
+	socializing
+	torture
+REFMINDSKILLS
+	anatomy
+	animal husbandry
+	astrology
+	astronomy
+	boating
+	brewing
+	construction
+	cooking
+	cryptography
+	disarming traps
+	engineering
+	fortune-telling
+	gambling
+	gardening
+	herbology
+	history
+	interior decorating
+	languages
+	lockpicking
+	math
+	mechanics
+	medicine
+	metalsmithing
+	music
+	navigation
+	painting
+	poetry
+	poison-making
+	sailing
+	sign language
+	singing
+	survival
+	tracking
+	trap-laying
+	veterinary care
+	writing
+//START NINJA POWER REFS
+//Combat effect powers.
+REFNPCOMBATEFFECT
+	fire from friction in the air
+	sound waves that can have various effects
+	hyptnotic patterns
+	mind-disturbing patterns in the air
+	electrical discharges
+	gravitic disturbances
+	electromagnetic waves
+	beams of light
+	shockwaves
+	powerful winds
+	whirlwinds
+	waves of heat from friction in the air
+	spatial disturbances
+	disruptions in time itself
+REFNPELEMENTENERGY
+	fire
+	sound
+	heat
+	cold
+	electricity
+	magnetism
+	gravity
+	light
+	kinetic energy
+REFNPELEMENTMATTER
+	acid
+	air
+	earth
+	ice
+	metal
+	plant life
+	rock
+	sand
+	toxins
+	water
+//Elemental powers
+REFNPELEMENTEMITROUTE
+	<*>
+	<*>
+	<*>
+	 <REFNPELEMENTEMIT>
+REFNPELEMENTEMIT
+	(from <RETPOSESSIVE> mouth)
+	(from <RETPOSESSIVE> eyes)
+	(from an artifically created orfice)
+REFNPELEMENTPURPOSEROUTE
+	<*>
+	<*>
+	 (<REFNPELEMENTPURPOSE>)
+REFNPELEMENTPURPOSE
+	to create weapons
+	to create armor
+	to attack opponents
+	to trap opponents
+//AnimalPowers
+REFANIMALSROUTE
+	<REFANIMALSREGULAR>
+	<REFANIMALSHOST>
+REFANIMALSROUTESINGLE
+	<REFANIMALSREGULARSINGLE>
+	<REFANIMALSHOSTSINGLE>
+REFANIMALSREGULAR
+	bats
+	bears
+	birds
+	cats
+	dogs
+	ferrets
+	foxes
+	hawks
+	jackals
+	lions
+	monkeys
+	owls
+	panthers
+	ravens
+	tigers
+	weasels
+	wolves
+REFANIMALSREGULARSINGLE
+	a bat
+	a bear
+	a bird
+	a cat
+	a dog
+	a ferret
+	a fox
+	a hawk
+	a jackal
+	a lion
+	a monkey
+	an owl
+	a panther
+	a raven
+	a tiger
+	a weasel
+	a wolf
+REFANIMALSREGULARSINGLENOINDICATOR
+	bat
+	bear
+	bird
+	cat
+	dog
+	ferret
+	fox
+	hawk
+	jackal
+	lion
+	monkey
+	owl
+	panther
+	raven
+	tiger
+	weasel
+	wolf
+	ant
+	bee
+	dragonfly
+	fly
+	insect
+	leech
+	locust
+	mouse
+	rat
+	snail
+	spider
+	toad
+REFANIMALSHOST
+	ants
+	bees
+	dragonflies
+	flies
+	insects
+	leeches
+	locust
+	mice
+	rats
+	snails
+	spiders
+	toads
+	vermin
+REFANIMALSHOSTSINGLE
+	an ant
+	a bee
+	a dragonfly
+	a fly
+	an insect
+	a leech
+	a locust
+	a mouse
+	a rat
+	a snail
+	a spider
+	a toad
+//Body parts
+REFBODYPARTUSE
+	hands
+	arms
+	legs
+	feet
+	entire body
+REFBODYPARTDETACH
+	eyes
+	head
+	arms
+	legs
+	hands
+	limbs
+REFBODYPARTPLURAL
+	eyes
+	faces
+	heads
+	mouths
+	arms
+	hands
+	legs
+//Summons
+REFSUPERNATURAL
+	ghosts
+	spirits
+	dragons
+	vampires
+	banshees
+	demons
+	ancestral spirits
+REFSUPERNATURALTYPE
+	ghosts
+	spirits
+	demons
+REFSUPERNATURALTYPESINGLE
+	ghost
+	spirit
+	demon
+//Secretion Transformation
+REFSECRETION
+	saliva
+	sweat
+	blood
+	tears
+	vomit
+	mucus
+	bodily secretions
+	bodily fluids
+REFSECRETIONREF
+	saliva is
+	sweat is
+	blood is
+	tears are
+	vomit is
+	mucus is
+	bodily secretions are
+	bodily fluids are
+REFSECRETIONCHANGEROUTE
+	<REFSECRETIONFORM>
+	<REFSECRETIONAFFECT>
+REFSECRETIONFORM
+	webbing
+	webbing
+	armor plates
+	weapons
+	a variety of useful items
+	weapons and armor
+REFSECRETIONAFFECT
+	acid
+	toxic gas
+	poison
+	glue
+	an explosive substance
+	a hallucinogenic substance
+//Energies
+REFTRAIT
+	strength
+	speed
+	endurance
+	healing rate
+	intellect
+REFENERGYCREATE
+	weapons
+	armor
+	simulacra of <RETGENDER>self
+	transporation devices
+	snares
+	tools
+//Transport
+REFPASSELEMENT
+	plant life
+	rock
+	soil
+	water
+//END NINJA POWER REFS
+//Colors
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+			gunmetal-gray
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+ROUTECOLORREF
+	<REFBASECOLOR>
+	<REFFANCYCOLOR>
+//RETS
+RETDIRREF
+	ninja
+RETGENDER
+	it
+RETGENDERCAP
+	it
+RETPOSESSIVE
+	it's
+RETPOSESSIVECAP
+	It's
+RETBUILD
+	<REFBUILDGENERAL>
+	<REFBUILDFEMAL
+	<REFBUILDMALE>

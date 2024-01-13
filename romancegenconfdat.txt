@@ -1,0 +1,15 @@
+Free-For-All
+	SEEDTELL
+		romancegendat.txt
+Fantasy
+	SEEDFAN
+		romancegendat.txt
+Modern
+	SEEDMOD
+		romancegendat.txt
+Science-Fiction
+	SEEDSCI
+		romancegendat.txt
+Random Category
+	SEED
+		romancegendat.txt

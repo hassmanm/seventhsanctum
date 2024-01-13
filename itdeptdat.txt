@@ -1,0 +1,104 @@
+//Vocab types:
+//1 - Descriptor
+//2 - Target
+//4 - Activity
+//8 - Pre-classifier
+//16 - Post-classifier
+--ORGANIZATION
+//Pre's
+8,1,2,4
+, of , , ,
+8,1,2,4
+, of , , ,
+8,1,2,4,2,4
+, of , , , and , ,
+8,1,2,4,1,2,4
+, of , , , and , , ,
+8,1,2,4,4	
+, of , , , and ,
+8,2,4
+, of , ,
+8,2,4
+, of , ,
+8,2,4,4
+, of , , and ,
+8,2,4,4
+, of , , and ,
+8,2,4,2,4
+, of , , and , ,
+//Post
+1,2,4,16
+, , , ,
+1,2,4,16
+, , , ,
+1,2,4,2,4,16
+, , , and , , ,
+1,2,4,1,2,4,16
+, , , and , , , ,
+1,2,4,4,16
+, , , and , ,
+2,4,16
+, , ,
+2,4,16
+, , ,
+2,4,4,16
+, , and , ,
+2,4,2,4,16
+, , and , , ,
+//Vocabulary
+--VOCABULARY
+//1 - Descriptor
+Analytical,1
+Applied,1
+Business-Oriented,1
+E-Commerce,1
+Extranet,3
+Internet,3
+Intranet,3
+Object-Oriented,1
+On-Line,1
+Open-Source,1
+Portable,1
+Practacal,1
+Statistical,1
+Telecommunications,3
+Web-based,1
+Wireless,1
+//2 - Target
+Application,2
+Code,2
+Computer,2
+Data,2
+Database,2
+Hardware,2
+Mainframe,3
+Multimedia,2
+Network,2
+PC,2
+Software,2
+Source Code,2
+//4 - Activity
+Acquisition,4
+Administration,4
+Backup,4
+Connectivity,4
+Control,4
+Development,4
+Installation,4
+Maintenance,4
+Networking,4
+Programming,6
+Security,4
+Implementation,4
+Technology,4
+Troubleshooting,4
+//8 - Pre-classifier
+//16 - Post-classifier
+Agency,8
+Branch,24
+Bureau,8
+Committee,16
+Department,24
+Division,24
+Office,8
+Team,16

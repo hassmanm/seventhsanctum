@@ -1,0 +1,163 @@
+//Vocab types:
+//1 - Cheese
+//2 - Toppings
+//4 - Meat
+//8- Spices
+//16-Sauces
+//
+--ORGANIZATION
+//vegetables
+2
+A pizza with ,.
+2,2
+A pizza with , and ,.
+2,2,2
+A pizza with ,<COMMA> ,<COMMA> and ,.
+2,2,2,2
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,2
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+//vegetables with single spices
+2,8
+A pizza with , and ,.
+2,2,8
+A pizza with ,<COMMA> ,<COMMA> and ,.
+2,2,2,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,2,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//vegetables with two spices
+2,8,8
+A pizza with ,<COMMA> ,<COMMA> and ,.
+2,2,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,8,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//vegetables with a single cheese
+2,1
+A pizza with , and topped with ,.
+2,2,1
+A pizza with , and ,<COMMA> topped with ,.
+2,2,2,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,2,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//vegetables with two cheses
+2,1,1
+A pizza with , and topped with , and ,.
+2,2,1,1
+A pizza with , and ,<COMMA> topped with , and ,.
+2,2,2,1,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,2,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//vegetables with a single sauce
+2,16
+A pizza with , and ,.
+2,2,16
+A pizza with , and ,<COMMA> with ,.
+2,2,2,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+2,2,2,2,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+2,2,2,2,2,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+//vegetables with single spices and single cheese
+2,8,1
+A pizza with , and ,<COMMA> topped with ,.
+2,2,8,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,2,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//vegetables with single spices and two cheeses
+2,8,1,1
+A pizza with , and ,<COMMA> topped with , and ,.
+2,2,8,1,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,2,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//vegetables with single spices and sauce
+2,8,16
+A pizza with , and ,<COMMA> topped with ,.
+2,2,8,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,2,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//vegetables with two spices and sauce
+2,8,8,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,2,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//vegetables with single cheese and sauce
+2,1,16
+A pizza with ,<COMMA> topped with , and ,.
+2,2,1,16
+A pizza with , and ,<COMMA> topped with , and ,.
+2,2,2,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,2,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//In Progress
+//vegetables with 2 cheeses and sauce
+2,1,1,16
+A pizza with ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+2,2,1,1,16
+A pizza with , and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+2,2,2,1,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,1,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,2,1,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+//vegetables with 1 spice, 1 cheese, one sauce
+2,8,1,16
+A pizza with , and ,<COMMA> topped with , and ,.
+2,2,8,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,2,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//vegetables with 2 spcies, 1 cheese, one sauce
+2,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+2,2,2,2,2,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.

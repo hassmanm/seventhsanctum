@@ -1,0 +1,176 @@
+//Vocab types:
+//1 Physical Descriptor
+//2 Personal Descriptor
+//4 Ability Descriptor
+//8 Nature Descriptor
+//16 Actor
+//32 Extra
+--ORGANIZATION
+1,2,4,8,16,32
+Release the , , , , , ,!
+1,2,16,32
+Release the , , , ,!
+1,16,32
+Release the , , ,!
+1,2,4,16,32
+Release the , , , , ,!
+1,4,16,32
+Release the , , , ,!
+1,2,8,16,32
+Release the , , , , ,!
+1,4,8,16,32
+Release the , , , , ,!
+2,4,8,16,32
+Release the , , , , ,!
+2,4,16,32
+Release the , , , ,!
+2,16,32
+Release the , , ,!
+2,8,16,32
+Release the , , , ,!
+4,8,16,32
+Release the , , , ,!
+4,16,32
+Release the , , ,!
+8,16,32
+Release the , , ,!
+1,2,4,8,16
+Release the , , , , ,!
+1,2,16
+Release the , , ,!
+1,2,4,16
+Release the , , , ,!
+1,4,16
+Release the , , ,!
+1,2,8,16
+Release the , , , ,!
+1,4,8,16
+Release the , , , ,!
+2,4,8,16
+Release the , , , ,!
+2,4,16
+Release the , , ,!
+2,8,16
+Release the , , ,!
+4,8,16
+Release the , , ,!
+//Vocabulary
+//1 Physical Descriptor
+//2 Personal Descriptor
+//4 Ability Descriptor
+//8 Nature Descriptor
+//16 Actor
+//32 Extra
+--VOCABULARY
+aligators,16
+android,8
+angry,2
+anthropomorphic,1
+armadilloes,16
+armed with machine guns,32
+armored,1
+assasin,4
+badgers,16
+bears,16
+bears,16
+beavers,16
+berserk,6
+bunnies,16
+capybaras,16
+cheetahs,16
+chickens,16
+chihuahuas,16
+chimpunks,16
+crazed,2
+crocodiles,16
+cyborg,8
+deer,16
+demonic,8
+ducks,16
+elephants,16
+enormous,1
+ferrets,16
+foxes,16
+gekos,16
+genetically-engineered,9
+giant,1
+gunea pigs,16
+hamsters,16
+hateful,2
+hippos,16
+horses,16
+housecats,16
+hummingbirds,16
+iguanas,16
+insane,2
+invisible,5
+kangaroos,16
+lemmings,16
+leopards,16
+manatees,16
+mechanical,8
+mice,16
+minature,1
+mind-controlled,2
+monkeys,16
+mules,16
+murderous,2
+ninja,4
+oxen,16
+pandas,16
+penguins,16
+pigs,16
+platypi,16
+poodles,16
+porcupines,16
+possums,16
+powered by atomic energy,32
+psychic,12
+psychopathic,2
+radioactive,5
+rats,16
+regenerating,5
+roaches,16
+robot,8
+shape-shifting,5
+sharks,16
+sheep,16
+shrimp,16
+single-minded,2
+sloths,16
+slugs,16
+sneaky,2
+sneaky,6
+spiders,16
+squid,16
+squirrels,16
+stealthy,6
+super-fast,1
+super-intelligent,6
+supersonic,5
+super-strong,1
+swans,16
+telepathic,4
+teleporting,4
+that are immune to bullets,32
+that can control minds,32
+that can emit electrical bursts,32
+that can interface with electronic devices,32
+that can smell fear,32
+that feed off of fear,32
+that live to destroy,32
+that spew deadly parasites,32
+that spit poison darts,32
+that throw blasts of energy,32
+throat-ripping,4
+tigers,16
+turkeys,16
+vampire,8
+whales,16
+wildebeasts,16
+with laser eyes,32
+with poisonous breath,32
+with self-destruct devices,32
+with the ability to emit EMP bursts,32
+with the ability to walk up walls,32
+yorkshire terriers,16

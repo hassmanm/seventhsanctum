@@ -1,0 +1,135 @@
+//Vocab types:
+//1 Basic descriptor (transparent, blazing)
+//2 color (red, blue)
+//4 extra
+//8 forms
+//16 Side effects
+--ORGANIZATION
+1,2
+A , , aura.
+1,2,16
+A , , aura.  When it is active<COMMA> ,.
+1,2,8
+A , , aura.  ,.
+1,2,8,16
+A , , aura.  ,.  When it is active<COMMA> ,.
+1,2,2,4
+A , , aura with , ,.
+1,2,2,4,16
+A , , aura with , ,.    When it is active<COMMA> ,.
+1,2,2,4,8
+A , , aura with , ,.  ,.
+1,2,2,4,8,16
+A , , aura with , ,.  ,.    When it is active<COMMA> ,.
+--VOCABULARY
+//1 basc descriptor
+blinding,1
+blurry,1
+bright,1
+brilliant,1
+dim,1
+epemeral,1
+ephemeral,1
+erratic,1
+faint,1
+flickering,1
+fluctuating,1
+gauzy,1
+glaring,1
+glaring,1
+glittering,1
+incandescent,1
+intense,1
+luminous,1
+misty,1
+nearly-invisible,1
+pulsing,1
+radiant,1
+semi-transparent,1
+shifting,1
+solid-looking,1
+spectral,1
+subtle,1
+vivid,1
+//2 color
+black,2
+blue,2
+golden,2
+gray,2
+green,2
+orange,2
+red,2
+silver,2
+violet,2
+white,2
+yellow,2
+//4 extras
+blobs in it,4
+blobs on the fringe,4
+blobs orbiting it,4
+figures moving around it,4
+figures moving within it,4
+gleams in it,4
+gleams on the fringe,4
+globes globes on the fringe,4
+globes in it,4
+globes orbiting it,4
+glows in it,4
+glows on the fringe,4
+glows orbiting it,4
+runes in it,4
+runes moving around it,4
+runes on the fringe,4
+sparks in it,4
+sparks on the fringe,4
+sparks orbiting it,4
+streaks in it,4
+streaks on the fringe,4
+streaks orbiting it,4
+//8 forms
+It fits the manifester's body tightly,8
+It is ever-shifting in shape,8
+It is pyramid-shaped,8
+It is sphere-shaped,8
+It is vague and amorphous,8
+It resembles a flame,8
+It resembles a pair of angel wings,8
+It resembles a pair of bat wings,8
+It resembles a whirlwind,8
+It fits the manifester's body loosely,8
+It is spherical,8
+It is cube-like,8
+It resembles a specific rune,8
+It is cloud-like,8
+It is like a cloud of smoke,8
+It is like a ring encircling the manifester's body,8
+It forms as a series of rings around the manifester's body,8
+It resembles a star,8
+It resembles a slightly larger version of the manifester,8
+It is a representation of the manifester's inner self,8
+It is a representation of a divine/mythic figure,8
+//16 forms.
+a pleasant odor is apparent,16
+a sickening odor is apparent,16
+an eerie light bathes everything,16
+an odd vibration is felt in the surroundings,16
+batteries are drained of power,16
+batteries are recharged,16
+electrical devices explode,16
+electronic devices are disrupted,16
+iron becomes mildly magnetized,16
+magical artifacts behave strangely,16
+many things pick up static charges,16
+people have bizarre dreams,16
+radios pick up otherworldly voices,16
+small objects hover around it indescriminately,16
+some people get headaches,16
+strange music seems to be heard,16
+television and radio reception is interfered with,16
+televisions pick up strange and otherwordly images,16
+the user's steps burn footprints into the surface they stand on,16
+the wielder's eyes glow with a similar color,16
+there is a feeling of cold,16
+there is a feeling of heat,16
+there is a strange crackling noise,16
+there is an audible hum,16

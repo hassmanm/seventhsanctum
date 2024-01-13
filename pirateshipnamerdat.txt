@@ -1,0 +1,213 @@
+//Vocab types:
+//1 Descriptor Object
+//2 Descriptor Being
+//4 Posessive
+//8 Object
+//16 Abstract
+//32 Being, Major
+//64 Being, Lesser
+//128 Location
+--ORGANIZATION
+1,8,128
+The , , of ,
+1,8
+The , ,
+1,8
+The , ,
+1,16
+The , ,
+1,16
+The , ,
+2,32
+The  , ,
+2,32
+The  , ,
+2,64
+The , ,
+2,64
+The , ,
+4,8
+, ,
+4,8
+, ,
+4,16
+, ,
+4,16
+, ,
+4,64
+, ,
+4,64
+, ,
+16,32
+The , of the ,
+16,32
+The , of the ,
+16,128
+The , of ,
+16,128
+The , of ,
+1,8,128
+The , , of ,
+2,32,128
+The , , of ,
+2,64,128
+The , , of ,
+4,1,8
+, , ,
+//Vocabulary
+//1 Descriptor Object
+//2 Descriptor Being
+//4 Posessive
+//8 Object
+//16 Abstract
+//32 Being, Major
+//64 Being, Lesser
+//128 Location
+--VOCABULARY
+Anger,16
+Angry,2
+Atlantis,128
+Awful,2
+Barnacle,72
+Black,1
+Blade,8
+Bloody,3
+Buccaneer,32
+Buccaneer's,4
+Calypso's,4
+Cannon,8
+Captain,32
+Captain's,4
+Compass,8
+Coral,9
+Corsair,32
+Cruel,2
+Cruelty,16
+Cry,16
+Curse,8
+Cursed,3
+Cutlass,8
+Dagger,8
+Damnation,16
+Damned,3
+Damned,3
+Dark,1
+Davy Jones',4
+Death,24
+Deciet,16
+Decietful,2
+Demon,32
+Devil,32
+Devil's,4
+Dirty,3
+Disgrace,16
+Disgraceful,3
+Dishonor,16
+Dishonorable,2
+Doom,24
+Doubloon,8
+Dragon's,4
+Dream,8
+Dreaming,2
+Eel,32
+Evil,3
+Executioner,96
+Fall,16
+Fallen,2
+Fear,16
+Fearful,3
+Foul,3
+Gale,8
+Gold,9
+Grail,8
+Greed,16
+Greedy,2
+Hades,128
+Hades',4
+Hangman,96
+Hate,16
+Hateful,2
+Hell,128
+Hell-born,3
+Hellish,3
+Hoard,8
+Horrible,3
+Horrid,3
+Horror,16
+Howl,16
+Howling,2
+Insanity,16
+Jewel,8
+Killer,96
+Killer's,4
+Knave,96
+Lie,8
+Lightning,8
+Lust,16
+Lustful,2
+Mad,2
+Madness,16
+Manta,32
+Mermaid,64
+Morbid,3
+Murderer,96
+Murderer's,4
+Mystery,8
+Neptune's,4
+Night,8
+Nightmare,8
+Night's,4
+Ocean's,4
+Pearl,8
+Pirate,32
+Pirate's,4
+Plague,8
+Plunder,72
+Plunder,8
+Plunderer's,4
+Poison,9
+Posideon's,4
+Pride,16
+Privateer,32
+Privateer's,4
+Rage,16
+Raider,96
+Red,1
+Saber,8
+Sad,2
+Sadness,16
+Satan's,4
+Scream,16
+Screaming,2
+Scurvy,2
+Sea's,4
+Secret,8
+Serpent,96
+Servant,64
+Shame,16
+Shameful,3
+Shark,32
+Skull,8
+Slave,64
+Star,8
+Storm,8
+Strumpet,64
+Sword,8
+the Caribbean,128
+the East,128
+the North,128
+the Ocean,128
+the Sargasso Sea,128
+the Sea,128
+the Seven Seas,128
+the South,128
+the West,128
+Thunder,8
+Tortuga,128
+Treasure,8
+Trident,8
+Vicious,2
+Vile,3
+Wandering,3
+Whore,64
+Wolf,32

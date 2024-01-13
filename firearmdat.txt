@@ -1,0 +1,293 @@
+//1 - Prefix
+//2 - Descriptors
+//4 - Elemental
+//8 - Actor-descriptor
+//16 - Actor-Descriptor Elemental:
+//32 - Actor
+--ORGANIZATION
+//Basics
+1,8
+,,
+1,32
+,,
+4,8
+, ,
+4,32
+, ,
+8,32
+, ,
+16,32
+, ,
+//Basics with prefix
+1,8,32
+,, ,
+//Basics With Descriptors
+2,1,8
+, ,,
+2,1,32
+, ,,
+2,4,8
+, , ,
+2,4,32
+, , ,
+2,8
+, ,
+2,8,32
+, , ,
+2,16
+, ,
+2,16,32
+, , ,
+//Basics with prefix with descriptors
+2,1,8,32
+, ,, ,
+--VOCABULARY
+//1 - Prefix
+Aero,1
+Aqua,1
+Anti,1
+Astro,1
+Atomi,1
+Bio,1
+Chemo,1
+Chrono,1
+Compu,1
+Cosmo,1
+Cryo,1
+Cyber,1
+Demi,1
+Dyna,1
+Electro,1
+Exo,1
+Fluro,1
+Gravi,1
+Gyro,1
+Helio,1
+Hydro,1
+Hyper,1
+Kilo,1
+Litho,1
+Magno,1
+Mecha,1
+Mega,1
+Micro,1
+Nano,1
+Nega,1
+Neuro,1
+Nucleo,1
+Photo,1
+Pyro,1
+Robo,1
+Roto,1
+Schizo,1
+Techno,1
+Tele,1
+Terra,1
+Turbo,1
+Ultra,1
+Vibro,1
+//2 - Descriptor:
+Adjustable,2
+Assault,2
+Configurable.2
+Crowd Control,2
+High-power,2
+High-speed,2
+Long-range,2
+Multi-load,2
+Multi-shot,2
+Rapid-fire,2
+Refittable,1
+Short-range,2
+Single-shot,2
+Sniper,2
+Variable,2
+//4 - Elemental
+Acid,4
+Acidic,4
+Atom,4
+Atomic,4
+Bacteria,4
+Bacterial,4
+Beam,4
+Blade,4
+Blast,4
+Bolt,4
+Chemical,4
+Cloud,4
+Cold,4
+Comet,4
+Dark,4
+Death,4
+Doom,4
+Edge,4
+Electromagnetic,4
+Electron,4
+Ember,4
+Explosive,4
+Field,4
+Flash,4
+Flechette,4
+Flicker,4
+Force,4
+Frost,4
+Gale,4
+Gauss,4
+Gleam,4
+Gravitic,4
+Gravity,4
+Heat,4
+Hurricane,4
+Ice,4
+Ice,4
+Icicle,4
+Illusion,4
+Illusionary,4
+Infection,4
+Infectious,4
+Laser,4
+Lava,4
+Light,4
+Lightning,4
+Magma,4
+Magnetic,4
+Mental,4
+Metal,4
+Meteor,4
+Microwave,4
+Molecular,4
+Molten,4
+Nanite,4
+Napalm,4
+Nerve,4
+Net,4
+Neutrino,4
+Neutron,4
+Nuclear,4
+Phantasm,4
+Phantom,4
+Photon,4
+Snare,4
+Poison,4
+Proton,4
+Psi,4
+Psionic,4
+Psychic,4
+Pulse,4
+Quake,4
+Quark,4
+Radiation,4
+Rain,4
+Ray,4
+Razor,4
+Rip,4
+Rocket,4
+Rot,4
+Sand,4
+Scream,4
+Scythe,4
+Shock,4
+Shot,4
+Shrapnel,4
+Shriek,4
+Singularity,4
+Slime,4
+Slug,4
+Smoke,4
+Snare,4
+Snow,4
+Sonic,4
+Sound,4
+Spike,4
+Star,4
+Steam,4
+Storm,4
+Tachyon,4
+Tear,4
+Thunder,4
+Time,4
+Tornado,4
+Torch,4
+Torque,4
+Toxic,4
+Toxin,4
+Tsunami,4
+Typhoon,4
+Ultrasonic,4
+Vapor,4
+Veil,4
+Venom,4
+Venomous,4
+Vibe,4
+Vile,4
+Viral,4
+Virus,4
+Void,4
+Volt,4
+Voltage,4
+Vortex,4
+Water,4
+Wave,4
+Web,4
+Whirlpool,4
+Whirlwind,4
+//8- Actor-Descriptor
+Annihilator,8
+Blaster,24
+Bombadier,56
+Destroyer,8
+Disintegrator,8
+Disruptor,8
+Destroyer,8
+Eliminator,8
+Equalizer,40
+Executioner,8
+Obliterator,8
+Piercer,8
+Ripper,8
+Shooter,8
+Tearer,8
+//16 - Actor-Descriptor Elemental:
+Blazer,16
+Blinder,16
+Burner,16
+Catalyzer,16
+Chiller,16
+Converter,16
+Cremator,16
+Dissolver,16
+Electrocutioner,16
+Eraser,24
+Exploder,24
+Flamer,16
+Flayer,24
+Freezer,16
+Gripper,16
+Icer,16
+Incinerator,16
+Infector,16
+Irradiator,16
+Magnetizer,16
+Melter,16
+Poisoner,16
+Restrainer,16
+Screamer,16
+Shaker,16
+Shocker,16
+Snarer,16
+Stunner,16
+Trapper,16
+Voider,16
+Zapper,16
+//32 - Actor
+Artillery,32
+Bazooka,32
+Cannon,32
+Gun,32
+Handgun,32
+Magnum,32
+Mortar,32
+Musket,32
+Ordinance,32
+Pistol,32
+Rifle,32

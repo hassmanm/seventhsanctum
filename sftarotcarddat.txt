@@ -1,0 +1,524 @@
+//Vocab types:
+//1 Object Def
+//2 Actor Def
+//4 Object
+//8 Items
+//16 Actor
+//32 Abstract
+//64 Numerator
+//128 Abstract Actor
+//256 General Abstracts
+--ORGANIZATION
+//Basics
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+64,8
+, of ,
+//Court-ish
+16,8
+The , of ,
+16,8
+The , of ,
+16,8
+The , of ,
+//Secondary Basics
+16
+The ,,
+4
+The ,,
+//Modifieds
+16,256
+The , of ,
+4,256
+The , of ,
+2,16
+The , ,
+1,4
+The , ,
+//Abstracts
+32
+,,
+//Abstract Actors
+128,8
+The , of ,
+128,8
+The , of ,
+128,8
+The , of ,
+128,8
+The , of ,
+//Abstract actors of traits.
+128,32
+The , of ,
+128,32
+The , of ,
+128,32
+The , of ,
+128,32
+The , of ,
+128,32
+The , of ,
+//Vocabulary
+--VOCABULARY
+//Object Def 1
+//Actor Def 2
+4-Dimensional,3
+Aged,2
+Anachronistic,3
+Ancient,3
+Angered,2
+Artificial,3
+Atomic,3
+Automated,2
+Bionic,2
+Black,3
+Blind,2
+Blue,3
+Bright,1
+Brilliant,3
+Broken,1
+Celestial,3
+Charitable,2
+Cloned,2
+Computerized,3
+Cybernetic,2
+Dark,3
+Diamond,1
+Dishonest,2
+Dishonorable,2
+Dishonored,2
+Dreaming,2
+Dying,2
+Electric,3
+Electronic,3
+Emerald,1
+Entombed,2
+Eternal,3
+Executed,2
+Fallen,2
+Famous,2
+Fifth,3
+First,3
+Fourth,3
+Glactic,3
+Glad,2
+Glorious,3
+Golden,1
+Great,3
+Greater,3
+Greatful,2
+Greedy,2
+Green,3
+Hanged,2
+Hateful,2
+Heavenly,3
+High,3
+Honest,2
+Honorable,2
+Humble,2
+Immortal,3
+Impure,3
+Infamous,2
+Interdimensional,3
+Interplanetary,3
+Interstellar,3
+Intoxicated,2
+Iron,1
+Irreverent,2
+Jeweled,1
+Just,2
+Last,3
+Laughing,2
+Legendary,3
+Lesser,3
+Lost,3
+Low,3
+Lunar,3
+Mutated,2
+Mute,2
+New,3
+Nuclear,3
+Old,3
+Orbital,3
+Orbiting,3
+Planetary,3
+Plastic,3
+Posthuman,2
+Purified,3
+Reborn,2
+Red,3
+Ressurected,2
+Ruby,1
+Sad,2
+Sapphire,1
+Second,3
+Silent,2
+Silver,1
+Solar,3
+Stellar,3
+Stolen,1
+Third,3
+Time-Travelling,3
+Transhuman,2
+Unborn,2
+Unjust,2
+Unknown,3
+Unwise,2
+Uplifted,2
+Virtual,3
+Weeping,2
+White,3
+Wise,2
+Young,2
+Youthful,2
+//Object 4
+Airplane,4
+Arcology,4
+Asteroid,4
+Beaker,4
+Black Hole,4
+Car,4
+Circuit,4
+Cog,4
+Comet,4
+Computer,4
+Device,4
+Dyson Sphere,4
+Engine,4
+Escape Pod,4
+Gadget,4
+Galaxy,4
+Gear,4
+Hologram,4
+Hovercraft,4
+Hyperdrive,4
+Klein Bottle,4
+Lasers,4
+Machine,4
+Mass-Driver,4
+Mobius Strip,4
+Moon,4
+Motorcycle,4
+Nebula,4
+Nova,4
+Planet,4
+Pulsar,4
+Quasar,4
+Radar,4
+Rocket,4
+Sattilite,4
+Screen,4
+Singularity,4
+Space Station,4
+Spaceship,4
+Star,4
+Starship,4
+Sun,4
+Tesseract,4
+Time Machine,4
+Train,4
+Wire,4
+World,4
+Wormhole,4
+//Items 8
+Airplanes,8
+Arcologies,8
+Asteroids,8
+Beakers,8
+Black Holes,8
+Cars,8
+Circuits,8
+Cogs,8
+Comets,8
+Computers,8
+Devices,8
+Dyson Spheres,8
+Engines,8
+Escape Pods,8
+Gadgets,8
+Galaxies,8
+Gears,8
+Holograms,8
+Hovercrafts,8
+Hyperdrives,8
+Klein Bottles,8
+Lasers,8
+Machines,8
+Mass-Drivers,8
+Mobius Strips,8
+Moons,8
+Motorcycles,8
+Nebulas,8
+Novas,8
+Planets,8
+Pulsars,8
+Quasars,8
+Radars,8
+Rockets,8
+Sattilites,8
+Screens,8
+Singularities,8
+Space Stations,8
+Spaceships,8
+Stars,8
+Starships,8
+Suns,8
+Teleporters,8
+Tesseracts,8
+Time Machines,8
+Trains,8
+Wires,8
+Worlds,8
+Wormholes,8
+//Actor 16
+Android,16
+Astronaut,16
+Biologist,16
+Botanist,16
+Clone,16
+Cosmonaut,16
+Electrician,16
+Engineer,16
+Mathmetician,16
+Mechanic,16
+Mutant,16
+Planetologist,16
+Programmer,16
+Repairman,16
+Robot,16
+Scholar,16
+Scientist,16
+Statistician,16
+Teacher,16
+Terraformer,16
+Transhuman,16
+//Abstract 32
+Archeaology,32
+Astronomy,32
+Astrophysics,32
+Biology,32
+Chemistry,32
+Civilization,32
+Creativity,32
+Cybernetics,32
+Data Mining,32
+Dimension Travel,32
+Education,32
+Education,32
+Electricity,32
+Electronics,32
+Engineering,32
+Evolution,32
+Gadgetry,32
+Infinity,32
+Invention,32
+Magnetism,32
+Mathematics,32
+Mechanisms,32
+Mutation,32
+Nanotechnology,32
+Physics,32
+Physics,32
+Programming,32
+Repair,32
+Research,32
+Science,32
+Space Travel,32
+Statistics,32
+Technology,32
+The Internet,32
+The World Wide Web,32
+Time Travel,32
+Xenobiology,32
+Xenolinguistics,32
+//Number 64
+One,64
+Ace,64
+Two,64
+Deuce,64
+Trio,64
+Three,64
+Four,64
+Four,64
+Five,64
+Five,64
+Six,64
+Six,64
+Seven,64
+Seven,64
+Eight,64
+Eight,64
+Nine,64
+Nine,64
+Ten,64
+Ten,64
+//Abstract Actor 128
+Aristocrat,128
+Artificer,128
+Bishop,128
+Cleric,128
+Count,128
+Countess,128
+Dutchess,128
+Duke,128
+Emperor,128
+Emperess,128
+Guardian,128
+Jester,128
+Knight,128
+King,128
+Priest,128
+Priestess,128
+Prophet,128
+Prohpetess,128
+Queen,128
+Scion,128
+Warrior,128
+//General Abstracts 256
+Annihilation,256
+Annulment,256
+Argument,256
+Armageddon,256
+Aspiration,256
+Avoidance,256
+Barbarity,256
+Beauty,256
+Bias,256
+Bigotry,256
+Birth,256
+Boldness,256
+Chaos,256
+Charisma,256
+Charity,256
+Charm,256
+Chastity,256
+Civilization,256
+Clarity,256
+Companionship,256
+Compassion,256
+Confusion,256
+Conjuration,256
+Contentment,256
+Corruption,256
+Courage,256
+Cowardice,256
+Creation,256
+Creativity,256
+Cruelty,256
+Damnation,256
+Darkness,256
+Death,256
+Delusion,256
+Desire,256
+Despair,256
+Destruction,256
+Deviousness,256
+Dignity,256
+Dilligence,256
+Discipline,256
+Dishonor,256
+Disorder,256
+Disppointment,256
+Divination,256
+Divorce,256
+Drudgery,256
+Envy,256
+Eternity,256
+Even-handedness,256
+Evocation,256
+Fairness,256
+Foulness,256
+Freedom,256
+Gluttony,256
+Greed,256
+Happiness,256
+Hate,256
+Health,256
+Hearing,256
+Heaven,256
+Hell,256
+Holiness,256
+Honesty,256
+Honor,256
+Hope,256
+Humility,256
+Hunger,256
+Illness,256
+Illusion,256
+Imagination,256
+Immorality,256
+Immortality,256
+Imprisonment,256
+Infinity,256
+Injustice,256
+Insanity,256
+Intellect,256
+Judgement,256
+Judgment Day,256
+Justice,256
+Knowledge,256
+Labor,256
+Legality,256
+Life,256
+Light,256
+Limbo,256
+Longing,256
+Longing,256
+Lonliness,256
+Love,256
+Lust,256
+Malice,256
+Marriage,256
+Might,256
+Morality,256
+Mortality,256
+Old Age,256
+Order,256
+Peace,256
+Peril,256
+Poverty,256
+Pride,256
+Principle,256
+Purgatory,256
+Purification,256
+Purity,256
+Rest,256
+Sadness,256
+Saitey,256
+Salvation,256
+Sanity,256
+Sight,256
+Sloth,256
+Strength,256
+The Future,256
+The Last Judgement,256
+The Past,256
+Touch,256
+Travel,256
+Unfairness,256
+Unholiness,256
+Wandering,256
+War,256
+Wealth,256
+Wisdom,256
+Youth,256

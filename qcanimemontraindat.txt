@@ -1,0 +1,42 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+monster doctor,8
+monster dojo owner,8
+monster fight fan,8
+monster fight gambler,8
+monster fight referee,8
+monster fighter,8
+monster historian,8
+monster hunter,8
+monster nurse,8
+monster rancher,8
+monster rights activist,8
+monster rustler,8
+monster scientist,8
+monster therapist,8
+monster trainer,8
+//16 - Element
+who dislikes monsters,16
+who exploits monsters mercilessly,16
+who has a unique monster companion,16
+who has lost too many monster fights,16
+who has odd phobias about monsters,16
+who is ignorant of basic monster knowledge,16
+who is very protective of monsters,16
+who knows secrets about monsters few know,16
+who obsessively pursues monsters,16
+who uses strange technology to deal with monsters,16
+who was raised by monsters,16
+who was raised with monsters,16
+whose family was deeply involved in monster fighting,16
+whose family was deeply involved in monster ranching,16
+whose family was deeply involved in monster rustling,16
+whose family was deeply involved in monster studies,16

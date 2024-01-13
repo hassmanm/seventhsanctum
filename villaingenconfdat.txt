@@ -1,0 +1,9 @@
+Evil Magic-Users
+	SEEDEVILMAGICUSER
+		emuvillaingendat.txt
+Mad Scientist
+	SEEDMADSCIENTIST
+		msvillaingendat.txt
+Supervillain
+	SEEDSUPERVILLAIN
+		svvillaingendat.txt

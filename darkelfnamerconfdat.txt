@@ -1,0 +1,9 @@
+First Name
+	FIRSTDARKELF
+		darkelfnamerfirstdat.txt
+Clan Name
+	CLANDARKELF
+		darkelfnamerlastdat.txt
+Full Name
+	FULLDARKELF
+		darkelfnamerfulldat.txt

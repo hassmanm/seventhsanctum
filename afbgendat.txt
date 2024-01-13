@@ -1,0 +1,177 @@
+//Vocab types:
+//1 - Meta/behavior descriptor
+//2 - Descriptor/modifier
+//4 - Modifiable Entity
+//8 - Entity
+//16 - Profession
+//32 - Extension
+--ORGANIZATION
+1,2,4
+The , , ,!
+1,8
+The , ,!
+1,2,8
+The , , ,!
+1,4,8
+The , , ,!
+2,4,8
+The , , ,!
+1,2,4,8
+The , , , ,!
+1,2,16
+The , , ,!
+1,4,16
+The , , ,!
+2,4,16
+The , , ,!
+1,2,4,16
+The , , , ,!
+8,16
+The , ,!
+4,8,16
+The , , ,!
+2,4,8,16
+The , , , ,!
+1,2,4,8,16
+The , , , , ,!
+2,4,32
+The , , ,!
+1,2,4,32
+The , , , ,!
+1,2,4,32
+The , , , ,!
+1,8,32
+The , , ,!
+1,2,8,32
+The , , , ,!
+4,8,32
+The , , ,!
+1,4,8,32
+The , , , ,!
+2,4,8,32
+The , , , ,!
+1,16,32
+The , , ,!
+1,2,16,32
+The , , , ,!
+1,4,16,32
+The , , , ,!
+2,4,16,32
+The , , , ,!
+1,2,4,16,32
+The , , , , ,!
+8,16,32
+The , , ,!
+4,8,16,32
+The , , , ,!
+2,4,8,16,32
+The , , , , ,!
+1,2,4,8,16,32
+The , , , , , ,!
+//Vocabulary
+--VOCABULARY
+//1 -General Descriptor
+Acrobatic,3
+Adult Actress,18
+Alien,12
+Amazonian,2
+Android,4
+Angel,8
+Bisexual,1
+Bouncy,1
+Bounty Hunter,16
+Bubbly,1
+Bunnygirl,8
+Busty,2
+Catgirl,8
+Cheerleader,16
+Cuddly,1
+Curvy,2
+Cyborg,4
+Dancer,16
+Demigoddess,16
+Demon Hunter,16
+Demoness,8
+Dominatrix,16
+Double-Jointed,2
+Dragongirl,8
+Erotic,1
+Exhibitionist,1
+Flirty,1
+Glasses-wearing,2
+Goddess,16
+Half-Alien,4
+Idol Singer,16
+Innocent,1
+Insatiable,1
+Jiggly,3
+Jungle Girl,16
+Lesbian,1
+Librarian,16
+Loving,1
+Maid,16
+Martial Artist,16
+Mercenary,16
+Muscular,2
+Naive,1
+Nurse,16
+Nymphomaniac,5
+Office Lady,16
+Other-Dimensional,3
+Oversexed,1
+Panty-Flashing,3
+Perky,1
+Pigtailed,2
+Policewoman,16
+Priestess,16
+Princess,16
+Queen,16
+Robot Pilot,16
+Robot,18
+Schoolgirl,16
+Secret Agent,16
+Seductive,1
+Sensual,1
+Sexy,1
+Shape-shifting,2
+Sophisticated,1
+Sorceress,16
+Stripper,16
+Succubus,8
+Superheroine,16
+Superspy,16
+Super-Strong,2
+Swordswoman,16
+Tatooed,2
+Tech-girl,16
+Vampire,24
+Vigilante,16
+Virginal,1
+Voloptuous,2
+Voyeristic,1
+Wacky,1
+Weathergirl,16
+Winged,2
+who always wears hot pants,32
+who caries handcuffs everywhere,32
+who focuses obsessively on one master,32
+who gains powers from love,32
+who gets nude with incredible frequency,32
+who prefers to wear nothing,32
+who runs around in a skimpy bikini,32
+who wants to find love,32
+who wears a chainmail bikini,32
+who wears form-fitting armor - barely,32
+who wears only a loincloth,32
+who wears only a thong,32
+who wears tight leather,32
+who will do anything for chocolate,32
+whose clothes never seem to stay on,32
+with a need for love,32
+with a nude transformation sequence,32
+with guns,32
+with magical powers,32
+with super martial-arts,32
+with super-weaponry,32
+with high-tech underwear,32
+who always wears a short fuku,32

@@ -1,0 +1,315 @@
+//Vocab types:
+//1 - Prefix
+//2 - Gen Descriptor
+//4 - Spec Descriptor
+//8 - Object
+//16 - Actor
+--CATEGORY
+Any
+ANY
+Biology
+BIO
+Chemistry
+CHEMO
+Physics
+PHYS
+--ORGANIZATION
+//Regular
+1,16
+,,
+4,16
+, ,
+4,16
+, ,
+8,16
+, ,
+8,16
+, ,
+2,8,16
+, , ,
+2,8,16
+, , ,
+2,1,16
+, ,,
+4,1,16
+, ,,
+8,1,16
+, ,,
+--VOCABULARY
+//1 - Prefixes
+Aero,1:any,chemo,phys
+Aqua,1:any,general
+Astro,1:any,phys
+Atomi,1:any,chemo,phys
+Audio,1:any,bio
+Auto,1:any,general
+Bacterio,1:any,bio
+Bio,1:any,bio
+Cardio,1:any,bio
+Cerebro,1:any,bio,chemo
+Chemo,1:any,chemo,phys
+Cosmo,1:any,phys
+Cryo,1:any,general
+Crypto,1:any,general
+Crysto,1:any,bio,chemo
+Cyber,1:any,bio,phys
+Cyto,1:any,bio
+Dyna,1:any,phys
+Electro,1:any,general
+Encephalo,1:any,bio
+Exo,1:any,general
+Fluro,1:any,chemo,phys
+Gastro,1:any,bio
+Geno,1:any,bio
+Geo,1:any,chemo,phys
+Giga,1:any,general
+Glyco,1:any,bio
+Gyro,1:any,general
+Helio,1:any,general
+Hemo,1:any,bio
+Hetero,1:any,general
+Holo,1:any,general
+Homo,1:any,general
+Hypno,1:any,bio
+Hyrdo,1:any,bio,chemo
+Info,1:any,general
+Lumino,1:any,general
+Lympho,1:any,bio
+Mega,1:any,general
+Metallo,1:any,chemo,phys
+Meteo,1:any,phys
+Moleculo,1:any,general
+Morpho,1:any,general
+Myco,1:any,bio
+Myo,1:any,bio
+Necro,1:any,bio,chemo
+Neuro,1:any,bio
+Nucelo,1:any,bio
+Organo,1:any,bio
+Osteo,1:any,bio
+Phago,1:any,bio,chemo
+Photo,1:any,general
+Plasmo,1:any,bio
+Psycho,1:any,bio
+Pyro,1:any,general
+Roto,1:any,general
+Schizo,1:any,general
+Somato,1:any,general
+Soni,1:any,chemo,phys
+Techno,1:any,general
+Xeno,1:any,general
+//2 - General Descriptor
+Abberant,2:any,general
+Absolute,2:any,general
+Active,2:any,general
+Adjusted,2:any,general
+Advanced,2:any,general
+Altered,2:any,general
+Alternating,2:any,
+Basic,2:any,general
+Bipolar,2:any,general
+Complete,2:any,general
+Consecutive,2:any,general
+Counter-rotating,2:any,general
+Diversified,2:any,general
+Dynamic,2:any,general
+Extreme,2:any,general
+Fractional,2:any,general
+Full-Spectrum,2:any,general
+High-speed,2:any,general
+Infinite,2:any,general
+Infinite,2:any,general
+Intense,2:any,general
+Inverted,2:any,general
+Isometric,2:any,general
+Limited,2:any,general
+Low-intensity,2:any,general
+Low-speed,2:any,general
+Modified,2:any,general
+Oscillating,2:any,general
+Principal,2:any,general
+Progressive,2:any,general
+Qualified,2:any,general
+Quantified,2:any,general
+Quantitative,2:any,general
+Revised,2:any,general
+Rotating,2:any,general
+Sequential,2:any,general
+Simple,2:any,general
+Simplified,2:any,general
+Slow,2:any,general
+Stable,2:any,general
+Stablizied,2:any,general
+Transitional,2:any,general
+Translational,2:any,general
+Unconditional,2:any,general
+Unlimited,2:any,general
+Unstable,2:any,general
+Variable,2:any,general
+Vorticular,2:any,general
+//4 - specific descriptors
+//Other
+Acidic,4:any,chemo
+Acoustic,4:any,phys
+Alkali,12:any,bio,chemo
+Angular,4:any,phys
+Atmospheric,4:any,phys
+Aromatic,4:any,bio,chemo
+Atomic,4:any,phys
+Aqueous,4:any,bio,chemo
+Basic,4:any,chemo
+Biochemical,4:any,bio,chemo
+Biological,4:any,bio
+Catalytic,6:any,bio,chemo
+Cellular,4:any,bio
+Charged,4:any,hpys
+Chemical,4:any,chemo
+Chromatic,4:any,chemo,phys
+Chronal,4:any,phys
+Covalent,4:any,chemo
+Crystal,6:any,chemo
+Dimagnetic,4:any,chemo,phys
+Electrical,4:any,phys
+Electrolytic,4:any,bio,chemo,phys
+Electrochemical,4:any,bio,chemo
+Electromagnetic,4:any,chemo,phys
+Electrostatic,4:any,chemo,phys
+Endothermic,4:any,bio,chemo,phys
+Exothermic,4:any,bio,chemo,phys
+Galvanized,4:any,chemo,phys
+Genetic,4:any,bio
+Gravitic,4:any,phys
+Ionic,4:any,chemo,phys
+Ionized,4:any,chemo,phys
+Irradiated,4:any,bio,chemo,phys
+Kinetic,4:any,phys
+Magnetic,4:any,phys
+Metallic,4:any,chemo
+Molecular,4:any,bio,chemo,phys
+Muscular,4:any,bio
+Neural,4:any,bio
+Nonpolar,4:any,chemo,phys
+Nuclear,4:any,phys
+Optical,4:any,phys
+Osmotic,4:any,bio,chemo
+Phytochemical,4:any,bio,chemo
+Photochemical,4:any,bio,chemo
+Protonic,4:any,phys
+Quantum,4:any,phys
+Radioactive,4:any,phys
+Skeletal,4:any,bio
+Subatomic,4:any,phys
+Subcellular,4:any,bio
+Subspace,4:any,phys
+Temporal,4:any,phys
+Thermodynamic,4:any,bio,chemo,phys
+Valence,4:any,chemo,phys
+// 8 - Objects
+Acid,12:any,chemo
+Albedo,8:any,phys
+Allele,8:any,bio
+Alpha Wave,8:any,bio,phys
+Antimatter,12:any,phys
+Argon,8:any,chemo,phys
+Bacteria,8:any,bio
+Bacterium,8:any,bio
+Barium,8:any,chemo,phys
+Base,12:bio,chemo
+Beta Wave,8:any,phys
+Boron,8:any,chemo,phys
+Buffer,24:any,chemo
+Carbon,8:any,bio,phys
+Catalyst,24:any,bio,chemo
+Cell,8:any,bio
+Cesium,8:any,chemo,phys
+Chromasome,8:any,bio
+Chromatid,8:any,bio
+Cosmic Ray,8:any,phys
+Current,8:any,phys
+Delta Wave,8:any,bio,phys
+Deuterium,8:any,chemo,phys
+DNA,8:any,bio
+Electron,8:any,phys
+Electrolyte,8:any,bio,chemo
+Energy,8:any,phys
+Entropy,8:any,phys
+Fission,8:any,phys
+Flourine,8:any,chemo
+Force,8:any,phys
+Friction,8:any,phys
+Fusion,24:any,phys
+Gamma Particle,8:any,phys
+Gamma Ray,8:any,phys
+Gene,8:any,bio
+Gravity,8:any,phys
+Gravitation,8:any,phys
+Hard Water,8:any,bio,chemo,phys
+Heat,8:any,phys
+Hydrocarbon,8:any,bio,chemo
+Hydrogen,8:any,general
+Ion,8:any,chemo,phys
+Isomer,8:any,bio,chemo,phys
+Isotope,8:any,chemo,phys
+Lens,8:any,phys
+Metal,12:any,chemo,phys
+Neodymium,8:any,chemo,phys
+Neuron,8:any,bio
+Neutrino,8:any,phys
+Neutron,8:any,phys
+Nitrogen,8:any,bio,chemo
+Nucleus,8:any,bio,phys
+Omega Wave,8:any,phys
+Oxygen,8:any,general
+Photon,8:any,phys
+Plasma,8:bio,phys
+Plutonium,8:any,phys
+Polonium,8:any,phys
+Positron,8:any,phys
+Protein,8:any,bio,chemo
+Proton,8:any,phys
+Radio Wave,8:any,phys
+Radon,8:any,chemo,phys
+RNA,8:any,bio
+Solvent,12:any,chemo
+Solution,24:any,bio,chemo
+Superstring,8:any,phys
+Tachyon,8:any,phys
+Tellurium,8:any,chemo,phys
+Thallium,8:any,chemo,phys
+Theta Wave,8:any,phys
+Time,8:any,phys
+Titanium,8:any,chemo,phys
+Uranium,8:any,phys
+Valence,12:phys
+Virus,8:any,bio
+Xenon,8:any,chemo,phys
+X-Ray,8:any,phys
+// 16 - Experiments
+Acceleration,16:any,bio,chemo,phys
+Accretion,24:any,bio,chemo
+Activation,16:any,bio,chemo,phys
+Adhesion,24:any,bio,chemo,phys
+Adsorbtion,16:any,bio,chemo,phys
+Bombardment,16:any,phys
+Crystalization,16:any,chemo
+Decay,24:any,bio,chemo,phys
+Destablization,16:any,bio,chemo,phys
+Dissociation,16:any,bio,chemo,phys
+Distortion,16:any,phys
+Configuration,16:any,bio,chemo,phys
+Electrolysis,16:any,bio,chemo
+Ionization,16:any,chemo,phys
+Irradiation,16:any,bio,chemo,phys
+Neutralization,16:any,bio,chemo,phys
+Oscillation,16:any,phys
+Osmosis,16:any,bio
+Oxidation,16:any,chemo
+Repulsion,24:any,chemo,phys
+Reduction,16:any,bio,chemo,phys
+Resonance,16:any,cheo,phys
+Saturation,16:any,bio,chemo,phys
+Splicing,16:any,bio
+Stablization,16:any,bio,chemo,phys
+Titration,16:any,chemo
+Transition,16:any,bio,chemo,phys
+Transmutation,16:any,bio,chemo,phys

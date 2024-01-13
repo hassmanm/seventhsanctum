@@ -1,0 +1,539 @@
+SEED
+	<RELAYCOLORLAUNCH>This<SEEDBASEDESC> <REFREFERR> <SEEDCOLORDESC>.<SEEDWEIGHTDESCROUTE><REFSTRUCT><REFTEXTURE><REFMELT><REFRADIATION><REFELECTROMAG><REFINSULATE><REFODOR><REFEXTRA>
+SEEDWEIGHTDESCROUTE
+	<*>
+	  It is <REFWEIGHT>.
+SEEDBASEDESC
+	<*>
+	 <REFTRANSPARENCY>
+	 <REFREFLECTIVITY>
+	 <REFTRANSPARENCY>, <REFREFLECTIVITY>
+SEEDCOLORDESC
+	is <REFCOLORWHICH>
+	is <REFCOLORWHICH>
+	is <REFCOLORWHICH>
+	is <REFCOLORWHICH>
+	<SEEDCOLORDESCEXOTIC>
+SEEDCOLORDESCEXOTIC
+	is <REFCOLORWHICH> with <RELAYCOLOR><REFCOLORWHICH> <SEEDCOLOREXTRA> <SEEDCOLOREXTRAREF>
+//EXTRAS
+SEEDCOLOREXTRA
+	flecks
+	patches
+	specks
+	swirls
+	streaks
+SEEDCOLOREXTRAREF
+	in it
+	on it
+//Transparency
+REFTRANSPARENCY
+	perfectly transparent
+	somewhat transparent
+	translucent
+//Reflectivity
+REFREFLECTIVITY
+	<REFREFLECTIVITYHIGH>
+	<REFREFLECTIVITYLOW>
+REFREFLECTIVITYHIGH
+	mirrorlike
+	reflective
+REFREFLECTIVITYLOW
+	unreflective
+//Weight
+REFWEIGHT
+	<REFWEIGHTHIGH>
+	<REFWEIGHTLOW>
+REFWEIGHTHIGH
+	heavy
+	very heavy
+REFWEIGHTLOW
+	light
+	very light
+//References
+REFREFERR
+	material
+	substance
+//Structure
+REFSTRUCT
+	<*>
+	  It is <REFSTRUCTFLEX> in solid form.
+	  It is <REFSTRUCTBRITTLE> in solid form.
+	  It is <REFSTRUCTAMORPH> in solid form.
+REFSTRUCTFLEX
+	<REFSTRUCTFLEXHIGH>
+	<REFSTRUCTFLEXLOW>
+REFSTRUCTFLEXHIGH
+	flexible
+	very flexible
+REFSTRUCTFLEXLOW
+	inflexible
+	extremely inflexible
+REFSTRUCTBRITTLE
+	<REFSTRUCTBRITTLEHIGH>
+	brittle
+	<REFSTRUCTBRITTLELOW>
+REFSTRUCTBRITTLEHIGH
+	crumbly
+	very brittle
+REFSTRUCTBRITTLELOW
+	somewhat brittle
+REFSTRUCTAMORPH
+	<REFSTRUCTAMORPHSOME>
+	<REFSTRUCTAMORPHIS>
+REFSTRUCTAMORPHSOME
+	somewhat malleable
+REFSTRUCTAMORPHIS
+	malleable
+	very malleable
+//Texture
+REFTEXTURE
+	<*>
+	 This <REFREFERR> has a <REFTEXTUREDO> texture in solid form.
+REFTEXTUREDO
+	bumpy
+	oily
+	rough
+	smooth
+	slick
+	slimy
+	waxy
+//MELT
+REFMELT
+	  This <REFREFERR>'s melting point <REFMELTROUTE>.
+REFMELTROUTE
+	<REFMELTHIGH>
+	is unremarkable
+	<REFMELTLOW>
+REFMELTHIGH
+	is high
+	is very high
+	is one of the highest known
+REFMELTLOW
+	is low
+	is room temperature
+	is below room temperature
+//RADIATION
+REFRADIATION
+	<*>
+	<*>
+	  This <REFREFERR> <REFRADIATIONROUTE>.
+REFRADIATIONROUTE
+	<REFRADIATIONRADIATE>
+	<REFRADIATIONPROTECT>
+	<REFRADIATIONPROTECT>
+REFRADIATIONRADIATE
+	gives off mild radiation
+	is radioactive
+	is very radioactive
+REFRADIATIONPROTECT
+	provides some protection from radiation
+	provides excellent protection from radiation
+	adsorbs almost all radiation
+	adsorbs virtually all kinds of radiation
+//ELECTROMAG
+REFELECTROMAG
+	<*>
+	 This <REFREFERR> <REFELECTROMAGROUTE>.
+REFELECTROMAGROUTE
+	<REFELECTROPLUS>
+	<REFELECTROMINUS>
+	<REFMAGNETIC>
+REFELECTROPLUS
+	it is somewhat conductive
+	is conductive
+	is very conductive
+	is superconductive
+REFELECTROMINUS
+	is not very conductive
+	is extremely nonconductive
+	does not conduct electricity at all
+REFMAGNETIC
+	<REFMAGNETICCAN>
+	<REFMAGNETICIS>
+REFMAGNETICCAN
+	can be magnetized
+	can be easily magnetized
+REFMAGNETICIS
+	is mildly magnetic
+	is magnetic
+	is highly magnetic
+//INSULATION
+REFINSULATE
+	<*>
+	 It <REFINSULATEROUTE>.
+REFINSULATEROUTE
+	<REFINSULATEHIGH>
+	<REFINSULATELOW>
+REFINSULATEHIGH
+	provides some insulation against temperature changes
+	acts as an excellent insulator against temperature changes
+REFINSULATELOW
+	is a poor insulator against temperature changes
+//SMELL
+REFODOR
+	<*>
+	 <REFODORDO>.
+REFODORDO
+	A smell of <REFODORREF> comes from this <REFREFERR>
+	A faint smell of <REFODORREF> comes from this <REFREFERR>
+	A strong smell of <REFODORREF> comes from this <REFREFERR>
+	This <REFREFERR> has an odor of <REFODORREF>
+	This <REFREFERR> has a faint odor of <REFODORREF>
+	This <REFREFERR> has a strong odor of <REFODORREF>
+REFODORREF
+	acid
+	acorns
+	alchohol
+	apples
+	ashes
+	bannanas
+	beer
+	bile
+	black pepper
+	blood
+	blueberries
+	bread
+	butter
+	cabbage
+	candy
+	cantaloupe
+	caramel
+	carrots
+	celery
+	chemicals
+	cherries
+	chocolate
+	cinnamon
+	coconut
+	coffee
+	cooked meat
+	cream
+	cucumber
+	dirt
+	earwax
+	excrement
+	fish
+	fruit
+	garlic
+	ginger
+	grapes
+	grass
+	green pepper
+	herbs
+	honey
+	lemon
+	lettuce
+	licorice
+	lime
+	mead
+	melon
+	milk
+	mud
+	nuts
+	oranges
+	ozone
+	peach
+	peanuts
+	pears
+	peppermint
+	pinapple
+	pine needles
+	pumpkin
+	rain
+	raspberries
+	raw meat
+	red pepper
+	rot
+	rum
+	salt
+	salt water
+	spice
+	spinach
+	strawberries
+	sugar
+	tea
+	urine
+	vanilla
+	vegetables
+	vomit
+	walnuts
+	wax
+	wine
+//EXTRAS
+REFEXTRA
+	<*>
+	<*>
+	<*>
+	 <REFEXTRAROUTE>.
+REFEXTRAROUTE
+	When exposed to <REFEXTRASUBSTANCE> it <REFEXTRAREACTION>
+	It alloys with other materials <REFEXTRACOMBINE>
+	<REFEXTRAALTERNATE>
+REFEXTRAALTERNATE
+	It's alternate form is a <SEEDBASEDESC><RELAYCOLOR> <REFREFERR> that is <REFCOLORWHICH>
+	It's alternate form is a <SEEDBASEDESC><RELAYCOLOR> <REFREFERR> that is <REFCOLORWHICH>
+	It's alternate form is a <SEEDBASEDESC><RELAYCOLOR> <REFREFERR> that is <REFCOLORWHICH>
+	It's alternate form is a <SEEDBASEDESC><RELAYCOLOR> <REFREFERR> that is <REFCOLORWHICH>
+	It's alternate form is a <SEEDBASEDESC><RELAYCOLOR> <REFREFERR> that is <REFCOLORWHICH>, with <RELAYCOLOR><REFCOLORWHICH> <SEEDCOLOREXTRA> <SEEDCOLOREXTRAREF>
+REFEXTRACOMBINE
+	very easily
+	easily
+	poorly<REFEXTRACOMBINEPLUS>
+	barely<REFEXTRACOMBINEPLUS>
+REFEXTRACOMBINEPLUS
+	<*>
+	 unless <REFEXTRACOMBINEPLUSFOCUS>
+REFEXTRACOMBINEPLUSFOCUS
+	high heat is used
+	certain other materials are used
+	exotic radiation is used
+REFEXTRASUBSTANCE
+	<REFEXTRASUBSTANCECONDITION>
+	<REFEXTRASUBSTANCETHING>
+REFEXTRASUBSTANCECONDITION
+	intense heat
+	intense cold
+	open flame
+	radiation
+REFEXTRASUBSTANCETHING
+	acid
+	nitrogen
+	open air
+	oxygen
+	water
+REFEXTRAREACTION
+	<REFEXTRAREACTIONINTENSE>
+	<REFEXTRAREACTIONUNINTENSE>
+REFEXTRAREACTIONINTENSE
+	bursts into flame
+	disintegrates
+	explodes
+	melts
+REFEXTRAREACTIONUNINTENSE
+	becomes darker in color
+	becomes lighter in color
+	becomes <RELAYCOLOR> <REFCOLORWHICH>
+	emits a smell of <REFODORREF>
+//COLORS
+RELAYCOLORLAUNCH
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+		RELAYCOLOR,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+REFCOLORWHICH
+	<REFBASECOLOR>
+	<REFFANCYCOLOR>

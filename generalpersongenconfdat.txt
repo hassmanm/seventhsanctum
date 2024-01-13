@@ -1,0 +1,21 @@
+Any
+	SEED
+		generalpersongendat.txt
+Regular
+	SEEDANY
+		generalpersongendat.txt
+Regular - Male
+	SEEDMALE
+		generalpersongendat.txt
+Regular - Female
+	SEEDFEMALE
+		generalpersongendat.txt
+Anime
+	SEEDANIMEANY
+		generalpersongendat.txt
+Anime - Male
+	SEEDANIMEMALE
+		generalpersongendat.txt
+Anime - Female
+	SEEDANIMEFEMALE
+		generalpersongendat.txt

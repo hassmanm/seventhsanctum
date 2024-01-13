@@ -1,0 +1,101 @@
+//Vocab types:
+// Meta Descriptor 1
+// Magical Modifier 2
+// Non_magical Modifier 4
+// Magical Focus 8
+// Non_magical Focus 16
+//
+//Organizational Configurations
+//There are four possible combinations.  These reflect the fact that either the
+//subject or its modifier is magical, and the other is not.  Thuis one will have
+//"Advanced Pyromancy" or "Necromantic Instruction" but not "Necromantic
+//Pyromancy" as, simply, that would be two specifics together.
+--ORGANIZATION
+1,2,16
+, , ,
+1,4,8
+, , ,
+2,16
+, ,
+4,8
+, ,
+//Vocabulary
+--VOCABULARY
+Abjuration,8
+Academic,4
+Academics,16
+Advanced,1
+Alchemical,2
+Alchemy,8
+Alteration,8
+Analytical,1
+Ancient,4
+Applied,4
+Arts,16
+Basic,1
+Cabbalism,8
+Cabbalistic,2
+Chronology of,1
+Chronomancy,8
+Common,4
+Comparative,1
+Conjuration,8
+Demonic,2
+Demonology,8
+Divination,8
+Divinatory,2
+Enchanting,8
+Enchantment,8
+Engineering,16
+Essential,5
+Ethical,5
+Evocation,8
+Experimental,4
+Experimentation,16
+Future,5
+Geomancy,8
+Geomantic,2
+Hermetic,2
+Hermeticism,8
+High,4
+High-Energy,4
+Historical,4
+History of,1
+Illusionary,2
+Illusionism,8
+Inadvisable,1
+Indefinite,2
+Inscriptions,8
+Instruction,16
+Inter-Planar,2
+Invisible,2
+Invocation,8
+Low-Energy,4
+Magery,8
+Magic,8
+Magical,2
+Military,5
+Modern,1
+Necromancy,8
+Necromantic,2
+Paradoxical,5
+Philosophy of,1
+Philosophy,16
+Popular,4
+Practical,4
+Pyrotechnic,4
+Recent,4
+Relativistic,4
+Remedial,5
+Research,16
+Runes,8
+Science,16
+Sorcerous,2
+Sorcery,8
+Studies,16
+Summoning,8
+Taxonomic,4
+Taxonomy,16
+Temporal,2
+Theoretical,1
+Writings,16

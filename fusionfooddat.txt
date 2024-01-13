@@ -1,0 +1,659 @@
+//Vocab types:
+//1 Preparation (Grilled)
+//2 Modification (Breaded)
+//4 Flavor (Teriyaki)
+//8 Flavor - Saucable (Alfredo)
+//16 Ingredient
+//32 Modifying (Tomato)
+//64 Modifier (Beef)
+//128 Final Form (Burger) - can be combined
+//256 General Form (Bowl) - Can't be combined
+//512 Carrier Form (Noodles)
+--ORGANIZATION
+//Level 2 - 12
+1,80
+, ,
+1,128
+, ,
+2,80
+, ,
+2,128
+, ,
+4,80
+, ,
+4,128
+, ,
+48,80
+, ,
+48,128
+, ,
+48,256
+, ,
+80,128
+, ,
+80,256
+, ,
+80,512
+, ,
+128,8
+, with , sauce
+48,512
+, on ,
+80,512
+, on ,
+//Level 3 -31
+48,48,80
+, and , ,
+48,48,128
+, and , ,
+48,48,256
+, and , ,
+1,48,80
+, , ,
+1,48,128
+, , ,
+1,48,256
+, , ,
+1,2,80
+, , ,
+1,2,128
+, , ,
+1,4,80
+, , ,
+1,4,128
+, , ,
+2,4,80
+, , ,
+2,4,128
+, , ,
+2,48,80
+, , ,
+2,48,128
+, , ,
+2,48,256
+, , ,
+4,48,80
+, , ,
+4,48,128
+, , ,
+4,48,256
+, , ,
+2,80,8
+, , with , sauce
+2,128,8
+, , with , sauce
+4,80,8
+, , with , sauce
+4,128,8
+, , with , sauce
+48,80,8
+, , with , sauce
+48,128,8
+, , with , sauce
+80,128,8
+, , with , sauce
+80,256,8
+, , with , sauce
+80,512,8
+, , with , sauce
+80,512,8
+, on , with , sauce
+1,80,512
+, , on ,
+2,80,512
+, , on ,
+4,80,512
+, , on ,
+48,80,512
+, , on ,
+1,80,8
+, , with , sauce
+1,128,8
+, , with , sauce
+// Level 4 -26
+4,48,48,80
+, , and , ,
+4,48,48,128
+, , , and , ,
+4,48,48,256
+, , and , ,
+1,2,4,80
+, , , ,
+1,2,4,128
+, , , ,
+1,48,80,8
+, , , with , sauce
+1,48,128,8
+, , , with , sauce
+1,2,80,8
+, , , with , sauce
+1,2,128,8
+, , , with , sauce
+1,4,80,8
+, , , with , sauce
+1,4,128,8
+, , , with , sauce
+2,4,80,8
+, , , with , sauce
+2,4,128,8
+, , , with , sauce
+2,48,80,8
+, , , with , sauce
+2,48,128,8
+, , , with , sauce
+4,48,80,8
+, , , with , sauce
+4,48,128,8
+, , , with , sauce
+1,48,80,512
+, , , on ,
+1,2,80,512
+, , , on ,
+1,4,80,512
+, , , on ,
+2,4,80,512
+, , , on ,
+2,48,80,512
+, , , on ,
+4,48,80,512
+, , , on ,
+1,2,4,80,512
+, , , , on ,
+48,48,80,512
+, and , , on ,
+48,48,80,8
+, and , , with , sauce
+//Level 5 - 12
+4,48,4,48,80
+, , and , , ,
+4,48,4,48,128
+, , and , , ,
+4,48,4,48,256
+, , and , , ,
+1,2,4,80,8
+, , , , with , sauce
+1,2,4,128,8
+, , , , with , sauce
+1,4,48,48,80
+, , , and , ,
+1,4,48,48,128
+, , , and , ,
+1,4,48,48,256
+, , , and , ,
+2,4,48,48,80
+, , , and , ,
+2,4,48,48,128
+, , , and , ,
+2,4,48,48,256
+, , , and , ,
+4,48,48,80,512
+, , and , , on ,
+// Level 6 - 10
+2,4,48,48,80,8
+, , , and , , with , sauce
+4,48,48,80,8
+, , and , , with , sauce
+4,48,4,48,80,8
+, , and , , , with , sauce
+1,4,48,48,80,512
+, , , and , , on ,
+2,4,48,48,80,512
+, , , and , , on ,
+4,48,4,48,80,512
+, , and , , , on ,
+1,4,48,48,80,8
+, , , and , , with , sauce
+1,2,4,48,48,80
+, , , , and , ,
+1,2,4,48,48,128
+, , , , and , ,
+1,2,4,48,48,256
+, , , , and , ,
+// Level 7 - 2
+1,2,4,48,48,80,8
+, , , , and , , with , sauce
+1,2,4,48,48,80,512
+, , , , and , , on ,
+// DUPLICATES
+//Level 2 - 12
+1,80
+, ,
+1,128
+, ,
+2,80
+, ,
+2,128
+, ,
+4,80
+, ,
+4,128
+, ,
+48,80
+, ,
+48,128
+, ,
+48,256
+, ,
+80,128
+, ,
+80,256
+, ,
+80,512
+, ,
+128,8
+, with , sauce
+48,512
+, on ,
+80,512
+, on ,
+//Level 2 - 12
+1,80
+, ,
+1,128
+, ,
+2,80
+, ,
+2,128
+, ,
+4,80
+, ,
+4,128
+, ,
+48,80
+, ,
+48,128
+, ,
+48,256
+, ,
+80,128
+, ,
+80,256
+, ,
+80,512
+, ,
+128,8
+, with , sauce
+48,512
+, on ,
+80,512
+, on ,
+//Level 5 - 12
+4,48,4,48,80
+, , and , , ,
+4,48,4,48,128
+, , and , , ,
+4,48,4,48,256
+, , and , , ,
+1,2,4,80,8
+, , , , with , sauce
+1,2,4,128,8
+, , , , with , sauce
+1,4,48,48,80
+, , , and , ,
+1,4,48,48,128
+, , , and , ,
+1,4,48,48,256
+, , , and , ,
+2,4,48,48,80
+, , , and , ,
+2,4,48,48,128
+, , , and , ,
+2,4,48,48,256
+, , , and , ,
+4,48,48,80,512
+, , and , , on ,
+//Level 5 - 12
+4,48,4,48,80
+, , and , , ,
+4,48,4,48,128
+, , and , , ,
+4,48,4,48,256
+, , and , , ,
+1,2,4,80,8
+, , , , with , sauce
+1,2,4,128,8
+, , , , with , sauce
+1,4,48,48,80
+, , , and , ,
+1,4,48,48,128
+, , , and , ,
+1,4,48,48,256
+, , , and , ,
+2,4,48,48,80
+, , , and , ,
+2,4,48,48,128
+, , , and , ,
+2,4,48,48,256
+, , , and , ,
+4,48,48,80,512
+, , and , , on ,
+// Level 6 - 10
+2,4,48,48,80,8
+, , , and , , with , sauce
+4,48,48,80,8
+, , and , , with , sauce
+4,48,4,48,80,8
+, , and , , , with , sauce
+1,4,48,48,80,512
+, , , and , , on ,
+2,4,48,48,80,512
+, , , and , , on ,
+4,48,4,48,80,512
+, , and , , , on ,
+1,4,48,48,80,8
+, , , and , , with , sauce
+1,2,4,48,48,80
+, , , , and , ,
+1,2,4,48,48,128
+, , , , and , ,
+1,2,4,48,48,256
+, , , , and , ,
+// Level 7 - 2
+1,2,4,48,48,80,8
+, , , , and , , with , sauce
+1,2,4,48,48,80,512
+, , , , and , , on ,
+// Level 7 - 2
+1,2,4,48,48,80,8
+, , , , and , , with , sauce
+1,2,4,48,48,80,512
+, , , , and , , on ,
+// Level 7 - 2
+1,2,4,48,48,80,8
+, , , , and , , with , sauce
+1,2,4,48,48,80,512
+, , , , and , , on ,
+// Level 7 - 2
+1,2,4,48,48,80,8
+, , , , and , , with , sauce
+1,2,4,48,48,80,512
+, , , , and , , on ,
+//Vocab types:
+//1 Preparation (Grilled)
+//2 Modification (Breaded)
+//4 Flavor (Teriyaki)
+//8 Flavor - Saucable (Alfredo)
+//16 Ingredient
+//32 (48)Modifying (Tomato)
+//64 (80)Modifier (Beef)
+//128 Final Form (Burger) - can be combined
+//256 General Form (Bowl) - Can't be combined
+//512 Carrier Form (Noodles)
+--VOCABULARY
+Alfredo,8
+Allspice,4
+Almond,60
+Ancho Chili,4
+Anise,4
+Apple,60
+Argula,112
+Artichoke,304
+Asparagus,112
+Avocado,124
+Bacon,304
+Bake,256
+Baked,1
+Banana,60
+Barbecue,13
+Basil,12
+Battered,2
+Bean Sprouts,112
+Bean,48
+Bearnaise,8
+Beef,80
+Beet,112
+Bento,256
+Biscuit,768
+Bites,256
+Black Bean,48
+Black Pepper,12
+Blueberry,60
+Boiled,1
+Bologna,116
+Bolognese,12
+Bordelaise,8
+Bowl,256
+Braised,1
+Bratwurst,80
+Bread,560
+Breaded,2
+Brisket,192
+Broiled,1
+Brown,8
+Brussel Sprout,48
+Buffalo,80
+Burdok,112
+Burger,128
+Burrito,128
+Buttered,3
+Cabbage,112
+Calzone,128
+Candied,3
+Caramel,12
+Carbonara,12
+Cardamon,4
+Carrot,48
+Cashew,60
+Casserole,256
+Cauliflower,560
+Celery,48
+Cheese,568
+Cheeseburger,128
+Chicken,80
+Chickpea,112
+Chili,140
+Chimichanga,128
+Chipotle,60
+Chips,768
+Chocolate,12
+Chorizo,80
+Cinnamon,12
+Citrus,12
+Clove,60
+Coconut,60
+Collards,80
+Coriander,12
+Corn,48
+Corned Beef,116
+Couscous,880
+Crab,80
+Cream,12
+Croquette,768
+Cucumber,120
+Cumin,12
+Curried,2
+Curry,12
+Daikon,48
+Deep-fried,1
+Deviled,3
+Dill,12
+Duck,80
+Dumpling,640
+Dumplings,512
+Egg,112
+Eggplant,112
+Fajita,128
+Falafel,112
+Fava Bean,112
+Fennel,12
+Fiery,4
+Fish,80
+Fried,1
+Fries,768
+Garlic,52
+Ginger,12
+Goat,80
+Green Bean,48
+Green Pepper,56
+Grilled,1
+Guacamole,124
+Gumbo,128
+Gyro,128
+Habanero,60
+Ham,80
+Hamburger,128
+Hollandaise,8
+Honey,12
+Honied,2
+Horseradish,124
+Hosin,12
+Hot Dog,128
+Hot,12
+Hummus,384
+In A Bun,256
+Jalapeno 30
+Jambalaya,12
+Jerked,3
+Jerky,384
+Kale,112
+Kimchi,624
+Lamb,80
+Lasagna,128
+Lavender,12
+Leek,112
+Lemon Pepper,12
+Lemon,60
+Lettuce,80
+Lime,60
+Loaf,256
+Loaf,256
+Lotus Root,112
+Macaroni,768
+Majoram,12
+Mango,60
+Maple,12
+Mayonnaise,56
+Meatloaf,208
+Melon,112
+Melt,128
+Mint,12
+Miso,12
+Mushroom,112
+Mustard,12
+Nachos,128
+Navy Bean,48
+Noodles,512
+Nuggets,256
+Nutmeg,12
+Octopus,80
+Okonomiyaki,128
+Okra,112
+Olive Loaf,116
+Olive Oil,16
+Olive,48
+Olive,48
+Omelet,384
+Omelette,128
+On A Stick,256
+Onigiri,128
+Onion,304
+Orange,60
+Oregano,12
+Oyster,92
+Paprika,12
+Parmesan,60
+Parsnip,112
+Pasta,768
+Pasta,768
+Pastrami,116
+Patty,128
+Peach,60
+Peanut,60
+Peppered,3
+Pepperoni,116
+Pesto,12
+Pickled,1
+Pickles,768
+Pilaf,768
+Pineapple,60
+Pinto Bean,48
+Pizza,128
+Poached,1
+Polenta,768
+Pork,80
+Potato Wedges,512
+Potato,112
+Poutine,128
+Pumpkin,124
+Quesadilla,128
+Quinoa,592
+Radish,48
+Raisin,60
+Ramen,256
+Ravioli,768
+Red Pepper,12
+Red Pepper,56
+Rice Cakes,768
+Rice,768
+Rigatoni,208
+Rings,256
+Risotto,896
+Roasted,1
+Roe,48
+Roll,256
+Romesco,8
+Rosemary,12
+Rotini,512
+Rutabaga,112
+Rutabaga,112
+Saffron,12
+Sage,60
+Salad,768
+Salami,116
+Salmon,80
+Salsa,60
+Salt-Crusted,2
+Salted,2
+Sandwich,128
+Sausage,240
+Seared,1
+Sesame,12
+Shrimp,80
+Simmered,1
+Slaw,128
+Smoked Paprika,12
+Smoked,3
+Smoky,12
+Soup,256
+Soy,12
+Spaghetti,208
+Spiced,6
+Spicy,6
+Spinach,112
+Squash,112
+Squid,80
+Steak,80
+Stew,256
+Strawberry,60
+Stuffed,2
+Sub,128
+Sugar-dusted,2
+Sun-Dried Tomato,60
+Sushi,256
+Sweet Basil,12
+Sweet Potato,120
+Sweet-and-sour,12
+Sweet,12
+Tabasco,12
+Tabbouleh,256
+Taco,128
+Tartar,8
+Tempura,257
+Teriyaki,12
+Thyme,12
+Toast,896
+Toasted,1
+Tofu,592
+Tomato,56
+Tuna,80
+Turnip,112
+Vanilla,12
+Vinegar,60
+Vinegared,2
+Walnut,60
+Wasabi,12
+Wings,256
+Wrap,256
+Yam,112
+Yogurt,60
+Zucchini,48

@@ -1,0 +1,163 @@
+//Vocab types:
+//1 - Cheese
+//2 - Toppings
+//4 - Meat
+//8- Spices
+//16-Sauces
+//
+--ORGANIZATION
+//Meats
+4
+A pizza with ,.
+4,4
+A pizza with , and ,.
+4,4,4
+A pizza with ,<COMMA> ,<COMMA> and ,.
+4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+//Meats with single spices
+4,8
+A pizza with , and ,.
+4,4,8
+A pizza with ,<COMMA> ,<COMMA> and ,.
+4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Meats with two spices
+4,8,8
+A pizza with ,<COMMA> ,<COMMA> and ,.
+4,4,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,8,8,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//Meats with a single cheese
+4,1
+A pizza with , and topped with ,.
+4,4,1
+A pizza with , and ,<COMMA> topped with ,.
+4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//Meats with two cheses
+4,1,1
+A pizza with , and topped with , and ,.
+4,4,1,1
+A pizza with , and ,<COMMA> topped with , and ,.
+4,4,4,1,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,4,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//Meats with a single sauce
+4,16
+A pizza with , and ,.
+4,4,16
+A pizza with , and ,<COMMA> with ,.
+4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> with ,.
+//Meats with single spices and single cheese
+4,8,1
+A pizza with , and ,<COMMA> topped with ,.
+4,4,8,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,4,8,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//Meats with single spices and two cheeses
+4,8,1,1
+A pizza with , and ,<COMMA> topped with , and ,.
+4,4,8,1,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,4,8,1,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//Meats with single spices and sauce
+4,8,16
+A pizza with , and ,<COMMA> topped with ,.
+4,4,8,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,4,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//Meats with two spices and sauce
+4,8,8,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+4,4,4,4,4,8,8,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//Meats with single cheese and sauce
+4,1,16
+A pizza with ,<COMMA> topped with , and ,.
+4,4,1,16
+A pizza with , and ,<COMMA> topped with , and ,.
+4,4,4,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,4,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//In Progress
+//meats with 2 cheeses and sauce
+4,1,1,16
+A pizza with ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+4,4,1,1,16
+A pizza with , and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+4,4,4,1,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,1,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+4,4,4,4,4,1,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,<COMMA> ,<COMMA> and ,.
+//meats with 1 spice, 1 cheese, one sauce
+4,8,1,16
+A pizza with , and ,<COMMA> topped with , and ,.
+4,4,8,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,4,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+//meats with 2 spcies, 1 cheese, one sauce
+4,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.
+4,4,4,4,4,8,8,1,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with , and ,.

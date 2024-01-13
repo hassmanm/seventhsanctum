@@ -1,0 +1,798 @@
+SEED
+	<DESCRIPTOR> <DESCTARGET>
+	<EQUIPMENT> of <OBJECT>
+	The <DESCRIPTOR> <BEING>
+	The <BEINGDESC> <BEINGROUTE>
+	<BEINGROUTE><EXTRAROUTE>
+	The <BEINGDESCROUTE><BEINGROUTE><EXTRAROUTE>
+	The <BEINGDESCROUTE><BEINGROUTE> <EMOTESTART> <EMOTERELATE> <OBJECTEMOTEROUTE>
+	<OBJECTROUTE2> of the <LOCATIONROUTE2>
+	<TITLEBEING> <EXTRATITLEBEING>
+ACTIVEOBJECT
+	Agony
+	Always
+	Annihilation
+	Atrocity
+	Battle
+	Beginning
+	Blasphemy
+	Blessings
+	Blood
+	Chaos
+	Clouds
+	Combat
+	Confusion
+	Danger
+	Darkness
+	Days
+	Death
+	Decay
+	Deception
+	Desolation
+	Despair
+	Destiny
+	Destruction
+	Dissolution
+	Doom
+	Dreams
+	Enchantment
+	Enchantments
+	Ending
+	Falsehood
+	Fate
+	Fear
+	Fire
+	Flame
+	Foulness
+	Hate
+	Hell
+	Hopelessness
+	Horror
+	Hours
+	Illumination
+	Illusion
+	Illusions
+	Insanity
+	Knowledge
+	Lies
+	Madness
+	Memories
+	Minutes
+	Mirages
+	Misery
+	Murder
+	Mysteries
+	Nothingness
+	Oblivion
+	Order
+	Pain
+	Panic
+	Prayers
+	Secrets
+	Shadows
+	Silence
+	Snares
+	Solitude
+	Storms
+	Suffering
+	Terror
+	Time
+	Visions
+	War
+	Warfare
+	Water
+	Waters
+	Wickedness
+	Wisdom
+	Words
+	Writings
+ATHE
+	a
+	the
+BEING
+	<TITLEBEING>
+	<GENERALBEING>
+BEINGROUTE
+	<BEING>
+	<DESCRIPTOR> <BEING>
+BEINGDESC
+	Agile
+	Angry
+	Barbaric
+	Benevolent
+	Caring
+	Charismatic
+	Clever
+	Compassionate
+	Corrupt
+	Courageous
+	Cowardly
+	Crazed
+	Cruel
+	Cunning
+	Drunken
+	Generous
+	Happy
+	Hateful
+	Haunted
+	Infamous
+	Innocent
+	Insane
+	Intelligent
+	Just
+	Miserly
+	Ruthless
+	Sadistic
+	Sagely
+	Screaming
+	Serene
+	Sly
+	Studious
+	Unjust
+	Vicious
+	Wise
+BEINGDESCROUTE
+	 
+	<BEINGDESC> 
+	<NUMBERDESC> 
+BODYPART
+	an Eye
+	Eyes
+	a Heart
+	Lips
+	Locks
+	a Mouth
+	a Mind
+	Skin
+	a Soul
+	Teeth
+	Tresses
+CLOTHING
+	Apparel
+	Attire
+	Coat
+	Drapery
+	Dress
+	Habiliment
+	Garb
+	Garments
+	Gown
+	Raiment
+	Robes
+	Uniform
+	Vestment
+	Vesture
+CLOTHINGOBJECT
+	Bones
+	Feathers
+	Fur
+	Hide
+	Leather
+	Linen
+	Motley
+	Pelts
+	Rags
+	Scales
+	Silk
+	Skin
+CLOTHINGOBJECTROUTE
+	<ACTIVEOBJECT>
+	<CLOTHINGOBJECT>
+	<OBJECTMAKE>
+	<DESCRIPTOR> <ACTIVEOBJECT>
+	<NUMBERDESC> <ACTIVEOBJECT>
+	<DESCRIPTOR> <CLOTHINGOBJECT>
+DESCRIPTOR
+	Ancestral
+	Ancient
+	Astral
+	Black
+	Blasphemous
+	Blessed
+	Bloodstained
+	Bloody
+	Blue
+	Burning
+	Celestial
+	Chaotic
+	Crystal
+	Cursed
+	Dark
+	Deadly
+	Decrepid
+	Desecrated
+	Despicable
+	Enchanted
+	Ensorceled
+	Eternal
+	Ethereal
+	Ever-changing
+	Firey
+	Forbidden
+	Forgotten
+	Foul
+	Frozen
+	Ghastly
+	Ghostly
+	Golden
+	Grand
+	Great
+	Haunted
+	Hidden
+	Illuminated
+	Indigo
+	Infernal
+	Insane
+	Iron
+	Legendary
+	Living
+	Magic
+	Mysterious
+	Mystic
+	Profane
+	Purple
+	Red
+	Sacred
+	Secret
+	Shadowed
+	Shadowy
+	Silver
+	Spectral
+	Steel
+	Terrible
+	Terrifying
+	Titanic
+	Twisted
+	Unholy
+	Unknowable
+	Unknown
+	Unspeakable
+	Unthinkable
+	Vermillion
+	Warped
+	Wicked
+DESCROUTE
+	<DESCRIPTOR>
+	<OBJECTMAKE>
+	<ACTIVEOBJECT>
+DESCTARGET
+	<EQUIPMENT>
+	<ACTIVEOBJECT>
+EQUIPMENT
+	<CLOTHING>
+	<GEAR>
+	<WEAPONS>
+EXTRAROUTE
+	 <LOCATIONROUTE>
+	 <OBJECTINTERACTWEAPON> the <OBJECTMAKE> <WEAPONS> and <LOCATIONROUTE>
+	 with <BODYPART> of <OBJECTMAKE> <LOCATIONROUTE>
+	 <LOCATIONROUTE> and is <INTERACT> <INTERACTROUTE>
+	 <INTERACT> <INTERACTROUTE>
+	 in <ACTIVEOBJECT>
+	 in the <ACTIVEOBJECT>
+	 <OBJECTINTERACT>
+	 with <BODYPART> of <OBJECTMAKE>
+	, with <BODYPART> of <OBJECTMAKE> and the <OBJECTINTERACTEXTRA>
+	 of <TRAIT>
+	 of <TRAIT> and <ACTIVEOBJECT>
+	 of <ACTIVEOBJECT> and <TRAIT>
+	 who <PROFRELATE> <PROFROUTE>
+EXTRATITLEBEING
+	<TRAIT>
+	<TRAIT><EXTRAROUTE>
+	<ACTIVEOBJECT>
+	<DESCRIPTOR> <OBJECTROUTE>
+	who is the <DESCRIPTOR> <GENERALBEING>
+	<EXTRAROUTE>
+EMOTERELATE
+	Allows
+	Betrays
+	Blasphemes
+	Burns
+	Collects
+	Desires
+	Endures
+	Enlivenes
+	Forgets
+	Freezes
+	Grasps
+	Hates
+	Immolates
+	Justifies
+	Keeps
+	Looses
+	Loves
+	Misses
+	Notices
+	Obtains
+	Permits
+	Prefers
+	Queries
+	Questions
+	Rejects
+	Remembers
+	Seals
+	Seeks
+	Steals
+	Stops
+	Takes
+	Understands
+	Venerates
+	Visits
+	Watches
+EMOTESTART
+	That
+	Who
+GEAR
+	Amulet
+	Armor
+	Bowl
+	Bracelet
+	Bracers
+	Circlet
+	Chime
+	Clock
+	Crown
+	Cup
+	Decanter
+	Device
+	Diadem
+	Flask
+	Flute
+	Gauntlet
+	Gauntlets
+	Grail
+	Helm
+	Helmet
+	Horn
+	Icon
+	Lute
+	Mask
+	Medallion
+	Miter
+	Neclace
+	Ring
+	Rings
+	Shield
+	Shroud
+	Sigil
+	Talisman
+	Thurible
+	Tiara
+GENERALBEING
+	Acrobat
+	Actor
+	Adventurer
+	Ambassador
+	Architect
+	Archivist
+	Assassin
+	Bodhisattva
+	Bodyguard
+	Champion
+	Child
+	Cleric
+	Contemplator
+	Courtesan
+	Crone
+	Dancer
+	Dreamer
+	Elder
+	Explorer
+	Father
+	Gambler
+	Gigolo
+	Grandfather
+	Grandmother
+	Harradin
+	Heir
+	Hermit
+	Hero
+	Heroine
+	Hunter
+	Impostor
+	Inquisitor
+	Inventor
+	Jailer
+	Jester
+	Joker
+	Knight
+	Leader
+	Librarian
+	Lover
+	Mentor
+	Miner
+	Minister
+	Monk
+	Mother
+	Murderer
+	Musician
+	Nanny
+	Nun
+	Official
+	Outlaw
+	Philosopher
+	Poet
+	Pretender
+	Priest
+	Priestess
+	Rascal
+	Rogue
+	Seeker
+	Singer
+	Sleeper
+	Soldier
+	Teacher
+	Thief
+	Thinker
+	Traitor
+	Traveller
+	Walker
+	Wanderer
+	Warden
+	Whisperer
+	Youth
+INTERACT
+	Anointed by
+	Baptized in
+	Bathed in
+	Birthed by
+	Blessed by
+	Bound by
+	Bound to
+	Called by
+	Caressed by
+	Drowned in
+	Drowned by
+	Enlivened by
+	Fathered by
+	Fed by
+	Held by
+	Held in
+	Immersed in
+	Joined in
+	Kept in
+	Loving in
+	Mothered by
+	Nursed by
+	Passing by
+	Posessing
+	Reaching for
+	Seeking
+	Touched by
+	Travelling in
+	Wandering in
+INTERACTROUTE
+	<ACTIVEOBJECT>
+	the <LOCATION>
+	<DESCRIPTOR> <ACTIVEOBJECT>
+	the <DESCRIPTOR> <LOCATION>
+LOCATION
+	Abyss
+	Arena
+	Battlefield
+	Cairn
+	Canyon
+	Castle
+	Catacomb
+	Catacombs
+	Cave
+	Caves
+	Cenotaph
+	Chamber
+	Church
+	Citadel
+	Coleoseum
+	Crypt
+	Demense
+	Desert
+	Dungeon
+	Fortress
+	Gauntlet
+	Gorge
+	Grave
+	Grotto
+	Hall
+	Halls
+	Keep
+	Labrynth
+	Manse
+	Mansion
+	Marsh
+	Maze
+	Monolith
+	Monument
+	Necropolis
+	Ossuary
+	Oubliette
+	Pavillion
+	Pit
+	Room
+	Ruins
+	Sanctuary
+	Sanctum
+	Sepulcher
+	Shrine
+	Spire
+	Stronghold
+	Swamp
+	Temple
+	Tomb
+	Tower
+	Tunnel
+	Tunnels
+	Valley
+	Vault
+	Vortex
+LOCATIONRELATE
+	Abandoned the
+	Conceals the
+	Created the
+	Designed the
+	Destroyed the
+	Dwells in the
+	Eats in the
+	Enables the
+	Feeds in the
+	Gambles in the
+	Holds the Key to the
+	Inherited the
+	Is In the
+	Keeps the
+	Left the
+	Lives in the
+	Loves in the
+	Locks the
+	Made the
+	Makes the
+	Oversees the
+	Owns the
+	Plans in the
+	Plots in the
+	Reached the
+	Rules in the
+	Seeks the
+	Sleeps in the
+	Studies in the
+	Thinks in the
+LOCATIONROUTE
+	<WHOTHAT> <LOCATIONRELATE> <LOCATION>
+	<WHOTHAT> <LOCATIONRELATE> <DESCRIPTOR> <LOCATION>
+	<WHOTHAT> <LOCATIONRELATE> <LOCATION> of <OBJECT>
+LOCATIONROUTE2
+	<LOCATION>
+	<DESCRIPTOR> <LOCATION>
+NUMBERDESC
+	Single
+	Second
+	Third
+	Fourth
+	Fifth
+	Sixth
+	Seventh
+	Eighth
+	Ninth
+	Tenth
+	Final
+OBJECT
+	Acid
+	Ash
+	Autumn
+	Beauty
+	Blight
+	Blood
+	Bronze
+	Carnage
+	Chance
+	Chaos
+	Cold
+	Day
+	Death
+	Desire
+	Dreaming
+	Fear
+	Fire
+	Flame
+	Fortune
+	Frost
+	Gold
+	Gore
+	Greed
+	Iron
+	Life
+	Light
+	Lightning
+	Lust
+	Morning
+	Need
+	Night
+	Pestilence
+	Platinum
+	Poison
+	Possibility
+	Radiance
+	Shadow
+	Shock
+	Silence
+	Silver
+	Slaughter
+	Sorcery
+	Steel
+	Tears
+	Thunder
+	Venom
+	Winter
+	Wizardry
+OBJECTEMOTEROUTE
+	<ACTIVEOBJECT>
+	<OBJECT>
+	the <GENERALBEING>
+OBJECTMAKE
+	Aquamarine
+	Amber
+	Amethyst
+	Beyrl
+	Bronze
+	Copper
+	Chalcedony 
+	Coral
+	Diamond
+	Electrum
+	Emerald
+	Fire
+	Garnet
+	Gold
+	Ice
+	Iron
+	Jade
+	Jet
+	Malachite
+	Nephrite
+	Obsidian
+	Orahalcium
+	Pewter
+	Ruby
+	Sapphire
+	Silver
+	Steel
+	Topaz
+	Turquoise
+	Zoisite
+OBJECTINTERACT
+	<OBJECTINTERACTCLOTHES> the <CLOTHING> of <CLOTHINGOBJECTROUTE>
+	of the <OBJECTMAKE> <GEAR>
+	of the <OBJECTMAKE> <WEAPONS>
+	<OBJECTINTERACTWEAPON> the <OBJECTMAKE> <WEAPONS>
+OBJECTINTERACTEXTRA
+	<CLOTHING> of <CLOTHINGOBJECTROUTE>
+	<OBJECTMAKE> <GEAR>
+	<OBJECTMAKE> <WEAPONS>
+OBJECTINTERACTCLOTHES
+	Born in
+	Clad in
+	Draped in
+	Dressed in
+	Wearing
+OBJECTINTERACTWEAPON
+	Bearing
+	Carrying
+	Holding
+	Gifted with
+	Wielding
+OBJECTROUTE
+	<OBJECTROUTE2>
+	<DESCRIPTOR> <OBJECTROUTE2>
+OBJECTROUTE2
+	<GEAR>
+	<OBJECT>
+	<OBJECTMAKE>
+	<TRAIT>
+	<WEAPONS>
+PROFRELATE
+	Became
+	<WASIS> Destined to be
+	<WASIS> Destined to become
+	<WASIS> Forced to become
+	Is
+	Is Not
+	Left
+	Parented
+	Shall be
+	Shall become
+	Was
+	Was Not
+	Wed
+PROFROUTE
+	<ATHE> <GENERALBEING>
+	<ATHE> <DESCRIPTOR> <GENERALBEING>
+	<ATHE> <TITLEBEING>
+	<ATHE> <DESCRIPTOR> <TITLEBEING>
+TITLEBEING
+	Bishop
+	Chief
+	Czar
+	Czarina
+	Duke
+	Dutchess
+	Earl
+	Emperor
+	Emperess
+	King
+	Marquis
+	Marquessa
+	Prince
+	Princess
+	Queen
+	Sultan
+	Sultanna
+	Tsar
+TRAIT
+	Ability
+	Agility
+	Authority
+	Beauty
+	Brilliance
+	Charisma
+	Cleverness
+	Desirability
+	Dexterity
+	Elegance
+	Eminence
+	Excellence
+	Fame
+	Fortune
+	Glory
+	Grace
+	Handsomeness
+	Importance
+	Joviality
+	Loveliness
+	Magnificence
+	Noterierty
+	Orientation
+	Perfection
+	Seriousness
+	Skill
+	Strength
+	Talent
+	Uniqueness
+	Vision
+WASIS
+	Is
+	Is Not
+	Was
+	Was Not
+WEAPONS
+	Arrow
+	Axe
+	Battleaxe
+	Bow
+	Crossbow
+	Cutlass
+	Dirk
+	Falchion
+	Glaive
+	Halbierd
+	Hammer
+	Harpoon
+	Javelin
+	Knife
+	Kris
+	Lance
+	Mace
+	Maul
+	Pick
+	Pike
+	Quarrel
+	Rapier
+	Scimtar
+	Scythe
+	Shiv
+	Spear
+	Stiletto
+	Sword
+	Trident
+	Voulge
+WHOTHAT
+	Who
+	That

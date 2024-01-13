@@ -1,0 +1,422 @@
+//Vocab types:
+//1 Serious Mod Desc
+//2 Silly Mod Desc
+//4 Serious Mod
+//8 Silly Mod
+//16 Serious Animal
+//32 Silly Animal
+//64 Serious Location
+//128 Silly location
+--ORGANIZATION
+//Originals
+1,8,16
+, , ,
+2,4,32
+, , ,
+1,32
+, ,
+2,16
+, ,
+4,32
+, ,
+8,16
+, ,
+16,32
+, ,
+//Doubles
+1,8,16
+, , ,
+2,4,32
+, , ,
+1,32
+, ,
+2,16
+, ,
+4,32
+, ,
+8,16
+, ,
+16,32
+, ,
+//Locationals
+16,128
+, of ,
+32,64
+, of ,
+//Locations diff
+1,8,16,128
+, , , of ,
+2,4,32,64
+, , , of ,
+1,32,64
+, , of ,
+2,16,128
+, , of ,
+4,32,64
+, , of ,
+8,16,128
+, , of ,
+--VOCABULARY
+//Vocab types:
+//1 Serious Mod Desc
+//2 Silly Mod Desc
+//4 Serious Mod
+//8 Silly Mod
+//16 Serious Animal
+//32 Silly Animal
+//64 Serious Location
+//128 Silly location
+Abyssal,1
+Alchoholic,2
+All-devouring,1
+Allergic,2
+Allergy,8
+Ambush,4
+Angel,17
+Anime,8
+Anteater,32
+Apocalypse,4
+Arrogant,2
+Arrow,4
+Ash,4
+Astral,1
+Avalanche,4
+Avant-Garde,2
+Banjo,8
+Ballpoint,8
+Balsa,8
+Bane,4
+Banshee,16
+Barbeque,8
+Barbequed,2
+Baseball,8
+Beer,8
+Beer-drinking,2
+Belch,8
+Belching,2
+Blade,4
+Bone,5
+Bored,2
+Boring,2
+Bouncing,2
+Brain,4
+Brass,4
+Bunny,32
+Carcass,4
+Cartoon,10
+Chain-smoking,2
+Chalk,8
+Chaos,4
+Chihuahua,32
+Chocolate,8
+Chosen,1
+Cigar,8
+Cigarette,8
+Clawed,1
+Colossus,16
+Construct,16
+Copper,4
+Cosmic,1
+Cow,32
+Creepy,2
+Cross-eyed,2
+Crypt,4
+Crystal,4
+Dancing,2
+Deadly,1
+Death,4
+Demon,16
+Depressed,2
+Devil,16
+Devouring,1
+Dire,1
+Dirt,8
+Dirty,2
+Disco,2
+Disoriented,2
+Displacer,1
+Diva,8
+Divine,1
+Djinni,16
+Doom,4
+Doormat,8
+Dough,8
+Draconian,1
+Dragon,16
+Dread,5
+Drunken,1
+Duck,32
+Dumb,2
+Dune,4
+Dusty,2
+Economy-sized,2
+Ectoplasm,4
+Ectoplasmic,1
+Elemental,17
+Enchanted,1
+Ephemeral,1
+Etheral,1
+Famine,4
+Fashionable,2
+Ferret,32
+Fiend,17
+Fire,4
+Flame,4
+Flatuent,2
+Flesh,4
+Flowchart,8
+Fluffy,2
+Football,8
+Fork,8
+Frosting,8
+Gelatinous,1
+Ghost,17
+Giant,16
+Gibbering,1
+Glacier,4
+Glass,4
+Glass-blowing,2
+Glitzy,2
+Goblin,16
+Gold,4
+Golem,16
+Golf,8
+Gourmet,2
+Grave,4
+Greasy,2
+Grisly,1
+Guardian,17
+Gum,8
+Gumdrop,8
+Gummy,2
+Halitosis,8
+Hallucinating,2
+Hammer,4
+Hamster,32
+Harmonica,8
+Hawk,16
+Hell,64
+Home-making,2
+Homonculus,16
+Howling,1
+Humming,2
+Hydra,16
+Ice,4
+Icky,2
+Idiotic,2
+Illiterate,2
+Immature,2
+Imp,16
+Inbred,2
+Incoherent,2
+Incontinent,2
+Ineffable,1
+Insanity,4
+Iridescent,1
+Iron,4
+Irritating,2
+Irritating,2
+Jade,4
+Jazz,8
+Juggernaut,16
+Juggling,2
+Kangaroo,32
+Kazoo,8
+Kleptomaniac,2
+Kleptomaniac,2
+Klutzy,2
+Koala,32
+Leech,16
+Legendary,1
+Letcherous,2
+Lettuce,8
+Lich,16
+Light,4
+Lint,8
+Looney,8
+Luminous,1
+Mad,1
+Madness,4
+Magma,4
+Manatee,32
+Manic-Depressive,2
+Maze,4
+Mechanical,1
+Milk,8
+Milkshake,8
+Mimic,16
+Mind,4
+Mooching,2
+Moon,4
+Moronic,2
+Mountain,4
+Mouse,32
+Mystic,1
+Naughty,2
+Near-sighted,2
+Necrotic,1
+Neurotic,2
+New Jersey,128
+Nightmare,20
+Nomad,1
+Nougat,8
+Nylon,8
+Obsessive,2
+Ocean,4
+Off-key,2
+Paint,8
+Panhandling,2
+Paranoid,2
+Parrot,32
+Passive-aggressive,2
+Peacock,32
+Pepper,8
+Phantasm,16
+Phantasmal,1
+Phantom,17
+Phlegm,8
+Pigeon,32
+Pinstriped,2
+Plaid,2
+Platypus,32
+Wombat,32
+Polka-Dot,2
+Pony,32
+Poodle,32
+Potato,8
+Prismatic,1
+Psionic,1
+Psychedelic,2
+Puffy,2
+Pyromaniac,2
+Quail,32
+Quixotic,2
+Rainbow,4
+Ranting,2
+Retro,2
+Rhetoric,8
+Rhinestone,8
+Ritalin,8
+Rollerblading,2
+Rollerskating,2
+Rune,4
+Runed,1
+Rust,4
+Salt,8
+Sand,4
+Sarcasm,8
+Sarcastic,2
+Sawdust,8
+Sea,4
+Shadow,4
+Sheep,32
+Shock,4
+Shocker,1
+Short,2
+Shrink-wrapped,2
+Sinister,1
+Skateboarding,2
+Skeleton,17
+Slime,4
+Sloth,32
+Smelly,2
+Snail,32
+Snot,8
+Snotty,2
+Spastic,2
+Spell,4
+Sphinx,16
+Spider,16
+Spirit,17
+Spoon,8
+Star,4
+Stellar,1
+Stinky,2
+Stir-fry,8
+Stir-Fry,8
+Stone,4
+Storm,4
+Stupid,2
+Succubus,16
+Sulfur,4
+Surfing,2
+Taffy,8
+Tap-dancing,2
+Tartan,2
+Tea,8
+Tennis,8
+the Abyss,64
+the Afterlife,64
+the Apocalypse,64
+the Astral Plane,64
+the Beginning,64
+the Brewery,128
+the Bus Station,128
+the Candy Store,128
+the Castle,64
+the Cosmos,64
+the Dead Lands,64
+the Dream-Lands,64
+the Drive-Through,128
+the East,64
+the Etheral Plane,64
+the Footlocker,128
+the Fortress,64
+the Future,64
+the Graveyard,64
+the Heavens,64
+the Imagination,64
+the IRS,128
+the Kingdom,64
+the Kitchen Sink,128
+the Lemonade Stand,128
+the Lost Kingdom,64
+the Lost Temple,64
+the Lunchbox,128
+the Malestrom,64
+the Mall,128
+the Mirror Universe,64
+the Moon,64
+the North,64
+the Outhouse,128
+the Parking Lot,128
+the Past,64
+the Pawn Shop,128
+the Pit,64
+the Recycling Bin,128
+the Sacred Mountain,64
+the Sewer,128
+the Sock Drawer,128
+the South,64
+the Sun,64
+the Temple,64
+the Undersea Kingdom,64
+the Underworld,64
+the Used-Car Lot,128
+the Void,64
+the Vortex,64
+the Wasteland,64
+the West,64
+the Yard Sale,128
+Thorn,4
+Thunder,4
+Time,4
+Tomb,4
+Torch,4
+Touchy-Feely,2
+Toxin,4
+Vampire,16
+Vanilla,8
+Void,4
+Vortex,4
+Wacky,2
+Wailing,1
+War,4
+Water,4
+Web,4
+Wimpy,2
+Wine-swilling,2
+Wraith,16
+Wyrm,16
+Zany,2
+Zombie,17

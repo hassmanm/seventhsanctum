@@ -1,0 +1,2474 @@
+SEED
+	<SEEDTITLE>.  <BKEXSEED>
+	<SEEDTITLE>.  <INCOSEED>
+	<SEEDTITLE>.  <INCOSEED>  <BKEXSEED>
+SEEDTITLE
+	<FAHISEED>
+	<FAMGSEED>
+	<ORMYSEED>
+	<FNSCSEED>
+	<MOTHSEED>
+	<POTHSEED>
+	<MDWPSEED>
+//Fantasy history
+FAHISEED
+	<FAHIREFSTARTERROUTE><FAHIREFROUTEHISTTYPE> of the <FAHIGETLOCATION><FAHIGENLOCNAME>
+	<FAHIREFSTARTERROUTE><FAHIGETLOCATION><FAHIGENLOCPOS> <FAHIREFROUTEHISTTYPE>
+//General Fantasy
+FAMGSEED
+	<FAMGSEEDBEYOND>
+	<FAMGSEEDINSTRUCTIONAL>
+	<FAMGSEEDFOCUS>
+	<FAMGSEEDREFERENTIAL>
+//fantasy creatures/natural science
+FNSCSEED
+	<FNSCBASESTUDYSEED>
+	<FNSCCOMPLEXSTUDYSEED>
+	<FNSCCOMPARESTUDYSEED>
+//Mystical Texts (these were meant for a more general asian feel)
+ORMYSEED
+	The <ORBOOKTYPE> of <ORHIGHTHING>
+	The <ORBOOKTYPE> of <*ORSETMYSTICTHING><ORPLURTHING>
+	The <ORBOOKTYPE> of <ORNUMBER> <*ORSETMYSTICTHING><ORPLURTHING>
+	The <ORBOOKTYPE> of <*ORSETMYSTICTHING><ORPLURTHING> of <ORHIGHTHING>
+	The <ORBASEDESC> <ORBOOKTYPE> of <ORHIGHTHING>
+	The <ORBASEDESC> <ORBOOKTYPE> of <*ORSETMYSTICTHING><ORPLURTHING>
+	The <ORBASEDESC> <ORBOOKTYPE> of <ORNUMBER> <*ORSETMYSTICTHING><ORPLURTHING>
+	The <*ORBEING><ORPOSBEING> <ORBOOKTYPE>
+	The <*ORBEING><ORPOSBEING> <ORHIGHTHING> <ORBOOKTYPE>
+	The <*ORBEING><ORSINBEING>-<*ORBEING><ORSINBEING> <ORBOOKTYPE>
+	The <*ORBEING><ORPOSBEING> <ORBOOKTYPE> of <ORHIGHTHING>
+	The <*ORBEING><ORPOSBEING> <ORBOOKTYPE> of <*ORSETMYSTICTHING><ORPLURTHING>
+	The <ORNUMBER> <*ORBEING><ORPLURBEING> <ORBOOKTYPE>
+	The <ORNUMBER> <*ORSETTHING><ORPLURTHING> of <ORHIGHTHING>
+	The <ORDESCRIPTOR> <ORHIGHTHING>
+	The <*ORSETTHING><ORSINTHING> of <ORHIGHTHING>
+	The <ORHIGHTHING> of <*ORBEING><ORPLURBEING>
+	<*ORSETMYSTICTHING><ORPLURTHING> of the <*ORBEING><ORPLURBEING>
+	<*ORSETMYSTICTHING><ORPLURTHING> of <ORHIGHTHING>
+	<ORBASEDESC> <*ORSETMYSTICTHING><ORPLURTHING> of <ORHIGHTHING>
+	<*ORSETMYSTICTHING><ORPLURTHING> of <ORBASEDESC> <ORHIGHTHING>
+//Religion - Monotheism
+MOTHSEED
+	<*MOTHGETACTIVITY><MOTHGENACTIVITYSTART><MOTHGENACTIVITYNAME> <MOTHGENACTIVITYCONNECT> the <MOTHREFDIETYGET>
+	<*MOTHGETACTIVITY><MOTHGENACTIVITYSTART><MOTHGENACTIVITYNAME> <MOTHGENACTIVITYCONNECT> the <MOTHREFDIETYDESCRIBE> <MOTHREFDIETYGET>
+	<*MOTHGETACTIVITY><MOTHGENACTIVITYSTART><MOTHREFOTHERDESCRIBE> <MOTHGENACTIVITYNAME> <MOTHGENACTIVITYCONNECT> the <MOTHREFDIETYGET>
+	<*MOTHGETACTIVITY><MOTHGENACTIVITYSTART><MOTHREFOTHERDESCRIBE> <MOTHGENACTIVITYNAME> <MOTHGENACTIVITYCONNECT> the <MOTHREFDIETYDESCRIBE> <MOTHREFDIETYGET>
+	The <MOTHREFDIETYGETPOS> <*MOTHGETACTIVITY> <MOTHGENACTIVITYNAME>
+	The <MOTHREFDIETYDESCRIBE> <MOTHREFDIETYGETPOS> <*MOTHGETACTIVITY> <MOTHGENACTIVITYNAME>
+//Religion - Polytheism
+POTHSEED
+	<*POTHGETACTIVITY><POTHGENACTIVITYSTART><POTHGENACTIVITYNAME> <POTHGENACTIVITYCONNECT> the <POTHREFDIETYGET>
+	<*POTHGETACTIVITY><POTHGENACTIVITYSTART><POTHGENACTIVITYNAME> <POTHGENACTIVITYCONNECT> the <POTHREFDIETYDESCRIBE> <POTHREFDIETYGET>
+	<*POTHGETACTIVITY><POTHGENACTIVITYSTART><POTHREFOTHERDESCRIBE> <POTHGENACTIVITYNAME> <POTHGENACTIVITYCONNECT> the <POTHREFDIETYGET>
+	<*POTHGETACTIVITY><POTHGENACTIVITYSTART><POTHREFOTHERDESCRIBE> <POTHGENACTIVITYNAME> <POTHGENACTIVITYCONNECT> the <POTHREFDIETYDESCRIBE> <POTHREFDIETYGET>
+	The <POTHREFDIETYGETPOS> <*POTHGETACTIVITY> <POTHGENACTIVITYNAME>
+	The <POTHREFDIETYDESCRIBE> <POTHREFDIETYGETPOS> <*POTHGETACTIVITY> <POTHGENACTIVITYNAME>
+//Weapons
+MDWPSEED
+	<MDWPBASESEED>
+	<MDWPCOMPSEED>
+	<MDWPMIXSEED>
+//Extras
+BKEXSEED
+	Examining the book, one will find: <BKEXALTERATIONS>
+	Examining the book, one will find: <BKEXINCLUSIONS>
+INCOSEED
+	This book is <REFBASECLEAR>.  <GETCLEARINFOTRANS> <REFBASEINFO>.<GETORIGINALINFO>
+//Fantasy History
+//GETS
+FAHIGETLOCATION
+	<*>
+		FAHIGENLOCNAME,true
+			Barony
+			Baronies
+		FAHIGENLOCPOS,true
+			Barony's
+			Baronies'
+	<*>
+		FAHIGENLOCNAME,true
+			Capitol
+		FAHIGENLOCPOS,true
+			Capitol's
+	<*>
+		FAHIGENLOCNAME,true
+			City
+		FAHIGENLOCPOS,true
+			City's
+	<*>
+		FAHIGENLOCNAME,true
+			Dutchy
+			Dutchies
+		FAHIGENLOCPOS,true
+			Dutchy's
+			Dutchies'
+	<*>
+		FAHIGENLOCNAME,true
+			Earldom
+			Earldoms
+		FAHIGENLOCPOS,true
+			Earldom's
+			Earldoms'
+	<*>
+		FAHIGENLOCNAME,true
+			Empire
+		FAHIGENLOCPOS,true
+			Empire's
+	<*>
+		FAHIGENLOCNAME,true
+			Frontier
+			Frontiers
+		FAHIGENLOCPOS,true
+			Frontier's
+			Frontiers'
+	<*>
+		FAHIGENLOCNAME,true
+			Kingdom
+			Kingdoms
+		FAHIGENLOCPOS,true
+			Kingdom's
+			Kingdoms'
+	<*>
+		FAHIGENLOCNAME,true
+			Province
+			Provinces
+		FAHIGENLOCPOS,true
+			Province's
+			Provinces'
+	<*>
+		FAHIGENLOCNAME,true
+			State
+			States
+		FAHIGENLOCPOS,true
+			State's
+			States'
+	<*>
+		FAHIGENLOCNAME,true
+			Territory
+			Territories
+		FAHIGENLOCPOS,true
+			Territory's
+			Territories'
+//REFS
+//HISTORY BASIC
+FAHIREFROUTEHISTTYPE
+	<FAHIREFROUTEHISTTYPEBASE>
+	<FAHIREFROUTEHISTTYPEMETA>
+	<FAHIREFROUTEHISTTYPEMIX>
+FAHIREFROUTEHISTTYPEBASE
+	<FAHIREFHISTTYPEGEN>
+	<FAHIREFHISTDESC> <FAHIREFHISTTYPEGEN>
+	<FAHIREFHISTDESC> <FAHIREFHISTTYPESPEC>
+FAHIREFROUTEHISTTYPEMETA
+	<FAHIREFHISTDESCMETA> <FAHIREFHISTTYPEGEN>
+	<FAHIREFHISTDESCMETA> <FAHIREFHISTTYPESPEC>
+	<FAHIREFHISTDESCMETA> <FAHIREFHISTDESC> <FAHIREFHISTTYPEGEN>
+	<FAHIREFHISTDESCMETA> <FAHIREFHISTDESC> <FAHIREFHISTTYPESPEC>
+FAHIREFROUTEHISTTYPEMIX
+	<FAHIREFHISTDESCMETA> <FAHIREFHISTTYPESPEC2>
+//History References
+FAHIREFHISTDESC
+	Cultural
+	Economic
+	Ideological
+	Literary
+	Military
+	Philosophical
+	Political
+	Religious
+	Theological
+FAHIREFHISTDESCMETA
+	Ancient
+	Early
+	Famous
+	Foreign
+	Forgotten
+	Infamous
+	Legendary
+	Major
+	Minor
+	Present
+	Recent
+FAHIREFHISTTYPEGEN
+	Annals
+	Chronicle
+	Chronicles
+	History
+	Histories
+FAHIREFHISTTYPESPEC
+	Agreements
+	Assasinations
+	Battles
+	Charges
+	Conflicts
+	Cults
+	Crimes
+	Crusades
+	Disagreements
+	Disasters
+	Edicts
+	Famines
+	Hoaxes
+	Invasions
+	Laws
+	Leaders
+	Miracles
+	Notables
+	Organizations
+	Personages
+	Revolutions
+	Treaties
+	Truces
+	Wars
+FAHIREFHISTTYPESPEC2
+	Alchemists
+	Architects
+	Artists
+	Bards
+	Clerics
+	Commoners
+	Criminals
+	Dictators
+	Doctors
+	Explorers
+	Heroes
+	Inventors
+	Military Leaders
+	Murderers
+	Musicians
+	Nobles
+	Philosophers
+	Pirates
+	Poets
+	Prohpets
+	Rulers
+	Soldiers
+	Thinkers
+	Mages
+	Warlords
+	Writers
+	Wizards
+//Miscs
+REFREFLINK
+	About
+	Concerning
+FAHIREFSTARTERROUTE
+	The 
+	<FAHIREFSTARTER> 	
+FAHIREFSTARTER
+	A Criticism of the
+	A Dissertation on the
+	A Discolsure <REFREFLINK> the
+	A Guide to the
+	A Report on the
+	A Statement on the
+	A Study of the
+	An Account of the
+	An Examination of the
+	An Expose of the
+	An Encyclopedia of the
+	Examining the
+	Falsehoods <REFREFLINK> the
+	On the
+	Regarding the
+	Rumors <REFREFLINK> the
+//GENS
+FAHIGENLOCNAME
+	LOCATION
+FAHIGENLOCPOS
+	LOCATION'S
+FAMGSEEDFOCUS
+	<*FAMGGENMAGICTYPE><FAMGGETMTSING> for the <*FAMGGENMAGETYPE><FAMGGETMAGESINGLE>
+	<*FAMGGENMAGICTYPE><FAMGGETMTSING> for <*FAMGGENMAGETYPE><FAMGGETMAGEPLURAL>
+	<*FAMGGENMAGICTYPE><FAMGGETMTPLUR> for the <*FAMGGENMAGETYPE><FAMGGETMAGESINGLE>
+	<*FAMGGENMAGICTYPE><FAMGGETMTPLUR> for <*FAMGGENMAGETYPE><FAMGGETMAGEPLURAL>
+	<FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTPLUR> for the <*FAMGGENMAGETYPE><FAMGGETMAGESINGLE>
+	<FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTPLUR> for <*FAMGGENMAGETYPE><FAMGGETMAGEPLURAL>
+	<*FAMGGENMAGETYPE><FAMGGETMAGEREF> <FAMGGETMAGEPOSESSIVE> <*FAMGGENBOOKTYPE><FAMGGETBOOKTYPENAME> <FAMGGETBOOKTYPETRANS> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+	<*FAMGGENMAGETYPE><FAMGGETMAGEREF> <FAMGGETMAGEPOSESSIVE> <*FAMGGENBOOKTYPE><FAMGGETBOOKTYPENAME> <FAMGGETBOOKTYPETRANS> <FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+FAMGSEEDINSTRUCTIONAL
+	<FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+	<FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTPLUR>
+FAMGSEEDREFERENTIAL
+	<*FAMGGENBOOKTYPE><FAMGGETBOOKTYPEINTRO> <FAMGGETBOOKTYPENAME> <FAMGGETBOOKTYPETRANS> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+	<*FAMGGENBOOKTYPE><FAMGGETBOOKTYPEINTRO> <FAMGGETBOOKTYPENAME> <FAMGGETBOOKTYPETRANS> <FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+FAMGSEEDBEYOND
+	<*FAMGGENBEYONDTYPE><FAMGGETBEYONDTYPEINTRO> <FAMGGETBEYONDTYPENAME> of <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+	<*FAMGGENBEYONDTYPE><FAMGGETBEYONDTYPEINTRO> <FAMGGETBEYONDTYPENAME> of <*FAMGGENMAGICTYPE><FAMGGETMTPLUR>
+	<*FAMGGENBEYONDTYPE><FAMGGETBEYONDTYPEINTRO> <FAMGGETBEYONDTYPENAME> of <FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTSING>
+	<*FAMGGENBEYONDTYPE><FAMGGETBEYONDTYPEINTRO> <FAMGGETBEYONDTYPENAME> of <FAMGREFINSTRUCTIONALTYPE> <*FAMGGENMAGICTYPE><FAMGGETMTPLUR>
+// Basic generation
+FAMGGENBEYONDTYPE
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			
+		FAMGGETBEYONDTYPENAME,true
+			Defense Against
+			Defending Against
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Domestic Application
+			Domestic Use
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Everyday Application
+			Everyday Use
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			An
+		FAMGGETBEYONDTYPENAME,true
+			Examination
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			A
+			The
+		FAMGGETBEYONDTYPENAME,true
+			History
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Military Application
+			Military Use
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Peacetime Application
+			Peacetime Use	
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Practice
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			A
+			The
+		FAMGGETBEYONDTYPENAME,true
+			Study
+	<*>
+		FAMGGETBEYONDTYPEINTRO,true
+			A
+		FAMGGETBEYONDTYPENAME,true
+			Tutorial
+FAMGGENBOOKTYPE
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Book
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Catalogue
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			The
+		FAMGGETBOOKTYPENAME,true
+			Codex
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			An
+			The
+		FAMGGETBOOKTYPENAME,true
+			Encyclopedia
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Guide
+		FAMGGETBOOKTYPETRANS,true
+			for
+			to
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Grimoire
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Journal
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Manual
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+			The
+		FAMGGETBOOKTYPENAME,true
+			Synopsis
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A		
+		FAMGGETBOOKTYPENAME,true
+			Text
+		FAMGGETBOOKTYPETRANS,true
+			of
+			on
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+		FAMGGETBOOKTYPENAME,true
+			Tome
+		FAMGGETBOOKTYPETRANS,true
+			of
+	<*>
+		FAMGGETBOOKTYPEINTRO,true
+			A
+		FAMGGETBOOKTYPENAME,true
+			Treatise
+		FAMGGETBOOKTYPETRANS,true
+			of
+			on
+FAMGGENMAGETYPE
+	<*>
+		FAMGGETMAGEPLURAL
+			Alchemists
+		FAMGGETMAGEPOSESSIVE
+			Alchemist's
+		FAMGGETMAGESINGLE
+			Alchemist
+		FAMGGETMAGEREF
+			An
+	<*>
+		FAMGGETMAGEPLURAL
+			Apprentices
+		FAMGGETMAGEPOSESSIVE
+			Apprentice's
+		FAMGGETMAGESINGLE
+			Apprentice
+		FAMGGETMAGEREF
+			An
+	<*>
+		FAMGGETMAGEPLURAL
+			Enchanters
+		FAMGGETMAGEPOSESSIVE
+			Enchanter's
+		FAMGGETMAGESINGLE
+			Enchanter
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Illusionists
+		FAMGGETMAGEPOSESSIVE
+			Illusionist's
+		FAMGGETMAGESINGLE
+			Illusionist
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Journeymen
+		FAMGGETMAGEPOSESSIVE
+			Journeyman's
+		FAMGGETMAGESINGLE
+			Journeyman
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Necromancers
+		FAMGGETMAGEPOSESSIVE
+			Necromancer's
+		FAMGGETMAGESINGLE
+			Necromancer
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Mages
+		FAMGGETMAGEPOSESSIVE
+			Mage's
+		FAMGGETMAGESINGLE
+			Mage
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Magicians
+		FAMGGETMAGEPOSESSIVE
+			Magician's
+		FAMGGETMAGESINGLE
+			Magician
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Magi
+		FAMGGETMAGEPOSESSIVE
+			Magus'
+		FAMGGETMAGESINGLE
+			Magus
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Sorcerors
+		FAMGGETMAGEPOSESSIVE
+			Sorceror's
+		FAMGGETMAGESINGLE
+			Sorceror
+		FAMGGETMAGEREF
+			A
+	<*>
+		FAMGGETMAGEPLURAL
+			Wizards
+		FAMGGETMAGEPOSESSIVE
+			Wizard's
+		FAMGGETMAGESINGLE
+			Wizard
+		FAMGGETMAGEREF
+			A
+FAMGGENMAGICTYPE
+	<*>
+		FAMGGETMTSING
+			Abjuration
+		FAMGGETMTPLUR
+			Abjurations
+	<*>
+		FAMGGETMTSING
+			Alchemy
+		FAMGGETMTPLUR
+			Alchemy
+	<*>
+		FAMGGETMTSING
+			Alteration
+		FAMGGETMTPLUR
+			Alterations
+	<*>
+		FAMGGETMTSING
+			Black Magic
+		FAMGGETMTPLUR
+			Black Magics
+	<*>
+		FAMGGETMTSING
+			Charms
+		FAMGGETMTPLUR
+			Charms
+	<*>
+		FAMGGETMTSING
+			Conjuration
+		FAMGGETMTPLUR
+			Conjurations
+	<*>
+		FAMGGETMTSING
+			Dark Arts
+		FAMGGETMTPLUR
+			Dark Arts
+	<*>
+		FAMGGETMTSING
+			Enchantment
+		FAMGGETMTPLUR
+			Enchantments
+	<*>
+		FAMGGETMTSING
+			Divination
+		FAMGGETMTPLUR
+			Divinations
+	<*>
+		FAMGGETMTSING
+			Evocation
+		FAMGGETMTPLUR
+			Evocations
+	<*>
+		FAMGGETMTSING
+			Glamour
+		FAMGGETMTPLUR
+			Glamours
+	<*>
+		FAMGGETMTSING
+			High Magic
+		FAMGGETMTPLUR
+			High Magics
+	<*>
+		FAMGGETMTSING
+			Illusion
+		FAMGGETMTPLUR
+			Illusions
+	<*>
+		FAMGGETMTSING
+			Invocation
+		FAMGGETMTPLUR
+			Invocations
+	<*>
+		FAMGGETMTSING
+			Magic
+		FAMGGETMTPLUR
+			Magics
+	<*>
+		FAMGGETMTSING
+			Magical Art
+		FAMGGETMTPLUR
+			Magical Arts
+	<*>
+		FAMGGETMTSING
+			Necromancy
+		FAMGGETMTPLUR
+			Necromancies
+	<*>
+		FAMGGETMTSING
+			Sorcery
+		FAMGGETMTPLUR
+			Sorceries
+	<*>
+		FAMGGETMTSING
+			Summoning
+		FAMGGETMTPLUR
+			Summonings
+	<*>
+		FAMGGETMTSING
+			Thamaturgy
+		FAMGGETMTPLUR
+			Thamaturgy
+	<*>
+		FAMGGETMTSING
+			Theurgy
+		FAMGGETMTPLUR
+			Theurgy
+	<*>
+		FAMGGETMTSING
+			Transformation
+		FAMGGETMTPLUR
+			Transformations
+	<*>
+		FAMGGETMTSING
+			Transfiguration
+		FAMGGETMTPLUR
+			Transfigurations
+	<*>
+		FAMGGETMTSING
+			White Magic
+		FAMGGETMTPLUR
+			White Magics
+	<*>
+		FAMGGETMTSING
+			Wizardry
+		FAMGGETMTPLUR
+			Wizardries
+//REFS
+FAMGREFINSTRUCTIONALTYPE
+	Advanced
+	Ancient
+	Basic
+	Classic
+	Essential
+	Important
+	Improved
+	Innovative
+	New
+	Novel
+	Practical
+	Practice
+	Remedial
+	Revised
+//Gets
+FAMGGETBEYONDTYPEINTRO
+	A
+FAMGGETBEYONDTYPENAME
+	Beyond
+FAMGGETBOOKTYPEINTRO
+	The
+FAMGGETBOOKTYPENAME
+	Book
+FAMGGETBOOKTYPETRANS
+	of
+FAMGGETMAGEREF
+	A
+FAMGGETMTSING
+	Magic
+FAMGGETMTPLUR
+	Magics
+FAMGGETMAGEPLURAL
+	Mages
+FAMGGETMAGEPOSESSIVE
+	Mage's
+FAMGGETMAGESINGLE
+	Mage
+//Mystical texts ORMYSEED
+ORBEING
+	<*>
+		ORPLURBEING,true
+			Adepts
+		ORPOSBEING,true
+			Adept's
+		ORSINBEING,true
+			Adept
+	<*>
+		ORPLURBEING,true
+			Alchemists
+		ORPOSBEING,true
+			Alchemist's
+		ORSINBEING,true
+			Alchemist
+	<*>
+		ORPLURBEING,true
+			Ancestors
+		ORPOSBEING,true
+			Ancestor's
+		ORSINBEING,true
+			Ancestor
+	<*>
+		ORPLURBEING,true
+			Cranes
+		ORPOSBEING,true
+			Crane's
+		ORSINBEING,true
+			Crane
+	<*>
+		ORPLURBEING,true
+			Dragons
+		ORPOSBEING,true
+			Dragon's
+		ORSINBEING,true
+			Dragon
+	<*>
+		ORPLURBEING,true
+			Emperors
+		ORPOSBEING,true
+			Emperor's
+		ORSINBEING,true
+			Emperor
+	<*>
+		ORPLURBEING,true
+			Immortals
+		ORPOSBEING,true
+			Immortal's
+		ORSINBEING,true
+			Immortal
+	<*>
+		ORPLURBEING,true
+			Phoenixes
+		ORPOSBEING,true
+			Phoenix's
+		ORSINBEING,true
+			Phoenix
+	<*>
+		ORPLURBEING,true
+			Sages
+		ORPOSBEING,true
+			Sage's
+		ORSINBEING,true
+			Sage
+	<*>
+		ORPLURBEING,true
+			Spirits
+		ORPOSBEING,true
+			Spirit's
+		ORSINBEING,true
+			Spirit
+	<*>
+		ORPLURBEING,true
+			Tigers
+		ORPOSBEING,true
+			Tiger's
+		ORSINBEING,true
+			Tiger
+	<*>
+		ORPLURBEING,true
+			Unicorns
+		ORPOSBEING,true
+			Unicorn's
+		ORSINBEING,true
+			Unicorn
+ORBOOKTYPE
+	Book
+	Classic
+	Codex
+	Manual
+	Scroll
+	Treatise
+ORDESCRIPTOR
+	<ORNUMBERDESC>
+	<ORBASEDESC>
+ORNUMBERDESC
+	Dual
+	Double
+	Multiple
+	Quadruple
+	Four-Sided
+	Triple
+	Triplex
+	Five-Sided
+	Six-Sided
+	Seven-Sided
+ORBASEDESC
+	Alchemical
+	Ancestral
+	Classic
+	Celestial
+	Cosmic
+	Golden
+	Grand
+	Great
+	Harmonius
+	Holy
+	Illuminated
+	Illuminating
+	Immortal
+	Imperial
+	Insightful
+	Jade
+	Luminous
+	Real
+	Royal
+	Silent
+	Simple
+	Total
+	Unified
+	Virtuous
+	Wise
+	Wondrous
+ORNUMBER
+	Two
+	Three
+	Four
+	Five
+	Six
+	Seven
+	Eight
+	Nine
+	Ten
+	Twenty
+	Fifty
+	One Hundred
+	One Thousand
+	Ten Thousand
+	Infinte
+ORHIGHTHING
+	Alchemy
+	Comprehension
+	Divination
+	Enlightenment
+	Harmony
+	Immortality
+	Silence
+	Transformation
+	Understanding
+	Wisdom
+	Virtue
+ORSETMYSTICTHING
+	<*>
+		ORSINTHING,true
+			Chant
+		ORPLURTHING,true
+			Chants
+	<*>
+		ORSINTHING,true
+			Contemplation
+		ORPLURTHING,true
+			Contemplations
+	<*>
+		ORSINTHING,true
+			Exercise
+		ORPLURTHING,true
+			Exercises
+	<*>
+		ORSINTHING,true
+			Formula
+		ORPLURTHING,true
+			Formulae
+	<*>
+		ORSINTHING,true
+			Inscription
+		ORPLURTHING,true
+			Inscriptions
+	<*>
+		ORSINTHING,true
+			Invocation
+		ORPLURTHING,true
+			Invocations
+	<*>
+		ORSINTHING,true
+			Meditation
+		ORPLURTHING,true
+			Meditations
+	<*>
+		ORSINTHING,true
+			Poem
+		ORPLURTHING,true
+			Poems
+	<*>
+		ORSINTHING,true
+			Prescription
+		ORPLURTHING,true
+			Prescriptions
+	<*>
+		ORSINTHING,true
+			Prayer
+		ORPLURTHING,true
+			Prayers
+	<*>
+		ORSINTHING,true
+			Ritual
+		ORPLURTHING,true
+			Rituals
+	<*>
+		ORSINTHING,true
+			Saying
+		ORPLURTHING,true
+			Sayings
+	<*>
+		ORSINTHING,true
+			Secret
+		ORPLURTHING,true
+			Secrets
+	<*>
+		ORSINTHING,true
+			Song
+		ORPLURTHING,true
+			Songs
+	<*>
+		ORSINTHING,true
+			Talisman
+		ORPLURTHING,true
+			Talismans
+ORSETTHING
+	<*>
+		ORSINTHING,true
+			Aperature
+		ORPLURTHING,true
+			Aperatures
+	<*>
+		ORSINTHING,true
+			Breath
+		ORPLURTHING,true
+			Breaths
+	<*>
+		ORSINTHING,true
+			Cavern
+		ORPLURTHING,true
+			Caverns
+	<*>
+		ORSINTHING,true
+			Cave
+		ORPLURTHING,true
+			Caves
+	<*>
+		ORSINTHING,true
+			Change
+		ORPLURTHING,true
+			Changes
+	<*>
+		ORSINTHING,true
+			Cloud
+		ORPLURTHING,true
+			Clouds
+	<*>
+		ORSINTHING,true
+			Constellation
+		ORPLURTHING,true
+			Constellations
+	<*>
+		ORSINTHING,true
+			Element
+		ORPLURTHING,true
+			Elements
+	<*>
+		ORSINTHING,true
+			Island
+		ORPLURTHING,true
+			Islands
+	<*>
+		ORSINTHING,true
+			Lake
+		ORPLURTHING,true
+			Lakes
+	<*>
+		ORSINTHING,true
+			Mountain
+		ORPLURTHING,true
+			Mountains
+	<*>
+		ORSINTHING,true
+			Ring
+		ORPLURTHING,true
+			Rings
+	<*>
+		ORSINTHING,true
+			Star
+		ORPLURTHING,true
+			Stars
+	<*>
+		ORSINTHING,true
+			Thought
+		ORPLURTHING,true
+			Thoughts
+	<*>
+		ORSINTHING,true
+			Thunder
+		ORPLURTHING,true
+			Thunders
+ORPLURBEING
+	Beings
+ORPOSBEING
+	Being's
+ORSINBEING
+	Being
+ORSINTHING
+	Thing
+ORPLURTHING
+	Things
+//Fantasy natural science
+//Basic study sequence
+FNSCBASESTUDYSEED
+	The <FNSCBEING><FNSCSUBJECTROUTE> of <FNSCPLURBEING>
+	The <FNSCBEING><FNSCSUBJECTROUTE> of The <FNSCSINBEING>
+	<FNSCBEING><FNSCPLURPOSBEING> <FNSCSUBJECTROUTE>
+	A <FNSCBEING><FNSCPOSBEING> <FNSCSUBJECTROUTE>
+FNSCCOMPARESTUDYSEED
+	<FNSCREFCOMPAREROUTE> <FNSCSUBJECTROUTE> of the <FNSCBEING><FNSCSINBEING> and the <FNSCBEING><FNSCSINBEING>
+	<FNSCSUBJECTROUTE> of the <FNSCBEING><FNSCSINBEING> and the <FNSCBEING><FNSCSINBEING>: <FNSCREFCOMPAREROUTEEND>
+FNSCCOMPLEXSTUDYSEED
+	<FNSCREFSTUDYFORE> The <FNSCBEING><FNSCSUBJECTROUTE> of <FNSCPLURBEING>
+	<FNSCREFSTUDYFORE> The <FNSCBEING><FNSCSUBJECTROUTE> of The <FNSCSINBEING>
+	<FNSCREFSTUDYFORE> <FNSCBEING><FNSCPLURPOSBEING> <FNSCSUBJECTROUTE>
+	<FNSCREFSTUDYFORE> A <FNSCBEING><FNSCPOSBEING> <FNSCSUBJECTROUTE>
+	The <FNSCBEING><FNSCSUBJECTROUTE> of <FNSCPLURBEING>: <FNSCREFSTUDYEND>
+	The <FNSCBEING><FNSCSUBJECTROUTE> of The <FNSCSINBEING>: <FNSCREFSTUDYEND>
+	<FNSCBEING><FNSCPLURPOSBEING> <FNSCSUBJECTROUTE>: <FNSCREFSTUDYEND>
+	A <FNSCBEING><FNSCPOSBEING> <FNSCSUBJECTROUTE>: <FNSCREFSTUDYEND>
+//Beings, the central part of the generator
+FNSCBEING
+	<*>
+		FNSCPLURBEING,true
+			Basilisks
+		FNSCPLURPOSBEING,true
+			Basilisks'
+		FNSCPOSBEING,true
+			Basilisk's
+		FNSCSINBEING,true
+			Basilisk
+	<*>
+		FNSCPLURBEING,true
+			Bugbears
+		FNSCPLURPOSBEING,true
+			Bugbears'
+		FNSCPOSBEING,true
+			Bugbear's
+		FNSCSINBEING,true
+			Bugbear
+	<*>
+		FNSCPLURBEING,true
+			Centaurs
+		FNSCPLURPOSBEING,true
+			Centaurs'
+		FNSCPOSBEING,true
+			Centaur's
+		FNSCSINBEING,true
+			Centaur
+	<*>
+		FNSCPLURBEING,true
+			Chimeras
+		FNSCPLURPOSBEING,true
+			Chimeras'
+		FNSCPOSBEING,true
+			Chimera's
+		FNSCSINBEING,true
+			Chimera
+	<*>
+		FNSCPLURBEING,true
+			Cockatrices
+		FNSCPLURPOSBEING,true
+			Cockatrices'
+		FNSCPOSBEING,true
+			Cockatrice's
+		FNSCSINBEING,true
+			Cockatrice
+	<*>
+		FNSCPLURBEING,true
+			Cyclopses
+		FNSCPLURPOSBEING,true
+			Cyclopses'
+		FNSCPOSBEING,true
+			Cyclops's
+		FNSCSINBEING,true
+			Cyclops
+	<*>
+		FNSCPLURBEING,true
+			Dragons
+		FNSCPLURPOSBEING,true
+			Dragons'
+		FNSCPOSBEING,true
+			Dragon's
+		FNSCSINBEING,true
+			Dragon
+	<*>
+		FNSCPLURBEING,true
+			Ettins
+		FNSCPLURPOSBEING,true
+			Ettins'
+		FNSCPOSBEING,true
+			Ettin's
+		FNSCSINBEING,true
+			Ettin
+	<*>
+		FNSCPLURBEING,true
+			Giants
+		FNSCPLURPOSBEING,true
+			Giants'
+		FNSCPOSBEING,true
+			Giant's
+		FNSCSINBEING,true
+			Giant
+	<*>
+		FNSCPLURBEING,true
+			Goblins
+		FNSCPLURPOSBEING,true
+			Goblins'
+		FNSCPOSBEING,true
+			Goblin's
+		FNSCSINBEING,true
+			Goblin
+	<*>
+		FNSCPLURBEING,true
+			Gorgons
+		FNSCPLURPOSBEING,true
+			Gorgons'
+		FNSCPOSBEING,true
+			Gorgon's
+		FNSCSINBEING,true
+			Gorgon
+	<*>
+		FNSCPLURBEING,true
+			Griffins
+		FNSCPLURPOSBEING,true
+			Griffins'
+		FNSCPOSBEING,true
+			Griffin's
+		FNSCSINBEING,true
+			Griffin
+	<*>
+		FNSCPLURBEING,true
+			Harpies
+		FNSCPLURPOSBEING,true
+			Harpies'
+		FNSCPOSBEING,true
+			Harpy's
+		FNSCSINBEING,true
+			Harpy
+	<*>
+		FNSCPLURBEING,true
+			Hippogriffs
+		FNSCPLURPOSBEING,true
+			Hippogriffs'
+		FNSCPOSBEING,true
+			Hippogriff's
+		FNSCSINBEING,true
+			Hippogriff
+	<*>
+		FNSCPLURBEING,true
+			Hydras
+		FNSCPLURPOSBEING,true
+			Hydras'
+		FNSCPOSBEING,true
+			Hydra's
+		FNSCSINBEING,true
+			Hydra
+	<*>
+		FNSCPLURBEING,true
+			Jabberwocks
+		FNSCPLURPOSBEING,true
+			Jabberwocks'
+		FNSCPOSBEING,true
+			Jabberwock's
+		FNSCSINBEING,true
+			Jabberwock
+	<*>
+		FNSCPLURBEING,true
+			Krakens
+		FNSCPLURPOSBEING,true
+			Krakens'
+		FNSCPOSBEING,true
+			Kraken's
+		FNSCSINBEING,true
+			Kraken
+	<*>
+		FNSCPLURBEING,true
+			Manticores
+		FNSCPLURPOSBEING,true
+			Manticores'
+		FNSCPOSBEING,true
+			Manticore's
+		FNSCSINBEING,true
+			Manticore
+	<*>
+		FNSCPLURBEING,true
+			Minotaurs
+		FNSCPLURPOSBEING,true
+			Minotaurs'
+		FNSCPOSBEING,true
+			Minotaur's
+		FNSCSINBEING,true
+			Minotaur
+	<*>
+		FNSCPLURBEING,true
+			Ogres
+		FNSCPLURPOSBEING,true
+			Ogres'
+		FNSCPOSBEING,true
+			Ogre's
+		FNSCSINBEING,true
+			Ogre
+	<*>
+		FNSCPLURBEING,true
+			Pegasi
+		FNSCPLURPOSBEING,true
+			Pegasi's
+		FNSCPOSBEING,true
+			Pegasus's
+		FNSCSINBEING,true
+			Pegasus
+	<*>
+		FNSCPLURBEING,true
+			Phoenixes
+		FNSCPLURPOSBEING,true
+			Phoenixes'
+		FNSCPOSBEING,true
+			Phoenix's
+		FNSCSINBEING,true
+			Phoenix
+	<*>
+		FNSCPLURBEING,true
+			Rocs
+		FNSCPLURPOSBEING,true
+			Rocs'
+		FNSCPOSBEING,true
+			Roc's
+		FNSCSINBEING,true
+			Roc
+	<*>
+		FNSCPLURBEING,true
+			Satyrs
+		FNSCPLURPOSBEING,true
+			Satyrs'
+		FNSCPOSBEING,true
+			Satyr's
+		FNSCSINBEING,true
+			Satyr
+	<*>
+		FNSCPLURBEING,true
+			Sea Serpents
+		FNSCPLURPOSBEING,true
+			Sea Serpents'
+		FNSCPOSBEING,true
+			Sea Serpent's
+		FNSCSINBEING,true
+			Sea Serpent
+	<*>
+		FNSCPLURBEING,true
+			Tarasques
+		FNSCPLURPOSBEING,true
+			Tarasques'
+		FNSCPOSBEING,true
+			Tarasque's
+		FNSCSINBEING,true
+			Tarasque
+	<*>
+		FNSCPLURBEING,true
+			Trolls
+		FNSCPLURPOSBEING,true
+			Trolls'
+		FNSCPOSBEING,true
+			Troll's
+		FNSCSINBEING,true
+			Troll
+	<*>
+		FNSCPLURBEING,true
+			Unicorns
+		FNSCPLURPOSBEING,true
+			Unicorns'
+		FNSCPOSBEING,true
+			Unicorn's
+		FNSCSINBEING,true
+			Unicorn
+	<*>
+		FNSCPLURBEING,true
+			Wyverns
+		FNSCPLURPOSBEING,true
+			Wyverns'
+		FNSCPOSBEING,true
+			Wyvern's
+		FNSCSINBEING,true
+			Wyvern
+	<*>
+		FNSCPLURBEING,true
+			Yetis
+		FNSCPLURPOSBEING,true
+			Yetis'
+		FNSCPOSBEING,true
+			Yeti's
+		FNSCSINBEING,true
+			Yeti
+//Subjects
+FNSCSUBJECTROUTE
+	<FNSCSUBJECTPHYSICAL>
+	<FNSCSUBJECTSOCIAL>
+FNSCSUBJECTPHYSICAL
+	Bodily Humors
+	Circulatory System
+	Digestive System
+	Excretory System
+	Glandular System
+	Integument
+	Methods of Locomotion
+	Muscular System
+	Respiratory System
+	Sensory Systems
+	Skeletal System
+FNSCSUBJECTSOCIAL
+	Common Areas of Habitation
+	Child-Rearing Habits
+	Courtship Rituals
+	Dietary Habits
+	Hunting Habits
+	Living Habits
+	Mating Habits
+	Migration Patterns
+	Sex Life
+	Sexual Habits
+	Sleeping Patterns
+	Social Heirarchies
+	Social Organization
+	Uncommon Areas of Habitation
+//References
+FNSCREFCOMPAREROUTE
+	A Comparison of the
+	Differences in the
+	Dissimilarities in the
+	Similarities in the
+	Unexpected Dissimilarities in the
+	Unexpected Similarities in the
+FNSCREFCOMPAREROUTEEND
+	A Comparison
+	Differences
+	Dissimilarities
+	Similarities
+	Unexpected Similarities
+	Unexpected Dissimilarities
+FNSCREFSTUDYEND
+	A Current Study
+	A History of Study
+	A New Study
+	A Study
+	An Examination
+	An Illustrated Guide
+	An Overview
+	Common Superstitions
+	Current Fallacies
+	New Speculations
+	New Theories
+	With Illustrations
+FNSCREFSTUDYFORE
+	A Study of
+	A History of the Study of
+	An Examination of
+	An Overview of
+	Common Superstitions Regarding
+	Current Studies of
+	The Latest Research Into
+//Settings
+FNSCPLURBEING
+	Beings
+FNSCPLURPOSBEING
+	Beings'
+FNSCPOSBEING
+	Being's
+FNSCSINBEING
+	Being
+//Monotheism
+//GETS
+MOTHGETACTIVITY
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Blasphemers
+			Enemies
+			Heretics
+			Nonbelievers
+		MOTHGENACTIVITYCONNECT,true
+			of
+			Against
+			Opposing
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Facts
+			Falsehoods
+			Lies
+			Truths
+		MOTHGENACTIVITYCONNECT,true
+			About
+			Concerning
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Acolytes
+			Followers
+			Priests
+			Priestesses
+			Priesthood
+		MOTHGENACTIVITYCONNECT,true
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Agents
+			Messengers
+			Minions
+			Servants
+			Servitors
+		MOTHGENACTIVITYCONNECT,true
+			of
+			Serving
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Churches
+			Sanctuaries
+			Shrines
+			Temples
+		MOTHGENACTIVITYCONNECT,true
+			Built for
+			of
+			Serving
+			to
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Attributes
+			Power
+			Powers
+			Proverbs
+			Sayings
+			Signs
+			Symbols
+			Traits
+			Virtues
+			Wisdom
+		MOTHGENACTIVITYCONNECT,true
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Blessings
+			Gifts
+		MOTHGENACTIVITYCONNECT,true
+			from
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Invocation
+			Invocations
+		MOTHGENACTIVITYCONNECT,true
+			of
+			to
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Prayers
+		MOTHGENACTIVITYCONNECT,true
+			to
+		MOTHGENACTIVITYSTART,true
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			History
+			Legend
+			Legends
+			Stories
+			Story
+			Tales
+		MOTHGENACTIVITYCONNECT,true
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		MOTHGENACTIVITYNAME,true
+			Rituals
+		MOTHGENACTIVITYCONNECT,true
+			of
+		MOTHGENACTIVITYSTART,true
+			The 
+			
+MOTHGETDIETYTYPES
+//Singles are doubled up for conceptual stability
+	<*>
+		MOTHGETDIETYCALL,true
+			Allmighty
+		MOTHGETDIETYCALLPOS,true
+			Allmighty's
+	<*>
+		MOTHGETDIETYCALL,true
+			Author
+		MOTHGETDIETYCALLPOS,true
+			Author's
+	<*>
+		MOTHGETDIETYCALL,true
+			Creator
+		MOTHGETDIETYCALLPOS,true
+			Creator's
+	<*>
+		MOTHGETDIETYCALL,true
+			First Cause
+		MOTHGETDIETYCALLPOS,true
+			First Cause's
+	<*>
+		MOTHGETDIETYCALL,true
+			Godhead
+		MOTHGETDIETYCALLPOS,true
+			Godhead's
+	<*>
+		MOTHGETDIETYCALL,true
+			Maker
+		MOTHGETDIETYCALLPOS,true
+			Maker's
+	<*>
+		MOTHGETDIETYCALL,true
+			One
+		MOTHGETDIETYCALLPOS,true
+			One's
+	<*>
+		MOTHGETDIETYCALL,true
+			Originator
+		MOTHGETDIETYCALLPOS,true
+			Originator's
+	<*>
+		MOTHGETDIETYCALL,true
+			Prime
+		MOTHGETDIETYCALLPOS,true
+			Prime's
+	<*>
+		MOTHGETDIETYCALL,true
+			Prime Mover
+		MOTHGETDIETYCALLPOS,true
+			Prime Mover's
+	<*>
+		MOTHGETDIETYCALL,true
+			Primal
+		MOTHGETDIETYCALLPOS,true
+			Primal's
+//Main Refs
+MOTHREFDIETYGET
+	<*MOTHGETDIETYTYPES><MOTHGETDIETYCALL>
+MOTHREFDIETYGETPOS
+	<*MOTHGETDIETYTYPES><MOTHGETDIETYCALLPOS>
+//REFS
+MOTHREFDIETYDESCRIBE
+	All-Powerful
+	All-Knowing
+	All-Seeing
+	All-Wise
+	Awe-Inspiring
+	Benevolent
+	Eternal
+	Great
+	Infallable
+	Infinite
+	Invunerable
+	Omnipotent
+	Omnipresent
+	Powerful
+	Subtle
+	Wise
+	Wonderful
+	Wondrous
+MOTHREFOTHERDESCRIBE
+	Ancient
+	Classic
+	False
+	Famous
+	Great
+	Hidden
+	Historical
+	Infamous
+	Legendary
+	Major
+	Minor
+	Mysterious
+	Obscure
+	Recent
+	Secret
+	True
+	Well-Known
+//GENS
+MOTHGENACTIVITYCONNECT
+	REFERENCE
+MOTHGENACTIVITYNAME
+	ACTIVITY
+MOTHGENACTIVITYSTART
+	THE
+MOTHGETDIETYCALL
+	DIETIES
+MOTHGETDIETYCALLPOS
+	DIETIES'
+//Polytheism
+POTHGETACTIVITY
+	<*>
+		POTHGENACTIVITYNAME,true
+			Blasphemers
+			Enemies
+			Heretics
+			Nonbelievers
+		POTHGENACTIVITYCONNECT,true
+			of
+			Against
+			Opposing
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Facts
+			Falsehoods
+			Lies
+			Truths
+		POTHGENACTIVITYCONNECT,true
+			About
+			Concerning
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Acolytes
+			Followers
+			Priests
+			Priestesses
+			Priesthood
+		POTHGENACTIVITYCONNECT,true
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Agents
+			Messengers
+			Minions
+			Servants
+			Servitors
+		POTHGENACTIVITYCONNECT,true
+			of
+			Serving
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Churches
+			Sanctuaries
+			Shrines
+			Temples
+		POTHGENACTIVITYCONNECT,true
+			Built for
+			of
+			Serving
+			to
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Attributes
+			Power
+			Powers
+			Sayings
+			Signs
+			Symbols
+			Traits
+			Virtues
+			Wisdom
+		POTHGENACTIVITYCONNECT,true
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Blessings
+			Gifts
+		POTHGENACTIVITYCONNECT,true
+			from
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Invocation
+			Invocations
+		POTHGENACTIVITYCONNECT,true
+			of
+			to
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Prayers
+		POTHGENACTIVITYCONNECT,true
+			to
+		POTHGENACTIVITYSTART,true
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			History
+			Legend
+			Legends
+			Stories
+			Story
+			Tales
+		POTHGENACTIVITYCONNECT,true
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+	<*>
+		POTHGENACTIVITYNAME,true
+			Rituals
+		POTHGENACTIVITYCONNECT,true
+			of
+		POTHGENACTIVITYSTART,true
+			The 
+			
+POTHGETDIETYTYPES
+//Singles are doubled up for conceptual stability
+	<*>
+		POTHGETDIETYCALL,true
+			God
+		POTHGETDIETYCALLPOS,true
+			God's
+	<*>
+		POTHGETDIETYCALL,true
+			Goddess
+		POTHGETDIETYCALLPOS,true
+			Goddess'
+	<*>
+		POTHGETDIETYCALL,true
+			God
+		POTHGETDIETYCALLPOS,true
+			God's
+	<*>
+		POTHGETDIETYCALL,true
+			Goddess
+		POTHGETDIETYCALLPOS,true
+			Goddess'
+	<*>
+		POTHGETDIETYCALL,true
+			Gods
+		POTHGETDIETYCALLPOS,true
+			Gods'
+	<*>
+		POTHGETDIETYCALL,true
+			Goddesses
+		POTHGETDIETYCALLPOS,true
+			Goddesses'
+//Main Refs
+POTHREFDIETYGET
+	<POTHREFDIETYAREA> <*POTHGETDIETYTYPES><POTHGETDIETYCALL>
+POTHREFDIETYGETPOS
+	<POTHREFDIETYAREA> <*POTHGETDIETYTYPES><POTHGETDIETYCALLPOS>
+//REFS
+POTHREFDIETYAREA
+	Air
+	Agriculture
+	Animal
+	Autumn
+	Birth
+	Cannibal
+	Courage
+	Creator
+	Day
+	Death
+	Desert
+	Destiny
+	Divnination
+	Earth
+	Farming
+	Fate
+	Fertility
+	Fire
+	Forest
+	Forge
+	Fortune
+	Gambling
+	Grain
+	Guardian
+	Healing
+	Hearth
+	Home
+	Hunting
+	Illness
+	Justice
+	Knowledge
+	Light
+	Lightning
+	Luck
+	Love
+	Magic
+	Medical
+	Merchant
+	Money
+	Moon
+	Mountain
+	Music
+	Mystery
+	Nature
+	Night
+	Ocean
+	Oracle
+	Plant
+	Prophecy
+	Protector
+	Rain
+	Revenge
+	River
+	Sea
+	Secret
+	Sickness
+	Sky
+	Spring
+	Snow
+	Star
+	Storm
+	Subterranean
+	Summer
+	Sun
+	Ruler
+	Thief
+	Thunder
+	Time
+	Trade
+	Travel
+	Treasure
+	Underworld
+	Unknown
+	Valor
+	Vegetation
+	Vengeance
+	Victory
+	War
+	Weather
+	Winter
+	Wind
+	Wine
+	Wisdom
+	Wood
+	Woodland
+	Word
+POTHREFDIETYDESCRIBE
+	All-Powerful
+	All-Knowing
+	All-Seeing
+	All-Wise
+	Awe-Inspiring
+	Benevolent
+	Eternal
+	Great
+	Infallable
+	Infinite
+	Invunerable
+	Omnipotent
+	Omnipresent
+	Powerful
+	Subtle
+	Wise
+	Wonderful
+	Wondrous
+POTHREFOTHERDESCRIBE
+	Ancient
+	Classic
+	False
+	Famous
+	Great
+	Hidden
+	Historical
+	Infamous
+	Legendary
+	Major
+	Minor
+	Mysterious
+	Obscure
+	Recent
+	Secret
+	True
+	Well-Known
+//GENS
+POTHGENACTIVITYCONNECT
+	REFERENCE
+POTHGENACTIVITYNAME
+	ACTIVITY
+POTHGENACTIVITYSTART
+	THE
+POTHGETDIETYCALL
+	DIETIES
+POTHGETDIETYCALLPOS
+	DIETIES'
+//Weapons
+MDWPBASESEED
+	<MDWPREFFORETYPE> of the <*MDWPGETWEAPONS><MDWPGENSINGLE>
+	<MDWPREFFORETYPE> of <*MDWPGETWEAPONS><MDWPGENPLURAL>
+	The <*MDWPGETWEAPONS><MDWPGENSINGLE>: <MDWPREFAFTERTYPE>
+	<*MDWPGETWEAPONS><MDWPGENPLURAL>: <MDWPREFAFTERTYPE>
+MDWPCOMPSEED
+	<MDWPENREFINFOROUTE2><MDWPREFCOMPARE> of <*MDWPGETWEAPONS><MDWPGENPLURAL> and <*MDWPGETWEAPONS><MDWPGENPLURAL>
+	<MDWPENREFINFOROUTE2><MDWPREFCOMPARE> of the <*MDWPGETWEAPONS><MDWPGENSINGLE> and <*MDWPGETWEAPONS><MDWPGENSINGLE>
+MDWPMIXSEED
+	<MDWPREFFORETYPE> of the <*MDWPGETWEAPONS><MDWPGENSINGLE> and <*MDWPGETWEAPONS><MDWPGENSINGLE>
+	<MDWPREFFORETYPE> of <*MDWPGETWEAPONS><MDWPGENPLURAL> and <*MDWPGETWEAPONS><MDWPGENPLURAL>
+	The <*MDWPGETWEAPONS><MDWPGENSINGLE> and <*MDWPGETWEAPONS><MDWPGENSINGLE>: <MDWPREFAFTERTYPE>
+	<*MDWPGETWEAPONS><MDWPGENPLURAL> and <*MDWPGETWEAPONS><MDWPGENPLURAL>: <MDWPREFAFTERTYPE>
+//GETS
+MDWPGETWEAPONS
+	<*>
+		MDWPGENSINGLE,true
+			Axe
+		MDWPGENPLURAL,true
+			Axes
+	<*>
+		MDWPGENSINGLE,true
+			Battleax
+		MDWPGENPLURAL,true
+			Battleaxes
+	<*>
+		MDWPGENSINGLE,true
+			Bow
+		MDWPGENPLURAL,true
+			Bows
+	<*>
+		MDWPGENSINGLE,true
+			Broadsword
+		MDWPGENPLURAL,true
+			Broadswords
+	<*>
+		MDWPGENSINGLE,true
+			Crossbow
+		MDWPGENPLURAL,true
+			Crossbows
+	<*>
+		MDWPGENSINGLE,true
+			Crossbow-pistol
+		MDWPGENPLURAL,true
+			Crossbow-pistols
+	<*>
+		MDWPGENSINGLE,true
+			Cutlass
+		MDWPGENPLURAL,true
+			Cutlasses
+	<*>
+		MDWPGENSINGLE,true
+			Dagger
+		MDWPGENPLURAL,true
+			Daggers
+	<*>
+		MDWPGENSINGLE,true
+			Dart
+		MDWPGENPLURAL,true
+			Darts
+	<*>
+		MDWPGENSINGLE,true
+			Falchion
+		MDWPGENPLURAL,true
+			Falchions
+	<*>
+		MDWPGENSINGLE,true
+			Glaive
+		MDWPGENPLURAL,true
+			Glaives
+	<*>
+		MDWPGENSINGLE,true
+			Halbierd
+		MDWPGENPLURAL,true
+			Halbierds
+	<*>
+		MDWPGENSINGLE,true
+			Javelin
+		MDWPGENPLURAL,true
+			Javelins
+	<*>
+		MDWPGENSINGLE,true
+			Lance
+		MDWPGENPLURAL,true
+			Lances
+	<*>
+		MDWPGENSINGLE,true
+			Longbow
+		MDWPGENPLURAL,true
+			Longbows
+	<*>
+		MDWPGENSINGLE,true
+			Longsword
+		MDWPGENPLURAL,true
+			Longswords
+	<*>
+		MDWPGENSINGLE,true
+			Net
+		MDWPGENPLURAL,true
+			Nets
+	<*>
+		MDWPGENSINGLE,true
+			Scimtar
+		MDWPGENPLURAL,true
+			Scimtars
+	<*>
+		MDWPGENSINGLE,true
+			Shiv
+		MDWPGENPLURAL,true
+			Shivs
+	<*>
+		MDWPGENSINGLE,true
+			Shortbow
+		MDWPGENPLURAL,true
+			Shortbows
+	<*>
+		MDWPGENSINGLE,true
+			Shortsword
+		MDWPGENPLURAL,true
+			Shortswords
+	<*>
+		MDWPGENSINGLE,true
+			Sling
+		MDWPGENPLURAL,true
+			Slings
+	<*>
+		MDWPGENSINGLE,true
+			Spear
+		MDWPGENPLURAL,true
+			Spears
+	<*>
+		MDWPGENSINGLE,true
+			Stiletto
+		MDWPGENPLURAL,true
+			Stilettos
+	<*>
+		MDWPGENSINGLE,true
+			Sword
+		MDWPGENPLURAL,true
+			Swords
+	<*>
+		MDWPGENSINGLE,true
+			Trident
+		MDWPGENPLURAL,true
+			Tridents
+//REFS
+MDWPREFCOMPARE
+	Comparison
+	Cross-Examination
+	Comparative Evaulation
+	Peacetime Comparison
+	Tactical Comparison
+MDWPREFAFTERTYPE
+	<MDWPENREFFUNCROUTE> Covert Use
+	<MDWPENREFFUNCROUTE> Development
+	<MDWPENREFINFOROUTE> History
+	<MDWPENREFINFOROUTE> Legendary History
+	<MDWPENREFFUNCROUTE> Maintenance
+	<MDWPENREFFUNCROUTE> Manufacture
+	<MDWPENREFFUNCROUTE> Origins
+	<MDWPENREFFUNCROUTE> Peacetime Use
+	<MDWPENREFFUNCROUTE> Wartime Use
+	<MDWPENREFFUNCROUTE> Variations
+MDWPREFFORETYPE
+	<MDWPENREFFUNCROUTE2>Covert Use
+	<MDWPENREFFUNCROUTE2>Development
+	<MDWPENREFINFOROUTE> History
+	<MDWPENREFINFOROUTE> Legendary History
+	<MDWPENREFFUNCROUTE2>Maintenance
+	<MDWPENREFFUNCROUTE2>Manufacture
+	<MDWPENREFFUNCROUTE2>Origins
+	<MDWPENREFFUNCROUTE2>Peacetime Use
+	<MDWPENREFFUNCROUTE2>Variants
+	<MDWPENREFFUNCROUTE2>Wartime Use
+//Enhancer Refs
+MDWPENREFINFOROUTE
+	A
+	<MDWPENREFINFO>
+MDWPENREFINFOROUTE2
+	A 
+	<MDWPENREFINFO> 
+MDWPENREFFUNCROUTE
+	<*>
+	<MDWPENREFFUNC>
+	<MDWPENREFINFO> <MDWPENREFFUNC2>
+MDWPENREFFUNCROUTE2
+	<*>
+	<MDWPENREFFUNC> the 
+	<MDWPENREFINFO> <MDWPENREFFUNC2> the 
+MDWPENREFFUNC
+	A Discussion of
+	An Examination of
+	A Guide To
+	A Tutorial To
+MDWPENREFFUNC2
+	Discussion of
+	Examination of
+	Guide to
+	Tutorial on
+MDWPENREFINFO
+	An Abridged
+	A Brief
+	A Concise
+	An Expanded
+	An Extensive
+	A New
+	A Revised
+	A Revolutionary
+//GENS
+MDWPGENSINGLE
+	Weapon
+MPWPGENPLURAL
+	Weapons
+// Extras
+//
+BKEXALTERATIONS
+	<BKEXALTERATIONSUSE>
+	<BKEXALTERATIONSNOUSE>
+BKEXALTERATIONSUSE
+	Folded-down pages <BKEXREFRELEVANCEPAGES>
+	Written notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>
+	Folded-down pages <BKEXREFRELEVANCEPAGES>.  Written notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+BKEXALTERATIONSNOUSE
+	A written dedication in the beginning <BKEXREFWRITTENROUTE2>.
+	Some personal notes<BKEXREFWRITTENROUTE> unrelated to the book, <BKEXREFPAGEWHERE>.
+	Some notes<BKEXREFWRITTENROUTE> <BKEXREFPAGEWHERE>, that have nothing whatsoever to do with the book's contents.
+BKEXINCLUSIONS
+	Bookmarks <BKEXREFRELEVANCEPAGES>.
+	Pieces of paper with notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+	<BKEXINCLUSIONSMORE>
+	Bookmarks <BKEXREFRELEVANCEPAGES>.  Pieces of paper with notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+BKEXINCLUSIONSMORE
+	A map <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION>.
+	A list of <BKEXREFLISTFOCUS> <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION>.
+	Some document listing <BKEXREFLISTFOCUS> <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION><BKEXLISTRELEVANT>.
+//REFERENCES
+BKEXBOOKLOCATION
+	in the back of the book
+	secreted in the binding
+	in a hidden compartment
+	stuck halfphazardly into the book
+BKEXLISTRELEVANT
+	<*>
+	, and seem to be <BKEXREFRELATE> to the book's subject
+BKEXREFLISTFOCUS
+	allies
+	birthdays
+	dates
+	enemies
+	friends
+	locations
+	prices
+	scolars
+	supplies
+BKEXREFPAGEWHERE
+	concentrated in select sections of the book
+	on one page
+	on several concurrent pages
+	scattered throughout the book
+BKEXREFRELATE
+	partially-related
+	related
+	unrelated
+BKEXREFRELEVANCEINFO
+	commenting on informative information in the book
+	expanding on informative information in the book
+	commenting critically on related elements in the book
+	commenting critically on various parts of the book
+	that seem to have to have no single purpose
+	that comment on errors in the book
+BKEXREFRELEVANCEPAGES
+	marking informative information
+	marking pages with similar information
+	marking pages that seem to have no similar or related information
+	marking pages that seem to have some errors in them
+	that show no pattern in their location
+//WRITING QUALITY REFERENCES
+BKEXREFWRITTENROUTE
+	<*>
+	, <BKEXREFWRITTENQUALITY>,
+BKEXREFWRITTENROUTE2
+	<*>
+	<BKEXREFWRITTENQUALITY>
+BKEXREFWRITTENQUALITY
+	in an archaic tongue
+	in some kind of code
+	in a recognizable, but foreign language
+	in incoherent writing
+// Clarity
+//Base clarity
+REFBASECLEAR
+	<REFCLEARVERYBAD>
+		GETCLEARINFOTRANS,true
+			<REFVERYBADINFOTRANS>
+	<REFCLEARBAD>
+		GETCLEARINFOTRANS,true
+			<REFBADINFOTRANS>
+	<REFCLEARAVERAGE>
+		GETCLEARINFOTRANS,true
+			<REFAVERAGEBADINFOTRANS>
+	<REFCLEARGOOD>
+		GETCLEARINFOTRANS,true
+			<REFVERYGOODINFOTRANS>
+	<REFCLEARVERYGOOD>
+		GETCLEARINFOTRANS,true
+			<REFVERYGOODINFOTRANS>
+//Base clarity routing.
+REFCLEARAVERAGE
+	<REFCLEARAVERAGETERM>
+	<REFCLEARAVERAGETERM> <REFBECAUSE> <REFCLEARREASONGOOD>
+	<REFCLEARAVERAGETERM> <REFDESPITE> <REFCLEARREASONBAD>
+	<REFCLEARAVERAGETERM> <REFBECAUSE> <REFCLEARREASONGOOD> that <REFCOMPENSATE> <REFCLEARREASONBAD>
+REFCLEARAVERAGETERM
+	reasonably easy to understand
+	of average clarity
+	reasonably clear
+	clear
+REFCLEARBAD
+	<REFCLEARBADTERM>
+	<REFCLEARBADTERM> <REFBECAUSE> <REFCLEARREASONBAD>
+REFCLEARBADTERM
+	not very clear
+	hard to understand
+	muddled
+REFCLEARGOOD
+	<REFCLEARGOODTERM>
+	<REFCLEARGOODTERM> <REFBECAUSE> <REFCLEARREASONGOOD>
+REFCLEARGOODTERM
+	of above-average clarity
+	very clear
+	easy to understand
+	quite clear
+REFCLEARVERYGOOD
+	<REFCLEARVERYGOODTERM> <REFBECAUSE> <REFCLEARREASONVERYGOOD>
+REFCLEARVERYGOODTERM
+	very easy to understand
+	impressively clear
+	easily understandable
+REFCLEARVERYBAD
+	<REFCLEARVERYBADTERM> <REFBECAUSE> <REFCLEARREASONVERYBAD>
+REFCLEARVERYBADTERM
+	practacally incomprehensible
+	muddled beyond belief
+	all but impossible to understand
+//Base Clarity Reasons
+REFCLEARREASONBAD
+	a lack of coherent planning
+	the poor diagrams
+	the bad illustrations
+	a lack of proper references
+	a meandering writing style
+REFCLEARREASONVERYBAD
+	terrible diagrams
+	there being no coherent organization whatsoever
+	a complete lack of any kind of useful references
+	it having no kind of organization at all
+	having an author that was apparently <REFAUTHORSTATE>
+REFCLEARREASONGOOD
+	the excellent, well-planned chapters
+	the good diagrams
+	the good references
+	the well-done illustrations
+REFCLEARREASONVERYGOOD
+	incredibly well-done and helpful illustrations
+	extensive references
+	careful, well-planned chapters
+	wonderful organization
+//Usefulness of information
+REFBASEINFO
+	<REFINFOVERYBAD>
+		GETINFOTOBADTRANS,true
+			<REFINFOBADTOBADTRANS>
+		GETINFOTOGOODTRANS,true
+			<REFINFOBADTOGOODTRANS>
+	<REFINFOBAD>
+		GETINFOTOBADTRANS,true
+			<REFINFOBADTOBADTRANS>
+		GETINFOTOGOODTRANS,true
+			<REFINFOBADTOGOODTRANS>
+	<REFINFOAVERAGE>
+		GETINFOTOBADTRANS,true
+			<REFINFOAVERAGETRANS>
+		GETINFOTOGOODTRANS,true
+			<REFINFOAVERAGETRANS>
+	<REFINFOGOOD>
+		GETINFOTOBADTRANS,true
+			<REFINFOGOODTOBADTRANS>
+		GETINFOTOGOODTRANS,true
+			<REFINFOGOODTOGOODTRANS>
+	<REFINFOVERYGOOD>
+		GETINFOTOBADTRANS,true
+			<REFINFOGOODTOBADTRANS>
+		GETINFOTOGOODTRANS,true
+			<REFINFOGOODTOGOODTRANS>
+REFINFOVERYBAD
+	it has no useful information
+REFINFOBAD
+	it has little useful information
+REFINFOAVERAGE
+	it is reasonably useful
+REFINFOGOOD
+	it has a lot useful information
+REFINFOVERYGOOD
+	it is extremely informative
+//Base references for information clarity
+REFVERYBADINFOTRANS
+	If someone somehow manages to make sense of it, they will find
+	If, by chance or skill, someone can unriddle the book, that person will find
+	After a considerable effort to figure out what the book is actually trying to saying, one will find
+	If one miraculously managed to understand the book's contents, that person will find
+	A talented person may be able to derive some understanding from the book and find
+REFBADINFOTRANS
+	If someone makes an effort to read it, they will find
+	After some effort to read the book, one can find
+	With effort, one will be able to understand the book, and will find
+	With time, intellect, or both, one can make sense of the book, and it will reveal
+	With some work, a person can make sense of the book, which will reveal
+REFAVERAGEBADINFOTRANS
+	Reading it will show that
+	Perusing it will show that
+	With a bit of reading, it will be revealed that
+	A small study will show
+	Sitting down with it will reveal
+REFVERYGOODINFOTRANS
+	This clarity allows one to determine that
+	It's easy to determine that
+	The book's well-done nature allows one to easily find that
+	A short look at the book will show that
+	It doesnt take much effort to determine that
+REFVERYGOODINFOTRANS
+	This clarity easily allows one to determine that
+	It takes almost no effort to find that
+	Even a quick examination reveals
+	One can quickly find that
+	Almost anyone examining it will find that
+//Originality
+GETORIGINALINFO
+	<REFORIGINALINFOVERYGOOD>
+	<REFORIGINALINFOGOOD>
+	<REFORIGINALINFOAVERAGE>
+	<REFORIGINALINFOBAD>
+	<REFORIGINALINFOVERYBAD>
+REFORIGINALINFOAVERAGE
+	<*>
+REFORIGINALINFOBAD
+	  <GETINFOTOBADTRANS> the contents are not very original.
+	  <GETINFOTOBADTRANS> the contents are original.
+	  <GETINFOTOBADTRANS> the contents are derivative.
+	  <GETINFOTOBADTRANS> the contents show some plagarism.
+	  <GETINFOTOBADTRANS> the contents are less than original.
+REFORIGINALINFOGOOD
+	  <GETINFOTOGOODTRANS> the contents contain some original thought.
+	  <GETINFOTOGOODTRANS> the contents have a few areas of deep insight.
+	  <GETINFOTOGOODTRANS> the contents provide an occasional insight or new idea.
+	  <GETINFOTOGOODTRANS> the contents display thoughtfulness and some new ideas.
+	  <GETINFOTOGOODTRANS> the contents have moments of intriguing originality.
+REFORIGINALINFOVERYBAD
+	  <GETINFOTOBADTRANS> the contents are plagarized.
+	  <GETINFOTOBADTRANS> the contents seem to have been stolen from another work.
+	  <GETINFOTOBADTRANS> the contents were probably taken from several works.
+	  <GETINFOTOBADTRANS> that the majority of the contents were obviously taken from someone else's work
+	  <GETINFOTOBADTRANS> that the majority contents were obviously taken from a few other works
+REFORIGINALINFOVERYGOOD
+	  <GETINFOTOGOODTRANS> the ideas within are very original.
+	  <GETINFOTOGOODTRANS> the ideas within are very insightful.
+	  <GETINFOTOGOODTRANS> the ideas within make you see things differently.
+	  <GETINFOTOGOODTRANS> the concepts and information do show a great deal of insight.
+	  <GETINFOTOGOODTRANS> the concepts in the book do show a lot of original thought.
+REFINFOAVERAGETRANS
+	After some reading, it is apparent that 
+	After a quick examination, one will find that
+	Perusing the book reveals that
+REFINFOBADTOBADTRANS
+	To make things worse, one will eventually discover that
+	Making the book virtually useless, it appears that
+	The suffering reader will discover, with time, that
+REFINFOBADTOGOODTRANS
+	The reader can take some comfort in the fact that
+	At least
+	Though flawed, one can definitely see that
+	One may be deterred from reading it, but it is evident that
+REFINFOGOODTOBADTRANS
+	Unfortunately,
+	Sadly,
+	Despite its good traits,
+REFINFOGOODTOGOODTRANS
+	One will also find that
+	Making it even more of a find,
+	Delighftully,
+//Set transitions
+GETCLEARINFOTRANS
+	CLEARINFOTRANS
+GETINFOTOBADTRANS
+	<REFINFOAVERAGETRANS>
+GETINFOTOGOODTRANS
+	<REFINFOAVERAGETRANS>
+//Extra References
+REFAUTHORSTATE
+	suffering from a drinking problem
+	suffering from a chemical dependency
+	suffering from mental illness
+	lacking familiarity with any form of writing
+	lacking any sense of organizational skill
+REFBECAUSE
+	because of
+	due to
+	mostly due to
+	thanks to
+REFCOMPENSATE
+	make up for
+	almost make up for
+	compensate for
+	help a reader deal with
+REFDESPITE
+	despite

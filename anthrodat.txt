@@ -1,0 +1,1414 @@
+//Seeds
+SEED
+	<SEEDFANTASY>
+	<SEEDMODERN>
+	<SEEDSF>
+	<SEEDSTEAMPUNK>
+SEEDANYFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDANYMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//General
+SEEDGENERAL
+	<SEEDGENERALFEMALE>
+	<SEEDGENERALMALE>
+SEEDGENERALFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDGENERALMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Fantasy
+SEEDFANTASY
+	<SEEDFANTASYMALE>
+	<SEEDFANTASYFEMALE>
+SEEDFANTASYFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDFANTASYMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Modern
+SEEDMODERN
+	<SEEDMODERNFEMALE>
+	<SEEDMODERNMALE>
+SEEDMODERNFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDMODERNMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Science Fiction
+SEEDSF
+	<SEEDSFFEMALE>
+	<SEEDSFMALE>
+SEEDSFFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSFMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Steampunk
+SEEDSTEAMPUNK
+	<SEEDSTEAMPUNKFEMALE>
+	<SEEDSTEAMPUNKMALE>
+SEEDSTEAMPUNKFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSTEAMPUNKMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPE> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Mythical Routes
+//Seeds
+SEEDMYTH
+	<SEEDFANTASYMYTH>
+	<SEEDMODERNMYTH>
+	<SEEDSFMYTH>
+	<SEEDSTEAMPUNKMYTH>
+SEEDANYFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDANYMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//General
+SEEDGENERALMYTH
+	<SEEDGENERALFEMALEMYTH>
+	<SEEDGENERALMALEMYTH>
+SEEDGENERALFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDGENERALMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Fantasy
+SEEDFANTASYMYTH
+	<SEEDFANTASYMALEMYTH>
+	<SEEDFANTASYFEMALEMYTH>
+SEEDFANTASYFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDFANTASYMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Modern
+SEEDMODERNMYTH
+	<SEEDMODERNFEMALEMYTH>
+	<SEEDMODERNMALEMYTH>
+SEEDMODERNFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDMODERNMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Science Fiction
+SEEDSFMYTH
+	<SEEDSFFEMALEMYTH>
+	<SEEDSFMALEMYTH>
+SEEDSFFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSFMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//Steampunk
+SEEDSTEAMPUNKMYTH
+	<SEEDSTEAMPUNKFEMALEMYTH>
+	<SEEDSTEAMPUNKMALEMYTH>
+SEEDSTEAMPUNKFEMALEMYTH
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSTEAMPUNKMALEMYTH
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> anthropomorphic <REFANIMALTYPEMYTH> <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//End Mythical routes.
+//REFSROUTES
+REFDESCRIPTIVE
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+REFDESCRIPTIVESINGLE
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+REFEXTRAMODFANTASYROUTE
+	 <REFEXTRAMODFANTASY>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODROUTE
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+REFEXTRAMODSFROUTE
+	 <REFEXTRAMODSF>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODSTEAMROUTE
+	 <REFEXTRAMODSTEAM>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODROUTEUSE
+	<REFEXTRAMODREGULAR>
+REFEXTRABUILDROUTE
+	 <RETGENDERCAP> has <RETBUILD> build.
+	<*>
+REFEXTRAWARDROBEROUTE
+	 <RETPOSESSIVECAP> wardrobe is <REFWARDROBE>.
+	<*>
+REFDESCRIPTIVEPERSONALITY
+//1s
+	<REFDESCRIPTIVEMENTAL>
+	<REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEEXPERIENCE>
+//2s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVESOCIAL>,	<REFDESCRIPTIVEEXPERIENCE>
+//3s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+REFDESCRIPTIVEMENTAL
+	addled
+	clever
+	clueless
+	confused
+	cunning
+	educated
+	ignorant
+	illogical
+	intelligent
+	intuitive
+	irrational
+	scatterbrained
+	smart
+	wise
+	unwise
+REDESCRIPTIVEPERSONALITY
+	aggravated
+	aloof
+	altruistic
+	ambitious
+	anxious
+	apathetic
+	arrogant
+	artistic
+	awkward
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	cheerful
+	clinging
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	contemplative
+	courageous
+	cowardly
+	craven
+	crazy
+	creative
+	cruel
+	cynical
+	delusional
+	depressed
+	detached
+	diabolical
+	disillusioned
+	disorganized
+	dispirited
+	dissatisfied
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	enduring
+	energetic
+	ethical
+	fearful
+	fear-ridden
+	fearsome
+	focused
+	forceful
+	frustrated
+	funny
+	generous
+	gentle
+	greedy
+	grim
+	happy
+	heroic
+	humble
+	hypocritical
+	hysterical
+	immature
+	immoral
+	incoherent
+	indecisive
+	industrious
+	inhibited
+	innocent
+	intimidating
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	loudmouthed
+	manipulative
+	materialistic
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	naive
+	narrow-minded
+	negative
+	nervous
+	neurotic
+	nice
+	nihilistic
+	noisy
+	nostalgic
+	nurturing
+	obedient
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patriotic
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	pious
+	plucky
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	religious
+	righteous
+	ruthless
+	sadistic
+	sarcastic
+	secretive
+	serene
+	serious
+	shiftless
+	shifty
+	short-tempered
+	silly
+	sleazy
+	sloppy
+	slothful
+	slovenly
+	snide
+	spendthrift
+	spiritual
+	stingy
+	stressed
+	studious
+	stupid
+	tired
+	tireless
+	tough
+	unambitious
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unheroic
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	vicious
+	violent
+	watchful
+	weak-willed
+	weary
+	whiny
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	worried
+REFDESCRIPTIVESOCIAL
+	alienated
+	amiable
+	antisocial
+	boring
+	broken-hearted
+	charismatic
+	chaste
+	conformist
+	cooperative
+	corrupt
+	disloyal
+	extraverted
+	friendly
+	hateful
+	introverted
+	lonely
+	playful
+	private
+	promiscuous
+	romantic
+	rude
+	selfish
+	selfless
+	self-righteous
+	smooth
+	social
+	tactful
+	tactless
+	tolerant
+	unpopular
+	vocal
+REFDESCRIPTIVEEXPERIENCE
+	educated
+	experienced
+	inexperienced
+	seasoned
+	sheltered
+	world-weary
+	worldwise
+	uneducated
+//MOD REFS
+REFEXTRAMODREGULAR
+	coping with mental illness
+	escpaing the past
+	from a bad family
+	from a big family
+	from a good family
+	from a small family
+	from an unusual family line
+	from nowhere
+	hiding a dark secret
+	haunted by dark memories
+	haunted by flashbacks
+	living on borrowed time
+	looking for a challenge
+	looking for love
+	needing a friend
+	on the run from the law
+	on the wrong side of the law
+	searching for a family member
+	searching for a lost friend
+	searching for employment
+	searching for justice
+	searching for purpose
+	searching for truth
+	trapped by the past
+	who belongs to a secret organization
+	who can't resist a fight
+	who can't resist helping people
+	who fears people think he/she is a fraud
+	who fears the future
+	who fell in with the wrong crowd
+	who had a near-death experience that changed them significantly
+	who has an odd way of speaking
+	who has several nervous habits
+	who hates animals
+	who hates children
+	who hopes to be the best in his/her profession
+	who is a complete fraud
+	who is an outsider
+	who is considered the best in his/her profession
+	who is considered the worst in his/her profession
+	who is cursed with bad luck
+	who is dependent on medication
+	who is estranged from family members
+	who is given to moments of deep introspection
+	who is more than meets the eye
+	who is part of a secret society
+	who is prone to odd statements
+	who is seeking meaning in life
+	who lost meaning in life
+	who loves animals
+	who loves children
+	who seems insane
+	who suffers from a chronic disease
+	who suffers from a chronic medical condition
+	with a chemical dependency
+	with a dark past
+	with a false identity
+	with a heart of gold
+	with a knack for trouble
+	with a large fortune
+	with a lot of friends
+	with a rival in his/her profession
+	with an odd birthmark
+	with an unexpected destiny
+	with big dreams
+	with little money
+	with no hope
+	with repressed memories
+	with uncanny abilities
+	with unexpected depths
+	with unusual luck
+REFEXTRAMODFANTASY
+	who has a demonic connection
+	who has a divine connection
+	who has annoyed the gods
+	who has rare occult knowledge
+	who inherited a family curse
+	who is burdened with dark knowlege
+	who is estranged nobility
+	who is heir to a kingdom
+	who is heir to a kingdom but doesn't know it
+	who is haunted by a ghost
+	who is easily affected by magic
+	who lives under a curse
+	who possesses a strange map
+	who possesses a strong immunity to magic
+	who secretly worships forbidden gods
+	who tends to annoy demonic beings
+	who tends to annoy divine beings
+	who was blessed by the gods
+	who worships unknown gods
+	who wields an unusual artifact
+	whose dwelling is haunted
+	whose family line was magically enhanced
+	with a peculiar affinity for magic
+	with a peculiar affinity for magical items
+	with a peculiar lack of affinity for magical items
+	with a peculiar lack of magical talent
+	with a strange rapport with supernatural beings
+	with demonic blood
+	with divine blood
+REFEXTRAMODSF
+	addicted to an otherworldly drug
+	addicted to virtual reality
+	fighting against a culture that won't allow him/her to reproduce
+	from a distant colony
+	from the past
+	from the future
+	hitch-hiking across the known universe
+	in love with someone of another species
+	in love with an artificial life form
+	in posession of an alien artifact
+	in posession of coordinates to a great secret
+	in posession of stolen technology
+	infected with an alien disease
+	infected with nanites
+	who just awoke from suspended animation
+	on an important journey to a parallel world
+	on an important journey through space
+	on an important journey through time
+	who fears a particular alien species
+	who has an obsessive attraction to a particular alien species
+	who has seen parts of the universe few have
+	who hates a particular alien species
+	who is fighting an alien occupation force
+	who is from a parallel dimension
+	who is from a parallel universe
+	who is actually an alien entity
+	who is seeking to return to his/her homeworld
+	who tragically misunderstood an alien custom
+	who was exiled to another dimension
+	who was exiled to another world
+	who was genetically engineered
+	who was granted strange abilities by an alien species
+	who was victimized by an artificial intelligence
+	who was victimized by an alien race
+	who plans to exploit another world
+	whose body was infected by an alien seeking to reproduce
+	whose culture has collapsed
+	whose mind was controlled by a parasite
+	whose species is being exterminated
+	whose species reproduces by cloning or similar technology
+	whose world is run by a computer
+	whose world is threatened by a space disaster
+	whose world is threatened by a technological disaster
+REFEXTRAMODSTEAM
+	who posesses a powerful technological artifact
+	who wields a powerful, mysterious weapon
+	who posesses a blueprint detailing a legendary machine
+	who has access to a mysterious, hidden laboratory
+	who is seeking a mysterious technological artifact
+	who is the heir of a lost kingdom
+	who is the heir of a line of great scientists
+	who is the victim of a strange experiment
+	who is the creation of a strange experiment
+	who was ressurected from the dead by the power of science
+	who has an inherent knowledge of technology
+	who despises the misuse of technology
+	who has an obsession with technology
+	whose body was rebuilt with steampunk technology
+//Professions
+REFPROFTYPEGENERALREGULAR
+	accountant
+	acrobat
+	actor
+	adventurer
+	advertising executive
+	airline pilot
+	ambassador
+	architect
+	archivist
+	assassin
+	assistant
+	astronaut
+	astronomer
+	bandit
+	bartender
+	baseball player
+	beggar
+	biologist
+	boatman
+	bodyguard
+	botanist
+	bounty hunter
+	businessperson
+	cab driver
+	CEO
+	champion
+	chemical engineer
+	chemist
+	cleric
+	clerk
+	comic
+	computer programmer
+	construction worker
+	corporate official
+	dancer
+	daycare employee
+	detective
+	doctor
+	explorer
+	farmer
+	fence
+	fighter pilot
+	fire fighter
+	football player
+	gambler
+	garbageman
+	gigolo/prostitute
+	hacker
+	heir
+	hermit
+	hero
+	heroine
+	hockey player
+	hunter
+	impostor
+	investor
+	jailer
+	jock
+	laborer
+	lawman
+	leader
+	librarian
+	linguist
+	manager
+	marine
+	martial artist
+	media personality
+	media technician
+	mentor
+	mercenary
+	merchant
+	midwife
+	miner
+	mobster
+	murderer
+	musician
+	novelist
+	nurse
+	official
+	outlaw
+	pedlar
+	pharmacist
+	philanthropist
+	philosopher
+	physicist
+	poet
+	police chief
+	policeman
+	politician
+	pretender
+	priest/priestess
+	professor
+	prospector
+	prostitute
+	psychiatrist
+	psychologist
+	rabble-rouser
+	rascal
+	repairman
+	reporter
+	rogue
+	sailor
+	salesperson
+	scientist
+	secret agent
+	secretary
+	servant
+	singer
+	smuggler
+	soldier
+	spy
+	stockbroker
+	student
+	teacher
+	technician
+	theologian
+	thief
+	trader
+	traitor
+	traveler
+	vetrenarian
+	wanderer
+	weapons master
+	zookeeper
+	zoologist
+REFPROFTYPEGENERALFANTASYREGULAR
+	alchemist
+	archer
+	armorer
+	assassin
+	barbarian
+	berserker
+	blacksmith
+	bodyguard
+	brigand
+	cavalier
+	cleric
+	conjurer
+	crusader
+	demonologist
+	diviner
+	druid
+	elementalist
+	exorcist
+	fence
+	guard
+	herbologist
+	heretic
+	hunter
+	illusionist
+	inquisitor
+	knight
+	jester
+	mage
+	marine
+	martial artist
+	mercenary
+	necromancer
+	paladin
+	poacher
+	prophet
+	ranger
+	scribe
+	seer
+	shaman
+	soldier
+	sorcerer
+	spy
+	thief
+	tomb robber
+	watchman
+	witch/warlock
+	witch-hunter
+REFPROFTYPESFREGULAR
+	astronaut
+	chief engineer
+	communications officer
+	communications technician
+	computer techician
+	cyberneticist
+	cyberpunk
+	engineer
+	fighter pilot
+	first contact specialist
+	first officer
+	life support technician
+	linquistics expert
+	medical officer
+	medical technician
+	nanotechnologist
+	operations manager
+	planetary explorer
+	planetologist
+	quartermaster
+	security agent
+	security officer
+	shuttlecraft pilot
+	space fighter
+	space hitchhiker
+	space pirate
+	starship captain
+	starship engineer
+	starship navigator
+	starship pilot
+	stellar cartographer
+	tactical officer
+	technician
+	weapons officer
+	xenoarcheologist
+	xenobiologist
+	xenobotanist
+	xenolinguist
+	xenomedical expert
+	xenosociologist
+REFPROFTYPESTEAMPUNKREGULAR
+	adventurer
+	apothacarey
+	antiquities collector
+	archaeologist
+	architect
+	astronomer
+	bodyguard
+	bombadier
+	brawler
+	chemist
+	engineer
+	explorer
+	gadgeteer
+	grenadier
+	gunfighter
+	gunner
+	inventor
+	mad scientist
+	marine
+	marksman/woman
+	metalsmith
+	miner
+	noble
+	novelist
+	physician
+	re-animator
+	reporter
+	sapper
+	scavenger
+	scholar
+	scientist
+	space explorer
+	spy
+	submarine pilot
+	submarine engineer
+	swords(wo)man
+	teacher
+	thief
+	train engineer
+	zepplin captain
+	zepplin pilot
+	zepplin engineer
+	zepplin pirate
+REFPROFTYPEANIMEREGULAR
+	alien prince/princess
+	artificial life form
+	cosplay fanatic
+	cyborg
+	delinquent
+	fanboy/girl
+	idol singer
+	magical girl/knight
+	martial artist
+	monk/shrine maiden
+	monster trainer
+	ninja
+	office lady/salaryman
+	psychic
+	robot pilot
+	robot engineer
+	samurai
+	schoolboy/girl
+	spirit detective
+	street fighter
+//PROFTYPE ROUTES
+RETPROFTYPEROUTE
+	<REFPROFTYPEGENERALREGULAR>
+RETPROFTYPEFANTASYROUTE
+	<REFPROFTYPEGENERALFANTASYREGULAR>
+RETPROFTYPESFROUTE
+	<REFPROFTYPESFREGULAR>
+RETPROFTYPESTEAMPUNKROUTE
+	<REFPROFTYPESTEAMPUNKREGULAR>
+//ANIMAL REFS
+//REFS
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFWARDROBE
+	artistic
+	attractive
+	bizarre
+	businesslike
+	classy
+	complicated
+	dignified
+	elaborate
+	elegant
+	fashionable
+	flattering
+	impractical
+	mysterious
+	non-nonsense
+	odd
+	plain
+	practical
+	professional
+	revealing
+	risque
+	severe
+	sexy
+	simple
+	strange
+	tight-fitting
+	uncomplicated
+	unconventional
+	unusual
+	utilitarian
+	weird
+REFFEATHERCOLOR
+	black-feathered
+	blue-feathered
+	gray-feathered
+	green-feathered
+	orange-feathered
+	purple-feathered
+	red-feathered
+	white-feathered
+	yellow-feathered
+REFFURCOLOR
+	black-furred
+	brown-furred
+	gray-furred
+	orange-furred
+	red-furred
+	white-furred
+	yellow-furred
+REFSCALECOLOR
+	black-scaled
+	blue-scaled
+	gray-scaled
+	green-scaled
+	orange-scaled
+	purple-scaled
+	red-scaled
+	white-scaled
+	yellow-scaled
+//MIXED ROUTES
+REFGENDERTYPE
+	male
+	female
+//SETS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			female
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			male
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+//RETS
+//GENDER RETS
+RETDIRREF
+	genderless
+RETGENDER
+	it
+RETGENDERCAP
+	It
+RETPOSESSIVE
+	its
+RETPOSESSIVECAP
+	Its
+RETBUILD
+	<REFBUILDGENERAL>
+//REFANIMALS
+//LEVEL 1
+REFANIMALTYPE
+	<REFANIMALAMBHIBIAN>
+	<REFANIMALAVIAN>
+	<REFANIMALAQUATIC>
+	<REFANIMALMAMMAL>
+	<REFANIMALMAMMAL>
+	<REFANIMALMAMMAL>
+	<REFANIMALMAMMAL>
+	<REFANIMALREPTILE>
+//Level 2
+REFANIMALAVIAN
+	<REFANIMALAVIANGENERAL>
+	<REFANIMALAVIANSPECIFIC>
+REFANIMALAQUATIC
+	<REFANIMALAQUATICGENERAL>
+	<REFANIMALCETACEA>
+	<REFANIMALFISH>
+REFANIMALMAMMAL
+	<REFANIMALBAT>
+	<REFANIMALCANINE>
+	<REFANIMALFELINE>
+	<REFANIMALHEDGEHOG>
+	<REFANIMALLAPINE>
+	<REFANIMALMARSUPIAL>
+	<REFMUSTELOID>
+	<REFANIMALPROBOSCA>
+	<REFANIMALRODENTIA>
+	<REFANIMALSHREW>
+	<REFANIMALUNGULATES>
+	<REFANIMALURSINE>
+REFANIMALREPTILE
+	<REFANIMALREPTILEGENERAL>
+	<REFANIMALREGULARREPTILE>
+//Level 3
+REFANIMALCANINE
+	<REFANIMALCANINEGENERAL>
+	<REFANIMALCANINESPECIFIC>
+	<REFANIMALCAININEDOGBREED>
+REFANIMALFELINE
+	<REFANIMALFELINEGENERAL>
+	<REFANIMALFELINESPECIFIC>
+	<REFANIMALFELINECATBREED>
+REFANIMALURSINE
+	<REFANIMALURSINEGENERAL>
+	<REFANIMALURSINESPECIFIC>
+//Level 4
+//DIRECT REFS
+REFANIMALAMBHIBIAN
+	Frog
+	Toad
+	Salamander
+	Mudskipper
+	Newt
+REFANIMALREPTILEGENERAL
+	<REFSCALECOLOR> Lizard
+	<REFSCALECOLOR> Snake
+REFANIMALREGULARREPTILE
+	Crocodile
+	Alligator
+	Gecko
+	Chameleon
+	Iguana
+	Komodo Dragon
+	Lizard
+	Turtle
+	Tortoise
+	Snake
+	Boa Constrictor
+	Cobra
+	Python
+	Viper
+	Rattlesnake
+REFANIMALHEDGEHOG
+	Hedgehog
+REFANIMALLAPINE
+	Rabbit
+	Hare
+REFANIMALMARSUPIAL
+	Opossum
+	Tasmanian Devil
+	Bandicoot
+	Koala
+	Wombat
+	Possum
+	Kangaroo
+	Wallaby
+REFANIMALPROBOSCA
+	Elephant
+REFANIMALRODENTIA
+	Squirrel
+	Flying squirrel
+	Rat
+	Mouse
+	Gopher
+	Beaver
+	Porcupine
+	Hamster
+	Prarie dog
+	Squirrel
+	Gerbil
+	Vole
+	Groundhog
+REFANIMALSHREW
+	Mole
+	Shrew
+REFANIMALUNGULATES
+	Pig
+	Boar
+	Hippo
+	Camel
+	Llama
+	Deer
+	Pronghorn
+	Giraffe
+	Okapi
+	Goat
+	Sheep
+	Antelope
+	Gnu
+	Bovine
+	Buffalo
+	Gazelle
+	Wildebeest
+	Yak
+REFANIMALBAT
+	Bat
+REFANIMALAVIANGENERAL
+	 <REFFEATHERCOLOR> Bird
+REFANIMALAVIANSPECIFIC
+	Ostrich
+	Emu
+	Dodo
+	Kiwi
+	Gull
+	Seagull
+	Loon
+	Quail
+	Albatross
+	Penguin
+	Pelican
+	Stork
+	Vulture
+	Buzzard
+	Flamingo
+	Falcon
+	Eagle
+	Hawk
+	Crane
+	Dove
+	Pigeon
+	Cuckoo
+	Cardinal
+	Bluebird
+	Owl
+	Hummingbird
+	Woodpecker
+	Duck
+	Goose
+	Magpie
+	Mockingbird
+	Blackbird
+	Robin
+	Crow
+	Raven
+	Bluejay
+	Lark
+	Swallow
+	Chicken
+	Turkey
+REFANIMALAQUATICGENERAL
+	<REFSCALECOLOR> Fish
+REFANIMALCETACEA
+	Dolphin
+	Killer Whale
+	Narwal
+	Porpoise
+	Whale
+REFANIMALFISH
+	Lamprey
+	Eel
+	Electric Eel
+	Lionfish
+	Shark
+	Manta Ray
+	Swordfish
+	Gar
+	Salmon
+	Trout
+	Pike
+	Sturgeon
+	Goldfish
+	Piranah
+	Oarfish
+	Lanternfish
+	Angler Fish
+	Barracuda
+	Stingray
+	Bass
+	Flying Fish
+	Sunfish
+	Bluegil
+	Bass
+	Catfish
+	Clownfish
+	Hammerhead Shark
+	Moray Eel
+REFANIMALCANINEGENERAL
+	<REFFURCOLOR> Dog
+	<REFFURCOLOR> Fox
+	<REFFURCOLOR> Wolf
+REFANIMALCANINESPECIFIC
+	Dog
+	Fox
+	Bat-Eared Fox
+	Jackal
+	Coyote
+	Dingo
+	Dhole
+	Wolf
+REFANIMALCAININEDOGBREED
+	Afghan Hound
+	Airedale terrier
+	Akita Inu
+	Alaskan Husky
+	Alaskan Malamute
+	Basenji
+	Beagle
+	Bichon Frise
+	Bloodhound
+	Border Collie
+	Border Terrier
+	Boxer
+	Bulldog
+	Cairn Terrier
+	Chihuahua
+	Chow Chow
+	Cockapoo
+	Cocker Spaniel
+	Collie
+	Dachshund
+	Dalmatian
+	Dingo
+	Doberman Pinscher
+	Fox Terrier
+	Foxhound
+	Golden Retriever
+	Greyhound
+	Husky
+	Irish Setter
+	Irish Wolfhound
+	Jack Russell Terrier
+	Labradoodle
+	Labrador Husky
+	Labrador Retriever
+	Lhasa Apso
+	Maltese
+	Mastiff
+	Papillon
+	Pekingese
+	Pinscher
+	Pit Bull
+	Pointer
+	Pomeranian
+	Poodle
+	Pug
+	Rat Terrier
+	Rottweiler
+	Saluki
+	Samoyed
+	Schipperke
+	Schnauzer
+	Scottish Terrier
+	Shar Pei
+	Sheepdog
+	Shiba Inu
+	Shih Tzu
+	Siberian Husky
+	St. Bernard
+	Terrier
+	Welsh Corgi
+	Whippet
+REFANIMALFELINEGENERAL
+	<REFFURCOLOR> Cat
+REFANIMALFELINESPECIFIC
+	Leopard
+	Puma
+	Cougar
+	Jagarundi
+	Lynx
+	Ocelot
+	Serval
+	Tiger
+	Lion
+	Snow Leopard
+	Cheetah
+	Bobcat
+REFANIMALFELINECATBREED
+	Abyssinian
+	Egyptian Mau
+	Shorthair Cat
+	Longhair Cat
+	Calico/Tortiseshell Cat
+	Japanese Bobtail
+	Korat
+	Manx
+	Ocicat
+	Persian Cat
+	Siamese Cat
+	<REFFURCOLOR> Tabby Cat
+	Bengal Cat
+	Oriental Shorthair Cat
+	Russian Blue Cat
+	Siberian Cat
+REFMUSTELOID
+	Skunk
+	Ferret
+	Weasel
+	Otter
+	Badger
+	Mink
+	Stoat
+	Ermine
+REFANIMALURSINEGENERAL
+	<REFFURCOLOR> Bear
+REFANIMALURSINESPECIFIC
+	Brown Bear
+	Black Bear
+	Kodiak Bear
+	Grizzly Bear
+	Panda Bear
+	Polar Bear
+//Mythicals
+REFANIMALTYPEMYTH
+	<REFDRAGON>
+	<REFELEMENTAL>
+	<REFGOLEM>
+	Amphiptere
+	Amphisbaena
+	Bakeneko
+	Barghest
+	Basilisk
+	Carbuncle
+	Catoblepas
+	Cerebus
+	Chimera
+	Cockatrice
+	Dragon Turtle
+	Feathered Serpent
+	Gargoyle
+	Gorgon
+	Griffon
+	Hippocampus
+	Hippogriff
+	Hydra
+	Inugami
+	Kappa
+	Keplie
+	Ki-Rin
+	Kitsune
+	Kraken
+	Manticore
+	Nightmare
+	Oroborous
+	Orthus
+	Pegasus
+	Peryton
+	Phoenix
+	Piasa
+	Pixiu
+	Roc
+	Sea Serpent
+	Sphinx
+	Tanuki
+	Tengu
+	Thunderbird
+	Unicorn
+	Will-O-The-Wisp
+	Wyvern
+	Yeti
+REFDRAGON
+	Dragon
+	<REFSCALECOLOR> Dragon
+	<REFSCALECOLOR> Dragon
+	Fire-breathing Dragon
+	Ice-breathing dragon
+	Lightning-breathing dragon
+REFELEMENTAL
+	Earth Elemental
+	Water Elemental
+	Fire Elemental
+	Air Elemental
+REFGOLEM
+	Stone Golem
+	Metal Golem

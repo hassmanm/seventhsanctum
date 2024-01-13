@@ -1,0 +1,6 @@
+Real-World
+	REALWORLD
+		dogbreedrldat.txt
+General
+	GENWORLD
+		dogbreedgendat.txt

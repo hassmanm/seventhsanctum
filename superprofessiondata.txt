@@ -1,0 +1,107 @@
+//Vocab types:
+--ORGANIZATION
+//1-Profession
+//2-Bad Things
+//4-Superpowers
+// Variable Elementals
+1,4
+It's , with  ,!
+1,4,4
+It's about , who are rivals! One uses ,!  The other uses ,!
+1,4,2
+It's about , who use , to fight ,!
+1,4,1,4
+It's about , who use , versus , who use ,!
+1,4,2,4
+It's about , who use , versus , who use ,!
+1,2,4
+It's about , versus ,  - and both use ,!
+1,1,4
+It's about , versus ,  - and both use ,!
+--VOCABULARY
+//1-Profession
+accountants,1
+actors,1
+administrators,1
+advertisers,1
+airline pilots,1
+astronauts,1
+auto mechanics,1
+bakers,1
+bankers,1
+baristas,1
+bartenders,1
+bookkeepers,1
+bus drivers,1
+butlers,1
+carpenters,1
+clerks,1
+construction workers,1
+cooks,1
+customer service representatives,1
+dentists,1
+doctors,1
+electricians,1
+farmers,1
+firefighters,1
+guards,1
+HR professionals,1
+idol singers,1
+janitors,1
+landscapers,1
+lawyers,1
+lawyers,1
+maids,1
+marketers,1
+nurses,1
+parking attendants,1
+plumbers,1
+policemen,1
+postmen,1
+professors,1
+programmers,1
+project managers,1
+receptionists,1
+salespeople,1
+secretaries,1
+security guards,1
+sports stars,1
+teachers,1
+tech support people,1
+tech support pros,1
+telemarketers,1
+train drivers,1
+truck drivers,1
+//2-Bad Things
+a conspiracy,2
+a dictator,2
+a serial killer,2
+alien invaders,2
+criminals,2
+cultists,2
+gangsters,2
+mad scientists,2
+mobsters,2
+oppressors,2
+outlaws,2
+rebels,2
+supervillains,2
+terrorists,2
+thieves,2
+//4-Superpowers
+alien technology,4
+cute animal sidekicks,4
+demonic powers,4
+giant robots,4
+high-tech weapons,4
+magic weapons,4
+magic,4
+mech suits,4
+mutant powers,4
+mythical creatures,4
+psychic doubles,4
+psychic powers,4
+spells,4
+summoned demons,4
+super technology,4
+superpowers,4

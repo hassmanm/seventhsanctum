@@ -1,0 +1,12 @@
+Any Style
+	SEED
+		mechamakerdat.txt
+Gundam G Style
+	GSEED
+		mechamakerdat.txt
+Military Style
+	MSSEED
+		mechamakerdat.txt
+Super Robot Style
+	SRSEED
+		mechamakerdat.txt

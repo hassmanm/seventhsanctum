@@ -1,0 +1,164 @@
+//1 - Story
+//2 - Beings
+//4 - Objects
+//8 - Activites (Kung-fu fighting)
+--ORGANIZATION
+// Regular
+1,2
+, with ,!
+1,4
+, with ,!
+1,8
+, with ,!
+//Regular dupe
+1,2
+, with ,!
+1,4
+, with ,!
+1,8
+, with ,!
+//Combined
+1,2,4
+, with , and ,!
+1,2,8
+, with , and ,!
+1,4,8
+, with , and ,!
+//Combined, Double-up
+1,2,2
+, with , and ,!
+1,4,4
+, with , and ,!
+1,8,8
+, with , and ,!
+//Versus
+1,2,2
+, with , versus ,!
+//Versus double up
+1,2,2
+, with , versus ,!
+//Vocabulary
+--VOCABULARY
+A Tale of Two Cities (Charles Dickens),1
+Alice's Adventures in Wonderland (Lewis Carrol),1
+Anna Karenina (Leo Tolstoy),1
+Around the World in 80 Days (Jules Verne),1
+David Copperfield (Charles Dickens),1
+Don Quixote (Miguel de Cervantes Saavedra),1
+Emma (Jane Austen),1
+Great Expectations (Charles Dickens),1
+Gulliver's Travels (Jonathan Swift),1
+Hamlet (Shakespeare),1
+Jane Eyre (Charlotte Bronte),1
+Les Miserables (Victor Hugo),1
+Macbeth(Shakespeare),1
+Moby Dick (Herman Melville),1
+Moll Flanders (Daniel Defoe),1
+Othello(Shakespeare),1
+Paradise Lost(John Milton),1
+Peter Pan (J.M. Barrie),1
+Pilgrim's Progress (John Bunyan),1
+Pride and Prejudice (Jane Austen),1
+Rime of the Ancient Mariner (Samuel Coleridge),1
+Robinson Crusoe (Daniel Defoe),1
+Sherlock Holmes (Sir Arthur Conan Doyle),1
+The Adventures Of Huckleberry Finn (Mark Twain),1
+The Adventures of Tom Sawyer (Mark Twain),1
+The Canterbury Tales (Geoffrey Chauser),1
+The Count of Monte Cristo (Alexandre Dumas),1
+The Faerie Queene (Edmund Spencer),1
+The Fall of the House of Usher (Edgar Allen Poe),1
+The House of Seven Gables (Nathaniel Hawthorne),1
+The Masque of the Red Death (Edgar Allen Poe),1
+The Oz Stories (L. Frank Baum),1
+The Picture of Dorian Gray (Oscar Wilde),1
+The Red Badge of Courage (Stephen Crane),1
+The Scarlet Letter (Nathaniel Hawthorne),1
+The Tempest(Shakespeare),1
+The Three Musketeers (Alexandre Dumas),1
+Tom Jones (Henry Fielding),1
+Treasure Island (Robert Louis Stevenson),1
+Tristram Shandy (Laurence Sterne),1
+Ulysses (James Joyce),1
+War and Peace (Leo Tolstoy),1
+Wuthering Heights (Emily Bronte),1
+//2 - Beings
+aliens,2
+androids,2
+assassins,2
+astronauts,2
+berserkers,2
+bikers,2
+cowboys,2
+cyborgs,2
+dinosaurs,2
+elder gods,2
+ghost hunters,2
+giant monsters,2
+giant robots,6
+mad scientists,2
+magical girls,2
+martial artists,2
+monster hunters,2
+mutants,2
+ninjas,2
+pirates,2
+psychics,2
+robots,2
+rock stars,2
+samurai,2
+secret agents,2
+sentai heroes,2
+space marines,2
+super-spies,2
+superheroes,2
+supermodels,2
+supervillains,2
+time travelers,2
+werewolves,2
+wizards,2
+witches,2
+vampires,2
+vampire hunters,2
+zombies,2
+//4 - Objects
+alien artifacts,4
+alternate universes,4
+artificial intelligences,14
+ancient astronauts,6
+biotechnology,12
+cyberspace,4
+doomsday weapons,4
+genetic engineering,12
+holograms,6
+lost continents,4
+lost civilizations,4
+magical artifacts,4
+nanotechnology,4
+race cars,4
+a secret base,4
+space stations,4
+starships,4
+time travel,4
+zepplins,4
+//8 - Activites (Kung-fu fighting)
+alien abduction,12
+the apocalypse,8
+Bollywood dance numbers,8
+dogfights in space,8
+epic natural disasters,12
+faster-than-light travel,12
+high-speed chases,8
+kung-fu fighting,8
+plenty of explosions,12
+ray gun fights,8
+virtual reality,12
+shootouts,8
+a steampunk world,12
+a film noir feel,12
+every anime trope imaginable,8
+a post-apocalyptic setting,8
+every science-fiction trope imaginable,8
+city-destroying battles,8
+every fantasy trope imaginable,8
+the entire cast gender-reversed,8

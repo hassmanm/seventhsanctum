@@ -1,0 +1,917 @@
+//Seeds
+SEED
+	The <SEEDPERSONALITY> <SEEDTYPE>.  <SEEDPHYSICAL>
+	The <SEEDPERSONALITY> <SEEDTYPE>.  <SEEDPHYSICAL>  <SEEDEXTRAPHYSICAL>
+	This <SEEDTYPE> <REFPERSONALITYMOD>  <SEEDPHYSICAL>
+	This <SEEDTYPE> <REFPERSONALITYMOD>  <SEEDPHYSICAL>  <SEEDEXTRAPHYSICAL>
+	The <SEEDPERSONALITY> <SEEDTYPE>.  <SEEDPHYSICAL> <REFWARDROBE>
+	The <SEEDPERSONALITY> <SEEDTYPE>.  <SEEDPHYSICAL> <SEEDEXTRAPHYSICAL>  <REFWARDROBE>
+	This <SEEDTYPE> <REFPERSONALITYMOD>  <SEEDPHYSICAL> <REFWARDROBE>
+	This <SEEDTYPE> <REFPERSONALITYMOD>  <SEEDPHYSICAL> <SEEDEXTRAPHYSICAL>  <REFWARDROBE>
+SEEDEXTRAPHYSICAL
+	<REFVOICEROUTE>
+	<REFVOICEROUTE>
+	<REFPHYSICALEXTRAROUTE>
+	<REFVOICEROUTE> <REFPHYSICALEXTRAROUTE>
+SEEDTYPE
+	<REFTYPESPECIFIC>
+	<REFTYPESPECIFIC>
+	<REFTYPESPECIFIC>
+	<REFSPECIES>
+	<REFSPECIES>
+SEEDPERSONALITY
+	<SEEDPERSONALITYSINGLE>
+	<SEEDPERSONALITYDOUBLE>
+SEEDPERSONALITYSINGLE
+	<REFMENTALPOSITIVE>
+	<REFEMOTIONALPOSITIVE>
+	<REFBEHAVIOR>
+SEEDPERSONALITYDOUBLE
+	<REFMENTALPOSITIVE>, <REFEMOTIONALPOSITIVE>
+	<REFMENTALNEGATIVE>, <REFEMOTIONALNEGATIVE>
+	<REFMENTALPOSITIVE>, <REFBEHAVIOR>
+	<REFMENTALNEGATIVE>, <REFBEHAVIOR>
+	<REFEMOTIONALPOSITIVE>, <REFBEHAVIOR>
+	<REFEMOTIONALNEGATIVE>, <REFBEHAVIOR>
+	<REFMENTALPOSITIVE> and <REFEMOTIONALPOSITIVE>
+	<REFMENTALPOSITIVE> yet <REFEMOTIONALNEGATIVE>
+	<REFMENTALNEGATIVE> yet <REFEMOTIONALPOSITIVE>
+SEEDPHYSICAL
+	<SEEDPHYSICALEYES> <SEEDPHYSICALHAIR>
+	<SEEDPHYSICALHAIR> <SEEDPHYSICALEYES>
+SEEDPHYSICALHAIR
+	His hair is the color of <*RELAYCOLOR> <REFCOLORTHING>.
+	His <REFHAIRDESC> hair is the color of <*RELAYCOLOR> <REFCOLORTHING>.
+	His <REFHAIRDESC> hair is <*RELAYCOLOR> <REFFANCYCOLOR>.
+	His <*RELAYCOLOR> <REFFANCYCOLOR> hair <REFHAIRDESCFOLLOW>.
+SEEDPHYSICALEYES
+	His eyes are like <*RELAYCOLOR><REFCOLOREYES>.
+	His <REFEYEDESC> eyes are like <*RELAYCOLOR><REFCOLOREYES>.
+	His <REFEYEDESC> eyes are <*RELAYCOLOR><REFFANCYCOLOR>.
+	His <*RELAYCOLOR><REFFANCYCOLOR> eyes <REFEYEDESCFOLLOW>.
+	His <*RELAYCOLOR><REFFANCYCOLOR> eyes <REFEYEDESCFOLLOW>.
+//REFS
+REFTYPESPECIFIC
+	adventurer
+	artist
+	assasin
+	bodyguard
+	chef
+	dandy
+	detective
+	knight
+	holy man
+	jungle lord
+	king
+	librarian
+	mage
+	man-of-action
+	martial artist
+	martial arts instructor
+	musician
+	novelist
+	pirate
+	playboy
+	prince
+	samurai
+	scientist
+	secret agent
+	swashbuckler
+	teacher
+	thief
+	warrior
+REFSPECIES
+	angel
+	beastman
+	cat-boy
+	demigod
+	demon
+	devil
+	elf
+	fae
+	fox-demon
+	ghost
+	half-angel
+	half-elf
+	half-demon
+	half-dragon
+	incubus
+	kitsune
+	superhuman
+	werewolf
+	vampire
+//PERSONALITY
+REFMENTALPOSITIVE
+	brillaint
+	clever
+	literate
+	open-minded
+	smart
+	super-intelligent
+	intelligent
+	well-educated
+	worldwise
+	wise
+	witty
+REFMENTALNEGATIVE
+	cutely befuddled
+	charmingly confused
+	closed-minded
+	ignorant
+	inexperienced
+	naive
+	unwise
+REFEMOTIONALPOSITIVE
+	brave
+	calm
+	collected
+	cool
+	compassionate
+	considerate
+	dedicated
+	honest
+	honorable
+	kind
+	loyal
+	noble
+	outgoing
+	playful
+	thoughtful
+	social
+	strong-willed
+	thoughtful
+	tactful
+REFEMOTIONALNEGATIVE
+	angsty
+	angry
+	antisocial
+	arrogant
+	cold
+	cruel
+	deceptive
+	dishonorable
+	disloyal
+	emotionally-distant
+	erratic
+	hot-tempered
+	insecure
+	lonely
+	mocking
+	overemotional
+	selfish
+	shy
+	tactless
+	unemotional
+	withdrawn
+REFBEHAVIOR
+	calculating
+	cautious
+	hard-drinking
+	immature
+	mysterious
+	poised
+	oversexed
+	predictable
+	sarcastic
+	secretive
+	snarky
+	strange
+	swaggering
+	talkative
+	unpredictable
+REFPERSONALITYMOD
+	is quite the drinker
+	never walks away from a fight.
+	will always help someone in trouble.
+	can't get enough good cooking.
+	will do anything for someone who is a good cook.
+	arouses people's protective instincts.
+	is a paragon of virtue.
+	is a complete ladykiller.
+	is a ladies man - or at least appears to be.	
+	is terribly tragic, in a very cuddly way.
+	always has a quip at the ready.
+	is determined and focused, if not overly bright.
+	is always positive, upbeat, likeable, and thus somewhat annoying.
+	experiences gender confusion (but doesn't seem to suffer from it).
+	acts in an extremely femminine way.
+	acts far younger than he is.
+	is pretty much completely insane.  Yet cute.
+	is a living mystery with mysterious agendas.
+	is cool and elegant.
+	is a complete jerk, but is somehow attractive anyway.
+	is tough, completely tactless, yet somehow charming and attractive.
+	is a suave and unapologetic ladies' man.
+	is cute, innocent, and apparently on a constant sugar high.
+	is evil and is extremely confident about it.
+	is soft-spoken, well-groomed, and obviously hiding something.
+	manages to be both morally and sexually ambigious at the same time.
+	is always the muscle of his little group, yet is also surprisingly likeable and well-adjusted.
+	has a terrible destiny, and needs someone to share that burden.
+	has a terrible past that has scarred him almost - but not toally - beyond redemption.
+	is always cracking jokes - but do they conceal a deeper issue?
+	is distant and focused.
+	can be annoying and brash, yet is somehow still loveable.
+	has a brash exterior, and a soft interior.
+	is tough, but there's a hint of kindness in his nature.
+	is tormented by his past.
+	is a ladies man - but angsts over the loves of his past.
+	is driven and never gives up.
+	was once a terrible person, but has sought to change.
+	is quietly hiding the pain of a terrible tragety.
+	is villanous, yet has a sense of honor.
+	is the perfect teacher or instructor.
+	is extremely quirky.
+	seems evil, but has good intentions.
+	is loyal and devoted.
+	is as socially akward as he is cute.
+	is intelligent and focused.
+	is charmingly amoral.
+	is a good person struggling with an inner darkness.
+	is extremely femminine in look and manner.
+	is sweet, but hides an inner, darker personality.
+	is just in need of a mother-figure.
+	is just in need of a father-figure.
+	has parental issues.
+	has abandonment issues and needs love.
+	is creepy in an unsettlingly attractive way.
+	tries to act tough, but is a big softie.
+	is mysterious and brooding.
+	is so troubled he could cry - but in a manly way.
+	may be evil, but can be changed by love.
+//REFPHYSICAL
+REFHAIRDESC
+	artistic
+	beautiful
+	braided
+	charmingly spikey
+	flowing
+	gorgeous
+	gravity-defying
+	immaculate
+	long and luxurious
+	long
+	luxurious
+	luxuriant
+	overlong
+	sensuous
+	silky
+	streaming
+	stylish
+	thick
+	well-styled
+	wild
+	wind-blown
+REFHAIRDESCFOLLOW
+	seems to defy gravity
+	always falls into his eyes, which makes you want to push it back.
+	always gets into his eyes.
+	is always wind-blown
+	is bound in a pontail
+	almost demands you run your fingers through it
+	frames his face charmingly
+	is long and luxurious
+	is worn loose and streaming
+	is temptingly grabbable
+	is wild and untamed
+	is worn in dreadlocks
+	is bound in several braids
+	is soft and silky to the touch
+	is kept in check by a bandanna
+	is bound by a single <*RELAYCOLOR><REFBASECOLOR> ribbon
+	flutters artistically in the wind
+	flows over his shoulders like water
+	flows like a waterfall
+REFEYEDESC
+	beautiful
+	burning
+	dancing
+	dangerous
+	expressive
+	glittering
+	gorgeous
+	haunted
+	hypnotic
+	intense
+	intriguing
+	luminous
+	mysterious
+	naughty
+	penetrating
+	piercing
+	reflective
+	seductive
+	sparkling
+	wounded
+REFEYEDESCFOLLOW
+	have a mirrorlike quality to them
+	are always looking at painful memories
+	twinkle with naughty possibilities
+	can seduce you with a glance
+	burn with buried pain
+	burn with passion
+	call to you
+	conceal as well as reveal
+	express emotions in a way no words can
+	glow with an inner light
+	glow with an indescribable passion
+	have a hyptonic quality you can't resist
+	hide secrets you can't begin to guess
+	pierce your soul
+	sparkle mysteriously
+	speak of inner dangers
+REFBUILDREFDESC
+	body
+	build
+	form
+REFBUILDDESC
+	athletic
+	artistic
+	broad-shouldered
+	femminine
+	elegant
+	graceful
+	lean
+	lithe
+	muscular
+	narrow
+	powerful
+	slender
+	slim
+//Ref physical extras
+REFPHYSICALEXTRAROUTE
+	<REFPHYSICALEXTRANORMAL>
+	<REFPHYSICALEXTRANORMAL>
+	<REFPHYSICALEXTRANORMAL>
+	<REFPHYSICALEXTRANORMAL>
+	<REFPHYSICALEXTRAODD>
+	<REFPHYSICALEXTRAODD>
+	<REFPHYSICALEXTRANORMAL> <REFPHYSICALEXTRAODD>
+//Physical normal traits
+REFPHYSICALEXTRANORMAL
+	<REFPHYSICALEXTRANORMALFACE>
+	<REFPHYSICALEXTRANORMALMOUTH>
+	<REFPHYSICALEXTRANORMALHANDS>
+	<REFPHYSICALEXTRANORMALSKIN>
+REFPHYSICALEXTRANORMALFACE
+	His high cheekbones give him an exotic appearance.
+	His face has an inhuman beauty to it.
+	His angular features add to his handsomeness.
+	He has a rather youthful face.
+REFPHYSICALEXTRANORMALMOUTH
+	He has full lips.
+	He has perfect teeth.
+	His lips look kissable.
+	He has very expressive lips.
+	There's an elegance to his lips that is very attractive.
+	He has a perfect mouth - and a perfect smile.
+	His full lower lip begs to be nibbled on.
+REFPHYSICALEXTRANORMALHANDS
+	He has the hands of an artist.
+	He has elegant hands.
+	He has expressive hands.
+	His hands have a sensual quality to them.
+REFPHYSICALEXTRANORMALSKIN
+	His skin is like satin.
+	His skin is smooth and perfectly hairless.
+	He has flawless skin.
+//Phyiscal odd traits
+REFPHYSICALEXTRAODD
+	<REFPHYSICALEXTRAODDFACE>.
+	<REFPHYSICALEXTRAODDARMS>.
+	<REFPHYSICALEXTRAODDBODY>.
+	<REFPHYSICALEXTRAODDFACE> - <REFPHYSICALEXTRAODDSTORY>.
+	<REFPHYSICALEXTRAODDARMS> - <REFPHYSICALEXTRAODDSTORY>.
+	<REFPHYSICALEXTRAODDBODY> - <REFPHYSICALEXTRAODDSTORY>.
+REFPHYSICALEXTRAODDFACE
+	He has a scar on his right cheek
+	He has a scar on his left cheek
+	He has a scar over his right eye
+	He has a scar over his left eye
+	His right eye is covered in an eyepatch
+	His left eye is covered in an eyepatch
+	He has <REFPHYSICALTATOODESCGENERAL> tattoos on his face
+	He has <REFPHYSICALTATOODESCSINGLE> tattoo on his right cheek
+	He has <REFPHYSICALTATOODESCSINGLE> tattoo on his left cheek
+REFPHYSICALEXTRAODDARMS
+	He has <REFPHYSICALTATOODESCGENERAL> tattoos on his arms
+	He has <REFPHYSICALTATOODESCSINGLE> tattoo on his right arm
+	He has <REFPHYSICALTATOODESCSINGLE> tattoo on his left arm
+	He has scars on his arms
+	He has scars on his right arm
+	He has scars on his left arm
+	He has scars on his hands
+	He has scars on his right hand
+	He has scars on his left hand
+REFPHYSICALEXTRAODDBODY
+	He has <REFPHYSICALTATOODESCGENERAL> tattoos all over his body
+	He has many scars on his body
+REFPHYSICALTATOODESCSINGLE
+	a colorful
+	an exotic
+	an interesting
+	a mysterious
+	an odd
+	a tribal
+	a weird
+REFPHYSICALTATOODESCGENERAL
+	colorful
+	exotic
+	interesting
+	mysterious
+	odd
+	tribal
+	weird
+REFPHYSICALEXTRAODDSTORY
+	and there's quite a story to be told there
+	something he never talks about
+	discussing this is a sure way to face his anger
+	discussing this is a sure way to bring him to tears
+	discussing this will lead to many discoveries about his past
+//REFVOICE
+REFVOICEROUTE
+	<REFVOICEDESC>.
+	<REFVOICEHABIT>.
+REFVOICEDESC
+	His voice varies with his mood
+	His voice is absolutely perfect
+	His voice is like thunder
+	His voice is always tinged with laughter
+	His voice is a powerful baritone
+	His voice carries like thunder
+	His voice is calm
+	His voice is calm and authoritative
+	His voice is like song
+	His voice is soothing
+	His voice is powerful and booming
+	His voice is hypnotic and compelling
+	His voice is commanding
+	His voice has a musical quality to it
+	His voice has a mysterious, breathy quality
+	His voice seems to carry perfectly
+REFVOICEHABIT
+	He has a charming accent
+	He tends to be soft-spoken
+	He tends to speak in short sentances
+	When he speaks, he speaks each word dramatically and clearly
+	He speaks softly, yet every word carries
+//Warbrode
+REFWARDROBE
+	<REFWARDRBOBECLOTHES>
+	<REFWARDRBOBECLOTHES>
+	<REFWARDRBOBECLOTHES>
+	<REFJEWELRY>
+	<REFWARDRBOBECLOTHES>  	<REFJEWELRY>
+REFWARDRBOBECLOTHES
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a thing for <REFCLOTHESPREFROUTE>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a thing for <REFCLOTHESPREFROUTE>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he prefers clothes made from <REFCLOTHESPREFMATERIAL>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a preference for <*RELAYCOLOR><REFBASECOLOR> and  <*RELAYCOLOR><REFBASECOLOR>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a preference for <*RELAYCOLOR><REFBASECOLOR> and  <*RELAYCOLOR><REFBASECOLOR>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a preference for <*RELAYCOLOR><REFBASECOLOR>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, and he has a preference for <*RELAYCOLOR><REFBASECOLOR>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, he has a preference for <*RELAYCOLOR><REFBASECOLOR>, and he has a thing for <REFCLOTHESPREFROUTE>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, he has a preference for <*RELAYCOLOR><REFBASECOLOR>, and he has a thing for <REFCLOTHESPREFROUTE>.
+	His <REFWARDROBEDESC> are <REFDESCCLOTHES>, he has a preference for <*RELAYCOLOR><REFBASECOLOR>, and he prefers they be made from <REFCLOTHESPREFMATERIAL>.
+	His <REFDESCCLOTHES> <REFWARDROBEDESC> <REFCLOTHESFOCUS> <REFBUILDDESC> <REFBUILDREFDESC>.
+	His <REFDESCCLOTHES> <REFWARDROBEDESC> <REFCLOTHESFOCUS> <REFBUILDDESC> <REFBUILDREFDESC>, and he prefers them to be made from <REFCLOTHESPREFMATERIAL>.
+REFCLOTHESFOCUS
+	might just be calculated to show off his
+	are designed to deliberately show off his
+	display his
+	flatter his
+	attractively display his
+	show off his
+REFWARDROBEDESC
+	clothes
+	outfits
+REFDESCCLOTHES
+	artistic
+	bizarre
+	charmingly casual
+	charmingly well-worn
+	classy
+	comfortable
+	exotic
+	imaginative
+	fashionable
+	mysterious
+	revealing
+	skin-tight
+	strange
+	tight
+REFCLOTHESPREFROUTE
+	<REFCLOTHESPREFTOP>
+	<REFCLOTHESPREFBOTTOM>
+	<REFCLOTHESPREFFEET>
+	<REFCLOTHESPREFTOP> and	<REFCLOTHESPREFBOTTOM>
+	<REFCLOTHESPREFTOP> and	<REFCLOTHESPREFFEET>
+	<REFCLOTHESPREFBOTTOM> and <REFCLOTHESPREFFEET>
+	outfits that include <REFCLOTHESPREFEXTRA>
+	outfits that include <REFCLOTHESPREFEXTRA>
+REFCLOTHESPREFTOP
+	dusters
+	long sleeves that hide his hands
+	plunging necklines
+	going shirtless
+	high collars
+	tank tops
+	open-necked shirts
+	a trailing coat
+	exposing his midriff
+	flowing capes
+REFCLOTHESPREFBOTTOM
+	large belts with large buckles
+	tight pants
+	low-riding pants
+REFCLOTHESPREFFEET
+	leather boots
+	high boots
+REFCLOTHESPREFMATERIAL
+	exotic furs
+	finest silk
+	leather
+REFCLOTHESPREFEXTRA
+	an exposed midriff
+	an exposed navel
+	capes
+	chains
+	frills
+	lots of straps
+	lots of belts
+	lots of strategic zippers
+	lots of exposed skin	
+	lots of jewelry
+	a hat that casts a mysterious shadow over his face
+	a hood that all but hides his face
+	wearing gloves
+//Clothes - jewelry
+REFJEWELRY
+	He <REFJEWELRYMOTIVATION> <REFJEWELRYSINGLEDESC> <REFJEWELRYSINGLE>.
+	He <REFJEWELRYMOTIVATION> <REFJEWLERYMULTIPLEDESC> <REFJEWLERYMULTIPLE>.
+REFJEWELRYMOTIVATION
+	always wears
+	likes to wear
+	usually wears
+	obsessively wears
+REFJEWELRYSINGLEDESC
+	an antique
+	a beautiful
+	a bizarre
+	an expensive
+	an exotic
+	a mysterious
+	a strange
+	a weird
+REFJEWELRYSINGLE
+	amulet
+	bracelet
+	charm
+	mask
+	necklace
+	ring
+REFJEWLERYMULTIPLE
+	amulets
+	bracelets
+	charms
+	necklaces
+	rings
+REFJEWLERYMULTIPLEDESC
+	a lot of
+	mutiple
+	several
+//COLORS
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLORALL
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			burgandy
+			cherry red
+			rose-red
+			vermillion
+			scarlet
+		REFCOLORTHING,true
+			autum leaves
+			fresh blood
+			ripe cherries
+			fresh roses
+			valuable rubies
+		RELAYCOLOR,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two glowing embers
+			two garnets
+			two setting suns
+			two drops of blood
+			two drops of wine
+			two rubies
+			two rose petals
+			two blooming roses
+			two flames
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+		REFCOLORTHING,true
+			burning flames
+			ripe apricots
+			fresh peaches
+			ripe tangerines
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two glowing embers
+			two setting suns
+			two rising suns
+			two flames
+			two chunks of amber
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+		REFCOLORTHING,true
+			polished amber
+			fine gold
+			desert sand
+			the sun
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+		REFCOLOREYES,true
+			two shining suns
+			two gold coins
+			two drops of molten gold
+			two pieces of fools' gold
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			pine-green
+		REFCOLORTHING,true
+			beyrl
+			valuable emeralds
+			fine jade
+			pine needles
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two emeralds
+			two chunks of jade
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+		REFCOLORTHING,true
+			blue tropical waters
+			sapphires
+			the afternoon sky
+			the evening sky
+			turquoises
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two sapphires
+			two pools of water
+			two windows on the afternoon sky
+			two chunks of lapis lazuli
+			two turquoises
+			two lagoons
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+		REFCOLORTHING,true
+			amethysts
+			blooming violets
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two drops of wine
+			two amethysts
+			two windows on the evening sky
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+		REFCOLORTHING,true
+			alabaster
+			bleached bone
+			creamy milk
+			rich cream
+			fine china
+			ivory
+			moonlight
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two pearls
+			two pieces of ivory
+			two discs of bone
+			two bleached skulls
+			two lotus blossoms
+			two spheres of alabaster
+			two shining stars
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+		REFCOLORTHING,true
+			charcoal
+			black coffee
+			obsidian
+			the midnight sky
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two pieces of obsidian
+			two onyxes
+			two dark pits
+			two windows on the midnight sky
+			two lumps of coal
+			two spheres of night-black marble
+			two cups of black coffee
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+			gunmetal-gray
+		REFCOLORTHING,true
+			an overcast sky
+			burnished iron
+			smoke
+			fine silver
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+		REFCOLOREYES,true
+			two silver coins
+			two pieces of steel
+			two windows looking out on an overcast sky
+			two pools of mercury
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+		REFCOLORTHING,true
+			coffee with cream
+			dark chocolate
+			milk chocolate
+			varnished wood
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+		REFCOLOREYES,true
+			two drops of chocolate
+			two patches of dried blood
+			two bronze coins
+			two tiger-eye gems
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+REFCOLORTHING
+	REFCOLORTHING
+REFCOLOREYES
+	REFCOLOREYES

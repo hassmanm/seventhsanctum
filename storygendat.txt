@@ -1,0 +1,3075 @@
+//Reference Map
+//SEEDS - seeds
+//REFS - References
+// STORY TYPE
+// Settings
+// Characters
+// Events
+// Extras
+//The general formula is STORY TYPE.  SETTING.  CHARACTERS.  EVENTS.  EXTRAS.
+//SEEDS
+SEED
+	<SEEDFAN>
+	<SEEDMOD>
+	<SEEDSCI>
+SEEDFAN
+	<SEEDTELL>
+		RETCHARSINGLE,true
+			<REFCHARSINGLEGEN>
+			<REFCHARSINGLEFAN>
+			<REFCHARSINGLEFAN>
+			<REFCHARSINGLEFAN>
+		RETCHARSINGLEINDICATOR,true
+			<REFCHARSINGLEINDICATORGEN>
+			<REFCHARSINGLEINDICATORFAN>
+			<REFCHARSINGLEINDICATORFAN>
+			<REFCHARSINGLEINDICATORFAN>
+		RETCHARPLURAL,true
+			<REFCHARPLURALGEN>
+			<REFCHARPLURALFAN>
+			<REFCHARPLURALFAN>
+			<REFCHARPLURALFAN>
+		RETCHARMOD,true
+			<REFCHARMODGEN>
+			<REFCHARMODFAN>
+		RETSETTING,true
+			<REFROUTESETFANTASY>
+		RETPLOTEXTRA,true
+			<REFPLOTEXTRAFAN>
+SEEDMOD
+	<SEEDTELL>
+		RETCHARSINGLE,true
+			<REFCHARSINGLEGEN>
+			<REFCHARSINGLEMOD>
+			<REFCHARSINGLEMOD>
+		RETCHARSINGLEINDICATOR,true
+			<REFCHARSINGLEINDICATORGEN>
+			<REFCHARSINGLEINDICATORMOD>
+			<REFCHARSINGLEINDICATORMOD>
+		RETCHARPLURAL,true
+			<REFCHARPLURALGEN>
+			<REFCHARPLURALMOD>
+			<REFCHARPLURALMOD>
+		RETCHARMOD,true
+			<REFCHARMODGEN>
+		RETSETTING,true
+			<REFROUTESETMODERN>
+		RETPLOTEXTRA,true
+			<REFPLOTEXTRAMOD>
+SEEDSCI
+	<SEEDTELL>
+		RETCHARSINGLE,true
+			<REFCHARSINGLEGEN>
+			<REFCHARSINGLESCI>
+			<REFCHARSINGLESCI>
+			<REFCHARSINGLESCI>
+		RETCHARSINGLEINDICATOR,true
+			<REFCHARSINGLEINDICATORGEN>
+			<REFCHARSINGLEINDICATORSCI>
+			<REFCHARSINGLEINDICATORSCI>
+			<REFCHARSINGLEINDICATORSCI>
+		RETCHARPLURAL,true
+			<REFCHARPLURALGEN>
+			<REFCHARPLURALSCI>
+			<REFCHARPLURALSCI>
+			<REFCHARPLURALSCI>
+		RETCHARMOD,true
+			<REFCHARMODGEN>
+			<REFCHARMODSCI>
+		RETSETTING,true
+			<REFROUTESETSCI>
+		RETPLOTEXTRA,true
+			<REFPLOTEXTRASCI>
+//SEED - Tell
+SEEDTELL
+	<SEEDSTORYTYPE> <SEEDCHAR>  <SEEDSETTING>  <SEEDEVENTS>  <RETPLOTEXTRA>
+	<SEEDSTORYTYPE> <SEEDCHAR>  <SEEDSETTING>  <RETPLOTEXTRA>
+	<SEEDSTORYTYPE> <SEEDCHAR>  <SEEDSETTING>  <SEEDEVENTS>
+	<SEEDCHAR>  <SEEDSETTING>  <SEEDEVENTS>  <RETPLOTEXTRA>
+	<SEEDCHAR>  <SEEDSETTING>  <RETPLOTEXTRA>
+	<SEEDCHAR>  <SEEDSETTING>  <SEEDEVENTS>
+//SEED _ STORY TYPE
+SEEDSTORYTYPE
+	This is <REFTYPE>.
+	This is <REFTYPE>.
+	This is <REFTYPE>.
+	This is <REFTYPE> <REFTHEMEREF> <REFTHEME>.
+	This is <REFTYPE> <REFTHEMEREF> <REFSPECTHEME>.
+	This is <REFTYPE> <REFTHEMEREF> <REFTHEME> and <REFSPECTHEME>.
+	This is <REFSTORYDESC> about <REFTHEME>.
+	This is <REFSTORYDESC> about <REFSPECTHEME>.
+	This is <REFSTORYDESC> about <REFTHEME> and <REFSPECTHEME>.
+//SEED - SETTINGS
+SEEDSETTING
+	It takes place <RETSETTING>.
+	It starts <RETSETTING>.
+//SEED - Characters
+SEEDCHAR
+	<SEEDCHARSINGLE>
+	<SEEDCHARRELATION>
+	<SEEDCHARMULTI>
+SEEDCHARSINGLE
+	The story is about <ROUTECHARDESCTOTAL>.
+SEEDCHARRELATION
+	The story is about <ROUTECHARDESCINITIAL> <REFCHARRELATION> <ROUTECHARDESCINITIAL>.
+SEEDCHARMULTI
+	<SEEDCHARMULTICOMBO>
+	<SEEDCHARMULTIINDIV>
+	<SEEDCHARMULTIINDIV>
+	<SEEDCHARMULTIINDIVMIX>
+SEEDCHARMULTICOMBO
+	The story is about <RETCHARPLURAL>.
+	The story is about <REFCHARDESC> <RETCHARPLURAL>.
+	The story is about <REFNUMBERLOW> <RETCHARPLURAL>.
+	The story is about <REFNUMBERLOW> <REFCHARDESC> <RETCHARPLURAL>.
+	The story is about <REFCHARORGANIZATIONINDICATOR> of <RETCHARPLURAL>.
+	The story is about <REFCHARORGANIZATIONINDICATOR> of <REFCHARDESC> <RETCHARPLURAL>.
+SEEDCHARMULTIINDIV
+	The story is about <ROUTECHARDESCINITIAL> and <ROUTECHARDESCINITIAL>.
+	The story is about <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, and <ROUTECHARDESCINITIAL>.
+	The story is about <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, and <ROUTECHARDESCINITIAL>.
+SEEDCHARMULTIINDIVMIX
+	The story is about <ROUTECHARDESCINITIAL> and <ROUTECHARDESCINITIAL> <REFCHARRELATION> <ROUTECHARDESCINITIAL>.
+	The story is about <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, and <ROUTECHARDESCINITIAL> <REFCHARRELATION> <ROUTECHARDESCINITIAL>.
+	The story is about <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, <ROUTECHARDESCINITIAL>, and <ROUTECHARDESCINITIAL> <REFCHARRELATION> <ROUTECHARDESCINITIAL>.
+//SEED - Events
+SEEDEVENTS
+	<SEEDEVENTSSINGLE>
+	<SEEDEVENTCRITICAL>
+	<SEEDEVENTSMULTIPLE>
+SEEDEVENTSSINGLE
+	The story begins with <REFEVENTS>.
+	The story ends with <REFEVENTS>.
+	The story climaxes with <REFEVENTS>.
+SEEDEVENTCRITICAL
+	The critical element of the story is <REFEVENTS>.
+	The crux of the story involves <REFEVENTS>.
+SEEDEVENTSMULTIPLE
+	The story begins with <REFEVENTS> and ends with <REFEVENTS>.
+	The story begins with <REFEVENTS>, climaxes with <REFEVENTS>, and ends with <REFEVENTS>.
+//ROUTES
+//RETS - Characters
+RETCHARSINGLE
+	<REFCHARSINGLEGEN>
+	<REFCHARSINGLEFAN>
+	<REFCHARSINGLEMOD>
+	<REFCHARSINGLESCI>
+RETCHARSINGLEINDICATOR
+	<REFCHARSINGLEINDICATORGEN>
+	<REFCHARSINGLEINDICATORFAN>
+	<REFCHARSINGLEINDICATORMOD>
+	<REFCHARSINGLEINDICATORSCI>
+RETCHARPLURAL
+	<REFCHARPLURALGEN>
+	<REFCHARPLURALFAN>
+	<REFCHARPLURALMOD>
+	<REFCHARPLURALSCI>
+RETCHARMOD
+	<REFCHARMODGEN>
+	<REFCHARMODFAN>
+	<REFCHARMODMOD>
+	<REFCHARMODSCI>
+RETPLOTEXTRA
+	<REFPLOTEXTRAFAN>
+	<REFPLOTEXTRAMOD>
+	<REFPLOTEXTRASCI>
+//RETS - SETTING
+RETSETTING
+	<REFROUTESETFANTASY>
+	<REFROUTESETMODERN>
+	<REFROUTESETSCI>
+//ROUTES - Characters
+ROUTECHARDESCTOTAL
+	 <RETCHARSINGLEINDICATOR>
+	 <RETCHARSINGLEINDICATOR>
+	 <REFCHARDESCINDICATOR> <RETCHARSINGLE>
+	 <REFCHARDESCINDICATOR> <RETCHARSINGLE> <RETCHARMOD>
+	 <RETCHARSINGLEINDICATOR> <RETCHARMOD>
+ROUTECHARDESCINITIAL
+	 <RETCHARSINGLEINDICATOR>
+	 <REFCHARDESCINDICATOR> <RETCHARSINGLE>
+//ROUTES - SETTINGS
+//REFERENCES
+//All references end with three leter-codes indicating their area
+// GEN - general, FAN - Fantasy, MOD-Modern ,SCI - Sci-Fi.
+//REFS - STORY TYPE
+REFTHEME
+	alienation
+	ascension
+	barbarism
+	bigotry
+	camaraderie
+	compassion
+	confusion
+	conspiracy
+	creativity
+	death
+	debauchery
+	decay
+	deceit
+	defeat
+	degeneracy
+	deliverance
+	depression
+	destiny
+	discovery
+	disillusionment
+	empowerment
+	endurance
+	excess
+	exploitation
+	exploration
+	fallibility
+	falsehood
+	fame
+	family
+	forbidden love
+	friendship
+	happiness
+	hate
+	heroism
+	ignorance
+	impotency
+	independence
+	insanity
+	inventiveness
+	irony
+	jealousy
+	judgment
+	lost love
+	love
+	lust
+	madness
+	maturation
+	mistrust
+	nihilism
+	notoriety
+	overcoming obstacles
+	paranoia
+	pursuit
+	questing
+	rage
+	realism
+	rebellion
+	relativism
+	remorse
+	rescue
+	responsibility
+	revenge
+	rivalry
+	romance
+	sacrifice
+	self-sacrifice
+	sexual identity
+	stupidity
+	temptation
+	tolerance
+	tradition
+	transformation
+	travel
+	trust
+	trustworthiness
+	unavoidable destiny
+	vengeance
+	wandering
+	wisdom
+	wretched excess
+	xenophobia
+REFSPECTHEME
+	beating fate
+	giving in to destiny
+	how a utopia is impossible
+	how a utopia is possible
+	how cultural conflicts are inevitable
+	how cultural conflicts are not inevitable
+	how destructive ignorance can be
+	how destructive knowledge can be
+	how destructive religion can be
+	how even the most creative person gets blocked
+	how even the smartest person makes mistakes
+	how history doesn't repeat itself
+	how history keeps repeating itself
+	how life is a funny thing
+	how life is a tragedy
+	how man can better himself
+	how no one can escape suffering
+	how one man can make a difference
+	how people are a lot alike
+	how people are all very different
+	how people are never totally honest
+	how people can't beat the odds
+	how people miss the obvious
+	how the invention of man can destroy him
+	making ones own destiny
+	man versus destiny
+	man versus his inner demons
+	man versus man
+	man versus nature
+	man versus the environment
+	man's need for a challenge
+	man's need for control
+	man's need for freedom
+	our struggles against ourselves
+	overcoming the odds
+	people's tenancy to be dishonest
+	predetermined destiny
+	religion versus creativity
+	religion versus science
+	science versus religion
+	taking control of one's life
+	the danger of traditional values
+	the dangers of obsession
+	the dangers of self-expression
+	the dangers of small-mindedness
+	the differences between the classes
+	the differences between the sexes
+	the disunity of religions
+	the enigmas of human life
+	the fact greed destroys all
+	the falsehood of 'survival of the fittest'
+	the flaws of man
+	the frailty of human life
+	the human lust for violence
+	the human need for love
+	the human trait of avoiding death
+	the importance of brains over brawn
+	the importance of honest
+	the need for caution in dangerous world
+	the need for change and growth
+	the need for faith
+	the need for intelligent analysis
+	the need for self-expression
+	the need for traditional values
+	the need of intimacy versus the need for independence
+	the need to face death
+	the nobility of man
+	the oddities of the human condition
+	the past versus the future
+	the pointlessness of life
+	the truth of 'survival of the fittest'
+	the unity of religions
+	the war between the sexes
+	things man was not meant to know
+REFTYPE
+	a buddy story
+	a character study
+	a city-smashing monster story
+	a comedy
+	a comedy/drama
+	a comedy-of-errors
+	a comedy-of-manners
+	a coming-of-age  <REFSTORYDESCONLY>
+	a crime caper story
+	a crime drama
+	a dark comedy
+	a deconstruction of a classic legend
+	a documentary-style story
+	a drama
+	a drama/horror
+	a fish-out-of-water story
+	a gross-out comedy
+	a horror <REFSTORYDESCONLY>
+	a horror/drama
+	a killer-on-the-loose
+	a mockumentary
+	a morality tale
+	a murder-mystery
+	a mystery <REFSTORYDESCONLY>
+	a natural disaster
+	a party comedy
+	a political story
+	a psychological revelation piece
+	a psychology piece
+	a pure action <REFSTORYDESCONLY>
+	a quest <REFSTORYDESCONLY>
+	a rags-to-riches story
+	a religious metaphor
+	a road trip tale
+	a road-trip story
+	a romance
+	a romantic comedy
+	a satire
+	a screwball comedy
+	a slice-of-life <REFSTORYDESCONLY>
+	a study-in-contrasts piece
+	a surreal comedy
+	a surrealist piece
+	a tale of personal transformation
+	a tragedy
+	an action adventure
+	an action comedy
+	an epic adventure
+	an epic drama
+	an escape-from-prison story
+	an exploitation-style  <REFSTORYDESCONLY>
+	an odd-couple-teams-up  <REFSTORYDESCONLY>
+	an on-the-run story
+REFSTORYDESC
+	an epic
+	a story
+	a tale
+REFSTORYDESCONLY
+	story
+	tale
+REFTHEMEREF
+	with a strong theme of
+	with an emphasis on
+	with a focus on
+	with an undercurrent about
+//REFS - SETTINGS
+//REF - ROUTES - SETTTING
+REFROUTESETFANTASY
+	<REFROUTESETFANTASYREG>
+	<REFROUTESETFANTASYREG>
+	<REFROUTESETFANTASYREG>
+	<REFROUTESETFANTASYREGPLUS>
+	<REFROUTESETFANTASYREGPLUS>
+	<REFROUTESETFANTASYUNIV>
+REFROUTESETFANTASYREG
+	in <REFSETSPECIFICFAN>
+	in <REFSETLOCALEFAN>
+	in <REFSETPLANETFAN>
+	on <REFSETWORLDFAN>
+	in <REFSETUNIVFAN>
+	<REFSETUNIQUEFAN>
+REFROUTESETFANTASYREGPLUS
+	in <REFSETSPECIFICFAN> in <REFSETLOCALEFAN>
+	in <REFSETSPECIFICFAN> in <REFSETPLANETFAN>
+	in <REFSETLOCALEFAN> in <REFSETPLANETFAN>
+	in <REFSETLOCALEFAN> on <REFSETWORLDFAN>
+	in <REFSETPLANETFAN> on <REFSETWORLDFAN>
+REFROUTESETFANTASYUNIV
+	in <REFSETUNIVFAN>
+	in <REFSETLOCALEFAN> in <REFSETUNIVFAN>
+	in <REFSETPLANETFAN> in <REFSETUNIVFAN>
+	on <REFSETWORLDFAN> in <REFSETUNIVFAN>
+REFROUTESETMODERN
+	<REFROUTESETMODERNSINGLE>
+	<REFROUTESETMODERNMULTI>
+REFROUTESETMODERNSINGLE
+	in <REFSETSPECIFICMOD>
+	in <REFSETSPECIFICMOD>
+	in <REFSETLOCALEGENMOD>
+	in <REFSETLOCALEGENMOD>
+	in <REFSETLOCALESPECMOD>
+	in <REFSETSPECIALMOD>
+REFROUTESETMODERNMULTI
+	in <REFSETSPECIFICMOD> in <REFSETLOCALEGENMOD>
+	in <REFSETSPECIFICMOD> in <REFSETLOCALEGENMOD>
+	in <REFSETSPECIFICMOD> in <REFSETLOCALESPECMOD>
+	in <REFSETLOCALEGENMOD> in <REFSETPLANETGENMOD>
+	in <REFSETLOCALEGENMOD> in <REFSETPLANETGENMOD>
+	in <REFSETLOCALEGENMOD> in <REFSETPLANETSPECMOD>
+//Temp
+REFROUTESETSCI
+	<REFROUTESETSCIREG>
+	<REFROUTESETSCIREG>
+	<REFROUTESETSCIREG>
+	<REFROUTESETSCIREGPLUS>
+	<REFROUTESETSCIREGPLUS>
+	<REFROUTESETSCIUNIV>
+REFROUTESETSCIREG
+	on <REFSETWORLDSCI>
+	in <REFSETUNIVSCI>
+	<REFSETUNIQUESCI>
+REFROUTESETSCIREGPLUS
+	in <REFSETLOCALESCI> on <REFSETWORLDSCI>
+	in <REFSETPLANETSCI> on <REFSETWORLDSCI>
+REFROUTESETSCIUNIV
+	in <REFSETUNIVSCI>
+	in <REFSETLOCALESCI> in <REFSETUNIVSCI>
+	in <REFSETPLANETSCI> in <REFSETUNIVSCI>
+	on <REFSETWORLDSCI> in <REFSETUNIVSCI>
+//REFS - SETTING - SPECIFIC
+//FANTASY
+REFSETSPECIFICFAN
+	a bakery
+	a bank
+	a bar
+	a basement
+	a smithy
+	a brewery
+	a camp
+	a castle
+	a city hall
+	a coachhouse
+	a coliseum
+	a college of magic
+	a crypt
+	a dormitory
+	a dungeon
+	a farm
+	a farmhouse
+	a fortress
+	a general store
+	a government building
+	a guardhouse
+	a guardtower
+	a guildhouse
+	a hideout
+	a hospital
+	a hotel
+	a house
+	a house of ill repute
+	a hovel
+	a keep
+	a library
+	a mansion
+	a marketplace
+	a mine
+	a museum
+	a poorhouse
+	a prison
+	a private club
+	a restaurant
+	a school
+	a secret passage
+	a shrine
+	a slaughterhouse
+	a store
+	a storehouse
+	a tavern
+	a tavern
+	a thieves' guild
+	a tomb
+	a university
+	a warehouse
+	an adventurer's guild
+	an alchemist's laboratory
+	an archive
+	an arena
+	an armory
+REFSETLOCALEFAN
+	a capital city
+	a university town
+	a military town
+	a military outpost
+	a tourist town
+	a city-state
+	a colony
+	a ghost town
+	a hamlet
+	a large city
+	a metropolis
+	a port
+	a small town
+	a village
+	an outpost
+REFSETPLANETFAN
+	<REFPLANETMODFANTASY> <REFPLANETELEMENTFANTASY>
+	<REFSETENVIROTYPE> <REFPLANETELEMENTFANTASY>
+REFSETWORLDFAN
+	<REFSETENVIROTYPE> world
+	<REFSETENVIROTYPE> world artificially created by magic
+	<REFSETENVIROTYPE> world of forbidden magic
+	<REFSETENVIROTYPE> world of magic
+	<REFSETENVIROTYPE> world that has all but forgotten its magical past
+	<REFSETENVIROTYPE> world where magic is part of everyday life
+	a magical world where everyone lives underground
+	a world artificially created by magic
+	a world of forbidden magic
+	a world of magic
+	a world that has all but forgotten its magical past
+	a world where magic is part of everyday life
+	our world after a disaster brought about the return of magic
+	our world in a magical age
+	our world in a new magical age
+REFSETUNIVFAN
+	a galaxy of magic
+	a magical alternate universe
+	a magical dimension
+	a magical part of our universe
+	a magical universe
+	a solar system of magical space travel
+	a star-spanning magical empire
+	a universe where space travel occurs by magical means
+REFSETUNIQUEFAN
+	in a city-sized magical device
+	in a cursed land
+	in a cursed place
+	in a floating city
+	in a god's imagination
+	in a magical construct
+	in a magical item
+	in a magical research facility
+	on a magical world that is <REFFANTASTYWORLDFORM>
+	in a pocket universe
+	on a shattered world where the inhabitants live on the remaining shards
+	on a site of ancient ruins
+	on a space station established by magical means
+	in a subterranean kingdom
+	on a world that actually consists of many worlds-inside-worlds
+	on a world-sized magical device
+	in an ancient dungeon
+	on an inside-out world with the sun and inhabitants on the inside
+	in an underground city
+	in an underwater city
+	on the body of a creature so large people think it's a world
+	in the imagination of a dead people
+	in the imagination of a demon
+	in the imagination of a god
+	on a world whose form has been distorted by magical
+//MODERN
+REFSETSPECIFICMOD
+	a bakery
+	a bank
+	a bar
+	a bookstore
+	a bus station
+	a camp
+	a car dealership
+	a cemetery
+	a church
+	a city hall
+	a coffee shop
+	a college
+	a comedy club
+	a computer store
+	a computer store
+	a condominium
+	a construction site
+	a convenience store
+	a copy shop
+	a country club
+	a crypt
+	a data center
+	a dentist's office
+	a doctor's office
+	a dormitory
+	a drug store
+	a factory
+	a farm
+	a firehouse
+	a frat house
+	a funeral home
+	a government building
+	a grocery store
+	a gun shop
+	a hardware store
+	a health spa
+	a high school
+	a hospital
+	a house
+	a jail
+	a junkyard
+	a library
+	a mall
+	a mansion
+	a medical school
+	a morgue
+	a mosque
+	a pharmacy
+	a police station
+	a prison
+	a psychologist's office
+	a shooting range
+	a shooting range
+	a software company
+	a sorority
+	a strip mall
+	a synagogue
+	a television studio
+	a university
+	a warehouse
+	a zoo
+	an airport
+	an apartment
+	an apartment complex
+	an automotive plant
+	an electronics store
+	an elementary school
+	an insane asylum
+	an investment company
+	an office building
+REFSETLOCALEGENMOD
+	a large city
+	a small city
+	a town
+	a village
+	an outpost
+	a manufacturing city
+	a port city
+	a tourist town
+REFSETLOCALESPECMOD
+	Amsterdam
+	Anchorage
+	Atlanta
+	Bejing
+	Belgrade
+	Berlin
+	Brussels
+	Budapest
+	Buenos Aries
+	Cairo
+	Chicago
+	Denver
+	Geneva
+	Hiroshima
+	Hollywood
+	Jerusalem
+	Johannesburg
+	Juno
+	Liverpool
+	London
+	Los Angeles
+	Mexico City
+	Miami
+	Monaco City
+	Montreal
+	Moscow
+	Nairobi
+	New York
+	Osaka
+	Oslo
+	Paris
+	Peking
+	Prague
+	Rio de Janeiro
+	Saigon
+	Seattle
+	Stalingrad
+	Sydney
+	Tokyo
+	Topeka
+	Toronto
+	Vancouver
+	Zurich
+REFSETPLANETGENMOD
+	Africa
+	North America
+	South America
+	Europe
+	Eurasia
+	Africa
+	the Arctic
+	the Antarctic
+	Australia
+REFSETPLANETSPECMOD
+	Afghanistan
+	America
+	Australia
+	Belgium
+	Bolivia
+	Brazil
+	Canada
+	Chile
+	China
+	Cuba
+	Egypt
+	Ethiopia
+	Finland
+	France
+	Germany
+	Greece
+	Indonesia
+	Iran
+	Iraq
+	Israel
+	Israel
+	Italy
+	Japan
+	Monaco
+	North Korea
+	Norway
+	Puerto Rico
+	Russia
+	Saudi Arabia
+	South Africa
+	South Korea
+	Spain
+	Sweden
+	Switzerland
+	Yugoslavia
+REFSETSPECIALMOD
+	a battleship
+	a coffee plantation
+	a coffee shope
+	a comic-book convention
+	a comic-book store
+	a cruise ship
+	a drug plantation
+	a lunar base
+	a military base
+	a movie set
+	a nature preserve
+	a nature retreat
+	a new age retreat
+	a nuclear missile silo
+	a nuclear power plant
+	a plastic surgeon's
+	a protest march
+	a reality television show
+	a retirement home
+	a science-fiction convention
+	a sewer
+	a space launch facility
+	a sports bar
+	a submarine
+	a survivalist camp
+	a television studio
+	a terrorist camp
+	a water park
+	a water treatment plant
+	an abortion provider's
+	an airplane
+	an amusement park
+	an animation studio
+	an art college
+	an art studio
+	an electrical plant
+	an optometrists
+	an underground laboratory
+//SCIFI
+REFSETSPECIFICSCI
+	a bank
+	a bar
+	a camp
+	a cemetery
+	a city hall
+	a cloning facility
+	a coffee shop
+	a college
+	a comedy club
+	a communications facility
+	a computer store
+	a condominium
+	a construction site
+	a country club
+	a cross-species dating service
+	a cryogenic facility
+	a crypt
+	a currency exchange
+	a cybernetics laboratory
+	a cybernetics store
+	a data center
+	a doctor's office
+	a dormitory
+	a factory
+	a farm
+	a firehouse
+	a frat house
+	a funeral home
+	a genetic engineering facility
+	a government building
+	a grocery store
+	a hardware store
+	a hospital
+	a house
+	a jail
+	a library
+	a mall
+	a mansion
+	a medical school
+	a morgue
+	a pharmacy
+	a police station
+	a prison
+	a psychologist's office
+	a research facility
+	a robot factory
+	a shooting range
+	a shooting range
+	a software company
+	a sorority
+	a space elevator
+	a spacecraft assembly yard
+	a spacecraft dealership
+	a spaceport
+	a strip mall
+	a temple
+	a time/space research facility
+	a university
+	a warehouse
+	a weapons shop
+	a zoo
+	an airport
+	an alien embassy
+	an android factory
+	an apartment
+	an apartment complex
+	an asylum
+	an electronics store
+	an elementary school
+	an equipment store
+	an investment company
+	an junkyard
+	an office building
+REFSETLOCALESCI
+	a large city
+	a small city
+	a town
+	a village
+	an outpost
+	a manufacturing city
+	a port city
+	a tourist town
+REFSETPLANETSCI
+	a small nation
+	a large nation
+	a world-spanning nation
+	a planetary <REFSCIGOVERNMENT>
+REFSETWORLDSCI
+	<REFSETWORLDSCIREGULAR>
+REFSETWORLDSCIREGULAR
+	<REFSETENVIROTYPE> planet
+REFSETWORLDSCISPEC
+	a terraformed planet
+	an artificial planet
+	an asteroid belt
+	a planetary moon system
+	a moon
+	a moon orbiting <REFSETENVIROTYPE> planet
+	an asteroid belt that is the remains of <REFSETENVIROTYPE> planet
+REFSETUNIVSCI
+	a galaxy-spanning <REFSCIGOVERNMENT>
+	a solar-system-spanning <REFSCIGOVERNMENT>
+	an intergalactic <REFSCIGOVERNMENT>
+	an interplanetary <REFSCIGOVERNMENT>
+REFSETUNIQUESCI
+	in an orbital spaceport
+	on a colony ship
+	on a deep-space probe
+	in a dimensional warp
+	on a generation ship
+	on a lunar base
+	aboard a medical starship
+	in a parallel universe
+	at a portal to another dimension
+	at a portal to another solar system
+	aboard a space station
+	aboard a space station orbiting <REFSETENVIROTYPE> planet
+	aboard a space station used for <REFSETUNIQUESCI>
+	aboard a space warship
+	at a spatial anomoly
+	aboard a starship
+	in a time warp
+	on an artificial moon
+	at an orbital starship assembly yard
+	in a space elevator
+REFSCIGOVERNMENT
+	commonwealth
+	confederation
+	empire
+	federation
+	imperium
+	nation
+	syndicate
+	technocracy
+	theocracy
+REFSETUNIQUESCI
+	combat
+	communications
+	monitoring
+	research
+	spying
+	terraforming
+//REFS - SETTING - GENERIC
+REFSETENVIROTYPE
+	an ancient
+	an arctic
+	an arid
+	a barren
+	a rocky
+	a desert
+	a dying
+	a fiery
+	a fog-shrouded
+	a forest
+	a frozen
+	an icy
+	a jungle
+	a lost
+	a mountainous
+	an ocean
+	a post-apocalyptic
+	a prairie
+	a shadowy
+	a storm-torn
+	a sunless
+	a swamp
+	a toxic
+	a tropical
+	a volcanic
+	a war-scarred
+	a war-torn
+// REFS - SETTING - FANTASY
+REFPLANETMODFANTASY
+	an advanced
+	an ancient
+	a barbaric
+	a beloved
+	a benevolent
+	a blasphemous
+	a blessed
+	a civilized
+	a corrupt
+	a crime-ridden
+	a cultured
+	a cursed
+	a dark
+	a demon-haunted
+	a despised
+	a distant
+	an evil
+	a famous
+	a forgotten
+	a foul
+	a god-touched
+	a hated
+	a haunted
+	a hidden
+	a holy
+	an impoverished
+	an inconsequential
+	an infamous
+	an influential
+	an irreligious
+	a law-abiding
+	a legendary
+	a lost
+	a magical
+	a magic-driven
+	a magic-rich
+	a monster-ridden
+	a mysterious
+	a mystical
+	an oppressed
+	an oppressive
+	an outlaw
+	a peaceful
+	a primitive
+	a prophecy-touched
+	a religious
+	a respected
+	a sophisticated
+	a steam-driven
+	a strange
+	a traditional
+	an uncultured
+	an unholy
+	a warlike
+	a war-torn
+	a wealthy
+	a xenophobic
+REFPLANETELEMENTFANTASY
+	country
+	domain
+	dukedom
+	empire
+	fiefdom
+	kingdom
+	land
+	nation
+	realm
+	commonwealth
+	police state
+REFFANTASTYWORLDFORM
+	a cone
+	a cube
+	a cylender
+	a disk
+	a mobius strip
+	a pyramid
+	a ring
+	a torus
+//REFS - CHARACTER
+//REFS - CHARACTER - SPECIFIC
+//GENERAL
+REFCHARSINGLEGEN
+	actor
+	acrobat
+	adventurer
+	ambassador
+	architect
+	archivist
+	assistant
+	assassin
+	bandit
+	bartender
+	beggar
+	boatman
+	bodyguard
+	bounty hunter
+	businessperson
+	champion
+	cleric
+	comic
+	dancer
+	explorer
+	farmer
+	fence
+	gambler
+	gigolo
+	heir
+	hermit
+	hero
+	heroine
+	hunter
+	impostor
+	inventor
+	jailer
+	laborer
+	lawman
+	leader
+	marine
+	martial artist
+	mercenary
+	merchant
+	mentor
+	midwife
+	miner
+	murderer
+	musician
+	official
+	outlaw
+	pedlar
+	pharmacist
+	philanthropist
+	philosopher
+	poet
+	politician
+	pretender
+	priest
+	priestess
+	prospector
+	prostitute
+	rabble-rouser
+	rascal
+	rogue
+	sailor
+	servant
+	singer
+	smuggler
+	soldier
+	spy
+	student
+	teacher
+	theologian
+	thief
+	trader
+	traitor
+	traveler
+	wanderer
+	weapons master
+REFCHARSINGLEINDICATORGEN
+	an actor
+	an acrobat
+	an adventurer
+	an ambassador
+	an architect
+	an archivist
+	an assistant
+	an assassin
+	a bandit
+	a bartender
+	a beggar
+	a boatman
+	a bodyguard
+	a bounty hunter
+	a businessperson
+	a champion
+	a cleric
+	a comic
+	a dancer
+	an explorer
+	a farmer
+	a fence
+	a gambler
+	a gigolo
+	a heir
+	a hermit
+	a hero
+	a heroine
+	a hunter
+	an impostor
+	an inventor
+	a jailer
+	a laborer
+	a lawman
+	a leader
+	a marine
+	a martial artist
+	a mercenary
+	a merchant
+	a mentor
+	a midwife
+	a miner
+	a murderer
+	a musician
+	an official
+	an outlaw
+	a pedlar
+	a pharmacist
+	a philanthropist
+	a philosopher
+	a poet
+	a politician
+	a pretender
+	a priest
+	a priestess
+	a prospector
+	a prostitute
+	a rabble-rouser
+	a rascal
+	a rogue
+	a sailor
+	a servant
+	a singer
+	a smuggler
+	a soldier
+	a spy
+	a student
+	a teacher
+	a theologian
+	a thief
+	a trader
+	a traitor
+	a traveler
+	a wanderer
+	a weapons master
+REFCHARPLURALGEN
+	actors
+	acrobats
+	adventurers
+	ambassadors
+	architects
+	archivists
+	assistants
+	assassins
+	bandits
+	bartenders
+	beggars
+	boatmen
+	bodyguards
+	bounty hunters
+	businesspersons
+	champions
+	clerics
+	comics
+	dancers
+	explorers
+	farmers
+	fences
+	gamblers
+	gigolos
+	heirs
+	hermits
+	heroes
+	heroines
+	hunters
+	impostors
+	inventors
+	jailers
+	laborers
+	lawmen
+	leaders
+	marines
+	martial artists
+	mercenaries
+	merchants
+	mentors
+	midwives
+	miners
+	murderers
+	musicians
+	officials
+	outlaws
+	peddlers
+	pharmacists
+	philanthropists
+	philosophers
+	poets
+	politicians
+	pretenders
+	priests
+	priestesses
+	prospectors
+	prostitutes
+	rabble-rousers
+	rascals
+	rogues
+	sailors
+	servants
+	singers
+	smugglers
+	soldiers
+	spies
+	students
+	teachers
+	theologians
+	thieves
+	traders
+	traitors
+	travelers
+	wanderers
+	weapons masters
+//FANTASY
+REFCHARSINGLEFAN
+	alchemist
+	archer
+	arch-mage
+	arch-druid
+	astrologer
+	barbarian
+	bard
+	beastmaster
+	blacksmith
+	bowman
+	cartographer
+	circuit priest
+	circuit priestess
+	coachman
+	conjurer
+	demonologist
+	druid
+	duke
+	dutchess
+	dungeon delver
+	elementalist
+	exorcist
+	fisherman
+	fortune-teller
+	gladiator
+	grave robber
+	healer
+	herbologist
+	king
+	knight
+	magician
+	monk
+	necromancer
+	noble
+	nun
+	occultist
+	paladin
+	peasant
+	prince
+	princess
+	prophet
+	queen
+	ranger
+	rat-catcher
+	scribe
+	seer
+	shaman
+	tomb-robber
+	treasure-hunter
+	watchman
+	witch-hunter
+	wizard
+REFCHARSINGLEINDICATORFAN
+	an alchemist
+	an archer
+	an arch-mage
+	an arch-druid
+	an astrologer
+	a barbarian
+	a bard
+	a beastmaster
+	a blacksmith
+	a bowman
+	a cartographer
+	a circuit priest
+	a circuit priestess
+	a coachman
+	a conjurer
+	a demonologist
+	a druid
+	a duke
+	a duchess
+	a dungeon delver
+	an elementalist
+	an exorcist
+	a fisherman
+	a fortune-teller
+	a gladiator
+	a grave robber
+	a healer
+	a herbologist
+	a king
+	a knight
+	a magician
+	a monk
+	a necromancer
+	a noble
+	a nun
+	an occultist
+	a paladin
+	a peasant
+	a prince
+	a princess
+	a prophet
+	a queen
+	a ranger
+	a rat-catcher
+	a scribe
+	a seer
+	a shaman
+	a tomb-robber
+	a treasure-hunter
+	a watchman
+	a witch-hunter
+	a wizard
+REFCHARPLURALFAN
+	alchemists
+	archers
+	arch-mages
+	arch-druids
+	astrologers
+	barbarians
+	bards
+	beastmasters
+	blacksmiths
+	bowmen
+	cartographers
+	circuit priests
+	circuit priestesss
+	coachmans
+	conjurers
+	demonologists
+	druids
+	dukes
+	duchesses
+	dungeon delvers
+	elementalists
+	exorcists
+	fishermen
+	fortune-tellers
+	gladiators
+	grave robbers
+	healers
+	herbologists
+	kings
+	knights
+	magicians
+	monks
+	necromancers
+	nobles
+	nuns
+	occultists
+	paladins
+	peasants
+	princes
+	princesses
+	prophets
+	queens
+	rangers
+	rat-catchers
+	scribes
+	seers
+	shamans
+	tomb-robbers
+	treasure-hunters
+	watchmen
+	witch-hunters
+	wizard
+//MODERN
+REFCHARSINGLEMOD
+	accountant
+	advertising executive
+	airline pilot
+	anthropologist
+	archaeologist
+	astrologer
+	astronaut
+	astronomer
+	barber
+	baseball player
+	biologist
+	bookstore owner
+	botanist
+	broadcaster
+	cab driver
+	car salesman
+	CEO
+	CFO
+	chemical engineer
+	chemist
+	CIO
+	clerk
+	coach
+	college professor
+	college student
+	computer programmer
+	construction worker
+	corporate official
+	daycare employee
+	detective
+	doctor
+	electrician
+	environmentalist
+	fighter pilot
+	fire fighter
+	football player
+	garbageman
+	gas station attendant
+	gym teacher
+	hacker
+	hockey player
+	investor
+	jock
+	librarian
+	linguist
+	linguist
+	manager
+	media personality
+	media technician
+	mobster
+	movie producer
+	movie reviewer
+	network engineer
+	newscaster
+	novelist
+	nuclear engineer
+	nurse
+	park ranger
+	performance artist
+	physicist
+	plumber
+	police chief
+	policeman
+	professor
+	project manager
+	psychiatrist
+	psychologist
+	pundit
+	repairman
+	reporter
+	salesperson
+	school teacher
+	scientist
+	scuba diver
+	secret agent
+	secretary
+	stockbroker
+	stylist
+	surgeon
+	talk show host
+	technician
+	terrorist
+	veterinarian
+	video game addict
+	video game programmer
+	zookeeper
+	zoologist
+REFCHARSINGLEINDICATORMOD
+	an accountant
+	an advertising executive
+	an airline pilot
+	an anthropologist
+	an archaeologist
+	an astrologer
+	an astronaut
+	an astronomer
+	a barber
+	a baseball player
+	a biologist
+	a bookstore owner
+	a botanist
+	a broadcaster
+	a cab driver
+	a car salesman
+	a CEO
+	a CFO
+	a chemical engineer
+	a chemist
+	a CIO
+	a clerk
+	a coach
+	a college professor
+	a college student
+	a computer programmer
+	a construction worker
+	a corporate official
+	a daycare employee
+	a detective
+	a doctor
+	an electrician
+	an environmentalist
+	a fighter pilot
+	a fire fighter
+	a football player
+	a garbageman
+	a gas station attendant
+	a gym teacher
+	a hacker
+	a hockey player
+	a investor
+	a jock
+	a librarian
+	a linguist
+	a linguist
+	a manager
+	a media personality
+	a media technician
+	a mobster
+	a movie producer
+	a movie reviewer
+	a network engineer
+	a newscaster
+	a novelist
+	a nuclear engineer
+	a nurse
+	a park ranger
+	a performance artist
+	a physicist
+	a plumber
+	a police chief
+	a policeman
+	a professor
+	a project manager
+	a psychiatrist
+	a psychologist
+	a pundit
+	a repairman
+	a reporter
+	a salesperson
+	a school teacher
+	a scientist
+	a scuba diver
+	a secret agent
+	a secretary
+	a stockbroker
+	a stylist
+	a surgeon
+	a talk show host
+	a technician
+	a terrorist
+	a veterinarian
+	a video game addict
+	a video game programmer
+	a zookeeper
+	a zoologist
+REFCHARPLURALMOD
+	accountants
+	advertising executives
+	airline pilots
+	anthropologists
+	archaeologists
+	astrologers
+	astronauts
+	astronomers
+	barbers
+	baseball players
+	biologists
+	bookstore owners
+	botanists
+	broadcasters
+	cab drivers
+	car salesmen
+	CEOs
+	CFOs
+	chemical engineers
+	chemists
+	CIOs
+	clerks
+	coaches
+	college professors
+	college students
+	computer programmers
+	construction workers
+	corporate officials
+	daycare employees
+	detectives
+	doctors
+	electricians
+	environmentalists
+	fighter pilots
+	fire fighters
+	football players
+	garbagemen
+	gas station attendants
+	gym teachers
+	hackers
+	hockey players
+	investors
+	jocks
+	librarians
+	linguists
+	linguists
+	managers
+	media personalities
+	media technicians
+	mobsters
+	movie producers
+	movie reviewers
+	network engineers
+	newscasters
+	novelists
+	novelists
+	nuclear engineers
+	nurses
+	park rangers
+	performance artists
+	physicists
+	plumbers
+	police chiefs
+	policemen
+	professors
+	project managers
+	psychiatrists
+	psychologists
+	pundits
+	repairmen
+	reporters
+	salespersons
+	school teachers
+	scientists
+	scuba divers
+	secret agents
+	secretaries
+	stockbrokers
+	stylists
+	surgeons
+	talk show hosts
+	technicians
+	terrorists
+	veterinarians
+	video game addicts
+	video game programmers
+	zookeepers
+	zoologists
+//SCIFI
+REFCHARSINGLESCI
+	accountant
+	advertising executive
+	airline pilot
+	anthropologist
+	archaeologist
+	astrologer
+	astronaut
+	astronomer
+	barber
+	baseball player
+	biologist
+	bookstore owner
+	botanist
+	broadcaster
+	cab driver
+	car salesman
+	CEO
+	CFO
+	chemical engineer
+	chemist
+	CIO
+	clerk
+	coach
+	college professor
+	college student
+	computer programmer
+	construction worker
+	corporate official
+	daycare employee
+	detective
+	doctor
+	electrician
+	environmentalist
+	fighter pilot
+	fire fighter
+	gas station attendant
+	gym teacher
+	hacker
+	hockey player
+	investor
+	jock
+	librarian
+	linguist
+	manager
+	media personality
+	media technician
+	mobster
+	movie producer
+	movie reviewer
+	network engineer
+	newscaster
+	novelist
+	nuclear engineer
+	nurse
+	park ranger
+	performance artist
+	physicist
+	plumber
+	police chief
+	policeman
+	professor
+	project manager
+	psychiatrist
+	psychologist
+	pundit
+	repairman
+	reporter
+	salesperson
+	school teacher
+	scientist
+	secret agent
+	secretary
+	stockbroker
+	stylist
+	surgeon
+	talk show host
+	technician
+	terrorist
+	veterinarian
+	video game addict
+	video game programmer
+	zookeeper
+	zoologist
+REFCHARSINGLEINDICATORSCI
+	an accountant
+	an alien entity
+	an android
+	an anthropologist
+	an archaeologist
+	an artificial life form
+	an astronaut
+	an astronomer
+	a barber
+	a biologist
+	a botanist
+	a CEO
+	a CFO
+	a chemical engineer
+	a chemist
+	a chief starship engineer
+	a CIO
+	a clerk
+	a clone
+	a coach
+	a colonist
+	a computer personality 
+	a computer programmer
+	a computer technician
+	a construction worker
+	a corporate official
+	a cyberneticist
+	a cyberpunk
+	a cyborg
+	a detective
+	a doctor
+	an electrician
+	an engineer
+	an environmentalist
+	a fighter pilot
+	a fire fighter
+	a first contact specialist
+	a first officer
+	a hacker
+	an investor
+	a jock
+	a librarian
+	a life support technician
+	a linguist
+	a linguistics expert
+	a manager
+	a media personality
+	a media technician
+	a medical officer
+	a medical technician
+	a mobster
+	a mutant
+	a nanotechnologist
+	a network engineer
+	a newscaster
+	a novelist
+	a nurse
+	an operations manager
+	a park ranger
+	a performance artist
+	a physicist
+	a planetary explorer
+	a planetologist
+	a police chief
+	a policeman
+	a professor
+	a professor
+	a project manager
+	a psychiatrist
+	a psychologist
+	a pundit
+	a quartermaster
+	a repairman
+	a reporter
+	a robot
+	a salesperson
+	a school teacher
+	a scientist
+	a secret agent
+	a secretary
+	a shuttlecraft pilot
+	a space cargo hauler
+	a space fighter
+	a space hitchhiker
+	a space pirate
+	a sports figure
+	a starship captain
+	a starship communications officer
+	a starship communications technician
+	a starship engineer
+	a starship navigator
+	a starship pilot
+	a starship salesperson
+	a starship security agent
+	a starship security officer
+	a stellar cartographer
+	a stockbroker
+	a student
+	a stylist
+	a super computer
+	a surgeon
+	a tactical officer
+	a talk show host
+	a technician
+	a terraformer
+	a terrorist
+	a time travel technician
+	a time traveler
+	a veterinarian
+	a video game addict
+	a video game programmer
+	a virtual reality engineer
+	a virtual reality programmer
+	a weapons officer
+	a xenoarcheologist
+	a xenobiologist
+	a xenobotanist
+	a xenolinguist
+	a xenomedical expert
+	a xenosociologist
+	a zookeeper
+	a zoologist
+REFCHARPLURALSCI
+	accountants
+	alien entities
+	androids
+	anthropologists
+	archaeologists
+	artificial life forms
+	astronauts
+	astronomers
+	barbers
+	biologists
+	botanists
+	CEOs
+	CFOs
+	chemical engineers
+	chemists
+	chief starship engineers
+	CIOs
+	clerks
+	clones
+	coaches
+	colonists
+	computer personality s
+	computer programmers
+	computer technicians
+	construction workers
+	corporate officials
+	cyberneticists
+	cyberpunks
+	cyborgs
+	detectives
+	doctors
+	electricians
+	engineers
+	environmentalists
+	fighter pilots
+	fire fighters
+	first contact specialists
+	first officers
+	hackers
+	investors
+	jocks
+	librarians
+	life support technicians
+	linguists
+	linguistics experts
+	managers
+	media personalities
+	media technicians
+	medical officers
+	medical technicians
+	mobsters
+	mutants
+	nanotechnologists
+	network engineers
+	newscasters
+	novelists
+	nurses
+	operations managers
+	park rangers
+	performance artists
+	physicists
+	planetary explorers
+	planetologists
+	police chiefs
+	policemen
+	professors
+	professors
+	project managers
+	psychiatrists
+	psychologists
+	pundits
+	quartermasters
+	repairmen
+	reporters
+	robots
+	salespersons
+	school teachers
+	scientists
+	secret agents
+	secretaries
+	shuttlecraft pilots
+	space cargo haulers
+	space fighters
+	space hitchhikers
+	space pirates
+	sports figures
+	starship captains
+	starship communications officers
+	starship communications technicians
+	starship engineers
+	starship navigators
+	starship pilots
+	starship salespersons
+	starship security agents
+	starship security officers
+	stellar cartographers
+	stockbrokers
+	students
+	stylists
+	super computers
+	surgeons
+	tactical officers
+	talk show hosts
+	technicians
+	terraformers
+	terrorists
+	time travel technicians
+	time travelers
+	veterinarians
+	video game addicts
+	video game programmers
+	virtual reality engineers
+	virtual reality programmers
+	weapons officers
+	xenoarcheologists
+	xenobiologists
+	xenobotanists
+	xenolinguists
+	xenomedical experts
+	xenosociologists
+	zookeepers
+	zoologists
+//REFS - CHARACTER - ELEMENTS
+REFCHARDESC
+	absent-minded
+	acrobatic
+	addled
+	aged
+	aggravated
+	agile
+	alienated
+	aloof
+	altruistic
+	ambitious
+	amiable
+	antisocial
+	anxious
+	apathetic
+	arrogant
+	artistic
+	atheistic
+	athletic
+	attractive
+	awestruck
+	awkward
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	boring
+	brave
+	broken-hearted
+	brutal
+	bullying
+	burnt-out
+	calm
+	charismatic
+	chaste
+	cheerful
+	clever
+	clinging
+	clueless
+	clumsy
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	conformist
+	confused
+	contemplative
+	cooperative
+	corrupt
+	courageous
+	cowardly
+	craven
+	crazy
+	creative
+	crippled
+	cruel
+	cunning
+	cute
+	cynical
+	delusional
+	depressed
+	detached
+	dexterous
+	diabolical
+	disillusioned
+	disloyal
+	disorganized
+	dispirited
+	dissatisfied
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	educated
+	elegant
+	enduring
+	energetic
+	ethical
+	experienced
+	extraverted
+	fearful
+	fear-ridden
+	fearsome
+	focused
+	forceful
+	friendly
+	frustrated
+	funny
+	generous
+	gentle
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	healthy
+	heroic
+	homely
+	humble
+	hypocritical
+	hysterical
+	ignorant
+	ignored
+	illogical
+	immature
+	immoral
+	incoherent
+	indecisive
+	industrious
+	inexperienced
+	infamous
+	inhibited
+	innocent
+	insane
+	intelligent
+	intelligent
+	intimidating
+	introverted
+	intuitive
+	irrational
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	materialistic
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	naive
+	naive
+	narrow-minded
+	negative
+	nervous
+	neurotic
+	nice
+	nihilistic
+	nimble
+	noisy
+	nostalgic
+	nurturing
+	obedient
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patriotic
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	pious
+	plain
+	playful
+	plucky
+	poised
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	private
+	promiscuous
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	religious
+	righteous
+	romantic
+	rude
+	ruthless
+	sadistic
+	sarcastic
+	scatterbrained
+	seasoned
+	secretive
+	selfish
+	selfless
+	self-righteous
+	serene
+	serious
+	shiftless
+	shifty
+	short-tempered
+	sickly
+	silly
+	sleazy
+	sloppy
+	slothful
+	slovenly
+	smart
+	smooth
+	snide
+	social
+	spendthrift
+	spiritual
+	stingy
+	stressed
+	striking
+	strong
+	strong
+	studious
+	stupid
+	tactful
+	tactless
+	tired
+	tireless
+	tolerant
+	tough
+	ugly
+	unambitious
+	unathletic
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unhealthy
+	unheroic
+	unjust
+	unpopular
+	unpredictable
+	unremarkable
+	unstable
+	unwise
+	vicious
+	violent
+	vocal
+	watchful
+	weak
+	weak
+	weak-willed
+	weary
+	whiny
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	worldwise
+	worried
+	young
+REFCHARDESCINDICATOR
+	an absent-minded
+	an acrobatic
+	an addled
+	an aged
+	an aggravated
+	an agile
+	an alienated
+	an aloof
+	an altruistic
+	an ambitious
+	an amiable
+	an antisocial
+	an anxious
+	an apathetic
+	an arrogant
+	an artistic
+	an atheistic
+	an athletic
+	an attractive
+	an awestruck
+	an awkward
+	a biased
+	a bigoted
+	a bitter
+	a bloodthirsty
+	a boastful
+	a boring
+	a brave
+	a broken-hearted
+	a brutal
+	a bullying
+	a burnt-out
+	a calm
+	a charismatic
+	a chaste
+	a cheerful
+	a clever
+	a clinging
+	a clueless
+	a clumsy
+	a combative
+	a committed
+	a compassionate
+	a complacent
+	a composed
+	a conceited
+	a confident
+	a conformist
+	a confused
+	a contemplative
+	a cooperative
+	a corrupt
+	a courageous
+	a cowardly
+	a craven
+	a crazy
+	a creative
+	a crippled
+	a cruel
+	a cunning
+	a cute
+	a cynical
+	a delusional
+	a depressed
+	a detached
+	a dexterous
+	a diabolical
+	a disillusioned
+	a disloyal
+	a disorganized
+	a dispirited
+	a dissatisfied
+	a distant
+	a domineering
+	a driven
+	a drunken
+	an eccentric
+	an educated
+	an elegant
+	an enduring
+	an energetic
+	an ethical
+	an experienced
+	an extraverted
+	a fearful
+	a fear-ridden
+	a fearsome
+	a focused
+	a forceful
+	a friendly
+	a frustrated
+	a funny
+	a generous
+	a gentle
+	a graceful
+	a greedy
+	a grim
+	a happy
+	a hateful
+	a healthy
+	a heroic
+	a homely
+	a humble
+	a hypocritical
+	a hysterical
+	an ignorant
+	an ignored
+	an illogical
+	an immature
+	an immoral
+	an incoherent
+	an indecisive
+	an industrious
+	an inexperienced
+	an infamous
+	an inhibited
+	an innocent
+	an insane
+	an intelligent
+	an intimidating
+	an introverted
+	an intuitive
+	an irrational
+	a joyful
+	a just
+	a kind
+	a laid-back
+	a lazy
+	a logical
+	a lonely
+	a loudmouthed
+	a manipulative
+	a materialistic
+	a mature
+	a mean-spirited
+	a melancholy
+	a militant
+	a miserable
+	a miserly
+	a misguided
+	a misunderstood
+	a moral
+	a moralistic
+	a moralizing
+	a mysterious
+	a mystical
+	a naive
+	a naive
+	a narrow-minded
+	a negative
+	a nervous
+	a neurotic
+	a nice
+	a nihilistic
+	a nimble
+	a noisy
+	a nostalgic
+	a nurturing
+	an obedient
+	an obsessive
+	an odd
+	an open-minded
+	an opinionated
+	an opportunistic
+	an optimistic
+	an organized
+	an outgoing
+	a paranoid
+	a patriotic
+	a patronizing
+	a peaceful
+	a peace-loving
+	a persistent
+	a persuasive
+	a pessimistic
+	a philandering
+	a philosophical
+	a pious
+	a plain
+	a playful
+	a plucky
+	a poised
+	a pompous
+	a popular
+	a posturing
+	a pragmatic
+	a predictable
+	a principled
+	a private
+	a promiscuous
+	a puerile
+	a pure
+	a quiet
+	a realistic
+	a rebellious
+	a religious
+	a righteous
+	a romantic
+	a rude
+	a ruthless
+	a sadistic
+	a sarcastic
+	a scatterbrained
+	a seasoned
+	a secretive
+	a selfish
+	a selfless
+	a self-righteous
+	a serene
+	a serious
+	a shiftless
+	a shifty
+	a short-tempered
+	a sickly
+	a silly
+	a sleazy
+	a sloppy
+	a slothful
+	a slovenly
+	a smart
+	a smooth
+	a snide
+	a social
+	a spendthrift
+	a spiritual
+	a stingy
+	a stressed
+	a striking
+	a strong
+	a strong
+	a studious
+	a stupid
+	a tactful
+	a tactless
+	a tired
+	a tireless
+	a tolerant
+	a tough
+	an ugly
+	an unambitious
+	an unathletic
+	an unbalanced
+	an unconfident
+	an uncreative
+	an unethical
+	an unfriendly
+	an unhappy
+	an unhealthy
+	an unheroic
+	an unjust
+	an unpopular
+	an unpredictable
+	an unremarkable
+	an unstable
+	an unwise
+	a vicious
+	a violent
+	a vocal
+	a watchful
+	a weak
+	a weak
+	a weak-willed
+	a weary
+	a whiny
+	a wild
+	a willful
+	a wily
+	a wise
+	a wistful
+	a withdrawn
+	a worldwise
+	a worried
+	a young
+REFCHARRELATION
+	who has a crush on
+	who has a mysterious admirier:
+	who hates
+	who is best friends with
+	who is constantly annoyed by
+	who is constantly annoying
+	who is constantly opposed by
+	who is constantly opposing
+	who is engaged to
+	who is in debt to
+	who is in love with
+	who is married to
+	who is mysteriously connected to
+	who is obsessed with
+	who is stalked by
+	who must work with
+	who was once married to
+//REFS - CHARACTER - ELEMENTS - SPECIFIC
+REFCHARMODGEN
+	escpaing the past
+	from a bad family
+	from a big family
+	from a good family
+	from a small family
+	from an unusual family line
+	from nowhere
+	haunted by dark memories
+	haunted by flashbacks
+	hiding a dark secret
+	living on borrowed time
+	looking for a challenge
+	looking for love
+	needing a friend
+	on the run from the law
+	on the wrong side of the law
+	searching for a family member
+	searching for a lost friend
+	searching for employment
+	searching for justice
+	searching for purpose
+	searching for truth
+	trapped by the past
+	who belongs to a secret organization
+	who can't resist a fight
+	who can't resist helping people
+	who fears people think he/she is a fraud
+	who fears the future
+	who fell in with the wrong crowd
+	who had a near-death experience that changed them significantly
+	who has an odd way of speaking
+	who has several nervous habits
+	who hates animals
+	who hates children
+	who hopes to be the best in his/her profession
+	who is a complete fraud
+	who is an outsider
+	who is considered the best in his/her profession
+	who is considered the worst in his/her profession
+	who is cursed with bad luck
+	who is dependent on medication
+	who is estranged from family members
+	who is given to moments of deep introspection
+	who is more than meets the eye
+	who is part of a secret society
+	who is prone to odd statements
+	who is seeking meaning in life
+	who lost meaning in life
+	who loves animals
+	who loves children
+	who seems insane
+	who suffers from a chronic disease
+	who suffers from a chronic medical condition
+	with a chemical dependency
+	with a dark past
+	with a false identity
+	with a heart of gold
+	with a knack for trouble
+	with a large fortune
+	with a lot of friends
+	with a rival in his/her profession
+	with an odd birthmark
+	with an unexpected destiny
+	with big dreams
+	with little money
+	with no hope
+	with repressed memories
+	with uncanny abilities
+	with unexpected depths
+	with unusual luck
+REFCHARMODFAN
+	who belongs to a mysterious cult
+	who can see invisible entities
+	who fears non-human beings
+	who fears supernatural entities
+	who has a demonic connection
+	who has a divine connection
+	who has a legendary grimoire
+	who has annoyed the gods
+	who has rare occult knowledge
+	who inherited a family curse
+	who is burdened with dark knowledge
+	who is easily affected by magic
+	who is estranged nobility
+	who is haunted by a ghost
+	who is heir to a kingdom
+	who is heir to a kingdom but doesn't know it
+	who lives under a curse
+	who possesses a strange map
+	who possesses a strong immunity to magic
+	who secretly worships forbidden gods
+	who tends to annoy demonic beings
+	who tends to annoy divine beings
+	who tends to annoy non-humans
+	who was blessed by the gods
+	who wields an unusual artifact
+	who worships unknown gods
+	whose dwelling is haunted
+	whose family line was magically enhanced
+	with a peculiar affinity for magic
+	with a peculiar affinity for magical items
+	with a peculiar lack of affinity for magical items
+	with a peculiar lack of magical talent
+	with a strange rapport with non-humans
+	with a strange rapport with supernatural beings
+	with demonic blood
+	with divine blood
+	with non-human ancestry
+REFCHARMODMOD
+	<REFCHARMODGEN>
+REFCHARMODSCI
+	addicted to an otherworldly drug
+	addicted to virtual reality
+	fighting against a culture that won't allow him/her to reproduce
+	from a distant colony
+	from a dying race
+	from an ancient race
+	from an infamous race
+	from the past
+	from the future
+	hitch-hiking across the known universe
+	in love with someone of another species
+	in love with an artificial life form
+	in possession of an alien artifact
+	in possession of coordinates to a great secret
+	in possession of stolen technology
+	infected with an alien disease
+	infected with nanites
+	just awoke from suspended animation
+	on an important journey to a parallel world
+	on an important journey through space
+	on an important journey through time
+	who fears a particular alien species
+	who has an obsessive attraction to a particular alien species
+	who has seen parts of the universe few have
+	who hates a particular alien species
+	who is a crossbreed of two species
+	who is estranged from his/her race
+	who is fighting an alien occupation force
+	who is from a parallel dimension
+	who is from a parallel universe
+	who is actually an alien entity
+	who is seeking to return to his/her homeworld
+	who is the last member of his/her race
+	who tragically misunderstood an alien custom
+	who was exiled to another dimension
+	who was exiled to another world
+	who was genetically engineered
+	who was granted strange abilities by an alien species
+	who was victimized by an artificial intelligence
+	who was victimized by an alien race
+	who plans to exploit another world
+	whose body was infected by an alien seeking to reproduce
+	whose culture has collapsed
+	whose mind was controlled by a parasite
+	whose species has odd reproductive habits
+	whose species is being exterminated
+	whose species reproduces by cloning or similar technology
+	whose world is run by a computer
+	whose world is threatened by a space disaster
+	whose world is threatened by a technological disaster
+	with a gift for understanding other cultures
+	with a gift for understanding other languages
+	with strange powers that only work when emotionally agitated
+//REFS - CHARACTER - NONSPECIFIC
+REFCHARORGANIZATIONINDICATOR
+	an alliance
+	a band
+	a group
+	a guild
+	a school
+//REFS - EVENTS
+REFEVENTS
+	a betrayal
+	a birth
+	a birthday celebration
+	a birthday preparation
+	a chest being opened
+	a compromise
+	a confession
+	a conversion
+	a critical injury
+	a death
+	a deception
+	a delusion
+	a demotion
+	destruction
+	a discovery
+	a door being opened
+	a dream
+	a failure
+	a flashback
+	a funeral
+	growth
+	a holiday celebration
+	a holiday preparation
+	hunting
+	a joke
+	a journey
+	a keepsake
+	a kidnapping
+	a lecture
+	a legal dispute
+	a lie
+	longing
+	a massacre
+	a miscommunication
+	a misunderstanding
+	a murder
+	a natural disaster
+	a party
+	a performance
+	a pleasant surprise
+	a political conflict
+	a prayer
+	a premonition
+	a promotion
+	a quest
+	a reconciliation
+	a religious ceremony
+	a repentance
+	a resignation
+	a revelation
+	a robbery
+	a service
+	a shopping trip
+	a slip of the tongue
+	a spiritual experience
+	a sport being played
+	a surgery
+	a surrender
+	temptation
+	a theft
+	a tragedy
+	a training
+	travel
+	treason
+	a trial
+	a war
+	a wedding
+	an accident
+	an accident at home
+	an accident while traveling
+	an addiction
+	an adoration
+	an advice
+	an alienation
+	an angry outburst
+	an apocalyptic event
+	an argument
+	an eavesdropping
+	an education
+	an elopement
+	an engagement
+	an illness
+	an infiltration
+	an inheritance
+	an inheritance
+	an insight
+	an intimidation
+	an invasion of privacy
+	an unveiling
+	research being done
+	smuggling
+	somebody breaking something important
+	someone applying for a job
+	someone being slandered
+	someone borrowing money
+	someone building a dwelling
+	someone buying a dwelling
+	someone changing clothes
+	someone discovering a report about themselves
+	someone doing laundry
+	someone faking a skill
+	someone getting a new hairstyle
+	someone getting a new job
+	someone getting drunk
+	someone getting lost
+	someone giving a test
+	someone going to sleep
+	someone losing a job
+	someone making a life-changing decision
+	someone moving to a new dwelling
+	someone pretending to be someone else
+	someone putting on make-up
+	someone questioning authority
+	someone reading a book
+	someone reading a diary
+	someone reveals their feelings
+	someone taking a bath
+	someone visiting a doctor
+	someone waking up up
+	someone writing a book
+	someone writing in a diary
+	spying
+	the discovery of a long-lost friend
+	the discovery of a long-lost relative
+	the discovery of a lost item
+	the failure at a test
+	the making of a meal
+	the passing of a test
+	the paying of a fine
+	the preparation for a performance
+	the revealing of an impostor
+	the revelation of a dark secret
+	the taking of a test
+	violence
+//REFS - EXTRAS
+REFPLOTEXTRAFAN
+	A conflict between magical and nonmagical races plays an important role.
+	A conflict between magical races plays an important role.
+	A conflict between those who use magic and those who don't plays an important role.
+	A lost treasure plays an important role.
+	A magical accident plays an important role.
+	A magical artifact plays an important role.
+	A new kind of magic is evolving in the story.
+	A powerful grimoire plays an important role.
+	A powerful magical weapon plays an important role.
+	A powerful spell plays an important role.
+	A spell being cast at the right time plays an important role.
+	A sudden increase in dangerous monsters is a major plot element.
+	A terrible monster and the need to stop it is a major element of the story.
+	An ancient evil coming back to life is a major part of the story.
+	An ancient prophecy plays an important role.
+	An impending magical conflux plays an important role.
+	An important bloodline plays a prime part.
+	Different kinds of magic are vying for supremacy in the story.
+	Holding off the end of the world is an important part of the story.
+	Magic is fading in power, and that plays an important role in the story.
+	Magic is increasing in power, and that plays an important role in the story.
+	Monsters on a rampage play a major part in the story.
+	Recovering magical artifacts and knowledge is a major part of the story.
+	The creation of a magical artifact plays an important role.
+	The destruction of a magical artifact plays an important role.
+	The effect of magic on technology is a major part of the story.
+	The effect of technology on magic is a major part of the story.
+	The end of one era and the beginning of another is a major element of the story.
+	The master villain of the story actually must be defeated in several different forms.
+	The nature of magic is changing, and that plays an important role in the story.
+	The need to kill someone to stop a prophecy from coming true is an important part of the story.
+	The need to protect someone so a prophecy comes true is an important part of the story.
+	The religion of the world will turn out not to be what it seems.
+	The return of an ancient evil at regular cycles plays an important role in the story.
+	The return of an ancient evil plays an important part in the story.
+	The return of ancient powers plays an important part in the story.
+	The will of the gods is a major part of the story.
+	The effect of magic on <REFPLOTEXTRASCIEFFECT> is a major part of the story.
+	The effect of magical races on <REFPLOTEXTRASCIEFFECT> is a major part of the story.
+REFPLOTEXTRAMOD
+	Archaeology versus respecting native cultures plays a major role in this story.
+	Cultures colliding plays a major role in this story.
+	Drug smuggling plays a major role in this story.
+	Globalization plays a major part in the story.
+	International adoption plays a major role in this story.
+	International commerce plays a major part in this story.
+	International crime plays a major role in this story.
+	International politics plays a major part in the story.
+	National security plays a major part in this story.
+	Shifts in economic dominance play a major role in this story.
+	The changing role of women in cultures plays a major role in this story.
+	The differences between laws from country to country plays a major role in the story.
+	The differences between world cultures plays a major role in this story.
+	The effect of globalization on culture plays a major role in this story.
+	The effect of globalization on religion plays a major role in this story.
+	The fall of the Soviet Union plays a major part in the story.
+	The fallout from the cold war plays a major role in this story.
+	The fallout from World War I plays a major role in this story.
+	The fallout from World War II plays a major role in this story.
+	The formation of the European Union plays a major role in this story.
+	The formation of the UN plays a major role in this story.
+	The gap between the rich and the poor nations plays a major role in this story.
+	The generation gap plays a major part in this story.
+	The internet plays a major part in the story.
+	The issue of abortion plays a major role in the story.
+	The issue of gay rights plays a major role in the story.
+	The issue of global warming plays a major role in this story.
+	The issue of pollution plays a major role in this story.
+	The question 'is man alone in the universe' plays a major role.
+	The rise of global media plays a major part in this story.
+	The role of religion in the modern world plays a major part in the story.
+	The role of technology in the modern world plays a major part in the story.
+	The similarities between world cultures plays a major role in this story.
+	The speed of technological changes plays a major part in this story.
+	The spread of AIDS plays a major part in this story.
+	The spread of new diseases in a global age plays a major part in this story.
+	The threat of bioterrorism plays a major part in this story.
+	The threat of terrorism plays a major part in this story.
+	Tradition versus modernity plays a major part in this story.
+	Weapons proliferation plays a major role in this story.
+	World hunger plays a major role in this story.
+REFPLOTEXTRASCI
+	A spatial anomoly plays a major role in the story.
+	A temporal paradox plays a major role in the story.
+	The creationof artificial life plays a major role in this story.
+	A sudden technological breakthrough plays a major role in this story.
+	A rebellion against technology plays a major role in this story.
+	Technophillia plays a major role in this story.
+	An accident in space plays a major role in the story.
+	The side effects of faster-than-light travel play a major role in the story.
+	The role of artificial intelligence in society plays a major role in the story.
+	The question of when a machine becomes human is a major part of the story.
+	The difficulty of cross-species communications is a major issue of the story.
+	Technology getting out of hand is a major issue of the story.
+	Cross-species romance is a major element of the story.
+	The role of technology in society is a major element of the story.
+	The issues surrounding first-contact with an alien species is a major element of the story.
+	The issues of genetic engineering and its effects on <REFPLOTEXTRASCIEFFECT> is a major element of the story.
+	The issues of cybernetics and its effects on <REFPLOTEXTRASCIEFFECT> is a major element of the story.
+	The issues of faster-than-light-travel and its effects on <REFPLOTEXTRASCIEFFECT> is a major element of the story.
+	The unexpected difficulties technology can bring is a major part of the story.
+	The effect of alien contact on <REFPLOTEXTRASCIEFFECT> is a major part of the story.
+	Virtual reality addiction is a major part of the story.
+	The effects of extending lifespans is a major part of this story.
+	The future of warfare is a major part of this story.
+	The future of peacemaking is a major part of this story.
+	The blurring of the boundaries between man and machine is a major part of this story.
+	The fact that space may be the last frontier is a major part of this story.
+	The speed of technological advancement is a major part of this story.
+	The differences between alien technologies is a major part of this story.
+	The differences alien societies may have regarding <REFPLOTEXTRASCIEFFECT> is a major element of this story.
+	Genetic engineering and its side effects is a major part of this story.
+	A major element of this story is when technology becomes indistinguishable from magic.
+	A major element of this story is technology being used by an elite few.
+REFPLOTEXTRASCIEFFECT
+	business
+	economics
+	politics
+	religion
+	romance
+	society
+//REFS - GENERAL
+REFNUMBERLOW
+	two
+	three
+	four
+	five
+	six
+	seven
+	eight
+	nine
+	ten
+	eleven
+	twelve

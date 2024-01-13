@@ -1,0 +1,22 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+head villain,8
+henchman,8
+kid robot pilot,8
+secret agent,8
+super-powered agent,8
+super robot creator,8
+super robot engineer,8
+super robot pilot,8
+//16 - Element
+who accidentally bonded with a super robot,16
+whose father left him/her a super robot,16
+whose mother left him/her a super robot,16

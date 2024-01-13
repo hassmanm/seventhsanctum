@@ -1,0 +1,212 @@
+//Vocab types:
+--ORGANIZATION
+//Basic x4
+1
+,punk
+1
+,punk
+1
+,punk
+1
+,punk
+//modified punk
+2,1
+, ,punk
+2,1
+, ,punk
+//Mix
+1,1
+,punk and ,punk
+1,4
+,punk and ,
+//Modified
+1,4
+,punk take on the , genre
+1,8
+,punk ,
+--VOCABULARY
+//1-Punks
+Aero,1
+Air,1
+Alchemi,1
+Alien,1
+Amphibi,1
+Angel,1
+Anti,1
+Aqua,1
+Archaeo,1
+Astro,1
+Atomi,1
+Audio,1
+Auto,1
+Auto,1
+Band,1
+Battle,1
+Bio,1
+Blood,1
+Bronze,1
+Chrono,1
+Coal,1
+Cog,1
+Compu,1
+Crypto,1
+Cyber,1
+Dark,1
+Data,1
+Data,1
+Death,1
+Demon,1
+Diesel,1
+Disco,1
+Dwarf,1
+Dyna,1
+Electro,1
+Element,1
+Elf,1
+Future,1
+Future,1
+Futuro,1
+Galacti,1
+Gear,1
+Geo,1
+Gyro,1
+Hemo,1
+Hero,1
+Historo,1
+Historo,1
+Holo,1
+Holy,1
+Hydro,1
+Hyper,1
+Industrio,1
+Iron,1
+Law,1
+Legal,1
+Light,1
+Litho,1
+Magi,1
+Mecha,1
+Medi,1
+Metal,1
+Metro,1
+Micro,1
+Murder,1
+Necro,1
+Net,1
+Neuro,1
+Night,1
+Ninja,1
+Nucleo,1
+Orc,1
+Plague,1
+Pop,1
+Psycho,1
+Psycho,1
+Retro,1
+Robo,1
+Rock,1
+Script,1
+Sentai,1
+Shaman,1
+Skate,1
+Sky,1
+Smog,1
+Solar,1
+Song,1
+Space,1
+Speed,1
+Spirit,1
+Splatter,1
+Steam,1
+Steel,1
+Stellar,1
+Stone,1
+Techno,1
+Terra,1
+Theo,1
+Ultra,1
+Vampiro,1
+Were,1
+Wheel,1
+Wizard,1
+Xeno,1
+//2-Descriptor
+Action,2
+Adventure,2
+Comedic,2
+Courtroom,2
+Dark,2
+Detective,2
+Dystopian,2
+Heroic,2
+Legal,2
+Martial Arts,2
+Military,2
+Parody,2
+Post-Apocalyptic,2
+Psychological,2
+Romantic,2
+Satirical,2
+Slice-of-life,2
+Speculative,2
+Survival,2
+Urban,2
+Utopian,2
+//4-Genre
+Action Thriller,4
+Comedy of Manners,4
+Courtroom Drama,4
+Dark Comedy,4
+Dark Fantasy,4
+Detective Story,4
+Disaster Story,4
+Drama,4
+Film Noir,4
+Ghost Story,4
+Giant Monster Story,4
+Hard Fantasy,4
+Heroic Fantasy,4
+High Fantasy,4
+Legal Drama,4
+Legal Thriller,4
+Low Fantasy,4
+Magical Girl,4
+Military Fiction,4
+Murder Mystery,4
+Mysteries,4
+Post-Apocalypse,4
+Psychological Thriller,4
+Romantic Comedy,4
+Science-Fiction,4
+Slasher,4
+Slasher Horror,4
+Space Opera,4
+Spy Fiction,4
+Survival Horror,4
+Techno-thriller,4
+Urban Fantasy,4
+Weird Fiction,4
+Westerns,4
+Whodunnit,4
+//8-Type
+Action,8
+Adventure,8
+Comedy,8
+Comedy of Manners,8
+Drama,8
+Fantasy,8
+Gangster Story,8
+Horror,8
+Magical Girl,8
+Murder mystery,8
+Mystery,8
+Parody,8
+Post-Apocalypse,8
+Romance,8
+Satire,8
+Slasher Story,8
+Spy,8
+Superhero,8
+Thriller,8
+Whodunnit,8
+

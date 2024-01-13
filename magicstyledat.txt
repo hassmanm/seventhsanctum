@@ -1,0 +1,725 @@
+//Vocab types:
+//1 - Element
+//2 - Manipulable element
+//4 - Formative element
+//8 - verbal component
+//16 - somatic component
+//32 - material component
+//64 - mental component
+//128 - extra
+--ORGANIZATION
+//Basic
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+1
+This magical style focuses on ,.
+1
+This magical style focuses on ,.
+1,1
+This magical style focuses on both , and ,.
+2,4
+This magical style focuses on ,<COMMA>specifically using it to ,.
+2,4,4
+This magical style focuses on ,<COMMA>specifically using it to , and ,.
+//Basic additional
+1,8
+This magical style focuses on ,. It requires ,.
+1,16
+This magical style focuses on ,. It requires ,.
+1,32
+This magical style focuses on ,. It requires ,.
+1,64
+This magical style focuses on ,. It requires ,.
+1,128
+This magical style focuses on ,. ,
+1,8
+This magical style focuses on ,. It requires ,.
+1,16
+This magical style focuses on ,. It requires ,.
+1,32
+This magical style focuses on ,. It requires ,.
+1,64
+This magical style focuses on ,. It requires ,.
+1,128
+This magical style focuses on ,. ,
+1,8,16
+This magical style focuses on ,. It requires , and ,.
+1,8,32
+This magical style focuses on ,. It requires , and ,.
+1,8,64
+This magical style focuses on ,. It requires , and ,.
+1,8,128
+This magical style focuses on ,. It requires ,. ,
+1,16,32
+This magical style focuses on ,. It requires , and ,.
+1,16,64
+This magical style focuses on ,. It requires , and ,.
+1,16,128
+This magical style focuses on ,. It requires ,. ,
+1,32,64
+This magical style focuses on ,. It requires , and ,.
+1,32,128
+This magical style focuses on ,. It requires ,. ,
+1,64,128
+This magical style focuses on ,. It requires ,. ,
+1,8,16,32
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,16,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,16,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,32,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,64,128
+This magical style focuses on ,. It requires , and ,. ,
+1,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,16,32,128
+This magical style focuses on ,. It requires , and ,. ,
+1,32,64,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,8,16,32,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,8,16,32,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,8
+This magical style focuses on ,. It requires ,.
+1,16
+This magical style focuses on ,. It requires ,.
+1,32
+This magical style focuses on ,. It requires ,.
+1,64
+This magical style focuses on ,. It requires ,.
+1,128
+This magical style focuses on ,. ,
+1,8
+This magical style focuses on ,. It requires ,.
+1,16
+This magical style focuses on ,. It requires ,.
+1,32
+This magical style focuses on ,. It requires ,.
+1,64
+This magical style focuses on ,. It requires ,.
+1,128
+This magical style focuses on ,. ,
+1,8,16
+This magical style focuses on ,. It requires , and ,.
+1,8,32
+This magical style focuses on ,. It requires , and ,.
+1,8,64
+This magical style focuses on ,. It requires , and ,.
+1,8,128
+This magical style focuses on ,. It requires ,. ,
+1,16,32
+This magical style focuses on ,. It requires , and ,.
+1,16,64
+This magical style focuses on ,. It requires , and ,.
+1,16,128
+This magical style focuses on ,. It requires ,. ,
+1,32,64
+This magical style focuses on ,. It requires , and ,.
+1,32,128
+This magical style focuses on ,. It requires ,. ,
+1,64,128
+This magical style focuses on ,. It requires ,. ,
+1,8,16,32
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,16,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,16,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,8,32,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,64,128
+This magical style focuses on ,. It requires , and ,. ,
+1,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,16,32,128
+This magical style focuses on ,. It requires , and ,. ,
+1,32,64,128
+This magical style focuses on ,. It requires , and ,. ,
+1,8,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,8,16,32,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,16,32,64
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,8,16,32,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,8,16,32,64,128
+This magical style focuses on ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+//Complex #1
+2,4,8
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,16
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,32
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,128
+This magical style focuses on ,<COMMA>specifically using it to ,. ,
+2,4,8
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,16
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,32
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,.
+2,4,128
+This magical style focuses on ,<COMMA>specifically using it to ,. ,
+2,4,8,16
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,8,32
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,8,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,8,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,. ,
+2,4,16,32
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,16,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,16,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,. ,
+2,4,32,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,.
+2,4,32,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,. ,
+2,4,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,. ,
+2,4,8,16,32
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,8,16,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,8,16,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,. ,
+2,4,8,32,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,8,32,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,. ,
+2,4,8,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,. ,
+2,4,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,. ,
+2,4,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires , and ,. ,
+2,4,8,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,8,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,8,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,8,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,8,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,8,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+2,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+2,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+//Complex Level 2.
+2,4,4,8
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,16
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,32
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. ,
+2,4,4,8
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,16
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,32
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,.
+2,4,4,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. ,
+2,4,4,8,16
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,8,32
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,8,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,8,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,. ,
+2,4,4,16,32
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,16,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,16,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,. ,
+2,4,4,32,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,.
+2,4,4,32,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,. ,
+2,4,4,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,. ,
+2,4,4,8,16,32
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,4,8,16,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,4,8,16,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,. ,
+2,4,4,8,32,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,4,8,32,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,. ,
+2,4,4,8,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,. ,
+2,4,4,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+2,4,4,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,. ,
+2,4,4,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires , and ,. ,
+2,4,4,8,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,8,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,4,8,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,4,8,16,32,64
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,8,16,32,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,4,8,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+2,4,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+2,4,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+2,4,4,8,16,32,64,128
+This magical style focuses on ,<COMMA>specifically using it to , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+//Specially complex
+1,1,8
+This magical style focuses on both , and ,. It requires ,.
+1,1,16
+This magical style focuses on both , and ,. It requires ,.
+1,1,32
+This magical style focuses on both , and ,. It requires ,.
+1,1,64
+This magical style focuses on both , and ,. It requires ,.
+1,1,128
+This magical style focuses on both , and ,. ,
+1,1,8
+This magical style focuses on both , and ,. It requires ,.
+1,1,16
+This magical style focuses on both , and ,. It requires ,.
+1,1,32
+This magical style focuses on both , and ,. It requires ,.
+1,1,64
+This magical style focuses on both , and ,. It requires ,.
+1,1,128
+This magical style focuses on both , and ,. ,
+1,1,8,16
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,8,32
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,8,64
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,8,128
+This magical style focuses on both , and ,. It requires ,. ,
+1,1,16,32
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,16,64
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,16,128
+This magical style focuses on both , and ,. It requires ,. ,
+1,1,32,64
+This magical style focuses on both , and ,. It requires , and ,.
+1,1,32,128
+This magical style focuses on both , and ,. It requires ,. ,
+1,1,64,128
+This magical style focuses on both , and ,. It requires ,. ,
+1,1,8,16,32
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,1,8,16,64
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,1,8,16,128
+This magical style focuses on both , and ,. It requires , and ,. ,
+1,1,8,32,64
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,1,8,32,128
+This magical style focuses on both , and ,. It requires , and ,. ,
+1,1,8,64,128
+This magical style focuses on both , and ,. It requires , and ,. ,
+1,1,16,32,64
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,.
+1,1,16,32,128
+This magical style focuses on both , and ,. It requires , and ,. ,
+1,1,32,64,128
+This magical style focuses on both , and ,. It requires , and ,. ,
+1,1,8,16,32,64
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,1,8,16,32,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,1,8,32,64,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,1,8,16,32,64
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+1,1,8,16,32,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,1,8,32,64,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> and ,. ,
+1,1,8,16,32,64,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,1,8,16,32,64,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+1,1,8,16,32,64,128
+This magical style focuses on both , and ,. It requires ,<COMMA> ,<COMMA> ,<COMMA> and ,.  ,
+//Vocabulary
+--VOCABULARY
+//1 - Element, 2- manipulable element
+air,3
+astral matter,3
+blood,3
+bone,3
+cold,1
+conjuring,1
+cursing,1
+darkness,3
+death energy,3
+demonology,1
+divination,1
+earth,3
+emotions,1
+enchantment,1
+energy,3
+exorcism,1
+fire,3
+flesh,3
+force,3
+gravity,3
+healing,1
+heat,1
+holy energy,3
+hypnotism,1
+ice,3
+illusions,1
+infernal power,3
+information,3
+kinetic energy,3
+lava,3
+life-force,3
+light,3
+lightning,3
+living tissue,3
+magnetism,3
+metal,3
+mind-control,1
+motion,3
+nature,3
+necromancy,1
+plant life,3
+rock,3
+sand,3
+shapeshifting,1
+souls,1
+soul-force,2
+sound,3
+spirit,1
+spirit-energy,2
+summoning,1
+temperature,1
+the fabric of space,3
+the mind,3
+the natural elements,1
+the soul,3
+thought,3
+time,1
+transmutation,1
+vibration,3
+water,3
+weather,1
+wood,3
+//4 - Formative element
+attack enemies,4
+augment a living creature's abilities,4
+augment the caster's abilities,4
+bring prosperity,4
+conceal oneself or others,4
+create armor,4
+create art,4
+create mass destruction,4
+create mechanisms,4
+create potions,4
+create servitors,4
+create simulcra,4
+create structures,4
+create traps,4
+create various items,4
+create vehicles,4
+create weapons,4
+curse others,4
+deceive others,4
+defend oneself,4
+disguise oneself or others,4
+enchant items,4
+ensnare enemies,4
+perform practical tasks,4
+prevent misfortune,4
+provide transportation,4
+record information,4
+spy on others,4
+torture others,4
+transform materials,4
+transform others,4
+//8 - verbal component
+chants,8
+magic words,8
+names of power,8
+songs of power,8
+special poems,8
+invocations,8
+knowing the true name of a target,8
+//16 - somatic component
+avoiding any contact with the target,16
+dances,16
+gestures,16
+highly specific hand-signs,16
+holding a specific pose for the duration of a spell,16
+magical gestures,16
+remaining completely still,16
+specific bodily postures,16
+the drawing of sigils,16
+touching the target,16
+//32 - material component
+a parchment bearing special symbols,32
+a piece of the target of any spell,32
+a runestone,32
+a series of statuettes,32
+a series of talismans,32
+a special magical sword,32
+a special talisman,32
+a staff,32
+a wand,32
+clay for forming images,32
+crystals,32
+incence,32
+magical potions,32
+offerings for supernatural forces,32
+parts of various magical creatures,32
+pen and paper,32
+special chemicals,32
+special clothes,32
+special potions,32
+specially knotted cords,32
+specially-prepared components,32
+various gemstones,32
+various herbs,32
+various material components,32
+various mystical implements,32
+various talismans,32
+wearing a special mystical outfit,32
+//64 - mental component
+careful visualization,64
+clearing the mind,64
+complex magical calculations,64
+emotional calm,64
+guiding magical forces with the mind itself,64
+heightened emotions,64
+intense concentration,64
+total concentration,64
+//128 - extra
+Ancestral spirits provide the power for this form of magic.,128
+Only certain bloodlines can use this form of magic.,128
+The planet itself provides the power for its magic.,128
+The power of this style of magic is affected by the phases of the moon.,128
+The power of this style of magic is affected by the seasons.,128
+This style draws power from various astrological phenomena.,128
+This style draws powers from the gods.,128
+This style of magic ages the caster at an high rate.,128
+This style of magic depends on a familiar spirit.,128
+This style of magic depends on an animal familiar.,128
+This style of magic draws energies from mysterious nonhuman beings.,128
+This style of magic draws its power from archetypical forces.,128
+This style of magic draws its power from the servants of the gods.,128
+This style of magic draws its power from the unconscious desires of the caster's species.,128
+This style of magic draws power from the collective mind of the caster's species.,128
+This style of magic draws power from the life-force of the caster.,128
+This style of magic draws powers from the infernal realms.,128
+This style of magic mutates the caster over time.,128
+This style of magic only works at specifically consecrated areas.,128
+This style of magic relies on binding and controlling supernatural creatures.,128
+This style of magic requires a natural aptitude.,128
+This style of magic requires one to make bargains with supernatural creatures.,128
+This style of magic requires the caster to store and release magical energy.,128
+This style of magic seems to grant the caster a longer lifespan.,128
+This style of magic works best in certain locations.,128
+This style of magic works only in certain locations.,128

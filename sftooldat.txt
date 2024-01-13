@@ -1,0 +1,154 @@
+//Vocab types:
+//1 Mod Suffix	Mega, Dyna
+//2 Suffix		Soni, Cyber
+//4 ModModifier	Variable, Configurable
+//8 Modifier - 	Sonic, Nuclear
+//16 Tool - Screwdriver
+--ORGANIZATION
+1,16
+,,
+2,16
+,,
+1,4,16
+,, ,
+2,4,16
+,, ,
+8,1,16
+, ,,
+8,2,16
+, ,,
+//Dupes
+8,16
+, ,
+8,16
+, ,
+8,16
+, ,
+8,16
+, ,
+8,16
+, ,
+8,16
+, ,
+--VOCABULARY
+//1 Mod Suffix	Mega, Dyna
+//2 Suffix		Soni, Cyber
+Aero,3
+Anti,1
+Atomi,3
+Astro,2
+Auto,3
+Bioni,2
+Chemo,2
+Chrono,3
+Cosmo,2
+Crypto,3
+Cyber,3
+Dyna,1
+Dyno,1
+Electro,2
+Exo,3
+Fluro,2
+Gravi,2
+Gyro,3
+Hydro,2
+Hyper,3
+Iso,3
+Macro,1
+Magno,3
+Mega,1
+Meta,1
+Metallo,2
+Micro,1
+Multi,1
+Nano,3
+Nucleo,3
+Oscillo,2
+Para,1
+Pyro,2
+Retro,3
+Soni,2
+Techno,3
+Trans,3
+Vari,1
+Vibro,2
+Ultra,1
+Omni,3
+//4 ModModifier	Variable, Configurable
+Phased,4
+Adaptable,4
+Computerized,8
+Configurable,4
+Dynamic,4
+Metric,4
+Morphic,12
+Spatial,4
+Dimensional,12
+Energetic,4
+Spatial,4
+Variable,12
+Cyclic,4
+Polar,4
+Resonant,4
+Stabilized,4
+//8 Modifier - 	Sonic, Nuclear
+Antimatter,8
+Atomic,8
+Bionic,8
+Catalytic,8
+Cosmic,8
+Circuit,8
+Covalent,8
+Cybernetic,8
+Electromagnetic,8
+Energy,8
+Energized,8
+Flux,8
+Hyperspatial,8
+Ionic,8
+Gravitic,8
+Magnetic,8
+Magnetized,8
+Maser,8
+Nanotech,8
+Nuclear,8
+Particle,8
+Protonic,8
+Psionic,8
+Quantum,8
+Resonating,8
+Singularity,8
+Subspace,8
+Sonic,8
+Laser,8
+Maser,8
+Neutronium,8
+Ultrasonic,8
+Virtual,8
+Vortex,8
+Warp,8
+Zero-Gravity,8
+Zero-Point,8
+//16 Tool - Screwdriver
+Crowbar,16
+Stapler,16
+Clamp,16
+Measure,16
+Chisel,16
+File,16
+Mallet,16
+Level,16
+Drill,16
+Grinder,16
+Lathe,16
+Saw,16
+Awl,16
+Hammer,16
+Pliers,16
+Screwdriver,16
+Spanner,16
+Wrench,16
+Chisel,16
+Vise,16
+Lever,16
+Sander,16

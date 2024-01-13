@@ -1,0 +1,1465 @@
+//SEEDS
+SEED
+	<GSEED>
+	<MSSEED>
+	<SRSEED>
+GSEED
+	<*GETCATEGORY><*GETFORM><GENCATEGORYNAME> Gundam - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM>Gundam <GENFORMNAME> - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM><GENFORMNAME> Gundam - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM>Gundam <GENCATEGORYNAME> - <REFABILITY>  <REFEXTRAROUTE>
+MSSEED
+	<*GETCATEGORY><*GETFORM><*GETMILIMOD><REFMSSEEDNAME> - <REFABILITY>  <REFEXTRAROUTE>
+SRSEED
+	<*GETCATEGORY><*GETFORM><GENCATEGORYNAME> <GENFORMNAME> - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM><GENCATEGORYNAME> <GENFORMNAME> - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM><GENFORMNAME> <REFLETTER> - <REFABILITY>  <REFEXTRAROUTE>
+	<*GETCATEGORY><*GETFORM><GENCATEGORYNAME> <GENFORMNAME> <REFLETTER> - <REFABILITY>  <REFEXTRAROUTE>
+//GETS
+//Special Gets
+GETMILIMOD
+	<*>
+		REFABILITY1,true
+			<GENFORMPOWERDESC> <GENCONFIGPOWERTYPE>
+			<GENFORMPOWERDESC> <GENCONFIGPOWERTYPE>
+			<REFLETTER>-<REFNUMBERROUTE> <GENFORMPOWERDESC> <GENCONFIGPOWERTYPE>
+			<REFLETTER>-<REFNUMBERROUTE> <GENCONFIGPOWERTYPE>
+			<GENFORMPOWERDESC> <GENCONFIGPOWERTYPE> Type <REFLETTER>
+		REFABILITY2,true
+			<GENCONFIGPOWERDESC> <GENFORMPOWERTYPE>
+			<GENCONFIGPOWERDESC> <GENFORMPOWERTYPE>
+			<REFLETTER>-<REFNUMBERROUTE> <GENCONFIGPOWERDESC> <GENFORMPOWERTYPE>
+			<REFLETTER>-<REFNUMBERROUTE> <GENFORMPOWERTYPE>
+			<GENCONFIGPOWERDESC> <GENFORMPOWERTYPE> Type <REFLETTER>
+		GENCONFIGPOWERTYPE,false
+			Artillery
+			Barrage
+			Battery
+			Blast
+			Blaster
+			Bolt
+			Bomb
+			Bullet
+			Cannon
+			Carbine
+			Grenade
+			Howitzer
+			Gun
+			Launcher
+			Missile
+			Mortar
+			Projectile
+			Projector
+			Repeater
+			Rocket
+			Shell
+			Shot
+			Shooter
+			Torpedo
+		GENFORMPOWERTYPE,false
+			Artillery
+			Barrage
+			Battery
+			Blast
+			Blaster
+			Bolt
+			Bomb
+			Bullet
+			Cannon
+			Carbine
+			Grenade
+			Howitzer
+			Gun
+			Launcher
+			Missile
+			Mortar
+			Projectile
+			Projector
+			Repeater
+			Rocket
+			Shell
+			Shot
+			Shooter
+			Torpedo
+//Categories of power source
+GETCATEGORY
+	Biochemical
+		GENCATEGORYNAME,true
+			Bio
+			Biochemical
+			Biological
+			Chemical
+			Chemo
+		GENCONFIGPOWERDESC,true
+			Acid
+			Acidic
+			Bio
+			Biochemical
+			Biological
+			Chemical
+			Chemo
+			Disrupting
+			Melting
+		GENCONFIGPOWERTYPE,true
+			Acid
+			Barrage
+			Burst
+			Disruptor
+			Melter
+			Missile
+			Shell
+			Spray
+		GENGUNDAMEXTRACONFIG,true
+			has a variety of subtle armaments
+			is exceptionally deadly to regular troops
+			is immune to chemical attacts
+			will explode in a chemical nightmare if downed
+	Boxer
+		GENCATEGORYNAME,true
+			Boxer
+			Grappler
+			Maxter
+			Wrestler
+		GENCONFIGPOWERDESC,true
+			Battler
+			Fighting
+			Grappling
+			Many-Handed
+			Mighty
+			Pugilistic
+		GENCONFIGPOWERTYPE,true
+			Blow
+			Glove
+			Grab
+			Grapple
+			Kick
+			Knuckle
+			Punch
+			Slam
+			Strike
+			Suplex
+		GENGUNDAMEXTRACONFIG,true
+			can take more damage than most gundams
+			has a variety of hand-to-hand attacks
+			has unusual defensive maneuvers
+			is a terror in hand-to-hand combat
+			is unusually strong
+	Death
+		GENCATEGORYNAME,true
+			Annihilating
+			Death
+			Deadly
+			Executing
+			Killing
+			Skull
+			Slaying
+			Smiting
+		GENCONFIGPOWERDESC,true
+			Annihilating
+			Death
+			Deadly
+			Destroying
+			Executing
+			Killing
+			Slaying
+			Smiting
+		GENCONFIGPOWERTYPE,true
+			Annihilation
+			Destroyer
+			Executioner
+			Killer
+			Sentence
+			Slayer
+			Smite
+		GENGUNDAMEXTRACONFIG,true
+			can easily find an opponent's weakness
+			generates fear in its enemies
+			is extremely deadly in combat
+			is designed specifically for maximum devestation
+	Deception
+		GENCATEGORYNAME,true
+			Deceptive
+			Decieving
+			Illusion
+			Mirage
+			Sly
+			Tricky
+		GENCONFIGPOWERDESC,true
+			Sly
+			Confusing
+			Deceptive
+			Distracting
+			Illusionary
+			Tricky
+		GENCONFIGPOWERTYPE,true
+			Confuser
+			Distractor
+			Illusion
+			Mirage
+			Projection
+			Projector
+			Twister
+			Warper
+		GENGUNDAMEXTRACONFIG,true
+			has a camoflague generator
+			is designed for covert operations
+			is designed to confuse enemies
+	Divine
+		GENCATEGORYNAME,true
+			Blessed
+			Divine
+			Heaven
+			Heavenly
+			Holy
+			Miracle
+			Miraculous
+			Shining
+		GENCONFIGPOWERDESC,true
+			Blessed
+			Divine
+			Heaven
+			Heavenly
+			Holy
+			Miracle
+			Miraculous
+			Shining
+			Smiting
+		GENCONFIGPOWERTYPE,true
+			Blessing
+			Curse
+			Decree
+			Finger
+			Fist
+			Smite
+			Strike
+			Word
+		GENGUNDAMEXTRACONFIG,true
+			has a variety of special abilities
+			is incredibly powerful
+			is the pinnacle of robot design
+	Electrical
+		GENCATEGORYNAME,true
+			Electrical
+			Electro
+			Lightning
+			Thunder
+			Thundering
+		GENCONFIGPOWERDESC,true
+			Charged
+			Electric
+			Electro
+			Jupiter
+			Lighting
+			Spark
+			Sparking
+			Thundering
+		GENCONFIGPOWERTYPE,true
+			Bolt
+			Charge
+			Hammer
+			Spear
+			Strike
+			Thunder
+			Zap
+		GENGUNDAMEXTRACONFIG,true
+			can adsorb electrical power
+			can generate electrical interference
+			is resistant to electrical attacks
+	Fire
+		GENCATEGORYNAME,true
+			Burning
+			Heat
+			Hot
+			Firey
+			Flaming
+			Melter
+		GENCONFIGPOWERDESC,true
+			Burning
+			Cremating
+			Incinerating
+			Fire
+			Flame
+			Heat
+			Hot
+		GENCONFIGPOWERTYPE,true
+			Blazer
+			Burner
+			Cremator
+			Incinerator
+			Flame
+			Flamethrower
+			Melter
+		GENGUNDAMEXTRACONFIG,true
+			can adsorb fire and heat attacks
+			is resistant to fire attacks
+	Heavy
+		GENCATEGORYNAME,true
+			Armored
+			Heavy
+			Devestator
+			Mega
+			Ultra
+		GENCONFIGPOWERDESC,true
+			Barrage
+			Bombing
+			Devestating
+			Explosive
+			Heavy
+			Siege
+			Mega
+			Ultra
+		GENCONFIGPOWERTYPE,true
+			Artillery
+			Assault
+			Barrage
+			Battery
+			Blaster
+			Bomb
+			Cannon
+			Carbine
+			Devestator
+			Howitzer
+			Gun
+			Launcher
+			Missile
+			Mortar
+			Rocket
+			Shell
+			Siege
+		GENGUNDAMEXTRACONFIG,true
+			can unleash an amazing barrage of attacks
+			is extremely well armed
+			is extremely well armored
+			wields some of the heaviest weapons known
+	Ice
+		GENCATEGORYNAME,true
+			Blizzard
+			Cold
+			Freezing
+			Ice
+			Icy
+			Winter
+		GENCONFIGPOWERDESC,true
+			Cold
+			Freezing
+			Glacier
+			Ice
+			Icy
+			Winter
+		GENCONFIGPOWERTYPE,true
+			Blizzard
+			Chill
+			Chiller
+			Freeze
+			Freezer
+		GENGUNDAMEXTRACONFIG,true
+			can adsorb cold attacks
+			generates an aura of cold
+			is resistant to the extremes of cold
+	Light
+		GENCATEGORYNAME,true
+			Aura
+			Glow
+			Glowing
+			Laser
+			Light
+			Luminous
+			Photo
+			Photon
+			Photonic
+			Shining
+		GENCONFIGPOWERDESC,true
+			Glowing
+			Laser
+			Light
+			Luminous
+			Photon
+			Photonic
+			Shining
+		GENCONFIGPOWERTYPE,true
+			Aura
+			Beam
+			Bolt
+			Glow
+			Laser
+			Ray
+		GENGUNDAMEXTRACONFIG,true
+			can adsorb laser attacks
+			can blind opponent's sensors
+			can deflect laser attacks
+			can reflect laser attacks
+	Nuclear
+		GENCATEGORYNAME,true
+			Atomic
+			Nuclear
+			Radioactive
+			Radiation
+		GENCONFIGPOWERDESC,true
+			Atomic
+			Atomo
+			Cyclotron
+			Gamma
+			Nuclear
+			Nucleo
+			Particle
+			Rad
+			Radiation
+			Radioactive
+		GENCONFIGPOWERTYPE,true
+			Blast
+			Cyclotron
+			Emitter
+			Nuke
+			Ray
+			Reactor
+		GENGUNDAMEXTRACONFIG,true
+			can adsorb radiation
+			can emit a deadly radiation aura
+			has weapons whose radiation can penetrate normal defenses
+			will explode in an atomic blast if downed
+	Psychic
+		GENCATEGORYNAME,true
+			Mental
+			Mind
+			Psi
+			Psychic
+		GENCONFIGPOWERDESC,true
+			Controlling
+			Dominating
+			Dream
+			Dreaming
+			Ego
+			Idea
+			Id
+			Mental
+			Mind
+			Nightmare
+			Psi
+			Psychic
+			Soul
+			Thought
+		GENCONFIGPOWERTYPE,true
+			Attack
+			Blast
+			Cast
+			Controller
+			Emitter
+			Domination
+			Nightmare
+			Projector
+			Zap
+		GENGUNDAMEXTRACONFIG,true
+			can cloud opponents' minds
+			can control an opponent's mind
+			has weapons that penetrate many defenses
+			requires a pilot with psychic powers
+	Ranged
+		GENCATEGORYNAME,true
+			Archer
+			Bowman
+			Cowboy
+			Minuteman
+			Rifleman
+			Sniper
+		GENCONFIGPOWERDESC,true
+			Perfect
+			Pinpoint
+			Point
+			Ranged
+			Sniper
+			Targeted
+		GENCONFIGPOWERTYPE,true
+			Bullet
+			Gun
+			Rifle
+			Shell
+			Shot
+			Shooter
+		GENGUNDAMEXTRACONFIG,true
+			can perform a variety of feats with ranged weapons
+			can find an opponent's weak spot
+			has an incredible targeting system
+	Sonic
+		GENCATEGORYNAME,true
+			Howling
+			Screaming
+			Sonic
+			Sound
+			Ultrasonic
+			Vibro
+			Voice
+		GENCONFIGPOWERDESC,true
+			Howling
+			Screaming
+			Sonic
+			Sound
+			Ultrasonic
+			Vibro
+			Voice
+		GENCONFIGPOWERTYPE,true
+			Blaster
+			Disruptor
+			Emitter
+			Howl
+			Howler
+			Scream
+			Screamer
+		GENGUNDAMEXTRACONFIG,true
+			can emit vibrations that disrupt enemies
+			can vibrate its molecules so it can pass through solid objects
+			has an amazing sonar system
+			uses dangerous sonic vibrations to defend itself from holds and traps
+	Space
+		GENCATEGORYNAME,true
+			Astro
+			Cosmic
+			Cosmo
+			Galactic
+			Galaxy
+			Interstellar
+			Space
+			Star
+			Stellar
+		GENCONFIGPOWERDESC,true
+			Astro
+			Cosmic
+			Cosmo
+			Galactic
+			Galaxy
+			Interstellar
+			Planet
+			Planetary
+			Space
+			Star
+			Stellar
+		GENCONFIGPOWERTYPE,true
+			Launcher
+			Rocket
+			Nova
+			Star
+		GENGUNDAMEXTRACONFIG,true
+			is able to fly easily
+			is equipped to travel faster-than light
+			is specially designed for outer-space operations
+	Undead
+		GENCATEGORYNAME,true
+			Revenant
+			Undead
+			Vampiric
+			Zombie
+		GENCONFIGPOWERDESC,true
+			Coffin
+			Bone
+			Dead
+			Death
+			Decay
+			Devouring
+			Rot
+			Tomb
+			Undead
+			Vodoo
+		GENCONFIGPOWERTYPE,true
+			Bite
+			Curse
+			Fang
+			Shroud
+			Touch
+			Wrapping
+		GENGUNDAMEXTRACONFIG,true
+			can draw power from its enemies
+			causes fear in its enemies
+			is hard to destroy
+			regenerates damage by adsorbing power from its enemies
+	Water
+		GENCATEGORYNAME,true
+			Aqua
+			Aquatic
+			Ocean
+			Sea
+			Submarine
+			Water
+		GENCONFIGPOWERDESC,true
+			Aqua
+			Aquatic
+			Gushing
+			Marianas
+			Oceanic
+			Submarine
+			Typhoon
+			Water
+		GENCONFIGPOWERTYPE,true
+			Cascade
+			Gyser
+			Gush
+			Spout
+			Torpedo
+			Typhoon
+			Waterspout
+			Wave
+		GENGUNDAMEXTRACONFIG,true
+			can change into a boat-form
+			can function on land or water equally
+			is made for undersea operations
+	Wind
+		GENCATEGORYNAME,true
+			Cyclone
+			Tornado
+			Typhoon
+			Wind
+			Windmill
+			Zephyr
+		GENCONFIGPOWERDESC,true
+			Air
+			Billowing
+			Blowing
+			Cyclone
+			Tornado
+			Typhoon
+			Wind
+			Zephyr
+		GENCONFIGPOWERTYPE,true
+			Breeze
+			Cyclone
+			Tornado
+			Typhoon
+			Wind
+			Windmill
+			Zephyr
+		GENGUNDAMEXTRACONFIG,true
+			can fly easily
+			can generate wind to blow down opponents
+			can generate wind to drive up dust and obscure them
+			is hard to knock down
+//Forms
+GETFORM
+	Aquatic
+		GENFORMNAME,true
+			Mermaid
+			Neptune
+			Triton
+			Viking
+		GENFORMPOWERDESC,true
+			Aqua
+			Ocean
+			Sea
+			Mermaid
+			Neptune
+			Tidal
+			Triton
+			Water
+		GENFORMPOWERTYPE,true
+			Harpoon
+			Net
+			Oars
+			Spear
+			Trident
+			Typhoon
+			Wave
+		GENGUNDAMEXTRAFORM,true
+			has a special aquatic form
+			works equally well on land or water
+	Arms
+		GENFORMNAME,true
+			Annihilator
+			Arms
+			Assaulter
+			Battler
+			Blaster
+			Devestator
+			Seiger
+		GENFORMPOWERDESC,true
+			Barrage
+			Bombing
+			Devestating
+			Explosive
+			Heavy
+			Siege
+			Mega
+			Ultra
+		GENFORMPOWERTYPE,true
+			Artillery
+			Assault
+			Barrage
+			Battery
+			Blaster
+			Bomb
+			Cannon
+			Carbine
+			Devestator
+			Howitzer
+			Gun
+			Launcher
+			Missile
+			Mortar
+			Rocket
+			Shell
+			Siege
+		GENGUNDAMEXTRAFORM,true
+			can unleash an amazing barrage of attacks
+			is extremely well armed
+			is extremely well armored
+			wields some of the heaviest weapons known
+	Assasin
+		GENFORMNAME,true
+			Assasin
+			Eliminator
+			Ninja
+		GENFORMPOWERDESC,true
+			Deadly
+			Executor
+			Fatal
+			Final
+			Killer
+			Penetrating
+			Piercing
+			Slaying
+		GENFORMPOWERTYPE,true
+			Dart
+			End
+			Execution
+			Killer
+			Shuriken
+			Slayer
+		GENGUNDAMEXTRAFORM,true
+			can easily climb sheer surfaces
+			can sometimes disable an opponent with a single attack
+			is able to find an opponent's weak spot
+			is extremely well armed
+			is feared on the battlefield
+			has a camoflague mode
+			has a camoflague mode and a stealth mode
+			has a stealth mode
+	Avian
+		GENFORMNAME,true
+			Bird
+			Eagle
+			Hawk
+			Phoenix
+		GENFORMPOWERDESC,true
+			Aerial
+			Flying
+			Swooping
+			Winged
+		GENFORMPOWERTYPE,true
+			Beak
+			Claw
+			Dive
+			Feather
+			Flight
+			Swoop
+			Wing
+		GENGUNDAMEXTRAFORM,true
+			has an alternate flying form
+			moves swiftly
+	Boxer
+		GENFORMNAME,true
+			Boxer
+			Grappler
+			Maxter
+			Wrestler
+		GENFORMPOWERDESC,true
+			Battler
+			Fighting
+			Many-Handed
+			Mighty
+			Pugilistic
+		GENFORMPOWERTYPE,true
+			Blow
+			Glove
+			Grab
+			Grapple
+			Kick
+			Knuckle
+			Punch
+			Slam
+			Strike
+			Suplex
+		GENGUNDAMEXTRAFORM,true
+			can take more damage than most gundams
+			has unusual defensive maneuvers
+			is a terror in hand-to-hand combat
+			is unusually strong
+	Canine
+		GENFORMNAME,true
+			Fox
+			Jackal
+			Lupine
+			Lupis
+			Reynaurd
+			Wolf
+		GENFORMPOWERDESC,true
+			Canine
+			Clever
+			Noble
+			Pack
+			Sly
+			Swift
+			Tracking
+		GENFORMPOWERTYPE,true
+			Bite
+			Break
+			Claw
+			Harrier
+			Rend
+			Tracker
+		GENGUNDAMEXTRAFORM,true
+			has amazing tracking powers
+			is able to find an opponent's weak spot
+			is vicious in hand-to-hand combat
+	Cutting
+		GENFORMNAME,true
+			Axe
+			Blade
+			Duelist
+			Scythe
+			Sword
+			Swordsman
+		GENFORMPOWERDESC,true
+			Chopping
+			Cutting
+			Hacking
+			Ripping
+			Slashing
+			Slicing
+		GENFORMPOWERTYPE,true
+			Blade
+			Chop
+			Cut
+			Edge
+			Rip
+			Slash
+			Slice
+		GENGUNDAMEXTRAFORM,true
+			can find anopponent's weak spot
+			has a variety of concealed weapons
+			has a bladed form that makes hand-to-hand combat dangerous for opponents
+			is deadly in hand-to-hand combat
+	Divine
+		GENFORMNAME,true
+			God
+			Goddess
+			Kami
+			Spirit
+		GENFORMPOWERDESC,true
+			Blessed
+			Divine
+			Heaven
+			Heavenly
+			Holy
+			Miracle
+			Miraculous
+			Shining
+			Smiting
+		GENFORMPOWERTYPE,true
+			Blessing
+			Curse
+			Decree
+			Finger
+			Fist
+			Smite
+			Strike
+			Word
+		GENGUNDAMEXTRAFORM,true
+			has a variety of special abilities
+			is incredibly powerful
+			is the pinnacle of robot design
+	Egyptian
+		GENFORMNAME,true
+			Neffertiti
+			Pharoah
+			Ramses
+			Sphinx
+			Tut
+		GENFORMPOWERDESC,true
+			Ankh
+			Asp
+			Conqueror
+			Mamba
+			Nile
+			Pharoah
+			Pyramid
+			Riddle
+			Rosetta
+			Royal
+			Ruler
+			Sand
+			Scarab
+		GENFORMPOWERTYPE,true
+			Challenge
+			Command
+			Riddle
+			Decree
+			Sandstorm
+			Staff
+			Whip
+		GENGUNDAMEXTRAFORM,true
+			is particuarly well-constructed
+			is well-adapted to desert environments
+	Electrical
+		GENFORMNAME,true
+			Bolt
+			Jove
+			Jupiter
+			Lightning
+			Thor
+			Thunder
+			Zeus
+		GENFORMPOWERDESC,true
+			Charged
+			Electric
+			Electro
+			Jupiter
+			Lighting
+			Spark
+			Thundering
+		GENFORMPOWERTYPE,true
+			Bolt
+			Charge
+			Hammer
+			Spear
+			Strike
+			Thunder
+			Zap
+		GENGUNDAMEXTRAFORM,true
+			can adsorb electrical power
+			can generate electrical interference
+			is resistant to electrical attacks
+	Elephantine
+		GENFORMNAME,true
+			Elephant
+			Mammoth
+		GENFORMPOWERDESC,true
+			Crushing
+			Ramming
+			Trampling
+			Tusked
+		GENFORMPOWERTYPE,true
+			Crush
+			Ram
+			Throw
+			Trample
+			Trunk
+			Tusk
+		GENGUNDAMEXTRAFORM,true
+			has an alternate quadrupedal form
+			is good in hand-to-hand combat
+			is very enduring
+			is very hard to hurt
+	Ghost
+		GENFORMNAME,true
+			Banshee
+			Ghost
+			Spectre
+			Spirit
+		GENFORMPOWERDESC,true
+			Fear
+			Fearful
+			Ghost
+			Haunt
+			Haunting
+			Spirit
+			Terror
+			Terrifying
+		GENFORMPOWERTYPE,true
+			Curse
+			Howl
+			Scream
+			Shroud
+			Touch
+		GENGUNDAMEXTRAFORM,true
+			can phase through solid matter
+			can turn invisible
+			causes fear in its opponents
+	Knights
+		GENFORMNAME,true
+			Duelist
+			Fencer
+			Knight
+			Ronin
+			Samurai
+			Temjin
+		GENFORMPOWERDESC,true
+			Elegant
+			Honor
+			Honorable
+			Ieatsu
+			Murasame
+			Warrior's
+		GENFORMPOWERTYPE,true
+			Attack
+			Assault
+			Blade
+			Cut
+			Ieatsu
+			Murasame
+			Saber
+			Scimtar
+			Slash
+			Sword
+		GENGUNDAMEXTRAFORM,true
+			can deflect attacks with hand-to-hand weapons
+			can find an opponent's weak spot in hand-to-hand combat
+			has a variety of deadly hand-to-hand maneuvers
+			is deadly in hand-to-hand combat
+			moves more quickly than many gundams its size
+	Pirate
+		GENFORMNAME,true
+			Buccaneer
+			Corsair
+			Pirate
+			Raider
+			Viking
+		GENFORMPOWERDESC,true
+			Overwhelming
+			Raiding
+			Ravaging
+			Secret
+			Sneak
+			Surprise
+		GENFORMPOWERTYPE,true
+			Attack
+			Assault
+			Blade
+			Overload
+			Overpower
+			Raid
+			Ravage
+			Ravager
+		GENGUNDAMEXTRAFORM,true
+			allows for some very unusual tactics
+			can repair itself using stolen parts
+			is very easy to repair
+	Royalty
+		GENFORMNAME,true
+			Emperor
+			King
+			Queen
+			Noble
+			Prince
+			Princess
+		GENFORMPOWERDESC,true
+			Conqueror
+			Conquering
+			High
+			Imperial
+			Noble
+			Regal
+			Royal
+		GENFORMPOWERTYPE,true
+			Decree
+			Execution
+			Order
+			Smite
+			Strike
+		GENGUNDAMEXTRAFORM,true
+			has a regal bearing
+			is very well constructed
+	Quadruped/Equine
+		GENFORMNAME,true
+			Centaur
+			Horse
+			Zebra
+		GENFORMPOWERDESC,true
+			Charging
+			Force
+			Power
+			Ramming
+		GENFORMPOWERTYPE,true
+			Bite
+			Canter
+			Charge
+			Mane
+			Kick
+			Ram
+			Stomp
+		GENGUNDAMEXTRAFORM,true
+			can charge enemies for powerful effect
+			can run faster than most any gundam
+			has a humanoid form and a quadrupedal form
+	Quadruped/Horned
+		GENFORMNAME,true
+			Billygoat
+			Goat
+			Ram
+			Stag
+			Unicorn
+			Vixen
+		GENFORMPOWERDESC,true
+			Charging
+			Impaling
+			Penetrating
+			Piercing
+			Ramming
+		GENFORMPOWERTYPE,true
+			Charge
+			Horn
+			Impale
+			Kick
+			Piercer
+			Ram
+			Spear
+			Stomp
+		GENGUNDAMEXTRAFORM,true
+			can charge enemies for powerful effect
+			can run faster than most any gundam
+			has a humanoid form and a quadrupedal form
+			is dangerous in hand-to-hand combat
+	Reptile
+		GENFORMNAME,true
+			Anklyosaur
+			Dinosaur
+			Komodo
+			Lizard
+			Raptor
+			Tyranosaur
+		GENFORMPOWERDESC,true
+			Crushing
+			Gripping
+			Ripping
+			Smashing
+			Spike
+			Tearing
+		GENFORMPOWERTYPE,true
+			Bite
+			Claw
+			Fang
+			Rend
+			Rip
+			Smash
+			Spike
+			Tail
+			Tooth
+		GENGUNDAMEXTRAFORM,true
+			is deadly in hand-to-hand combat
+			is well-armored
+			moves quickly
+	Ranged/Bow
+		GENFORMNAME,true
+			Archer
+			Bowman
+			Crossbowman
+			Fletcher
+		GENFORMPOWERDESC,true
+			Perfect
+			Pinpoint
+			Point
+			Ranged
+			Sniper
+			Targeted
+		GENFORMPOWERTYPE,true
+			Arrow
+			Quarrel
+			Shot
+			Shooter
+		GENGUNDAMEXTRAFORM,true
+			can perform a variety of feats with ranged weapons
+			can find an opponent's weak spot
+			has an incredible targeting system
+	Ranged/Firearm
+		GENFORMNAME,true
+			Cowboy
+			Minuteman
+			Rifleman
+			Shooter
+			Sniper
+		GENFORMPOWERDESC,true
+			Perfect
+			Pinpoint
+			Point
+			Ranged
+			Sniper
+			Targeted
+		GENFORMPOWERTYPE,true
+			Bullet
+			Gun
+			Rifle
+			Shell
+			Shot
+			Shooter
+		GENGUNDAMEXTRAFORM,true
+			can perform a variety of feats with ranged weapons
+			can find an opponent's weak spot
+			has an incredible targeting system
+	Snake
+		GENFORMNAME,true
+			Anaconda
+			Asp
+			Cobra
+			Mamba
+			Rattlesnake
+			Serpent
+			Snake
+		GENFORMPOWERDESC,true
+			Serpent
+			Slither
+			Poisonous
+			Venomous
+		GENFORMPOWERTYPE,true
+			Bite
+			Crush
+			Slither
+			Spit
+			Venom
+		GENGUNDAMEXTRAFORM,true
+			has a deadly crushing grip
+			moves swiftly
+	Spiders
+		GENFORMNAME,true
+			Arachnid
+			Arachno
+			Spider
+			Tarantula
+		GENFORMPOWERDESC,true
+			Arachnid
+			Arachno
+			Poison
+			Spider
+			Venomous
+			Web
+		GENFORMPOWERTYPE,true
+			Bite
+			Fang
+			Spinner
+			Venom
+			Web
+			Webbing
+		GENGUNDAMEXTRAFORM,true
+			can cling to sheer surfaces
+			can drain enemies' power
+			fights with multiple appendages
+			is hard to ensnare or catch
+	Tortise
+		GENFORMNAME,true
+			Tortise
+			Turtle
+		GENFORMPOWERDESC,true
+			Armor
+			Armored
+			Defensive
+			Protective
+			Shell
+		GENFORMPOWERTYPE,true
+			Carapace
+			Defense
+			Retreat
+			Shell
+			Withdrawal
+		GENGUNDAMEXTRAFORM,true
+			has an alternate armored form
+			is diffuclt to hurt
+	Trickster
+		GENFORMNAME,true
+			Fool
+			Jester
+			Joker
+			Trickster
+		GENFORMPOWERDESC,true
+			Ballon
+			Fool
+			Jester
+			Joke
+			Top
+			Tricky
+		GENFORMPOWERTYPE,true
+			Bits
+			Prank
+			Strings
+			Trick
+			Twist
+		GENGUNDAMEXTRAFORM,true
+			can confuse opponents easily
+			employs a variety of odd tactics
+			has a variety of surprising extra weapons
+	Undead
+		GENFORMNAME,true
+			Mummy
+			Revenant
+			Vampire
+			Zombie
+		GENFORMPOWERDESC,true
+			Coffin
+			Bone
+			Dead
+			Death
+			Decay
+			Devouring
+			Rot
+			Tomb
+			Undead
+			Vodoo
+		GENFORMPOWERTYPE,true
+			Bite
+			Curse
+			Fang
+			Shroud
+			Touch
+			Wrapping
+		GENGUNDAMEXTRAFORM,true
+			can draw power from its enemies
+			causes fear in its enemies
+			is hard to destroy
+			regenerates damage by adsorbing power from its enemies
+	Ursine
+		GENFORMNAME,true
+			Grizzly
+			Kodiak
+			Ursus
+		GENFORMPOWERDESC,true
+			Bear
+			Mauling
+			Roaring
+			Ursine
+		GENFORMPOWERTYPE,true
+			Bite
+			Claw
+			Rip
+			Roar
+			Maul
+		GENGUNDAMEXTRAFORM,true
+			is deadly in hand-to-hand combat
+			is difficult to truly disable
+			is extremely enduring
+	Wind
+		GENFORMNAME,true
+			Cyclone
+			Nether
+			Tornado
+			Typhoon
+			Wind
+			Windmill
+			Zephyr
+		GENFORMPOWERDESC,true
+			Air
+			Billowing
+			Blowing
+			Cyclone
+			Tornado
+			Typhoon
+			Wind
+			Zephyr
+		GENFORMPOWERTYPE,true
+			Breeze
+			Cyclone
+			Tornado
+			Typhoon
+			Wind
+			Windmill
+			Zephyr
+		GENGUNDAMEXTRAFORM,true
+			can fly easily
+			can generate wind to blow down opponents
+			can generate wind to drive up dust and obscure them
+			is hard to knock down
+//REFS
+//Defintion letters and numbers.
+REFABILITY
+	This <REFGUNDESC> <REFUSETYPES> the <REFABILITYROUTE>.
+	This <REFGUNDESC> <REFUSETYPES> the <REFABILITY1> and the <REFABILITY2>.
+REFABILITY1
+	<GENFORMPOWERDESC> <GENCONFIGPOWERTYPE>
+	<GENCONFIGPOWERDESC> <GENFORMPOWERDESC> <GENCONFIGPOWERTYPE>
+REFABILITY2
+	<GENCONFIGPOWERDESC> <GENFORMPOWERTYPE>
+	<GENFORMPOWERDESC> <GENCONFIGPOWERDESC> <GENFORMPOWERTYPE>
+REFABILITYROUTE
+	<REFABILITY1>
+	<REFABILITY2>
+REFEXTRAROUTE
+	<*>
+	<REFEXTRA>
+REFEXTRA
+	This <REFGUNDESC> <GENGUNDAMEXTRACONFIG>.
+	This <REFGUNDESC> <GENGUNDAMEXTRAFORM>.
+	This <REFGUNDESC> <GENGUNDAMEXTRACONFIG> and <GENGUNDAMEXTRAFORM>.
+	This <REFGUNDESC> <GENGUNDAMEXTRAFORM> and <GENGUNDAMEXTRACONFIG>.
+REFGUNDESC
+	fighting machine
+	fighting robot
+	gundam
+	gundam fighter
+	machine
+	mobile fighter
+	robot
+	war machine
+	war robot
+REFLETTER
+	A
+	B
+	C
+	D
+	E
+	F
+	G
+	H
+	I
+	J
+	K
+	L
+	M
+	N
+	O
+	P
+	Q
+	R
+	S
+	T
+	U
+	V
+	W
+	X
+	Y
+	Z
+REFNUMBERBASE
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+REFNUMBERROUTE
+	<REFNUMBERBASE>
+	<REFNUMBERBASE><REFNUMBERBASE>
+	<REFNUMBERBASE><REFNUMBERBASE><REFNUMBERBASE>
+//Name Refs
+REFCATROUTE
+	<REFLETTER>
+	<REFNUMBERROUTE>
+	<REFLETTER>-<REFNUMBERROUTE>
+REFMSSEEDNAME
+	<GENFORMNAME> <REFNUMBERROUTE>
+	<GENFORMNAME> <REFLETTER>
+	<GENFORMNAME> <REFLETTER>-<REFNUMBERROUTE>
+	<REFLETTER>-<REFNUMBERROUTE> <GENFORMNAME> 
+	Model <REFCATROUTE> "<GENCATEGORYNAME> <GENFORMNAME>"
+	"<GENCATEGORYNAME> <GENFORMNAME>" Unit
+REFUSETYPES
+	carries
+	employs
+	is armed with
+	is equipped with
+	uses
+	wields
+//GENS
+//Naming
+GENCATEGORYNAME
+	Category
+GENFORMNAME
+	Form
+//Powers
+GENCONFIGPOWERDESC
+	ConfigDescription
+GENCONFIGPOWERTYPE
+	ConfigType
+GENFORMPOWERDESC
+	FormDescription
+GENFORMPOWERTYPE
+	FormType
+//Extras
+GENGUNDAMEXTRACONFIG
+	ExtraConfigType
+GENGUNDAMEXTRAFORM
+	ExtraFormType

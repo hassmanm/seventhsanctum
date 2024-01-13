@@ -1,0 +1,386 @@
+//Vocab types:
+// 1 - Descriptor
+// 2 - Mecha-Descriptor
+// 4 - Object
+// 8 - Mecha-Object
+// 16 - Actor, singular, defined.
+// 32 - Actor, plural, defined
+// 64 - Actor, group
+// 128 - Numerator
+--ORGANIZATION
+2,32
+, ,
+2,64
+, ,
+2,16,64
+, , ,
+1,2,32
+, , ,
+1,2,64
+, , ,
+1,2,16,64
+, , , ,
+2,4,32
+, , ,
+2,4,64
+, , ,
+2,4,16,64
+, , , ,
+1,2,4,32
+, , , ,
+1,2,4,64
+, , , ,
+1,2,4,16,64
+, , , , ,
+8,32
+, ,
+8,64
+, ,
+8,16,64
+, , ,
+1,8,32
+, , ,
+1,8,64
+, , ,
+1,8,16,64
+, , , ,
+4,8,32
+, , ,
+4,8,64
+, , ,
+4,8,16,64
+, , , ,
+1,4,8,32
+, , , ,
+1,4,8,64
+, , , ,
+1,4,8,16,64
+, , , , ,
+2,4,8,32
+, , , ,
+2,4,8,64
+, , , ,
+2,4,8,16,64
+, , , , ,
+1,2,4,8,32
+, , , , ,
+1,2,4,8,64
+, , , , ,
+1,2,4,8,16,64
+, , , , , ,
+2,64,128
+, , ,
+2,16,64,128
+, , , ,
+1,2,64,128
+, , , ,
+1,2,16,64,128
+, , , , ,
+2,4,64,128
+, , , ,
+2,4,16,64,128
+, , , , ,
+1,2,4,64,128
+, , , , ,
+1,2,4,16,64,128
+, , , , , ,
+8,64,128
+, , ,
+8,16,64,128
+, , , ,
+1,8,64,128
+, , , ,
+1,8,16,64,128
+, , , , ,
+4,8,64,128
+, , , ,
+4,8,16,64,128
+, , , , ,
+1,4,8,64,128
+, , , , ,
+1,4,8,16,64,128
+, , , , , ,
+2,4,8,32,128
+, , , , ,
+2,4,8,64,128
+, , , , ,
+2,4,8,16,64,128
+, , , , , ,
+1,2,4,8,64,128
+, , , , , ,
+1,2,4,8,16,64,128
+, , , , , , ,
+//Vocabulary
+--VOCABULARY
+A,128
+Advanced,1
+Aerial,1
+Alien,5
+Alpha,128
+Amazing,1
+Angel,16
+Angels,32
+Anti,1
+Archer,16
+Archers,32
+Armor,8
+Armored,2
+Army,64
+Artilery,15
+Astro,1
+Atomic,2
+Atom,4
+Aura,4
+Automated,2
+Avatar,16
+Avatars,32
+Avenger,16
+Avengers,32
+B,128
+Battalion,64
+Battlefield,4
+Battler,16
+Battlers,32
+Beam,4
+Behemoth,16
+Behemoths,32
+Beta,128
+Big,1
+Bio,3
+Bionic,2
+Blaster,16
+Blasters,32
+Blazing,1
+Bowman,16
+Bowmen,32
+Brave,1
+Breaker,16
+Breakers,32
+Brigade,64
+C,128
+Cannon,12
+Cavalry,64
+Celestial,1
+Chi,128
+Circuit,12
+City,5
+Coal,4
+Cog,8
+Colossal,1
+Colossus,48
+Company,64
+Corps,64
+Cosmic,1
+Covert,1
+Crusader,16
+Crusaders,32
+Cyber,2
+Cybernetic,2
+D,128
+Deadly,1
+Death,4
+Defensive,1
+Defense,4
+Defender,16
+Defenders,96
+Delta,128
+Demon,16
+Demons,32
+Devil,16
+Devils,32
+Dimensional,1
+Dire,1
+Doom,4
+Dynamic,1
+Dynamo,8
+E,128
+Electromagnetic,2
+Electronic,2
+Enforcer,16
+Enforcers,32
+Engine,8
+Epsilon,128
+Eta,128
+Exo,2
+Experimental,1
+F,128
+Fantastic,1
+Fighter,16
+Fighters,32
+Fighting,1
+Final,1
+Fleet,64
+Flying,1
+Force,68
+Formation,68
+Fortress,4
+G,128
+Galactic,1
+Galaxy,1
+Gamma,128
+Gear,8
+Generator,8
+Giant,1
+Giga,1
+Gigantic,1
+Gladiator,16
+Gladiators,32
+Grand,1
+Great,1
+Ground,5
+Guard,80
+Guards,32
+Guardian,17
+Guardians,32
+Gunner,16
+Gunners,32
+Gyro,1
+H,128
+High,1
+Host,64
+Hunter,16
+Hunters,32
+Hyper,1
+I,128
+Imperial,1
+Infantry,65
+Infinite,1
+Intergalactic,1
+Interplanetary,1
+Interstellar,1
+Invincible,1
+Iota,128
+J,128
+K,128
+Kappa,128
+Knight,16
+Knights,32
+L,128
+Lambda,128
+Lancer,16
+Lancers,32
+Legion,64
+Lightning,4
+Loyal,1
+M,128
+Machine,10
+Machine,10
+Maelstrom,4
+Maximum,1
+Mecha,10
+Mecha,2
+Mechanized,2
+Metal,4
+Metallo,2
+Military,1
+Missile,4
+Motor,8
+Motorized,2
+Mover,16
+Movers,32
+Mu,128
+N,128
+Nega,1
+Neo,1
+Nu,128
+Nuclear,2
+O,128
+Omega,128
+Omicron,128
+Orbital,1
+Outfit,64
+P,128
+Paladin,16
+Paladins,32
+Perfect,1
+Phi,128
+Pi,128
+Piston,8
+Planet,4
+Planetary,1
+Police,32
+Portal,4
+Power,4
+Primary,1
+Prime,129
+Psi,128
+Q,128
+R,128
+Radiation,8
+Ranger,16
+Rangers,32
+Ray,4
+Regiment,64
+Reserve,65
+Rho,128
+Robo,2
+Robot,8
+Robotic,2
+Rocket,4
+Royal,1
+S,128
+Saber,4
+Sabre,4
+Samurai,48
+Secret,1
+Sentinel,16
+Sentinels,32
+Shell,4
+Shield,4
+Shining,3
+Shining,1
+Sigma,128
+Smasher,16
+Smashers,32
+Sniper,16
+Snipers,32
+Solar,1
+Squadron,64
+Steam,12
+Steel,4
+Sterling,4
+Storm,4
+Strategic,1
+Sword,4
+System,12
+T,128
+Tactical,1
+Tank,8
+Taskforce,64
+Tau,128
+Technical,2
+Techno,2
+Technology,8
+Theta,128
+Thunder,4
+Thundering,1
+Titanium,8
+Turbine,8
+Turbo,1
+Typhoon,4
+U,128
+UFO,5
+Ultimate,1
+Unbeatable,1
+Unit,64
+Unit,64
+Upsilon,128
+Urban,1
+V,128
+Valkyrie,16
+Valkyries,32
+Victor,16
+Victors,32
+Victory,4
+Vortex,4
+W,128
+Warrior,16
+Warriors,32
+Wing,64
+X,128
+Xeno,1
+Xi,128
+Y,128
+Z,128
+Zero,128
+Zeta,128

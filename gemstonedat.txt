@@ -1,0 +1,455 @@
+//Seeds
+SEED
+	<SEEDCOLORMATCH>
+	<SEEDCOLORMATCH>
+	<SEEDANYMATCH>
+	<SEEDANYMATCH>
+	<SEEDDESCANY>
+	<SEEDDESCANY>
+	<SEEDBEINGPART>
+	<SEEDBEINGGEM>
+SEEDCOLORMATCH
+	<REFCOLORRED> <REFGEMRED>
+	<REFCOLORORANGE> <REFGEMORANGE>
+	<REFCOLORYELLOW> <REFGEMYELLOW>
+	<REFCOLORGREEN> <REFGEMGREEN>
+	<REFCOLORBLUE> <REFGEMBLUE>
+	<REFCOLORPURPLE> <REFGEMPURPLE>
+	<REFCOLORBLACK> <REFGEMBLACK>
+	<REFCOLORWHITE> <REFGEMWHITE>
+SEEDANYMATCH
+	<ROUTEANYCOLOR> <ROUTEANYGEM>
+	<ROUTEANYCOLOR> <ROUTEANYGEM> 
+	<ROUTEANYCOLOR> <REFGEMGENERAL> 
+SEEDDESCANY
+	<REFDESCRIPTION> <ROUTEANYGEMPLUS>
+	<REFDESCRIPTION> <ROUTEANYGEMPLUS>
+	<REFBEINGPOSESSIVE>  <ROUTEANYGEMPLUS> 
+SEEDBEINGPART
+	<REFBEINGPOSESSIVE> <REFBEINGPART>
+SEEDBEINGGEM
+	<REFBEINGPOSESSIVE> <ROUTEANYGEMPLUS>
+//ROUTES
+ROUTEANYGEM
+	<REFGEMRED>
+	<REFGEMORANGE>
+	<REFGEMYELLOW>
+	<REFGEMGREEN>
+	<REFGEMBLUE>
+	<REFGEMPURPLE>
+	<REFGEMBLACK>
+	<REFGEMWHITE>
+ROUTEANYGEMPLUS
+	<REFGEMRED>
+	<REFGEMORANGE>
+	<REFGEMYELLOW>
+	<REFGEMGREEN>
+	<REFGEMBLUE>
+	<REFGEMPURPLE>
+	<REFGEMBLACK>
+	<REFGEMWHITE>
+	<REFGEMGENERAL>
+ROUTEANYCOLOR
+	<REFCOLORRED>
+	<REFCOLORORANGE>
+	<REFCOLORYELLOW>
+	<REFCOLORGREEN>
+	<REFCOLORBLUE>
+	<REFCOLORPURPLE>
+	<REFCOLORBLACK>
+	<REFCOLORWHITE>
+//GEMS
+REFGEMGENERAL
+	Crystal
+	Gem
+	Geode
+	Jewel
+	Stone
+REFGEMRED
+	Agate
+	Beryl
+	Carnelian
+	Corundum
+	Diamond
+	Garnet
+	Jasper
+	Quartz
+	Rhodonite
+	Ruby
+	Sardonyx
+	Spinel
+	Sunstone
+	Topaz
+	Tourmaline
+REFGEMORANGE
+	Beryl
+	Chalcedony
+	Citrine
+	Garnet
+	Opal
+	Padparadscha
+	Quartz
+	Topaz
+	Tourmaline
+REFGEMYELLOW
+	Amentrine
+	Beryl
+	Chalcedony
+	Citrine
+	Diamond
+	Heliodor
+	Titanite
+	Topaz
+REFGEMGREEN
+	Agate
+	Beryl
+	Emerald
+	Jade
+	Jasper
+	Malachite
+	Peridot
+	Quartz
+	Topaz
+	Tourmaline
+	Zoisite
+REFGEMBLUE
+	Agate
+	Diamond
+	Flourite
+	Jadeite
+	Lapis
+	Sapphire
+	Spinel
+	Topaz
+	Tourmaline
+	Turquoise
+REFGEMPURPLE
+	Agate
+	Amethyst
+	Diamond
+	Jade
+	Jasper
+	Kunzite
+	Sapphire
+	Spinel
+	Sugilite
+	Tourmaline
+REFGEMBLACK
+	Jet
+	Obsidian
+	Onyx
+	Spinel
+REFGEMWHITE
+	Corundum
+	Diamond
+	Moonstone
+	Opal
+	Quartz
+//Color refs
+REFCOLORRED
+	Autumn
+	Cherry
+	Fire
+	Flame
+	Infernal
+	Lava
+	Magma
+	Rose
+	Solar
+	Sunrise
+	Sunset
+REFCOLORORANGE
+	Autumn
+	Bronze
+	Copper
+	Fire
+	Flame
+	Honey
+	Pumpkin
+	Summer
+	Sunrise
+	Sunset
+	Tangerine
+REFCOLORYELLOW
+	Gold
+	Golden
+	Goldenrod
+	Honey
+	Lemon
+	Solar
+	Summer
+	Sun
+	Sunrise
+	Sunset
+REFCOLORGREEN
+	Fern
+	Forest
+	Grassland
+	Lime
+	Mint
+	Moss
+	Ocean
+	Olive
+	Pine
+	Sea
+	Tree
+	Verdant
+REFCOLORBLUE
+	Azure
+	Blueberry
+	Cerulian
+	Cobalt
+	Cyan
+	Electric
+	Electro
+	Indigo
+	Lake
+	Midnight
+	Midnight
+	Ocean
+	Peacock
+	Sea
+	Sky
+	Steel
+	Twilight
+REFCOLORPURPLE
+	Amaranth
+	Blackberry
+	Cudbear
+	Electric
+	Grape
+	Grape
+	Imperial
+	Iris
+	Lilac
+	Midnight
+	Mulberry
+	Night-time
+	Nightshade
+	Orchid
+	Pansy
+	Plum
+	Royal
+	Starling
+	Thistle
+	Twilight
+	Tyrian
+	Violet
+	Wisteria
+REFCOLORBLACK
+	Charcoal
+	Crow
+	Dusk
+	Ebon
+	Gloom
+	Ink
+	Midnight
+	Night
+	Nightfall
+	Raven
+	Shade
+	Shadow
+	Shadowed
+	Shroud
+	Soot
+	Stygian
+	Void
+REFCOLORWHITE
+	Arctic
+	Arctic
+	Cream
+	Crystal
+	Ghost
+	Glacial
+	Ice
+	Ivory
+	Rainbow
+	Silver
+	Snow
+	Snow
+	Translucent
+	Winter
+// General Descriptions
+REFDESCRIPTION
+	Accursed
+	Adamant
+	Air
+	Alchemical
+	Angelic
+	Astral
+	Banded
+	Blazing
+	Blessed
+	Celestial
+	Chaos
+	Clouded
+	Corrupted
+	Corrupting
+	Cosmic
+	Cursed
+	Demonic
+	Desert
+	Desert
+	Devilish
+	Divine
+	Dust
+	Earth
+	Eldritch
+	Enchanted
+	Energetic
+	Energized
+	Etheral
+	Ever-changing
+	Evolving
+	Fallen
+	False
+	Fatal
+	Final
+	Fire
+	Force
+	Forest
+	Fossil
+	Frigid
+	Ghostly
+	Glimmering
+	Glowing
+	Healing
+	Holy
+	Ice
+	Imperial
+	Indestructible
+	Infinity
+	Island
+	Lava
+	Life-giving
+	Lost
+	Lucky
+	Luminous
+	Lustrous
+	Metallic
+	Mountain
+	Mystic
+	Ocean
+	Plague
+	Plains
+	Power
+	Primal
+	Prophetic
+	Rainbow
+	Royal
+	Shifting
+	Shining
+	Sparkling
+	Spectral
+	Swamp
+	Toxic
+	True
+	Tundra
+	Unholy
+	Universal
+	Unlucky
+	Water
+REFBEINGPOSESSIVE
+	Alchemist's
+	Angel's
+	Ape's
+	Archer's
+	Banshee's
+	Basilisk's
+	Bat's
+	Beast's
+	Behemoth's
+	Bird's
+	Bugbear's
+	Camel's
+	Cat's
+	Chimera's
+	Cockatrice's
+	Crusader's
+	Dancer's
+	Demon's
+	Devil's
+	Dog's
+	Dragon's
+	Dreamer's
+	Dwarf's
+	Elephant's
+	Elf's
+	Fool's
+	Giant's
+	Gnome's
+	Goblin's
+	God's
+	Goddess'
+	Gryphon's
+	Hore's
+	Hyena's
+	King's
+	Knight's
+	Knight's
+	Lion's
+	Manticore's
+	Minotaur's
+	Monkey's
+	Monster's
+	Moon's
+	Mouse's
+	Necromancer's
+	Nymph's
+	Oracle's
+	Owl's
+	Owl's
+	Panther's
+	Pauper's
+	Peasant's
+	Peddler's
+	Pegasus'
+	Phoenix's
+	Priest's
+	Priestess'
+	Prince's
+	Princess'
+	Prophet's
+	Prophetess'
+	Queen's
+	Rabbit's
+	Rat's
+	Roc's
+	Salamander's
+	Satyr's
+	Scholar's
+	Scorpion's
+	Scribe's
+	Serpent's
+	Shark's
+	Singer's
+	Slayer's
+	Sleeper's
+	Sphinx's
+	Stag's
+	Sun's
+	Sylph's
+	Tiger's
+	Tortoise's
+	Turtle's
+	Vampire's
+	Warrior's
+	Whale's
+	Wizard's
+	Wolf's
+	Wyvern's
+REFBEINGPART
+	Blood
+	Bone
+	Eye
+	Ghost
+	Globe
+	Heart
+	Moon
+	Seed
+	Skull
+	Soul
+	Sphere
+	Star
+	Sun
+	Tooth

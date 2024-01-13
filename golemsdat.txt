@@ -1,0 +1,518 @@
+SEED
+	This golem is <REFCREATIONWORD> <ROUTEMATERIAL>.  It takes the form of <ROUTEGOLEMFORM>.<ROUTEBACKGROUND>
+	This golem takes the form of <ROUTEGOLEMFORM>.  It is <REFCREATIONWORD> <ROUTEMATERIAL>.<ROUTEBACKGROUND>
+//RETS
+ROUTEGOLEMFORM
+	<ROUTEHUMANOID>
+	<ROUTEANIMAL>
+//	<ROUTEABSTRACT>
+ROUTEHUMANOID
+	<REFHUMANOIDGENERAL>
+	<REFHUMANOIDSPECIFIC>
+	<REFHUMANOIDMOD>
+ROUTEANIMAL
+	<REFANIMALTYPEMYTH>
+	<REFANIMALTYPEREGULAR>
+ROUTEABSTRACT
+	an abstract form
+//Material
+ROUTEMATERIAL
+	<ROUTEBIOLOGIC>
+	<ROUTEMETAL>
+	<ROUTESTONE>
+	<ROUTEOTHER>
+ROUTEBIOLOGIC
+	<REFBIOLOGICALIVE>
+	<REFBIOLOGICDEAD>
+	<REFBIOLOGICPLANT>
+ROUTEMETAL
+	<REFMETALGENERAL><ROUTESUBSTANCEDETAIL>
+	<REFMETALCOLOR><ROUTESUBSTANCEDETAIL>
+	<REFMETALSPECIFIC><ROUTESUBSTANCEDETAIL>
+ROUTESTONE
+	<REFSTONEGENERAL><ROUTESUBSTANCEDETAIL>
+	<REFGEMSTONEGENERAL>
+	<REFSTONECOLOR><ROUTESUBSTANCEDETAIL>
+	<REFGEMSTONECOLOR>
+	<REFSTONESPECIFIC><ROUTESUBSTANCEDETAIL>
+	<REGEMSTONESPECIFIC>
+ROUTEOTHER
+	clockwork
+	machinery
+	a field of energy
+ROUTESUBSTANCEDETAIL
+	<*>
+	 <REFSUBSTANCEEXTRA>
+ROUTEBACKGROUND
+	<*>
+	  <ROUTEBACKGROUNDVARY>
+ROUTEBACKGROUNDVARY
+	<REFBACKGROUNDORIGIN>
+	<REFBACKGROUNDDUAL>
+REFBACKGROUNDORIGIN
+	It was created by <ROUTECREATORMAGIC>.
+	It was created by <ROUTECREATORDIVINE>.
+REFBACKGROUNDDUAL
+	It was created by <ROUTECREATORMAGIC> <REFFUNCTIONMAGIC>.
+	It was created by <ROUTECREATORDIVINE> <REFFUNCTIONDIVINE>.
+REFFUNCTIONMAGIC
+	as a guardian
+	as a research assistant
+	as a weapon
+REFFUNCTIONDIVINE
+	as a guardian for the faithful
+	as a temple guardian
+	as a weapon
+	to preach the faith
+ROUTECREATORMAGIC
+	<REFCREATORMAGICNODESC>
+	<REFPERSONALITY> <REFCREATORMAGICDESC>
+ROUTECREATORDIVINE
+	<REFCREATORDIVINENODESC>
+	<REFPERSONALITY> <REFCREATORDIVINEDESC>
+REFCREATORMAGICNODESC
+	a wizard
+	a witch
+	a sorceror
+	a sorceress
+	an alchemist
+	a coven
+	a group of magicians
+REFCREATORMAGICDESC
+	wizard
+	witch
+	sorceror
+	alchemist
+	magician
+REFCREATORDIVINENODESC
+	a god
+	a goddess
+	a demigod
+	a demigoddess
+	a cleric
+	a congregation
+	a priest
+	a priestess
+	a prophet
+	a prophetess
+	a saint
+REFCREATORDIVINEDESC
+	god
+	goddess
+	demigod
+	demigoddess
+	cleric
+	priest
+	priestess
+	prophet
+	prophetess
+	saint
+REFPERSONALITY
+	an aloof
+	an angry
+	an antisocial
+	an argumentative
+	an aristocratic
+	an arrogant
+	a boorish
+	a bouncy
+	a brave
+	a bubbly
+	a calm
+	a cheerful
+	a clever
+	a compassionate
+	a composed
+	a confident
+	a confused
+	a contemplative
+	a courageous
+	a cruel
+	a cunning
+	a curious
+	a determined
+	a dishonest
+	a dynamic
+	a energetic
+	a enthusiastic
+	a friendly
+	a generous
+	a gentle
+	a greedy
+	a harried
+	a hateful
+	a humorous
+	an innocent
+	an intelligent
+	an intimidating
+	a laid-back
+	a lazy
+	a lonely
+	a misguided
+	a mistrustful
+	a mysterious
+	a noble
+	a peaceful
+	a personable
+	a playful
+	a proud
+	a romantic
+	a seductive
+	a sensitive
+	a sensual
+	a serene
+	a serious
+	a silly
+	a sinful
+	a sneaky
+	a solem
+	a studious
+	a tense
+	a thoughtful
+	a trusting
+	a vain
+	a wild
+	a wily
+	a willfull
+	a wise
+//Backgrounds
+//REFBACKGROUNDORIGIN
+//REFBACKGROUNDDUAL
+//REFS - Human Forms
+REFHUMANOIDGENERAL
+	a human
+	a woman
+	a man
+	an androgynous human
+REFHUMANOIDSPECIFIC
+	a barbarian
+	a butler
+	a famous historical figure
+	a famous saint
+	a god
+	a goddess
+	a knight
+	a maid
+	a paladin
+	a priest
+	a priestess
+	a samurai
+	a warrior
+	a witch
+	a wizard
+	a wrestler
+	an ancient god
+	an ancient goddess
+	an assasin
+	an infamous historical figure
+REFHUMANOIDMOD
+	<REFHUMANOIDGENERAL> <ROUTEHUMANOIDMODLISTANIMAL>
+	<REFHUMANOIDGENERAL> <ROUTEHUMANOIDMODLIST>
+ROUTEHUMANOIDMODLISTANIMAL
+	with the traits of <ROUTEANIMAL>
+	with the head of <ROUTEANIMAL>
+ROUTEHUMANOIDMODLIST
+	<ROUTEHUMANMODLIST1>
+	<ROUTEHUMANMODLIST2>
+ROUTEHUMANMODLIST1
+	with <REFFACEMOD>
+	with <REFARMSMOD>
+	with <REFLEGSMOD>
+	with <REFGENERALMOD>
+	with <REFSKINMOD>
+ROUTEHUMANMODLIST2
+	with <REFFACEMOD> and <REFARMSMOD>
+	with <REFFACEMOD> and <REFLEGSMOD>
+	with <REFFACEMOD> and <REFGENERALMOD>
+	with <REFFACEMOD> and <REFSKINMOD>
+	with <REFARMSMOD> and <REFLEGSMOD>
+	with <REFARMSMOD> and <REFGENERALMOD>
+	with <REFARMSMOD> and <REFSKINMOD>
+	with <REFLEGSMOD> and <REFGENERALMOD>
+	with <REFLEGSMOD> and <REFSKINMOD>
+	with <REFGENERALMOD> and <REFSKINMOD>
+REFFACEMOD
+	no eyes
+	insect-like eyes
+	multiple eyes
+	no mouth
+	multiple mouths
+	no facial features
+	one giant mouth in the center of its face
+	one eye in the center of its face
+REFARMSMOD
+	no arms
+	four arms
+	many arms
+	tentacles instead of arms
+REFLEGSMOD
+	no legs
+	four legs
+	many legs
+	a centaur-like lower body
+	a spider-like lower body
+	a slug-like lower body
+	tentacles instead of legs
+REFGENERALMOD
+	a pair of wings on its back
+	tentacles on its back
+REFSKINMOD
+	eyes covering its skin
+	armor instead of skin
+	feather-like covering instead of skin
+	spikes covering its skin
+//REFS ANIMAL
+REFANIMALTYPEREGULAR
+	an alligator
+	an antelope
+	a badger
+	a barracuda
+	a bear
+	a beaver
+	a bird
+	a boa constrictor
+	a boar
+	a bobcat
+	a buffalo
+	a bulldog
+	a buzzard
+	a camel
+	a cat
+	a cheetah
+	a cobra
+	a cougar
+	a coyote
+	a crocodile
+	a crow
+	a deer
+	a dingo
+	a dog
+	a dolphin
+	an eagle
+	an eel
+	an elephant
+	a falcon
+	a ferret
+	a flying squirrel
+	a fox
+	a gazelle
+	a gerbil
+	a giraffe
+	a gopher
+	a groundhog
+	a hammerhead shark
+	a hamster
+	a hare
+	a hawk
+	a hedgehog
+	a hunting dog
+	a jackal
+	a kangaroo
+	a killer whale
+	a leopard
+	a lion
+	a lizard
+	a lynx
+	a manta ray
+	a mink
+	a mole
+	a moray eel
+	a mouse
+	a narwal
+	an ostrich
+	an otter
+	an owl
+	a penguin
+	a polar bear
+	a porcupine
+	a porpoise
+	a prairie dog
+	a puma
+	a python
+	a rabbit
+	a rat
+	a rattlesnake
+	a raven
+	a shark
+	a shrew
+	a skunk
+	a snake
+	a snake
+	a squirrel
+	a stingray
+	a tiger
+	a tortoise
+	a turtle
+	a viper
+	a vole
+	a vulture
+	a weasel
+	a whale
+	a wolf
+REFANIMALTYPEMYTH
+	a bakeneko
+	a basilisk
+	a catoblepas
+	a cerebus
+	a chimera
+	a cockatrice
+	a dragon
+	a dragon turtle
+	a gorgon
+	a griffon
+	a hippocampus
+	a hippogriff
+	a hydra
+	a keplie
+	a hi-Rin
+	a kitsune
+	a kraken
+	a manticore
+	a nightmare
+	an oroborous
+	a pegasus
+	a phoenix
+	a roc
+	a sea Serpent
+	a sphinx
+	a tanuki
+	a tengu
+	a thunderbird
+	a unicorn
+	a wyvern
+	a yeti
+//REFS - Biologics
+REFBIOLOGICALIVE
+	parts of various creatures
+	human parts
+	living flesh
+	colagulated blood
+	the viscera of living creatures
+	random body parts
+	the flesh of a god
+	brain tissue
+REFBIOLOGICDEAD
+	skulls
+	bones
+	bones of various creatures
+	human bones
+	necrotic flesh
+	corpses
+	fossils
+	the bones of mythical creatures
+	the bones of a god
+REFBIOLOGICPLANT
+	wood
+	green plants
+	trees
+	plant material
+	petrified wood
+//REFS - Metal
+REFMETALGENERAL
+	metal
+	an unknown metal
+	a mysterious metal
+	a mystical metal
+REFMETALCOLOR
+	a red metal
+	an orange metal
+	a yellow metal
+	a green metal
+	a blue metal
+	a purple metal
+	a black metal
+	a white metal
+	a gray metal
+REFMETALSPECIFIC
+	iron
+	gold
+	steel
+	silver
+	platinum
+	electrum
+	copper
+	bronze
+	tin
+//REFS - stone
+REFSTONEGENERAL
+	stone
+	rock
+	stones
+	rocks
+REFGEMSTONEGENERAL
+	a gemstone
+	gems
+REFSTONECOLOR
+	red stone
+	orange stone
+	yellow stone
+	blue stone
+	purple stone
+	black stone
+	white stone
+	gray stone
+REFGEMSTONECOLOR
+	a red gemstone
+	an orange gemstone
+	a yellow gemstone
+	a blue gemstone
+	a purple gemstone
+	a black gemstone
+	a white gemstone
+	a gray gemstone
+	red gemstones
+	orange gemstones
+	yellow gemstones
+	blue gemstones
+	purple gemstones
+	black gemstones
+	white gemstones
+	gray gemstones
+REFSTONESPECIFIC
+	alabaster
+	geodes
+	granite
+	marble
+	quartz
+	sandstone
+	slate
+REGEMSTONESPECIFIC
+	<REGEMSTONESPECIFICSINGLE>
+	<REGEMSTONESPECIFICMULTIPLE>
+REGEMSTONESPECIFICSINGLE
+	amber
+	amethyst
+	diamond
+	emerald
+	garnet
+	jade
+	jet
+	obsidian
+	opal
+	onyx
+	pearl
+	ruby
+	sapphire
+	topaz
+	turqouise
+REGEMSTONESPECIFICMULTIPLE
+	amethysts
+	diamonds
+	emeralds
+	garnets
+	opals
+	onyxes
+	pearls
+	rubies
+	sapphires
+	topazes
+	turqouises
+//Refs
+REFCREATIONWORD
+	created from
+	made from
+REFSUBSTANCEEXTRA
+	and is covered in strange runes
+	and is covered in writing
+	and is covered in abstract symbols
+	and is covered in artistic designs

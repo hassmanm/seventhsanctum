@@ -1,0 +1,704 @@
+//Vocab types:
+//1 -Desc - Color
+//2 - Desc - General
+//4 - Desc - Being
+//8 - Desc - M
+//16 - Being - M
+//32 - Being - General
+//64 - Being - Person
+//128 - Obj - Beingpart
+//256 - Object - General
+//512 - Object - M
+//1024 - Number
+//2048 - Orgname
+--ORGANIZATION
+1,16
+, , Guild
+1,512
+, , Guild
+2,16
+, , Guild
+2,512
+, , Guild
+4,16
+, , Guild
+8,32
+, , Guild
+8,64
+, , Guild
+8,128
+, , Guild
+8,256
+, , Guild
+16,128
+, , Guild
+16,64
+, , Guild
+16,128
+, , Guild
+16,256
+, , Guild
+16,512
+, , Guild
+32,512
+, , Guild
+64,16
+, , Guild
+64,512
+, , Guild
+512,128
+, , Guild
+//The Doubling
+1,16
+, , Guild
+1,512
+, , Guild
+2,16
+, , Guild
+2,512
+, , Guild
+4,16
+, , Guild
+8,32
+, , Guild
+8,64
+, , Guild
+8,128
+, , Guild
+8,256
+, , Guild
+16,128
+, , Guild
+16,64
+, , Guild
+16,128
+, , Guild
+16,256
+, , Guild
+16,512
+, , Guild
+32,512
+, , Guild
+64,16
+, , Guild
+64,512
+, , Guild
+512,128
+, , Guild
+// The numbers.  Repeats many of the others
+//Original.
+8,1024
+The , ,
+16,1024
+The , ,
+512,1024
+The , ,
+//Appended
+8,128,1024
+, , ,
+8,256,1024
+, , ,
+16,128,1024
+, , ,
+16,64,1024
+, , ,
+16,128,1024
+, , ,
+16,256,1024
+, , ,
+16,512,1024
+, , ,
+32,512,1024
+, , ,
+64,16,1024
+, , ,
+64,512,1024
+, , ,
+512,128,1024
+, , ,
+// the Orgname usage.  Repeats on many of the others.
+//Specifics
+8,2048
+The , ,
+16,2048
+The , ,
+512,2048
+The , ,
+// additions
+1,16,2048
+, , ,
+1,512,2048
+, , ,
+2,16,2048
+, , ,
+2,512,2048
+, , ,
+4,16,2048
+, , ,
+8,32,2048
+, , ,
+8,64,2048
+, , ,
+8,128,2048
+, , ,
+8,256,2048
+, , ,
+16,128,2048
+, , ,
+16,64,2048
+, , ,
+16,128,2048
+, , ,
+16,256,2048
+, , ,
+16,512,2048
+, , ,
+32,512,2048
+, , ,
+64,16,2048
+, , ,
+64,512,2048
+, , ,
+512,128,2048
+, , ,
+--VOCABULARY
+//1 -Desc - Color
+//2 - Desc - General
+//4 - Desc - Being
+//8 - Desc - M
+//16 - Being - M
+//32 - Being - General
+//64 - Being - Person
+//128 - Obj - Beingpart
+//256 - Object - General
+//512 - Object - M
+//1024 - Number
+//2048 - Orgname
+// Data
+//1 -Desc - Color
+Amber,1
+Aquamarine,1
+Azure,1
+Black,1
+Blue,1
+Brass,1
+Bronze,1
+Copper,1
+Carnelian,1
+Cerulean,1
+Cobalt,1
+Crimson,1
+Dark,257
+Gold,259
+Gray,1
+Green,1
+Indigo,1
+Iron,1
+Light,257
+Maroon,1
+Orange
+Pink,1
+Platinum,259
+Purple,1
+Red,1
+Rose,257
+Silver,259
+Umber,1
+Violet,1
+White,1
+Yellow,1
+Pale,3
+//2 - Desc - General
+Ancient,2
+Battling,2
+Called,2
+Constant,2
+Darkened,10
+Eternal,10
+False,2
+Famous,2
+Fatal,2
+First,2
+Forgotten,2
+Future,2
+Glittering,10
+Glorious,2
+Grand,2
+Great,2
+High,2
+Illustrious,2
+Imperial,2
+Joke,258
+Killing,6
+Last,2
+Lost,10
+Low,2
+Luminous,10
+Mighty,2
+Modern,2
+Mysterious,10
+New,2
+Nocturnal,6
+Official,2
+Present,2
+Recognized,2
+Royal,2
+Shining,10
+Sinister,6
+Twilight,522
+True,2
+Ultimate,2
+Variable,2
+Void,570
+//4 - Desc - Being
+Angry,4
+Bawdy,4
+Beautiful,4
+Calm,6
+Charitable,4
+Crazy,6
+Cunning,4
+Daring,6
+Dashing,4
+Drunken,4
+Dying,4
+Elegant,6
+Enraged,4
+Foolish,6
+Furious,4
+Generous,4
+Glad,4
+Greedy,4
+Handsome,4
+Happy,4
+Insane,4
+Irritated,4
+Jesting,4
+Joyful,4
+Killing,4
+Lonesome,4
+Lordly,4
+Mad,4
+Murdering,4
+Newborn,4
+Noisy,4
+Optimistic,4
+Peaceful,6
+Pure,14
+Questing,6
+Quiet,6
+Randy,4
+Reliable,4
+Resurrected,12
+Sad,4
+Sane,4
+Screaming,4
+Seeking,4
+Sober,4
+Talkative,4
+Thieving,4
+Thoughtful,4
+Unconscious,4
+Unhappy,4
+Vindictive,4
+Wandering,4
+Warlike,4
+//8 - Desc - M
+Adamantine,8
+Alchemical,8
+Angelic,8
+Ascended,10
+Astral,8
+Astrological,8
+Blessed,8
+Cabalistic,8
+Celestial,8
+Ceremonial,8
+Chanting,8
+Conjuring,8
+Cosmic,8
+Cursed,8
+Damned,8
+Demonic,8
+Devilish,8
+Divine,8
+Divining,8
+Dowsing,8
+Druidic,8
+Elemental,8
+Enchanted,8
+Esoteric,8
+Geomantic,8
+Hermetic,8
+Holy,8
+Magical,8
+Mystic,12
+Mystic,8
+Mythic,8
+Necromantic,8
+Occult,8
+Orichalcum,8
+Phantom,24
+Scrying,8
+Secret,10
+Sorcerous,8
+Spectral,8
+Summoning,8
+Talismanic,8
+Thaumaturgic,8
+Unholy,8
+//16 - Being - M
+Alicorn,16
+Angel,16
+Banshee,16
+Barghest,16
+Basilisk,16
+Behemoth,16
+Bogeyman,16
+Centaur,16
+Cerberus,16
+Chimera,16
+Cyclops,16
+Demon,24
+Devil,16
+Djinn,16
+Dragon,16
+Drake,16
+Dryad,16
+Elemental,24
+Empusa,16
+Ettin,16
+Fairy,16
+Faun,16
+Genie,16
+Ghost,24
+Goblin,16
+Golem,16
+Gorgon,16
+Griffin,16
+Harpy,16
+Hellhound,16
+Hippocampus,16
+Hydra,16
+Ifrit,16
+Incubus,16
+Lamia,16
+Manticore,16
+Mermaid,16
+Minotaur,16
+Mummy,16
+Naga,16
+Nymph,16
+Ogre,16
+Ouroboros,16
+Pegasus,16
+Phoenix,16
+Pixie,16
+Salamander,16
+Sandman,16
+Satyr,16
+Sea Serpent,16
+Serpent,48
+Siren,16
+Sphinx,16
+Spirit,152
+Sprite,16
+Sylph,16
+Succubus,16
+Titan,16
+Triton,16
+Troll,16
+Undine,16
+Unicorn,16
+Vampire,24
+Werewolf,16
+Wraith,24
+Wyvern,16
+Yeti,16
+Zombie,24
+//32 - Being - General
+Ant,32
+Ape,32
+Armadillo,32
+Baboon,32
+Badger,32
+Bat,32
+Bear,32
+Bee,32
+Bird,32
+Boar,32
+Cait,48
+Cat,32
+Cheetah,32
+Cobra,32
+Coyote,32
+Crow,48
+Dog,32
+Dolphin,32
+Dove,32
+Dragonfly,32
+Eagle,32
+Eel,32
+Elephant,32
+Falcon,32
+Fish,32
+Fox,32
+Gorilla,32
+Gull,32
+Hare,32
+Hawk,32
+Hedgehog,32
+Hornet,32
+Horse,32
+Hound,32
+Hyena,32
+Hyena,32
+Ibis,32
+Jackal,32
+Kangaroo,32
+Leopard,32
+Lion,32
+Locust,32
+Magpie,32
+Mole,32
+Monkey,32
+Mouse,32
+Narwhal,32
+Nightingale,32
+Otter,32
+Owl,48
+Parrot,32
+Porcupine,32
+Puma,32
+Rabbit,32
+Raccoon,32
+Rat,32
+Raven,48
+Scorpion,32
+Shark,32
+Shrew,32
+Skunk,32
+Snake,32
+Spider,32
+Swan,32
+Tiger,32
+Tortoise,32
+Turtle,32
+Viper,32
+Vulture,32
+Wasp,32
+Weasel,32
+Whale,32
+Wolf,32
+Wyrm,32
+//64 - Being - Person
+Acolyte,64
+Adept,64
+Advocate,64
+Ambassador,64
+Archon,80
+Baron,64
+Baroness,64
+Brother,64
+Counsel,64
+Counsellor,64
+Doctor,64
+Duchess,64
+Duke,64
+Earl,64
+Elder,66
+Emperor,64
+Empress,64
+Envoy,64
+Inquisitor,64
+King,64
+Knight,64
+Lady,64
+Lord,64
+Master,64
+Medic,64
+Mistress,64
+Outlaw,66
+Pharaoh,64
+Prince,64
+Princess,64
+Queen,64
+Sage,64
+Saint,64
+Scholar,64
+Sentinel,64
+Sister,64
+Soldier,64
+Warrior,64
+//128 - Obj - Beingpart
+Blood,128
+Bone,128
+Brain,128
+Claw,128
+Ear,128
+Eye,128
+Foot,128
+Hand,128
+Heart,128
+Heel,128
+Mind,128
+Mouth,128
+Nose,128
+Scale,128
+Skin,128
+Skull,128
+Soul,136
+Tail,128
+Tooth,128
+//256 - Object - General
+Altar,768
+Anvil,256
+Archive,256
+Armor,256
+Axe,256
+Bell,256
+Blade,256
+Boat,256
+Book,256
+Bow,256
+Bracelet,256
+Brazier,256
+Candle,256
+Candle,256
+Card,768
+Carpet,256
+Castle,256
+Cave,256
+Cavern,256
+Chain,256
+Chapel,768
+Chariot,256
+Chime,256
+Chime,256
+Church,768
+Cloak,256
+Coffin,768
+Crown,256
+Decanter,256
+Deck,256
+Door,256
+Dungeon,768
+Forest,256
+Forge,256
+Fort,256
+Fortress,256
+Gate,256
+Gauntlet,256
+Gem,768
+Glove,256
+Gong,256
+Hammer,256
+Harp,256
+Helm,256
+Horn,256
+Incense,768
+Journal,256
+Key,256
+Lake,256
+Lantern,256
+Lens,256
+Library,256
+Lock,256
+Lyre,256
+Mantle,256
+Map,256
+Mine,256
+Miter,768
+Mountain,256
+Nail,256
+Parchment,256
+Path,256
+Pen,256
+Portal,256
+Ring,768
+River,256
+Road,256
+Robe,768
+Sceptre,256
+Shelter,256
+Shield,256
+Spear,256
+Street,256
+Sword,256
+Tavern,256
+Thorne,256
+Torc,768
+Tower,768
+Vault,256
+Vestment,768
+Window,256
+//512 - Object - M
+Charm,512
+Amulet,512
+Codex,512
+Coffin,512
+Elixir,256
+Grave,512
+Grimoire,512
+Labyrinth,768
+Maze,768
+Orb,768
+Peripat,512
+Phylactery,512
+Potion,512
+Rod,768
+Rune,512
+Scroll,512
+Staff,512
+Talisman,512
+Totem,512
+Wand,512
+//1024 - Number
+Five,1024
+Six,1024
+Seven,1024
+Eight,1024
+Nine,1024
+Ten,1024
+Twenty,1024
+Thirty,1024
+Fifty,1024
+Hundred,1024
+Two-hundred,1024
+Three-hundred,1024
+Thousand,1024
+//2048 - Orgname
+Alliance,2048
+Assembly,2048
+Band,2048
+Cartel,2048
+Circle,2560
+Coalition,2048
+College,2304
+Company,2048
+Confederation,2048
+Congregation,2048
+Conspiracy,2048
+Coven,2048
+Crew,2048
+Cult,2048
+Gang,2048
+Group,2048
+Family,2048
+Federation,2048
+League,2048
+Legion,2048
+Mob,2048
+Oath,2304
+Organization,2048
+Platoon,2048
+Posse,2048
+School,2048
+Sect,2048
+Society,2048
+Syndicate,2048
+Team,2048
+Troop,2048
+Troupe,2048
+Union,2048
+Unit,2048

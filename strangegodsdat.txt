@@ -1,0 +1,507 @@
+SEED
+	The <REFBEING><REFFUNCTION>
+	The <REFPERSONPOSITION> of <REFBEINGPLURAL>
+	The <REFDESCRIPTOR> <REFTHING>
+	The <REFELEMENT><REFBODYPART>
+	The <REFTHING> <REFGENERALRELATIONROUTE>
+	The <REFTHING> Of <REFBODYPARTPLURAL>
+	The <REFBODYPART>-<SEEDROUTEALLBEINGS>
+	The <REFDESCRIPTOR> <SEEDROUTEALLBEINGS>
+	The <REFTHING> Of The <REFBODYPART>
+	<REFTITLE> <REFELEMENT><REFBODYPART>
+	<SEEDREFBEINGTHING>
+	<SEEDREFPAIREDPERSON>
+	<SEEDREFTHINGBODY>
+SEEDREFBEINGTHING
+	The <SEEDROUTEALLBEINGS> Of The <REFTHING>
+	The <SEEDROUTEALLBEINGS> Of <REFTHINGPLURAL>
+	The <SEEDROUTEALLBEINGS> Of The <REFBODYPART>
+	The <SEEDROUTEALLBEINGS> Of The <REFBODYPARTPLURAL>
+SEEDREFPAIREDPERSON
+	The <SEEDROUTEALLBEINGS><REFPERSONINTERSECT><REFPERSONPOSITION>
+	The <SEEDROUTEALLBEINGS><REFPERSONINTERSECT><REFPERSONGENERAL>
+SEEDREFTHINGBODY
+	The <REFTHING> <REFTHINGRELATION> <REFBODYPART>
+	The <REFBODYPART> <REFTHINGRELATION> <REFTHING>
+//ROUTES
+SEEDROUTEALLBEINGS
+	<REFBEING>
+	<REFPERSONPOSITION>
+	<REFPERSONGENERAL>
+//REFS
+REFBEING
+	Ant
+	Ape
+	Bat
+	Bear
+	Beetle
+	Bird
+	Cat
+	Dog
+	Falcon
+	Fly
+	Fox
+	Goat
+	Hare
+	Hawk
+	Hornet
+	Hyena
+	Insect
+	Leopard
+	Lion
+	Lizard
+	Lynx
+	Moth
+	Owl
+	Panther
+	Puma
+	Rat
+	Raven
+	Scorpion
+	Serpent
+	Snake
+	Tiger
+	Wasp
+	Wolf
+	Worm
+REFBEINGPLURAL
+	Ants
+	Apes
+	Bats
+	Bears
+	Beetles
+	Birds
+	Cats
+	Dogs
+	Falcons
+	Flies
+	Foxes
+	Goats
+	Hares
+	Hawks
+	Hornets
+	Hyenas
+	Insects
+	Leopards
+	Lions
+	Lizards
+	Lynxes
+	Moths
+	Owls
+	Panthers
+	Pumas
+	Rats
+	Ravens
+	Scorpions
+	Serpents
+	Snakes
+	Tigers
+	Wasps
+	Wolves
+	Worms
+REFBODYPART
+	Claw
+	Eye
+	Fist
+	Hand
+	Heart
+	Mind
+	Mouth
+	Soul
+	Throat
+	Tooth
+	Womb
+REFBODYPARTPLURAL
+	Claws
+	Eyes
+	Fist
+	Hands
+	Hearts
+	Minds
+	Mouths
+	Souls
+	Teeth
+	Throats
+	Wombs
+REFDESCRIPTOR
+	<REFDESCRIPTORGENERAL>
+	<REFDESCRIPTORLIVING>
+REFDESCRIPTORGENERAL
+	Amber
+	Azure
+	Bejeweled
+	Black
+	Blue
+	Concealed
+	Crimson
+	Crumbling
+	Dark
+	Decaying
+	Desired
+	Eternal
+	Falling
+	Glorious
+	Golden
+	Green
+	Heavy
+	High
+	Holy
+	Illuminated
+	Immovable
+	Inglorious
+	Invisible
+	Lost
+	Low
+	Luminous
+	Metal
+	Obsidian
+	Pale
+	Red
+	Revealed
+	Rising
+	Rotten
+	Rotting
+	Ruined
+	Ruined
+	Stone
+	Umber
+	Unavoidable
+	Unheard
+	Unholy
+	Unseen
+	Violet
+	White
+	Yellow
+REFDESCRIPTORLIVING
+	Awakened
+	Awakening
+	Birthing
+	Bleeding
+	Blind
+	Breeding
+	Calling
+	Chanting
+	Consuming
+	Crafting
+	Deaf
+	Desiring
+	Dreaming
+	Dying
+	Eating
+	Enraged
+	Evolving
+	Foolish
+	Gibbering
+	Growing
+	Hiding
+	Hungering
+	Listening
+	Living
+	Loving
+	Lying
+	Moaning
+	Mocking
+	Needful
+	Plotting
+	Resting
+	Scheming
+	Screaming
+	Scribing
+	Seeking
+	Singing
+	Slaying
+	Sleeping
+	Slumbering
+	Spawning
+	Starving
+	Unknowing
+	Unspeaking
+	Wanting
+	Wise
+REFELEMENT
+	Air
+	Birth
+	Blood
+	Bone
+	Breath
+	Chaos
+	Dark
+	Death
+	Decay
+	Dust
+	Earth
+	Fire
+	Flame
+	Flesh
+	Hail
+	Ice
+	Life
+	Light
+	Lightning
+	Metal
+	Mountain
+	Plague
+	Rain
+	Rock
+	Rust
+	Sand
+	Skin
+	Snow
+	Soil
+	Space
+	Spirit
+	Stone
+	Storm
+	Thunder
+	Thunder
+	Time
+	Void
+	Water
+	Wind
+REFFUNCTION
+	Breaker
+	Caller
+	Cutter
+	Eater
+	Finder
+	Killer
+	Maker
+	Seeker
+	Slayer
+	Smith
+	Speaker
+	Taker
+REFGENERALRELATIONROUTE
+	In <REFRELATABLE>
+	Which Is <REFRELATABLEACTION>
+	Which Was <REFRELATABLEACTION>
+	Which <REFRELATABLESPECACTION>
+REFRELATABLE
+	Chains
+	Darkness
+	Dreams
+	Finery
+	Glory
+	History
+	Nightmares
+	Radiance
+	Rags
+	The Castle
+	The Day
+	The Earth
+	The Future
+	The Moon
+	The Night
+	The Ocean
+	The Past
+	The Ruins
+	The Sky
+	The Sky
+	The Stars
+	The Sun
+	The Temple
+REFRELATABLEACTION
+	Asked
+	Born
+	Broken
+	Buried
+	Consumed
+	Created
+	Defeated
+	Desired
+	Dreamed
+	Eaten
+	Feared
+	Followed
+	Forbidden
+	Forgotten
+	Found
+	Freed
+	Hated
+	Healed
+	Imprisoned
+	Killed
+	Known
+	Lost
+	Loved
+	Raised
+	Remembered
+	Sealed
+	Seen
+	Slain
+	Sought
+	Unborn
+	Unbowed
+	Uncreated
+	Undefeated
+	Unknown
+	Unlocked
+	Unseen
+	Wounded
+REFRELATABLESPECACTION
+	Bargains
+	Births
+	Builds
+	Buries
+	Claims
+	Collects
+	Commands
+	Conceals
+	Creates
+	Crushes
+	Cuts
+	Deceives
+	Desires
+	Destroys
+	Dreams
+	Erases
+	Follows
+	Frees
+	Harms
+	Hates
+	Heals
+	Hears
+	Imprisons
+	Kills
+	Leads
+	Loves
+	Observes
+	Orders
+	Raises
+	Releases
+	Restores
+	Reveals
+	Screams
+	Seeks
+	Sickens
+	Sings
+	Slays
+	Speaks
+	Watches
+	Writes
+REFPERSONPOSITION
+	Aunt
+	Duke
+	Duchess
+	Emperor
+	Empress
+	Father
+	Grandfather
+	Grandmother
+	King
+	Lady
+	Lord
+	Mother
+	Queen
+	Uncle
+	Brother
+	Sister
+REFPERSONGENERAL
+	Alchemist
+	Artist
+	Assassin
+	Caller
+	Carver
+	Caster
+	Doctor
+	Enemy
+	Fletcher
+	Friend
+	Guardian
+	Harpist
+	Holder
+	Hunter
+	Jester
+	Jeweler
+	Librarian
+	Mourner
+	Murderer
+	Navigator
+	Sculptor
+	Seer
+	Singer
+	Sorcerer
+	Sorceress
+	Surgeon
+	Teacher
+	Thief
+	Warlock
+	Witch
+	Writer
+REFPERSONINTERSECT
+	-and-
+	-
+	-who-is-the 
+	-who-was-the-
+	-turned-
+	-and-the-
+	-of-the-
+	-becoming-the-
+REFTHING
+	Ark
+	Book
+	Bow
+	Candle
+	Codex
+	Door
+	Gate
+	Gem
+	Grail
+	Icon
+	Jewel
+	Key
+	Knife
+	Lantern
+	Machine
+	Pyre
+	Quill
+	Song
+	Sword
+	Tome
+	Tower
+	Wall
+	Wheel
+	Window
+REFTHINGPLURAL
+	Arks
+	Books
+	Bows
+	Candles
+	Codices
+	Doors
+	Gates
+	Gems
+	Grails
+	Icons
+	Jewels
+	Keys
+	Knives
+	Lanterns
+	Machines
+	Pyres
+	Quill
+	Songs
+	Swords
+	Tomes
+	Towers
+	Walls
+	Wheels
+	Windows
+REFTHINGRELATION
+	In The
+	Of The
+REFTITLE
+	Aunt
+	Duke
+	Duchess
+	Emperor
+	Empress
+	Father
+	Grandfather
+	Grandmother
+	King
+	Lady
+	Lord
+	Mother
+	Queen
+	Uncle

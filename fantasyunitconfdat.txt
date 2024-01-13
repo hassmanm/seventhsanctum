@@ -1,0 +1,474 @@
+General
+	SEED
+		fantasyunitdat.txt
+Environment - Air
+	SEEDAIR
+		fantasyunitdat.txt
+Environment - Aquatic
+	SEEDWATER
+		fantasyunitdat.txt
+Environment - Ground
+	SEEDGROUND
+		fantasyunitdat.txt
+Environment - Underground
+	SEEDUNDER
+		fantasyunitdat.txt
+Cavalry
+	SEEDCAVALRY
+		fantasyunitdat.txt
+Cavalry - Air
+	SEEDCAVALRYAIR
+		fantasyunitdat.txt
+Cavalry - Aquatic
+	SEEDCAVALRYWATER
+		fantasyunitdat.txt
+Cavalry - Ground
+	SEEDCAVALRYGROUND
+		fantasyunitdat.txt
+Cavalry - Underground
+	SEEDCAVALRYUNDER
+		fantasyunitdat.txt
+Infantry
+	SEEDINFANTRY
+		fantasyunitdat.txt
+Infantry - Air
+	SEEDINFANTRYAIR
+		fantasyunitdat.txt
+Infantry - Aquatic
+	SEEDINFANTRYWATER
+		fantasyunitdat.txt
+Infantry - Ground
+	SEEDINFANTRYGROUND
+		fantasyunitdat.txt
+Infantry - Underground
+	SEEDINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Batmen - Any
+	SEEDBATMENGEN
+		fantasyunitdat.txt
+Race - Batmen - Cavalry
+	SEEDBATMENCAVALRY
+		fantasyunitdat.txt
+Race - Batmen - Cavalry - Aerial
+	SEEDBATMENCAVALRYAIR
+		fantasyunitdat.txt
+Race - Batmen - Cavalry - Aquatic
+	SEEDBATMENCAVALRYWATER
+		fantasyunitdat.txt
+Race - Batmen - Cavalry - Ground
+	SEEDBATMENCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Batmen - Cavalry - Underground
+	SEEDBATMENCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Batmen - Infantry
+	SEEDBATMENINFANTRY
+		fantasyunitdat.txt
+Race - Batmen - Infantry - Aerial
+	SEEDBATMENINFANTRYAIR
+		fantasyunitdat.txt
+Race - Batmen - Infantry - Aquatic
+	SEEDBATMENINFANTRYWATER
+		fantasyunitdat.txt
+Race - Batmen - Infantry - Ground
+	SEEDBATMENINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Batmen - Infantry - Underground
+	SEEDBATMENINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Birdmen - Any
+	SEEDBIRDMENGEN
+		fantasyunitdat.txt
+Race - Birdmen - Cavalry
+	SEEDBIRDMENCAVALRY
+		fantasyunitdat.txt
+Race - Birdmen - Cavalry - Aerial
+	SEEDBIRDMENCAVALRYAIR
+		fantasyunitdat.txt
+Race - Birdmen - Cavalry - Aquatic
+	SEEDBIRDMENCAVALRYWATER
+		fantasyunitdat.txt
+Race - Birdmen - Cavalry - Ground
+	SEEDBIRDMENCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Birdmen - Cavalry - Underground
+	SEEDBIRDMENCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Birdmen - Infantry
+	SEEDBIRDMENINFANTRY
+		fantasyunitdat.txt
+Race - Birdmen - Infantry - Aerial
+	SEEDBIRDMENINFANTRYAIR
+		fantasyunitdat.txt
+Race - Birdmen - Infantry - Aquatic
+	SEEDBIRDMENINFANTRYWATER
+		fantasyunitdat.txt
+Race - Birdmen - Infantry - Ground
+	SEEDBIRDMENINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Birdmen - Infantry - Underground
+	SEEDBIRDMENINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Dragonmen - Any
+	SEEDDRAGONMENGEN
+		fantasyunitdat.txt
+Race - Dragonmen - Cavalry
+	SEEDDRAGONMENCAVALRY
+		fantasyunitdat.txt
+Race - Dragonmen - Cavalry - Aerial
+	SEEDDRAGONMENCAVALRYAIR
+		fantasyunitdat.txt
+Race - Dragonmen - Cavalry - Aquatic
+	SEEDDRAGONMENCAVALRYWATER
+		fantasyunitdat.txt
+Race - Dragonmen - Cavalry - Ground
+	SEEDDRAGONMENCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Dragonmen - Cavalry - Underground
+	SEEDDRAGONMENCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Dragonmen - Infantry
+	SEEDDRAGONMENINFANTRY
+		fantasyunitdat.txt
+Race - Dragonmen - Infantry - Aerial
+	SEEDDRAGONMENINFANTRYAIR
+		fantasyunitdat.txt
+Race - Dragonmen - Infantry - Aquatic
+	SEEDDRAGONMENINFANTRYWATER
+		fantasyunitdat.txt
+Race - Dragonmen - Infantry - Ground
+	SEEDDRAGONMENINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Dragonmen - Infantry - Underground
+	SEEDDRAGONMENINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Dwarves - Any
+	SEEDDWARVESGEN
+		fantasyunitdat.txt
+Race - Dwarves - Cavalry
+	SEEDDWARVESCAVALRY
+		fantasyunitdat.txt
+Race - Dwarves - Cavalry - Aerial
+	SEEDDWARVESCAVALRYAIR
+		fantasyunitdat.txt
+Race - Dwarves - Cavalry - Aquatic
+	SEEDDWARVESCAVALRYWATER
+		fantasyunitdat.txt
+Race - Dwarves - Cavalry - Ground
+	SEEDDWARVESCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Dwarves - Cavalry - Underground
+	SEEDDWARVESCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Dwarves - Infantry
+	SEEDDWARVESINFANTRY
+		fantasyunitdat.txt
+Race - Dwarves - Infantry - Aerial
+	SEEDDWARVESINFANTRYAIR
+		fantasyunitdat.txt
+Race - Dwarves - Infantry - Aquatic
+	SEEDDWARVESINFANTRYWATER
+		fantasyunitdat.txt
+Race - Dwarves - Infantry - Ground
+	SEEDDWARVESINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Dwarves - Infantry - Underground
+	SEEDDWARVESINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Elven - Any
+	SEEDELVENGEN
+		fantasyunitdat.txt
+Race - Elven - Cavalry
+	SEEDELVENCAVALRY
+		fantasyunitdat.txt
+Race - Elven - Cavalry - Aerial
+	SEEDELVENCAVALRYAIR
+		fantasyunitdat.txt
+Race - Elven - Cavalry - Aquatic
+	SEEDELVENCAVALRYWATER
+		fantasyunitdat.txt
+Race - Elven - Cavalry - Ground
+	SEEDELVENCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Elven - Cavalry - Underground
+	SEEDELVENCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Elven - Infantry
+	SEEDELVENINFANTRY
+		fantasyunitdat.txt
+Race - Elven - Infantry - Aerial
+	SEEDELVENINFANTRYAIR
+		fantasyunitdat.txt
+Race - Elven - Infantry - Aquatic
+	SEEDELVENINFANTRYWATER
+		fantasyunitdat.txt
+Race - Elven - Infantry - Ground
+	SEEDELVENINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Elven - Infantry - Underground
+	SEEDELVENINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Goblinoids - Any
+	SEEDGOBLINOIDGEN
+		fantasyunitdat.txt
+Race - Goblinoids - Cavalry
+	SEEDGOBLINOIDCAVALRY
+		fantasyunitdat.txt
+Race - Goblinoids - Cavalry - Aerial
+	SEEDGOBLINOIDCAVALRYAIR
+		fantasyunitdat.txt
+Race - Goblinoids - Cavalry - Aquatic
+	SEEDGOBLINOIDCAVALRYWATER
+		fantasyunitdat.txt
+Race - Goblinoids - Cavalry - Ground
+	SEEDGOBLINOIDCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Goblinoids - Cavalry - Underground
+	SEEDGOBLINOIDCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Goblinoids - Infantry
+	SEEDGOBLINOIDINFANTRY
+		fantasyunitdat.txt
+Race - Goblinoids - Infantry - Aerial
+	SEEDGOBLINOIDINFANTRYAIR
+		fantasyunitdat.txt
+Race - Goblinoids - Infantry - Aquatic
+	SEEDGOBLINOIDINFANTRYWATER
+		fantasyunitdat.txt
+Race - Goblinoids - Infantry - Ground
+	SEEDGOBLINOIDINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Goblinoids - Infantry - Underground
+	SEEDGOBLINOIDINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Golems - Any
+	SEEDGOLEMSGEN
+		fantasyunitdat.txt
+Race - Golems - Cavalry
+	SEEDGOLEMSCAVALRY
+		fantasyunitdat.txt
+Race - Golems - Cavalry - Aerial
+	SEEDGOLEMSCAVALRYAIR
+		fantasyunitdat.txt
+Race - Golems - Cavalry - Aquatic
+	SEEDGOLEMSCAVALRYWATER
+		fantasyunitdat.txt
+Race - Golems - Cavalry - Ground
+	SEEDGOLEMSCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Golems - Cavalry - Underground
+	SEEDGOLEMSCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Golems - Infantry
+	SEEDGOLEMSINFANTRY
+		fantasyunitdat.txt
+Race - Golems - Infantry - Aerial
+	SEEDGOLEMSINFANTRYAIR
+		fantasyunitdat.txt
+Race - Golems - Infantry - Aquatic
+	SEEDGOLEMSINFANTRYWATER
+		fantasyunitdat.txt
+Race - Golems - Infantry - Ground
+	SEEDGOLEMSINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Golems - Infantry - Underground
+	SEEDGOLEMSINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Gnomes - Any
+	SEEDGNOMES
+		fantasyunitdat.txt
+Race - Gnomes - Cavalry
+	SEEDGNOMESCAVALRY
+		fantasyunitdat.txt
+Race - Gnomes - Cavalry - Aerial
+	SEEDGNOMESCAVALRYAIR
+		fantasyunitdat.txt
+Race - Gnomes - Cavalry - Aquatic
+	SEEDGNOMESCAVALRYWATER
+		fantasyunitdat.txt
+Race - Gnomes - Cavalry - Ground
+	SEEDGNOMESCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Gnomes - Cavalry - Underground
+	SEEDGNOMESCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Gnomes - Infantry
+	SEEDGNOMESINFANTRY
+		fantasyunitdat.txt
+Race - Gnomes - Infantry - Aerial
+	SEEDGNOMESINFANTRYAIR
+		fantasyunitdat.txt
+Race - Gnomes - Infantry - Aquatic
+	SEEDGNOMESINFANTRYWATER
+		fantasyunitdat.txt
+Race - Gnomes - Infantry - Ground
+	SEEDGNOMESINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Gnomes - Infantry - Underground
+	SEEDGNOMESINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Halflings - Any
+	SEEDHALFLINGS
+		fantasyunitdat.txt
+Race - Halflings - Cavalry
+	SEEDHALFLINGSCAVALRY
+		fantasyunitdat.txt
+Race - Halflings - Cavalry - Aerial
+	SEEDHALFLINGSCAVALRYAIR
+		fantasyunitdat.txt
+Race - Halflings - Cavalry - Aquatic
+	SEEDHALFLINGSCAVALRYWATER
+		fantasyunitdat.txt
+Race - Halflings - Cavalry - Ground
+	SEEDHALFLINGSCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Halflings - Cavalry - Underground
+	SEEDHALFLINGSCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Halflings - Infantry
+	SEEDHALFLINGSINFANTRY
+		fantasyunitdat.txt
+Race - Halflings - Infantry - Aerial
+	SEEDHALFLINGSINFANTRYAIR
+		fantasyunitdat.txt
+Race - Halflings - Infantry - Aquatic
+	SEEDHALFLINGSINFANTRYWATER
+		fantasyunitdat.txt
+Race - Halflings - Infantry - Ground
+	SEEDHALFLINGSINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Halflings - Infantry - Underground
+	SEEDHALFLINGSINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Humans - Any
+	SEEDHUMANS
+		fantasyunitdat.txt
+Race - Humans - Cavalry
+	SEEDHUMANSCAVALRY
+		fantasyunitdat.txt
+Race - Humans - Cavalry - Aerial
+	SEEDHUMANSCAVALRYAIR
+		fantasyunitdat.txt
+Race - Humans - Cavalry - Aquatic
+	SEEDHUMANSCAVALRYWATER
+		fantasyunitdat.txt
+Race - Humans - Cavalry - Ground
+	SEEDHUMANSCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Humans - Cavalry - Underground
+	SEEDHUMANSCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Humans - Infantry
+	SEEDHUMANSINFANTRY
+		fantasyunitdat.txt
+Race - Humans - Infantry - Aerial
+	SEEDHUMANSINFANTRYAIR
+		fantasyunitdat.txt
+Race - Humans - Infantry - Aquatic
+	SEEDHUMANSINFANTRYWATER
+		fantasyunitdat.txt
+Race - Humans - Infantry - Ground
+	SEEDHUMANSINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Humans - Infantry - Underground
+	SEEDHUMANSINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Merfolk - Any
+	SEEDMERFOLK
+		fantasyunitdat.txt
+Race - Merfolk - Cavalry
+	SEEDMERFOLKCAVALRY
+		fantasyunitdat.txt
+Race - Merfolk - Cavalry - Aerial
+	SEEDMERFOLKCAVALRYAIR
+		fantasyunitdat.txt
+Race - Merfolk - Cavalry - Aquatic
+	SEEDMERFOLKCAVALRYWATER
+		fantasyunitdat.txt
+Race - Merfolk - Cavalry - Ground
+	SEEDMERFOLKCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Merfolk - Cavalry - Underground
+	SEEDMERFOLKCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Merfolk - Infantry
+	SEEDMERFOLKINFANTRY
+		fantasyunitdat.txt
+Race - Merfolk - Infantry - Aerial
+	SEEDMERFOLKINFANTRYAIR
+		fantasyunitdat.txt
+Race - Merfolk - Infantry - Aquatic
+	SEEDMERFOLKINFANTRYWATER
+		fantasyunitdat.txt
+Race - Merfolk - Infantry - Ground
+	SEEDMERFOLKINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Merfolk - Infantry - Underground
+	SEEDMERFOLKINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Minotaurs - Any
+	SEEDMINOTAURS
+		fantasyunitdat.txt
+Race - Minotaurs - Cavalry
+	SEEDMINOTAURSCAVALRY
+		fantasyunitdat.txt
+Race - Minotaurs - Cavalry - Aerial
+	SEEDMINOTAURSCAVALRYAIR
+		fantasyunitdat.txt
+Race - Minotaurs - Cavalry - Aquatic
+	SEEDMINOTAURSCAVALRYWATER
+		fantasyunitdat.txt
+Race - Minotaurs - Cavalry - Ground
+	SEEDMINOTAURSCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Minotaurs - Cavalry - Underground
+	SEEDMINOTAURSCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Minotaurs - Infantry
+	SEEDMINOTAURSINFANTRY
+		fantasyunitdat.txt
+Race - Minotaurs - Infantry - Aerial
+	SEEDMINOTAURSINFANTRYAIR
+		fantasyunitdat.txt
+Race - Minotaurs - Infantry - Aquatic
+	SEEDMINOTAURSINFANTRYWATER
+		fantasyunitdat.txt
+Race - Minotaurs - Infantry - Ground
+	SEEDMINOTAURSINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Minotaurs - Infantry - Underground
+	SEEDMINOTAURSINFANTRYUNDER
+		fantasyunitdat.txt
+Race - Trolls - Any
+	SEEDTROLLS
+		fantasyunitdat.txt
+Race - Trolls - Cavalry
+	SEEDTROLLSCAVALRY
+		fantasyunitdat.txt
+Race - Trolls - Cavalry - Aerial
+	SEEDTROLLSCAVALRYAIR
+		fantasyunitdat.txt
+Race - Trolls - Cavalry - Aquatic
+	SEEDTROLLSCAVALRYWATER
+		fantasyunitdat.txt
+Race - Trolls - Cavalry - Ground
+	SEEDTROLLSCAVALRYGROUND
+		fantasyunitdat.txt
+Race - Trolls - Cavalry - Underground
+	SEEDTROLLSCAVALRYUNDER
+		fantasyunitdat.txt
+Race - Trolls - Infantry
+	SEEDTROLLSINFANTRY
+		fantasyunitdat.txt
+Race - Trolls - Infantry - Aerial
+	SEEDTROLLSINFANTRYAIR
+		fantasyunitdat.txt
+Race - Trolls - Infantry - Aquatic
+	SEEDTROLLSINFANTRYWATER
+		fantasyunitdat.txt
+Race - Trolls - Infantry - Ground
+	SEEDTROLLSINFANTRYGROUND
+		fantasyunitdat.txt
+Race - Trolls - Infantry - Underground
+	SEEDTROLLSINFANTRYUNDER
+		fantasyunitdat.txt

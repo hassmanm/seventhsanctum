@@ -1,0 +1,331 @@
+//Vocab types:
+//1 - Description
+//2 -  Description- Nature
+//4 - Description - Material
+//8 - Description - Attributional
+//16 - Numerical
+//32 - Currency - General
+//64 - Currency - Specific
+//128 - Form - General
+//256 - Form - Specific
+//512 - Form - Hyperspecific
+--ORGANIZATION
+//Regular
+1,8
+, ,
+1,32
+, ,
+1,64
+, ,
+1,16,32,128
+, , , ,
+1,16,32,256
+, , , ,
+1,512
+, ,
+2,8
+, ,
+2,32
+, ,
+2,64
+, ,
+2,16,32,128
+, , , ,
+2,512
+, ,
+4,8
+, ,
+4,32
+, ,
+4,64
+, ,
+4,16,32,256
+, , , ,
+4,512
+, ,
+8,32
+, ,
+8,64
+, ,
+8,16,32,128
+, , , ,
+8,16,32,256
+, , , ,
+8,512
+, ,
+16,8,128
+, , ,
+16,8,256
+, , ,
+16,32,128
+, , ,
+16,32,256
+, , ,
+512,32
+, ,
+512,64
+, ,
+512,128
+, ,
+512,256
+, ,
+--VOCABULARY
+//1 - Description
+//2 -  Description- Nature
+//4 - Description - Material
+//8 - Description - Attributional
+//16 - Numerical
+//32 - Currency - General
+//64 - Currency - Specific
+//128 - Form - General
+//256 - Form - Specifi
+//512 - Being
+//Descriptives
+Adamantine,5
+Ancestral,1
+Ancient,1
+Ascended,1
+Blessed,1
+Celestial,1
+Divine,1
+Double,3
+Dwarven,1
+Elemental,1
+Elevated,1
+Elven,1
+Embossed,2
+Eternal,1
+Ethereal,1
+Exalted,1
+Exceptional,1
+Fine,2
+Glammered,1
+Glorified,2
+Glorious,1
+Gothic,1
+Great,1
+Greater,1
+Heavenly,1
+Holy,1
+Infernal,1
+Lunar,1
+Marvelous,1
+Meteoric,5
+Mystic,1
+Mystical,1
+Noble,513
+Perfect,1
+Perfected,1
+Planetary,1
+Prismatic,1
+Radiant,1
+Runed,1
+Sacred,1
+Saintly,1
+Solar,1
+Soverign,513
+Spectral,1
+Sylvan,1
+Triple,3
+Ultimate,1
+Wondrous,1
+//Nature descriptions
+Blue,2
+Red,2
+Green,2
+Yellow,2
+Black,2
+White,2
+Gray,2
+Brown,2
+Orange,2
+Violet,2
+Scarlet,2
+Crimson,2
+Vermillion,2
+Rose,2
+Amber,6
+Emerald,6
+Jade,6
+Beyrl,6
+Indigo,2
+Sapphire,6
+Amethyst,6
+Ivory,6
+Alabaster,6
+Obsidian,6
+//Material
+Brass,4
+Tin,4
+Gold,6
+Silver,6
+Golden,4
+Electrium,4
+Platinum,4
+Sterling,4
+Steel,4
+Iron,4
+Copper,4
+Bronze,4
+//Goverments
+Union,8
+Confederate,8
+Federal,9
+Royal,9
+Commonwealth,8
+Imperial,8
+Exarchy,8
+Heirarchy,8
+Heresarchy,8
+Principality,8
+Republic,8
+Sultanate,8
+Dominion,8
+Suzeranity,8
+Presidential,8
+//Numbers
+One,16
+Two,16
+Three,16
+Four,16
+Five,16
+Six,16
+Seven,16
+Eight,16
+Nine,16
+Ten,16
+Twenty,16
+Thirty,16
+Forty,16
+Fifty,16
+One-Hundred,16
+One-Thousand,16
+One-Million,16
+//General
+Ducat,32
+Dollar,32
+Pound,32
+Dinar,32
+Guilder,32
+Shilling,96
+Talent,32
+Shekel,32
+Bit,288
+Credit,224
+Drachma,32
+Farthing,96
+Mark,32
+Meter,32
+Crown,32
+Riyal,32
+Rupee,32
+//Specifics
+Dime,64
+Farthing,64
+Nickel,68
+Pence,64
+Penny,64
+Quarter,64
+//Forms
+Banknote,128
+Bill,128
+Note,128
+//Specific form
+Coin,256
+Piece,256
+Unit,256
+//Hyperspecific
+Ancestor,512
+Angel,512
+Archer,512
+Aristocrat,512
+Arrow,512
+Banker,512
+Bear,512
+Bloodhound,512
+Boar,512
+Bridge,512
+Bull,512
+Castle,512
+Centaur,512
+Chimera,512
+Cobra,512
+Demigod,512
+Deva,512
+Djinn,512
+Door,512
+Dragon,512
+Duke,512
+Dungeon,512
+Dutchess,512
+Eagle,512
+Edifice,512
+Emperess,512
+Emperor,512
+Fortress,512
+Fountain,512
+Fox,512
+Galleon,512
+Gate,512
+Genie,512
+Gnome,512
+God,512
+Goddess,512
+Governor,512
+Grail,512
+Griffin,512
+Gypsy,512
+Hall,512
+Hawk,512
+Holder,512
+Hunter,512
+Hypogryph,512
+Keep,512
+Keystone,512
+Keeper,512
+King,512
+Knight,512
+Kraken,512
+Leopard,512
+Lion,512
+Longboat,512
+Labrynth,512
+Mage,512
+Magician,512
+Manticore,512
+Merchant,512
+Mermaid,512
+Minotaur,512
+Maze,512
+Nymph,512
+Owl,512
+Palace,512
+Pedlar,512
+Pegasus,512
+Phoenix,512
+Preacher,512
+Prince,512
+Princess,512
+Prophet,512
+Queen,512
+Raven,512
+Ruler,512
+Runner,512
+Satyr,512
+Scribe,512
+Seeker,512
+Serpent,512
+Sanctum,512
+Sickle,512
+Smith,512
+Sphinx,512
+Sylph,512
+Tiger,576
+Totem,512
+Trader,512
+Traveler,512
+Triton,512
+Undine,512
+Unicorn,512
+Wolf,512
+Wyvern,512

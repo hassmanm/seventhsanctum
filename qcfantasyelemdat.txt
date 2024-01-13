@@ -1,0 +1,45 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//16 - Elements
+who can see invisible entities,16
+who fears non-human beings,16
+who fears supernatural entities,16
+who has a demonic connection,16
+who has a divine connection,16
+who has annoyed the gods,16
+who has rare occult knowledge,16
+who inherited a family curse,16
+who is burdened with dark knowlege,16
+who is estranged nobility,16
+who is heir to a kingdom,16
+who is heir to a kingdom but doesn't know it,16
+who is haunted by a ghost,16
+who is easily affected by magic,16
+who lives under a curse,16
+who posesses a strange map,16
+who posesses a strong immunity to magic,16
+who secretly worships forbidden gods,16
+who tends to annoy non-humans,16
+who tends to annoy demonic beings,16
+who tends to annoy divine beings,16
+who was blessed by the gods,16
+who worships unkown gods,16
+who wields an unusual artifact,16
+whose dwelling is haunted,16
+whose family line was magically enhanced,16
+with a peculiar affinity for magic,16
+with a peculiar affinity for magical items,16
+with a peculiar lack of affinity for magical items,16
+with a peculiar lack of magical talent,16
+with a strange rapport with non-humans,16
+with a strange rapport with supernatural beings,16
+with demonic blood,16
+with divine blood,16
+with non-human ancestry,16

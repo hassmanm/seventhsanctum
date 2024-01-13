@@ -1,0 +1,928 @@
+//Vocab types:
+//1- Owner
+//2 - Descriptive
+//4 - Descriptive, Specific
+//8 - Object
+//16 - Mergable
+//32 - Specific Mergable
+//64 - Metal
+//128 - Specific Metal
+//256 - Affiliation
+//512 - Affiliation Trait
+//1024 - Affiliation Owner
+//
+--ORGANIZATION
+//1 - Owned
+1,64
+, ,
+1,128
+, ,
+1,2,64
+, , ,
+1,2,128
+, , ,
+1,2,8,64
+, , , ,
+1,2,8,128
+, , , ,
+1,2,16,8,64
+, , ,, ,
+1,2,16,64
+, , ,,
+1,2,16,8,128
+, , ,, ,
+1,2,32,8,64
+, , ,, ,
+1,2,32,8,128
+, , ,, ,
+1,2,32,64
+, , ,,
+1,4,64
+, , ,
+1,4,128
+, , ,
+1,4,8,64
+, , , ,
+1,4,8,128
+, , , ,
+1,4,16,8,64
+, , ,, ,
+1,4,16,8,128
+, , ,, ,
+1,4,16,64
+, , ,,
+1,8,16,64
+, , ,,
+1,8,32,64
+, , ,,
+1,8,64
+, , ,
+1,8,128
+, , ,
+1,16,8,64
+, ,, ,
+1,16,8,128
+, ,, ,
+1,16,64
+, ,,
+1,32,8,64
+, ,, ,
+1,32,8,128
+, ,, ,
+1,32,64
+, ,,
+//1 - Owned with Affiliation 256
+1,64,256
+, , ,
+1,128,256
+, , ,
+1,2,64,256
+, , , ,
+1,2,128,256
+, , , ,
+1,2,8,64,256
+, , , , ,
+1,2,8,128,256
+, , , , ,
+1,2,16,8,64,256
+, , ,, , ,
+1,2,16,64,256
+, , ,, ,
+1,2,16,8,128,256
+, , ,, , ,
+1,2,32,8,64,256
+, , ,, , ,
+1,2,32,8,128,256
+, , ,, , ,
+1,2,32,64,256
+, , ,, ,
+1,4,64,256
+, , , ,
+1,4,128,256
+, , , ,
+1,4,8,64,256
+, , , , ,
+1,4,8,128,256
+, , , , ,
+1,4,16,8,64,256
+, , ,, , ,
+1,4,16,8,128,256
+, , ,, , ,
+1,4,16,64,256
+, , ,, ,
+1,8,16,64,256
+, , ,, ,
+1,8,32,64,256
+, , ,, ,
+1,8,64,256
+, , , ,
+1,8,128,256
+, , , ,
+1,16,8,64,256
+, ,, , ,
+1,16,8,128,256
+, ,, , ,
+1,16,64,256
+, ,, ,
+1,32,8,64,256
+, ,, , ,
+1,32,8,128,256
+, ,, , ,
+1,32,64,256
+, ,, ,
+//1 - Owned with Affiliation Trait 512
+1,64,512
+, , ,
+1,128,512
+, , ,
+1,2,64,512
+, , , ,
+1,2,128,512
+, , , ,
+1,2,8,64,512
+, , , , ,
+1,2,8,128,512
+, , , , ,
+1,2,16,8,64,512
+, , ,, , ,
+1,2,16,64,512
+, , ,, ,
+1,2,16,8,128,512
+, , ,, , ,
+1,2,32,8,64,512
+, , ,, , ,
+1,2,32,8,128,512
+, , ,, , ,
+1,2,32,64,512
+, , ,, ,
+1,4,64,512
+, , , ,
+1,4,128,512
+, , , ,
+1,4,8,64,512
+, , , , ,
+1,4,8,128,512
+, , , , ,
+1,4,16,8,64,512
+, , ,, , ,
+1,4,16,8,128,512
+, , ,, , ,
+1,4,16,64,512
+, , ,, ,
+1,8,16,64,512
+, , ,, ,
+1,8,32,64,512
+, , ,, ,
+1,8,64,512
+, , , ,
+1,8,128,512
+, , , ,
+1,16,8,64,512
+, ,, , ,
+1,16,8,128,512
+, ,, , ,
+1,16,64,512
+, ,, ,
+1,32,8,64,512
+, ,, , ,
+1,32,8,128,512
+, ,, , ,
+1,32,64,512
+, ,, ,
+//2 - Descriptive
+2,64
+, ,
+2,128
+, ,
+2,8,64
+, , ,
+2,8,128
+, , ,
+2,16,8,64
+, ,, ,
+2,16,64
+, ,,
+2,16,8,128
+, ,, ,
+2,32,8,64
+, ,, ,
+2,32,8,128
+, ,, ,
+2,32,64
+, , ,,
+//2 - Described with Affiliation 256
+2,64,256
+, , ,
+2,128,256
+, , ,
+2,8,64,256
+, , , ,
+2,8,128,256
+, , , ,
+2,16,8,64,256
+, ,, , ,
+2,16,64,256
+, ,, ,
+2,16,8,128,256
+, ,, , ,
+2,32,8,64,256
+, ,, , ,
+2,32,8,128,256
+, ,, , ,
+2,32,64,256
+, ,, ,
+//2 - Described with Affiliation Trait 512
+2,128,512
+, , ,
+2,8,64,512
+, , , ,
+2,8,128,512
+, , , ,
+2,16,8,64,512
+, ,, , ,
+2,16,64,512
+, ,, ,
+2,16,8,128,512
+, ,, , ,
+2,32,8,64,512
+, ,, , ,
+2,32,8,128,512
+, ,, , ,
+2,32,64,512
+, ,, ,
+//2 - Described with Affiliation Owner 1024
+2,128,1024
+, , ,
+2,8,64,1024
+, , , ,
+2,8,128,1024
+, , , ,
+2,16,8,64,1024
+, ,, , ,
+2,16,64,1024
+, ,, ,
+2,16,8,128,1024
+, ,, , ,
+2,32,8,64,1024
+, ,, , ,
+2,32,8,128,1024
+, ,, , ,
+2,32,64,1024
+, ,, ,
+2,128,1024
+, , ,
+2,8,64,1024
+, , , ,
+2,8,128,1024
+, , , ,
+2,16,8,64,1024
+, ,, , ,
+2,16,64,1024
+, ,, ,
+2,16,8,128,1024
+, ,, , ,
+2,32,8,64,1024
+, ,, , ,
+2,32,8,128,1024
+, ,, , ,
+2,32,64,1024
+, ,, ,
+//4 - Descriptive Specific
+4,64
+, ,
+4,128
+, ,
+4,8,64
+, , ,
+4,8,128
+, , ,
+4,16,8,64
+, ,, ,
+4,16,8,128
+, ,, ,
+4,16,64
+, ,,
+//4 - Descriptive Specific Affiliation 256
+4,64,256
+, , ,
+4,128,256
+, , ,
+4,8,64,256
+, , , ,
+4,8,128,256
+, , , ,
+4,16,8,64,256
+, ,, , ,
+4,16,8,128,256
+, ,, , ,
+4,16,64,256
+, ,, ,
+//4 - Descriptive Specific with Affiliation Trait 512
+4,64,512
+, , ,
+4,128,512
+, , ,
+4,8,64,512
+, , , ,
+4,8,128,512
+, , , ,
+4,16,8,64,512
+, ,, , ,
+4,16,8,128,512
+, ,, , ,
+4,16,64,512
+, ,, ,
+//4 - Descriptive Specific with Affiliation Owner 1024
+4,64,1024
+, , ,
+4,128,1024
+, , ,
+4,8,64,1024
+, , , ,
+4,8,128,1024
+, , , ,
+4,16,8,64,1024
+, ,, , ,
+4,16,8,128,1024
+, ,, , ,
+4,16,64,1024
+, ,, ,
+//8 - Object
+8,16,64
+, ,,
+8,32,64
+, ,,
+8,64
+, ,
+8,128
+, ,
+//8 - Object with Affiliation 256
+8,16,64,256
+, ,, ,
+8,32,64,256
+, ,, ,
+8,64,256
+, , ,
+8,128,256
+, , ,
+//8 - Object With Affiliation Trait 512
+8,16,64,512
+, ,, ,
+8,32,64,512
+, ,, ,
+8,64,512
+, , ,
+8,128,512
+, , ,
+//8 - Object With Affiliation Owner 1024
+8,16,64,1024
+, ,, ,
+8,32,64,1024
+, ,, ,
+8,64,1024
+, , ,
+8,128,1024
+, , ,
+//16 - Mergeable
+16,8,64
+,, ,
+16,8,128
+,, ,
+16,64
+,,
+//16 - Mergeable with Affiliation 256
+16,8,64,256
+,, , ,
+16,8,128,256
+,, , ,
+16,64,256
+,, ,
+//16 - Mergeable with Affiliation Trait 512
+16,8,64,512
+,, , ,
+16,8,128,512
+,, , ,
+16,64,512
+,, ,
+//16 - Mergeable with Owned affiliation - 1024
+16,8,64,1024
+,, , ,
+16,8,128,1024
+,, , ,
+16,64,1024
+,, ,
+//32- Specific Mergeable
+32,8,64
+,, ,
+32,8,128
+,, ,
+32,64
+,,
+//32- Specific Mergeable with Affiliation 256
+32,8,64,256
+,, , ,
+32,8,128,256
+,, , ,
+32,64,256
+,, ,
+//32- Specific Mergeable with Affiliation Trait 512
+32,8,64,512
+,, , ,
+32,8,128,512
+,, , ,
+32,64,512
+,, ,
+//32- Specific Mergeable with Affiliated Owner 1024
+32,8,64,1024
+,, , ,
+32,8,128,1024
+,, , ,
+32,64,1024
+,, ,
+//64 - Metal with Affiliation 256
+64,256
+, ,
+//64 - Metal with Affiliation Trait 512
+64,512
+, ,
+//64 - Metal with Affiliated Owner 1024
+64,512
+, ,
+//128 - Specific Metal with Affiliation 256
+128,256
+, ,
+//128 - Specific Metal with Affiliation Trait 512
+128,512
+, ,
+//128 - Specific Metal with Affiliated Owner 1024
+128,512
+, ,
+//This section is designed to alter the random changes.  First, removing all "qualifiers" and affiliations as those are comparateively less likely, and their complexity skews options
+//This is duplicated twice.  First round:
+//2 - Descriptive
+2,64
+, ,
+2,128
+, ,
+2,8,64
+, , ,
+2,8,128
+, , ,
+2,16,8,64
+, ,, ,
+2,16,64
+, ,,
+2,16,8,128
+, ,, ,
+2,32,8,64
+, ,, ,
+2,32,8,128
+, ,, ,
+2,32,64
+, , ,,
+//4 - Descriptive Specific
+4,64
+, ,
+4,128
+, ,
+4,8,64
+, , ,
+4,8,128
+, , ,
+4,16,8,64
+, ,, ,
+4,16,8,128
+, ,, ,
+4,16,64
+, ,,
+//8 - Object
+8,16,64
+, ,,
+8,32,64
+, ,,
+8,64
+, ,
+8,128
+, ,
+//16 - Mergeable
+16,8,64
+,, ,
+16,8,128
+,, ,
+16,64
+,,
+//32- Specific Mergeable
+32,8,64
+,, ,
+32,8,128
+,, ,
+32,64
+,,
+//Second round
+//2 - Descriptive
+2,64
+, ,
+2,128
+, ,
+2,8,64
+, , ,
+2,8,128
+, , ,
+2,16,8,64
+, ,, ,
+2,16,64
+, ,,
+2,16,8,128
+, ,, ,
+2,32,8,64
+, ,, ,
+2,32,8,128
+, ,, ,
+2,32,64
+, , ,,
+//4 - Descriptive Specific
+4,64
+, ,
+4,128
+, ,
+4,8,64
+, , ,
+4,8,128
+, , ,
+4,16,8,64
+, ,, ,
+4,16,8,128
+, ,, ,
+4,16,64
+, ,,
+//8 - Object
+8,16,64
+, ,,
+8,32,64
+, ,,
+8,64
+, ,
+8,128
+, ,
+//16 - Mergeable
+16,8,64
+,, ,
+16,8,128
+,, ,
+16,64
+,,
+//32- Specific Mergeable
+32,8,64
+,, ,
+32,8,128
+,, ,
+32,64
+,,
+//This section duplicates highly simple two-word combinations at a factor of x4
+//2 - Descriptive
+2,64
+, ,
+2,64
+, ,
+2,64
+, ,
+2,64
+, ,
+2,128
+, ,
+2,128
+, ,
+2,128
+, ,
+2,128
+, ,
+//4 - Descriptive Specific
+4,64
+, ,
+4,64
+, ,
+4,64
+, ,
+4,64
+, ,
+4,128
+, ,
+4,128
+, ,
+4,128
+, ,
+4,128
+, ,
+//8 - Object
+8,64
+, ,
+8,64
+, ,
+8,64
+, ,
+8,64
+, ,
+8,128
+, ,
+8,128
+, ,
+8,128
+, ,
+8,128
+, ,
+//16 - Mergeable
+16,64
+,,
+16,64
+,,
+16,64
+,,
+16,64
+,,
+//32- Specific Mergeable
+32,64
+,,
+32,64
+,,
+32,64
+,,
+32,64
+,,
+--VOCABULARY
+//Vocabulary
+//1- Owner
+Angels',1
+Archangels',1
+Avatars',1
+Demons',1
+Devils',1
+Djinn's,1
+Dragons',1
+Elementals',1
+Elves',1
+Fairies',1
+Ghosts',1
+Ghouls',1
+Giants',1
+Goddesses',1
+Gods',1
+Gods',1
+Golems',1
+Incubi's,1
+Litches',1
+Lycanthropes',1
+Mages',1
+Magicians',1
+Monsters',1
+Nightmares',1
+Nymphs',1
+Ogres',1
+Phantoms',1
+Revenants',1
+Sirens',1
+Spectres',1
+Spectres',1
+Sphinxes',1
+Spirits',1
+Sprites',1
+Succubi's,1
+Thunderbirds',1
+Tritons',1
+Trolls',1
+Undeads',1
+Unicorns',1
+Valkyries',1
+Vampires',1
+Warlocks',1
+Wights',1
+Witchs',1
+Wizards'1
+Wraiths',1
+//2 - Descriptive
+//4 - Descriptive, Specific
+//8 - Object
+//16 - Mergable
+//32 - Specific Mergable
+/2-32
+Dream,26
+Dust,24
+Earth,40
+Emerald,44
+Enchanted,2
+Ensorceled,2
+Ephemeral,2
+Eternal,2
+Etheral,4
+Ever-changing,2
+Ever-changing,2
+Evil,44
+False,36
+Fang,8
+Fatal,2
+Fate,24
+Flaming,4
+Flesh,40
+Fog,24
+Forbidden,2
+Forgotten,2
+Foul,36
+Gem,44
+Ghostly,2
+Glitter,24
+Glittering,4
+Glow,24
+Glowing,4
+God-touched,2
+Gray,36
+Green,36
+Hammer,8
+Healing,4
+Heaven,40
+Heavenly,4
+Hell,40
+Hellish,4
+Hidden,2
+Holy,4
+Ice,40
+Icy,4
+Illuminated,4
+Imperial,4
+Infernal,4
+Jewel,40
+Lava,40
+Legendary,2
+Life,40
+Lightning,8
+Living,4
+Luminous,4
+Lunar,4
+Magic,42
+Magical,2
+Magma,40
+Mana-touched,2
+Meteoric,4
+Mind,24
+Mirror,24
+Mist,24
+Muck,40
+Mud,40
+Negative,2
+Night,44
+Noble,0
+Obsidian,44
+Opal,44
+Orange,36
+Otherworldly,2
+Pearl,44
+Phantasmal,2
+Plague,40
+Planar,2
+Poison,44
+Positive,4
+Primal,2
+Primary,2
+Primordial,2
+Prismatic,4
+Quake,8
+Rain,40
+Rainbow,44
+Red,36
+Rock,48
+Rot,24
+Ruby,44
+Sacred,4
+Sand,24
+Sapphire,44
+Script,0
+Secret,2
+Shadow,28
+Shadowed,4
+Shadowy,4
+Shifting,2
+Shock,40
+Smoke,40
+Solar,4
+Soul,24
+Spectral,4
+Star,40
+Starlight,2
+Stone,40
+Storm,24
+Supreme,2
+Sword,36
+Talon,8
+Terror,24
+Time,24
+Toxic,4
+Toxin,40
+Transcendent,2
+True,36
+Twilight,0
+Unholy,4
+Unknowable,2
+Unknown,2
+Unspeakable,2
+Venom,40
+Violet,36
+White,36
+Wind,24
+Word,24
+Yellow,36
+Zephyr,40
+//64 - Metal
+Bronze,64
+Copper,64
+Gold,64
+Iron,64
+Lead,64
+Mercury,64
+Metal,64
+Platinum,64
+Silver,64
+Steel,64
+Tin,64
+//128 - Specific Metal
+Adamant,128
+Mithril,128
+Orichalcum,128
+//256 - Affiliation
+Of The North,256
+Of The South,256
+Of The East,256
+Of The West,256
+Of The Mountains,256
+Of The Ocean,256
+Of The Seas,256
+Of The Islands,256
+Of the Skies,256
+of The Earth,256
+Of The Sun,256
+Of The Moon,256
+Of The Arctic,256
+Of The Glacier,256
+Of The Tropics,256
+Of The Trees,256
+Of The Sands,256
+Of The Desert,256
+Of The Rivers,256
+Of The Forests,256
+Of The Swamps,256
+Of The Tundra,256
+Of The Dawn,256
+Of The Twilight,256
+Of The Sunset,256
+Of The Night,256
+//512 - Affiliation Trait
+Of Time,512
+Of Death,512
+Of Life,512
+Of The Past,512
+Of The Future,512
+Of Legend,512
+Of History,512
+//1024 - Affiliation Owner
+Of Angels,1024
+Of Arch-Angels,1024
+Of Assassins,1024
+Of Centaurs,1024
+Of Changelings,1024
+Of Clerics,1024
+Of Crusaders,1024
+Of Dark Elves,1024
+Of Demigods,1024
+Of Demons,1024
+Of Djinn,1024
+Of Dragons,1024
+Of Dwarves,1024
+Of Elementals,1024
+Of Elves,1024
+Of Fairies,1024
+Of Ghosts,1024
+Of Ghosts,1024
+Of Giants,1024
+Of Gnomes,1024
+Of Goddesses,1024
+Of Gods,1024
+Of Harpies,1024
+Of Incubi,1024
+Of Litches,1024
+Of Lycanthropes,1024
+Of Men,1024
+Of Monsters,1024
+Of Ogres,1024
+Of Paladins,1024
+Of Revenants,1024
+Of Souls,1024
+Of Spectres,1024
+Of Sphinxes,1024
+Of Spirits,1024
+Of Spirits,1024
+Of Succubi,1024
+Of The Undead,1024
+Of The Undead,1024
+Of Trolls,1024
+Of Vampires,1024
+Of Warriors,1024
+Of Witches,1024
+Of Wizards,1024
+Of Zombies,1024

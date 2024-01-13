@@ -1,0 +1,180 @@
+//Vocab types:
+//1 - Descriptor
+//2 - Describe Being
+//4 - Object
+//8 - Nondescribable beings and plural objects
+//16 - Must-Describe Beings
+//32 - Setting
+--ORGANIZATION
+1,32
+, ,
+4,32
+, ,
+32,4
+, of ,
+32,8
+, of ,
+32,2,16
+, of the , ,
+1,32,4
+, , of ,
+1,32,8
+, , of ,
+1,32,2,16
+, , of the , ,
+//Vocabulary
+--VOCABULARY
+//1 - Descriptor
+Blasphemous,1
+Bloodstained,1
+Bloody,1
+Dark,3
+Desecrated,1
+Forbidden,1
+Ghastly,1
+Ghostly,1
+Hellish,1
+Haunted,1
+Mysterious,1
+Profane,1
+Secret,1
+Silent,1
+Terrible,1
+//2 - Describe Being
+Alien,3
+Ancient,3
+Blaspheming,2
+Cannibal,2
+Crazed,2
+Cursed,3
+Damned,3
+Demonic,3
+Devouring,2
+Doomed,2
+Elder,2
+Evil,7
+Fallen,3
+Flesh-eating,3
+Forgotten,3
+Foul,3
+Infernal,3
+Insane,3
+Lost,2
+Mad,2
+Maniac,2
+Monstrous,3
+Twisted,3
+Unholy,3
+Unspeakable,3
+Warped,3
+Wicked,2
+//4 - Object
+Agony,4
+Blasphemy,4
+Blood,4
+Chaos,4
+Confusion,4
+Danger,4
+Darkness,4
+Death,4
+Deception,4
+Doom,4
+Fear,4
+Hate,4
+Hell,4
+Horror,4
+Illusion,4
+Madness,4
+Misery,4
+Murder,4
+Pain,4
+Panic,4
+Silence,4
+Suffering,4
+Terror,4
+Wickedness,4
+//8 - Nondescribable beings and plural objects
+Blasphemies,8
+Bones,8
+Cannibals,8
+Demons,8
+Dreams,8
+Ghosts,8
+Illusions,8
+Inquisitors,8
+Madmen,8
+Murderers,8
+Mysteries,8
+Nightmares,8
+Vampires,8
+Victims,8
+Whispers,8
+Witches,8
+Wraiths,8
+Zombies,8
+//16 - Must-Describe Beings
+Beings,16
+Children,16
+Entities,16
+Freaks,24
+Gods,16
+Killers,24
+Muderers,24
+Monsters,24
+Torturers,24
+Souls,24
+Spirits,24
+//32 - Setting
+Amusement Park,32
+Asylum,32
+Cabin,32
+Cairn,32
+Camp,32
+Canyon,32
+Carnival,32
+Castle,32
+Catacombs,32
+Caves,32
+Cavern,32
+Cenotaph,32
+Circus,32
+City,32
+Cliffs,32
+Crag,32
+Crypt,32
+Forest,32
+Fortress,32
+Funhouse,32
+Gorge,32
+Graveyard,32
+Grotto,32
+Hospital,32
+Hotel,32
+House,32
+Jailhouse,32
+Mansion,32
+Marsh,32
+Motel,32
+Mountain,32
+Mountains,32
+Pavillion,32
+Ossuary,32
+Park,32
+Pit,32
+Prison,32
+Ruins,32
+Sanctum,32
+Sanitarium,32
+Sepulcher,32
+Shrine,32
+Swamp,32
+Temple,32
+Tomb,32
+Tower,32
+Town,32
+Tunnel,32
+Tunnels,32
+Valley,32
+Vault,32
+Village,32
+Woods,32

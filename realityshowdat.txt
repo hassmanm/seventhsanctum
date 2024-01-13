@@ -1,0 +1,793 @@
+//Seeds
+SEED
+	<SEEDHOLD>
+SEEDHOLD
+	<REFACTION>
+	<REFFAMILYMEMBERPLURAL>
+	<REFPROFESSION>
+	<REFPROFESSIONPLURAL>
+	<REFDESCRIPTORPEOPLE> <REFPERSONROUTE>
+	<REFDESCRIPTORGENERAL> <REFACTION>	
+	<REFDESCRIPTORPEOPLE> <REFDESCRIPTORGENERAL> <REFPERSONPLURALROUTE>
+	<REFITEM> <REFPERSONGENERAL>
+	<REFITEM> <REFPERSONGENERALPLURAL>
+	<REFACTION> <REFPERSONGENERAL>
+	<REFACTION> <REFPERSONGENERALPLURAL>
+	<REFBEING> <REFPERSONINTERACT>
+	<REFBEING> <REFPERSONINTERACTPLURAL>
+	<REFACTION> <REFPERSONROUTE>
+	<REFACTION> <REFPERSONPLURALROUTE>
+	<REFDESCRIPTORLOCATIONAL> <REFGROUP>
+	<REFDESCRIPTORLOCATIONAL> <REFESTABLISHMENTROUTE>
+	<REFLOCATION> <REFDESCRIPTORROUTE>
+	<REFLOCATION> <REFESTABLISHMENTEDUCATION>
+	<REFDESCRIPTORLOCATIONAL> <REFITEM>
+	<REFDESCRIPTORLOCATIONAL> <REFITEMPLURAL>
+	<REFDESCRIPTORLOCATIONAL> <REFBEING>
+	<REFDESCRIPTORLOCATIONAL> <REFBEINGPLURAL>
+	<REFDESCRIPTORLOCATIONAL> <REFITEM> <REFPERSONGENERAL>
+	<REFDESCRIPTORLOCATIONAL> <REFITEM> <REFPERSONGENERALPLURAL>
+	<REFLOCATION> <REFPROFESSION>
+	<REFDESCRIPTORLOCATIONAL> <REFPROFESSION>
+	<REFLOCATION> <REFPROFESSIONPLURAL>
+	<REFDESCRIPTORLOCATIONAL> <REFPROFESSIONPLURAL>
+	<REFLOCATION> <REFACTION>
+	<REFDESCRIPTORLOCATIONAL> <REFACTION>
+	<REFDESCRIPTORROUTE> <REFACTION>
+	<REFDESCRIPTORTIMEPERIOD> <REFPERSONROUTE>
+	<REFPERSONPLURALROUTE> in <REFLOCATION>
+	<REFDESCRIPTORROUTEWITHPERSON> <REFPERSONPLURALROUTE> Of <REFLOCATION>
+	<REFPERSONROUTE> <REFESTABLISHMENTEDUCATION>
+	<REFITEM> <REFESTABLISHMENTEDUCATION>
+	<REFFAMILYMEMBER> <REFACTIONCHANGE>
+	<REFPROFESSION> <REFACTIONCHANGE>
+	<REFFAMILYMEMBER> <REFFAMILYMEMBERPLURAL>
+	<REFFAMILYMEMBER> <REFFAMILYMEMBERPLURAL> of <REFLOCATION>
+	<REFDESCRIPTORLOCATIONAL> <REFFAMILYMEMBER> <REFACTIONCHANGE>
+	<REFDESCRIPTORLOCATIONAL> <REFPROFESSION> <REFACTIONCHANGE>
+	<REFDESCRIPTORTIMEPERIOD> <REFFAMILYMEMBER> <REFACTIONCHANGE>
+	<REFDESCRIPTORTIMEPERIOD> <REFPROFESSION> <REFACTIONCHANGE>
+	<REFDESCRIPTORTIMEPERIOD> <REFFAMILYMEMBER> <REFFAMILYMEMBERPLURAL>
+	Who Wants To Be A <REFPERSONROUTE>?
+	The Next <REFPERSONROUTE>
+	The  Next <REFDESCRIPTORBEST> <REFPERSONROUTE>
+	<REFLOCATION>'s Next <REFDESCRIPTORBEST> <REFPERSONROUTE>
+	The <REFPERSONGREAT> of <REFITEMPLURAL>
+	The <REFPERSONGREAT> of <REFPROFESSIONPLURAL>	
+	<REFDESCRIPTORVALID> <REFSTORIES> of <REFLOCATION>
+	<REFDESCRIPTORVALID> <REFSTORIES> of the <REFESTABLISHMENTLAWMIL>
+	<REFDESCRIPTORVALID> <REFSTORIES> of the <REFDESCRIPTORLOCATIONAL> <REFESTABLISHMENTLAWMIL>
+	<REFDESCRIPTORROUTE> <REFSTORIES> of <REFLOCATION>
+	<REFDESCRIPTORROUTE> <REFSTORIES> of the <REFESTABLISHMENTLAWMIL>
+	<REFDESCRIPTORROUTE> <REFSTORIES> of the <REFDESCRIPTORLOCATIONAL> <REFESTABLISHMENTLAWMIL>
+	I married a <REFPROFESSION>
+	I married a <REFPERSONGREAT>
+	I married a <REFPROFESSION>: <REFLOCATION>
+	I married a <REFPERSONGREAT>: <REFLOCATION>
+//Special
+REFTHEROUTE
+	<*>
+	The 
+//Refs
+REFDESCRIPTORGENERAL
+	Absolute
+	Amazing
+	Awesome
+	Awful
+	Bad
+	Big
+	Bizarre
+	Bogus
+	Crazy
+	Dangerous
+	Dangerous
+	Deadly
+	Deadly
+	Embarrassing
+	Evil
+	Fabulous
+	Funny
+	Giant
+	Good
+	Grand
+	Grossest
+	Haunted
+	Hilarious
+	Historic
+	Horrible
+	Horrifying
+	Humiliating
+	Insane
+	Monster
+	Mysterious
+	Natural
+	Pure
+	Quaint
+	Raw
+	Repulsive
+	Revolting
+	Royal
+	Secret
+	Silly
+	Spectacular
+	Strange
+	Supernatural
+	Super
+	Terrifying
+	Wacky
+	Worst
+REFDESCRIPTORBEST
+	Best
+	Champion
+	Finest
+	First-Class
+	First-Rate
+	Great
+	Outstanding
+	Perfect
+	Prime
+	Super
+	Superior
+	Supreme
+	Top
+	Ultimate
+REFDESCRIPTORVALID
+	Accurate
+	Actual
+	Authentic
+	Confirmed
+	Documented
+	Genuine
+	Honest
+	Real
+	True
+	Trustworthy
+REFDESCRIPTORPEOPLE
+	Academic
+	Accomplished
+	Addicted
+	Adorable
+	Adulterous
+	Alarming
+	Alcoholic
+	Angry
+	Angry
+	Antisocial
+	Big-hearted
+	Brainy
+	Brilliant
+	Busy
+	Chic
+	Cruel
+	Cute
+	Cute
+	Death-Defying
+	Evil
+	Fashionable
+	Fat
+	Fat
+	Good-Looking
+	Hateful
+	Jealous
+	Kinky
+	Lazy
+	Lonely
+	Mean
+	Naughty
+	Obsessed
+	Obsessive
+	Old-Fashioned
+	Oversexed
+	Passionate
+	Perverted
+	Pretty
+	Sexy
+	Sinful
+	Single
+	Skinny
+	Sleazy
+	Smart
+	Spouse-Swapping
+	Toughest
+	Ugly
+	Workahholic
+REFDESCRIPTORLOCATIONAL
+	American
+	Australian
+	Brazilian
+	British
+	Canadian
+	Chinese
+	Northern
+	Southern
+	Eastern
+	Western
+	Eurasian
+	European
+	French
+	Indian
+	Japanese
+	Korean
+	Mexican
+	North American
+	Russian
+	South American
+	Spanish
+REFDESCRIPTORTIMEPERIOD
+	Colonial
+	Victorian
+	Stone-Age
+	Renaissance
+	Civil War
+	World War I
+	World War II
+	Medieval
+	Wild West
+REFLOCATION
+	America
+	Australia
+	Bangkok
+	Beijing
+	Brazil
+	Britain
+	Canada
+	Chicago
+	China
+	Dallas
+	Detroit
+	Europe
+	France
+	India
+	Japan
+	Korea
+	London
+	Melbourne
+	Mexico
+	Miami
+	Moscow
+	Mumbai
+	New York
+	North America
+	Paris
+	Paris
+	San Francisco
+	Seoul
+	Shanghai
+	South Africa
+	South America
+	Tokyo
+	Toronto
+	Vancouver
+REFITEM
+	Airplane
+	Antique
+	Axe
+	Boat
+	Book
+	Building
+	Business
+	Car
+	Clothes
+	Coal
+	Computer
+	Dirt
+	Film
+	Food
+	Gold
+	Hot Rod
+	House
+	Ice
+	Iron
+	Junk
+	Land
+	Motorcycle
+	Mountain
+	Plant
+	Porn
+	Ride
+	Road
+	Room
+	Sand
+	Ship
+	Silver
+	Street
+	Tree
+	Truck
+	Wardrobe
+	Water
+REFITEMPLURAL
+	Airplanes
+	Antiques
+	Axes
+	Boats
+	Books
+	Buildings
+	Businesses
+	Cars
+	Clothes
+	Computers
+	Films
+	Hot Rods
+	Homes
+	Motorcycles
+	Mountains
+	Plants
+	Rides
+	Roads
+	Rooms
+	Ships
+	Street
+	Trees
+	Trucks
+	Wardrobes
+REFSTORIES
+	Chronicles
+	Histories
+	Legends
+	Memoirs
+	Records
+	Reports
+	Stories
+	Tales
+REFBEING
+	Bear
+	Bird
+	Bull
+	Cat
+	Cow
+	Dog
+	Donkey
+	Elephant
+	Fish
+	Ghost
+	Hamster
+	Horse
+	Kangaroo
+	Koala
+	Lion
+	Mouse
+	Owl
+	Pony
+	Rat
+	Shark
+	Skunk
+	Snake
+	Squid
+	Squirrel
+	Tiger
+	Whale
+	Wolf
+REFBEINGPLURAL
+	Bears
+	Birds
+	Bulls
+	Cats
+	Cows
+	Dogs
+	Donkeys
+	Elephants
+	Fish
+	Ghosts
+	Hamsters
+	Horses
+	Kangaroos
+	Koalas
+	Lions
+	Mice
+	Owls
+	Ponies
+	Rats
+	Sharks
+	Skunks
+	Snakes
+	Squid
+	Squirrels
+	Tigers
+	Whales
+	Wolves
+REFPERSONGENERAL
+	Man
+	Woman
+	Boy
+	Girl
+	Person
+REFPERSONGENERALPLURAL
+	Men
+	Women
+	Boys
+	Girls
+	People
+REFPERSONGREAT
+	King
+	Queen
+	Millionaire
+	Star
+	Ruler
+	Emperor
+	Empress
+	Master
+	Mistress
+REFPERSONGREATPLURAL
+	Kings
+	Queens
+	Millionaires
+	Stars
+	Rulers
+	Emperors
+	Empresses
+	Masters
+	Mistresses
+REFPERSONINTERACT
+	Addict
+	Breeder
+	Buster
+	Buyer
+	Caller
+	Cheater
+	Cleaner
+	Collector
+	Dancer
+	Dealer
+	Engineer
+	Fighter
+	Finder
+	Fixer
+	Hater
+	Hider
+	Hoarder
+	Hunter
+	Junkie
+	Keeper
+	Killer
+	Lover
+	Master
+	Negotiator
+	Picker
+	Pioneer
+	Raider
+	Savoir
+	Seeker
+	Speaker
+	Talker
+	Whisperer
+REFPERSONINTERACTPLURAL
+	Addicts
+	Breeders
+	Busters
+	Buyers
+	Callers
+	Cheaters
+	Cleaners
+	Collectors
+	Dancers
+	Dealers
+	Engineers
+	Fighters
+	Finders
+	Fixers
+	Haters
+	Hiders
+	Hoarders
+	Hunters
+	Junkies
+	Keepers
+	Killers
+	Lovers
+	Masters
+	Negotiators
+	Pickers
+	Pioneers
+	Raiders
+	Savoirs
+	Seekers
+	Speakers
+	Talkers
+	Whisperers
+REFPROFESSION
+	Actor
+	Advertiser
+	Bachelor
+	Bachelorette
+	Barista
+	Bartender
+	Beautician
+	Bookkeeper
+	Bounty Hunter
+	Boxer
+	Brawler
+	Brewer
+	Bride
+	Broker
+	Butcher
+	Camper
+	Carpenter
+	Chef
+	Cleaner
+	Cobbler
+	Cook
+	Cop
+	Cowboy
+	Cowgirl
+	Detective
+	Diva
+	Drummer
+	Exorcist
+	Exterminator
+	Famer
+	Gardener
+	Geologist
+	Groom
+	Guitarist
+	Handyman
+	Hoarder
+	Lawyer
+	Locksmith
+	Lumberjack
+	Martial Artist
+	Matchmaker
+	Minister
+	Optometrist
+	Picker
+	Pilot
+	Player
+	Podiatrist
+	Programmer
+	Racer
+	Rapper
+	Realtor
+	Reporter
+	Runner
+	Scalper
+	Scientist
+	Singer
+	Soldier
+	Tailor
+	Teacher
+	Teacher
+	Therapist
+	Valet
+	Vet
+	Warrior
+	Wrecker
+	Wrestler
+REFPROFESSIONPLURAL
+	Actors
+	Advertisers
+	Bachelorettes
+	Bachelors
+	Baristas
+	Bartenders
+	Beauticians
+	Bookkeepers
+	Bounty Hunters
+	Boxers
+	Brawlers
+	Brewers
+	Brides
+	Broker
+	Butchers
+	Campers
+	Carpenters
+	Chefs
+	Cleaners
+	Cobblers
+	Cooks
+	Cops
+	Cowboys
+	Cowgirls
+	Detectives
+	Divas
+	Drummers
+	Exorcists
+	Exterminators
+	Famers
+	Gardeners
+	Geologists
+	Grooms
+	Guitarists
+	Handymen
+	Hoarders
+	Lawyers
+	Locksmiths
+	Lumberjacks
+	Martial Artists
+	Matchmakers
+	Ministers
+	Optometrists
+	Pickers
+	Pilots
+	Players
+	Podiatrists
+	Programmers
+	Racers
+	Rappers
+	Realtors
+	Reporters
+	Runners
+	Scalpers
+	Scientists
+	Singers
+	Soldiers
+	Tailors
+	Teachers
+	Teachers
+	Therapists
+	Valets
+	Vets
+	Warriors
+	Wreckers
+	Wrestlers
+REFFAMILYMEMBER
+	Husband
+	Wife
+	Brother
+	Sister
+	Cousin
+	Aunt
+	Uncle
+	Sibling
+	Grandfather
+	Grandmother
+	Parent
+	Grandparent
+	Parent
+REFFAMILYMEMBERPLURAL
+	Husbands
+	Wives
+	Brothers
+	Sisters
+	Cousins
+	Aunts
+	Uncles
+	Siblings
+	Grandfathers
+	Grandmothers
+	Parents
+	Grandparents
+	Parents
+REFGROUP
+	Team
+	Family
+	Business
+	Organization
+	Charity
+REFESTABLISHMENT
+	Accountant
+	Airport
+	Auto Shop
+	Bait Shop
+	Bakery
+	Bakery
+	Bar
+	Barber
+	Butchers
+	Cafeteria
+	Candy Shop
+	Chiropractor
+	Cinema
+	Coffee House
+	Dance Studio
+	Delicatessen
+	Disco
+	Doctor
+	Doughnut Shop
+	Driving School
+	emetary
+	Farm
+	Food Truck
+	Funeral Home
+	Garden Center
+	Gas Station
+	Gift Shop
+	Grocery
+	Home Builder
+	Hospital
+	Jewelry
+	Laundry
+	Library
+	Locksmiths
+	Maid Service
+	Med
+	Museum
+	Nightclub
+	Park
+	Pediatrician
+	Publisher
+	Repair
+	Repair
+	Restaurant
+	Shop
+	Spa
+	Storage
+	Tattoo Parlor
+	Theater
+	Towing
+REFESTABLISHMENTEDUCATION
+	Academy
+	College
+	Institute
+	School
+	University
+REFESTABLISHMENTLAWMIL
+	Army
+	Navy
+	Highway Patrol
+	Police
+	Secret Service
+	Air Force
+	Space Force
+	Special Forces
+	National Guard
+REFACTION
+	Adjustment
+	Attack
+	Battle
+	Breakout
+	Breakthrough
+	Call
+	Capture
+	Competition
+	Contest
+	Creation
+	Dance
+	Debate
+	Destruction
+	Drawing
+	Elimination
+	Examination
+	Exploration
+	Feast
+	Fight
+	Grab
+	Infiltration
+	Intervention
+	Investigation
+	Launch
+	Meal
+	Purchase
+	Quest
+	Race
+	Recovery
+	Removal
+	Rescue
+	Salvation
+	Scam
+	Search
+	Surgery
+	Therapy
+	Treatment
+	Voyage
+	Walk
+REFACTIONCHANGE
+	Change
+	Reversal
+	Swap
+	Switch
+	Trade
+	Transformation
+//Routes
+REFDESCRIPTORROUTE
+	<REFDESCRIPTORGENERAL>
+	<REFDESCRIPTORBEST>
+	<REFDESCRIPTORVALID>
+REFDESCRIPTORROUTEWITHPERSON
+	<REFDESCRIPTORGENERAL>
+	<REFDESCRIPTORBEST>
+	<REFDESCRIPTORVALID>
+	<REFDESCRIPTORPEOPLE>
+REFPERSONROUTE
+	<REFPERSONGENERAL>
+	<REFPERSONGREAT>
+	<REFPERSONINTERACT>
+	<REFPROFESSION>
+	<REFFAMILYMEMBER>
+REFPERSONPLURALROUTE
+	<REFPERSONGENERALPLURAL>
+	<REFPERSONGREATPLURAL>
+	<REFPERSONINTERACTPLURAL>
+	<REFPROFESSIONPLURAL>
+	<REFFAMILYMEMBERPLURAL>
+REFESTABLISHMENTROUTE
+	<REFESTABLISHMENT>
+	<REFESTABLISHMENTEDUCATION>
+	<REFESTABLISHMENTLAWMIL>

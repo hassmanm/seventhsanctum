@@ -1,0 +1,9 @@
+Complete
+	SEEDSETTING
+		fantasyracedat.txt
+Detail
+	SEEDDETAILED
+		fantasyracedat.txt
+Description
+	SEEDBASIC
+		fantasyracedat.txt

@@ -1,0 +1,146 @@
+//Vocab types:
+//1 -Setting descriptor
+//2 - Setting
+//4 - Type descriptor
+//8 - Type specific
+//16 - Type general
+--ORGANIZATION
+1,2,8
+Setting: , ,.  Theme:, story
+2,2,8
+Setting: ,/,.  Theme:, story
+2,4,16
+Setting: ,.  Theme:, , story
+2,8,8
+Setting: ,.  Theme:,/, story
+2,2,4,16
+Setting: ,/,.  Theme:, , story
+2,2,8,8
+Setting: ,/,.  Theme:,/, story
+2,2,8,16
+Setting: ,/,.  Theme:,/, story
+2,2,16,8
+Setting: ,/,.  Theme:,/, story
+//Vocabulary
+//1 -Setting descriptor
+//2 - Setting
+//4 - Type descriptor
+//8 - Type specific
+//16 - Type general
+--VOCABULARY
+action-adventure,4
+action,8
+adventure,8
+allegorical,5
+alternate history,3
+band story,16
+battle of wits,16
+buddy story,16
+caper,16
+character study,20
+comedic,4
+comedy,8
+comedy-of-manners,16
+coming-of-age,20
+conflict,16
+conspiracy,16
+crime,20
+cyberpunk,3
+dark,4
+deconstruction,20
+descent-into-madness,16
+detective,20
+discovery,16
+downfall,16
+drama,8
+dramatic,4
+dystopia,3
+epic,28
+exploration,16
+family drama,24
+film noir,4
+flight-of-fancy,12
+friendship,16
+grim-and-gritty,4
+hack-and-slash,4
+high fantasy,3
+horror,8
+horrific,4
+humorous,4
+light-hearted,4
+life-after-death,24
+loss-and-gain-of-fame,24
+loss-of-greatness,24
+lost love,24
+love-against-the-odds,24
+man-against-the-world,24
+man-versus-nature,24
+metamorphosis,24
+metaphor,8
+metaphorical,4
+metaphysical,4
+military,4
+modern-day,1
+murder mystery,24
+mystery,24
+myth,8
+mythological,5
+natural disaster,24
+nature-of-humanity,24
+occult,28
+overcoming-inner-demons,24
+overcoming-of-fear,24
+parody,20
+pirate,3
+politial,4
+politics,8
+post-apocalypse,3
+power fantasy,28
+psychological,4
+pursuit,24
+puzzle-solving challenge,24
+quest,24
+race against time,24
+race-to-the-finish,24
+rampaging monster,24
+reality-is-a-dream,24
+redemption,24
+relationship,24
+religious conversion,24
+revenge,24
+rivalry,24
+romance,8
+romantic,4
+satire,8
+satirical,4
+science-fiction,3
+search-for-identity,24
+serial killer story,24
+serious,4
+slice-of-life,28
+solitude,16
+space opera,2
+splatterpunk,31
+spy-thriller,16
+stolen identity,24
+story-of-substance-addiction,24
+sudden gain-of-greatness,24
+surreal,28
+survival,24
+switching-of-roles,24
+sword-and-sorcery,3
+technology gone amok,24
+theological,4
+things man-was-not-meant-to-know,24
+thriller,24
+tradgety,8
+tragic,4
+transformation,24
+treasure hunt,24
+urban legend,28
+utopia,3
+wacky,4
+war,24
+weird,4
+western,3
+world-in-chaos,24

@@ -1,0 +1,437 @@
+//Seeds
+SEED
+	<TITLEA> <ANIMALA>
+	<TITLEB> <ANIMALB>
+	<TITLEC> <ANIMALC>
+	<TITLED> <ANIMALD>
+	<TITLEE> <ANIMALE>
+	<TITLEF> <ANIMALF>
+	<TITLEG> <ANIMALG>
+	<TITLEH> <ANIMALH>
+	<TITLEI> <ANIMALI>
+	<TITLEJ> <ANIMALJ>
+	<TITLEK> <ANIMALK>
+	<TITLEL> <ANIMALL>
+	<TITLEM> <ANIMALM>
+	<TITLEN> <ANIMALN>
+	<TITLEO> <ANIMALO>
+	<TITLEP> <ANIMALP>
+	<TITLER> <ANIMALR>
+	<TITLES> <ANIMALS>
+	<TITLET> <ANIMALT>
+	<TITLEV> <ANIMALV>
+	<TITLEW> <ANIMALW>
+//Actions
+TITLEA
+	Action
+	Adrenaline
+	Aikido
+	Akido
+	Ambush
+	Ammo
+	Anti-aircraft
+	Anti-tank
+	Apocalypse
+	Artillery
+	Assasin
+	Assault
+	Attack
+TITLEB
+	Ballista
+	Barrage
+	Bastion
+	Battalion
+	Battle
+	Battleship
+	Bayonet
+	Berserk
+	Berserker
+	Blitzkrieg
+	Blockade
+	Blood
+	Bloodshed
+	Bloody
+	Bomb
+	Bombadier
+	Bombard
+	Bombshell
+	Boxer
+	Brawler
+	Bridgehead
+	Bruiser
+	Brutal
+	Buckshot
+	Bullet
+	Bunker
+	Butcher	
+TITLEC
+	Calamity
+	Cannon
+	Cannonball
+	Champion
+	Charge
+	Combat
+	Commando
+	Cowboy
+	Crusader	
+TITLED
+	Danger
+	Deadly
+	Death
+	Destroyer
+	Detonation
+	Detonator
+	Devastator
+	Disaster
+	Duelist
+	Dynamite
+	Dynamo	
+TITLEE
+	Electron
+	Eliminator
+	Enforcer
+	Executioner
+	Explosive	
+TITLEF
+	Firefight
+	Firepower
+	Flamethrower
+	Fracas
+	Frenzied
+	Frenzy
+	Furious
+	Furor
+	Fury	
+TITLEG
+	G.I.
+	Gladiator
+	Gravestone
+	Grenade
+	Grenadier
+	Guard
+	Guardian
+	Guerilla
+	Gunner
+	Gunpowder	
+TITLEH
+	Hooligan
+	Howitzer
+	Hurricane	
+TITLEI
+	Immolation
+	Immolator
+	Infantry
+	Invader	
+TITLEJ
+	Judo	
+TITLEK
+	Karate
+	Kickboxing
+	Killer
+	Killeen
+	Kung Fu	
+TITLEL
+	Landmine
+	Laser
+	Liquidator	
+TITLEM
+	Massacre
+	Melee
+	Mercenary
+	Military
+	Missile
+	Mortar
+	Munitions
+	Murder
+	Musket
+	Musketeer	
+TITLEN
+	Napalm
+	Neutron
+	Ninja
+	Nuke	
+TITLEO
+	Ordinance
+	Outlaw	
+TITLEP
+	Paladin
+	Paratrooper
+	Patrol
+	Phalanx
+	Photon
+	Pistol
+	Projectile
+	Proton
+	Psycho	
+TITLER
+	Rage
+	Raid
+	Rampage
+	Revolver
+	Rifle
+	Rocket	
+TITLES
+	Salvo
+	Samurai
+	Sapper
+	Scrapper
+	Shell
+	Shotgun
+	Showdown
+	Shrapnel
+	Siege
+	Six-gun
+	Skirmish
+	Slaughter
+	Slayer
+	Sniper
+	Soldier
+	Storm
+	Sumo	
+TITLET
+	Tank
+	Taser
+	Thunder
+	Tornado
+	Torpedo
+	Trooper
+	Tsunami	
+TITLEV
+	Vicious
+	Violence
+	Violent	
+TITLEW
+	War
+	Warfare
+	Warlord
+	Warmongerer
+	Warrior
+	Whirlwind
+	Wrestling	
+//Animals
+ANIMALA
+	Aardvark
+	Albatross
+	Alligator
+	Alpaca
+	Ant
+	Anteater
+	Antelope
+	Ape
+	Armadillo	
+ANIMALB
+	Baboon
+	Badger
+	Barracuda
+	Bat
+	Bear
+	Beaver
+	Bee
+	Bison
+	Boar
+	Buffalo
+	Butterfly	
+ANIMALC
+	Camel
+	Capybara
+	Caribou
+	Cat
+	Caterpillar
+	Cheetah
+	Chicken
+	Chimpanzee
+	Chinchilla
+	Clam
+	Cobra
+	Cockroach
+	Cod
+	Condor
+	Coyote
+	Crab
+	Crane
+	Crocodile
+	Crow	
+ANIMALD
+	Deer
+	Dinosaur
+	Dog
+	Dogfish
+	Dolphin
+	Donkey
+	Dotterel
+	Dove
+	Dragonfly
+	Duck
+	Dugong	
+ANIMALE
+	Eagle
+	Echidna
+	Eel
+	Elephant
+	Elk
+	Emu
+ANIMALF
+	Falcon
+	Ferret
+	Finch
+	Fish
+	Flamingo
+	Fly
+	Fox
+	Frog	
+ANIMALG
+	Gazelle
+	Gerbil
+	Giraffe
+	Gnat
+	Gnu
+	Goat
+	Goldfinch
+	Goldfish
+	Goose
+	Gorilla
+	Grasshopper
+	Guinea pig
+	Gull	
+ANIMALH
+	Hamster
+	Hare
+	Hawk
+	Hedgehog
+	Heron
+	Herring
+	Hippopotamus
+	Hornet
+	Horse
+	Hummingbird
+	Hyena	
+ANIMALI
+	Ibex
+	Ibis	
+ANIMALJ
+	Jackal
+	Jaguar
+	Jay
+	Jellyfish	
+ANIMALK
+	Kangaroo
+	Koala
+	Komodo dragon
+	Kookabura
+	Kudu	
+ANIMALL
+	Lark
+	Lemur
+	Leopard
+	Lion
+	Llama
+	Lobster
+	Locust
+	Louse	
+ANIMALM
+	Magpie
+	Manatee
+	Mandrill
+	Mantis
+	Marten
+	Meerkat
+	Mink
+	Mole
+	Mongoose
+	Monkey
+	Moose
+	Mosquito
+	Mouse
+	Mule	
+ANIMALN
+	Narwhal
+	Newt
+	Nightingale	
+ANIMALO
+	Octopus
+	Opossum
+	Ostrich
+	Otter
+	Owl
+	Ox
+	Oyster	
+ANIMALP
+	Panther
+	Parrot
+	Partridge
+	Pelican
+	Penguin
+	Pheasant
+	Pig
+	Pigeon
+	Polar Bear
+	Pony
+	Porcupine
+	Porpoise
+	Prairie Dog	
+ANIMALQ
+	Quail
+	Quetzal	
+ANIMALR
+	Rabbit
+	Raccoon
+	Ram
+	Rat
+	Raven
+	Reindeer
+	Rhinoceros
+	Rook	
+ANIMALS
+	Salamander
+	Salmon
+	Sandpiper
+	Sardine
+	Scorpion
+	Sea lion
+	Sea Urchin
+	Seahorse
+	Seal
+	Shark
+	Sheep
+	Shrew
+	Skunk
+	Snail
+	Snake
+	Sparrow
+	Spider
+	Squid
+	Squirrel
+	Starling
+	Stingray
+	Stinkbug
+	Stork
+	Swallow
+	Swan	
+ANIMALT
+	Tapir
+	Termite
+	Tiger
+	Toad
+	Trout
+	Turkey
+	Turtle	
+ANIMALV
+	Viper
+	Vulture	
+ANIMALW
+	Wallaby
+	Walrus
+	Wasp
+	Water buffalo
+	Weasel
+	Whale
+	Wolf
+	Wolverine
+	Wombat
+	Woodpecker
+	Worm
+	Wren	
+ANIMALY
+	Yak	
+ANIMALZ
+	Zebra

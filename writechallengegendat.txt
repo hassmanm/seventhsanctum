@@ -1,0 +1,834 @@
+//Seeds
+SEED
+	<SEED1>
+	<SEED2>
+	<SEED3>
+	<SEED4>
+	<SEED5>
+SEED1
+	<SEEDCHARACTERS1>
+	<SEEDEXTERNALS1>
+	<SEEDSETTING1>
+SEED2
+	<SEEDCHARACTERS2>
+	<SEEDEXTERNALS1> <SEEDCHARACTERS1>
+	<SEEDEXTERNALS2>
+	<SEEDSETTING1> <SEEDCHARACTERS1>
+	<SEEDSETTING1> <SEEDEXTERNALS1>
+	<SEEDSETTING2>
+SEED3
+	<SEEDCHARACTERS2> <SEEDEXTERNALS1>
+	<SEEDCHARACTERS2> <SEEDSETTING1>
+	<SEEDCHARACTERS3>
+	<SEEDEXTERNALS2> <SEEDCHARACTERS1>
+	<SEEDSETTING1> <SEEDEXTERNALS1> <SEEDCHARACTERS1>
+	<SEEDSETTING1> <SEEDEXTERNALS2>
+	<SEEDSETTING2> <SEEDCHARACTERS1>
+	<SEEDSETTING2> <SEEDEXTERNALS1> 
+	<SEEDSETTING3>
+SEED4
+	<SEEDEXTERNALS1> <SEEDCHARACTERS3>
+	<SEEDEXTERNALS2> <SEEDCHARACTERS2>
+	<SEEDSETTING1> <SEEDCHARACTERS3>
+	<SEEDSETTING1> <SEEDEXTERNALS2> <SEEDCHARACTERS1>
+	<SEEDSETTING2> <SEEDCHARACTERS2>
+	<SEEDSETTING2> <SEEDEXTERNALS1> <SEEDCHARACTERS1>
+	<SEEDSETTING2> <SEEDEXTERNALS2>
+	<SEEDSETTING3> <SEEDCHARACTERS1>
+	<SEEDSETTING3> <SEEDEXTERNALS1>
+SEED5
+	<SEEDCHARACTERS2> <SEEDEXTERNALS1> <SEEDSETTING2>
+	<SEEDCHARACTERS2> <SEEDEXTERNALS2> <SEEDSETTING1>
+	<SEEDCHARACTERS2> <SEEDSETTING3>
+	<SEEDEXTERNALS2> <SEEDCHARACTERS3>
+	<SEEDSETTING2> <SEEDCHARACTERS3>
+	<SEEDSETTING2> <SEEDEXTERNALS2> <SEEDCHARACTERS1>
+	<SEEDSETTING3> <SEEDEXTERNALS1> <SEEDCHARACTERS1>
+//SPECIFIC SEEDS
+//CHARACTERS
+SEEDCHARACTERS1
+	<SEEDCHARACTERDOES>
+	<SEEDCHARACTERSTATE>
+	<SEEDCHARACTEREFFECT>
+SEEDCHARACTERS2
+	<SEEDCHARACTERDOES> <SEEDCHARACTERSTATE>
+	<SEEDCHARACTERDOES> <SEEDCHARACTEREFFECT>
+	<SEEDCHARACTERSTATE> <SEEDCHARACTEREFFECT>
+SEEDCHARACTERS3
+	<SEEDCHARACTERDOES> <SEEDCHARACTERSTATE> <SEEDCHARACTEREFFECT>
+//CHARACTERS - AREA
+SEEDCHARACTERDOES
+	A character <REFDOES>.
+	A character <REFDOES>, <REFDOESCOMPLICATE>.
+SEEDCHARACTEREFFECT
+	During the story, a character <REFCHARACTEREFFECT>.
+SEEDCHARACTERSTATE
+	A character is <REFBEINGSTATE> throughout most of the story.
+	A character becomes <REFBEINGSTATE> during the story.
+//EXTERNALS
+SEEDEXTERNALS1
+	<SEEDEXTERNALSBEING>
+	<SEEDEXTERNALSOBJECT>
+SEEDEXTERNALS2
+	<SEEDEXTERNALSBEING>  <SEEDEXTERNALSOBJECT>
+//EXTERNALS - AREA
+SEEDEXTERNALSBEING
+	The story must have <REFBEINGS> in it.
+	The story must have <REFBEINGS> in it.
+	The story must have <REFBEINGS> in it.
+	The story must have <REFBEINGS> at the beginning.
+	The story must have <REFBEINGS> involved in the middle.
+	The story must have <REFBEINGS> at the end.
+SEEDEXTERNALSOBJECT
+	The story must involve <REFITEMS> in it.
+	The story must involve <REFITEMS> in it.
+	The story must involve <REFITEMS> in it.
+	The story must involve <REFITEMS> in the beginning.
+	The story must have <REFITEMS> appear in the middle.
+	The story must involve <REFITEMS> at the end.
+//SETTINGS
+SEEDSETTING1
+	<SETTINGPLACE>
+	<SETTINGTIME>
+	<SETTINGEVENT>
+SEEDSETTING2
+	<SETTINGPLACE> <SETTINGTIME>
+	<SETTINGPLACE> <SETTINGEVENT>
+	<SETTINGTIME> <SETTINGEVENT>
+SEEDSETTING3
+	<SETTINGPLACE> <SETTINGTIME> <SETTINGEVENT>
+//SETTING - AREAS
+SETTINGPLACE
+	The story is set <REFPLACE>.
+	The story starts <REFPLACE>.
+	The story ends <REFPLACE>.
+SETTINGTIME
+	The story takes place <REFTIME>.
+	The story takes place <REFTIMESHIFT>.
+SETTINGEVENT
+	During the story, <REFEVENT>.
+//REFERENCES
+REFBEINGS
+	<REFBEINGSANIMAL>
+	<REFBEINGSSENTIENT>
+	<REFBEINGSSUPERNATURAL>
+REFBEINGSANIMAL
+	an armadillo
+	an ant
+	a barracuda
+	a bear
+	a bird
+	a buffalo
+	a bull
+	a cat
+	a chameleon
+	a chipmunk
+	a cougar
+	a cow
+	a dog
+	a dolphin
+	a duck
+	an eagle
+	an elephant
+	a fish
+	a fox
+	a frog
+	a gazelle
+	a gerbil
+	a giraffe
+	a goat
+	a hamster
+	a hawk
+	a hyena
+	a jackal
+	a lion
+	a lizard
+	a mouse
+	an octopus
+	an owl
+	a panther
+	a possum
+	a rabbit
+	a rat
+	a raven
+	a salamander
+	a shark
+	a snake
+	a squid
+	a squirrel
+	a tiger
+	a whale
+	a wolf
+	a zebra
+REFBEINGSSENTIENT
+	an accountant
+	an architect
+	an acrobat
+	an actor
+	an adventurer
+	an advisor
+	an alchemist
+	an ambassador
+	an archivist
+	an armorer
+	an assassin
+	an assistant
+	an astrologer/astronomer
+	an athlete
+	an explorer
+	a bandit
+	a banker
+	a barbarian
+	a bard/singer
+	a bartender
+	a beggar
+	a biologist
+	a blacksmith
+	a boatman
+	a bodyguard
+	a botanist
+	a bounty hunter
+	a boy
+	a braggart
+	a businessperson
+	a butler
+	a cartographer
+	a cartoonist/caricaturist
+	a champion
+	a chemist
+	a cleric
+	a clerk
+	a coachman/cab driver/chauffer
+	a comic
+	a conjurer
+	a construction worker
+	a cook
+	a counsellor/psychiatrist/psychologist
+	a criminal
+	a crusader
+	a dancer
+	a deciever
+	a detective
+	a doctor
+	an exorcist
+	an explorer
+	a farmer
+	a fence
+	a feudal lord
+	a fire fighter
+	a fisherman
+	a fortune-teller
+	a gadgeteer
+	a gambler
+	a garbageman
+	a gigolo
+	a girl
+	a gladiator
+	a grave digger
+	a grave robber
+	a healer
+	a heir
+	a henchman
+	a herbologist
+	a hermit
+	a hero
+	a heroine
+	a hunter
+	an impostor
+	an inkeeper
+	an inventor
+	a jailer
+	a jock
+	a junkie
+	a knight
+	a laborer
+	a lawman
+	a leader
+	a liar
+	a librarian
+	a linguist
+	a lover
+	a lunatic
+	a magician
+	a maid
+	a manager
+	a marine
+	a martial artist
+	a media personality
+	a media technician
+	a mentor
+	a mercenary
+	a merchant
+	a messenger
+	a midwife
+	a miner
+	a mobster
+	a monk
+	a murderer
+	a musician
+	a mystic
+	a navigator
+	a nanny
+	a noble
+	a novelist
+	a nun
+	a nurse
+	an occultist
+	an official
+	an old man
+	an old woman
+	an outlaw
+	a peasant
+	a pedlar
+	a pharmacist
+	a philanthropist
+	a philosopher
+	a pilot
+	a pirate
+	a poet
+	a police chief
+	a policeman
+	a politician
+	a pretender
+	a priest
+	a priestess
+	a prince
+	a princess
+	a professor
+	a prophet
+	a prospector
+	a prostitute
+	a rabble-rouser
+	a ranged weapons expert
+	a ranger/outdoorsman
+	a rascal
+	a rat-catcher
+	a relic hunter
+	a repairman
+	a reporter
+	a rogue
+	a ruler
+	a sailor
+	a salesperson
+	a scientist
+	a scholar
+	a scribe
+	a secret agent
+	a secretary
+	a seer
+	a servant
+	a shaman
+	a singer
+	a smuggler
+	a soldier
+	a sports figure
+	a spy
+	a student
+	a tailor
+	a teacher
+	a technologist
+	a theologian
+	a thief
+	a tomb-robber
+	a trader
+	a traitor
+	a traveler
+	a treasure-hunter
+	a tutor
+	a vagabond
+	a vandal
+	a veterean
+	a vetrenarian
+	a villain
+	a visitor
+	a wanderer
+	a warlord
+	a watchman
+	a weapons master
+	a witch-hunter/inquisitor
+	a wizard/magician/sorceror
+	a writer
+	a zookeeper
+	a zoologist
+REFBEINGSSUPERNATURAL
+	an air-spirit
+	an angel
+	a banshee
+	a chimera
+	a demon
+	a dragon
+	an earth-spirit
+	an elf
+	a fairy
+	a fire-spirit
+	a genie
+	a ghost
+	a giant
+	a goblin
+	a hellhound
+	an incubus
+	a kraken
+	a lost soul
+	a mermaid
+	an ogre
+	a phoenix
+	a spirit
+	a troll
+	a vampire
+	a water-spirit
+	a werewolf
+	a zombie
+REFBEINGSTATE
+	angry
+	antisocial
+	attracted to someone
+	belligerant
+	calm
+	confused
+	contemplative
+	controlling
+	curious
+	deceptive
+	depressed
+	disoriented
+	enraged
+	energetic
+	furious
+	generous
+	greedy
+	happy
+	hateful
+	hungry
+	inebriated
+	joyous
+	kind
+	lonely
+	lovelorn
+	lustful
+	manic
+	misunderstood
+	negative
+	optomistic
+	peaceful
+	pessimistic
+	questioning
+	relaxed
+	resigned
+	sad
+	sick
+	sorry
+	tense
+	thirsty
+	turned on
+	unhappy
+	vengeful
+	wiser
+REFCHARACTEREFFECT
+	becomes pregnant
+	breaks something important to them
+	discovers an item they thought they had lost
+	discovers someone has been pretending to be them
+	discovers someone has written a book or article about them
+	drinks something they haven't had in a while
+	drinks something that disagrees with them
+	eats something they haven't had in a while
+	eats something that disagrees with them
+	finds a long-lost friend
+	finds a long-lost relative
+	finds a pleasant surprise
+	finds out a dark secret
+	gets dirty
+	gets a demotion
+	gets a promotion
+	has an accident at home
+	has an accient while traveling
+	has someone make a meal for them
+	has to pay a fine
+	inherits an unusual object
+	inherits some money
+	is attacked
+	is forced to go shopping
+	is given a good talking-to
+	is in a vehicular accident
+	is involved in a legal dispute
+	is killed
+	is misunderstood
+	is robbed
+	is slandered
+	loses a job
+	loses something
+	makes a life-changing decision
+	makes a meal for themselves
+	makes a slip of the tongue
+	misreads something
+	misunderstands someone
+	moves to a different dwelling
+	takes a test
+REFDOES
+	applies for a job
+	attacks someone
+	becomes intoxicated
+	borrows money
+	borrows money
+	builds a house
+	buys a house
+	changes clothes
+	dyes their hair
+	eavesdrops
+	elopes
+	fakes a skill
+	gets a new hairstyle
+	gives birth
+	gives someone a good talking-to
+	hits something in anger
+	kills someone
+	lends someone money
+	lies
+	makes someone a meal
+	opens a door
+	opens a chest
+	pretends to be someone else
+	questions authority
+	reveals their feelings
+	robs someone
+	steals something
+	takes a test
+	uses a tool
+	will do laundry
+	will drink something alchoholic
+	will eat a meal
+	will get dressed
+	will get dressed
+	will go clothes shopping
+	will go to sleep
+	will have their hair cut
+	will prepare for a birthday
+	will prepare for a holiday
+	will prepare for a religious ceremony
+	will read a book
+	will read someone's diary
+	will send a letter
+	will send a package
+	will take a bath
+	will visit the doctor
+	will wake up
+	writes a book
+	writes a diary
+REFDOESCOMPLICATE
+	and the action has far better results than expected
+	and they aren't happy with it
+	and they are surprisingly overenthused about it
+	but it is done for different reasons than people would expect
+	but the action goes terribly wrong
+	but the action turns into something else
+	but the intention behind the action is not what it seems
+	but the action is misinterpreted
+REFEVENT
+	a famous person goes missing
+	a kidnapping occurs
+	a mysterious package arrives
+	a relative shows up
+	a way of life comes to an end
+	a well-established leader steps down
+	an important item or piece of equipment fails
+	an old friend shows up
+	an organization begins recruiting
+	someone gets away with a crime
+	someone is caught in traffic
+	someone is framed for a crime they didn't commit
+	someone is framed for something they didn't do
+	someone is mistaken for someone famous
+	someone is mistaken for someone infamous
+	someone turns another person in
+	someone's method of transportation breaks down
+	there is a birth
+	there is a breakup in a relationship
+	there is a delivery made
+	there is a dramatic discovery
+	there is a dramatic revelation
+	there is a fight
+	there is a fight to the death
+	there is a labor strike
+	there is a letter delivered
+	there is a mysterious death
+	there is a need to ask directions
+	there is a political crisis
+	there is a rebellion against the ruling order
+	there is a romantic interlude
+	there is a sudden change in temperature
+	there is a sudden change in weather
+	there is a sudden windfall of money
+	there is a terrible misunderstanding
+	there is a visit by a very common visitor
+	there is a visit by an unexpected visitor
+	there is an argument
+	there is an assassination
+	there is an attack
+	there is an economic crisis
+	there is an explosion
+REFITEMS
+	an amulet
+	an atlas
+	an axe
+	a bag
+	a barrel or keg
+	a battleaxe
+	a belt
+	a bench
+	a blanket
+	a boat
+	a bolt
+	a bolt of cloth
+	a book
+	a bottle
+	a bottle of beer
+	a bottle of wine
+	a bow
+	a bowl
+	a bracelet
+	a broom
+	a cabinet
+	a candle
+	a cap
+	a cape
+	a carpet
+	a casual outfit
+	a censer
+	a chair
+	a chime
+	a cloak
+	a club
+	a costume
+	a crossbow
+	a crown
+	a cube
+	a dart
+	a dartboard
+	a deck of cards
+	a dessert
+	a diadem
+	a disk
+	a door
+	a dress
+	a drum
+	an earring
+	a figurine
+	a flight of stairs
+	a formal outfit
+	a gate
+	a gauntlet
+	a gem
+	a glove
+	a guitar or similar instrument
+	a hammer
+	a harpoon
+	a hatchet
+	a helmet
+	a hole
+	a hood
+	a horn
+	an idol
+	a jar of honey
+	a jar of jelly
+	a javelin
+	a lance
+	a lantern
+	a lens
+	a longsword
+	a mace
+	a machine
+	a magical grimoire
+	a manual for something
+	a mask
+	a meat cleaver
+	a medallion
+	a necklace
+	an orb
+	a pendant
+	a pick
+	a piece of fruit
+	a pile of bones
+	a pile of hay
+	a pile of trash
+	a pill
+	a portal
+	a potion
+	a quilt
+	a quiver of arrows
+	a ring
+	a robe
+	a rod or staff
+	a sack
+	a sack
+	a salve
+	a sceptre
+	a scripture
+	a scroll
+	a scythe
+	a secret passage
+	a sewing kit
+	a shield
+	a shroud
+	a skull
+	a solvent
+	a spear
+	a stained-glass window
+	a statue
+	a suit of armor
+	a table
+	a talisman
+	a throwing axe
+	a throwing knife
+	a throwing star
+	a token
+	a trash can
+	a treasure
+	a treasure chest
+	a trident
+	a vest
+	a wand
+	a whip
+	a window
+	dust
+	some beads
+	some boots or shoes
+	some glue
+	some herbs
+	some horseshoes
+	some incense
+	some medicine
+	some medicine
+	some musical pipes
+	some oil
+	some ointment
+	some plumbing pipes
+	some rope
+	some sandals
+	some shoes
+	some slippers
+	some surgical instruments
+REFPLACE
+	<REFPLACELOC>
+	<REFPLACEEVENT>
+REFPLACELOC
+	atop a tree
+	in an alley
+	in a barbershop
+	in a basement
+	in a big city
+	in a canyon
+	in a castle
+	in a crypt
+	in a desecrated temple
+	in a dungeon
+	in a forest
+	in a government building
+	in a graveyard
+	in a high tower or building
+	in a hospital/medical center
+	in a house
+	in a jungle
+	in a library
+	in a lost city
+	in a museum
+	in a school
+	in a shop
+	in a small town
+	in a sunken ship
+	in a tavern/bar
+	in a temple
+	in a tomb
+	in a valley
+	in a vault
+	in an attic
+	in a living room
+	in a kitchen
+	in the desert
+	in the ruins of an ancient building
+	in/on a volcano
+	on a battlefield
+	on a beach
+	on a boat
+	on a flying vehicle	
+	on a glacier
+	on a lake
+	on a river
+	on a ship
+	on a sinking ship
+	on a wrecked ship
+	on an ice floe
+	on the ocean
+REFPLACEEVENT
+	during a birth
+	during a business meeting
+	during a charity event
+	during a class/training session
+	during a concert
+	during a crime
+	during a day off
+	during a drought
+	during a funeral
+	during a holiday ceremony
+	during a jailbreak
+	during a meal
+	during a military coup
+	during a party
+	during a plague
+	during a police action
+	during a police investigation
+	during a political rally
+	during a rainstorm
+	during a religious ceremony
+	during a revolution
+	during a riot
+	during a shopping trip
+	during a snowstorm
+	during a sporting event
+	during a thunderstorm
+	during a vacation
+	during a war
+	during a wedding
+	during a workday
+	during an autopsy
+	during an earthquake
+	during an eclipse
+	during an election/political decision
+REFTIME
+	<REFTIMEDAY>
+	<REFTIMESPECIFIC>
+REFTIMEDAY
+	at noon exactly
+	at midnight exactly
+	in the afternoon
+	in the early evening
+	in the early morning
+	in the evening
+	in the late evening
+	in the late morning
+	in the morning
+REFTIMESPECIFIC
+	in the spring
+	in mid-spring
+	in the summer
+	in mid-summer
+	in the fall
+	in mid-fall
+	in the winter
+	in mid-winter
+REFTIMESHIFT
+	<REFTIMESHIFTFUTURE>
+	<REFTIMESHIFTPAST>
+REFTIMESHIFTFUTURE
+	a year into the future
+	five years into the future
+	ten years into the future
+	twenty years into the future
+	a century into the future
+	a thousand years into the future
+REFTIMESHIFTPAST
+	a year into in the past
+	five years in the past
+	ten years in the past
+	twenty years in the past
+	a century in the past
+	a thousand years in the past

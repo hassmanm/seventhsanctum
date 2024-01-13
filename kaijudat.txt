@@ -1,0 +1,236 @@
+//Vocab types:
+// 1 Description - Gigantitude
+// 2 Description of creature - Description of a monste, such as cainine.
+// 4 Creature Modifier - A modifier of creature structure
+// 8 Form Mod - A modifier of forms
+// 16 Element - An element that a Form may  take
+// 32 Monster Actor - a name for monster.
+// 64 SpecCreature Actor - A specific creature
+// 128 Form Type - Cone, cube, sphere, blob
+// 256 PowerType
+// 512 Origintype
+// 2048 MotivationType - Pos
+// 4096 Motivation type - neg
+//Some of these will ONLY be locational
+--ORGANIZATION
+//Basic species
+1,64,256,512,1024
+The , , ,.  ,.  ,.
+1,4,64,256,512,1024
+The , , , ,.  ,.  ,.
+1,4,64,512,1024
+The , , ,.  ,.  ,.
+1,64,256,512,2048
+The , , ,.  ,.  ,.
+1,4,64,256,512,2048
+The , , , ,.  ,.  ,.
+1,4,64,512,2048
+The , , ,.  ,.  ,.
+//Crossbreeds
+1,64,64,256,512,1024
+The , ,-, ,.  ,.  ,.
+1,4,64,64,256,512,1024
+The , , ,-, ,.  ,.  ,.
+1,4,64,64,512,1024
+The , , ,-,.  ,.  ,.
+1,64,64,256,512,2048
+The , ,-, ,.  ,.  ,.
+1,4,64,64,256,512,2048
+The , , ,-, ,.  ,.  ,.
+1,4,64,64,512,2048
+The , , ,-,.  ,.  ,.
+///Generals
+1,2,32,256,512,1024
+The , , , ,.  ,.  ,.
+1,4,2,32,256,512,1024
+The , , , , ,.  ,.  ,.
+1,4,2,32,512,1024
+The , , , ,.  ,.  ,.
+1,2,32,256,512,2048
+The , , , ,.  ,.  ,.
+1,4,2,32,256,512,2048
+The , , , , ,.  ,.  ,.
+1,4,2,32,512,2048
+The , , , ,.  ,.  ,.
+//Non-recognizable forms
+1,128,16,256,512,1024
+The , , of , ,.  ,.  ,.
+1,8,128,16,256,512,1024
+The , , , of  , ,.  ,.  ,.
+1,8,128,16,512,1024
+The , , , of ,.  ,.  ,.
+1,128,16,256,512,2048
+The , , of , ,.  ,.  ,.
+1,8,128,16,256,512,2048
+The , , , of , ,.  ,.  ,.
+1,8,128,16,512,2048
+The , , , of ,.  ,.  ,.
+--VOCABULARY
+// 1 Description - Gigantitude
+enormous,1
+gigantic,1
+huge,1
+// 2 Description of creature - Description of a monste, such as cainine.
+arachnid,2
+avian,2
+cainine,2
+cetacean,2
+cephalopod,2
+equine,2
+feline,2
+insectoid,2
+lupine,2
+reptilian,2
+saurian,2
+// 4 Creature Modifier - A modifier of creature structure
+// 8 Form Mod - A modifier of forms
+amorphous,12
+metal-skinned,4
+spine-covered,4
+armored,4
+spike-covered,4
+crystaline,4
+slimy,4
+liquid metal,20
+hard-shelled,4
+elastic-bodied,4
+glowing,12
+radioactive,12
+multi-eyed,12
+single-eyed,12
+great-winged,8
+tentacled,8
+many-armed,8
+many-limbed,8
+// 16 Element - An element that a Form may  take
+flesh,16
+bone,16
+necrotic tissue,16
+smog,16
+psychic energy,16
+electricity,16
+nuclear waste,16
+pollution,16
+cosmic energy,16
+angry spirits,16
+magic,16
+plant life,16
+stone,16
+earth,16
+flame,16
+water,16
+crystal,16
+liquid,16
+neural tissue,16
+light,16
+dark magic,16
+lost souls,16
+// 32 Monster Actor - a name for monster.
+beast,32
+creature,32
+monster,32
+// 64 SpecCreature Actor - A specific creature
+ant,64
+bat,64
+butterfly,64
+cobra,64
+dragon,64
+dinosaur,64
+eagle,64
+elephant,64
+gorilla,64
+hawk,64
+jackal,64
+leech,64
+lion,64
+lizard,64
+mantis,64
+mastodon,64
+monkey,64
+moth,64
+plesiosaur,64
+pterodactyl,64
+rat,64
+scorpion,64
+shark,64
+snake,64
+slug,64
+spider,64
+squid,64
+tarantula,64
+tiger,64
+tortoise,64
+tyrannosaur,64
+wolf,64
+wolverine,64
+// 128 Form Type - Cone, cube, sphere, blob
+cone,128
+sphere,128
+blob,128
+mass,128
+humanoid,128
+lump,128
+cloud,128
+pyramid,128
+mountain,128
+idol,128
+// 256 PowerType
+that spits fire,256
+that gives off radiation,256
+that emits psychic bursts,256
+that teleports,256
+that can tunnel through the earth,256
+that spews acid,256
+that fires lasers from its eyes,256
+that breathes radioactive fire,256
+that has a sonic scream,256
+that vomits acid on enemies,256
+that eats metal,256
+that adsorbs the life force of all that get near it,256
+that has a devestating roar,256
+that projects strange rays as weapons,256
+// 512 Origintype
+It came from a mysterious island,512
+It came  from the core of the earth,512
+It was frozen in a glacier until it was reawakened,512
+It was created by weapons testing,512
+It comes from the north pole,512
+It comes from the south pole,512
+It comes from another world,512
+It comes from another dimension,512
+It was created by alien invaders,512
+It existed before humanity,512
+It was the result of genetic experimentation,512
+It came from the future,512
+It came from the past,512
+It was created by a lost civilization,512
+It was created in an experimental accident,512
+It was created by pollution,512
+It was spawned by the Earth to stop humanity from harming it,512
+It is the very embodiment of a god,512
+It hatched from a giant egg,512
+It is the last survivor of a lost species,512
+It came from the center of the Earth,512
+It was created by unconcious psychic energy,512
+It was summoned by sorcery,512
+It followed a spacecraft back to earth,512
+It was captured on another planet and brought here,512
+It reached Earth travelling on a passing asteroid,512
+It used to live in the sun,512
+It used to live on the moon,512
+// 1024 MotivationType - Pos
+It is a friend to all children,1024
+It seeks to protect humanity,1024
+It preserves the life force of the Earth,1024
+It protects its territory,3072
+It despises humanity,1024
+It is protective of one specific human that has a strange bond with it,1024
+It mindlessly seeks someone to give it orders,3072
+It protects its mysterious life source,3072
+// 2048 Motivation type - neg
+It delights in combat,2048
+It seeks to rule all it sees,2048
+It exists only to destroy,2048
+It is controlled by a mad scientist,2048
+It is the tool of alien invaders,2048
+It is the tool of a secret government agency,2048

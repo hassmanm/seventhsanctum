@@ -1,0 +1,243 @@
+//Vocab types:
+//1 Prefix
+//2 Descriptor
+//4 Object
+//8 Actor
+//16 Nondefined Actor
+//32 Suffix
+--ORGANIZATION
+1,2,8
+,, ,
+1,2,16
+,, ,
+1,4,8
+,, ,
+1,4,16
+,, ,
+1,8
+,,
+1,16
+,,
+1,32
+,,
+2,1,4,8
+, ,, ,
+2,1,8
+, ,,
+2,1,16
+, ,,
+2,1,32
+, ,,
+2,4,8
+, , ,
+2,4,1,8
+, , ,,
+2,4,16
+, , ,
+2,8
+, ,
+2,16
+, ,
+2,16,32
+, ,,
+4,8
+, ,
+4,1,8
+, ,,
+4,16
+, ,
+4,1,16
+, ,,
+4,16,32
+, ,,
+4,32
+,,
+16,32
+,,
+//Vocabulary
+--VOCABULARY
+//1 Prefix
+Andro,1
+Dyna,1
+Auto,1
+Bio,1
+Chemo,1
+Compu,1
+Cyber,1
+Electro,1
+Geo,1
+Mecha,1
+Mechano,1
+Muto,1
+Nano,1
+Neuro,1
+Psi,1
+Robo,1
+Techno,1
+//2 Descriptor
+Administrative,2
+Advanced,2
+Altered,2
+Amped,2
+Bio-Engineered,2
+Biological,2
+Bionic,2
+Black-Market,2
+Bound,2
+Chipped,2
+Cloned,2
+Connected,2
+Connected,2
+Corporate,2
+Cybernetic,2
+Cyborg,26
+Enhanced,2
+Executive,10
+Free,2
+Freelance,2
+Government,6
+Governmental,2
+Holographic,2
+Interfaced,2
+Jacked,2
+Networked,2
+Neural,2
+Prototype,2
+Psionic,2
+Rogue,10
+Servant,18
+Virtual,2
+Webbed,2
+Wired,2
+//4 Object
+Android,6
+Bank,4
+Biochemical,2
+Bounty,4
+Broadcast,4
+Business,4
+Chemical,6
+Chip,4
+Circuit,4
+City,4
+Clone,4
+Code,4
+Communications,4
+Computer,4
+Corporation,6
+Crime,4
+Download,4
+Factory,4
+Hologram,6
+Implant,4
+Interface,4
+Internet,4
+Law,4
+Line,4
+Machine,6
+Media,4
+Murder,4
+Mutant,4
+Mutation,4
+Nerve,4
+Net,4
+Network,4
+Police,6
+Processor,4
+Program,4
+Robot,6
+Security,6
+Suicide,6
+System,4
+Technology,4
+Transmission,4
+Upload,4
+Virus,4
+Web,4
+Website,4
+//8 Actor
+Accountant,8
+Administrator,8
+Ambassador,8
+Archivist,24
+Assasin,8
+Bandit,24
+Bureaucrat,8
+Clerk,8
+Cop,8
+Courtesan,8
+Detective,24
+Developer,24
+Engineer,8
+Engineer,8
+Entertainer,24
+Fence,24
+Gigolo,8
+Impersonator,8
+Investor,8
+Jailer,24
+Lawyer,24
+Linguist,8
+Mentor,8
+Merchant,8
+Messenger,24
+Negotiator,8
+Nurse,24
+Official,8
+Pilot,8
+Programmer,8
+Psionicist,8
+Ranger,24
+Reporter,8
+Secretary,8
+Soldier,26
+Surgeon,24
+Technician,8
+Theif,24
+Warrior,26
+//16 Nondefined Actor
+Actor,16
+Artist,16
+Breaker,16
+Catcher,16
+Cracker,26
+Criminal,18
+Detector,16
+Doctor,24
+Executor,16
+Finder,16
+Guard,26
+Guardian,30
+Hacker,26
+Hunter,24
+Impostor,18
+Inventor,24
+Jacker,16
+Killer,16
+Looter,16
+Miner,24
+Murderer,16
+Negator,16
+Quester,16
+Ripper,16
+Sapper,24
+Seeker,16
+Singer,16
+Slayer,16
+Sleuth,24
+Spy,24
+Stealer,16
+Thinker,16
+Tracker,24
+Trader,24
+Wrecker,16
+//32 Suffix
+Borg,33
+Bot,32
+Doc,32
+Droid,38
+Jack,32
+Neticist,32
+Noid,32
+Tech,32
+Tron,32

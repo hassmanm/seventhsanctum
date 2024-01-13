@@ -1,0 +1,50 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+henchman,8
+magical advisor,8
+magical boy,8
+magical girl,8
+magical sidekick,8
+magical nemesis,8
+sub-villain,8
+villain,8
+//16 - Element
+from another dimension,16
+from another time,16
+from another world,16
+who came from another world to seek his/her parents,16
+who came from the future to seek his/her parents,16
+who conceals their mystical identity carefully,16
+who exploits their mystical powers,16
+who guards a mysterious power source,16
+who has a destiny to fulfill,16
+who has a miraculous romance in their future,16
+who has a powerful rival,16
+who has a strange romantic chemistry with his/her enemy,16
+who has just acquired a magical guardian,16
+who has just acquired a magical power-up,16
+who has powers that may be devestating if discovered,16
+who has yet to come into his/her true power,16
+who is a half-human/half magical being,16
+who is doomed if the world is to be saved,16
+who is ignorant of their true power,16
+who is lost royalty,16
+who is reincarnated from another lifetime,16
+who is touched by darkness,16
+who was reborn under strange circumstances,16
+who must die if the day is to be saved,16
+who seeks a mysterious power source,16
+who seeks to acquire a magical advisor,16
+who seeks to acquire a magical power-up,16
+whose friend turns out to be a rival,16
+whose rival turns out to be a friend,16
+whose true love has been turned to the other side,16
+whose true power is concealed from them,16

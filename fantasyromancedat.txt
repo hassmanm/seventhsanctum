@@ -1,0 +1,923 @@
+﻿//Seeds
+SEED
+	<SEEDROMANCEFIRST>
+	<SEEDFANTASYFIRST>
+	<SEEDFANTASYDESCRIPTOR>
+	<SEEDFANTASYPOSESSOR>
+	<SEEDFANTASYDESCRIPTORPOSESSOR>
+SEEDROMANCEFIRST
+	<TERMROMANCEA> and <TERMFANTASYA>
+	<TERMROMANCEB> and <TERMFANTASYB>
+	<TERMROMANCEC> and <TERMFANTASYC>
+	<TERMROMANCED> and <TERMFANTASYD>
+	<TERMROMANCEE> and <TERMFANTASYE>
+	<TERMROMANCEF> and <TERMFANTASYF>
+	<TERMROMANCEG> and <TERMFANTASYG>
+	<TERMROMANCEH> and <TERMFANTASYH>
+	<TERMROMANCEL> and <TERMFANTASYL>
+	<TERMROMANCEM> and <TERMFANTASYM>
+	<TERMROMANCEP> and <TERMFANTASYP>
+	<TERMROMANCER> and <TERMFANTASYR>
+	<TERMROMANCES> and <TERMFANTASYS>
+	<TERMROMANCET> and <TERMFANTASYT>
+	<TERMROMANCEW> and <TERMFANTASYW>
+SEEDFANTASYFIRST
+	<TERMFANTASYA> and <TERMROMANCEA>
+	<TERMFANTASYB> and <TERMROMANCEB>
+	<TERMFANTASYC> and <TERMROMANCEC>
+	<TERMFANTASYD> and <TERMROMANCED>
+	<TERMFANTASYE> and <TERMROMANCEE>
+	<TERMFANTASYF> and <TERMROMANCEF>
+	<TERMFANTASYG> and <TERMROMANCEG>
+	<TERMFANTASYH> and <TERMROMANCEH>
+	<TERMFANTASYL> and <TERMROMANCEL>
+	<TERMFANTASYM> and <TERMROMANCEM>
+	<TERMFANTASYP> and <TERMROMANCEP>
+	<TERMFANTASYR> and <TERMROMANCER>
+	<TERMFANTASYS> and <TERMROMANCES>
+	<TERMFANTASYT> and <TERMROMANCET>
+	<TERMFANTASYW> and <TERMROMANCEW>
+SEEDFANTASYDESCRIPTOR
+	The <PEOPLEROMDESCA> <PEOPLEFANTASYA>
+	The <PEOPLEROMDESCB> <PEOPLEFANTASYB> 
+	The <PEOPLEROMDESCC> <PEOPLEFANTASYC> 
+	The <PEOPLEROMDESCD> <PEOPLEFANTASYD> 
+	The <PEOPLEROMDESCE> <PEOPLEFANTASYE> 
+	The <PEOPLEROMDESCF> <PEOPLEFANTASYF> 
+	The <PEOPLEROMDESCG> <PEOPLEFANTASYG> 
+	The <PEOPLEROMDESCH> <PEOPLEFANTASYH>  
+	The <PEOPLEROMDESCL> <PEOPLEFANTASYL> 
+	The <PEOPLEROMDESCM> <PEOPLEFANTASYM> 
+	The <PEOPLEROMDESCN> <PEOPLEFANTASYN> 
+	The <PEOPLEROMDESCP> <PEOPLEFANTASYP>  
+	The <PEOPLEROMDESCR> <PEOPLEFANTASYR> 
+	The <PEOPLEROMDESCS> <PEOPLEFANTASYS> 
+	The <PEOPLEROMDESCT> <PEOPLEFANTASYT> 
+	The <PEOPLEROMDESCW> <PEOPLEFANTASYW>
+SEEDFANTASYPOSESSOR
+	The <PEOPLEFANTASYPOSA> <POSESSIONROMA>
+	The <PEOPLEFANTASYPOSB> <POSESSIONROMB>
+	The <PEOPLEFANTASYPOSC> <POSESSIONROMC>
+	The <PEOPLEFANTASYPOSD> <POSESSIONROMD>
+	The <PEOPLEFANTASYPOSE> <POSESSIONROME>
+	The <PEOPLEFANTASYPOSF> <POSESSIONROMF>
+	The <PEOPLEFANTASYPOSG> <POSESSIONROMG>
+	The <PEOPLEFANTASYPOSH> <POSESSIONROMH>
+	The <PEOPLEFANTASYPOSK> <POSESSIONROMK>
+	The <PEOPLEFANTASYPOSL> <POSESSIONROML>
+	The <PEOPLEFANTASYPOSM> <POSESSIONROMM>
+	The <PEOPLEFANTASYPOSP> <POSESSIONROMP>
+	The <PEOPLEFANTASYPOSR> <POSESSIONROMR>
+	The <PEOPLEFANTASYPOSS> <POSESSIONROMS>
+	The <PEOPLEFANTASYPOST> <POSESSIONROMT>
+	The <PEOPLEFANTASYPOSW> <POSESSIONROMW>
+SEEDFANTASYDESCRIPTORPOSESSOR
+	The <PEOPLEROMDESCA> <PEOPLEFANTASYPOSA> <POSESSIONROMA>
+	The <PEOPLEROMDESCB> <PEOPLEFANTASYPOSB> <POSESSIONROMB>
+	The <PEOPLEROMDESCC> <PEOPLEFANTASYPOSC> <POSESSIONROMC>
+	The <PEOPLEROMDESCD> <PEOPLEFANTASYPOSD> <POSESSIONROMD>
+	The <PEOPLEROMDESCE> <PEOPLEFANTASYPOSE> <POSESSIONROME>
+	The <PEOPLEROMDESCF> <PEOPLEFANTASYPOSF> <POSESSIONROMF>
+	The <PEOPLEROMDESCG> <PEOPLEFANTASYPOSG> <POSESSIONROMG>
+	The <PEOPLEROMDESCH> <PEOPLEFANTASYPOSH> <POSESSIONROMH>
+	The <PEOPLEROMDESCL> <PEOPLEFANTASYPOSL> <POSESSIONROML>
+	The <PEOPLEROMDESCM> <PEOPLEFANTASYPOSM> <POSESSIONROMM>
+	The <PEOPLEROMDESCP> <PEOPLEFANTASYPOSP> <POSESSIONROMP>
+	The <PEOPLEROMDESCR> <PEOPLEFANTASYPOSR> <POSESSIONROMR>
+	The <PEOPLEROMDESCS> <PEOPLEFANTASYPOSS> <POSESSIONROMS>
+	The <PEOPLEROMDESCT> <PEOPLEFANTASYPOST> <POSESSIONROMT>
+	The <PEOPLEROMDESCW> <PEOPLEFANTASYPOSW> <POSESSIONROMW>
+//Romance List
+TERMFANTASYA
+	Adventure
+	Adventurers
+	Adventuresses
+	Aether
+	Alchemists
+	Alchemy
+	Altars
+	Amazons
+	Amulets
+	Angels
+	Archers
+	Archmages
+	Armor
+	Arrows
+	Artifacts
+	Artificers
+	Assassins
+	Axes
+TERMFANTASYB
+	Barbarians
+	Battlements
+	Battles
+	Beasts
+	Blades
+	Bowmen
+	Bow-women
+	Bows
+	Bravery
+	Broadswords
+TERMFANTASYC
+	Castles
+	Catacombs
+	Catapults
+	Caverns
+	Caves
+	Centaurs
+	Chainmail
+	Champions
+	Charms
+	Citadels
+	Clerics
+	Conjurers
+	Conquerors
+	Conquest
+	Courage
+	Crossbows
+	Crusaders
+	Crusades
+	Crypts
+	Cutlasses
+TERMFANTASYD
+	Daggers
+	Daring
+	Deities
+	Demigods
+	Demons
+	Destiny
+	Devils
+	Divinities
+	Dragons
+	Druids
+	Dungeons
+	Dwarves
+TERMFANTASYE
+	Elementalists
+	Elementals
+	Elves
+	Emperesses
+	Emperors
+	Empires
+	Enchanters
+	Enchantment
+	Enchantments
+	Ether
+	Exorcisms
+	Exorcists
+	Exploration
+	Explorers
+TERMFANTASYF
+	Familiars
+	Fighters
+	Flails
+	Fortresses
+	Furies
+TERMFANTASYG
+	Gargoyles
+	Genies
+	Ghosts
+	Ghouls
+	Gladiators
+	Goblins
+	Goddesses
+	Gods
+	Gold
+	Golems
+	Griffons
+	Grimoires
+TERMFANTASYH
+	Halbierds
+	Halflings
+	Hauntings
+	Hellspawn
+	Helmets
+	Heroes
+	Heroines
+	Heroism
+	Hoards
+	Horrors
+TERMFANTASYL
+	Lances
+	Lancers
+	Legends
+	Legerdemain
+	Lycanthropes
+TERMFANTASYM
+	Maces
+	Mages
+	Magic
+	Magicians
+	Martial Artists
+	Martyrs
+	Mayhem
+	Mazes
+	Mercenaries
+	Might
+	Mines
+	Minotaurs
+	Miracles
+	Mithril
+	Monks
+	Monsters
+	Mummies
+	Mysteries
+	Mysticism
+	Mystics
+TERMFANTASYP
+	Paladins
+	Phantoms
+	Pirates
+	Plots
+	Potions
+	Priestesses
+	Priests
+	Princes
+	Princesses
+	Prophecy
+	Prophets
+	Pyramids
+TERMFANTASYR
+	Ramparts
+	Rangers
+	Rapiers
+	Relics
+	Rituals
+	Rogues
+	Ruins
+	Runes
+TERMFANTASYS
+	Sabres
+	Saints
+	Scimtars
+	Scrolls
+	Secrets
+	Shields
+	Shrines
+	Sorceries
+	Sorcery
+	Souls
+	Spears
+	Spells
+	Sphinxes
+	Spirits
+	Staves
+	Strength
+	Summoners
+	Swashbucklers
+	Swords
+TERMFANTASYT
+	Talismans
+	Temples
+	Terrors
+	Thieves
+	Thrones
+	Tombs
+	Traps
+	Treasure
+	Trolls
+	Tunnels
+TERMFANTASYW
+	Wanderers
+	Wands
+	War
+	Warfare
+	Warlocks
+	Warlords
+	Warriors
+	Weapons
+	Werewolves
+	Witchcraft
+	Witches
+	Wizardry
+	Wizards
+//Fantasy List
+TERMROMANCEA
+	Adoration
+	Adultery
+	Affairs
+	Affection
+	Allure
+	Appeal
+	Ardor
+	Attraction
+TERMROMANCEB
+	Beauty
+	Bedroom Eyes
+	Bedrooms
+	Beloveds
+	Booty Calls
+	Boudoirs
+	Boyfriends
+TERMROMANCEC
+	Captivation
+	Caresses
+	Charisma
+	Charm
+	Concubines
+	Courtesans
+	Courtship
+	Craving
+	Crushes
+	Curves
+TERMROMANCED
+	Dates
+	Dating
+	Decadence
+	Desire
+	Devotion
+	Dreamboats
+TERMROMANCEE
+	Elegance
+	Emotions
+	Enchantment
+	Endearment
+	Enticement
+	Erotica
+	Escorts
+	Excitation
+TERMROMANCEF
+	Fascination
+	Feelings
+	Flesh
+	Flings
+	Flirtations
+TERMROMANCEG
+	Gentlemen
+	Gentlewomen
+	Gigolos
+	Girlfriends
+	Glamor
+	Good Looks
+TERMROMANCEH
+	Handsomeness
+	Hanky-panky
+	Harlots
+	Hearts
+	Heart-throbs
+	Hookups
+	Hotness
+	Hugs
+	Hunks
+TERMROMANCEL
+	Lewdness
+	Liaisons
+	Libertines
+	Libido
+	Licentiousness
+	Lips
+	Longing
+	Lotharios
+	Love
+	Loveliness
+	Love-lives
+	Lovers
+	Lust
+TERMROMANCEM
+	Marriage
+	Marriages
+	Mistresses
+	Make-outs
+TERMROMANCEP
+	Paramours
+	Passion
+	Passions
+	Permissiveness
+	Philanderers
+	Playboys
+	Playgirls
+	Pleasure
+	Pulchritude
+TERMROMANCER
+	Relationships
+	Romance
+TERMROMANCES
+	Seducers
+	Seduction
+	Seductresses
+	Sensation
+	Sensuality
+	Sex Appeal
+	Sexiness
+	Sexuality
+	Skin
+	Studs
+	Sweethearts
+TERMROMANCET
+	Teasing
+	Temptation
+	Thrills
+	Touches
+	Two-timing
+TERMROMANCEW
+	Wantonness
+	Weddings
+// Phase 2 - People
+PEOPLEFANTASYA
+	Adventurer
+	Adventuress
+	Alchemist
+	Angel
+	Archer
+	Archmage
+	Aristocrat
+	Armorer
+	Artificer
+	Assassin
+	Assassin
+	Astrologer
+PEOPLEFANTASYB
+	Bandit
+	Barbarian
+	Bard
+	Beastmaster
+	Beastmistress
+	Berserker
+	Blacksmith
+	Bowman
+	Bowwoman
+	Brigand
+PEOPLEFANTASYC
+	Cavalier
+	Centurion
+	Champion
+	Charioteer
+	Class
+	Cleric
+	Conjurer
+	Corsair
+	Crusader
+PEOPLEFANTASYD
+	Demigod
+	Demon
+	Demonologist
+	Devil
+	Diety
+	Dragon
+	Dragonslayer
+	Druid
+	Duelist
+	Dungeoneer
+	Dwarf
+PEOPLEFANTASYE
+	Elementalist
+	Elf
+	Enchanter
+	Enchantress
+	Exorcist
+	Explorer
+PEOPLEFANTASYF
+	Falconer
+	Fencer
+	Fighter
+PEOPLEFANTASYG
+	Geomancer
+	Giant
+	Gnoll
+	Gnome
+	Goblin
+PEOPLEFANTASYH
+	Halberdier
+	Halfling
+	Healer
+	Hellspawn
+	Herald
+	Herbalist
+	Hero
+	Heroine
+	Highwayman
+	Hobgoblin
+	Hunter
+PEOPLEFANTASYI
+	Illusionist
+	Inquisitor
+	Invoker
+PEOPLEFANTASYJ
+	Jester
+	Justicar
+PEOPLEFANTASYK
+	King
+	Knight
+	Kobold
+PEOPLEFANTASYL
+	Lancer
+	Lich
+	Lizardman
+	Lizardwoman
+	Lycanthrope
+PEOPLEFANTASYM
+	Mage
+	Magician
+	Magus
+	Marauder
+	Mariner
+	Marshal
+	Martyr
+	Medium
+	Mentalist
+	Mercenary
+	Minstrel
+	Monk
+	Musketeer
+	Mystic
+PEOPLEFANTASYN
+	Necromancer
+	Noble
+PEOPLEFANTASYO
+	Occultist
+	Oracle
+	Orc
+	Outlaw
+PEOPLEFANTASYP
+	Paladin
+	Pirate
+	Priest
+	Priestess
+	Prince
+	Princess
+	Prophet
+	Prophetess
+	Psychic
+PEOPLEFANTASYQ
+	Queen
+	Quester
+PEOPLEFANTASYR
+	Ranger
+	Ritualist
+	Rogue
+	Royal
+PEOPLEFANTASYS
+	Sage
+	Saint
+	Scholar
+	Scout
+	Scryer
+	Sentinel
+	Soldier
+	Sorceress
+	Sorcerer
+	Summoner
+	Swashbuckler
+	Swordsman
+	Swordswoman
+PEOPLEFANTASYT
+	Templar
+	Thamaturge
+	Thief
+	Transmuter
+PEOPLEFANTASYV
+	Viking
+PEOPLEFANTASYW
+	Warlock
+	Warlord
+	Warrior
+	Werewolf
+	Witch
+	Wizard
+//Fantasy people posessive
+PEOPLEFANTASYPOSA
+	Adventurer's
+	Adventuress'
+	Alchemist's
+	Angel's
+	Archer's
+	Archmage's
+	Aristocrat's
+	Armorer's
+	Artificer's
+	Assassin's
+	Assassin's
+	Astrologer's
+PEOPLEFANTASYPOSB
+	Bandit's
+	Barbarian's
+	Bard's
+	Beastmaster's
+	Beastmistress'
+	Berserker's
+	Blacksmith's
+	Bowman's
+	Bowwoman's
+	Brigand's
+PEOPLEFANTASYPOSC
+	Cavalier's
+	Centurion's
+	Champion's
+	Charioteer's
+	Class's
+	Cleric's
+	Conjurer's
+	Corsair's
+	Crusader's
+PEOPLEFANTASYPOSD
+	Demigod's
+	Demon's
+	Demonologist's
+	Devil's
+	Deity's
+	Dragon's
+	Dragonslayer's
+	Druid's
+	Duelist's
+	Dungeoneer's
+	Dwarf's
+PEOPLEFANTASYPOSE
+	Elementalist's
+	Elf's
+	Enchanter's
+	Enchantress's
+	Exorcist's
+	Explorer's
+PEOPLEFANTASYPOSF
+	Falconer's
+	Fencer's
+	Fighter's
+PEOPLEFANTASYPOSG
+	Geomancer's
+	Giant's
+	Gnoll's
+	Gnome's
+	Goblin's
+PEOPLEFANTASYPOSH
+	Halberdier's
+	Halfling's
+	Healer's
+	Hellspawn's
+	Herald's
+	Herbalist's
+	Hero's
+	Heroine's
+	Highwayman's
+	Hobgoblin's
+	Hunter's
+PEOPLEFANTASYPOSI
+	Illusionist's
+	Inquisitor's
+	Invoker's
+PEOPLEFANTASYPOSJ
+	Jester's
+	Justicar's
+PEOPLEFANTASYPOSK
+	King's
+	Knight's
+	Kobold's
+PEOPLEFANTASYPOSL
+	Lancer's
+	Lich's
+	Lizardman's
+	Lizardwoman's
+	Lycanthrope's
+PEOPLEFANTASYPOSM
+	Mage's
+	Magician's
+	Magus's
+	Marauder's
+	Mariner's
+	Marshal's
+	Martyr's
+	Medium's
+	Mentalist's
+	Mercenary's
+	Minstrel's
+	Monk's
+	Musketeer's
+	Mystic's
+PEOPLEFANTASYPOSN
+	Necromancer's
+	Noble's
+PEOPLEFANTASYPOSO
+	Occultist's
+	Oracle's
+	Orc's
+	Outlaw's
+PEOPLEFANTASYPOSP
+	Paladin's
+	Pirate's
+	Priest's
+	Priestess's
+	Prince's
+	Princess'
+	Prophet's
+	Prophetess'
+	Psychic's
+PEOPLEFANTASYPOSQ
+	Queen's
+	Quester's
+PEOPLEFANTASYPOSR
+	Ranger's
+	Ritualist's
+	Rogue's
+	Royal's
+PEOPLEFANTASYPOSS
+	Sage's
+	Saint's
+	Scholar's
+	Scout's
+	Scryer's
+	Sentinel's
+	Soldier's
+	Sorceress'
+	Sorcerer's
+	Summoner's
+	Swashbuckler's
+	Swordsman's
+	Swordswoman's
+PEOPLEFANTASYPOST
+	Templar's
+	Thamaturge's
+	Thief's
+	Transmuter's
+PEOPLEFANTASYPOSV
+	Viking's
+PEOPLEFANTASYPOSW
+	Warlock's
+	Warlord's
+	Warrior's
+	Werewolf's
+	Witch's
+	Wizard's
+//Romantic descriptions for people
+PEOPLEROMDESCA
+	Adorable
+	Adoring
+	Adulterous
+	Affectionate
+	Alluring
+	Amorous
+	Attractive
+PEOPLEROMDESCB
+	Beauteous
+	Beautiful
+	Beckoning
+	Bedazzling
+	Beloved
+	Bewitching
+	Boy-crazy
+	Breathtaking
+PEOPLEROMDESCC
+	Captivating
+	Charming
+	Classy
+	Comely
+	Cute
+PEOPLEROMDESCD
+	Darling
+	Dazzling
+	Dear
+	Dearest
+	Debauched
+	Desirable
+	Dishy
+	Dreamboat
+	Dreamy
+PEOPLEROMDESCE
+	Elegant
+	Enticing
+	Eye-candy
+PEOPLEROMDESCF
+	Fascinating
+	Fliratious
+	Flirty
+	Forbidden
+	Foxy
+PEOPLEROMDESCG
+	Gentewoman
+	Gentleman
+	Glamorous
+	Gorgeous
+PEOPLEROMDESCH
+	Handsome
+	Heart-throb
+	Hot
+	Hot-blooded
+	Hunky
+PEOPLEROMDESCL
+	Ladykiller
+	Libertine
+	Longing
+	Lothario
+	Lovely
+	Loving
+	Lusty
+PEOPLEROMDESCM
+	Marrying
+PEOPLEROMDESCN
+	Naughty
+PEOPLEROMDESCP
+	Passionate
+	Philandering
+	Playful
+	Pretty
+	Provocative
+PEOPLEROMDESCR
+	Radiant
+	Randy
+	Ravishing
+	Red Hot
+	Roguish
+	Romantic
+PEOPLEROMDESCS
+	Seductive
+	Sensual
+	Sexy
+	Skirt-chasing
+	Sophisticated
+	Sultry
+	Sweetheart
+PEOPLEROMDESCT
+	Tantalizing
+	Teasing
+	Tempting
+	Tender
+PEOPLEROMDESCW
+	Wanton
+	Womanizing
+//Posessive romantic objects
+POSESSIONROMA
+	Adultery
+	Affair
+	Affairs
+	Affection
+	Allure
+	Attraction
+POSESSIONROMB
+	Beauty
+	Bedroom
+	Beloved
+	Bewitchment
+	Booty Call
+	Booty Calls
+	Boudoir
+POSESSIONROMC
+	Captivation
+	Chambers
+	Charm
+	Companion
+	Companions
+	Courtship
+	Crush
+	Crushes
+POSESSIONROMD
+	Darling
+	Dear
+	Debaucheries
+	Debauchery
+	Desire
+	Desires
+	Dream-girl
+	Dream-guy
+POSESSIONROME
+	Ecstacy
+	Emotions
+	Enticement
+POSESSIONROMF
+	Fascination
+	Flirtation
+	Flirtations
+POSESSIONROMG
+	Gentleman
+	Gentlemen
+	Gentlewoman
+	Gentlewomen
+POSESSIONROMH
+	Harem
+	Heart
+	Heat
+	Hookup
+POSESSIONROMK
+	Kiss
+	Kisses
+POSESSIONROML
+	Ladykiller
+	Lidibo
+	Longing
+	Looks
+	Lotharios
+	Lover
+	Lovers
+	Loves
+	Lust
+POSESSIONROMM
+	Marriage
+POSESSIONROMP
+	Paramour
+	Passion
+	Passions
+POSESSIONROMR
+	Romance
+POSESSIONROMS
+	Secret
+	Seduction
+	Seductions
+	Sex Appeal
+	Suitor
+	Suitors
+	Sweetheart
+	Sweethearts
+POSESSIONROMT
+	Teasing
+	Temptation
+	Temptations
+	Tenderness
+POSESSIONROMW
+	Wedding

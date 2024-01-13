@@ -1,0 +1,18 @@
+Modern - Both Genders
+	SEEDA
+		vampnameranydat.txt
+Modern - Female Names
+	SEEDF
+		vampnamerfemaledat.txt
+Modern - Male Names
+	SEEDM
+		vampnamermaledat.txt
+Fantasy - First Names
+	FIRSTNAME
+		vampnamerdat.txt
+Fantasy - Full Names
+	FULLNAME
+		vampnamerdat.txt
+Fantasy - Last Names
+	LASTNAME
+		vampnamerdat.txt

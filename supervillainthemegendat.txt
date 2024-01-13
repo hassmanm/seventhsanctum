@@ -1,0 +1,570 @@
+//Vocab types:
+//1	Personality
+//2	Sociocultural
+//4	Environmental
+//
+//8	Activity
+//16	Nature
+//32	Power-Mod
+//
+//64	Actor-Activity/Regular
+//128	Actor-Nature
+//256	Actor-Power
+//
+//512	Actor-Taker
+//1024	Actor-Leader
+//2048	Actor-Destroyer
+//
+//4096	Object-Power
+//8192	Object-Target
+//16384	Object-Follower
+//32768	Object-Victim
+--ORGANIZATION
+//Primary
+1,16,64
+The , , ,.
+2,16,64
+The , , ,.
+2,64
+The , ,.
+4,16,64
+The , , ,.
+8,16,64
+The , , ,.
+16,64
+The , ,.
+32,64
+The , ,.
+//Primary Double
+1,16,64
+The , , ,.
+2,16,64
+The , , ,.
+2,64
+The , ,.
+4,16,64
+The , , ,.
+8,16,64
+The , , ,.
+16,64
+The , ,.
+32,64
+The , ,.
+//Secondary
+1,2,128
+The , , ,.
+1,4,128
+The , , ,.
+1,8,128
+The , , ,.
+8,128
+The , ,.
+//Secondary Doubled
+1,2,128
+The , , ,.
+1,4,128
+The , , ,.
+1,8,128
+The , , ,.
+8,128
+The , ,.
+//Power
+1,256,4096
+The , , of ,.
+2,256,4096
+The , , of ,.
+4,256,4096
+The , , of ,.
+8,256,4096
+The , , of ,.
+16,256,4096
+The , , of ,.
+//Takers
+1,8192,512
+The , , ,.
+2,8192,512
+The , , ,.
+4,8192,512
+The , , ,.
+16,8192,512
+The , , ,.
+32,8192,512
+The , , ,.
+//Leaders
+1,1024,16384
+The , , of ,.
+2,1024,16384
+The , , of ,.
+4,1024,16384
+The , , of ,.
+8,1024,16384
+The , , of ,.
+16,1024,16384
+The , , of ,.
+32,1024,16384
+The , , of ,.
+//Destroyers
+1,2048,32768
+The , , of ,.
+2,2048,32768
+The , , of ,.
+4,2048,32768
+The , , of ,.
+16,2048,32768
+The , , of ,.
+32,2048,32768
+The , , of ,.
+--VOCABULARY
+Abnormality,64
+Abomination,64
+Abominations,16384
+Acid,4096
+Acidic,32
+Aerial,4
+Agony,4096
+Air,4096
+Alien,16
+Alienated,1
+Aliens,16384
+Ambitious,1
+Anarchists,16384
+Android,16
+Androids,16384
+Anti-Patriot,64
+Antisocial,1
+Aquatic,4
+Arctic,4
+Aristocratic,2
+Armor,4096
+Arrogant,1
+Art,8192
+Artifact,8192
+Artificially-created,16
+Artist,64
+Artistic,1
+Assassin,2112
+Atomic,32
+Avatar,384
+Avian,32
+Barbarian,64
+Beast,64
+Bigoted,1
+Biochemical,32
+Biology,4096
+Bionic,32
+Blackmailer,2112
+Blackmailing,8
+Blaster,64
+Bloodthirsty,1
+Body-snatching,8
+Bogeyman,192
+Boss,320
+Brilliant,1
+Bruiser,64
+Brutal,1
+Brute,64
+Bullying,1
+Canine,32
+Celebrity,2
+Charismatic,1
+Charlatan,64
+Charming,1
+Chemical,32
+Chemicals,4096
+Chemistry,4096
+Chic,2
+City-dwelling,4
+Clever,1
+Cold,4096
+Cold-dwelling,4
+Collector,576
+Combative,1
+Commando,64
+Conceited,1
+Conquering,8
+Conqueror,2112
+Construct,64
+Control,4096
+Controller,3392
+Corporate,4
+Cosmic,32
+Counterfeiter,576
+Cowardly,1
+Crafty,1
+Crazed,1
+Creation,64
+Creation,4096
+Crook,64
+Cruel,1
+Cultists,16384
+Cultured,1
+Cunning,1
+Cybernetic,16
+Cyborg,128
+Cyborgs,16384
+Cynical,1
+Darkness,4096
+Data,12288
+Death,4096
+Decay,4096
+Deceptive,8
+Delusional,1
+Demented,1
+Demonic,16
+Demons,16384
+Desert-Dwelling,4
+Despot,64
+Destroyer,64
+Destruction,4096
+Devices,4096
+Devils,16384
+Diabolic,16
+Dictator,1088
+Diety,64
+Disease,4096
+Disillusioned,1
+Displaced,2
+Doctor,64
+Domineering,1
+Dreams,4096
+Drug-Addled,1
+Drug-dealing,8
+Drug-Lord,64
+Earth,4096
+Easily-Annoyed,1
+Eccentric,1
+Electrical,32
+Electromagnetic,32
+Elite,2
+Embezzler,64
+Embezzling,8
+Embodiment,256
+Emotion,4096
+Emotionless,1
+Emperess,1344
+Emperor,1344
+Energy,4096
+Enforcer,64
+Enslaver,3136
+Entity,64
+Expatriate,2
+Experiment,64
+Experimenter,64
+Explosives,4096
+Extra-Dimensional,4
+Fanatics,16384
+Fascist,65
+Fashionable,2
+Feline,32
+Feral,32
+Fiend,64
+Fire,4096
+Fire-dwelling,4
+Firey,32
+Forest-dwelling,4
+Forger,64
+Fraud,64
+Freak,64
+Freakish,2
+Freaks,16384
+Frosty,32
+Fugitive,2
+Fungoid,32
+Gadgetry,4096
+Galactic,4
+Gem,8192
+Genetically-Engineered,16
+Genius,65
+Geniuses,32768
+Genocidal,1
+Ghost,128
+Ghosts,16384
+Ghoul,128
+Ghouls,16384
+Gigantic,32
+Golem,128
+Golems,16384
+Goth,2
+Gravity-Wielding,32
+Greedy,1
+Grim,1
+Guru,1088
+Hateful,1
+Heartbreaking,0
+Heavyweight,2
+Hellspawned,16
+Heretics,32768
+Heroes,32768
+Highborn,2
+High-Tech,32
+Hip,2
+History,4096
+Hitman,2112
+Horror,64
+Hunter,64
+Hyperactive,0
+Hypnotic,32
+Hypocritical,1
+Hysterical,1
+Ice,4096
+Idea,8192
+Ideas,4096
+Illogical,1
+Illusionist,192
+Illusions,4096
+Immortal,32
+Impostor,2112
+Infernal,32
+Infiltrating,8
+Inhuman,16
+Innocents,32768
+Inquisitor,2112
+Insectoid,32
+Interplanetary,4
+Interstellar,4
+Intimidating,1
+Invention,8192
+Invisible,32
+Invulnerable,32
+Irrational,1
+Jealous,1
+Jewel,8192
+Jungle-dwelling,4
+Kidnapper,64
+Killer,64
+Killers,16384
+Kinetics,4096
+King,1344
+Knowledge,4096
+Lady,1280
+Larcenous,8
+Leader,0
+Life,4096
+Light,4096
+Loan-shark,64
+Lord,1408
+Lower-class,2
+Lunatic,64
+Lunatics,16384
+Lycanthropic,32
+Lying,8
+Mad Scientists,16384
+Madman,64
+Madwoman,64
+Mafioso,64
+Magic,4096
+Magical,32
+Magic-Users,32768
+Magnate,64
+Magnetic,32
+Manic,1
+Manipulation,4096
+Manipulative,1
+Manipulator,1344
+Master,1280
+Mastermind,1088
+Materialistic,1
+Mean-spirited,1
+Mechanic,64
+Melancholy,1
+Menace,64
+Metal,4096
+Metallic,32
+Militant,1
+Millionaire,64
+Mind-controlling,32
+Miscreant,64
+Misguided,1
+Mistress,1280
+Misunderstood,1
+Monarch,1088
+Monster,64
+Monsters,16384
+Motion,4096
+Murderer,2112
+Murderers,16384
+Murdering,8
+Murderous,8
+Mutant,16
+Mutant,128
+Mutants,16384
+Mutated,16
+Mutilator,2112
+Mysterious,1
+Mystical,32
+Night-stalking,4
+Ninja,64
+Noble-born,2
+Nuclear,32
+Obscure,2
+Obsessive,1
+Ocean-Dwelling,4
+Opportunistic,1
+Oppressor,64
+Oracular,32
+Orbital,4
+Otherworldly,4
+Outcast,2
+Outcasts,16384
+Overlord,1088
+Pain,4096
+Paranoid,1
+Patriot,64
+Patronizing,1
+Pessimistic,1
+Phasing,32
+Philosophical,1
+Pillaging,8
+Pious,1
+Pirate,64
+Pirating,8
+Plundering,8
+Poison,4096
+Poisonous,32
+Policemen,32768
+Popular,2
+Power,4096
+Power,8192
+Powerhouse,64
+Prima Donna,64
+Prince,1344
+Princess,1344
+Psionic,32
+Psychedelic,2
+Psychic,32
+Punk,2
+Puppets,16384
+Pusher,64
+Queen,1344
+Racketeer,64
+Radiation,4096
+Radioactivity,4096
+Rascal,64
+Rebellious,1
+Rebels,16384
+Rebels,32768
+Reincarnation,4096
+Relic,8192
+Reptilian,32
+Ressurected,32
+Ressurection,4096
+Retro,2
+Revolutionaries,16384
+Revolutionaries,32768
+Ringleader,1088
+Robotic,16
+Robots,16384
+Rock,4096
+Rogue,64
+Royal,2
+Ruthless,1
+Sadistic,1
+Science,8192
+Scientifically-created,16
+Scientist,64
+Scientists,32768
+Scoundrel,64
+Secretive,1
+Seductive,8
+Sewer-Dwelling,4
+Sham-artist,64
+Shapeshifting,32
+Short-tempered,1
+Skullcracker,64
+Slavedriver,3136
+Slavemaster,3136
+Slayer,2048
+Sleazy,1
+Smuggler,64
+Smuggling,8
+Snobbish,1
+Sociopath,64
+Sonic,32
+Sorceror,384
+Sorcerors,16384
+Sorcerous,16
+Sorcerous,32
+Sorrow,4096
+Soul,8192
+Souls,16384
+Soul-stealing,32
+Sound,4096
+Space,4096
+Speed,4096
+Spell,8192
+Spy,64
+Spying,8
+Stalker,2112
+Star-roaming,4
+Stone,4096
+Storms,4096
+Strongman,64
+Stylish,2
+Subterranean,4
+Suburban,4
+Super-fast,32
+Superheroes,32768
+Supernatural,16
+Taskmaster,1088
+Technological,32
+Technology,4096
+Technology,8192
+Terror,64
+Terrorist,64
+Terrorists,16384
+the Chosen,32768
+the Damned,32768
+the Destined,32768
+the Doomed,32768
+the Good,32768
+the Impure,32768
+the Pure,32768
+the Unfortunate,32768
+the Unworthy,32768
+the Wise,32768
+Thief,576
+Thieving,8
+Thought,4096
+Thoughts,4096
+Thug,64
+Time,4096
+Time-travelling,4
+Torturer,2112
+Toxins,4096
+Treasure,8192
+Trickster,64
+Tycoon,64
+Tyrant,320
+Undead,32
+Underhanded,1
+Unemotional,1
+Unholy,32
+Unnatural,16
+Unpopular,2
+Unpredictable,1
+Upper-class,2
+Urban,4
+Vagabond,2
+Vampiric,16
+Vampiric,32
+Venemous,32
+Vengeful,1
+Venom,4096
+Vicious,1
+Vivisectionist,2112
+Warlock,384
+Warlord,64
+Water,4096
+Weaponry,4096
+Weather,4096
+Weather,4096
+Weather-controlling,32
+Wielder,256
+Wilderness-dwelling,4
+Wind,4096
+Witch,384
+Witches,16384
+Withdrawn,1
+Wizard,384
+Wizards,16384
+Zombified,32

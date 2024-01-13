@@ -1,0 +1,9 @@
+Full Name
+	FULLELF
+		elfnamerfulldat.txt
+High Elves
+	HIGHELF
+		elfnamerfirstdat.txt
+Wild Elves
+	WILDELF
+		elfnamerwilddat.txt

@@ -1,0 +1,2220 @@
+//Seeds
+SEED
+	<SEEDCAVALRY>
+	<SEEDINFANTRY>
+//Environment
+SEEDAIR
+	Infantry: <SEEDINFANTRYAIR>
+	Cavalry: <SEEDCAVALRYAIR>
+SEEDGROUND
+	Infantry: <SEEDINFANTRYGROUND>
+	Cavalry: <SEEDCAVALRYGROUND>
+SEEDUNDER
+	Infantry: <SEEDINFANTRYUNDER>
+	Cavalry: <SEEDCAVALRYUNDER>
+SEEDWATER
+	Infantry: <SEEDINFANTRYWATER>
+	Cavalry: <SEEDCAVALRYWATER>
+//Focus
+SEEDCAVALRY
+	Aerial Cavalry: <SEEDCAVALRYAIR>
+	Ground Cavalry: <SEEDCAVALRYGROUND>
+	Underground Cavalry: <SEEDCAVALRYUNDER>
+	Aquatic Cavalry: <SEEDCAVALRYWATER>
+SEEDINFANTRY
+	Aerial Infantry: <SEEDINFANTRYAIR>
+	Ground Infantry: <SEEDINFANTRYGROUND>
+	Underground Infantry: <SEEDINFANTRYUNDER>
+	Aquatic Infantry: <SEEDINFANTRYWATER>
+//CAVALRY SEEDS
+SEEDCAVALRYAIR
+	<*GETTITLERAIR><*GETRACE><*GETMOUNTAIRROUTE><*GETCLOSEWEAPONS><*GETOPENFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENMOUNTAIR>, riding <GENMOUNT>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDCAVALRYGROUND
+	<*GETTITLERGROUND><*GETRACE><*GETMOUNTGROUNDROUTE><*GETCLOSEWEAPONS><*GETOPENFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENMOUNTGROUND>, riding <GENMOUNT>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDCAVALRYUNDER
+	<*GETTITLERUNDER><*GETRACE><*GETMOUNTUNDERROUTE><*GETCLOSEWEAPONS><*GETCLOSEFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENMOUNTUNDER>, riding <GENMOUNT>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDCAVALRYWATER
+	<*GETTITLERWATER><*GETRACE><*GETMOUNTWATERROUTE><*GETCLOSEWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENMOUNTWATER>, riding <GENMOUNT>, armed with <GENCLOSEWEAPON>.  This unit is mainly used for <GENFOCUS>.
+//INFANTRY SEEDS
+SEEDINFANTRYAIR
+	<*GETTITLERAIR><*GETRACE><*GETCLOSEWEAPONS><*GETOPENFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENAIR>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDINFANTRYGROUND
+	<*GETTITLERGROUND><*GETRACE><*GETCLOSEWEAPONS><*GETOPENFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENGROUND>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDINFANTRYUNDER
+	<*GETTITLERUNDER><*GETRACE><*GETCLOSEWEAPONS><*GETCLOSEFARWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENUNDER>, armed with <GENCLOSEWEAPON> and <GENFARWEAPON>.  This unit is mainly used for <GENFOCUS>.
+SEEDINFANTRYWATER
+	<*GETTITLERWATER><*GETRACE><*GETCLOSEWEAPONS><*GETFOCUS><TITLEMAKER> - <GENRACE><GENWATER>, armed with <GENCLOSEWEAPON>.  This unit is mainly used for <GENFOCUS>.
+//Race focus
+SEEDBATMENGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEBATMEN>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBATMENINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEBATMEN>
+SEEDBIRDMENGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDBIRDMENINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEBIRDMEN>
+SEEDDRAGONMENGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDRAGONMENINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEDRAGONMEN>
+SEEDDWARVESGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEDWARVES>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDDWARVESINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEDWARVES>
+SEEDELVENGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEELVEN>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDELVENINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEELVEN>
+SEEDGOBLINOIDGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOBLINOIDINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEGOBLINOID>
+SEEDGOLEMS
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGOLEMS>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGOLEMSINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEGOLEMS>
+SEEDGNOMES
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGNOMES>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDGNOMESINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEGNOMES>
+SEEDHALFLINGS
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHALFLINGSINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEHALFLINGS>
+SEEDHUMANS
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEHUMANS>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDHUMANSINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEHUMANS>
+SEEDMERFOLKGEN
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEMERFOLK>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMERFOLKINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEMERFOLK>
+SEEDMINOTAURS
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDMINOTAURSINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACEMINOTAURS>
+SEEDTROLLS
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACETROLLS>
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSCAVALRY
+	<SEEDCAVALRY>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSCAVALRYAIR
+	<SEEDCAVALRYAIR>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSCAVALRYGROUND
+	<SEEDCAVALRYGROUND>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSCAVALRYUNDER
+	<SEEDCAVALRYUNDER>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSCAVALRYWATER
+	<SEEDCAVALRYWATER>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSINFANTRY
+	<SEEDINFANTRY>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSINFANTRYAIR
+	<SEEDINFANTRYAIR>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSINFANTRYGROUND
+	<SEEDINFANTRYGROUND>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSINFANTRYUNDER
+	<SEEDINFANTRYUNDER>
+		GETRACE,true
+			<GETRACETROLLS>
+SEEDTROLLSINFANTRYWATER
+	<SEEDINFANTRYWATER>
+		GETRACE,true
+			<GETRACETROLLS>
+//TITLES
+GETTITLERAIR
+	<*>
+		GENTITLEDESC,false
+			Aerial
+			Flying
+			Soaring
+			Thundering
+		GENTITLEOBJ,false
+			Air
+			Breeze
+			Cloud
+			Storm
+			Thunder
+			Tornado
+			Wind
+			Zephyr
+		GENTITLEACT,false
+			Flyers
+			Storms
+			Storms
+			Thunders
+			Tornadoes
+			Whirlwinds
+			Wings
+			Wingers
+GETTITLERGROUND
+	<*>
+		GENTITLEDESC,false
+			Attacking
+			Battling
+			Warring
+		GENTITLEOBJ,false
+			Battle
+			Combat
+			War
+		GENTITLEACT,false
+			Battlers
+			Fighters
+			Soldiers
+			Troopers
+			Troops
+			Warriors			
+GETTITLERUNDER
+	<*>
+		GENTITLEDESC,false
+			Burrowing
+			Deep
+			Digging
+			Spelunking
+			Subterranean
+			Tunneling
+			Underground
+		GENTITLEOBJ,false
+			Cave
+			Cavern
+			Earth
+			Rock
+			Stone
+			Tunnel
+		GENTITLEACT,false
+			Burrowers
+			Diggers
+			Spelunkers
+			Tunnelers
+GETTITLERWATER
+	<*>
+		GENTITLEDESC,false
+			Aquatic
+			Oceanic
+			Waterborne
+		GENTITLEOBJ,false
+			Ocean
+			Sea
+			Typhoon
+			Water
+			Wave
+		GENTITLEACT,false
+			Mariners
+			Marines
+			Typhoons
+TITLEMAKER
+	The "<GENTITLEDESC> <GENTITLEACT>"
+	The "<GENTITLEOBJ> <GENTITLEACT>"
+//	The "<GENTITLEDESC> <GENTITLEOBJ> <GENTITLEACT>"
+//RACES
+GETRACE
+	<GETRACEBATMEN>
+	<GETRACEBIRDMEN>
+	<GETRACEDRAGONMEN>
+	<GETRACEDWARVES>
+	<GETRACEELVEN>
+	<GETRACEGOBLINOID>
+	<GETRACEGOLEMS>
+	<GETRACEGNOMES>
+	<GETRACEHALFLINGS>
+	<GETRACEHUMANS>
+	<GETRACEMERFOLK>
+	<GETRACEMINOTAURS>
+	<GETRACETROLLS>
+GETRACEBATMEN
+	<*>
+		GENRACE,true
+			Bat-Men
+		GENAIR,true
+			<*>
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,tre
+			<*>
+		GENMOUNTWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Aerial
+			Bloodsucking
+			Dark
+			Draining
+			Fanged
+			Flying
+			Screaming
+			Screeching
+			Soaring
+			Winged
+			Vampiric
+		GENTITLEOBJ,false
+			Bat
+			Blood
+			Fang
+			Night
+			Screetch
+		GENTITLEACT,false
+			Bats
+			Fangs
+			Drinkers
+GETRACEBIRDMEN
+	<*>
+		GENRACE,true
+			Bird-Men
+		GENAIR,true
+			<*>
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			 gifted with night vision
+			 using spells to see in the dark
+			 using <REFARTIFACTS> of darkvision
+		GENWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,tre
+			 gifted with night vision
+			 using spells to see in the dark
+			 using <REFARTIFACTS> of darkvision
+		GENMOUNTWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Aerial
+			Beaked
+			Flying
+			Soaring
+			Winged
+		GENTITLEOBJ,false
+			Air
+			Breeze
+			Feather
+			Flight
+			Wind
+		GENTITLEACT,false
+			Beaks
+			Claws
+			Eagles
+			Feathers
+			Flyers
+			Hawks
+			Ravens
+			Soarers
+			Wings
+			Wingers
+GETRACEDRAGONMEN
+	<*>
+		GENRACE,true
+			Dragon-Men
+		GENAIR,true
+			<*>
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			<*>
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,tre
+			<*>
+		GENMOUNTWATER,true
+			<*>
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Ancient
+			Draconic
+			Dragon-born
+			Legendary
+			Scaled
+			Serpentine
+			Winged
+		GENTITLEOBJ,false
+			Dragon
+			Scale
+			Serpent
+			Wyrm
+		GENTITLEACT,false
+			Dragons
+			Dragonspawn
+			Serpents
+			Wyrms
+GETRACEDWARVES
+	<*>
+		GENRACE,true
+			Dwarves
+		GENAIR,true
+			 using dwarven-engineered flying harnesses
+			 using spells to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using dwarven diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 using dwarven diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Bearded
+			Dwarven
+		GENTITLEOBJ,false
+			Anvil
+			Beard
+			Forge
+			Earth
+			Mine
+			Rock
+			Stone
+		GENTITLEACT,false
+			Beards
+			Blacksmiths
+			Diggers
+			Masons
+			Miners
+			Quarriers
+			Smiths
+GETRACEELVEN
+	<*>
+		GENRACE,true
+			Elves
+			Elves
+			Half-Elves
+		GENAIR,true
+			 magically altered to give them wings
+			 using spells to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 magically altered to breathe water
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 magically altered to breathe water
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+		GENTITLEDESC,false
+			Ancient
+			Beautiful
+			Elven
+			Immortal
+			Nimble
+			Sylvan
+		GENTITLEOBJ,false
+			Nature
+			Moon
+			Music
+			Star
+			Sun
+		GENTITLEACT,false			Dancers
+			Minstrels
+			Singers
+GETRACEGOBLINOID
+	<*>
+		GENRACE,true
+			Goblins
+			Half-Goblins
+			Hobgoblins
+		GENAIR,true
+			 ensorcelled so they can fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 ensorcelled to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 ensorcelled to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Brutal
+			Rampaging
+			Slaughtering
+			Unstoppable
+		GENTITLEOBJ,false
+			Blood
+			Death
+			Doom
+		GENTITLEACT,false
+			Gang
+			Horde
+			Mob
+GETRACEGOLEMS
+	<*>
+		GENRACE,true
+			Golems
+		GENAIR,true
+			 modified for flight
+			 ensorcelled to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			<*>
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			<*>
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Animated
+			Crafted
+			Forged
+		GENTITLEOBJ,false
+			Clay
+			Metal
+		GENTITLEACT,false
+			Animates
+			Creations
+			Golems
+GETRACEGNOMES
+	<*>
+		GENRACE,true
+			Gnomes
+		GENAIR,true
+			 using gnome-engineered flying harnesses
+			 using spells to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using gnomish diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 using gnomish diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Clever
+			Gnomish
+			Golden
+			Inventive
+			Witty
+		GENTITLEOBJ,false
+			Gold
+			Jewel
+			Wit
+		GENTITLEACT,false
+			Engineers
+			Inventors
+			Mechanics
+			Miners
+GETRACEHALFLINGS
+	<*>
+		GENRACE,true
+			Halflings
+		GENAIR,true
+			 using dwarf-engineered flying harnesses
+			 using gnome-engineered flying harnesses
+			 using spells to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using dwarven diving suits
+			 using gnomish diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 using dwarven diving suits
+			 using gnomish diving suits
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Clever
+			Happy
+			Short
+			Sneaky
+			Swift
+		GENTITLEOBJ,false
+			Burrow
+			Shire
+		GENTITLEACT,false
+			Feet
+			Sherrifs
+GETRACEHUMANS
+	<*>
+		GENRACE,true
+			Humans
+		GENAIR,true
+			 using spells to fly
+			 using <REFARTIFACTS> of flight
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			 using spells to see in the dark
+			 using <REFARTIFACTS> of darkvision
+		GENWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			 using spells to see in the dark
+			 using <REFARTIFACTS> of darkvision
+		GENMOUNTWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+GETRACEMERFOLK
+	<*>
+		GENRACE,true
+			Merfolk
+			Naiads
+			Nereids
+			Tritons
+		GENAIR,true
+			 using spells to fly and breathe air
+			 using <REFARTIFACTS> of flight and spells of air-breathing
+		GENGROUND,true
+			 using spells to breathe air
+			 using <REFARTIFACTS> of air-breathing
+		GENUNDER,true
+			 using spells to breathe air
+			 using <REFARTIFACTS> of air-breathing
+		GENWATER,true
+			<*>
+		GENMOUNTAIR,true
+			 using spells to breathe air
+			 using <REFARTIFACTS> of air-breathing
+		GENMOUNTGROUND,true
+			 using spells to breathe air
+			 using <REFARTIFACTS> of air-breathing
+		GENMOUNTUNDER,true
+			 using spells to breathe air
+			 using <REFARTIFACTS> of air-breathing
+		GENMOUNTWATER,true
+			<*>
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+		GENTITLEDESC,false
+			Aquatic
+			Oceanic
+		GENTITLEOBJ,false
+			Coral
+			Ocean
+			Sea
+			Seaweed
+			Tsunami
+			Typhoon
+			Water
+			Wave
+		GENTITLEACT,false
+			Divers
+			Swimmers
+			Tsunamis
+			Typhoons
+GETRACEMINOTAURS
+	<*>
+		GENRACE,true
+			Minotaurs
+		GENAIR,true
+			 using <REFARTIFACTS> of flight
+			 ensorcelled to allow them to fly
+		GENGROUND,true
+			<*>
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			<*>
+		GENMOUNTGROUND,true
+			<*>
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Charging
+			Horned
+			Snorting
+			Unfindable
+		GENTITLEOBJ,false
+			Horn
+			Labrynth
+			Maze
+		GENTITLEACT,false
+			Bulls
+			Horns
+GETRACETROLLS
+	<*>
+		GENRACE,true
+			Trolls
+		GENAIR,true
+			 using <REFARTIFACTS> of flight and special potions to protect them from sunlight
+			 ensorcelled to allow them to fly and protect them from sunlight
+		GENGROUND,true
+			 using special potions to protect them from sunlight
+			 ensorcelled to protect them from sunlight
+		GENUNDER,true
+			<*>
+		GENWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GENMOUNTAIR,true
+			 using special potions to protect them from sunlight
+			 ensorcelled to protect them from sunlight
+		GENMOUNTGROUND,true
+			 using special potions to protect them from sunlight
+			 ensorcelled to protect them from sunlight
+		GENMOUNTUNDER,true
+			<*>
+		GENMOUNTWATER,true
+			 using spells to breathe water
+			 using <REFARTIFACTS> of water-breathing
+		GETMOUNTAIRROUTE,true
+			<GETMOUNTAIRNATIVE>
+			<GETMOUNTAIRNONNATIVE>
+		GETMOUNTGROUNDROUTE,true
+			<GETMOUNTGROUNDNATIVE>
+			<GETMOUNTGROUNDNONNATIVE>
+		GETMOUNTUNDERROUTE,true
+			<GETMOUNTUNDERNATIVE>
+		GETMOUNTWATERROUTE,true
+			<GETMOUNTWATERNATIVE>
+			<GETMOUNTWATERNONNATIVE>
+		GENTITLEDESC,false
+			Brutal
+			Indestructable
+			Returning
+			Strong
+			Unkillable
+			Unstoppable
+		GENTITLEOBJ,false
+			Battle
+			Death
+			War
+		GENTITLEACT,false
+			Beaters
+			Brutes
+			Killers
+//MOUNTS
+//MOUNT ROUTES
+GETMOUNTAIRROUTE
+	<GETMOUNTAIRNATIVE>
+	<GETMOUNTAIRNONNATIVE>
+GETMOUNTGROUNDROUTE
+	<GETMOUNTGROUNDNATIVE>
+	<GETMOUNTGROUNDNONNATIVE>
+GETMOUNTUNDERROUTE
+	<GETMOUNTUNDERNATIVE>
+GETMOUNTWATERROUTE
+	<GETMOUNTWATERNATIVE>
+	<GETMOUNTWATERNONNATIVE>
+//MOUNT GETS
+GETMOUNTAIRNATIVE
+	<*>
+		GENMOUNT,true
+			dragons
+		GENTITLEDESC,false
+			Draconic
+			Flying
+			Soaring
+		GENTITLEOBJ,false
+			Dragon
+			Scale
+		GENTITLEACT,false
+			Claws
+			Flyers
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			giant birdes
+			giant eagles
+			giant hawks
+		GENTITLEDESC,false
+			Feathered
+			Flying
+			Soaring
+			Winged
+		GENTITLEOBJ,false
+			Beak
+			Claw
+			Feather
+		GENTITLEACT,false
+			Claws
+			Flyers
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			pegasi
+		GENTITLEDESC,false
+			Flying
+			Galloping
+			Maned
+			Soaring
+		GENTITLEOBJ,false
+			Hoof
+			Mane
+		GENTITLEACT,false
+			Flyers
+			Hooves
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			rocs
+		GENTITLEDESC,false
+			Flying
+			Soaring
+		GENTITLEOBJ,false
+			Feather
+			Roc
+		GENTITLEACT,false
+			Beaks
+			Claws
+			Flyers
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			wyverns
+		GENTITLEDESC,false
+			Flying
+			Poison
+			Soaring
+			Stinging
+			Venomous
+		GENTITLEOBJ,false
+			Poison
+			Stinger
+			Venom
+			Wyvern
+		GENTITLEACT,false
+			Claws
+			Flyers
+			Soarers
+			Stingers
+			Wings
+GETMOUNTAIRNONNATIVE
+	<*>
+		GENMOUNT,true
+			dragon-golems
+		GENTITLEDESC,false
+			Draconic
+			Flying
+			Magical
+			Soaring
+		GENTITLEOBJ,false
+			Dragon
+			Scale
+		GENTITLEACT,false
+			Claws
+			Flyers
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			flying carpets
+		GENTITLEDESC,false
+			Flying
+			Magical
+			Soaring
+			Woven
+		GENTITLEOBJ,false
+			Carpet
+			Weave
+		GENTITLEACT,false
+			Flyers
+			Soarers
+	<*>
+		GENMOUNT,true
+			giant mecha-magical birds
+		GENTITLEDESC,false
+			Flying
+			Mechanical
+			Magical
+			Soaring
+		GENTITLEOBJ,false
+			Beak
+			Claw
+			Cog
+			Gear
+			Machine
+		GENTITLEACT,false
+			Beaks
+			Claws
+			Flyers
+			Soarers
+			Wings
+	<*>
+		GENMOUNT,true
+			magical gliders
+		GENTITLEDESC,false
+			Gliding
+			Magical
+			Soaring
+		GENTITLEOBJ,false
+			Wing
+		GENTITLEACT,false
+			Soarers
+			Wings
+GETMOUNTGROUNDNATIVE
+	<*>
+		GENMOUNT,true
+			camels
+		GENTITLEDESC,false
+			Charging
+			Galloping
+		GENTITLEOBJ,false
+			Camel
+			Desert
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Riders
+	<*>
+		GENMOUNT,true
+			giant lizards
+		GENTITLEDESC,false
+			Reptile
+			Scaled
+		GENTITLEOBJ,false
+			Claw
+			Fang
+			Scale
+		GENTITLEACT,false
+			Claws
+			Fangs
+			Lizards
+			Scales
+	<*>
+		GENMOUNT,true
+			giant wolves
+		GENTITLEDESC,false
+			Howling
+			Hunting
+			Prowling
+		GENTITLEOBJ,false
+			Fang
+			Howl
+			Pack
+			Wolf
+		GENTITLEACT,false
+			Howlers
+			Hunters
+			Wolves
+	<*>
+		GENMOUNT,true
+			horses
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+	<*>
+		GENMOUNT,true
+			unicorns
+		GENTITLEDESC,false
+			Charging
+			Galloping
+			Pure
+			Virginal
+		GENTITLEOBJ,false
+			Horn
+			Hoof
+			Unicorns
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Horns
+			Riders
+GETMOUNTGROUNDNONNATIVE
+	<*>
+		GENMOUNT,true
+			golem-horses
+			mecha-magical horses
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Forged
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+GETMOUNTUNDERNATIVE
+	<*>
+		GENMOUNT,true
+			horses bred for travelling underground
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+	<*>
+		GENMOUNT,true
+			giant centipedes
+		GENTITLEDESC,false
+			Many-Legged
+			Thousand-Legged
+			Wriggling
+		GENTITLEOBJ,false
+			Centipede
+		GENTITLEACT,false
+			Centipedes
+			Rushers
+			Tramplers
+	<*>
+		GENMOUNT,true
+			giant moles
+		GENTITLEDESC,false
+			Digging
+			Tunneling
+		GENTITLEOBJ,false
+			Mole
+		GENTITLEACT,false
+			Diggers
+			Tunnelers
+	<*>
+		GENMOUNT,true
+			giant worms
+		GENTITLEDESC,false
+			Burrowing
+			Wriggling
+		GENTITLEOBJ,false
+			Slime
+			Worm
+		GENTITLEACT,false
+			Worms
+	<*>
+		GENMOUNT,true
+			golem-horses
+			mecha-magical horses
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Forged
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+GETMOUNTWATERNATIVE
+	<*>
+		GENMOUNT,true
+			dolphins
+			porpoises
+		GENTITLEDESC,false
+			Delphine
+		GENTITLEOBJ,false
+			Dolphin
+			Porpoise
+			Pod
+		GENTITLEACT,false
+			Pod
+	<*>
+		GENMOUNT,true
+			orcas
+		GENTITLEOBJ,false
+			Orca
+		GENTITLEACT,false
+			Pod
+	<*>
+		GENMOUNT,true
+			sea serpents
+		GENTITLEDESC,false
+			Scaled
+			Serpentine
+			Slithering
+		GENTITLEOBJ,false
+			Fang
+			Scale
+			Serpent
+			Slither
+		GENTITLEACT,false
+			Fangs
+			Scales
+			Serpents
+			Slitherers
+	<*>
+		GENMOUNT,true
+			sharks
+		GENTITLEDESC,false
+			Devouring
+		GENTITLEOBJ,false
+			Frenzy
+			Shark
+		GENTITLEACT,false
+			Devourers
+			Eaters
+			Sharks
+			Teeth
+	<*>
+		GENMOUNT,true
+			whales
+		GENTITLEOBJ,false
+			Baleen
+			Pod
+			Whale
+		GENTITLEACT,false
+			Pod
+GETMOUNTWATERNONNATIVE
+	<*>
+		GENMOUNT,true
+			horses enchanted to walk on water
+			horses enchanted to live underwater
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Forged
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+	<*>
+		GENMOUNT,true
+			golem-horses made to work under water
+			mecha-magical horses made to work underwater
+		GENTITLEDESC,false
+			Charging
+			Equestrian
+			Forged
+			Galloping
+		GENTITLEOBJ,false
+			Horse
+			Hoof
+		GENTITLEACT,false
+			Cavalry
+			Chargers
+			Gallopers
+			Hooves
+			Riders
+//WEAPONS
+GETCLOSEFARWEAPONS
+	<*>
+		GENFARWEAPON,true
+			blowguns
+		GENTITLEDESC,false
+			Poison
+			Targeting
+			Sniping
+			Venomous
+		GENTITLEOBJ,false
+			Dart
+			Poison
+			Venom
+		GENTITLEACT,false
+			Darts
+			Snipers
+			Targeteers
+	<*>
+		GENFARWEAPON,true
+			crossbow pistols
+		GENTITLEDESC,false
+			Shooting
+			Sniping
+			Targeting 
+		GENTITLEOBJ,false
+			Bolt
+			Pistol
+			Quarrel
+		GENTITLEACT,false
+			Pistols
+			Shooters
+			Snipers
+			Targeteers
+	<*>
+		GENFARWEAPON,true
+			gunpowder pistols
+		GENTITLEDESC,false
+			Shooting
+		GENTITLEOBJ,false
+			Blackpowder
+			Bullet
+			Gunpowder
+			Powder
+		GENTITLEACT,false
+			Bullets
+			Pistols
+			Shooters
+	<*>
+		GENFARWEAPON,true
+			spears
+		GENTITLEDESC,false
+			Spearing
+			Stabbing
+		GENTITLEOBJ,false
+			Spear
+		GENTITLEACT,false
+			Spearmen
+	<*>
+		GENFARWEAPON,true
+			shurikens
+		GENTITLEDESC,false
+			Sharp
+			Slaying
+		GENTITLEOBJ,false
+			Blade
+			Edge
+		GENTITLEACT,false
+			Edges
+	<*>
+		GENFARWEAPON,true
+			slings
+		GENTITLEDESC,false
+			Slinging
+		GENTITLEOBJ,false
+			Bullet
+			Rock
+		GENTITLEACT,false
+			Slingers
+	<*>
+		GENFARWEAPON,true
+			throwing knives
+		GENTITLEDESC,false
+			Targeting
+		GENTITLEOBJ,false
+			Blade
+			Edge
+			Knife
+		GENTITLEACT,false
+			Blades
+			Edges
+			Knives
+GETCLOSEWEAPONS
+	<*>
+		GENCLOSEWEAPON,true
+			axes
+			battleaxes
+		GENTITLEDESC,false
+			Chopping
+			Cleaving
+			Hacking
+		GENTITLEOBJ,false
+			Axe
+		GENTITLEACT,false
+			Axes
+			Choppers
+			Cleavers
+			Hackers
+	<*>
+		GENCLOSEWEAPON,true
+			halberds
+		GENTITLEDESC,false
+			Chopping
+			Cleaving
+		GENTITLEOBJ,false
+			Halberd
+		GENTITLEACT,false
+			Halberdiers
+			Choppers
+			Cleavers
+			Hackers
+	<*>
+		GENCLOSEWEAPON,true
+			axes
+			battleaxes
+		GENTITLEDESC,false
+			Chopping
+			Cleaving
+			Hacking
+		GENTITLEOBJ,false
+			Axe
+		GENTITLEACT,false
+			Axes
+			Choppers
+			Cleavers
+			Hackers 
+	<*>
+		GENCLOSEWEAPON,true
+			maces
+		GENTITLEDESC,false
+			Bashing
+			Crushing
+		GENTITLEOBJ,false
+			Mace
+		GENTITLEACT,false
+			Bashers
+			Crushers
+			Maces
+	<*>
+		GENCLOSEWEAPON,true
+			pikes
+		GENTITLEDESC,false
+			Piercing
+		GENTITLEOBJ,false
+			Pike
+		GENTITLEACT,false
+			Piercers
+			Pikemen
+	<*>
+		GENCLOSEWEAPON,true
+			cutlasses
+			rapiers
+			scimitars
+			swords
+		GENTITLEDESC,false
+			Cutting
+			Slashing
+		GENTITLEOBJ,false
+			Blade
+			Sword
+		GENTITLEACT,false
+			Blades
+			Cutters
+			Slashers
+			Swordsmen
+	<*>
+		GENCLOSEWEAPON,true
+			hammers
+			warhammers
+		GENTITLEDESC,false
+			Hammering
+		GENTITLEOBJ,false
+			Hammer
+		GENTITLEACT,false
+			Crushers
+			Hammerers
+GETOPENFARWEAPONS
+	<*>
+		GENFARWEAPON,true
+			bows
+		GENTITLEDESC,false
+			Targeting
+			Shooting
+			Sniping
+		GENTITLEOBJ,false
+			Arrow
+			Bow
+		GENTITLEACT,false
+			Archers
+			Fletchers
+			Shooters
+			Snipers
+			Targeteers
+	<*>
+		GENFARWEAPON,true
+			crossbows
+			crossbow pistols
+		GENTITLEDESC,false
+			Targeting
+			Shooting
+			Sniping
+		GENTITLEOBJ,false
+			Bolt
+			Quarrel
+		GENTITLEACT,false
+			Shooters
+			Snipers
+			Targeteers
+	<*>
+		GENFARWEAPON,true
+			muskets
+		GENTITLEDESC,false
+			Shooters
+			Targeteers
+		GENTITLEOBJ,false
+			Bullet
+			Musket
+			Powder
+			Shot
+		GENTITLEACT,false
+			Musketeers
+			Shooters
+			Targeteers
+	<*>
+		GENFARWEAPON,true
+			spears
+		GENTITLEDESC,false
+			Spearing
+			Stabbing
+		GENTITLEOBJ,false
+			Spear
+		GENTITLEACT,false
+			Spearmen
+//Focus
+GETFOCUS
+	<*>
+		GENFOCUS,true
+			assassinations
+		GENTITLEDESC,false
+			Final
+			Killing
+			Slaying
+		GENTITLEOBJ,false
+			Death
+			Grave
+		GENTITLEACT,false
+			Assasins
+			Killers
+			Slayers
+	<*>
+		GENFOCUS,true
+			direct assaults
+		GENTITLEDESC,false
+			Attacking
+			Battling
+			Fighting
+			Warring
+		GENTITLEOBJ,false
+			Battle
+			Combat
+			War
+		GENTITLEACT,false
+			Attackers
+			Battlers
+			Fighters
+			Soldiers
+			Warriors
+	<*>
+		GENFOCUS,true
+			covert operations
+		GENTITLEDESC,false
+			Covert
+			Hidden
+			Sneaking
+			Sneaky
+			Stealthy
+		GENTITLEOBJ,false
+			Night
+			Stealth
+		GENTITLEACT,false
+			Stalkers
+			Thieves
+	<*>
+		GENFOCUS,true
+			defensive operations
+			guarding
+		GENTITLEDESC,false
+			Defending
+			Guardian
+			Guarding
+			Protecting
+		GENTITLEOBJ,false
+			Protecting
+			Shield
+		GENTITLEACT,false
+			Defenders
+			Guardians
+			Guards
+			Protectors
+			Shields
+	<*>
+		GENFOCUS,true
+			patrolling
+		GENTITLEDESC,false
+			Guardian
+			Guarding
+			Patrolling
+			Seeking
+		GENTITLEOBJ,false
+			Patrol
+			Route
+		GENTITLEACT,false
+			Guardians
+			Guards
+			Patrollers
+			Seekers
+	<*>
+		GENFOCUS,true
+			reconaissance
+		GENTITLEDESC,false
+			Finding
+			Patrolling
+			Seeing
+			Seeking
+		GENTITLEOBJ,false
+			Patrol
+		GENTITLEACT,false
+			Eyes
+			Finders
+			Patrolers
+			Seekers
+	<*>
+		GENFOCUS,true
+			rescue operations
+		GENTITLEDESC,false
+			Rescuing
+		GENTITLEOBJ,false
+			Rescue
+			Salvation
+		GENTITLEACT,false
+			Rescuers
+			Saviors
+	<*>
+		GENFOCUS,true
+			sabotage
+		GENTITLEDESC,false
+			Clever
+			Destructive
+			Destroying
+			Unstoppable
+		GENTITLEOBJ,false
+			Sabotage
+		GENTITLEACT,false
+			Destroyers
+			Saboteurs
+			Wreckers
+	<*>
+		GENFOCUS,true
+			siege warfare
+		GENTITLEDESC,false
+			Breaching
+			Breaking
+			Crushing
+			Sieging
+		GENTITLEOBJ,false
+			Siege
+		GENTITLEACT,false
+			Breachers
+			Crushers
+			Sappers
+			Siegers
+			Topplers
+	<*>
+		GENFOCUS,true
+			special operations
+//General Refs
+REFARTIFACTS
+	belts
+	bracers
+	potions
+	rings

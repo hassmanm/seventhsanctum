@@ -1,0 +1,355 @@
+//Vocab types:
+//1-consonant
+//2-Vowell
+//4 - Modifier
+//8 - Negative Modifier
+//16 - Universal
+//32 - Actor
+//64 - Negative Actor
+//128- Heir Modifier
+//Organizational Configurations
+--ORGANIZATION
+1,2,1,4,16
+,,, ,,
+1,1,2,1,4,16
+,,,, ,,
+1,2,1,2,4,16
+,,,, ,,
+2,2,1,2,4,16
+,,,, ,,
+1,2,1,1,2,4,16
+,,,,, ,,
+1,2,1,2,1,4,16
+,,,,, ,,
+1,1,2,1,1,4,16
+,,,,, ,,
+1,2,1,2,1,2,4,16
+,,,,,, ,,
+1,2,1,1,2,1,4,16
+,,,,,, ,,
+1,2,1,4,32
+,,, ,,
+1,1,2,1,4,32
+,,,, ,,
+1,2,1,2,4,32
+,,,, ,,
+2,2,1,2,4,32
+,,,, ,,
+1,2,1,1,2,4,32
+,,,,, ,,
+1,2,1,2,1,4,32
+,,,,, ,,
+1,1,2,1,1,4,32
+,,,,, ,,
+1,2,1,2,1,2,4,32
+,,,,,, ,,
+1,2,1,1,2,1,4,32
+,,,,,, ,,
+1,2,1,4,64
+,,, ,,
+1,1,2,1,4,64
+,,,, ,,
+1,2,1,2,4,64
+,,,, ,,
+2,2,1,2,4,64
+,,,, ,,
+1,2,1,1,2,4,64
+,,,,, ,,
+1,2,1,2,1,4,64
+,,,,, ,,
+1,1,2,1,1,4,64
+,,,,, ,,
+1,2,1,2,1,2,4,64
+,,,,,, ,,
+1,2,1,1,2,1,4,64
+,,,,,, ,,
+1,2,1,8,64
+,,, ,,
+1,1,2,1,8,64
+,,,, ,,
+1,2,1,2,8,64
+,,,, ,,
+2,2,1,2,8,64
+,,,, ,,
+1,2,1,1,2,8,64
+,,,,, ,,
+1,2,1,2,1,8,64
+,,,,, ,,
+1,1,2,1,1,8,64
+,,,,, ,,
+1,2,1,2,1,2,8,64
+,,,,,, ,,
+1,2,1,1,2,1,8,64
+,,,,,, ,,
+1,2,1,16,32
+,,, ,,
+1,1,2,1,16,32
+,,,, ,,
+1,2,1,2,16,32
+,,,, ,,
+2,2,1,2,16,32
+,,,, ,,
+1,2,1,1,2,16,32
+,,,,, ,,
+1,2,1,2,1,16,32
+,,,,, ,,
+1,1,2,1,1,16,32
+,,,,, ,,
+1,2,1,2,1,2,16,32
+,,,,,, ,,
+1,2,1,1,2,1,16,32
+,,,,,, ,,
+1,2,1,16,64
+,,, ,,
+1,1,2,1,16,64
+,,,, ,,
+1,2,1,2,16,64
+,,,, ,,
+2,2,1,2,16,64
+,,,, ,,
+1,2,1,1,2,16,64
+,,,,, ,,
+1,2,1,2,1,16,64
+,,,,, ,,
+1,1,2,1,1,16,64
+,,,,, ,,
+1,2,1,2,1,2,16,64
+,,,,,, ,,
+1,2,1,1,2,1,16,64
+,,,,,, ,,
+//Vocabulary
+--VOCABULARY
+//Name formations
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+b,1
+b,1
+c,1
+d,1
+d,1
+d,1
+d,1
+d,1
+e,2
+e,2
+e,2
+e,2
+e,2
+f,1
+f,1
+g,1
+g,1
+g,1
+g,1
+h,1
+h,1
+h,1
+h,1
+h,1
+h,1
+i,2
+i,2
+i,2
+i,2
+i,2
+i,2
+k,1
+k,1
+k,1
+k,1
+l,1
+l,1
+l,1
+l,1
+m,1
+m,1
+n,1
+n,1
+n,1
+n,1
+o,2
+o,2
+o,2
+o,2
+o,2
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+s,1
+s,1
+t,1
+t,1
+t,1
+t,1
+t,1
+u,2
+u,2
+v,1
+y,1
+//Last/Clan names
+Anvil,16
+Armor,16
+Axe,16
+Bad,4
+Battle,4
+Battler,96
+Beam,4
+Beard,32
+Bellows,32
+Black,4
+Blade,16
+Blade,16
+Blood,4
+Bolt,16
+Bolt,16
+Brave,4
+Breaker,64
+Bronze,16
+Builder,32
+Bullion,32
+Cairn,16
+Cairn,16
+Carver,32
+Chop,32
+Club,16
+Copper,16
+Crusher,64
+Crystal,16
+Cut,32
+Cutter,64
+Dark,4
+Death,4
+Deep,4
+Demon,8
+Devil,8
+Dig,32
+Digger,32
+Doom,4
+Dragon,8
+Earth,4
+Edge,16
+Elf,8
+Ender,64
+Enemy,8
+Ettin,8
+Evil,8
+Far,4
+Fate,16
+Fiend,8
+Fighter,96
+Finder,32
+Fire,16
+Fist,32
+Flame,16
+Foe,8
+Forge,16
+Forger,32
+Founder,32
+Gauntlet,32
+Gem,16
+Ghoul,8
+Giant,8
+Gilder,32
+Glaive,16
+Glitter,4
+Goblin,8
+God,4
+Gods,4
+Gold,16
+Good,4
+Grand,4
+Grave,16
+Gravel,4
+Gray,4
+Great,4
+Grim,4
+Grinder,32
+Hammer,16
+Hand,32
+Helm,32
+Hill,16
+Holy,4
+Honor,4
+Hunter,96
+Ingot,16
+Iron,16
+Iron,16
+Key,4
+Killer,64
+Light,4
+Load,16
+Lock,16
+Lode,16
+Low,4
+Mace,16
+Mail,16
+Maker,32
+Man,8
+Marble,4
+Melter,32
+Mine,16
+Mine,16
+Miner,32
+Molder,32
+Monster,8
+Mountain,16
+Nugget,16
+Oath,16
+Ogre,8
+Ore,16
+Pacer,32
+Pick,16
+Pit,16
+Prayer,4
+Priest,32
+Prop,4
+Quarrier,32
+Quarry,16
+Quartz,16
+Red,4
+Rock,4
+Runner,32
+Sapper,32
+Seeker,32
+Shale,4
+Shaman,32
+Silver,16
+Slasher,64
+Slate,4
+Slayer,64
+Smasher,64
+Smelter,32
+Smiter,64
+Smith,32
+Smither,32
+Spirit,16
+Steel,16
+Stone,4
+Sword,16
+Tracker,96
+Troll,8
+Tunnel,16
+Tunneler,32
+Vault,16
+Vein,16
+Victor,32
+War,4
+Warlock,8
+Warrior,32
+Witch,8
+Worker,32
+Wraith,8
+Wyrm,8

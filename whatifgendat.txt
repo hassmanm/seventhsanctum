@@ -1,0 +1,865 @@
+SEED
+	...<SEEDFIGURERELATIONS>?
+	...<SEEDFIGURERELATIONSDIRECT>?
+	...<SEEDFIGURETRANS>?
+	...<SEEDFIGURESAMETIME>?
+	...<SEEDFIGUREREACT>?
+	...<SEEDCAUSEHISTTHING>?
+	...<SEEDFIGURECAUSEHIST>?
+	...<SEEDFIGURECAUSETECH>?
+	...<SEEDHISTORYNOT>?
+	...<SEEDHISTORYNOTFIGURE>?
+	...<SEEDHISTORYFIGUREBEING>?
+	...<SEEDHISTORYALTERELEMENT>?
+	...<SEEDHISTORYELEMENTBEING>?
+	...<SEEDHISTORYELEMENTMOVE>?
+	...<SEEDHISTORYFIGUREELEMENT>?
+	...<SEEDHISTORYTRANS>?
+//SEEDS
+SEEDFIGURERELATIONS
+//Lenin was actually King Arthur
+	<REFHISTORICFIGUREMODERN> <REFFIGURERELATEROUTE> <REFHISTORICFIGURERELATEROUTEMODERN>
+	<REFHISTORICFIGUREPREMODERN> <REFFIGURERELATEROUTE> <REFHISTORICFIGURERELATEROUTEPREMODERN>
+	<REFHISTORICFIGUREPREPAST> <REFFIGURERELATEROUTE> <REFHISTORICFIGURERELATEROUTEPREPAST>
+SEEDFIGURERELATIONSDIRECT
+	<SEEDFIGURERELATIONSDIRECTSINGLE>
+	<SEEDFIGURERELATIONSDIRECTMULTIPLE>
+SEEDFIGURERELATIONSDIRECTSINGLE
+	<REFHISTORICFIGUREMODERN> was connected to <REFHISTORICFIGURERELATEROUTEMODERN> by <REFFIGURERELATEDIRECT>
+	<REFHISTORICFIGUREPREMODERN> was connected to <REFHISTORICFIGURERELATEROUTEPREMODERN> by <REFFIGURERELATEDIRECT>
+	<REFHISTORICFIGUREPREPAST> was connected to <REFHISTORICFIGURERELATEROUTEPREPAST> by <REFFIGURERELATEDIRECT>
+SEEDFIGURERELATIONSDIRECTMULTIPLE
+	<REFHISTORICFIGUREMODERN>, <REFHISTORICFIGUREPREMODERN>, and <REFHISTORICFIGUREPREPAST> were connected  by <REFFIGURERELATEDIRECT>
+	<REFHISTORICFIGUREPREMODERN>, <REFHISTORICFIGUREPREPAST>, and <REFHISTORICFIGUREPAST> were connected  by <REFFIGURERELATEDIRECT>
+SEEDCAUSEHISTTHING
+	<REFHISTORICEVENTROUTE> involved <REFFIGURERELATEDIRECT>
+//So and so caused event
+SEEDFIGURECAUSEHIST
+	<REFHISTORICFIGUREPREMODERN> <REFFIGURERESPONSIBLERELATE> <REFHISTORICEVENTROUTEFROMPREMODERN>
+	<REFHISTORICFIGUREPREPAST> <REFFIGURERESPONSIBLERELATE> <REFHISTORICEVENTROUTEFROMPREPAST>
+	<REFHISTORICFIGUREPAST> <REFFIGURERESPONSIBLERELATE> <REFHISTORICEVENTROUTEFROMPAST>
+//So and so caused technology
+SEEDFIGURECAUSETECH
+	<REFHISTORICFIGUREMODERN> <REFFIGURERESPONSIBLERELATE> <REFHISTORICELEMENTHIGH>
+	<REFHISTORICFIGUREPREMODERN> <REFFIGURERESPONSIBLERELATE> <REFHISTORICELEMENTADDROUTEPREMODERN>
+	<REFHISTORICFIGUREPREPAST> <REFFIGURERESPONSIBLERELATE> <REFHISTORICELEMENTADDROUTEAPAST>
+	<REFHISTORICFIGUREPAST> <REFFIGURERESPONSIBLERELATE> <REFHISTORICELEMENTADDROUTEAPAST>
+SEEDFIGURETRANS
+//switches or changes history
+	<REFHISTORICFIGURERELATEROUTEMODERN> switched places with <REFHISTORICFIGUREMODERN>
+	<REFHISTORICFIGURERELATEROUTEPREMODERN> switched places with <REFHISTORICFIGUREPREMODERN>
+	<REFHISTORICFIGURERELATEROUTEPREPAST> switched places with <REFHISTORICFIGUREPREPAST>
+SEEDFIGURESAMETIME
+//Same time
+	<REFHISTORICFIGURERELATEROUTEMODERN> lived at the same time as <REFHISTORICFIGUREMODERN>
+	<REFHISTORICFIGURERELATEROUTEPREMODERN> lived at the same time as <REFHISTORICFIGUREPREMODERN>
+	<REFHISTORICFIGURERELATEROUTEPREPAST> lived at the same time as <REFHISTORICFIGUREPREPAST>
+SEEDFIGUREREACT
+//Figure inspirations
+	<REFHISTORICFIGUREMODERN> <REFCHARREACTION> <REFHISTORICFIGURERELATEROUTEMODERN> 
+	<REFHISTORICFIGUREPREMODERN> <REFCHARREACTION> <REFHISTORICFIGURERELATEROUTEPREMODERN>
+	<REFHISTORICFIGUREPREPAST> <REFCHARREACTION> <REFHISTORICFIGURERELATEROUTEPREPAST>
+//The Sinking of Atlantis had never happened
+SEEDHISTORYNOT
+	<REFHISTORICEVENTROUTE> had never happened
+//Ghandi in a world where the sinking of Atlantis never occured
+SEEDHISTORYNOTFIGURE
+	<REFHISTORICFIGUREMODERN> lived in a world where <REFHISTORICEVENTROUTE> had never happened
+	<REFHISTORICFIGUREPREMODERN> lived in a world where <REFHISTORICEVENTROUTEPREMODERN> had never happened
+	<REFHISTORICFIGUREPREPAST> lived in a world where <REFHISTORICEVENTROUTEPREPAST> had never happened
+	<REFHISTORICFIGUREPAST> lived in a world where <REFHISTORICEVENTROUTEPAST> had never happened
+//The War of the Roses had involved giant robots
+SEEDHISTORYALTERELEMENT
+	<REFHISTORICEVENTMODERN> involved <REFHISTORICEVENTROUTEHIGHLOW>
+	<REFHISTORICEVENTPREMODERN> involved <REFHISTORICELEMENTROUTEPREMODERN>
+	<REFHISTORICEVENTPAST> involved <REFHISTORICELEMENTROUTEPAST>
+	<REFHISTORICEVENTLEGEND> involved <REFHISTORICELEMENTROUTELEGEND>
+SEEDHISTORYELEMENTBEING
+	<REFHISTORICEVENTMODERN> involved <HISTORICBEINGPLURALMODERNROUTE>
+	<REFHISTORICEVENTPREMODERN> involved <HISTORICBEINGPLURALPREMODERNROUTE>
+	<REFHISTORICEVENTPAST> involved <HISTORICBEINGPLURALPASTROUTE>
+	<REFHISTORICEVENTLEGEND> involved <HISTORICBEINGPLURALLEGENDROUTE>
+SEEDHISTORYELEMENTMOVE
+	<SEEDHISTORYELEMENTMOVENOW>
+	<REFHISTORICELEMENTROUTENONHIGHNOLOW> had been invented <REFTIMESHIFT>
+SEEDHISTORYELEMENTMOVENOW
+	today's most commonplace technology was <REFHISTORICELEMENTHIGH>
+	the most advanced technology of today was <REFHISTORICELEMENTROUTENONMODERN>
+SEEDHISTORYFIGUREBEING
+	<REFHISTORICFIGUREMODERN> was <HISTORICBEINGMODERNROUTE>
+	<REFHISTORICFIGUREPREMODERN> was <HISTORICBEINGPREMODERNROUTE>
+	<REFHISTORICFIGUREPAST> was <HISTORICBEINGPASTROUTE>
+SEEDHISTORYFIGUREELEMENT
+	<REFHISTORICFIGUREMODERN> had access to <REFHISTORICEVENTROUTEHIGHLOW>
+	<REFHISTORICFIGUREPREMODERN> had access to <REFHISTORICELEMENTROUTEPREMODERN>
+	<REFHISTORICFIGUREPREPAST> had access to <REFHISTORICELEMENTROUTEPREPAST>
+	<REFHISTORICFIGUREPAST> had access to <REFHISTORICELEMENTROUTEPAST>
+SEEDHISTORYTRANS
+//transposition of histories
+	<REFHISTORICEVENTPREMODERN> happened after <REFHISTORICEVENTMODERN>
+	<REFHISTORICEVENTPREPAST> happened after <REFHISTORICEVENTPREMODERN>
+	<REFHISTORICEVENTPAST> happened after <REFHISTORICEVENTPREPAST>
+	<REFHISTORICEVENTLEGEND> happened after <REFHISTORICEVENTPAST>
+//BEGIN REFERENCES
+//Figure interaction
+//Figure-Event
+REFFIGURERESPONSIBLERELATE
+	was responsible for
+	was directly responsible for
+	was indirectly responsible for
+	was deliberately responsible for
+//Figure-Figure
+REFFIGURERELATEROUTE
+	<REFFIGURERELATEPOSITIVE>
+	<REFFIGURERELATENEGATIVE>
+REFFIGURERELATEPOSITIVE
+	was actually
+	was the reincarnation of
+	was the descendent of
+REFFIGURERELATENEGATIVE
+	fought
+	was killed by
+	was brought down by
+REFFIGURERELATEDIRECT
+	a mysterious conspiracy
+	a magical artifact
+	a secret society
+	a terrible secret
+	a secret bloodline
+	a criminal conspiracy
+	forbidden knowledge
+	a lost treasure
+	secret science
+	occult arts
+//Figure Routes
+REFHISTORICFIGURERELATEROUTEMODERN
+	<REFHISTORICFIGUREPREMODERN>
+	<REFHISTORICFIGUREPREPAST>
+	<REFHISTORICFIGUREPAST>
+REFHISTORICFIGURERELATEROUTEPREMODERN
+	<REFHISTORICFIGUREPREPAST>
+	<REFHISTORICFIGUREPAST>
+REFHISTORICFIGURERELATEROUTEPREPAST
+	<REFHISTORICFIGUREPAST>
+REFHISTORICFIGUREROUTE
+	<REFHISTORICFIGUREMODERN>
+	<REFHISTORICFIGUREPREMODERN>
+	<REFHISTORICFIGUREPREPAST>
+	<REFHISTORICFIGUREPAST>
+//Figures
+//MODERN 1900-now
+//PREMODERN 1700-1900
+//PREPAST 500-1500
+//PAST	500 - past
+REFHISTORICFIGUREMODERN
+	Alan Turing
+	Albert Einstein
+	Aleister Crowley
+	Alexander Bell
+	Alfred Hitchcock
+	Bill Gates
+	Buckminster Fuller
+	Carl Jung
+	Charles Chaplin
+	Charles De Gaulle
+	Chiang Kai Shek
+	Ed Wood
+	Elvis
+	Eleanor Roosevelt
+	Ernest Hemmingway
+	Franklin Roosevelt
+	George Orwell
+	Gershwin
+	Ghandi
+	Golda Meir
+	Haile Selassie
+	Harriet Tubman
+	Heisenberg
+	Henry Ford
+	HG Wells
+	Hitler
+	Indira Ghandi
+	John Lennon
+	JRR Tolkien
+	Jules Verne
+	Lee Harvey Oswald
+	Lenin
+	Mao Tse Tung
+	Margaret Mead
+	Marie Curie
+	Marilyn Monroe
+	Mussolini
+	Nietzsche
+	Nikolai Tesla
+	Orville Wright
+	Pablo Picasso
+	Pavlov
+	Prince Charles
+	Princess Diana
+	Ray Kroc
+	Robert Oppenheimer
+	Ronald Regan
+	Rosa Parks
+	Sigmund Freud
+	Stalin
+	Teddy Roosevelt
+	Tomas Edison
+	Virginia Woolf
+	Wilbur Wright
+	Winston Churchill
+REFHISTORICFIGUREPREMODERN
+	Adam Smith
+	Alfred Nobel
+	Annie Oakley
+	Bach
+	Beethoven
+	Benedict Arnold
+	Benjamin Franklin
+	Billy the Kid
+	Charles Babbage
+	Charles Darwin
+	Elpihas Levi
+	Emmanuel Kant
+	Frederick the Great
+	George Washington
+	Goethe
+	Immanuel Kant
+	Jack the Ripper
+	John Adams
+	Karl Marx
+	King George III
+	Lewis Carrol
+	Lincoln
+	Linnaeus
+	Marconi
+	Marquis De Sade
+	Mozart
+	Mary Wollstonecraft Shelly
+	Napoleon
+	Newton
+	Paracelsius
+	Queen Victoria
+	Thomas Agrippa
+	Thomas Malthus
+	Voltaire
+	Willaim Penn
+	William Blake
+REFHISTORICFIGUREPREPAST
+	Columbus
+	Copernicus
+	Galileo
+	Ghengis Khan
+	Gutenberg
+	Harun Al-Rashid
+	Joan of Arc
+	Kepler
+	King Arthur
+	Kublai Khan
+	Leif Ericson
+	Leonardo Da Vinci
+	Marco Polo
+	Magellan
+	Martin Luther
+	Mohammed
+	Montezuma
+	Roger Bacon
+	Saint Dominic
+	Saint Francis
+	Saint Jerome
+	Saint Thomas
+	Saladin
+REFHISTORICFIGUREPAST
+	Alexander the Great
+	Aristotle
+	Beowuf
+	Buddha
+	Caeser
+	Christ
+	Cleopatra
+	Confucius
+	Cormac Mac Airt
+	Emperor Hadrian
+	Finn Mac Cumhail
+	Hammurabi
+	Heraclitus
+	Hiawatha
+	Imhotep
+	Moses
+	Nero
+	Plato
+	Pontious Pilate
+	Ptolemy
+	Pythagoreas
+	Saint Luke
+	Saint Paul
+	Saint Peter
+	Socrates
+	Tacitus
+	Tutankhamen
+//Being Routes
+HISTORICBEINGMODERNROUTE
+	<HISTORICBEINGFUTURE>
+	<HISTORICBEINGPREMODERN>
+	<HISTORICBEINGPAST>
+	<HISTORICBEINGLEGEND>
+HISTORICBEINGPREMODERNROUTE
+	<HISTORICBEINGFUTURE>
+	<HISTORICBEINGMODERN>
+	<HISTORICBEINGPAST>
+	<HISTORICBEINGLEGEND>
+HISTORICBEINGPASTROUTE
+	<HISTORICBEINGFUTURE>
+	<HISTORICBEINGMODERN>
+	<HISTORICBEINGPREMODERN>
+HISTORICBEINGLEGENDROUTE
+	<HISTORICBEINGFUTURE>
+	<HISTORICBEINGMODERN>
+	<HISTORICBEINGPREMODERN>
+	<HISTORICBEINGPAST>
+//Beings
+HISTORICBEINGFUTURE
+	a cyberpunk
+	a cyborg
+	a dimension traveller
+	a mutant
+	a nanotechnologist
+	a planetologist
+	a psychic
+	a space pirate
+	a starship commander
+	a terraformer
+	a time traveller
+	a virtual reality programmer
+	a xenobiologist
+	an alien
+	an android
+	an Artificial Intelligence
+	an astronaut
+HISTORICBEINGMODERN
+	an accountant
+	an advertising executive
+	an airline pilot
+	an astronomer
+	an astronaut
+	a baseball player
+	a biologist
+	a botanist
+	a cab driver
+	a CEO
+	a chemist
+	a construction worker
+	a corporate official
+	a detective
+	a doctor
+	an electrician
+	a fighter pilot
+	a fire fighter
+	a football player
+	a garbageman
+	a hacker
+	a hockey player
+	a jock
+	an investor
+	a librarian
+	a linguist
+	a manager
+	a media personality
+	a media technician
+	a mobster
+	a novelist
+	a nurse
+	a nun/monk
+	a police chief
+	a police officer
+	a physicist
+	a professor
+	a programmer
+	a psychologist
+	a psychiatrist
+	a repairman
+	a reporter
+	a salesperson
+	a scientist
+	a secret agent
+	a secretary
+	a stockbroker
+	a technician
+	a vetrenarian
+	a zookeeper
+	a zoologist
+HISTORICBEINGPREMODERN
+	an astronomer
+	a cartographer
+	a big game hunter
+	a cowboy
+	an explorer
+	an indian-fighter
+	a frontiersman
+	a novelist
+	a nun/monk
+	a physicist
+	a pirate
+	a police chief
+	a police officer
+	a pope
+	a professor
+	a sailor
+	a sherrif
+	a telegraph operator
+	a whaler
+HISTORICBEINGPAST
+	an astrologer
+	a barbarian
+	a bard
+	a blacksmith
+	a bowman
+	a caveman
+	a fortune-teller
+	a gladiator
+	a grave robber
+	a herbologist
+	a knight
+	a nun/monk
+	a prophet
+	a scribe
+	a seer
+	a tomb-robber
+	a treasure-hunter
+	a watchman
+	a witch-hunter
+HISTORICBEINGLEGEND
+	a banshee
+	a demigod
+	a demon
+	a demonologist
+	a dragon
+	a druid
+	a genie
+	a ghost
+	a god
+	a guardian spirit
+	a legendary hero
+	a legendary leader
+	a mage
+	a nature spirit
+	a necromancer
+	a sorceror
+	a vampire
+	an angel
+	an elemental
+//Being Plural Routes
+HISTORICBEINGPLURALMODERNROUTE
+	<HISTORICBEINGPLURALFUTURE>
+	<HISTORICBEINGPLURALPREMODERN>
+	<HISTORICBEINGPLURALPAST>
+	<HISTORICBEINGPLURALLEGEND>
+HISTORICBEINGPLURALPREMODERNROUTE
+	<HISTORICBEINGPLURALFUTURE>
+	<HISTORICBEINGPLURALMODERN>
+	<HISTORICBEINGPLURALPAST>
+	<HISTORICBEINGPLURALLEGEND>
+HISTORICBEINGPLURALPASTROUTE
+	<HISTORICBEINGPLURALFUTURE>
+	<HISTORICBEINGPLURALMODERN>
+	<HISTORICBEINGPLURALPREMODERN>
+HISTORICBEINGPLURALLEGENDROUTE
+	<HISTORICBEINGPLURALFUTURE>
+	<HISTORICBEINGPLURALMODERN>
+	<HISTORICBEINGPLURALPREMODERN>
+	<HISTORICBEINGPLURALPAST>
+//Being Plural
+HISTORICBEINGPLURALFUTURE
+	aliens
+	androids
+	Artificial Intelligences
+	astronauts
+	cyberpunks
+	cyborgs
+	dimension travellers
+	mutants
+	nanotechnologists
+	planetologists
+	psychics
+	space pirates
+	starship commanders
+	terraformers
+	time travellers
+	virtual reality programmers
+	xenobiologists
+HISTORICBEINGPLURALMODERN
+	accountants
+	advertising executives
+	airline pilots
+	astronomers
+	astronauts
+	baseball players
+	biologists
+	botanists
+	cab drivers
+	CEOs
+	chemists
+	construction workers
+	corporate officials
+	detectives
+	doctors
+	electricians
+	fighter pilots
+	fire fighters
+	football players
+	garbagemen
+	hackers
+	hockey players
+	jocks
+	investors
+	librarians
+	linguists
+	managers
+	media personalities
+	media technicians
+	mobsters
+	novelists
+	nurses
+	nuns/monks
+	police chiefs
+	police officers
+	physicists
+	professors
+	programmers
+	psychologists
+	psychiatrists
+	repairmen
+	reporters
+	salespersons
+	scientists
+	secret agents
+	secretaries
+	stockbrokers
+	technicians
+	vetrenarians
+	zookeepers
+	zoologists
+HISTORICBEINGPLURALPREMODERN
+	astronomers
+	big game hunters
+	cartographers
+	cowboys
+	explorers
+	frontiersmen
+	indian-fighters
+	novelists
+	nuns/monks
+	physicists
+	pirates
+	police chiefs
+	police officers
+	popes
+	professors
+	sailors
+	sherrifs
+	telegraph operators
+	whalers
+HISTORICBEINGPLURALPAST
+	astrologers
+	barbarians
+	bards
+	blacksmiths
+	bowmen
+	cavemen
+	fortune-tellers
+	gladiators
+	grave robbers
+	herbologists
+	knights
+	nuns/monks
+	prophets
+	scribes
+	seers
+	tomb-robbers
+	treasure-hunters
+	watchmen
+	witch-hunters
+HISTORICBEINGPLURALLEGEND
+	angels
+	banshees
+	demigods
+	demons
+	demonologists
+	dragons
+	druids
+	elementals
+	genies
+	ghosts
+	gods
+	guardian spirits
+	legendary heroes
+	legendary leaders
+	mages
+	nature spirits
+	necromancers
+	sorcerors
+	vampires
+//Historic Events Route
+REFHISTORICEVENTROUTE
+	<REFHISTORICEVENTMODERN>
+	<REFHISTORICEVENTPREMODERN>
+	<REFHISTORICEVENTPREPAST>
+	<REFHISTORICEVENTPAST>
+	<REFHISTORICEVENTLEGEND>
+REFHISTORICEVENTROUTEPREMODERN
+	<REFHISTORICEVENTPREMODERN>
+	<REFHISTORICEVENTPREPAST>
+	<REFHISTORICEVENTPAST>
+	<REFHISTORICEVENTLEGEND>
+REFHISTORICEVENTROUTEPREPAST
+	<REFHISTORICEVENTPREPAST>
+	<REFHISTORICEVENTPAST>
+	<REFHISTORICEVENTLEGEND>
+REFHISTORICEVENTROUTEPAST
+	<REFHISTORICEVENTPAST>
+	<REFHISTORICEVENTLEGEND>
+//Historic event Inducing
+REFHISTORICEVENTROUTEFROMPREMODERN
+	<REFHISTORICEVENTMODERN>
+REFHISTORICEVENTROUTEFROMPREPAST
+	<REFHISTORICEVENTMODERN>
+	<REFHISTORICEVENTPREMODERN>
+REFHISTORICEVENTROUTEFROMPAST
+	<REFHISTORICEVENTMODERN>
+	<REFHISTORICEVENTPREMODERN>
+	<REFHISTORICEVENTPREPAST>
+//Historic Events
+//MODERN 1900-now
+//PREMODERN 1700-1900
+//PREPAST 500-1500
+//PAST	500 - past
+REFHISTORICEVENTMODERN
+	World War I
+	World War II
+	the Cold War
+	the Gulf War
+	the Information Age
+	the Great Depression
+	the Spanish-American war
+	the dot-com bomb
+	the space age
+	the formation of the European Union
+	the AIDS crisis
+	the fall of the Berlin Wall
+	the fall of the USSR
+	the Indo-Pakistan war
+	the invention of the birth control pill
+	the American Civil Rights Movement
+	the Cuban Missile Crisis
+	the rise of Communism
+	the rise of Fascism
+	the advent of color television
+	the Nuremburg Trials
+	the Vietnam War
+	the Korean War
+	the rise of NATO
+	the invention of the UN
+	the invention of the League of Nations
+	the McCarthy Trials
+	the New Deal
+	the first transatlantic flight
+	the destruction of the Hindenburg
+	the building of the Maginot Line
+	the boxer rebellion
+	the sexual revolution
+	the invention of the automobile
+	the Mexican Revolution
+	the inventon of the Compact Disc
+	the creation of Rock and Roll
+	the 'British Invasion' of music
+REFHISTORICEVENTPREMODERN
+	the invention of soft drinks
+	the Battle of the Alamo
+	the formation of the Republic of Texas
+	the introduction of the metric system
+	the Women's Suffrage Movement
+	the construction of the Panama Canal
+	the Global influenza epidemic
+	the Spanish-American War
+	the Sino-Japanese War
+	the Klondike Gold Rush
+	the Boer War
+	the Sino-French War
+	the US Civil War
+	the American Revolution
+	the French Revolution
+	the Napoleonic Wars
+	the War of the Roses
+	the Renaissance
+	the Spanish Revolution
+	the Opium War
+	the Spanish Inquisition
+	the Salem Witch Hunt
+	the arrival of the Pilgrims in America
+REFHISTORICEVENTPREPAST
+	the rise of the Aztec Empire
+	the rise of the Inca Empire
+	the Dark Ages
+	the fall of the Maya Empire
+	the fall of the Aztec Empire
+	the fall of the Inca Empire
+	the 100 year war
+	the rise of the Islamic Caliphate
+	the fall of the Islamic Caliphate
+REFHISTORICEVENTPAST
+	the rise of Buddhism
+	the travel of Buddism to Japan
+	the rise of the Maya Empire
+	the advent of Christianity
+	the spread of Christianity
+	the spread of Buddism
+	the crucifixion of Jesus
+	the warring states period in China
+	the fall of Rome
+	the rise of Rome
+	the fall of Egypt
+	the rise of Egypt
+	the evolution of mankind
+	the extinction of the dinosaurs
+REFHISTORICEVENTLEGEND
+	the fall of Mankind from the Garden of Eden
+	the fall of Satan
+	the sinking of Atlantis
+//Historic Elements Routes
+REFHISTORICEVENTROUTEHIGHLOW
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTLEGEND>
+REFHISTORICELEMENTROUTEPREMODERN
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTLEGEND>
+REFHISTORICELEMENTROUTEPREPAST
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+	<REFHISTORICELEMENTLEGEND>
+REFHISTORICELEMENTROUTEPAST
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+	<REFHISTORICELEMENTLEGEND>
+REFHISTORICELEMENTROUTELEGEND
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+REFHISTORICELEMENTROUTENONMODERN
+	<REFHISTORICELEMENTPREMODERN>
+	<REFHISTORICELEMENTPAST>
+REFHISTORICELEMENTROUTENONHIGH
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+	<REFHISTORICELEMENTPAST>
+REFHISTORICELEMENTROUTENONHIGHNOLOW
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+//Historic Element inducement
+REFHISTORICELEMENTADDROUTEALL
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+	<REFHISTORICELEMENTPAST>
+REFHISTORICELEMENTADDROUTEPREMODERN
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+REFHISTORICELEMENTADDROUTEAPAST
+	<REFHISTORICELEMENTHIGH>
+	<REFHISTORICELEMENTMODERN>
+	<REFHISTORICELEMENTPREMODERN>
+//Historicl Elements
+REFHISTORICELEMENTHIGH
+	androids
+	artificial intelligence
+	artificial life
+	cold fusion
+	faster-than-light travel
+	force fields
+	genetic engineering
+	giant robots
+	holographic entertainment
+	interdimensional travel
+	interstellar travel
+	mind control
+	nanotechnology
+	robots
+	terraforming
+	time travel
+	virtual reality
+REFHISTORICELEMENTMODERN
+	air travel
+	antidepressants
+	cellular phones
+	CGI
+	computer games
+	computers
+	flight
+	genetic engineering
+	mass production
+	nuclear power
+	personal computers
+	psychology
+	radio
+	robotics
+	space travel
+	supersonic flight
+	supercomputers
+	television
+	the telephone
+	virtual reality
+	x-ray machines
+REFHISTORICELEMENTPREMODERN
+	gas lamps
+	anesthesia
+	antibiotics
+	chemistry
+	electricity
+	hypnotism
+	mendellian genetics
+	movies
+	pasteurization
+	photography
+	steam power
+	the telegraph
+REFHISTORICELEMENTPAST
+	architecture
+	astronomy
+	brewing
+	woodworking
+	animal husbandry
+	the wheel
+	hunting
+	sailing ships
+	farming
+	glassblowing
+	metalworking
+REFHISTORICELEMENTLEGEND
+	alchemy
+	magic
+	magic artifcats
+	magic potions
+	necromancy
+	thamaturgy
+	theurgy
+	sorcery
+//TIMESHIFTS
+REFTIMESHIFT
+	<REFTIMESHIFTLATE>
+	<REFTIMESHIFTEARLY>
+REFTIMESHIFTLATE
+	ten years later
+	a hundred years later
+	a thousand years later
+REFTIMESHIFTEARLY
+	ten years earlier
+	a hundred years earlier
+	a thousand years earlier
+//Others
+REFCHARREACTION
+	was inspired by
+	detested
+	was obsessed with
+	was more like
+	was like

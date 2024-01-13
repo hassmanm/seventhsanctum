@@ -1,0 +1,314 @@
+//Vocab types:
+//1- Metadescriptor
+//2-Descriptor
+//4- Object
+//8 - Modifiable Being
+//16-Non-modifiable Being
+//32-Specific modifiable being
+//64- Specific modifier
+//128 - Actor
+--ORGANIZATION
+1,128
+, ,
+2,128
+, ,
+4,128
+, ,
+1,2,128
+, , ,
+128,4
+, of ,
+128,2,8
+, of the , ,
+128,1,8
+, of the , ,
+128,16
+, of the ,
+128,64,32
+, of the , ,
+//Vocabulary
+--VOCABULARY
+//1- Metadescriptor
+Altered,3
+Ancient,1
+Celestial,1
+Cosmic,1
+Eternal,1
+Empyrean,1
+Extra-Dimensional,3
+Fantastic,3
+Giant,1
+Hyperion,1
+Indstructible,3
+Legendary,1
+Lost,1
+Otherworldly,1
+Para-Dimensional,3
+Phased,3
+Super,1
+//2-Descriptor
+Anti,2
+Antimatter,6
+Astro,2
+Atom,66
+Atomic,2
+Bio,2
+Black,2
+Blasphemous,2
+Bloodstained,2
+Bloody,2
+Chronal,2
+Computer,18
+Cursed,2
+Cyber,2
+Cybernetic,66
+Dark,2
+Dead,2
+Deadly,2
+Deadly,2
+Demi,2
+Demonic,2
+Doomed,2
+Electron,2
+Eternal,2
+Ethereal,2
+Ever-changing,2
+Fallen,2
+Final,2
+Forbidden,2
+Forgotten,2
+Foul,2
+Frontier,130
+Galactic,2
+Ghastly,2
+Ghostly,2
+Graviton,2
+Haunted,2
+Hidden,2
+Hyper,2
+Infernal,2
+Insane,2
+Intergalactic,2
+Interstellar,2
+Lawless,2
+Low-Density,2
+Lunar,2
+Magnetic,2
+Mecha,2
+Mega,2
+Micro,2
+Mutant,2
+Mysterious,2
+Nega,2
+Negative,2
+Neutron,2
+Nuclear,2
+Orbital,2
+Orbiting,2
+Planetary,2
+Proto,2
+Proton,2
+Quantum,2
+Radioactive,2
+Rogue,2
+Secret,2
+Shadowed,2
+Shadowy,2
+Solar,2
+Spectral,2
+Stellar,2
+Supreme,2
+Temporal,2
+Terrible,2
+Terrifying,2
+Titanic,2
+Turbo,2
+Twisted,2
+Ultimate,2
+Ultra,2
+Unholy,2
+Unknowable,2
+Unknown,2
+Unspeakable,2
+Unthinkable,2
+Wandering,2
+Warped,2
+Wicked,2
+//4- Object
+Agony,4
+Annihilation,4
+Battle,4
+Blood,4
+Chaos,4
+Combat,4
+Confusion,4
+Crime,4
+Danger,4
+Darkness,4
+Dawn,4
+Death,4
+Decay,4
+Deception,4
+Desolation,4
+Despair,4
+Destiny,4
+Destruction,4
+Dissolution,4
+Doom,4
+Dreams,4
+Eternity,4
+Fate,4
+Fear,4
+Fire,68
+Ghosts,4
+Gravity,4
+Hate,4
+Horror,4
+Hyperspace,4
+Ice,68
+Illusion,4
+Illusions,4
+Insanity,4
+Knowledge,4
+Light,6
+Lightning,4
+Madness,4
+Memories,4
+Mirages,4
+Misery,4
+Mysteries,4
+Mystery,4
+No Return,4
+Nothingness,4
+Oblivion,4
+Pain,4
+Plasma,4
+Poison,68
+Power,4
+Sience,4
+Secrets,4
+Shadows,4
+Silence,4
+Snares,4
+Solitude,4
+Space,68
+Subspace,4
+Suffering,4
+Terror,4
+Time,4
+Traps,4
+Venom,68
+Visions,4
+War,4
+Warfare,4
+Water,68
+Wonder,4
+Wickedness,4
+//8 - Modifiable Being
+Adventurers,8
+Androids,56
+Assasins,24
+Astronauts,8
+Champions,24
+Commandoes,24
+Cosmonauts,8
+Cyborgs,56
+Explorers,8
+Fighters,8
+Gladiators,24
+Heroes,24
+Killers,24
+Murderers,24
+Raiders,24
+Robots,56
+Scientists,8
+Sentinels,24
+Ships,8
+Slayers,24
+Starships,8
+//16-Non-modifiable Being
+Automaton,16
+Automations,16
+Clone Master,16
+Clones,16
+Conquerer,16
+Cyborg,18
+Dark Lord,16
+Mutant,48
+Mutant Master,16
+Mutants,56
+Space Pirate,16
+Space Pirates,16
+Warlord,16
+Warlords,16
+//32-Specific modifiable being
+Aliens,40
+Beings,32
+Creatures,32
+Entities,32
+Men,32
+Monsters,56
+Monstrosities,56
+People,32
+Tribe,32
+Women,32
+//64- Specific modifier
+Avian,64
+Bear,64
+Bird,64
+Cannibal,64
+Cat,64
+Dinosaur,64
+Dog,64
+Eel,64
+Fish,64
+Ghost,66
+Hawk,64
+Hyena,64
+Insect,64
+Jackal,64
+Kangaroo,64
+Kraken,64
+Leech,64
+Manta,64
+Narwal,64
+Octopus,64
+Rat,64
+Reptile,64
+Serpent,64
+Shark,64
+Snake,64
+Vulture,64
+Wolf,64
+//128 - Actor
+Abyss,128
+Asteroid,128
+Battleship,128
+City,128
+Colony,128
+Comet,128
+Dimension,128
+Fleet,128
+Galaxy,128
+Gate,128
+Gateway,128
+Laboratory,128
+Megalopolis,128
+Metropolis,128
+Nebula,128
+Planet,128
+Planetoid,128
+Portal,128
+Saucer,128
+Ship,128
+Spaceship,128
+Star,128
+Starship,130
+Station,128
+Sun,128
+System,128
+Universe,128
+Vortex,128
+Warp,132
+Warship,128
+World,128

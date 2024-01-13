@@ -1,0 +1,12 @@
+Cyberpunk
+	CYBERPUNK
+		classgencyberpunkdat.txt
+Fantasy
+	FANTASY
+		classgenfantasydat.txt
+Science Fiction
+	SCIFI
+		classgensfdat.txt
+Steampunk
+	STEAMPUNK
+		classgensteampunkdat.txt

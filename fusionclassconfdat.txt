@@ -1,0 +1,48 @@
+Any Kind of Mix
+	SEED
+		fusionclassdat.txt
+Fantasy-Science Fiction
+	SEEDFANSF
+		fusionclassdat.txt
+Fantasy-Modern
+	SEEDFANMOD
+		fusionclassdat.txt
+Fantasy-Steampunk
+	SEEDFANSTE
+		fusionclassdat.txt
+Fantasy-Western
+	SEEDFANWES
+		fusionclassdat.txt
+Fantasy-Horror
+	SEEDFANHOR
+		fusionclassdat.txt
+Science Fiction-Modern
+	SEEDSFMOD
+		fusionclassdat.txt
+Science Fiction-Steampunk
+	SEEDSFSTE
+		fusionclassdat.txt
+Science Fiction-Western
+	SEEDSFWES
+		fusionclassdat.txt
+Science Fiction-Horror
+	SEEDSFHOR
+		fusionclassdat.txt
+Modern-Steampunk
+	SEEDMODSTE
+		fusionclassdat.txt
+Modern-Western
+	SEEDMODWES
+		fusionclassdat.txt
+Modern-Horror
+	SEETMODHOR
+		fusionclassdat.txt
+Steampunk-Western
+	SEEDSTEWES
+		fusionclassdat.txt
+Steampunk-Horror
+	SEEDSTEHOR
+		fusionclassdat.txt
+Western-Horror
+	SEEDWESHOR
+		fusionclassdat.txt

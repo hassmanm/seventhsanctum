@@ -1,0 +1,1930 @@
+//Seeds
+SEED
+	<SEEDANIME>
+	<SEEDFANTASY>
+	<SEEDMODERN>
+	<SEEDSF>
+	<SEEDSTEAMPUNK>
+SEEDANIME
+	The <*SETGENDEREITHER><*ROUTEPOKETYPE><REFDESCRIPTIVE> <RETDIRREF> <RETPOKETYPE>-morph <REFPROFTYPEANIMEREGULAR><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDFANTASY
+	The <*SETGENDEREITHER><*ROUTEPOKETYPE><REFDESCRIPTIVE> <RETDIRREF> <RETPOKETYPE>-morph <RETPROFTYPEFANTASYROUTE><REFEXTRAMODFANTASYROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDMODERN
+	The <*SETGENDEREITHER><*ROUTEPOKETYPE><REFDESCRIPTIVE> <RETDIRREF> <RETPOKETYPE>-morph <RETPROFTYPEROUTE><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSF
+	The <*SETGENDEREITHER><*ROUTEPOKETYPE><REFDESCRIPTIVE> <RETDIRREF> <RETPOKETYPE>-morph <RETPROFTYPESFROUTE><REFEXTRAMODSFROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+SEEDSTEAMPUNK
+	The <*SETGENDEREITHER><*ROUTEPOKETYPE><REFDESCRIPTIVE> <RETDIRREF> <RETPOKETYPE>-morph <RETPROFTYPESTEAMPUNKROUTE><REFEXTRAMODSTEAMROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE>
+//REFSROUTES
+REFDESCRIPTIVE
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+REFDESCRIPTIVESINGLE
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+REFEXTRAMODFANTASYROUTE
+	 <REFEXTRAMODFANTASY>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODROUTE
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+REFEXTRAMODSFROUTE
+	 <REFEXTRAMODSF>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODSTEAMROUTE
+	 <REFEXTRAMODSTEAM>
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+	<*>
+	<*>
+REFEXTRAMODROUTEUSE
+	<REFEXTRAMODREGULAR>
+REFEXTRABUILDROUTE
+	 <RETGENDERCAP> has <RETBUILD> build.
+	<*>
+REFEXTRAWARDROBEROUTE
+	 <RETPOSESSIVECAP> wardrobe is <REFWARDROBE>.
+	<*>
+REFDESCRIPTIVEPERSONALITY
+//1s
+	<REFDESCRIPTIVEMENTAL>
+	<REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEEXPERIENCE>
+//2s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVESOCIAL>,	<REFDESCRIPTIVEEXPERIENCE>
+//3s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+REFDESCRIPTIVEMENTAL
+	addled
+	clever
+	clueless
+	confused
+	cunning
+	educated
+	ignorant
+	illogical
+	intelligent
+	intuitive
+	irrational
+	scatterbrained
+	smart
+	wise
+	unwise
+REDESCRIPTIVEPERSONALITY
+	aggravated
+	aloof
+	altruistic
+	ambitious
+	anxious
+	apathetic
+	arrogant
+	artistic
+	awkward
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	cheerful
+	clinging
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	contemplative
+	courageous
+	cowardly
+	craven
+	crazy
+	creative
+	cruel
+	cynical
+	delusional
+	depressed
+	detached
+	diabolical
+	disillusioned
+	disorganized
+	dispirited
+	dissatisfied
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	enduring
+	energetic
+	ethical
+	fearful
+	fear-ridden
+	fearsome
+	focused
+	forceful
+	frustrated
+	funny
+	generous
+	gentle
+	greedy
+	grim
+	happy
+	heroic
+	humble
+	hypocritical
+	hysterical
+	immature
+	immoral
+	incoherent
+	indecisive
+	industrious
+	inhibited
+	innocent
+	intimidating
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	loudmouthed
+	manipulative
+	materialistic
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	naive
+	narrow-minded
+	negative
+	nervous
+	neurotic
+	nice
+	nihilistic
+	noisy
+	nostalgic
+	nurturing
+	obedient
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patriotic
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	pious
+	plucky
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	religious
+	righteous
+	ruthless
+	sadistic
+	sarcastic
+	secretive
+	serene
+	serious
+	shiftless
+	shifty
+	short-tempered
+	silly
+	sleazy
+	sloppy
+	slothful
+	slovenly
+	snide
+	spendthrift
+	spiritual
+	stingy
+	stressed
+	studious
+	stupid
+	tired
+	tireless
+	tough
+	unambitious
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unheroic
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	vicious
+	violent
+	watchful
+	weak-willed
+	weary
+	whiny
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	worried
+REFDESCRIPTIVESOCIAL
+	alienated
+	amiable
+	antisocial
+	boring
+	broken-hearted
+	charismatic
+	chaste
+	conformist
+	cooperative
+	corrupt
+	disloyal
+	extraverted
+	friendly
+	hateful
+	introverted
+	lonely
+	playful
+	private
+	promiscuous
+	romantic
+	rude
+	selfish
+	selfless
+	self-righteous
+	smooth
+	social
+	tactful
+	tactless
+	tolerant
+	unpopular
+	vocal
+REFDESCRIPTIVEEXPERIENCE
+	educated
+	experienced
+	inexperienced
+	seasoned
+	sheltered
+	world-weary
+	worldwise
+	uneducated
+//MOD REFS
+REFEXTRAMODREGULAR
+	coping with mental illness
+	escpaing the past
+	from a bad family
+	from a big family
+	from a good family
+	from a small family
+	from an unusual family line
+	from nowhere
+	hiding a dark secret
+	haunted by dark memories
+	haunted by flashbacks
+	living on borrowed time
+	looking for a challenge
+	looking for love
+	needing a friend
+	on the run from the law
+	on the wrong side of the law
+	searching for a family member
+	searching for a lost friend
+	searching for employment
+	searching for justice
+	searching for purpose
+	searching for truth
+	trapped by the past
+	who belongs to a secret organization
+	who can't resist a fight
+	who can't resist helping people
+	who fears people think he/she is a fraud
+	who fears the future
+	who fell in with the wrong crowd
+	who had a near-death experience that changed them significantly
+	who has an odd way of speaking
+	who has several nervous habits
+	who hates animals
+	who hates children
+	who hopes to be the best in his/her profession
+	who is a complete fraud
+	who is an outsider
+	who is considered the best in his/her profession
+	who is considered the worst in his/her profession
+	who is cursed with bad luck
+	who is dependent on medication
+	who is estranged from family members
+	who is given to moments of deep introspection
+	who is more than meets the eye
+	who is part of a secret society
+	who is prone to odd statements
+	who is seeking meaning in life
+	who lost meaning in life
+	who loves animals
+	who loves children
+	who seems insane
+	who suffers from a chronic disease
+	who suffers from a chronic medical condition
+	with a chemical dependency
+	with a dark past
+	with a false identity
+	with a heart of gold
+	with a knack for trouble
+	with a large fortune
+	with a lot of friends
+	with a rival in his/her profession
+	with an odd birthmark
+	with an unexpected destiny
+	with big dreams
+	with little money
+	with no hope
+	with repressed memories
+	with uncanny abilities
+	with unexpected depths
+	with unusual luck
+REFEXTRAMODFANTASY
+	who has a demonic connection
+	who has a divine connection
+	who has annoyed the gods
+	who has rare occult knowledge
+	who inherited a family curse
+	who is burdened with dark knowlege
+	who is estranged nobility
+	who is heir to a kingdom
+	who is heir to a kingdom but doesn't know it
+	who is haunted by a ghost
+	who is easily affected by magic
+	who lives under a curse
+	who possesses a strange map
+	who possesses a strong immunity to magic
+	who secretly worships forbidden gods
+	who tends to annoy demonic beings
+	who tends to annoy divine beings
+	who was blessed by the gods
+	who worships unknown gods
+	who wields an unusual artifact
+	whose dwelling is haunted
+	whose family line was magically enhanced
+	with a peculiar affinity for magic
+	with a peculiar affinity for magical items
+	with a peculiar lack of affinity for magical items
+	with a peculiar lack of magical talent
+	with a strange rapport with supernatural beings
+	with demonic blood
+	with divine blood
+REFEXTRAMODSF
+	addicted to an otherworldly drug
+	addicted to virtual reality
+	fighting against a culture that won't allow him/her to reproduce
+	from a distant colony
+	from the past
+	from the future
+	hitch-hiking across the known universe
+	in love with someone of another species
+	in love with an artificial life form
+	in posession of an alien artifact
+	in posession of coordinates to a great secret
+	in posession of stolen technology
+	infected with an alien disease
+	infected with nanites
+	who just awoke from suspended animation
+	on an important journey to a parallel world
+	on an important journey through space
+	on an important journey through time
+	who fears a particular alien species
+	who has an obsessive attraction to a particular alien species
+	who has seen parts of the universe few have
+	who hates a particular alien species
+	who is fighting an alien occupation force
+	who is from a parallel dimension
+	who is from a parallel universe
+	who is actually an alien entity
+	who is seeking to return to his/her homeworld
+	who tragically misunderstood an alien custom
+	who was exiled to another dimension
+	who was exiled to another world
+	who was genetically engineered
+	who was granted strange abilities by an alien species
+	who was victimized by an artificial intelligence
+	who was victimized by an alien race
+	who plans to exploit another world
+	whose body was infected by an alien seeking to reproduce
+	whose culture has collapsed
+	whose mind was controlled by a parasite
+	whose species is being exterminated
+	whose species reproduces by cloning or similar technology
+	whose world is run by a computer
+	whose world is threatened by a space disaster
+	whose world is threatened by a technological disaster
+REFEXTRAMODSTEAM
+	who posesses a powerful technological artifact
+	who wields a powerful, mysterious weapon
+	who posesses a blueprint detailing a legendary machine
+	who has access to a mysterious, hidden laboratory
+	who is seeking a mysterious technological artifact
+	who is the heir of a lost kingdom
+	who is the heir of a line of great scientists
+	who is the victim of a strange experiment
+	who is the creation of a strange experiment
+	who was ressurected from the dead by the power of science
+	who has an inherent knowledge of technology
+	who despises the misuse of technology
+	who has an obsession with technology
+	whose body was rebuilt with steampunk technology
+//Professions
+REFPROFTYPEGENERALREGULAR
+	accountant
+	acrobat
+	actor
+	adventurer
+	advertising executive
+	airline pilot
+	ambassador
+	architect
+	archivist
+	assassin
+	assistant
+	astronaut
+	astronomer
+	bandit
+	bartender
+	baseball player
+	beggar
+	biologist
+	boatman
+	bodyguard
+	botanist
+	bounty hunter
+	businessperson
+	cab driver
+	CEO
+	champion
+	chemical engineer
+	chemist
+	cleric
+	clerk
+	comic
+	computer programmer
+	construction worker
+	corporate official
+	dancer
+	daycare employee
+	detective
+	doctor
+	explorer
+	farmer
+	fence
+	fighter pilot
+	fire fighter
+	football player
+	gambler
+	garbageman
+	gigolo/prostitute
+	hacker
+	heir
+	hermit
+	hero
+	heroine
+	hockey player
+	hunter
+	impostor
+	investor
+	jailer
+	jock
+	laborer
+	lawman
+	leader
+	librarian
+	linguist
+	manager
+	marine
+	martial artist
+	media personality
+	media technician
+	mentor
+	mercenary
+	merchant
+	midwife
+	miner
+	mobster
+	murderer
+	musician
+	novelist
+	nurse
+	official
+	outlaw
+	pedlar
+	pharmacist
+	philanthropist
+	philosopher
+	physicist
+	poet
+	police chief
+	policeman
+	politician
+	pretender
+	priest/priestess
+	professor
+	prospector
+	prostitute
+	psychiatrist
+	psychologist
+	rabble-rouser
+	rascal
+	repairman
+	reporter
+	rogue
+	sailor
+	salesperson
+	scientist
+	secret agent
+	secretary
+	servant
+	singer
+	smuggler
+	soldier
+	spy
+	stockbroker
+	student
+	teacher
+	technician
+	theologian
+	thief
+	trader
+	traitor
+	traveler
+	vetrenarian
+	wanderer
+	weapons master
+	zookeeper
+	zoologist
+REFPROFTYPEGENERALFANTASYREGULAR
+	alchemist
+	archer
+	armorer
+	assassin
+	barbarian
+	berserker
+	blacksmith
+	bodyguard
+	brigand
+	cavalier
+	cleric
+	conjurer
+	crusader
+	demonologist
+	diviner
+	druid
+	elementalist
+	exorcist
+	fence
+	guard
+	herbologist
+	heretic
+	hunter
+	illusionist
+	inquisitor
+	knight
+	jester
+	mage
+	marine
+	martial artist
+	mercenary
+	necromancer
+	paladin
+	poacher
+	prophet
+	ranger
+	scribe
+	seer
+	shaman
+	soldier
+	sorcerer
+	spy
+	thief
+	tomb robber
+	watchman
+	witch/warlock
+	witch-hunter
+REFPROFTYPESFREGULAR
+	astronaut
+	chief engineer
+	communications officer
+	communications technician
+	computer techician
+	cyberneticist
+	cyberpunk
+	engineer
+	fighter pilot
+	first contact specialist
+	first officer
+	life support technician
+	linquistics expert
+	medical officer
+	medical technician
+	nanotechnologist
+	operations manager
+	planetary explorer
+	planetologist
+	quartermaster
+	security agent
+	security officer
+	shuttlecraft pilot
+	space fighter
+	space hitchhiker
+	space pirate
+	starship captain
+	starship engineer
+	starship navigator
+	starship pilot
+	stellar cartographer
+	tactical officer
+	technician
+	weapons officer
+	xenoarcheologist
+	xenobiologist
+	xenobotanist
+	xenolinguist
+	xenomedical expert
+	xenosociologist
+REFPROFTYPESTEAMPUNKREGULAR
+	adventurer
+	apothacarey
+	antiquities collector
+	archaeologist
+	architect
+	astronomer
+	bodyguard
+	bombadier
+	brawler
+	chemist
+	engineer
+	explorer
+	gadgeteer
+	grenadier
+	gunfighter
+	gunner
+	inventor
+	mad scientist
+	marine
+	marksman/woman
+	metalsmith
+	miner
+	noble
+	novelist
+	physician
+	re-animator
+	reporter
+	sapper
+	scavenger
+	scholar
+	scientist
+	space explorer
+	spy
+	submarine pilot
+	submarine engineer
+	swords(wo)man
+	teacher
+	thief
+	train engineer
+	zepplin captain
+	zepplin pilot
+	zepplin engineer
+	zepplin pirate
+REFPROFTYPEANIMEREGULAR
+	alien prince/princess
+	artificial life form
+	cosplay fanatic
+	cyborg
+	delinquent
+	fanboy/girl
+	idol singer
+	magical girl/knight
+	martial artist
+	monk/shrine maiden
+	monster trainer
+	ninja
+	office lady/salaryman
+	psychic
+	robot pilot
+	robot engineer
+	samurai
+	schoolboy/girl
+	spirit detective
+	street fighter
+//PROFTYPE ROUTES
+RETPROFTYPEROUTE
+	<REFPROFTYPEGENERALREGULAR>
+RETPROFTYPEFANTASYROUTE
+	<REFPROFTYPEGENERALFANTASYREGULAR>
+RETPROFTYPESFROUTE
+	<REFPROFTYPESFREGULAR>
+RETPROFTYPESTEAMPUNKROUTE
+	<REFPROFTYPESTEAMPUNKREGULAR>
+//POKESTORES
+ROUTEPOKETYPE
+	<ROUTEPOKEBUG>
+	<ROUTEPOKETYPEDARK>
+	<ROUTEPOKETYPEDRAGON>
+	<ROUTEPOKETYPEELECTRIC>
+	<ROUTEPOKETYPEFAIRY>
+	<ROUTEPOKETYPEFIGHTING>
+	<ROUTEPOKETYPEFIRE>
+	<ROUTEPOKETYPEFLYING>
+	<ROUTEPOKETYPEGHOST>
+	<ROUTEPOKETYPEGRASS>
+	<ROUTEPOKETYPEGROUND>
+	<ROUTEPOKETYPEICE>
+	<ROUTEPOKETYPENORMAL>
+	<ROUTEPOKETYPEPOISON>
+	<ROUTEPOKETYPEPSYCHIC>
+	<ROUTEPOKETYPEROCK>
+	<ROUTEPOKETYPESTEEL>
+	<ROUTEPOKETYPEWATER>
+ROUTEPOKEBUG
+	<*>
+		RETPOKETYPE,true
+			Accelgor
+			Anorith
+			Ariados
+			Armaldo
+			Beautifly
+			Beedrill
+			Burmy
+			Butterfree
+			Cascoon
+			Caterpie
+			Combee
+			Crustle
+			Durant
+			Dustox
+			Dwebble
+			Escavalier
+			Forretress
+			Galvantula
+			Genesect
+			Heracross
+			Illumise
+			Joltik
+			Kakuna
+			Karrablast
+			Kricketot
+			Kricketune
+			Larvesta
+			Leavanny
+			Ledian
+			Ledyba
+			Masquerain
+			Metapod
+			Mothim
+			Nincada
+			Ninjask
+			Paras
+			Parasect
+			Pineco
+			Pinsir
+			Scatterbug
+			Scizor
+			Scolipede
+			Scyther
+			Sewaddle
+			Shedinja
+			Shelmet
+			Shuckle
+			Silcoon
+			Skorupi
+			Spewpa
+			Spinarak
+			Surskit
+			Swadloon
+			Venipede
+			Venomoth
+			Venonat
+			Vespiquen
+			Vivillon
+			Volbeat
+			Volcarona
+			Weedle
+			Whirlipede
+			Wormadam
+			Wurmple
+			Yanma
+			Yanmega
+ROUTEPOKETYPEDARK
+	<*>
+		RETPOKETYPE,true
+			Absol
+			Bisharp
+			Cacturne
+			Carvanha
+			Crawdaunt
+			Darkrai
+			Deino
+			Drapion
+			Honchkrow
+			Houndoom
+			Houndour
+			Hydreigon
+			Inkay
+			Liepard
+			Malamar
+			Mandibuzz
+			Mightyena
+			Murkrow
+			Nuzleaf
+			Pawniard
+			Poochyena
+			Purrloin
+			Sableye
+			Scrafty
+			Scraggy
+			Sharpedo
+			Shiftry
+			Skuntank
+			Sneasel
+			Spiritomb
+			Stunky
+			Tyranitar
+			Umbreon
+			Vullaby
+			Weavile
+			Yveltal
+			Zoroark
+			Zorua
+			Zweilous
+ROUTEPOKETYPEDRAGON
+	<*>
+		RETPOKETYPE,true
+			Altaria
+			Axew
+			Bagon
+			Dialga
+			Dragonair
+			Dragonite
+			Dratini
+			Druddigon
+			Flygon
+			Fraxure
+			Gabite
+			Garchomp
+			Gible
+			Giratina
+			Goodra
+			Goomy
+			Haxorus
+			Kingdra
+			Kyurem
+			Latias
+			Latios
+			Palkia
+			Rayquaza
+			Reshiram
+			Salamence
+			Shelgon
+			Sliggoo
+			Vibrava
+			Zekrom
+			Zygarde
+ROUTEPOKETYPEELECTRIC
+	<*>
+		RETPOKETYPE,true
+			Ampharos
+			Arceus
+			Blitzle
+			Chinchou
+			Dedenne
+			Eelektrik
+			Eelektross
+			Electabuzz
+			Electivire
+			Electrike
+			Electrode
+			Elekid
+			Emolga
+			Flaaffy
+			Heliolisk
+			Helioptile
+			Jolteon
+			Lanturn
+			Luxio
+			Luxray
+			Magnemite
+			Magneton
+			Magnezone
+			Manectric
+			Mareep
+			Minun
+			Pachirisu
+			Pichu
+			Pikachu
+			Plusle
+			Raichu
+			Raikou
+			Rotom
+			Shinx
+			Thundurus
+			Tynamo
+			Voltorb
+			Zapdos
+			Zebstrika
+ROUTEPOKETYPEFAIRY
+	<*>
+		RETPOKETYPE,true
+			Flabebe
+			Floette
+			Florges
+			Spritzee
+			Aromatisse
+			Swirlix
+			Slurpuff
+			Sylveon
+			Xerneas
+ROUTEPOKETYPEFIGHTING
+	<*>
+		RETPOKETYPE,true
+			Blaziken
+			Breloom
+			Combusken
+			Conkeldurr
+			Croagunk
+			Gallade
+			Gurdurr
+			Hariyama
+			Hawlucha
+			Heracross
+			Hitmonchan
+			Hitmonlee
+			Hitmontop
+			Infernape
+			Lucario
+			Machamp
+			Machoke
+			Machop
+			Makuhita
+			Mankey
+			Medicham
+			Meditite
+			Mienfoo
+			Mienshao
+			Monferno
+			Pancham
+			Pangoro
+			Poliwrath
+			Primeape
+			Riolu
+			Sawk
+			Throh
+			Timburr
+			Toxicroak
+			Tyrogue
+ROUTEPOKETYPEFIRE
+	<*>
+		RETPOKETYPE,true
+			Arcanine
+			Blaziken
+			Camerupt
+			Charizard
+			Charmander
+			Charmeleon
+			Chimchar
+			Combusken
+			Cyndaquil
+			Darmanitan
+			Darumaka
+			Emboar
+			Entei
+			Flareon
+			Growlithe
+			Heatmor
+			Heatran
+			Ho-oh
+			Houndoom
+			Houndour
+			Infernape
+			Magby
+			Magcargo
+			Magmar
+			Magmortar
+			Moltres
+			Monferno
+			Ninetales
+			Numel
+			Pansear
+			Pignite
+			Ponyta
+			Pyroar
+			Quilava
+			Rapidash
+			Simisear
+			Slugma
+			Tepig
+			Torchic
+			Torkoal
+			Typhlosion
+			Vulpix
+ROUTEPOKETYPEFLYING
+	<*>
+		RETPOKETYPE,true
+			Aerodactyl
+			Altaria
+			Articuno
+			Beautifly
+			Butterfree
+			Charizard
+			Chatot
+			Combee
+			Crobat
+			Delibird
+			Dodrio
+			Doduo
+			Dragonite
+			Drifblim
+			Drifloon
+			Farfetch'd
+			Fearow
+			Gligar
+			Gliscor
+			Golbat
+			Gyarados
+			Ho-oh
+			Honchkrow
+			Hoothoot
+			Hoppip
+			Jumpluff
+			Ledian
+			Ledyba
+			Lugia
+			Mantine
+			Mantyke
+			Masquerain
+			Moltres
+			Mothim
+			Murkrow
+			Natu
+			Ninjask
+			Noctowl
+			Noibat
+			Noivern
+			Pelipper
+			Pidgeot
+			Pidgeotto
+			Pidgey
+			Rayquaza
+			Salamence
+			Scyther
+			Skarmory
+			Skiploom
+			Spearow
+			Staraptor
+			Staravia
+			Starly
+			Swablu
+			Swellow
+			Taillow
+			Togekiss
+			Togetic
+			Tornadus
+			Tropius
+			Vespiquen
+			Wingull
+			Xatu
+			Yanma
+			Yanmega
+			Zapdos
+			Zubat
+ROUTEPOKETYPEGHOST
+	<*>
+		RETPOKETYPE,true
+			Banette
+			Chandelure
+			Cofagrigus
+			Drifblim
+			Drifloon
+			Dusclops
+			Dusknoir
+			Duskull
+			Froslass
+			Gastly
+			Gengar
+			Giratina
+			Gourgeist
+			Haunter
+			Lampent
+			Litwick
+			Misdreavus
+			Mismagius
+			Phantump
+			Pumpkaboo
+			Rotom
+			Sableye
+			Shedinja
+			Shuppet
+			Spiritomb
+			Trevenant
+			Yamask
+ROUTEPOKETYPEGRASS
+	<*>
+		RETPOKETYPE,true
+			Abomasnow
+			Amoonguss
+			Bayleef
+			Bellossom
+			Bellsprout
+			Breloom
+			Budew
+			Bulbasaur
+			Cacnea
+			Cacturne
+			Carnivine
+			Celebi
+			Cherrim
+			Cherubi
+			Chesnaught
+			Chespin
+			Chikorita
+			Cottonee
+			Cradily
+			Exeggcute
+			Exeggutor
+			Ferroseed
+			Ferrothorn
+			Foongus
+			Gloom
+			Gogoat
+			Grotle
+			Grovyle
+			Hoppip
+			Ivysaur
+			Jumpluff
+			Leafeon
+			Lileep
+			Lilligant
+			Lombre
+			Lotad
+			Ludicolo
+			Maractus
+			Meganium
+			Nuzleaf
+			Oddish
+			Pansage
+			Paras
+			Parasect
+			Petilil
+			Quilladin
+			Roselia
+			Roserade
+			Sceptile
+			Seedot
+			Serperior
+			Servine
+			Shaymin
+			Shiftry
+			Shroomish
+			Simisage
+			Skiddo
+			Skiploom
+			Snivy
+			Snover
+			Sunflora
+			Sunkern
+			Tangela
+			Tangrowth
+			Torterra
+			Treecko
+			Tropius
+			Turtwig
+			Venusaur
+			Victreebel
+			Vileplume
+			Virizion
+			Weepinbell
+			Whimsicott
+			Wormadam
+ROUTEPOKETYPEGROUND
+	<*>
+		RETPOKETYPE,true
+			Amoonguss
+			Baltoy
+			Barboach
+			Camerupt
+			Chesnaught
+			Chespin
+			Claydol
+			Cottonee
+			Cubone
+			Diglett
+			Donphan
+			Dugtrio
+			Ferroseed
+			Ferrothorn
+			Flygon
+			Foongus
+			Gabite
+			Garchomp
+			Gastrodon
+			Geodude
+			Gible
+			Gligar
+			Gliscor
+			Gogoat
+			Golem
+			Graveler
+			Groudon
+			Hippopotas
+			Hippowdon
+			Larvitar
+			Lilligant
+			Mamoswine
+			Maractus
+			Marowak
+			Marshtomp
+			Nidoking
+			Nidoqueen
+			Nincada
+			Numel
+			Onix
+			Pansage
+			Petilil
+			Phanpy
+			Piloswine
+			Pupitar
+			Quagsire
+			Quilladin
+			Rhydon
+			Rhyhorn
+			Rhyperior
+			Sandshrew
+			Sandslash
+			Serperior
+			Servine
+			Simisage
+			Skiddo
+			Snivy
+			Steelix
+			Swampert
+			Swinub
+			Torterra
+			Trapinch
+			Vibrava
+			Virizion
+			Whimsicott
+			Whiscash
+			Wooper
+			Wormadam		
+ROUTEPOKETYPEICE
+	<*>
+		RETPOKETYPE,true
+			Abomasnow
+			Articuno
+			Avalugg
+			Beartic
+			Bergmite
+			Cloyster
+			Cryogonal
+			Cubchoo
+			Delibird
+			Dewgong
+			Froslass
+			Glaceon
+			Glalie
+			Jynx
+			Lapras
+			Mamoswine
+			Piloswine
+			Regice
+			Sealeo
+			Smoochum
+			Sneasel
+			Snorunt
+			Snover
+			Spheal
+			Swinub
+			Vanillish
+			Vanillite
+			Vanilluxe
+			Walrein
+			Weavile
+ROUTEPOKETYPENORMAL
+	<*>
+		RETPOKETYPE,true
+			Aipom
+			Ambipom
+			Audino
+			Azurill
+			Bibarel
+			Bidoof
+			Blissey
+			Bouffalant
+			Braviary
+			Buneary
+			Bunnelby
+			Castform
+			Chansey
+			Chatot
+			Cinccino
+			Clefable
+			Clefairy
+			Cleffa
+			Deerling
+			Delcatty
+			Diggersby
+			Ditto
+			Dodrio
+			Doduo
+			Dunsparce
+			Eevee
+			Exploud
+			Farfetch'd
+			Fearow
+			Fletchling
+			Furfrou
+			Furret
+			Girafarig
+			Glameow
+			Granbull
+			Happiny
+			Herdier
+			Hoothoot
+			Igglybuff
+			Jigglypuff
+			Kangaskhan
+			Kecleon
+			Lickilicky
+			Lickitung
+			Lillipup
+			Linoone
+			Lopunny
+			Loudred
+			Meloetta
+			Meloetta
+			Meowth
+			Miltank
+			Minccino
+			Munchlax
+			Noctowl
+			Patrat
+			Persian
+			Pidgeot
+			Pidgeotto
+			Pidgey
+			Pidove
+			Porygon
+			Porygon-Z
+			Porygon2
+			Purugly
+			Raticate
+			Rattata
+			Regigigas
+			Rufflet
+			Sawsbuck
+			Sentret
+			Skitty
+			Slaking
+			Slakoth
+			Smeargle
+			Snorlax
+			Snubbull
+			Spearow
+			Spinda
+			Stantler
+			Staraptor
+			Staravia
+			Starly
+			Stoutland
+			Swablu
+			Swellow
+			Taillow
+			Tauros
+			Teddiursa
+			Togekiss
+			Togepi
+			Togetic
+			Tranquill
+			Unfezant
+			Unfezant
+			Ursaring
+			Vigoroth
+			Watchog
+			Whismur
+			Wigglytuff
+			Zangoose
+			Zigzagoon
+ROUTEPOKETYPEPOISON
+	<*>
+		RETPOKETYPE,true
+			Arbok
+			Ariados
+			Beedrill
+			Bellsprout
+			Budew
+			Bulbasaur
+			Croagunk
+			Crobat
+			Dragalge
+			Drapion
+			Dustox
+			Ekans
+			Garbodor		
+			Gastly
+			Gengar
+			Gloom
+			Golbat
+			Grimer
+			Gulpin
+			Haunter
+			Ivysaur
+			Kakuna
+			Koffing
+			Muk
+			Nidoking
+			Nidoqueen
+			Nidoran
+			Nidorina
+			Nidorino
+			Oddish
+			Qwilfish
+			Roselia
+			Roserade
+			Seviper
+			Skorupi
+			Skrelp
+			Skuntank
+			Spinarak
+			Stunky
+			Swalot
+			Tentacool
+			Tentacruel
+			Toxicroak
+			Trubbish
+			Venomoth
+			Venonat
+			Venusaur
+			Victreebel
+			Vileplume
+			Weedle
+			Weepinbell
+			Weezing
+			Zubat
+ROUTEPOKETYPEPSYCHIC
+	<*>
+		RETPOKETYPE,true
+			Abra
+			Alakazam
+			Azelf
+			Baltoy
+			Beheeyem
+			Beldum
+			Bronzong
+			Bronzor
+			Celebi
+			Chimecho
+			Chingling
+			Claydol
+			Cresselia
+			Deoxys
+			Drowzee
+			Duosion
+			Elgyem
+			Espeon
+			Espurr
+			Exeggcute
+			Exeggutor
+			Gallade
+			Gardevoir
+			Girafarig
+			Gothita
+			Gothitelle
+			Gothorita
+			Grumpig
+			Hypno
+			Jirachi
+			Jynx
+			Kadabra
+			Kirlia
+			Latias
+			Latios
+			Lugia
+			Lunatone
+			Medicham
+			Meditite
+			Meowstic
+			Mesprit
+			Metagross
+			Metang
+			Mew
+			Mewtwo
+			MimeJr.
+			Mr.Mime
+			Munna
+			Musharna
+			Natu
+			Ralts
+			Reuniclus
+			Sigilyph
+			Slowbro
+			Slowking
+			Slowpoke
+			Smoochum
+			Solosis
+			Solrock
+			Spoink
+			Starmie
+			Swoobat
+			Unown
+			Uxie
+			Victini
+			Wobbuffet
+			Woobat
+			Wynaut
+			Xatu
+ROUTEPOKETYPEROCK
+	<*>
+		RETPOKETYPE,true
+			Aerodactyl
+			Aggron
+			Amaura
+			Anorith
+			Archen
+			Archeops
+			Armaldo
+			Aron
+			Aurorus
+			Barbaracle
+			Bastiodon
+			Binacle
+			Boldore
+			Bonsly
+			Carbink
+			Corsola
+			Cradily
+			Cranidos
+			Diancie
+			Geodude
+			Gigalith
+			Golem
+			Graveler
+			Kabuto
+			Kabutops
+			Lairon
+			Larvitar
+			Lileep
+			Lunatone
+			Magcargo
+			Nosepass
+			Omanyte
+			Omastar
+			Onix
+			Probopass
+			Pupitar
+			Rampardos
+			Regirock
+			Relicanth
+			Rhydon
+			Rhyhorn
+			Rhyperior
+			Roggenrola
+			Shieldon
+			Shuckle
+			Solrock
+			Sudowoodo
+			Terrakion
+			Tyranitar
+			Tyrantrum
+			Tyrunt
+ROUTEPOKETYPESTEEL
+	<*>
+		RETPOKETYPE,true
+			Aegislash
+			Aggron
+			Aron
+			Bastiodon
+			Beldum
+			Bronzong
+			Bronzor
+			Cobalion
+			Dialga
+			Doublade
+			Empoleon
+			Forretress
+			Heatran
+			Honedge
+			Jirachi
+			Klang
+			Klefki
+			Klink
+			Klinklang
+			Lairon
+			Lucario
+			Magnemite
+			Magneton
+			Magnezone
+			Mawile
+			Metagross
+			Metang
+			Probopass
+			Registeel
+			Scizor
+			Shieldon
+			Skarmory
+			Steelix
+			Wormadam
+ROUTEPOKETYPEWATER
+	<*>
+		RETPOKETYPE,true
+			Alomomola
+			Azumarill
+			Barboach
+			Basculin
+			Basculin
+			Bibarel
+			Blastoise
+			Buizel
+			Carracosta
+			Carvanha
+			Chinchou
+			Clamperl
+			Clauncher
+			Clawitzer
+			Cloyster
+			Corphish
+			Corsola
+			Crawdaunt
+			Croconaw
+			Dewgong
+			Dewott
+			Ducklett
+			Empoleon
+			Feebas
+			Feraligatr
+			Finneon
+			Floatzel
+			Frillish
+			Frillish
+			Froakie
+			Frogadier
+			Gastrodon
+			Goldeen
+			Golduck
+			Gorebyss
+			Greninja
+			Gyarados
+			Horsea
+			Huntail
+			Jellicent
+			Jellicent
+			Kabuto
+			Kabutops
+			Keldeo
+			Kingdra
+			Kingler
+			Krabby
+			Kyogre
+			Lanturn
+			Lapras
+			Lombre
+			Lotad
+			Ludicolo
+			Lumineon
+			Luvdisc
+			Magikarp
+			Manaphy
+			Mantine
+			Mantyke
+			Marill
+			Marshtomp
+			Milotic
+			Mudkip
+			Octillery
+			Omanyte
+			Omastar
+			Oshawott
+			Palkia
+			Palpitoad
+			Panpour
+			Pelipper
+			Phione
+			Piplup
+			Politoed
+			Poliwag
+			Poliwhirl
+			Poliwrath
+			Prinplup
+			Psyduck
+			Quagsire
+			Qwilfish
+			Relicanth
+			Remoraid
+			Samurott
+			Seadra
+			Seaking
+			Sealeo
+			Seel
+			Seismitoad
+			Sharpedo
+			Shellder
+			Shellos
+			Simipour
+			Slowbro
+			Slowking
+			Slowpoke
+			Spheal
+			Squirtle
+			Starmie
+			Staryu
+			Suicune
+			Surskit
+			Swampert
+			Swanna
+			Tentacool
+			Tentacruel
+			Tirtouga
+			Totodile
+			Tympole
+			Vaporeon
+			Wailmer
+			Wailord
+			Walrein
+			Wartortle
+			Whiscash
+			Wingull
+			Wooper
+ROUTEPOKETYPE0
+	<*>
+		RETPOKETYPE,true
+		RETPROFTYPEREGULAR,true
+			<REFPROFTYPEGENERALREGULAR>
+//REFS
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFWARDROBE
+	artistic
+	attractive
+	bizarre
+	businesslike
+	classy
+	complicated
+	dignified
+	elaborate
+	elegant
+	fashionable
+	flattering
+	impractical
+	mysterious
+	non-nonsense
+	odd
+	plain
+	practical
+	professional
+	revealing
+	risque
+	severe
+	sexy
+	simple
+	strange
+	tight-fitting
+	uncomplicated
+	unconventional
+	unusual
+	utilitarian
+	weird
+//MIXED ROUTES
+REFGENDERTYPE
+	male
+	female
+//SETS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			female
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			male
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+//RETS
+RETPOKETYPE
+	POKETYPE
+RETPROFTYPEREGULAR
+	<REFPROFTYPEGENERALREGULAR>
+RETPROFTYPEREGULARFANTASY
+	<REFPROFTYPEGENERALFANTASYREGULAR>
+//GENDER RETS
+RETDIRREF
+	genderless
+RETGENDER
+	it
+RETGENDERCAP
+	It
+RETPOSESSIVE
+	its
+RETPOSESSIVECAP
+	Its
+RETBUILD
+	<REFBUILDGENERAL>

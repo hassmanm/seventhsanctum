@@ -1,0 +1,505 @@
+//Vocab types:
+//1 - PREFIX
+//2 - DESC
+//4 - FDESC - Female descriptor
+//8 - Numbers
+//16 - OBJECT - Object
+//32 - FOBJECT - Feminine Object
+//64 - ABSTRACT
+//128 - ACTION - An action 
+//256 - ACTOR - An Actor
+//512 - Factor - Feminine Actor
+//
+--ORGANIZATION
+//Regular
+//Use of Prefixes - Regular
+1,16,512
+,, ,
+1,32,256
+,, ,
+1,512
+,,
+//Regular doubled
+1,16,512
+,, ,
+1,32,256
+,, ,
+1,512
+,,
+//Use of Prefixes - Mixed
+2,1,32,256
+, ,, ,
+2,32,1,256
+, , ,,
+2,1,512
+, ,,
+4,1,16,512
+, ,, ,
+4,16,1,512
+, , ,,
+4,1,64
+, ,,
+4,1,256
+, ,,
+//Use of numbers
+8,512
+The , ,
+8,512,64
+The , , of ,
+//Use of numbers x2
+8,512
+The , ,
+8,512,64
+The , , of ,
+// Regular
+2,32,256
+, , ,
+2,512
+, ,
+4,16,512
+, , ,
+4,64
+, , 
+4,256
+, ,
+16,512
+, ,
+32,64
+, ,
+32,128
+, ,
+32,256
+, ,
+64,512
+, ,
+128,512
+, ,
+512,64
+, of ,
+// Regular x 2
+2,32,256
+, , ,
+2,512
+, ,
+4,16,512
+, , ,
+4,64
+, , 
+4,256
+, ,
+16,512
+, ,
+32,64
+, ,
+32,128
+, ,
+32,256
+, ,
+64,512
+, ,
+128,512
+, ,
+512,64
+, of ,
+// Regular x3
+2,32,256
+, , ,
+2,512
+, ,
+4,16,512
+, , ,
+4,64
+, , 
+4,256
+, ,
+16,512
+, ,
+32,64
+, ,
+32,128
+, ,
+32,256
+, ,
+64,512
+, ,
+128,512
+, ,
+512,64
+, of ,
+// Regular x4
+2,32,256
+, , ,
+2,512
+, ,
+4,16,512
+, , ,
+4,64
+, , 
+4,256
+, ,
+16,512
+, ,
+32,64
+, ,
+32,128
+, ,
+32,256
+, ,
+64,512
+, ,
+128,512
+, ,
+512,64
+, of ,
+--VOCABULARY
+Action,80
+Alchemical,18
+Alchemsits,256
+Alchemy,16
+Allure,96
+Alluring,4
+Android,18
+Angelic,6
+Angels,768
+Archers,256
+Assasination,192
+Assassin,18
+Assassins,256
+Astral,2
+Astro,1
+Astrological,2
+Attraction,224
+Attractive,4
+Avatars,256
+Bards,256
+Battlers,256
+Beam,16
+Beast,18
+Beasts,256
+Beautiful,4
+Beauty,32
+Beguiling,6
+Bejeweled,6
+Bewitching,6
+Blade,16
+Blades,16
+Blast,144
+Blasters,256
+Blaze,128
+Blazers,256
+Bloom,176
+Blooming,70
+Blossom,32
+Bolt,16
+Bomb,144
+Bombers,256
+Bouquet,32
+Brave,2
+Break,128
+Breakers,256
+Candy,54
+Card,16
+Caring,4
+Casters,256
+Castle,16
+Catchers,256
+Celestial,2
+Celestials,256
+Change,208
+Changers,256
+Changing,2
+Chaos,16
+Chaotic,2
+Charm,240
+Charmers,768
+Charming,6
+Clerics,256
+Clock,16
+Clockwork,2
+Club,256
+Correctors,256
+Cosmic,2
+Cosmo,1
+Creators,256
+Crusaders,256
+Crush,160
+Crystal,54
+Cure,160
+Cute,4
+Cyber,1
+Dance,144
+Dancers,768
+Dancing,6
+Dark,2
+Darkness,16
+Dazzle,208
+Dazzlers,256
+Dazzling,6
+Demon,16
+Demonic,2
+Demons,256
+Diamond,18
+Divine,2
+Diviners,256
+Draco,1
+Dragon,18
+Dream,146
+Dreaming,2
+Dreamy,6
+Dress,32
+Druids,256
+Dyna,1
+Dynamite,18
+Earth,16
+Eight,8
+Electricity,16
+Elemental,2
+Enchanted,2
+Enchanting,6
+Enchantment,16
+Enchantress,4
+Enchantresses,512
+Energy,64
+Exorcism,16
+Exorcists,256
+Explorers,256
+Exquisite,6
+Fabulous,6
+Fancy,6
+Fantasy,22
+Fashion,32
+Fashionable,4
+Fighters,256
+Five,8
+Floral,4
+Floral,2
+Flower,16
+Force,64
+Four,8
+Galactic,2
+Galaxy,16
+Gate,16
+Gear,16
+Gear,16
+Gem,48
+Ghost,18
+Girls,512
+Gladiators,256
+Glamorous,4
+Glamour,48
+Glimmer,32
+Glimmering,6
+Glitter,32
+God,18
+Goddess,36
+Goddesses,512
+Gold,18
+Gorgeous,4
+Gorgeous,4
+Graceful,4
+Gravity,16
+Group,256
+Gun,16
+Guardian,2
+Guardians,256
+Gunslinger,18
+Gunslingers,256
+Heart,48
+Happy,2
+Healers,256
+Healing,128
+Heaven,16
+Heavenly,6
+Hell,16
+Hellish,2
+Heroic,2
+Heroine,4
+Heroines,512
+Holy,2
+Hope,224
+Hunt,144
+Hunting,2
+Hyper,3
+Harmony,112
+Hypnotic,6
+Huntresses,512
+Phantom,2
+Phantom,256
+Theif,2
+Theives,256
+Idol,22
+Idols,768
+Illusion,16
+Illusion,16
+Illusionary,2
+Imperial,2
+Incense,16
+Infernal,2
+Interplanetary,2
+Iron,2
+Jewel,48
+Kiss,176
+Knights,256
+Ladies,512
+Ladies,512
+Ladylike,4
+Law,16
+Light,16
+Love,96
+Lovely,4
+Loving,4
+Luminous,6
+Mermaid,4
+Mermaids,512
+Lure,144
+Magic,18
+Magical,2
+Magician,2
+Magnetic,2
+Maidens,512
+Makers,256
+Makeup,32
+Marines,256
+Maxi,1
+Maximum,2
+Mecha,19
+Mechanical,2
+Mega,3
+Melody,16
+Metal,18
+Metallic,2
+Mighty,2
+Miracle,16
+Miraculous,2
+Mistress,4
+Mistresses,512
+Monster,18
+Moon,16
+Music,32
+Musical,2
+Musician,2
+Musicians,256
+Mystic,2
+Mystical,2
+Nature,80
+Necro,1
+Nega,1
+Negators,256
+Nightmare,18
+Nine,8
+Ninja,18
+Ninjas,256
+Nurse,4
+Nurses,512
+Nurses,512
+Ogre,18
+Paladins,256
+Perfect,2
+Perfection,80
+Perfume,32
+Pirate,18
+Pirates,256
+Planet,16
+Planetary,2
+Platinum,18
+Potion,16
+Power,64
+Pretty,4
+Priesstesses,512
+Priestess,4
+Psychic,2
+Psychics,256
+Queens,512
+Questers,256
+Radiant,6
+Rainbow,54
+Rangers,256
+Ray,16
+Revolution,16
+Revolutionary,4
+Robo,1
+Robot,18
+Rose,38
+Royal,2
+Ruby,18
+Rune,16
+Rush,144
+Saint,18
+Sainted,2
+Saints,512
+Sapphire,18
+Scouts,256
+Seekers,256
+Seeking,2
+Seraphic,2
+Seraphim,514
+Seven,8
+Shamanic,2
+Shine,240
+Shining,6
+Silver,18
+Singers,768
+Singing,6
+Sirens,512
+Six,8
+Slayers,256
+Sniper,18
+Snipers,256
+Soldiers,256
+Sorceress,4
+Sorceresses,512
+Sorcery,16
+Soul,16
+Space,18
+Space,16
+Sparkle,32
+Sparkling,6
+Sparkling,4
+Sparkly,6
+Spectral,2
+Spectrum,80
+Spell,16
+Spice,48
+Spirit,16
+Spirit,82
+Splash,128
+Star,16
+Starlight,16
+Steel,2
+Succubi,512
+Succubus,20
+Summoner,18
+Summoners,256
+Summoning,2
+Sunlight,16
+Sweet,100
+Sword,16
+Team,256
+Techno,1
+Templars,256
+Temple,16
+Ten,8
+Three,8
+Touch,128
+Track,128
+Trackers,256
+Tracking,64
+Trance,16
+Transformation,208
+Transforming,2
+Travellers,256
+Ultimate,2
+Ultra,3
+Unbeatable,2
+Unholy,2
+Unstoppable,2
+Valkyries,512
+Valkyrie,36
+Wand,16
+Warlord,2
+Warriors,256
+Wedding,36
+Witch,4
+Witches,512
+Wonder,80
+Zap,128

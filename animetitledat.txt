@@ -1,0 +1,1801 @@
+//Vocab types:
+//1 Metadescriptor
+//2 Descriptor
+//4 Title
+//8 Abstract
+//16 Object
+//32 Object - Plural
+//64 Actor
+//128 Actor Plural
+//256 Numerator
+//512 Name
+//1024 Oddball connector
+--ORGANIZATION
+//Oddball
+16,1024,16
+, , ,
+64,1024,64
+, , ,
+//Oddball x 2
+16,1024,16
+, , ,
+64,1024,64
+, , ,
+//Desc
+1,4,8
+, , ,
+1,4,16
+, , ,
+1,4,64,128
+, , , ,
+1,8,16
+, , ,
+1,8,32
+, , ,
+1,8,64
+, , ,
+1,8,64,64
+, , , ,
+1,8,64,128
+, , , ,
+1,8,128
+, , ,
+1,16,16
+, , ,
+1,16,32
+, , ,
+1,16,64,128
+, , , ,
+1,64,64
+, , ,
+1,64,128
+, , ,
+1,2,8
+, , ,
+1,2,16
+, , ,
+1,2,32
+, , ,
+1,2,64
+, , ,
+1,2,128
+, , ,
+1,2,4,8
+, , , ,
+1,2,4,16
+, , , ,
+1,2,8,16
+, , , ,
+1,2,8,32
+, , , ,
+1,2,8,64
+, , , ,
+1,2,8,128
+, , , ,
+1,2,16,16
+, , , ,
+1,2,16,32
+, , , ,
+1,2,64,64
+, , , ,
+1,2,64,128
+, , , ,
+1,256
+, ,
+2,8
+, ,
+2,16
+, ,
+2,32
+, ,
+2,64
+, ,
+2,128
+, ,
+2,4,8
+, , ,
+2,4,16
+, , ,
+2,4,64,128
+, , , ,
+2,8,16
+, , ,
+2,8,32
+, , ,
+2,8,64
+, , ,
+2,8,64,64
+, , , ,
+2,8,64,128
+, , , ,
+2,8,128
+, , ,
+2,16,16
+, , ,
+2,16,32
+, , ,
+2,16,64,128
+, , , ,
+2,64,64
+, , ,
+2,64,128
+, , ,
+2,256
+, ,
+//Non-desc
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,16
+, ,
+64,32
+, ,
+64,64
+, ,
+64,128
+, ,
+//Non-Desc x2
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 3
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 4
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 5
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//REPEAT NON-NUMBER NON-NAME SEQUENCE
+//Oddball
+16,1024,16
+, , ,
+64,1024,64
+, , ,
+//Oddball x 2
+16,1024,16
+, , ,
+64,1024,64
+, , ,
+//Desc
+1,4,8
+, , ,
+1,4,16
+, , ,
+1,4,64,128
+, , , ,
+1,8,16
+, , ,
+1,8,32
+, , ,
+1,8,64
+, , ,
+1,8,64,64
+, , , ,
+1,8,64,128
+, , , ,
+1,8,128
+, , ,
+1,16,16
+, , ,
+1,16,32
+, , ,
+1,16,64,128
+, , , ,
+1,64,64
+, , ,
+1,64,128
+, , ,
+1,2,8
+, , ,
+1,2,16
+, , ,
+1,2,32
+, , ,
+1,2,64
+, , ,
+1,2,128
+, , ,
+1,2,4,8
+, , , ,
+1,2,4,16
+, , , ,
+1,2,8,16
+, , , ,
+1,2,8,32
+, , , ,
+1,2,8,64
+, , , ,
+1,2,8,128
+, , , ,
+1,2,16,16
+, , , ,
+1,2,16,32
+, , , ,
+1,2,64,64
+, , , ,
+1,2,64,128
+, , , ,
+1,256
+, ,
+2,8
+, ,
+2,16
+, ,
+2,32
+, ,
+2,64
+, ,
+2,128
+, ,
+2,4,8
+, , ,
+2,4,16
+, , ,
+2,4,64,128
+, , , ,
+2,8,16
+, , ,
+2,8,32
+, , ,
+2,8,64
+, , ,
+2,8,64,64
+, , , ,
+2,8,64,128
+, , , ,
+2,8,128
+, , ,
+2,16,16
+, , ,
+2,16,32
+, , ,
+2,16,64,128
+, , , ,
+2,64,64
+, , ,
+2,64,128
+, , ,
+2,256
+, ,
+//Non-desc
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,16
+, ,
+64,32
+, ,
+64,64
+, ,
+64,128
+, ,
+//Non-Desc x2
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 3
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 4
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//Non desc x 5
+4,8
+, ,
+4,16
+, ,
+4,64,128
+, , ,
+8,16
+, ,
+8,32
+, ,
+8,64
+, ,
+8,64,64
+, , ,
+8,64,128
+, , ,
+8,128
+, ,
+8,256
+, ,
+16,16
+, ,
+16,32
+, ,
+16,64,64,16
+, , , ,
+16,64,64,32
+, , , ,
+16,64,128
+, , ,
+64,64
+, ,
+64,128
+, ,
+//END REPEAT
+//Numericized (256, only those ending in 16 and 64)
+1,4,16,256
+, , , ,
+1,8,16,256
+, , , ,
+1,8,64,256
+, , , ,
+1,8,64,64,256
+, , , , ,
+1,8,256
+, , , ,
+1,16,16,256
+, , , ,
+1,64,64,256
+, , , ,
+1,2,16,256
+, , , ,
+1,2,64,256
+, , , ,
+1,2,4,16,256
+, , , , ,
+1,2,8,16,256
+, , , , ,
+1,2,8,64,256
+, , , , ,
+1,2,8,256
+, , , , ,
+1,2,16,16,256
+, , , , ,
+1,2,64,64,256
+, , , , ,
+2,16,256
+, , ,
+2,64,256
+, , ,
+2,4,16,256
+, , , ,
+2,8,16,256
+, , , ,
+2,8,64,256
+, , , ,
+2,8,64,64,256
+, , , , ,
+2,8,256
+, , ,
+2,16,16,256
+, , , ,
+2,64,64,256
+, , , ,
+4,16,256
+, , ,
+8,16,256
+, , ,
+8,64,256
+, , ,
+8,64,64,256
+, , , ,
+8,256
+, ,
+16,256
+, ,
+16,16,256
+, , ,
+16,64,64,16,256
+, , , , ,
+64,256
+, ,
+64,64,256
+, , ,
+//Personized
+1,8,64,512
+, , , ,
+1,8,64,64,512
+, , , , ,
+1,16,512
+, , ,
+1,64,64,512
+, , , ,
+1,2,64,512
+, , , ,
+1,2,8,64,512
+, , , , ,
+1,2,64,64,512
+, , , , ,
+1,512
+, ,
+2,512
+, ,
+2,16,512
+, , ,
+2,64,512
+, , ,
+2,8,64,512
+, , , ,
+2,8,64,64,512
+, , , , ,
+2,64,64,512
+, , , ,
+2,256,512
+, , ,
+8,64,512
+, , ,
+8,64,64,512
+, , , ,
+16,64,512
+, , ,
+64,64,512
+, , ,
+64,256,512
+, , ,
+//Personalized ref posessive
+16,512
+, of ,
+32,512
+, of ,
+64,512
+, of ,
+128,512
+, of ,
+//Personalized ref.
+512,64
+, the ,
+512,16
+, and the ,
+512,1,16
+, and the  , ,
+512,2,16
+, and the , ,
+//Vocabulary
+//1 Metadescriptor
+//2 Descriptor
+//4 Title
+//8 Abstract
+//16 Object
+//32 Object - Plural
+//64 Actor
+//128 Actor Plural
+//256 Numerator
+//512 Name
+//1024 Oddball connector
+--VOCABULARY
+Abominable,3
+Admiral,68
+Admirals,128
+Advancer,64
+Advancers,128
+Adventure,24
+Adventurer,64
+Adventurers,128
+Adventures,32
+Age,8
+Agent,68
+Agents,128
+Alchemist,64
+Alchemists,128
+Alliance,24
+All-Purpose,1
+Amazing,1
+Ambassador.64
+Ambassadors,128
+Angel,66
+Angels,128
+Animal,64
+Animals,128
+Apple,16
+Aqua,2
+Aquatic,2
+Area,16
+Arena,16
+Arenas,32
+Armageddon,24
+Armor,48
+Armored,2
+Army,80
+Ashen,2
+Asassin,66
+Asassins,128
+Astro,2
+Aura,16
+Auras,32
+Automated,2
+Automatic,2
+Automation,16
+Automatons,32
+Awful,2
+Babylon,16
+Bad,3
+Ball,16
+Balls,32
+Band,16
+Bands,32
+Bang,16
+Barbarian,66
+Barbarians,128
+Barbaric,2
+Battle,24
+Battler,64
+Battlers,128
+Battles,32
+Battleship,16
+Battleship,32
+Beam,16
+Bean,16
+Beast,16
+Beasts,32
+Beat,16
+Beater,64
+Beaters,128
+Beats,32
+Bebop,16
+Best,1
+Bewitching,2
+Big,1
+Bio,2
+Bio,3
+Bionic,2
+Bizarre,2
+Black,2
+Blade,16
+Blade,16
+Blades,32
+Blood,16
+Boogiepop,16
+Boosted,2
+Bounty,16
+Boy,64
+Boy,70
+Boys,128
+Boys,128
+Brain,80
+Brains,160
+Breaker,64
+Breakers,128
+Breeder,66
+Breeders,128
+Bride,66
+Brides,128
+Bubblegum,18
+Bullet,16
+Bullets,32
+Buzzer,32
+Buzzers,64
+Cafe,16
+Calamity,24
+Calamity,8
+Call,16
+Campus,16
+Candy,16
+Captain,4
+Captain,68
+Captains,128
+Captor,64
+Captors,128
+Car,16
+Caravan,16
+Card,16
+Cards,32
+Carnival,16
+Cars,32
+Catgirl,64
+Catgirls,128
+Cautious,2
+Cave,16
+Caves,32
+Charming,2
+Child,66
+Children,128
+Chimera,18
+Chimeras,32
+Chronicles,32
+Chrono,2
+Church,16
+Churches,32
+Cities,32
+City,16
+Clever,2
+Climber,64
+Climbers,128
+Cognition,16
+Collector,64
+Collectors,128
+College,16
+Colossal,2
+Combat,24
+Complete,1
+Cop,66
+Cops,128
+Corrector,64
+Correctors,128
+Cosmic,3
+Cowboy,68
+Cowboys,128
+Crazy,2
+Creamy,2
+Crest,16
+Crests,32
+Crisis,16
+Crown,16
+Crowns,32
+Crusade,24
+Crusader,66
+Crusaders,128
+Crusades,32
+Cultural,3
+Culture,16
+Cultures,32
+Curious,2
+Cutey,67
+Cyber,2
+Cybernetics,48
+Dance,16
+Dancing,2
+Dangerous,2
+Daring,2
+Dark,6
+Date,8
+Day,16
+Daylight,24
+Days,32
+Deadly,2
+Death,8
+Demon,66
+Demonic,2
+Demons,128
+Destiny,8
+Detective,68
+Detectives,128
+Detonator,80
+Detonators,160
+Devil,66
+Devilish,2
+Devils,128
+Dimensional,3
+Dirge,16
+Dirty,2
+Disaster,16
+Disasters,32
+Diver,64
+Divers,128
+Doctor.68
+Doctors,128
+Doll,16
+Dolls,32
+Dragon,16
+Dragon,64
+Dragons,128
+Dragons,32
+Dream,26
+Dreamer,64
+Dreamers,128
+Dreams,32
+Driver,64
+Drivers,128
+Drug,16
+Drugs,32
+Dual,2
+Duke,4
+Dutchess,4
+Dying,2
+Dynamic,2
+Dynamite,16
+Egg,16
+Eggs,32
+Electric,2
+Electricity,24
+Electronic,2
+Elfin,2
+Eliminator,64
+Eliminators,128
+Emblem,16
+Emblems,32
+Energized,2
+Energy,16
+Esper.64
+Espers,128
+Evil,7
+Experiment,24
+Experimental,2
+Express,18
+Eyepatch,16
+Fairies,128
+Fairy,64
+Fancy,2
+Fatal,2
+Fatality,8
+Feather,16
+Feathers,32
+Female,66
+Fighter,64
+Fighters,128
+Fire,16
+Fist,16
+Fleet,16
+Fool,64
+Foolish,2
+Fools,128
+Force,24
+Forces,32
+Forest,16
+Formula,24
+Full,1
+Fury,16
+Future,10
+Future,26
+Future,8
+Gadget,16
+Gadgets,32
+Galactic,2
+Galaxies,32
+Galaxy,16
+Game,16
+Gamer,64
+Gamers,128
+Games,32
+Gate,16
+Gates,32
+Gender,24
+General,71
+Generals,128
+Generator,16
+Generators,32
+Genesis,8
+Geo,2
+Ghost,18
+Ghost,66
+Ghostly,2
+Ghosts,128
+Ghosts,32
+Giant,67
+Giants,32
+Girl,70
+Girls,128
+Gladiator,66
+Gladiators,68
+Glass,18
+God,64
+Gods,128
+Golden,2
+Good,2
+Gorgeous,2
+Gorgon,18
+Gorgons,32
+Grappler,64
+Grapplers,128
+Great,1
+Guardess,64
+Guardian,66
+Guardians,128
+Guerilla,66
+Guerillas,128
+Gunsmith,68
+Guy,64
+Guys,128
+Gyro,2
+Hades,536
+Half,18
+Hallucination,8
+Hand,16
+Handsome,2
+Haunted,2
+Head,16
+Healer,64
+Healers,128
+Heaven,24
+Heavenly,2
+Hell,24
+Her,1
+Heroic,2
+High,2
+Highschool,18
+His,1
+Hit,8
+Holographic,2
+Honey,16
+Honey,80
+Horror,24
+Horrors,32
+Hunter,64
+Hunters,128
+Hurricane,16
+Hyper,1
+Hyper,2
+Hyperion,8
+Ice,16
+Idiot,66
+Idiotic,2
+Idiots,128
+Idol,80
+Idols,160
+Illuminator,64
+illuminators,128
+Illustrious,2
+Immoral,2
+Immortal,2
+Impossible,2
+Incredible,2
+Initial,1
+Irresponsible,2
+Jamming,2
+Jazz,16
+Jet,18
+Jets,32
+Jewel,16
+Jewels,32
+Joke,26
+Journey,24
+Journies,32
+Jumper,64
+Jumpers,128
+Jumping,2
+Junction,16
+Junctions,32
+Justice,8
+Justice,8
+Karma,16
+Killer,64
+Killers,128
+King,68
+Kings,128
+Knight,64
+Knights,128
+Labrynth,16
+Ladies,128
+Lady,68
+Lake,16
+Lakes,32
+Last,3
+Laughing,2
+Laughter,8
+Layer,16
+Layers,32
+League,64
+Legal,2
+Legendary,2
+Legion,80
+Light,16
+Line,16
+Lines,32
+Link,16
+Links,32
+Living,2
+Living,2
+Lord,68
+Lords,128
+Lost,2
+Lost,3
+Love,24
+Love,24
+Lovely,2
+Lover,64
+Lovers,128
+Machine,18
+Machines,32
+Magic,10
+Magic,26
+Magical,2
+Magician,66
+Magicians,128
+Magic-User,66
+Magic-Users,128
+Maid,64
+Maids,128
+Major,5
+Marine,66
+Marines,128
+Marionettes,160
+Marionnete,80
+Marmalade,16
+Mask,16
+Masks,32
+Master,68
+Maze,16
+Mazes,32
+Mechanical,2
+Mega,2
+Melty,2
+Mermaid,64
+Mermaids,68
+Messiah,22
+Messiahs,32
+Metal,18
+Metal,18
+Micro,2
+Midnight,24
+Mighty,2
+Mind,24
+Miner,64
+Miners,128
+Minute,24
+Miracle,24
+Miracles,32
+Miss,68
+Mistress,68
+Mobile,6
+Mode,24
+Modern,2
+Monster,66
+Monsters,128
+Moon,16
+Moral,2
+Mortal,66
+Mortals,128
+Mountain,16
+Mountains,32
+Music,24
+Musical,18
+Musketeer,64
+Musketeers,128
+Mutant,66
+Mutants,128
+My,1
+Mysteries,32
+Mysterious,2
+Mystery,18
+Myth,16
+Myths,32
+Natural,2
+Neko,82
+Neo,3
+Nervous,2
+Night,24
+Nighttime,24
+Ninja,70
+Ninjas,128
+Noctournal,16
+Note,16
+Notes,32
+Nun,64
+Nuns,128
+Nurse,68
+Nurses,128
+Oblivion,24
+Ocean,16
+Oceans,32
+Ogre,64
+Ogres,128
+Orange,18
+Our,1
+Outlaw,66
+Outlaws,128
+Outrage,8
+Outrageous,3
+Pair,130
+Panzer,16
+Past,8
+Peach,16
+Perfect,2
+Phantom,66
+Phantoms,128
+Phoenix,16
+Phoenixes,32
+Pink,2
+Planet,16
+Planetary,3
+Planets,32
+Play,16
+Police,130
+Posession,16
+Power,24
+Powered,2
+Powers,32
+Pretty,2
+Pretty,2
+Priest,64
+Priestess,68
+Priestesses,128
+Priests,128
+Prince,68
+Princes,128
+Princess,68
+Princesses,128
+Professor,68
+Professors,128
+Project,24
+Projects,32
+Psychic,66
+Psychics,128
+Psycho,66
+Psychos,128
+Quack,2
+Queen,68
+Queens,128
+Quest,16
+Quests,32
+Racer,64
+Racers,128
+Rage,24
+Ragnarok,24
+Rancher.64
+Ranchers,128
+Ray,16
+Report,16
+Reports,32
+Ressurection,8
+Ressurection.24
+Restraunt,16
+Revelation,24
+Revelations,32
+Revolution,24
+Revolutionary,2
+Revolutions,32
+Rider,64
+Riders,128
+Riding,2
+Road,16
+Roads,32
+Robo,66
+Robot,70
+Robots,128
+Rock,16
+Rogue,66
+Rogues,128
+Romance,24
+Romance,8
+Romantic,2
+Ronin,192
+Royal,2
+Ruin,16
+Ruins,32
+Rune,24
+Runes,32
+Saber,16
+Sabers,32
+Saga,16
+Sagas,32
+Sailor,68
+Sailors,128
+Saint,68
+Saints,128
+Salvation,8
+Samurai,194
+Sanctuary,16
+Savior,18
+Saviors,32
+School,16
+Schools,32
+Scroll,16
+Scrolls,32
+Searphim,192
+Secret,10
+Secret,18
+Secrets,32
+Seed,16
+Seeds,32
+Seeker,64
+Seekers,128
+Seraphic,2
+Serial,2
+Shadow,16
+Shadows,32
+Sherrif,64
+Sherrifs,128
+Showdown,16
+Signal,16
+Signals,32
+Silky,2
+Singer,64
+Singers,128
+Singing,2
+Siren,64
+Sirens,128
+Skill,16
+Skills,32
+Skipper,64
+Skippers,128
+Slayer,64
+Slayers,128
+Soldier,64
+Soldiers,128
+Song,16
+Songs,32
+Sonic,2
+Sonnet,16
+Sorceress.68
+Sorceresses,128
+Sorceror,68
+Sorcerors,128
+Space,24
+Space,24
+Spaceship,16
+Speed,8
+Spell,16
+Spells,32
+Spirit,82
+Spirits,128
+Squadron,80
+Stalker,64
+Stalkers,128
+Star,16
+Stars,32
+Starship,16
+Starships,32
+Steam,16
+Stone,18
+Stones,32
+Street,16
+Streets,32
+Streets,32
+Strike,8
+Submarine,18
+Submarines,32
+Suit,16
+Suits,32
+Sun,16
+Super,2
+Super-dimensional,3
+Sweeper,128
+Sweeper,64
+Sword,16
+Sword,16
+Swords,32
+Swords,32
+Tail,16
+Teacher,68
+Teachers,128
+Temple,16
+Temples,32
+Terror,24
+Their,1
+Theives,128
+Thief,64
+Thunder,24
+Time,8
+Today's,2
+Tokyo,16
+Tomorrow's,2
+Total,1
+Total,1
+Tracer,64
+Tracers,128
+Tracker,64
+Trackers,128
+Trinity,10
+Triton,64
+Tritons,128
+Trooper,64
+Troopers,128
+Truck,16
+Trucks,32
+Tunnel,16
+Tunnels,32
+Turbo,3
+Twilight,24
+Twilight,24
+Twin,2
+Twins,128
+UFO,16
+Ultimate,1
+Universal,3
+Universe,16
+Universes,32
+Unthinkable,2
+Vampire,66
+Vampires,128
+Variable,1
+Velocity,8
+Victor,64
+Victors,128
+Virgin,66
+Virgins,128
+Virtual,2
+Virus,16
+Wandering,2
+Warp,16
+Warps,32
+Warrior,70
+Warriors,128
+Weather,24
+Wedding,16
+Weddings,32
+Whip,16
+Wicked,2
+Wild,2
+Wing,16
+Wings,32
+Witch,64
+Witches,128
+Wonder,24
+Wonders,32
+World,16
+Worlds,32
+Yesterday's,1
+Zepplin,16
+Zepplins,32
+Zone,16
+Zones,32
+//Numerics
+Alpha,256
+Beta,256
+Gamma,256
+Delta,256
+Epsilon,256
+Zeta,256
+Eta,256
+Theta,256
+Iota,256
+Kappa,256
+Lambda,256
+Mu,256
+Nu,256
+Xi,256
+Omicron,256
+Pi,256
+Rho,256
+Sigma,256
+Tau,256
+Upsilon,256
+Phi,256
+Chi,256
+Psi,274
+Omega,256
+One,256
+Two,256
+Three,256
+Four,256
+Five,256
+Six,256
+Seven,256
+Eight,256
+Nine,256
+Ten,256
+One-Hundred,256
+One-Thousand,256
+One-Million,256
+Ein,256
+Zwei,256
+Drei,256
+Vier,256
+Funf,256
+Sechs,256
+Sieben,256
+Acht,256
+Neun,256
+Zehn,256
+Hundred,256
+Tausend,256
+Million,256
+Aleph,256
+Beth,256
+Gimel,256
+Daleth,256
+He,256
+Vau,256
+Zayin,256
+Cheth,256
+Teth,256
+Yod,256
+Kaph,256
+Lamed,256
+Mem,256
+Nun,256
+Samek,256
+Ayin,256
+Pe,256
+Tzaddi,256
+Quopf,256
+Resh,256
+Shin,256
+Tau,256
+A,256
+B,256
+C,256
+D,256
+E,256
+F,256
+G,256
+H,256
+I,256
+J,256
+K,256
+L,256
+M,256
+N,256
+O,256
+P,256
+Q,256
+R,256
+S,256
+T,256
+U,256
+V,256
+W,256
+X,256
+Y,256
+Z,256
+//Names
+Sakura,512
+Tenchi,512
+Hikaru,512
+Usagi,512
+//Hold Names
+Akihiko,512
+Akira,512
+Bokkai,512
+Chikao,512
+Chojiro,512
+Daisuke,512
+Eiji,512
+Ennosuke,512
+Etsuya,512
+Fujimaro,512
+Fumio,512
+Genjo,512
+Gennosuke,512
+Go,512
+Hajime,512
+Haru,512
+Hiroya,512
+Hiroyasu,512
+Hiroyuki,512
+Ichiro,512
+Ikki,512
+Isamu,512
+Jin,512
+Jinzaburo,512
+Jiro,512
+Jou,512
+Jun,512
+Ken,512
+Kaii,512
+Kakuei,512
+Kanjiro,512
+Kaoru,512
+Katsumi,512
+Keitaro,512
+Kenichi,512
+Kenji,512
+Kenjiro,512
+Kenkichi,512
+Koshiro,512
+Kyoden,512
+Makoto,512
+Mamoru,512
+Masahiko,512
+Masamune,512
+Masato,512
+Meiji,512
+Mobumasu,512
+Motoki,512
+Naizen,512
+Naosuke,512
+Naoya,512
+Nichiren,512
+Nori,512
+Oda,512
+Okakura,512
+Otojiro,512
+Razan,512
+Roku,512
+Rosanjin,512
+Ryo,512
+Ryoichi,512
+Sadatake,512
+Sanjiro,512
+Sanjuro,512
+Sanzo,512
+Satoshi,512
+Seiki,512
+Shigematsu,512
+Shingen,512
+Shinzo,512
+Sho,512
+Shun,512
+Sosuke,512
+Tadamasa,512
+Tadamichi,512
+Taisuke,512
+Takao,512
+Takashi,512
+Takuma,512
+Tashiro,512
+Tasuku,512
+Teinosuke,512
+Tetsuo,512
+Toki,512
+Tsugiharu,512
+Tsukasa,512
+Ukyo,512
+Washichi,512
+Yamato,512
+Yasuo,512
+Yoichi,512
+Yoshiki,512
+Yoshimasa,512
+Yoshio,512
+Yuichi,512
+Yuki,512
+Yusuke,512
+Yutaka,512
+Zenko,512
+Zeshin,512
+Ai,512
+Aiko,512
+Akane,512
+Aki,512
+Ayame,512
+Chiaki,512
+Chinatsu,512
+Chisato,512
+Eiko,512
+Emiko,512
+Eri,512
+Eriko,512
+Fumi,512
+Fumiki,512
+Fumiko,512
+Gemmei,512
+Ginko,512
+Hama,512
+Hana,512
+Hanako,512
+Haniko,512
+Haruko,512
+Harumi,512
+Inoue,512
+Isako,512
+Ise,512
+Itsuko,512
+Izumi,512
+Jun,512
+Junko,512
+Kaede,512
+Kameko,512
+Kaneko,512
+Kaori,512
+Kazumi,512
+Kinuye,512
+Kinuyo,512
+Kyoko,512
+Machiko,512
+Madoka,512
+Mai,512
+Mami,512
+Matsu,512
+Midori,512
+Mieko,512
+Minako,512
+Mio,512
+Misako,512
+Misato,512
+Miya,512
+Momoko,512
+Nami,512
+Nanako,512
+Nanami,512
+Naoko,512
+Naora,512
+Narumi,512
+Natsuko,512
+Natsumi,512
+Nayoko,512
+Nene,512
+Oharu,512
+Oki,512
+Rei,512
+Reiko,512
+Rika,512
+Risako,512
+Ritsuko,512
+Ryo,512
+Ryoko,512
+Sakurako,512
+Saori,512
+Tadako,512
+Tomoko,512
+Umeka,512
+Umeko,512
+Yayoi,512
+Yoshiko,512
+Yu,512
+//legendary
+Aphrodite,512
+Ares,512
+Artemis,512
+Balder,512
+Bast,512
+Beowuf,512
+Circe,512
+Diana,512
+Freya,512
+Gaia,512
+Grendel,512
+Hera,512
+Hermes,512
+Horus,512
+Isis,512
+Jupiter,512
+Loki,512
+Merlin,512
+Minerva,512
+Odin,512
+Odysseus,512
+Osiris,512
+Persephone,512
+Set,512
+Thor,512
+Thoth,512
+Vulcan,512
+Zeus,512
+//Oddball connector
+X, 1024
+:, 1024
+-,1024
+\,1024
+~,1024
++,1024

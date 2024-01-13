@@ -1,0 +1,8 @@
+Male
+	MALE
+		wrestlernamegendat.txt
+		wrestlernamegenmaledat.txt
+Female
+	FEMALE
+		wrestlernamegendat.txt
+		wrestlernamegenfemaledat.txt

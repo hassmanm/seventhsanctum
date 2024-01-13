@@ -1,0 +1,190 @@
+//Vocab types:
+//1 - Descriptor
+//2 - Object
+//4 - Abstract Object
+//8 - Abstract Actor
+//16 - Specific Actor
+//32 - General
+--ORGANIZATION
+1,2,16
+The , , ,
+1,16
+The , ,
+2,16
+The , ,
+16,4
+The , of ,
+1,16,4
+The , , of ,
+1,8
+The , ,
+2,8
+The , ,
+8,4
+The , of ,
+32,4
+The , of ,
+//Vocabulary
+--VOCABULARY
+//1 - Descriptor
+Ancestral,1
+Ancient,1
+Black,1
+Blasphemous,1
+Blessed,1
+Bloodstained,1
+Bloody,1
+Brutal,1
+Celestial,1
+Cursed,1
+Dark,1
+Deadly,1
+Demonic,1
+Dreadful,1
+Eternal,1
+Forbidden,1
+Forgotten,1
+Grand,1
+Grand,1
+Great,1
+Heavenly,1
+Hellish,1
+Honorable,1
+Immortal,1
+Inescapable,1
+Infernal,1
+Legendary,1
+Mortal,1
+Mysterious,1
+Mystic,1
+Noble,1
+Sacred,1
+Secret,1
+Shadowed,1
+Shadowy,1
+Terrible,1
+Terrifying,1
+Twisted,1
+Unholy,1
+Unknowable,1
+Unknown,1
+Unspeakable,1
+Unthinkable,1
+Wicked,1
+Agonizing,1
+Painful,1
+Solitary,1
+//2 - Object, 4-Abstract objects
+Agony,4
+Agony,6
+Annihilation,4
+Blasphemy,4
+Blood,6
+Bone,7
+Brutality,4
+Chaos,6
+Crystal,3
+Danger,6
+Darkness,4
+Death,6
+Deception,4
+Demons,4
+Desolation,4
+Despair,4
+Destiny,6
+Destruction,4
+Devils,4
+Dissolution,4
+Doom,6
+Dream,2
+Dreams,4
+Falsehood,4
+Fate,4
+Fear,6
+Fire,6
+Fire,6
+Flame,6
+Flesh,6
+Hate,4
+Hate,4
+Hell,6
+Honor,4
+Horror,4
+Ice,6
+Illusion,6
+Illusions,4
+Insanity,4
+Iron,7
+Knights,4
+Lies,4
+Madness,4
+Martial Arts,2
+Memories,4
+Metal,7
+Mirages,4
+Misery,4
+Monsters,4
+Mysteries,4
+Mystery,2
+No Return,4
+Nothingness,4
+Oblivion,4
+Pain,6
+Secret,3
+Secrets,4
+Shadows,4
+Silence,6
+Snares,4
+Solitude,4
+Souls,4
+Spirits,4
+Steel,7
+Storm,2
+Storms,4
+Suffering,4
+Terror,6
+Thunder,6
+Torture,6
+Traps,4
+War,4
+Void,3
+Warriors,4
+//8 - Abstract Actor
+Battle,12
+Bloodshed,12
+Challenge,8
+Championship,8
+Clash,8
+Combat,8
+Conflict,12
+Contest,8
+Duel,8
+Fight,8
+Game,8
+Match,8
+Test,8
+Warfare,12
+//16 - Specific Actor
+Arena,16
+Circle,56
+Coliseum,16
+Contest,24
+Field,16
+Pit,48
+Stadium,16
+Tournament,24
+Zone,56
+//32 - General
+Abyss,32
+Battlefield,48
+Demense,32
+Domain,48
+Fields,32
+Gauntlet,48
+Hall,32
+Halls,32
+Keep,32
+Labrynth,32
+Maze,32
+Paths,32
+Sands,32

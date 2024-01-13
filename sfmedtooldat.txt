@@ -1,0 +1,305 @@
+//1 Descriptor          Cybernetic
+//2 SF Object           Singularity
+//4 Biological object   Tissue
+//8 Prefix-Med          Bio
+//16 Prefix-Gen         Cyber
+//32 Tool General       Scalpel
+//64 Tool, specific     Defibrillator
+//128 Generic           Inducer
+//256 Suffix            -scope
+--ORGANIZATION
+//BASICS
+1,32
+, ,
+1,64
+, ,
+2,32
+, ,
+2,64
+, ,
+4,32
+, ,
+4,128
+, ,
+8,32
+,,
+8,128
+,,
+8,256
+,,
+16,32
+,,
+//DESCS
+1,4,32
+, , ,
+1,4,128
+, , ,
+1,8,32
+, ,,
+1,8,128
+, ,,
+1,8,256
+, ,,
+1,16,32
+, ,,
+//Object
+2,8,32
+, ,,
+2,8,128
+, ,,
+2,8,256
+, ,,
+4,16,32
+, ,,
+4,16,128
+, ,,
+--VOCABULARY
+//1 Descriptor
+Adaptable,1
+Bionic,1
+Computerized,1
+Configurable,1
+Cybernetic,1
+Dimensional,3
+Dynamic,1
+Interfaced,1
+Phased,1
+Spatial,2
+Spatial,3
+Stabilized,1
+Variable,1
+Virtual,1
+//2 SF Object
+Antimatter,2
+Atomic,2
+Catalytic,2
+Circuit,2
+Cosmic,2
+Covalent,2
+Electromagnetic,2
+Energized,2
+Energy,2
+Flux,2
+Gravitic,2
+Hyperspatial,2
+Ionic,2
+Laser,2
+Magnetic,2
+Magnetized,2
+Maser,2
+Maser,2
+Morphic,6
+Nanotech,2
+Neutronium,2
+Nuclear,2
+Particle,2
+Protonic,2
+Psionic,2
+Quantum,2
+Resonant,3
+Resonating,2
+Singularity,2
+Sonic,2
+Subspace,2
+Ultrasonic,2
+Vortex,2
+Warp,2
+Zero-Gravity,2
+Zero-Point,2
+//4 Biological object
+Adrenaline,4
+Adipose,4
+Artery,4
+Bacteria,4
+Bile,4
+Bladder,4
+Blood,4
+Bone,4
+Brain,4
+Cancer,4
+Cartilage,4
+Cell,4
+Cerebellum,4
+Clot,4
+Colon,4
+Cranium,4
+Digit,4
+Ear,4
+Encephalon,4
+Eye,4
+Gland,4
+Galbladder,4
+Heart,4
+Intestine,4
+Joint,4
+Kidney,4
+Larynx,4
+Liver,4
+Lung,4
+Lymph,4
+Mucus,4
+Muscle,4
+Nerve,4
+Neurotransmitter,4
+Organ,4
+Retina,4
+Saliva,4
+Skin,4
+Tooth,4
+Tissue,4
+Tumor,4
+Vein,4
+Vertebrae,4
+Viscera,4
+Virus,4
+//8 Prefix-Med
+Acouso,8
+Adeno,8
+Adipo,8
+Adreno,8
+Angio,8
+Arterio,8
+Bacterio,8
+Bio,8
+Brachio,8
+Bronchi,8
+Carcino,8
+Cardio,8
+Cephalo,8
+Cerebello,8
+Chemo,24
+Cholecysto,8
+Chondrio,8
+Colono,8
+Costo,8
+Cranium,8
+Cutane,8
+Cyto,8
+Dacrio,8
+Dento,8
+Dermo,8
+Deuodeno,8
+Encephalo,8
+Entero,8
+Facio,8
+Fibro,24
+Gastro,8
+Gingivo,8
+Glosso,8
+Hemato,8
+Hepato,8
+Histo,8
+Ileo,8
+Irido,8
+Ischio,8
+Karyo,8
+Kerato,8
+Lacrimo,8
+Laparo,8
+Laryngo,8
+Linguo,8
+Lympho,8
+Meningo,8
+Musculo,8
+Myo,8
+Myelo,8
+Naso,8
+Necro,8
+Nephor,8
+Neuro,8
+Oculo,8
+Onco,8
+Opthalmo,8
+Optico,8
+Osteo,8
+Pharyngo,8
+Phelbo,8
+Pleuro,8
+Retino,8
+Salpingo,8
+Sangui,8
+Sialo,8
+Sigmoido,8
+Somato,8
+Splanchno,8
+Spleno,8
+Stomato,8
+Thoraco,8
+Thrombo,8
+Tracheo,8
+Typmano,8
+Umbilico,8
+Ungui,8
+Uro,8
+Utero,8
+Vaso,8
+Vasculo,8
+Ventro,8
+Vesico,8
+Viscero,8
+//16 Prefix-Gen
+Aqua,16
+Astro,16
+Atomi,16
+Bioni,16
+Cosmo,16
+Cryo,16
+Cyber,16
+Dyna,16
+Electro,16
+Fluro,16
+Gyro,16
+Helio,16
+Hydro,16
+Iso,16
+Litho,16
+Macro,16
+Micro,16
+Mega,16
+Nucleo,24
+Pseudo,16
+Psi,16
+Pyro,16
+Quasi,16
+Soni,16
+Terra,16
+Ultra,16
+Vibro,16
+Xeno,16
+//32 Tool General
+Brace,32
+Clamp,32
+Forceps,32
+Probe,160
+Ressecutator,224
+Retractor,32
+Sanitizer,160
+Scalpel,32
+Scalpel,32
+Splint,32
+Sterilizer,160
+//64 Tool, specific
+Aspirator,64
+Defibrillator,64
+Endoscope,64
+Hypodermic,64
+Opthalmascope,64
+Otoscope,64
+Retinoscope,64
+Stethoscope,64
+Thermometer,96
+//128 Generic
+Cauterizer,192
+Cutter,128
+Eliminator,128
+Enhancer,128
+Fuser,128
+Healer,128
+Inducer,128
+Remover,128
+Separator,128
+Supporter,128
+Sticher,128
+//256 Suffix
+meter,256
+scope,256

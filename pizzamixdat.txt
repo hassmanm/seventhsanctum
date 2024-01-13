@@ -1,0 +1,236 @@
+//Vocab types:
+//1 - Cheese
+//2 - Toppings
+//4 - Meat
+//8- Spices
+//16-Sauces
+//
+--ORGANIZATION
+// Mixes
+2,4
+A pizza with , and ,.
+//3 ingredients
+2,2,4
+A pizza with ,<COMMA> ,<COMMA> and ,.
+2,4,4
+A pizza with ,<COMMA> ,<COMMA> and ,.
+//4 Ingredients
+2,2,2,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//5 ingredients
+2,2,2,2,4
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,.
+//6 ingredients
+2,2,2,2,2,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//7 ingredients
+2,2,2,2,2,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//8 ingredients
+2,2,2,2,2,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//9 ingredients
+2,2,2,2,2,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//10 ingredients
+2,2,2,2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+// Mixes with one spice
+2,4,8
+A pizza with ,<COMMA> ,<COMMA> and ,.
+//3 ingredients
+2,2,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//4 Ingredients
+2,2,2,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//5 ingredients
+2,2,2,2,4,8
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,8
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//6 ingredients
+2,2,2,2,2,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,4,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//7 ingredients
+2,2,2,2,2,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,4,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//8 ingredients
+2,2,2,2,2,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,4,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//9 ingredients
+2,2,2,2,2,4,4,4,4,8
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+2,2,2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+//10 ingredients
+2,2,2,2,2,4,4,4,4,4
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,.
+// Mixes with one cheese.
+2,4,1
+A pizza with , and ,<COMMA> topped with ,.
+//3 ingredients
+2,2,4,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,1
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//4 Ingredients
+2,2,2,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//5 ingredients
+2,2,2,2,4,1
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,1
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//6 ingredients
+2,2,2,2,2,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//7 ingredients
+2,2,2,2,2,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//8 ingredients
+2,2,2,2,2,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//9 ingredients
+2,2,2,2,2,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//10 ingredients
+2,2,2,2,2,4,4,4,4,4,1
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+// Mixes with one sauce
+2,4,16
+A pizza with , and ,<COMMA> topped with ,.
+//3 ingredients
+2,2,4,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,16
+A pizza with ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//4 Ingredients
+2,2,2,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//5 ingredients
+2,2,2,2,4,16
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,16
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA>,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//6 ingredients
+2,2,2,2,2,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//7 ingredients
+2,2,2,2,2,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//8 ingredients
+2,2,2,2,2,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//9 ingredients
+2,2,2,2,2,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+2,2,2,2,4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.
+//10 ingredients
+2,2,2,2,2,4,4,4,4,4,16
+A pizza with ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,<COMMA> topped with ,.

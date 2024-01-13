@@ -1,0 +1,72 @@
+General
+	GENERAL
+		qcgeneralbasedat.txt
+		qcgeneralprofdat.txt
+Anime - All
+	ANIMEALL
+		qcanimemagicgirldat.txt
+		qcanimemontraindat.txt
+		qcanimesuperrobotdat.txt
+		qcgeneralbasedat.txt
+Anime - Magical Girl
+	ANIMEMAGICGIRL
+		qcanimemagicgirldat.txt
+		qcgeneralbasedat.txt
+Anime - Monster Trainer
+	ANIMEMONTRAIN
+		qcanimemontraindat.txt
+		qcgeneralbasedat.txt
+Anime - Super Robot
+	ANIMESUPERROBOT
+		qcanimesuperrobotdat.txt
+		qcgeneralbasedat.txt
+Fantasy:General
+	FANTASYGEN
+		qcgeneralbasedat.txt
+		qcgeneralprofdat.txt
+		qcfantasyelemdat.txt
+		qcfantasyprofdat.txt
+Fantasy:Specific
+	FANTASYSPEC
+		qcgeneralbasedat.txt
+		qcfantasyelemdat.txt
+		qcfantasyprofdat.txt
+Modern: General
+	MODGENERAL
+		qcgeneralbasedat.txt
+		qcgeneralprofdat.txt
+		qcmodernprofdat.txt
+RPG: Dungeons and Dragons
+	RPGDND
+		qcgeneralbasedat.txt
+		qcfantasyelemdat.txt
+		qcrpgdnddat.txt
+RPG: Phantasy Star Online
+	RPGPSO
+		qcgeneralbasedat.txt
+		qcrpgpsodat.txt
+Science-Fiction: General
+	SFGENERAL
+		qcgeneralbasedat.txt
+		qcmodernprofdat.txt
+		qcscifigeneralprofdat.txt
+		qcscifistarshipprofdat.txt
+		qcscifigeneralelemdat.txt
+Science-Fiction: Specific, Non-starship
+	SFSPECNOSTARSHIP
+		qcgeneralbasedat.txt
+		qcscifigeneralprofdat.txt
+		qcscifigeneralelemdat.txt
+Science-Fiction: Specific, Starship Crews
+	SFSPECSTARSHIP
+		qcgeneralbasedat.txt
+		qcscifistarshipprofdat.txt
+		qcscifigeneralelemdat.txt
+Science-Fiction: All Kinds
+	SFALL
+		qcgeneralbasedat.txt
+		qcgeneralprofdat.txt
+		qcmodernprofdat.txt
+		qcscifigeneralprofdat.txt
+		qcscifistarshipprofdat.txt
+		qcscifigeneralelemdat.txt

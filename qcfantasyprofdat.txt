@@ -1,0 +1,62 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+alchemist,8
+archer,8
+arch-mage,8
+arch-druid,8
+astrologer,8
+barbarian,8
+bard,8
+beastmaster,8
+blacksmith,8
+bowman,8
+cartographer,8
+circuit priest,8
+circuit priestess,8
+coachman,8
+conjurer,8
+demonologist,8
+druid,8
+duke,8
+dutchess,8
+dungeon delver,8
+elementalist,8
+exorcist,8
+fisherman,8
+fortune-teller,8
+gladiator,8
+grave robber,8
+healer,8
+herbologist,8
+king,8
+knight,8
+magician,8
+monk,8
+necromancer,8
+noble,8
+nun,8
+occultist,8
+paladin,8
+peasant,8
+prince,8
+princess,8
+prophet,8
+queen,8
+ranger,8
+rat-catcher,8
+scribe,8
+seer,8
+shaman,8
+tomb-robber,8
+treasure-hunter,8
+watchman,8
+witch-hunter,8
+wizard,8

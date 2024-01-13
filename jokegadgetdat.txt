@@ -1,0 +1,596 @@
+//Vocab types:
+//1 Prefix
+//2 Descriptor, Serious
+//4 Descriptor, Silly
+//8 Descriptor-Spec-Tec
+//16 Object-Serious
+//32 Object-Silly
+//64 Actor-Serious
+//128 Actor-Silly
+//256 - Active Actor Serious
+//512 - Active-Actor silly
+//1024 - Suffix
+--ORGANIZATION
+//Prefixed
+2,1,128
+, ,,
+2,1,512
+, ,,
+2,4,1,64
+, , ,,
+2,4,1,256
+, , ,,
+2,8,1,128
+, , ,,
+2,8,1,512
+, , ,,
+2,32,1,64
+, , ,,
+2,32,1,256
+, , ,,
+4,1,64
+, ,,
+4,1,256
+, ,,
+4,8,1,64
+, , ,,
+4,8,1,128
+, , ,,
+4,8,1,256
+, , ,,
+4,8,1,512
+, , ,,
+4,16,1,128
+, , ,,
+4,16,1,512
+, , ,,
+8,1,128
+, ,,
+8,1,512
+, ,,
+8,16,1,128
+, , ,,
+8,16,1,512
+, , ,,
+8,32,1,64
+, , ,,
+8,32,1,256
+, , ,,
+16,1,128
+, ,,
+16,1,512
+, ,,
+32,1,64
+, ,,
+32,1,256
+, ,,
+//Suffix
+2,512,1024
+, ,,
+2,4,256,1024
+, , ,,
+2,8,512,1024
+, , ,,
+2,32,256,1024
+, , ,,
+4,256,1024
+, ,,
+4,8,256,1024
+, , ,,
+4,8,512,1024
+, , ,,
+4,16,512,1024
+, , ,,
+8,512,1024
+, ,,
+8,16,512,1024
+, , ,,
+8,32,256,1024
+, , ,,
+16,512,1024
+, ,,
+32,256,1024
+, ,,
+//Basics
+2,128
+, ,
+2,512
+, ,
+2,4,64
+, , ,
+2,4,256
+, , ,
+2,8,128
+, , ,
+2,8,512
+, , ,
+2,32,64
+, , ,
+2,32,256
+, , ,
+4,64
+, ,
+4,256
+, ,
+4,8,64
+, , ,
+4,8,128
+, , ,
+4,8,256
+, , ,
+4,8,512
+, , ,
+4,16,128
+, , ,
+4,16,512
+, , ,
+8,128
+, ,
+8,512
+, ,
+8,16,128
+, , ,
+8,16,512
+, , ,
+8,32,64
+, , ,
+8,32,256
+, , ,
+16,128
+, ,
+16,512
+, ,
+32,64
+, ,
+32,256
+, ,
+//Vocabulary
+//1 Prefix
+//2 Descriptor, Serious
+//4 Descriptor, Silly
+//8 Descriptor-Spec-Tec
+//16 Object-Serious
+//32 Object-Silly
+//64 Actor-Serious
+//128 Actor-Silly
+//256 - Active Actor Serious
+//512 - Active-Actor silly
+//1024 - Suffix
+--VOCABULARY
+yzer,1024
+ator,1024
+ion,1024
+oid,1024
+anoid,1024
+izer,1024
+azer,1024
+org,1024
+noid,1024
+-a-tron,1024
+-o-mat,1024
+-o-meter,1024
+Ablative,2
+Acid,16
+Adapter,320
+Aero,1
+Algebraic,4
+Alternating,2
+Alternator,256
+Amplifier,256
+Annoyer,512
+Annoying,4
+Antimatter,18
+Aqua,1
+Articulated,2
+Asphalt,32
+Astro,1
+Atomic,8
+Atom-powered,8
+Automated,2
+Automatic,2
+Awesome,4
+Bacon,36
+Bacteria,16
+Bacterial,2
+Baklava,32
+Balsa,4
+Barfer,512
+Baseball,36
+Batter-dipped,4
+Battery,80
+Beer,36
+Belcher,512
+Bio,1
+Bionic,2
+Blackjack,128
+Blaster,256
+Blender,128
+Blender,160
+B-Movie,4
+Bomb,64
+Booger,32
+Booster,256
+Booze,160
+Bra,128
+Bread,32
+Broccoli,32
+Bullet,80
+Burbon,160
+Bureaucracy,32
+Bureaucratic,4
+Burrito,164
+Cabbage,164
+Cactus,32
+Cake,160
+Calculator,320
+Candy-coated,4
+Cannon,64
+Canoe,128
+Carb-Free,4
+Carbon,16
+Carbonated,4
+Catcher,256
+Cell,16
+Chain,16
+Chaps,128
+Cheese,164
+Chemical,18
+Cherry,36
+Chip,80
+Chocolate,36
+Chocolate-coated,4
+Chrono,1
+Cigar,160
+Cinnamon,36
+Circuit,16
+Cloaker,256
+Cocoa,164
+Coffee,164
+Cog,16
+Cola,32
+Cola,32
+Coleslaw,32
+Complaining,4
+Compu,1
+Computer,64
+Computerized,10
+Concealer,256
+Concrete,48
+Configurable,2
+Controller,256
+Corset,160
+Cosmo,1
+Country-fried,4
+Cremator,256
+Cryo,1
+Cryogenic,2
+Cubicle,160
+Cufflink,128
+Cupcake,32
+Cybernetic,2
+Daffodil,32
+Dancer,512
+Data-driven,2
+Death,16
+Deep-fried,4
+Deleter,256
+Desk,128
+Detector,256
+Detonator,256
+Dimension,16
+Dimensional,2
+Disco,36
+Doodler,512
+Drive,80
+Driver,256
+Drywall,32
+Dyna,1
+Dynamic,2
+Ectoplasm,16
+Ectoplasmic,2
+Egg,32
+Eggbeater,128
+Electrical,8
+Electro,1
+Electrocuter,256
+Electromagnetic,8
+Electron,16
+Electronic,8
+Elevator,256
+Eliminator,256
+Emergency,2
+Ensnarer,256
+Explosive,10
+Expresso,164
+Extra-dimensional,2
+Eyedrop,160
+Eyelash,32
+Eyeliner,128
+Fabulous,4
+Falafel,32
+Fedora,128
+Flamboyant,4
+Flatuence,32
+Flatulence,32
+Flatulent,4
+Flowchart,160
+Fluro,1
+Flyer,256
+Football,160
+Fork,160
+Freezer,256
+Frictionless,2
+Fried,4
+Frosted,4
+Frosting,32
+Fusion-powered,8
+Fuzzy-Wuzzy,4
+Garlic,36
+Gastrointestinal,4
+Gauss,16
+Gear,16
+Geo,1
+Geometric,2
+Gin,36
+Glider,256
+Gluteal,4
+Golf Club,128
+Golf,32
+Golfing,4
+GPS-Enabled,2
+Gravitic,2
+Graviton,16
+Grenade,80
+Groper,512
+Grout,160
+Guitar,128
+Gyrating,2
+Gyro,1
+Gyroscope,16
+Gyroscopic,10
+Gyro-stabilized,10
+H.R.,4
+Hairline,32
+Hairspray,160
+Halitosis,32
+Halitosis,32
+Hankerchief,128
+Haribrush,128
+Healer,256
+Healing,2
+Heavy-Metal,4
+Helio,1
+High-Speed,2
+Hockey,32
+Holder,256
+Home Economics,32
+Hot Pants,128
+Hummus,32
+Hyper,1
+Ignorance,32
+Illiteracy,32
+Illuminator,256
+Incinerating,2
+Incinerator,256
+Indicator,256
+Industrial-strength,2
+Infuriator,512
+Insulter,512
+Internet-enabled,10
+Irritant,164
+ISO 900-compliant,6
+Itching,4
+Itchy,4
+Jalapino,36
+Janitorial,4
+Java,32
+Jazz,36
+Jeans,128
+Jockstrap,128
+Joker,512
+Jukebox,128
+Kazoo,128
+Kilo,1
+Klein Bottle,80
+Knitting,164
+Kyak,128
+Ladle,128
+Lampshade,160
+Latte,160
+Levitator,256
+Lint,32
+Lipstick,160
+Litho,1
+Low-Carb,4
+Macro,1
+Magnetic,8
+Magnetizing,2
+Management,2
+Mascara,160
+Masker,256
+Mecha,1
+Mechano,1
+Mega,1
+Melter,256
+Military,2
+Military-grade,2
+Milk,32
+Minaturized,2
+Minty,4
+Missile,80
+Mobius,2
+Moccasins,128
+Modified,2
+Moleculo,1
+Mollusk,32
+Moronic,4
+Morse,6
+Motor,80
+Muffin,32
+Multi,1
+Multi-Function,2
+Mutillator,256
+Nailclipper,128
+Nailfile,128
+Nasal,4
+Negator,256
+Neutron,16
+Non-Euclidian,2
+Notebook,128
+Notepad,128
+Nuclear,8
+Nuclear-Powered,8
+Nucleo,1
+Oar,128
+Obliterator,256
+Ogler,512
+Ohm,16
+Onion,32
+Onion,36
+Oscillating,2
+Oscillator,256
+Oven Mitt,128
+Panties,128
+Pantyhose,128
+Paperclip,128
+Paralyser,256
+Paranormal,2
+Passenger-side,6
+Pencil,128
+Pepper,32
+Pepper,36
+Piano,128
+Pimple,32
+Pinball,160
+Piston,80
+Plaid,4
+Plywood,36
+Polarized,2
+Polka,36
+Polymorphic,2
+Potato,32
+Potato-peeler,128
+Prancer,512
+Pranker,512
+Probe,80
+Programmable,2
+Proton,16
+Prowler,256
+Pushpin,160
+Pyro,1
+Rainbow,36
+Rap,32
+Rapper,512
+Raspberry,36
+Refittable,2
+Repairing,2
+Retro,1
+Rhymer,512
+Rice,32
+Rocket,80
+Rollerskates,128
+Salt,32
+Sandals,128
+Scarf,160
+Schizo,1
+Scotch,160
+Second-Hand,4
+Self-Regulating,2
+Sensor,256
+Shampoo,160
+Simulator,256
+Skateboard,128
+Slapper,512
+Slippers,128
+Smoker,512
+Sneezer,512
+Snorter,512
+Snot,32
+Soap,160
+Socks,128
+Socks,128
+Sofa,128
+Souffle,32
+Soup,32
+Soup,32
+Spanker,512
+Spastic,4
+Spazzer,512
+Speed,16
+Spit,32
+Spoon,128
+Spork,160
+Stabilized,2
+Staple,32
+Stapler,128
+Stasis,16
+Stealer,256
+Stickpin,160
+Stinker,512
+Stinky,2
+Stir-fry,32
+Stocking,128
+Stupid,4
+Stupidity,32
+Sub-spatial,2
+Subtraction,32
+Succotash,32
+Sugar,32
+Supersonic,10
+Suppository,32
+Surfboard,128
+Surfboard,32
+Sweater,160
+Tablecloth,32
+Tack,32
+Taco,32
+Tape,32
+Targeter,320
+Targeting,2
+Tea,32
+Techno,1
+Teleporter,256
+Thermos,160
+Thread,36
+Tie,128
+Tile,36
+Time,16
+Tofu,160
+Top-hat,128
+Transforming,2
+Transmitter,256
+Transmuting,2
+Transporter,256
+Trapper,256
+Tricycle,128
+Tripod-Mounted,2
+Tripper,512
+Tutu,128
+Ultra,1
+Ultrasonic,10
+Underwear,160
+Unstable,2
+Urine,32
+Vanilla,36
+Variable,2
+Varicose,4
+Vase,128
+Viral,2
+Vodka,32
+Vodka,36
+Volt,16
+Vomit,32
+Wacky,4
+Warper,256
+Washer,512
+Watt,16
+Whiner,512
+Whiteboard,160
+Whiteboard,32
+Windshield,32
+Wine,32
+Wire,16
+Xylophone,128
+Yarn,36
+Yodeler,512
+Zapper,256

@@ -1,0 +1,278 @@
+//Vocab types:
+//1 Descriptor, Candy
+//2 Descriptor, Noncandy
+//4 Actor-Candy
+//8 Actor-Form
+//16 Actor-candy-specific
+//32 Prefix
+--ORGANIZATION
+//Basics
+1,4
+, ,
+1,8
+, ,
+1,16
+, ,
+2,4
+, ,
+1,4
+, ,
+1,8
+, ,
+1,16
+, ,
+2,4
+, ,
+2,1,4
+, , ,
+2,1,8
+, , ,
+2,1,16
+, , ,
+2,2,4
+, , ,
+2,2,16
+, , ,
+1,2,4
+, , ,
+1,2,8
+, , ,
+1,2,16
+, , ,
+// Prefixed
+32,4
+,,
+32,8
+,,
+32,16
+,,
+1,32,4
+, ,,
+2,32,4
+, ,,
+1,32,8
+, ,,
+2,32,8
+, ,,
+1,32,16
+, ,,
+2,32,16
+, ,,
+32,1,4
+,, ,
+32,1,8
+,, ,
+32,1,16
+,, ,
+32,2,4
+,, ,
+32,2,8
+,, ,
+32,2,16
+,, ,
+//Vocabulary
+//1 Descriptor, Candy
+//2 Descriptor, Noncandy
+//4 Actor-Candy
+//8 Actor-Form
+//16 Actor-candy-specific
+//32 Prefix
+--VOCABULARY
+Apple,1
+Apples,16
+Apricot,1
+Apricots,16
+Astro,32
+Balls,8
+Banana,1
+Bananas,16
+Bars,8
+Bears,8
+Berries,24
+Berry,1
+Biscuits,8
+Bites,8
+Bits,8
+Blackberries,16
+Blackberry,1
+Blasts,8
+Blobs,8
+Blueberry,1
+Bombs,8
+Boogers,8
+Boom,32
+Boomers,8
+Booms,8
+Brittle,10
+Bubblegum,9
+Bunches,8
+Butter,33
+Butterscotch,1
+Buttons,8
+Candied,1
+Candy,8
+Cane,8
+Caramels,4
+Carob,1
+Chew,8
+Chips,8
+Choco,32
+Chocolate,1
+Chocolates,4
+Chunks,8
+Cinnamon,1
+Clusters,8
+Coaco,32
+Coco,32
+Coconut,1
+Confection,8
+Cosmo,32
+Crackers,8
+Crackling,2
+Cracko,32
+Cran,32
+Cranberry,1
+Crazy,2
+Creamy,3
+Cremes,12
+Crisp,2
+Crispy,2
+Crunchies,8
+Crunchy,2
+Dark,3
+Decadent,2
+Dip,8
+Dots,8
+Drops,8
+Dyna,32
+Ecstasy,8
+Everlasting,2
+Exploding,2
+Extreme,2
+Figs,16
+Fizzy,2
+Flowers,8
+French,2
+Frosted,2
+Frosty,2
+Frutti,33
+Fudge,21
+Fudgy,2
+Fun,2
+Funny,2
+Gel,40
+German,2
+Glimmering,2
+Glo,32
+Glomps,8
+Gooey,2
+Graham-Cracker,1
+Grape,1
+Gum,8
+Gummi,2
+Gummis,8
+Honey,1
+Honeyed,1
+Hot,3
+Jawbreakers,12
+Jellied,2
+Jelly,35
+Jumbo,2
+Junior,2
+Kaledo,32
+Kisses,8
+Lemon,1
+Licks,8
+Licorice,1
+Lime,1
+Liquors,8
+Lite,2
+Loves,8
+Lumps,8
+Mallows,8
+Mango,1
+Maple,1
+Marshallows,16
+Marshmallow,1
+Marzipan,9
+Mega,32
+Melts,8
+Meringue,5
+Mints,4
+Minty,1
+Mocha,33
+Mucho,32
+Nougat,9
+Nuggets,8
+Nuts,16
+Nutso,32
+Nutty,3
+Orange,1
+Peanut,1
+Peanuts,16
+Pear,1
+Pecans,16
+Perfect,2
+Petals,8
+Pineapple,1
+Pleasures,8
+Plum,1
+Plums,16
+Popcorn,17
+Rainbow,2
+Raisin,1
+Raisins,16
+Raspberries,16
+Raspberry,1
+Red Hot,3
+Rice,1
+Rolls,8
+Ropes,8
+Rum,1
+Scrunchies,8
+Shiny,2
+Sinful,2
+Snaps,8
+Sour,3
+Sparkling,2
+Sparkly,2
+Spinners,8
+Sticks,8
+Sticky,2
+Stingers,8
+Strawberries,16
+Strawberry,1
+Strings,8
+Suckers,8
+Sugar,1
+Sugared,1
+Sugary,3
+Super,34
+Surprise,8
+Swedish,2
+Swiss,2
+Taffy,5
+Tangy,3
+Tasty,34
+Toffee,12
+Toffee,5
+Tropical,2
+Truffles,12
+Tubes,8
+Turtles,8
+Ultra,32
+Vanilla,1
+Violet,1
+Wacko,32
+Wacky,2
+Walnuts,16
+Watermelon,1
+Whipped,2
+Wild,2
+Wobblers,8
+Worms,8
+Worms,8
+Yum,32
+Yummy,2
+Yums,8
+Zappers,8

@@ -1,0 +1,21 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Organizational Configurations
+//These are basic configurations
+--VOCABULARY
+Bard,8
+Barbarian,8
+Cleric,8
+Druid,8
+Fighter,8
+Monk,8
+Paladin,8
+Ranger,8
+Rogue,8
+Sorceror,8
+Wizard,8

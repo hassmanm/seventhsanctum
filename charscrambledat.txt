@@ -1,0 +1,238 @@
+//Vocab types:
+//1 - Character
+//2 - Character modifier
+--ORGANIZATION
+//Regular
+1,2
+, ,.
+1,2,2
+, , and ,.
+--VOCABULARY
+//1 - Character
+//2 - Character modifier
+//1-Character
+The adventurous captain,1
+The angsty and brooding protagonist,1
+The annoying screw-up sidekick,1
+The antisocial miser,1
+The aristocratic vampire,1
+The beautiful nerd girl no one notices because she has glasses,1
+The boisterous and obnoxious antagonist,1
+The brilliant scientist,1
+The brutal master of hand-to-hand combat,1
+The brutally orphaned scion of a wealthy family,1
+The businessman,1
+The cheerful and flamingly gay man,1
+The crotchety older man,1
+The depressed police officer,1
+The disturbing little girl,1
+The ditzy but loveable magical girl,1
+The eccentric homeless person,1
+The eccentric visionary reviled by his peers,1
+The emotionally detached genius,1
+The energetic young boy,1
+The feminine yet insanely good-looking vampire,1
+The friendly alien,1
+The friendly sentient computer,1
+The genial and hearty barkeep,1
+The gifted individual,1
+The gritty but roughly honorable street cop,1
+The gung-ho military officer,1
+The gunslinger,1
+The hard working and ethical man,1
+The hard-nosed detective,1
+The heir to greatness raised in secret,1
+The homewrecker,1
+The hooker with a heart of gold,1
+The hyper-violent vigilante,1
+The innocent and loving girl,1
+The kung-fu guru,1
+The laid-back common man,1
+The last survivor of an alien race,1
+The loudmouthed opportunist with a heart of gold,1
+The loveable cop,1
+The loyal sidekick,1
+The man with no name,1
+The misguided but honorable person,1
+The morally ambiguous henchman,1
+The mysterious elderly wizard,1
+The mysterious yet totally ineffective magical knight,1
+The new kid in town,1
+The normal man,1
+The nosy female reporter,1
+The opinionated and strong-willed older woman,1
+The outlaw samurai,1
+The paranoid military higher-up,1
+The polite bandit,1
+The powerful woman,1
+The prodigal with incredible power,1
+The rare good member of an otherwise irredeemably evil race,1
+The reluctant vampire,1
+The rightful heir to the empire,1
+The rough-and-tumble dwarven fighter,1
+The scoundrel with a heart of gold,1
+The stealthy assassin,1
+The strong but not very smart man,1
+The strong-willed yet elegant Southern Belle,1
+The super-sexy female vampire,1
+The super-sexy super spy,1
+The super-smart and super-tough genius adventurer,1
+The swashbuckling rogue,1
+The swift and beautiful elven archer,1
+The technical guru,1
+The time-traveler,1
+The unspeakably gorgeous but angsty man,1
+The upper-class fop,1
+The wacky yet brilliant doctor,1
+The wanderer with a unique gift,1
+The warrior woman,1
+The well-meaning and polite regular guy,1
+The whiz-kid,1
+The wise guide,1
+The withdrawn yet somehow oddly attractive girl,1
+The young wizard,1
+The moody art student,1
+The brillaint young adult,1
+The wild mad scientist,1
+The corrupt cop,1
+The serial killer,1
+The secret horror in the shadows of society,1
+The dilligent craftsman,1
+The drunken old guy,1
+The friendly toymaker,1
+The family man,1
+The family woman,1
+The angry police chief,1
+The slimy pimp,1
+The star student,1
+The star athlete,1
+//2-Character modifier
+who always comes through in the end,2
+who always gets into trouble,2
+who always gets what they want,2
+who always supports their family,2
+who awaits the perfect student,2
+who bears a great destiny,2
+who becomes a hero despite their reluctance,2
+who becomes a superhero,2
+who can seduce anyone,2
+who can see the future with erratic reliability,2
+who can't resist a party,2
+who discovers their heritage and destiny,2
+who doesn't want to reveal the secret of the alien invasion,2
+who endlessly angsts about life and love,2
+who ends up with a harem of the opposite sex for no good reason,2
+who endures numerous trials and triumphs,2
+who fights crime as a vigilante,2
+who fights for justice,2
+who follows the protagonist anywhere,2
+who gets between close friends and ruins their relationships,2
+who gives all they have to save the world,2
+who guides the heroes on their quest,2
+who has a huge appetite,2
+who has a mysterious connection to the protagonist,2
+who has a mysterious past,2
+who has a tragedy in the past,2
+who has a treasured personal weapon,2
+who has an endless supply of gadgets,2
+who has an eye for the opposite sex,2
+who has an unusual scar from an equally unusual incident,2
+who has endearingly crude traits,2
+who has it all and wants more,2
+who has it all together and will doubtlessly face a tragic death,2
+who has keen fashion sense,2
+who has lost it all,2
+who has nothing left to lose,2
+who has to prove their worth,2
+who has untapped depths of skill,2
+who has unusually little lovelife,2
+who inexplicably ends up getting into romantic situations with the protagonist,2
+who is a bit wacky,2
+who is a gossip,2
+who is a reincarnated princess,2
+who is a softy at heart despite strong biases,2
+who is accused of a crime they did not commit,2
+who is actually a unique supernatural being,2
+who is actually completely insane,2
+who is actually quite insane,2
+who is avoiding an arranged marriage,2
+who is bound by an unpleasant duty,2
+who is completely confused about their own past,2
+who is dangerously mis-informed,2
+who is driven by hatred to bring revenge on everone that wronged them,2
+who is driven insane by their strange powers,2
+who is entangled in a conspiracy without their knowledge,2
+who is friend to a giant city-smashing monster,2
+who is given superhuman powers in a lab accident,2
+who is guided by a mysterious wizard,2
+who is just this side of crazy,2
+who is on the run from the law,2
+who is persecuted by a government conspiracy,2
+who is ready to reform,2
+who is rebuilt as a cyborg after a terrible accident,2
+who is seeking True Love,2
+who is stronger and more skilled than most anyone,2
+who is the best at everything they do,2
+who is the inheritor of a mysterious power,2
+who is the last of a lost species,2
+who is touched by destiny,2
+who just needs a mentor,2
+who just needs someone to awaken their soft side,2
+who keeps repeating themselves over and over,2
+who keeps trying to relive their youth,2
+who knows the solution to everyone's problems,2
+who leads a band of merry men,2
+who makes cryptic statements,2
+who meddles in things Man was not meant to know,2
+who must destroy a dangerous magical artifact,2
+who needs a mentor to avoid misusing their talents,2
+who never loses important virtues or values,2
+who only pretends to be incompetent,2
+who pilots a giant robot made by their father,2
+who seeks his reincarnated love,2
+who seeks to avenge the murder of his family,2
+who seeks to defeat the Main Villain,2
+who selflessly protects the protagonist,2
+who serves the Main Villain,2
+who sets the protagonist on the right path,2
+who solves crimes,2
+who somehow manages to be a superhero,2
+who stands alone against the Main Villain,2
+who steals from the rich and gives to the poor,2
+who suddenly becomes the center of the action,2
+who surprises people with their ability to survive,2
+who tries to uphold their beliefs,2
+who wanders the world righting wrongs,2
+who wants everything for their children,2
+who wants nothing more than love,2
+who wants to destroy the world due to emotional issues,2
+who wields a mystic sword,2
+who will defeat the protagonist in combat to teach them a valuable lesson,2
+who works as an assasin against the forces of darkness,2
+who's true love is their ship,2
+whose actions make them a monster,2
+whose brilliance makes them unfathomable,2
+whose loyalties are suspect and ever-shifting,2
+whose odd ideas are actually true,2
+whose scientific endeavors have given them a god complex,2
+whose scientific experiments lead to disaster,2
+whose sexual preferences are in question,2
+whose time-traveling creates their own past,2
+who changes sides to defeat the bad guy
+who changes sides for love,2
+who is forced by circumstance or honor to destroy their love,2
+who joins forces with their bitter rival,2
+who came back from the grave,2
+who seeks their own destruction,2
+who has a soft spot for kids,2
+who has a dual identity,2
+who has to be better than anyone else,2
+who hasn't decided on a life path,2
+who doesn't understand the younger generation,2
+who tries to live up to their earlier success,2
+who only gets loud because they care,2
+who does good deeds merely for the praise,2
+who has a dark and mysterious past,2
+who is the result of an illegal scientific experiment,2
+who is secretly funded by the government,2
+who is trying to prove himself to his dead parents,2

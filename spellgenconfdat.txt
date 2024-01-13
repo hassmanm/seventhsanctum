@@ -1,0 +1,18 @@
+Any
+	SEEDALL
+		spellitemgendat.txt
+Simple
+	SEEDSIMPLE
+		spellitemgendat.txt
+Simple to Complex
+	SEEDSIMPLECOMPLEX
+		spellitemgendat.txt
+Complex
+	SEEDCOMPLEX
+		spellitemgendat.txt
+Complex to Elaborate
+	SEEDCOMPLEXELABORATE
+		spellitemgendat.txt
+Elaborate
+	SEEDELABORATE
+		spellitemgendat.txt

@@ -1,0 +1,84 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+actor,8
+acrobat,8
+adventurer,8
+ambassador,8
+architect,8
+archivist,8
+assistant,8
+assassin,8
+bandit,8
+bartender,8
+beggar,8
+boatman,8
+bodyguard,8
+bounty hunter,8
+businessperson,8
+champion,8
+cleric,8
+comic,8
+dancer,8
+explorer,8
+farmer,8
+fence,8
+gambler,8
+gigolo,8
+heir,8
+hermit,8
+hero,8
+heroine,8
+hunter,8
+impostor,8
+inventor,8
+jailer,8
+laborer,8
+lawman,8
+leader,8
+marine,8
+martial artist,8
+mercenary,8
+merchant,8
+mentor,8
+midwife,8
+miner,8
+murderer,8
+musician,8
+official,8
+outlaw,8
+pedlar,8
+pharmacist,8
+philanthropist,8
+philosopher,8
+poet,8
+politician,8
+pretender,8
+priest,8
+priestess,8
+prospector,8
+prostitute,8
+rabble-rouser,8
+rascal,8
+rogue,8
+sailor,8
+servant,8
+singer,8
+smuggler,8
+soldier,8
+spy,8
+student,8
+teacher,8
+theologian,8
+thief,8
+trader,8
+traitor,8
+traveler,8
+wanderer,8
+weapons master,8

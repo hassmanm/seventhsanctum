@@ -1,0 +1,492 @@
+//Vocab types:
+//Descriptor, General, 1
+//Descriptor, Actor, 2
+//Descriptor, Undead, 4
+//Object-General, 8
+//Object-Undead,16
+//Actor, General,32
+//Actor, General, Undead,64
+//Actor, Monster,128
+//Actor, Type,256
+//Actor, Undead,512
+//Suffix, Regular,1024
+//Suffix, Undead, 2048
+--ORGANIZATION
+//New Stuff
+//Basics
+1,4,32
+, , ,
+1,4,128
+, , ,
+1,4,256
+, , ,
+1,16,32
+, , ,
+1,16,128
+, , ,
+1,16,256
+, , ,
+1,512
+, ,
+2,512
+, ,
+4,8,32
+, , ,
+4,8,128
+, , ,
+4,8,256
+, , ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+4,256
+, ,
+8,512
+, ,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16,256
+, ,
+16,512
+, ,
+//The "ofs"
+1,512,1024
+, , of ,
+2,512,1024
+, , of ,
+4,32,1024
+, , of ,
+4,64,1024
+, ,  of ,
+4,128,1024
+, , of ,
+4,256,1024
+, , of ,
+8,512,1024
+, , of ,
+32,2048
+, of ,
+64,1024
+, of ,
+64,2048
+, of ,
+128,2048
+, of ,
+256,2048
+, of ,
+512,1024
+, of ,
+512,2048
+, of ,
+//Vocabulary
+--VOCABULARY
+//Descriptor, General, 1
+Acidic,1
+Aerial,1
+Alchemical,1
+All-consuming,1
+Armored,1
+Beastly,1
+Bladed,1
+Blasphemous,1
+Bleeding,5
+Bloated,1
+Bloody,5
+Boneless,1
+Buried,1
+Burning,1
+Burrowing,1
+Charred,1
+Chemical,1
+Clawed,1
+Composite,1
+Consuming,5
+Corroding,1
+Corrosive,1
+Crawling,1
+Crying,1
+Crystalized,1
+Cthonic,1
+Damned,1
+Demonic,1
+Dreaded,1
+Enchanted,1
+Eternal,1
+Ever-living,5
+Eyeless,1
+Faceless,1
+Fanged,1
+Flailing,1
+Flaming,1
+Frozen,1
+Gibbering,1
+Glacial,1
+Headless,1
+Hell-borne,1
+Hellish,1
+High,1
+Hollow,5
+Horned,1
+Icy,1
+Infernal,1
+Insidious,1
+Looming,1
+Lost,1
+Luminous,1
+Monstrous,1
+Poisonous,1
+Quiet,1
+Runed,1
+Scaled,1
+Screaming,1
+Shaking,1
+Shambling,1
+Shivering,1
+Silent,1
+Skinless,1
+Smothering,1
+Stalking,1
+Tentacled,1
+Toxic,1
+Tunneling,1
+Unburied,1
+Unclean,1
+Unhallowed,1
+Unholy,1
+Volcanic,1
+Wandering,1
+Watching,1
+Weeping,1
+Wrathful,1
+//Descriptor, Actor, 2
+Assassin,258
+Barbarian,258
+Bard,258
+Bowman,258
+Gladiator,258
+Knight,258
+Mage,258
+Magician,258
+Necromancer,262
+Oracle,259
+Paladin,258
+Pirate,258
+Prophet,258
+Rogue,259
+Scout,258
+Soldier,258
+Summoner,258
+Warlord,258
+Warrior,258
+Witch,258
+//Descriptor, Undead, 4
+Blighted,4
+Dark,5
+Dead,4
+Diseased,4
+Disinterred,4
+Doomed,5
+Dread,2053
+Ectoplasmic,4
+Entombed,4
+Exhumed,4
+Festering,4
+Ghastly,5
+Grim,5
+Infected,4
+Interred,4
+Macabre,5
+Murdering,5
+Murderous,5
+Necrotic,4
+Noxious,4
+Plague-ridden,4
+Ressurected,4
+Returned,4
+Risen,4
+Rotten,4
+Rotting,4
+Skeletal,4
+Undead,4
+Unliving,4
+Wraith,4
+//Object-General, 8
+Abyss,24
+Agony,8
+Armor,8
+Axe,8
+Bone,2072
+Book,8
+Brain,8
+Castle,8
+Cave,8
+Cavern,8
+Chain,8
+Chaos,8
+Clock,8
+Cloud,8
+Crystal,8
+Curse,8
+Dungeon,8
+Edge,8
+Enchantment,9
+Eye,8
+Flesh,2072
+Fog,8
+Gas,8
+Gate,8
+Hate,2056
+Hell,2072
+Horror,2088
+Insanity,8
+Key,8
+Lash,8
+Lock,8
+Madness,2056
+Magic,9
+Metal,8
+Night,2056
+Noose,24
+Pain,2056
+Portal,8
+Prison,8
+Rage,2056
+Rock,8
+Rune,8
+Rust,8
+Scream,8
+Scroll,8
+Shadow,24
+Skin,8
+Slime,8
+Smoke,8
+Stone,1032
+Storm,8
+Sword,8
+Terror,2088
+Tome,8
+Tower,8
+Tunnel,8
+Wail,8
+Whip,8
+Wind,8
+//Object-Undead,16
+Blight,2064
+Blood,2064
+Bone,2064
+Cairn,24
+Catacomb,24
+Cemetery,16
+Coffin,16
+Corpse,16
+Crematory,16
+Crypt,16
+Death,16
+Decay,16
+Disease,16
+Ectoplasm,16
+Grave,2064
+Headstone,16
+Mausoleum,16
+Morgue,16
+Murder,24
+Necropolis,16
+Ossuary,16
+Plague,2064
+Reliquary,16
+Rot,2064
+Sarcophagus,16
+Sepulcher,16
+Tomb,16
+Tombstone,16
+Vault,24
+Viscera,16
+Void,24
+//Actor, General,32
+Beast,32
+Bellower,32
+Biter,32
+Burner,32
+Caller,32
+Catcher,32
+Chopper,32
+Cleaver,32
+Collector,32
+Creature,32
+Creeper,32
+Cutter,32
+Devourer,32
+Disemboweler,96
+Dismbemberer,96
+Eater,32
+Finder,32
+Flayer,32
+Freezer,32
+Gnaser,32
+Grinder,32
+Hater,32
+Howler,32
+Imprisoner,32
+Incinerator,32
+Interrer,32
+Lasher,32
+Melter,32
+One,32
+Render,32
+Ripper,32
+Screamer,32
+Seeker,32
+Shambler,32
+Slayer,32
+Sleeper,32
+Spawn,32
+Stalker,32
+Tearer,32
+Thing,32
+Trapper,32
+Wanderer,32
+//Actor, General, Undead,64
+Abomination,64
+Atrocity,64
+Blasphemy,64
+Embalmer,64
+Evil,69
+Gravedigger,64
+Horror,64
+Killer,32
+Monstrosity,64
+Mortician,64
+Mourner,64
+Murderer,32
+Raiser,64
+Resurrector,64
+Terror,64
+Torturer,32
+Undertaker,64
+//Actor, Monster,128
+Angel,128
+Archangel,128
+Avatar,128
+Bogeyman,128
+Changeling,129
+Chimaera,128
+Demon,129
+Doppleganger,129
+Dwarf,129
+Devil,129
+Dragon,128
+Elf,128
+Elemental,129
+Fairy,128
+Fury,160
+Fiend,160
+Gargoyle,128
+Genie,128
+Gorgon,128
+Goblin,128
+Gremlin,128
+Golem,128
+Giant,129
+Hellhound,128
+Homonculus,128
+Hydra,128
+Incubus,128
+Ifrit,128
+Imp,128
+Jinn,128
+Lycanthrope,129
+Minotaur,128
+Manticore,128
+Mermaid,128
+Naga,128
+Naiad,128
+Nekomata,128
+Nereid,128
+Nephilim,128
+Nymph,128
+Nightmare,161
+Ogre,128
+Oroboros,128
+Pegasus,128
+Rakshasa,128
+Roc,128
+Salamander,128
+Satyr,128
+Sprite,128
+Sylph,128
+Serpent,128
+Siren,128
+Sphinx,128
+Succubus,128
+Thunderbird,128
+Tarasque,128
+Tankuki,128
+Triton,128
+Troll,128
+Undine,128
+Unicorn,128
+Valkyrie,128
+Warg,128
+Wendigo,128
+Werecat,128
+Werewolf,128
+Worm,128
+Wyvern,128
+Yeti,128
+//Actor, Type,256
+Alchemist,256
+Conjurer,256
+Druid,256
+Elemntalist,256
+Grenadier,256
+Monk,256
+Myrmidon,256
+Priest,256
+Priestess,256
+Ranger,256
+Shaman,256
+Sorcerer,256
+Sorceress,256
+//Actor, Undead,512
+Banshee,512
+Ghast,512
+Ghost,516
+Ghoul,516
+Ghoul,512
+Litch,516
+Phantom,516
+Poltergeist,512
+Revenant,516
+Spectre,512
+Spirit,528
+Vampire,516
+Wight,512
+Wraith,516
+Zombie,516
+//Suffix, Regular,1024
+the East,1024
+the West,1024
+the North,1024
+the South,1024
+Fire,1032
+Water,1032
+Sand,1032
+Earth,1032
+Time,1032
+The Sands,1024
+The Ocean,1024
+The Oceans,1024
+The Sky,1024
+The Depths,1024
+//Suffix, Undead, 2048
+Darkness,3072
+Rotting,2048
+Necrosis,2048
+Tombs,2048

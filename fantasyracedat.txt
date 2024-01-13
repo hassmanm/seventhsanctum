@@ -1,0 +1,1773 @@
+//Seeds
+SEED
+	<SEEDBASIC>
+	<SEEDDETAILED>
+	<SEEDSETTING>
+SEEDBASIC
+	<SEEDPHYSICALBASE>
+SEEDDETAILED
+	<*SEEDLANDAFFINITYROUTE><SEEDPHYSICALBASE> <SEEDDETAILROUTE>
+	<*SEEDLANDAFFINITYROUTE><SEEDPHYSICALBASE> <SEEDDETAILROUTE> <SEEDRELIGION>
+SEEDSETTING
+	<SEEDDETAILED> <SEEDSETTINGDETAIL>
+SEEDPHYSICALBASE
+	<REFPHYSICALBASECOMMON>
+	<REFPHYSICALBASECOMMON>
+	<REFPHYSICALBASECOMMON>
+	<REFPHYSICALBASEHUMANOID>
+	<REFPHYSICALBASEHUMANOID>
+	<REFPHYSICALBASEEXOTIC>
+	<REFPHYSICALBASEEXOTIC>
+SEEDDETAILROUTE
+	<SEEDDETAILROUTEEXTRA>
+	<SEEDDETAILROUTEABILITIES>
+	<SEEDDETAILROUTEPROFESSIONS>
+	<SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEMAGICABILITY>
+	<REFPSYCHOLOGY>
+	<SEEDDETAILROUTEABILITIES> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEPROFESSIONS>
+	<SEEDDETAILROUTEACHIEVE> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEACHIEVE> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEEXTRA> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEABILITIES>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEPROFESSIONS>
+	<SEEDDETAILROUTEEXTRA>	<SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEEXTRA>	<SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEMAGICABILITY> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEPROFESSIONS> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEMAGICABILITY> 
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEACHIEVE> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEACHIEVE> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEMAGICABILITY> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEPROFESSIONS> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEACHIEVE> <SEEDDETAILROUTEMAGICABILITY> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEABILITIES> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEPROFESSIONS>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEABILITIES> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEACHIEVE> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEPROFESSIONS> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEACHIEVE>
+	<SEEDDETAILROUTEEXTRA> <SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEEXTRA>	<SEEDDETAILROUTEACHIEVE> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEEXTRA>	<SEEDDETAILROUTEMAGICABILITY> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEACHIEVE> <REFPSYCHOLOGY>
+	<SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEACHIEVE> <SEEDDETAILROUTEMAGICABILITY>
+	<SEEDDETAILROUTEPROFESSIONS> <SEEDDETAILROUTEMAGICABILITY>  <REFPSYCHOLOGY>
+SEEDSETTINGDETAIL
+	<REFROUTEGOVERMENT>
+	<ROUTEPOWER>
+	<REFWORLDEXTRA>
+	<REFROUTEGOVERMENT> <ROUTEPOWER>
+	<REFROUTEGOVERMENT> <REFWORLDEXTRA>
+	<ROUTEPOWER> <REFWORLDEXTRA>
+	<REFROUTEGOVERMENT> <ROUTEPOWER> <REFWORLDEXTRA>
+//HOLDERS for things.
+SEEDPHYSICALBASEHOLDER
+	REFPHYSICALBASEHOLDER - ERROR
+SEEDDETAILROUTEABILITIES
+	SEEDDETAILROUTEABILITIES - Error
+SEEDDETAILROUTEEXTRA
+	SEEDDETAILROUTEEXTRA - Error
+//The routing function for the lands
+SEEDLANDAFFINITYROUTE
+	<*>
+	<*>
+	<*>
+	<*ROUTELANDASSOCIATE>
+		SEEDDETAILROUTEPROFESSIONS, true
+			<SEEDDETAILROUTEPROFESSIONLAND>
+		SEEDDETAILROUTEMAGICABILITY, true
+			<SEEDDETAILROUTEMAGICABILITYLAND>
+			<SEEDDETAILROUTEMAGICABILITYLAND>
+			<SEEDDETAILROUTEMAGICABILITYNORMAL>
+		ROUTEPOWER,true
+			<REFPOWERREGULARLAND>
+//REFS
+//PHYSICAL/BASIC
+REFPHYSICALBASECOMMON
+	<SEEDPHYSICALBASEHOLDER>
+		SEEDPHYSICALBASEHOLDER,true
+			<REFPHYSICALBASECOMMONNORMAL>
+			<REFPHYSICALBASECOMMONNORMAL>
+			<REFPHYSICALBASECOMMONNORMAL>
+			<REFPHYSICALBASECOMMONNORMAL>
+			<REFPHYSICALBASECOMMONEXOTICROUTE>
+		SEEDDETAILROUTEABILITIES,true
+			<REFABILITIESROUTE>
+		SEEDDETAILROUTEEXTRA,true
+			<REFEXTRA>
+			<REFEXTRA> <REFEXTRASEX>
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+			<*>
+REFPHYSICALBASECOMMONNORMAL
+	The race of <REFRACEBASIC>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFHAIRROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They have <REFEYESROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and <REFHAIRROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFHAIRROUTENORMAL> and have <REFEYESROUTENORMAL>.
+REFPHYSICALBASECOMMONEXOTICROUTE
+	<REFPHYSICALBASECOMMONEXOTICMINOR>
+	<REFPHYSICALBASECOMMONEXOTICMAJOR>
+REFPHYSICALBASECOMMONEXOTICMINOR
+	The race of <REFRACEBASIC>.  They have <REFHAIREXOTIC> instead of hair.
+	The race of <REFRACEBASIC>.  They have <REFEYESROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They have <REFLIMBSROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They have <REFDESCEXTRAROUTE>.
+REFPHYSICALBASECOMMONEXOTICMAJOR
+	The race of <REFRACEBASIC>.  They have <REFEYESROUTENORMAL>.  They also have <REFLIMBSROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They have <REFEYESROUTENORMAL>.  They also have <REFDESCEXTRAROUTE>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFHAIREXOTIC> instead of hair.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFLIMBSROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFDESCEXTRAROUTE>.
+	The race of <REFRACEBASIC>.  They are <REFHAIRROUTENORMAL> and have <REFEYESROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They are <REFHAIRROUTENORMAL> and have <REFLIMBSROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They are <REFHAIRROUTENORMAL> and have <REFDESCEXTRAROUTE>.
+	The race of <REFRACEBASIC>.  They have <REFHAIREXOTIC> instead of hair, and have <REFEYESROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.    They have <REFLIMBSROUTEEXOTIC>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.    They have <REFDESCEXTRAROUTE>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and <REFHAIRROUTENORMAL>.  They have <REFEYESROUTENORMAL>.
+	The race of <REFRACEBASIC>.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTENORMAL>.  They have <REFHAIREXOTIC> instead of hair.
+REFPHYSICALBASEHUMANOID
+	<SEEDPHYSICALBASEHOLDER>
+		SEEDPHYSICALBASEHOLDER,true
+			<REFPHYSICALBASEHUMANOIDROUTE>
+		SEEDDETAILROUTEABILITIES,true
+			<REFABILITIESROUTEEXOTIC>
+		SEEDDETAILROUTEEXTRA,true
+			<REFEXTRA>
+			<REFEXTRA> <REFEXTRASEX>
+			<REFEXTRASEX>
+REFPHYSICALBASEHUMANOIDROUTE
+//bASICS
+	The <REFRACEFORM> race.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL>.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.
+	The <REFRACEFORM> race.  They have <REFEYESROUTENORMAL>.
+	The <REFRACEFORM> race.  They have <REFEYESROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFDESCEXTRAROUTE>.
+//Large scale
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC>,  <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.    They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTENORMAL>
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.  They have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL>, <REFHAIRROUTENORMAL>, and have <REFEYESROUTENORMAL>.  They have <REFDESCEXTRAROUTE>.
+//Integument normal
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and <REFHAIRROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFHAIREXOTIC> instead of hair.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEYESROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTENORMAL> and have <REFDESCEXTRAROUTE>.
+//integument exotic
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and <REFHAIRROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFHAIREXOTIC> instead of hair.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFEYESROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFEYESROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They are <REFINTEGUMENTROUTEEXOTIC> and have <REFLIMBSROUTEEXOTICPLUS>.
+//Hair normal
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFEYESROUTENORMAL>.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFEYESROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They are <REFHAIRROUTENORMAL> and have <REFDESCEXTRAROUTE>.
+//Hair exotic
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFEYESROUTENORMAL>.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFEYESROUTEEXOTIC>.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFHAIREXOTIC> instead of hair.  They have <REFDESCEXTRAROUTE>.
+//Eyes normal
+	The <REFRACEFORM> race.  They have <REFEYESROUTENORMAL>.  They have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They have <REFEYESROUTENORMAL>.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They have <REFEYESROUTENORMAL>.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFEYESROUTENORMAL>.  They have <REFDESCEXTRAROUTE>.
+//Eyes exotic
+	The <REFRACEFORM> race.  They have <REFEYESROUTEEXOTIC>.  They have <REFEARTYPE> ears.
+	The <REFRACEFORM> race.  They have <REFEYESROUTEEXOTIC>.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They have <REFEYESROUTEEXOTIC>.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFEYESROUTEEXOTIC>.  They have <REFDESCEXTRAROUTE>.
+//Ears
+	The <REFRACEFORM> race.  They have <REFEARTYPE> ears.  They have <REFMOUTHTYPE> mouths.
+	The <REFRACEFORM> race.  They have <REFEARTYPE> ears.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFEARTYPE> ears.  They have <REFDESCEXTRAROUTE>.
+//Mouths
+	The <REFRACEFORM> race.  They have <REFMOUTHTYPE> mouths.  They have <REFLIMBSROUTEEXOTICPLUS>.
+	The <REFRACEFORM> race.  They have <REFMOUTHTYPE> mouths.  They have <REFDESCEXTRAROUTE>.
+//limbs
+	The <REFRACEFORM> race.  They have <REFLIMBSROUTEEXOTICPLUS>.  They have <REFDESCEXTRAROUTE>.
+REFPHYSICALBASEEXOTIC
+	<SEEDPHYSICALBASEHOLDER>
+		SEEDPHYSICALBASEHOLDER,true
+			The race of <REFMAGICALSPECIES>.
+		SEEDDETAILROUTEABILITIES,true
+			<*>
+		SEEDDETAILROUTEEXTRA,true
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<*>
+			<*>
+			<*>
+			<*>
+	<SEEDPHYSICALBASEHOLDER>
+		SEEDPHYSICALBASEHOLDER,true
+			The race of <REFNONSENTIENTSPECIESCHANGE> <REFNONSENTIENTSPECIESPLURALROUTE>.
+		SEEDDETAILROUTEABILITIES,true
+			<*>
+		SEEDDETAILROUTEEXTRA,true
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<*>
+			<*>
+			<*>
+			<*>
+	<SEEDPHYSICALBASEHOLDER>
+		SEEDPHYSICALBASEHOLDER,true
+			The race of <REFNONSENTIENTSPECIESROUTE>-people.
+		SEEDDETAILROUTEABILITIES,true
+			<*>
+			<*>
+			<REFABILITIESROUTE>
+		SEEDDETAILROUTEEXTRA,true
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<REFEXTRASEX>
+			<*>
+			<*>
+			<*>
+			<*>
+//Basic form data and routes
+REFRACEBASIC
+	dwarves
+	elves
+	gnomes
+	halflings
+	humans
+REFRACEFORM
+	bulky
+	colossal
+	cumbersome
+	delicate-looking
+	deformed
+	diminutive
+	elegant
+	enormous
+	gigantic
+	graceful
+	hulking
+	malformed
+	massive
+	misshapen
+	monstrous-looking
+	skeletal
+	spindly
+	statuesque
+	squat
+	tall
+	thin
+	tiny
+REFINTEGUMENTROUTENORMAL
+	<REFSKINCOLORGENERAL>-skinned
+	<REFCOLOR>-skinned
+REFINTEGUMENTROUTEEXOTIC
+	<REFINTEGUMENT>
+	<REFCOLOR>-<REFINTEGUMENTCOLORED>
+REFINTEGUMENT
+	armored
+	bony-plated
+	furred
+	scaled
+	scabby-hided
+	shell-covered
+	skinless
+	slime-covered
+	spine-covered
+	thick-skinned
+	loose-skinned
+REFINTEGUMENTCOLORED
+	armored
+	feathered
+	furred
+	hided
+	scaled
+	shelled
+	skinned
+	spined
+REFHAIRROUTENORMAL
+	<REFHAIRCOLORGENERAL>-haired
+	<REFCOLOR>-haired
+REFHAIREXOTIC
+	<REFHAIREXOTICTYPE>
+REFHAIREXOTICTYPE
+	bony plates
+	feathers
+	spines
+	tentacles
+REFEYESROUTENORMAL
+	<REFCOLOR> eyes
+	<REFCOLOREYESGENERAL> eyes
+REFEYESROUTEEXOTIC
+	<REFEYESEXOTICNUMBER>
+	<REFEYESEXOTICTYPE>
+REFEYESEXOTICNUMBER
+	no eyes
+	only a single eye
+	three eyes
+	four eyes
+	six eyes
+REFEYESEXOTICTYPE
+	eyes like those of an insect
+	<REFCOLOR> eyes with neither pupil or white
+	eyes that change color constantly
+REFEARTYPE
+	large
+	strange
+	webbed
+	pointed
+	tiny
+REFMOUTHTYPE
+	fanged
+	toothless
+	large
+	small
+	sucker-like
+	tentacle-covered
+REFLIMBSROUTEEXOTIC
+	<REFLIMBSROUTEARMS>
+	<REFLIMBSROUTELEGS>
+REFLIMBSROUTEEXOTICPLUS
+	<REFLIMBSROUTEARMS>
+	<REFLIMBSROUTELEGSPLUS>
+REFLIMBSROUTEARMS
+	three arms
+	four arms
+	six arms
+REFLIMBSROUTELEGS
+	four legs
+	six legs
+REFLIMBSROUTELEGSPLUS
+	<REFLIMBSROUTELEGS>
+	<REFLIMBSROUTEMOBILITY>
+REFLIMBSROUTEMOBILITY
+	tentacles instead of legs
+	a sluglike foot instead of legs
+	no legs
+	a centaur-like hindquarters
+	a snake-like hindquarters
+	the ability to cling to any surface
+REFDESCEXTRAROUTE
+	<REFDESCEXTRAHEAD>
+	<REFDESCEXTRABACK>
+	<REFDESCEXTRATAIL>
+REFDESCEXTRAHEAD
+	a single horn on their heads
+	two horns on their heads
+	many horns on their heads
+REFDESCEXTRABACK
+	<REFDESCEXTRABACKWINGS>
+	<REFDESCEXTRABACKWINGSOTHER>
+REFDESCEXTRABACKWINGS
+	<REFWINGNUM> <REFWINGDESCROUTE> wings on their backs
+	<REFWINGDESCROUTE> wings on their backs
+REFDESCEXTRABACKWINGSOTHER
+	a frilled crest down their backs
+	bony spines down their backs
+REFDESCEXTRATAIL
+	<REFDESCEXTRATAILSINGLE>
+	<REFDESCEXTRATAILSINGLE>
+	<REFDESCEXTRATAILSINGLE>
+	<REFDESCEXTRATAILSINGLE>
+	<REFDESCEXTRATAILMULTIPLE>
+REFDESCEXTRATAILSINGLE
+	tails
+	tails that are <REFTAILDESCROUTE>
+REFDESCEXTRATAILMULTIPLE
+	<REFNUMBERPLUSONE> tails
+	<REFNUMBERPLUSONE> tails that are <REFTAILDESCROUTE>
+REFWINGDESCROUTE
+	<REFWINGDESCGENERAL>
+	<REFWINGDESCTYPE>
+REFWINGDESCGENERAL
+	elegant
+	huge
+	misshapen
+	powerful
+REFWINGDESCTYPE
+	bat-like
+	bird-like
+	insect-like
+REFTAILDESCROUTE
+	<REFTAILDESCDESC>
+	<REFTAILDESCTYPE>
+	<REFTAILDESCDESC> and <REFTAILDESCTYPE>
+REFTAILDESCDESC
+	powerful
+	tiny
+	large
+	bulky
+	elegant
+	long
+	stubby
+REFTAILDESCTYPE
+	stinger-tipped
+	club-tipped
+	blade-tipped
+//Species references
+REFMAGICALSPECIES
+	Centaurs
+	Giants
+	Gremlins
+	Ogres
+	Nymphs
+	Pixies
+	Satyrs
+	Trolls
+	Undead
+	Vampires
+	<REFWERESPECIES>
+REFWERESPECIES
+	Werebears
+	Werecats
+	Werejackals
+	Werewolves
+REFNONSENTIENTSPECIESPLURALROUTE
+	<REFNONSENTIENTSPECIESANIMALSPLURAL>
+	<REFNONSENTIENTSPECIESMONSTERPLURAL>
+REFNONSENTIENTSPECIESANIMALSPLURAL
+	aardvarks
+	alligators
+	armadillos
+	ants
+	antelopes
+	apes
+	baboons
+	badgers
+	bats
+	bears
+	beavers
+	bees
+	birds
+	boars
+	bovines
+	butterflies
+	cats
+	cheetahs
+	cougars
+	coyotes
+	crabs
+	crocodiles
+	crows
+	deer
+	dogs
+	dolphins
+	eels
+	elephants
+	elks
+	falcons
+	fish
+	fox
+	frogs
+	gazelles
+	giraffes
+	goats
+	gorillas
+	hippos
+	horses
+	insects
+	jackals
+	jellyfish
+	kangaroos
+	leeches
+	leopards
+	lobsters
+	mammoths
+	moles
+	mongooses
+	monkeys
+	moths
+	mice
+	octopi
+	orangutans
+	ostriches
+	otters
+	owls
+	oxen
+	pandas
+	panthers
+	penguins
+	pigs
+	platypui
+	porcupines
+	possums
+	raccoons
+	rabbits
+	reptiles
+	rats
+	rattlesnakes
+	ravens
+	rhinoceri
+	rodents
+	scorpions
+	seals
+	sharks
+	skunks
+	slugs
+	snails
+	snakes
+	spiders
+	squids
+	squirrels
+	stingrays
+	swans
+	tarantulas
+	tigers
+	turtles
+	voles
+	vultures
+	wasps
+	weasels
+	whales
+	wolfs
+	worms
+	zebras
+REFNONSENTIENTSPECIESMONSTERPLURAL
+	Basilisks
+	Chimeras
+	Cockatrices
+	Dragons
+	Gargoyles
+	Griffins
+	Hippogriffs
+	Kelpies
+	Manticores
+	Pegasi
+	Unicorns
+	Wyverns
+REFNONSENTIENTSPECIESROUTE
+	<REFNONSENTIENTSPECIESANIMALS>
+	<REFNONSENTIENTSPECIESMONSTER>
+REFNONSENTIENTSPECIESANIMALS
+	aardvark
+	alligator
+	armadillo
+	ant
+	antelope
+	ape
+	baboon
+	badger
+	bat
+	bear
+	beaver
+	bee
+	bird
+	boar
+	bovine
+	butterfly
+	cat
+	cheetah
+	cougar
+	coyote
+	crab
+	crocodile
+	crow
+	deer
+	dog
+	dolphin
+	eel
+	elephant
+	elk
+	falcon
+	fish
+	fox
+	frog
+	gazelle
+	giraffe
+	goat
+	gorilla
+	hippo
+	horse
+	insect
+	jackal
+	jellyfish
+	kangaroo
+	leech
+	leopard
+	lobster
+	mammoth
+	mole
+	mongoose
+	monkey
+	moth
+	mouse
+	octopus
+	orangutan
+	ostrich
+	otter
+	owl
+	ox
+	panda
+	panther
+	penguin
+	pig
+	platypus
+	porcupine
+	possum
+	raccoon
+	rabbit
+	reptile
+	rat
+	rattlesnake
+	raven
+	rhinoceros
+	rodent
+	scorpion
+	seal
+	shark
+	skunk
+	slug
+	snail
+	snake
+	spider
+	squid
+	squirrel
+	stingray
+	swan
+	tarantula
+	tiger
+	turtle
+	vole
+	vulture
+	wasp
+	weasel
+	whale
+	wolf
+	worm
+	zebra
+REFNONSENTIENTSPECIESMONSTER
+	Basilisk
+	Chimera
+	Cockatrice
+	Dragon
+	Gargoyle
+	Griffin
+	Hippogriff
+	Kelpie
+	Manticore
+	Pegasus
+	Unicorn
+	Wyvern
+REFNONSENTIENTSPECIESCHANGE
+	evolved
+	intelligent
+	sentient
+//Abilities
+REFABILITIESROUTE
+	<REFABILITIESCOMMON>
+	<REFABILITIESCOMMON>
+	<REFABILITIESCOMMON>
+	<REFABILITIESCOMMON>
+	<REFABILITIESCOMMON>
+	<REFABILITIESCOMMON>
+	<REFABILITIESREGULAR>
+	<REFABILITIESREGULAR>
+	<REFABILITIESREGULAR>
+	<REFABILITIESMID>
+	<REFABILITIESMID>
+	<REFABILITIESEXOTIC>
+REFABILITIESROUTEEXOTIC
+	<REFABILITIESCOMMON>
+	<REFABILITIESREGULAR>
+	<REFABILITIESMID>
+	<REFABILITIESEXOTIC>
+REFABILITIESCOMMON
+	They are very dexterous.
+	They have incredible strength.
+	They are extremely intelligent.
+	They are very wise.
+	They are very cunning.
+	They are extremely agile.
+	They can withstand great damage.
+	They learn quickly.
+	They have a perfect sense of direction.
+	They have excellent sight.
+	They have excellent hearing.
+REFABILITIESREGULAR
+	They can see in the dark.
+	Their sense of smell is incredibly powerful.
+	Their hearing acts as a kind of sonar.
+	They are immune to disease.
+	They move at incredible speeds.
+	They never need to sleep.
+	They have perfect memories.
+	They have the ability to withstand a wide range of temperatures.
+	They have the ability to withstand <REFENVIROROUTE>.
+REFABILITIESMID
+	They are telepathic.
+	They are naturally psychic.
+	They are precognitive.
+	They can astrally project their minds.	
+	They can enter people's dreams.
+	They regrow lost limbs and organs.
+	They have fine control over their bodily processes.
+	They have a strange mind-control ability.
+	They are naturally, almost supernaturally, stealthy.
+	They can withstand incredible damage before dying - or even slowing down.
+	They are telekinetic.
+	They are empathic.
+	Their presence can induce terror in others.
+	Reincarnation is normal for them, and a part of their culture.
+REFABILITIESEXOTIC
+	They extrude a deadly toxin.
+	They have powerful psychic abilities.
+	They have powerful stink glands.
+	They use acidic spit as a weapon.
+	They can change shape to mimic others.
+	They can change the color of their integument to mimic their background.
+	They carry many diseases but do not suffer from them.
+	They have powerful claws.
+	They are completely immune to all known toxins.
+	They can consume other living things to power their own healing.
+	They are able to render themselves invisible.
+	They are able to phase through solid matter.
+	They can discharge energy as a natural weapon.
+	They can discharge sticky fluid from their bodies to trap and ensnare others, or to make webs.
+	They can teleport.
+	They can mimic the appearance of others.
+	Individual members can link their minds up so they think as one.
+	They do not need to breathe.
+	They are resistant to magic.
+	They create a natural, concealing fog around themselves.
+	They are able to see the future.
+	They can adsorb traits of others.
+	They can adsorb magic.
+	They have biolumiescent organs on their bodies.
+	They can extrude clouds of toxic gas.
+	They levitate naturally.
+//EXTRAS
+REFEXTRAROUTE
+	<REFEXTRA>
+	<REFEXTRA> <REFEXTRASEX>
+	<REFEXTRASEX>
+REFEXTRA
+	They appear to be changing into a different species over time.
+	As they age, they evolve into another species entirely.
+	They shed their integument as they grow.
+	They naturally hybernate.
+	When severely hurt, they enter a regenerative trance.
+	They are easily addicted to certain substances.
+	The species has 'subspecies' that specialize in different tasks.
+	They have voracious appetites.
+	They appear to be degenerating as a species.
+	They are very long-lived.
+	They have short lifespans.
+	The color of their integument changes with mood.
+	They are known to have terrible body odor.
+	They have an odd scent many races find attractive.
+	They host colonies of fungus in their bodies that provides a number of benefits.
+	They actually eat magic to stay alive.
+	When they die, their bodies decompose instantly.
+	When they die, they actually turn into another kind of creature.
+	They exist in symbiosis with another species.
+REFEXTRASEX
+	They reproduce quickly.
+	They reproduce slowly.
+	Their society is split by gender - males and females are separate cultures.
+	They are an all-female race.
+	They are an all-male race.
+	They are a hermaphroditic race.
+	They change genders as they age.
+	They can change genders under certain conditions.
+	They interbreed easily with other species.
+	They have large litters.
+	They have only one child at a time.
+	They reproduce by laying eggs.
+	They are genderless, and are able to reproduce on their own.
+	Only their <REFSEXGENDER> are sentient.
+REFSEXGENDER
+	males
+	females
+//Professions
+SEEDDETAILROUTEPROFESSIONS
+	<SEEDDETAILROUTEPROFESSIONSSKILL>
+	<SEEDDETAILROUTEPROFESSIONSGENERAL>
+SEEDDETAILROUTEPROFESSIONLAND
+	They take naturally to <RETLANDAFFINITY>.
+	They have an affinity for <RETLANDAFFINITY>.
+SEEDDETAILROUTEPROFESSIONSGENERAL
+	They are noted for their <REFPROFESSIONROUTE>.
+	They are legendary for their <REFPROFESSIONROUTE>.
+	They are noted for the almost supernatural skill of their <REFPROFESSIONROUTE>.
+	They produce great <REFPROFESSIONROUTE>.
+REFPROFESSIONROUTE
+	<REFPROFESSIONROUTESINGLE>
+	<REFPROFESSIONROUTEDUAL>
+SEEDDETAILROUTEPROFESSIONSSKILL
+	As a people, they are generally good at <REFSKILL>.
+	They are naturally good at <REFSKILL>.
+	In their culture, every person is expected to be good at <REFSKILL>.
+	In their culture, <REFSKILL> is a highly prized ability.
+REFPROFESSIONROUTESINGLE
+	<REFPROFESSIONACADEMIC>
+	<REFPROFESSIONCRAFTS>
+	<REFPROFESSIONFIGHTING>
+	<REFPROFESSIONMAGIC>
+	<REFPROFESSIONROGUE>
+	<REFPROFESSIONRURAL>
+	<REFPROFESSIONSPIRITUAL>
+REFPROFESSIONROUTEDUAL
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONCRAFTS>
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONFIGHTING>
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONMAGIC>
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONROGUE>
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONRURAL>
+	<REFPROFESSIONACADEMIC> and <REFPROFESSIONSPIRITUAL>
+	<REFPROFESSIONCRAFTS> and <REFPROFESSIONFIGHTING>
+	<REFPROFESSIONCRAFTS> and <REFPROFESSIONMAGIC>
+	<REFPROFESSIONCRAFTS> and <REFPROFESSIONROGUE>
+	<REFPROFESSIONCRAFTS> and <REFPROFESSIONRURAL>
+	<REFPROFESSIONCRAFTS> and <REFPROFESSIONSPIRITUAL>
+	<REFPROFESSIONFIGHTING> and <REFPROFESSIONMAGIC>
+	<REFPROFESSIONFIGHTING> and <REFPROFESSIONROGUE>
+	<REFPROFESSIONFIGHTING> and <REFPROFESSIONRURAL>
+	<REFPROFESSIONFIGHTING> and <REFPROFESSIONSPIRITUAL>
+	<REFPROFESSIONMAGIC> and <REFPROFESSIONROGUE>
+	<REFPROFESSIONMAGIC> and <REFPROFESSIONRURAL>
+	<REFPROFESSIONMAGIC> and <REFPROFESSIONSPIRITUAL>
+	<REFPROFESSIONROGUE> and <REFPROFESSIONRURAL>
+	<REFPROFESSIONROGUE> and <REFPROFESSIONSPIRITUAL>
+	<REFPROFESSIONRURAL> and <REFPROFESSIONSPIRITUAL>
+REFPROFESSIONACADEMIC
+	ambassadors
+	archivists
+	astronomers
+	cartographers
+	doctors
+	economists
+	historians
+	inventors
+	librarians
+	lingusits
+	mathematicians
+	politicians
+	scholars
+	scribes
+	surgeons
+	tacticians
+	teachers
+REFPROFESSIONCRAFTS
+	architects
+	armorers
+	artisans
+	blacksmith
+	canal-builders
+	carpenters
+	clothes-makers
+	craftspeople
+	engineers
+	gemcutters
+	jewelers
+	metalsmiths
+	road-builders
+	sculptors
+	shipbuilders
+	stoneworkers
+	watchmakers
+	weaponsmiths
+	weavers
+REFPROFESSIONFIGHTING
+	marines
+	martial artists
+	militamen
+	soldiers
+	warriors
+REFPROFESSIONMAGIC
+	magicians
+	magic-users
+	mystics
+	witches
+	wizards
+REFPROFESSIONROGUE
+	adventurers
+	assasins
+	entertainers
+	gamblers
+	poisoners
+	scouts
+	slavers
+	smugglers
+	spies
+	thieves
+	wandering entertainers
+REFPROFESSIONRURAL
+	explorers
+	farmers
+	game-keepers
+	gardeners
+	herbologists
+	herdskeepers
+	hunters
+	navigators
+	rangers
+REFPROFESSIONSPIRITUAL
+	clerics
+	monks
+	philosophers
+	prohpets
+	priest(esses)
+	shamans
+REFSKILL
+	acrobatics
+	acting
+	animal care
+	animal husbandry
+	animal training
+	ancient languages
+	arithmetic
+	artistry
+	astronomy
+	astrology
+	brewing
+	carpentry
+	cartography
+	combat
+	cooking
+	code-breaking
+	cryptography
+	dance
+	debate
+	disguise
+	drug-making
+	engineering
+	entertainment
+	etiquette
+	finance
+	fishing
+	haggling
+	hand-to-hand combat
+	herbology
+	history
+	hunting
+	juggling
+	linguistics
+	martial arts
+	medicine
+	metallurgy
+	metalsmithing
+	military tactics
+	mining
+	music
+	navigation
+	negotiation
+	poison-making
+	politics
+	ranged weapons
+	record-keeping
+	singing
+	stoneworking
+	story telling
+	surgery
+	stealth
+	tailoring
+	theology
+	theivery
+	torture
+	trap-setting
+	wrestling
+	writing
+//Achievements
+SEEDDETAILROUTEACHIEVE
+	They are noted for their <REFACHIEVEROUTEROUTE>.
+	They are famous for their <REFACHIEVEROUTEROUTE>.
+	They are well-known for their <REFACHIEVEROUTEROUTE>.
+REFACHIEVEROUTEROUTE
+	<REFACHIEVEROUTESINGLE>
+	<REFACHIEVEROUTEDUAL>
+REFACHIEVEROUTESINGLE
+	<REFACHIEVEACADEMIA>
+	<REFACHIEVECOMMUNICATION>
+	<REFACHIEVECONSTRUCTION>
+	<REFACHIEVECULTURE>
+	<REFACHIEVEENTERTAINMENT>
+	<REFACHIEVEFOOD>
+	<REFACHIEVEILLREPUTE>
+	<REFACHIEVERELIGION>
+	<REFACHIEVETRANSPORTATION>
+	<REFACHIEVEWAR>
+REFACHIEVEROUTEDUAL
+	<REFACHIEVEACADEMIA> and <REFACHIEVECOMMUNICATION>
+	<REFACHIEVEACADEMIA> and <REFACHIEVECONSTRUCTION>
+	<REFACHIEVEACADEMIA> and <REFACHIEVECULTURE>
+	<REFACHIEVEACADEMIA> and <REFACHIEVEENTERTAINMENT>
+	<REFACHIEVEACADEMIA> and <REFACHIEVEFOOD>
+	<REFACHIEVEACADEMIA> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVEACADEMIA> and <REFACHIEVERELIGION>
+	<REFACHIEVEACADEMIA> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVEACADEMIA> and <REFACHIEVEWAR>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVECONSTRUCTION>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVECULTURE>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVEENTERTAINMENT>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVEFOOD>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVERELIGION>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVECOMMUNICATION> and <REFACHIEVEWAR>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVECULTURE>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVEENTERTAINMENT>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVEFOOD>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVERELIGION>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVECONSTRUCTION> and <REFACHIEVEWAR>
+	<REFACHIEVECULTURE> and <REFACHIEVEENTERTAINMENT>
+	<REFACHIEVECULTURE> and <REFACHIEVEFOOD>
+	<REFACHIEVECULTURE> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVECULTURE> and <REFACHIEVERELIGION>
+	<REFACHIEVECULTURE> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVECULTURE> and <REFACHIEVEWAR>
+	<REFACHIEVEENTERTAINMENT> and <REFACHIEVEFOOD>
+	<REFACHIEVEENTERTAINMENT> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVEENTERTAINMENT> and <REFACHIEVERELIGION>
+	<REFACHIEVEENTERTAINMENT> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVEENTERTAINMENT> and <REFACHIEVEWAR>
+	<REFACHIEVEFOOD> and <REFACHIEVEILLREPUTE>
+	<REFACHIEVEFOOD> and <REFACHIEVERELIGION>
+	<REFACHIEVEFOOD> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVEFOOD> and <REFACHIEVEWAR>
+	<REFACHIEVEILLREPUTE> and <REFACHIEVERELIGION>
+	<REFACHIEVEILLREPUTE> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVEILLREPUTE> and <REFACHIEVEWAR>
+	<REFACHIEVERELIGION> and <REFACHIEVETRANSPORTATION>
+	<REFACHIEVERELIGION> and <REFACHIEVEWAR>
+	<REFACHIEVETRANSPORTATION> and <REFACHIEVEWAR>
+REFACHIEVEACADEMIA
+	archives
+	banks
+	libraries
+	universities
+	schools
+REFACHIEVECOMMUNICATION
+	use of widespread semaphore systems
+	messenger system
+	postal system
+REFACHIEVECONSTRUCTION
+	great buildings
+	great cities
+	tombs
+	treasure-vaults
+	great monuments
+REFACHIEVECULTURE
+	beautiful sculptures
+	beautiful fashions
+	exotic jewlery
+	books
+	literature
+	marketplaces
+	plays
+	poems
+	sagas
+	sculptures
+	theaters
+	erotic literature
+REFACHIEVEENTERTAINMENT
+	circuses
+	gardens
+	museums
+	music
+	opera houses
+	parks
+	theaters
+REFACHIEVEFOOD
+	fine wines
+	rich cuisine
+	fantastic spices
+	amazing candies
+	incredible banquets
+	fast-food shops
+	popular beers
+	nutritious food
+	unusual spices
+REFACHIEVEILLREPUTE
+	black market
+	drug dens
+	gambling houses
+	houses of ill repute
+REFACHIEVERELIGION
+	shrines
+	temples
+	seminaries
+REFACHIEVETRANSPORTATION
+	airships
+	canals
+	roadways
+	ships
+	stables
+REFACHIEVEWAR
+	armories
+	armor
+	dangerous poisons
+	siege engines
+	weapons
+//MAGIC
+SEEDDETAILROUTEMAGICABILITY
+	<SEEDDETAILROUTEMAGICABILITYNORMAL>
+	<SEEDDETAILROUTEMAGICABILITYNORMAL>
+	<SEEDDETAILROUTEMAGICABILITYODD>
+SEEDDETAILROUTEMAGICABILITYNORMAL
+	They are exceptionally good at <REFMAGICROUTE>.
+	Their magical practices tend to focus on <REFMAGICROUTE>.
+SEEDDETAILROUTEMAGICABILITYODD
+	Their magical practices focus exclusively on <REFMAGICROUTE>.
+	The only kind of magic they can do is <REFMAGICROUTE>.
+	They avoid all kinds of magic except <REFMAGICROUTE>.
+SEEDDETAILROUTEMAGICABILITYLAND
+	They are exceptionally good at <RETLANDMAGIC> magic.
+	Their magical practices tend to focus on <RETLANDMAGIC> magic.
+	Their magical practices focus exclusively on <RETLANDMAGIC> magic.
+	The only kind of magic they can do is <RETLANDMAGIC> magic.
+	The they avoid all kinds of magic except <RETLANDMAGIC> magic.
+REFMAGICROUTE
+	<REFMAGICELEMENT> magic
+	<REFMAGICPARTICULAR>
+REFMAGICELEMENT
+	air
+	animal
+	dark
+	death
+	earth
+	fire
+	flesh
+	fungus
+	ice
+	light
+	metal
+	mind
+	plant
+	rock
+	sound
+	time
+	water
+	weather
+	wind
+REFMAGICPARTICULAR
+	alchemy
+	demonology
+	divination
+	divine magic
+	elemental magic
+	enchantment
+	illusion-creation
+	necromancy
+	transmutation
+	summoning magic
+// Psychology
+REFPSYCHOLOGY
+	They are naturally cooperative.
+	They are naturally competitive.
+	They despise originality.
+	They are highly creative.
+	They are natural survivors.
+	They are extremely morose.
+	They are bound by tradition.
+	They have an elaborate caste system.
+	They are capable of going into a berserk rage under certain conditions.
+	They have a rich culture.
+	They are promiscuous - and species doesn't matter to them.
+	They are extremely prudish.
+	They are meticulous record-keepers.
+	They have a tightly organized military.
+	They have a very ritualized culture.
+	They have a tradition of elaborate holidays.
+	They throw incredible parties.
+	They have a rich artistic tradition.
+	They are split into two conflicting factions.
+	Honor is more important to them than anything.
+	Knowledge is the most valuable thing to them.
+	They never quit or surrender.
+	They are addicted to the pleasures of eating.
+	Their emotions are hard to understand for others.
+	They are unswervingly practical.
+	They are naturally aquisitive.
+	They are naturally curious.
+	They seek any alliance, technology, or advantage that will benefit them.
+	They are very xenophobic.
+	They love to encounter new species.
+	They have a complex justice system.
+	They are thrill-seekers.
+	Their language is maddeningly complex.
+	They have no sense of individuality.
+	They love elaborate clothing.
+	They dislike wearing clothing.
+	Social status, job, and so forth are demarked by a clear dress code.
+	They live in a very stratified society.
+	They live in a very egaltarian society.
+	They tattoo/mark their integument in various ways for cultural purposes.
+	Elaborate jewelry and accessories denote social standing, class, and soforth.
+	They employ a servant species for some tasks.
+	Their speech patterns are confusing.
+	Despite their intelligence, their speech is rather childlike.
+	They despise politeness as a kind of falsehood.
+	They value civility and politeness.
+	They have no concept of subtlety.
+	They are very industrious.
+	They are very lazy.
+	They are packrats.
+	They crave forbidden knowledge.
+	They are very forgiving.
+	They are very unforgiving.
+	They seem emotionless.
+	They are highly emotional.
+	They are easily bored.
+	They are natural tricksters.
+	They believe they have to protect others from forbidden knowledge.
+	They are obsessively clean.
+	They are notoriously sloppy.
+	They have a very ordered view of the universe.
+	They exist only to wipe out all other competing life forms.
+	They seek enlightenment.
+	They love epic poetry and sagas.
+	They return insults with violence.
+	They have quite the sense of humor.
+	They are extremely patronizing.
+	They have a definite sense of fair play.
+	They are very literal.
+	They have no sense of personal space.
+	They have incredibly complex family arrangements.
+	They are adept at justifying their actions no matter what.
+	They are merciless towards the weak - even among their own species.
+	They are fatalistic.
+	They have little sense of being a separate species - and integrate well with other races.
+	They know deep secrets about the universe.
+	They have an impeccable sense of fashion.
+	They are experts at working the system - any system.
+	Under stress, they undergo distinct personality changes.
+	They are xenophobic.
+	Though not xenophobic, they do like to keep a distance from other races.
+	They are extremely snobbish.
+	They are notoriously hyperactive.
+	They are notoriously laid-back.
+	They keep their promises - even if it means death.
+	They are very dishonest.
+	Professions are passed on through family lines.
+	They are very sensitive about their appearance.
+	Size is a mark of social class among them.
+	They judge each other's worth by variances in the color of their integument.
+	They are annoyingly self-centered.
+	They are extremely cruel.
+	They are extremely kind.
+	They are naturally dishonest.
+	They are very dilligent.
+	They are very proper.
+	They are very impolite.
+	They are free spirits at heart.
+	They practice ritual cannibalism of the deceased.
+	They practice ritual cannibalism.
+	They lack inventiveness - all their technology and knowledge is ages old.
+	Oddly, they don't seem to like members of their own species very much.
+	They are natural scavengers, able to take advantage or reuse anything.
+	They are very loyal to their kind.
+	They are very loyal.
+	Their culture has a past of nasty religious inquisitions.
+	Their culture has some strict regulations on technology.
+	Their culture has some strict regulations on magic.
+	They use cosmetics extensively for cultural reasons.
+	They are very superstitious.
+//RELIGIONS
+SEEDRELIGION
+	<REFRELIGIONSTANDARDROUTE>
+	<REFRELIGIONSTANDARDROUTE>
+	<REFRELIGIONSTANDARDROUTE>
+	<REFRELIGIONNONSTANDARD>
+REFRELIGIONSTANDARDROUTE
+	<REFRELIGIONSTANDARDPOLY><ROUTERELIGIONPOLYFOCUS><ROUTERELIGIONINVOLVED><ROUTERELIGIONCULTURE>
+	<REFRELIGIONSTANDARDMONO><ROUTERELIGIONINVOLVED><ROUTERELIGIONCULTURE>
+	<REFRELIGIONNONSTANDARDRELIGION>
+REFRELIGIONNONSTANDARDRELIGION
+	They serve a race of enemy gods.
+	They serve a race of gods excluded from this world.
+	They worship alien gods unheard of by others.
+	Their gods are said to be dead or have fled this world.
+	They turned their back on their old gods to follow <REFRELIGIONREFERENCEGODTYPE> ones.
+	Their primary deity is a patron of their own race.
+REFRELIGIONREFERENCEGODTYPE
+	darker
+	friendlier
+	stranger
+	newer
+REFRELIGIONSTANDARDPOLY
+	They worship a pantheon of gods and goddesses.
+	They worship <REFPANTHEONDESCRIPTIONPERSONALITY> pantheon of gods and goddesses.
+	They worship a <REFPANTHEONDESCRIPTION> pantheon of gods and goddesses.
+	They worship <REFPANTHEONDESCRIPTIONPERSONALITY>, <REFPANTHEONDESCRIPTION> pantheon of gods and goddesses.
+ROUTERELIGIONINVOLVED
+	<*>
+	  <REFRELIGIONINTERVENTION>
+ROUTERELIGIONCULTURE
+	<*>
+	  <REFRELIGIONCULTURE>
+ROUTERELIGIONPOLYFOCUS
+	<*>
+	  <REFRELIGIONPOLYFOCUS>
+REFRELIGIONPOLYFOCUS
+	The <RETDEITY> of <RETDEITYSPHERE> is especially important to them.
+REFPANTHEONDESCRIPTION
+	matriarchial
+		RETDEITY,true
+			goddess
+	patriarchal
+		RETDEITY,true
+			god
+REFPANTHEONDESCRIPTIONPERSONALITY
+	a complex
+	a conflict-ridden
+	a hierarchial
+	an organized
+REFRELIGIONSTANDARDMONO
+	<REFRELIGIONSTANDARDMONOGENERAL>
+	<REFRELIGIONSTANDARDMONOGENERAL>
+	<REFRELIGIONSTANDARDMONOMORAL>
+REFRELIGIONSTANDARDMONOGENERAL
+	They worship a single <REFMONODEITY>.
+	They worship a single <REFMONODEITY> who works with a host of created sub-deities that are also worshiped.
+	They worship a single <REFMONODEITY> who works via assorted servants and messengers.
+REFRELIGIONSTANDARDMONOMORAL
+	They worship a single <REFMONODEITY> who is the cause of good in the world, and who has a nemesis responsible for evil.
+	They worship a single <REFMONODEITY> who works with a host of created sub-deities that are also worshiped - this deity in turn has a nemesis responsible for evil in the world.
+	They worship a single <REFMONODEITY> who works via assorted servants and messengers - this deity in turn has a nemesis responsible for evil in the world.
+REFRELIGIONNONSTANDARD
+	They are in general, atheists.
+	They have no defining religion, but gladly adapt those of others.
+	They have no defining religion, preferring to pick and choose from the pieces of other religions.
+	They practice some forms of spiritual discipline, but some would debate if it is an actual religion.
+	They are only interested in religion for practical value.
+REFRELIGIONINTERVENTION
+	They believe the powers that be are intimately involved in their lives.
+	They believe the powers that be are generally distant and uninvolved in their lives.
+REFMONODEITY
+	goddess
+	god
+	abstract deity
+	hermaphroditic deity
+RETDEITY
+	god
+	goddess
+RETDEITYSPHERE
+	air
+	agriculture
+	autumn
+	animals
+	birth
+	blacksmiths
+	commerce
+	crafting
+	culture
+	death
+	disease
+	earth
+	evening
+	farming
+	fate
+	fertility
+	finance
+	fortune
+	harvest
+	healing
+	hunting
+	intellect
+	justice
+	light
+	lightning
+	literature
+	love
+	luck
+	magic
+	marriage
+	medicine
+	messengers
+	the moon
+	morning
+	music
+	nature
+	peace
+	plants
+	pleasure
+	protection
+	rain
+	revenge
+	rivers
+	the sea
+	the sky
+	snow
+	spring
+	stars
+	strength
+	summer
+	the sun
+	thunder
+	time
+	trade
+	travel
+	vegetation
+	war
+	water
+	the weather
+	wind
+	winter
+	wisdom
+	writing
+REFRELIGIONCULTURE
+	Most religious observation is ritualized and distant.
+	Most religious observation is personal and intimate.
+	Most religious observation is very disordered and disorganized.
+	Most religious observation is done in public ceremonies.
+	Most religious observation is done in private.
+//POWER
+ROUTEPOWER
+	<REFPOWERREGULAR>
+	<REFPOWERUNUSUAL>
+REFPOWERREGULAR
+	They <REFPOWERRULETYPE> <REFPOWEREXPANSEDESC> <REFPOWERRULEEXPANSE>.
+	They <REFPOWERRULETYPE> <REFPOWERRULEEXPANSEREF>.
+	They <REFPOWERRULETYPE> <REFPOWERRULEEXPANSEREF> <REFPOWERRULEMODIFIERROUTE>.
+	They <REFPOWERRULETYPE> <REFPOWEREXPANSEDESC> <REFPOWERRULEEXPANSE> <REFPOWERRULEMODIFIERROUTE>.
+REFPOWERREGULARLAND
+	They <REFPOWERRULETYPE> <RETLANDRULEINDICATE> <REFPOWERRULEEXPANSEPOLITICAL>.
+	They <REFPOWERRULETYPE> <REFPOWEREXPANSEDESC> <RETLANDRULE> <REFPOWERRULEEXPANSEPOLITICAL>.
+	They <REFPOWERRULETYPE> <RETLANDRULEINDICATE> <REFPOWERRULEEXPANSEPOLITICAL> <REFPOWERRULEMODIFIERROUTE>.
+	They <REFPOWERRULETYPE> <REFPOWEREXPANSEDESC> <RETLANDRULE> <REFPOWERRULEEXPANSEPOLITICAL> <REFPOWERRULEMODIFIERROUTE>.
+REFPOWERUNUSUAL
+	They exist only as slaves.
+	They exist as servants to another race.
+	They exist as nomads.
+	They are integrated into another culture, but have no land of their own.
+	Once slaves, they overthrew their masters and rule their realm now.
+	They exist outside this dimension, but have some influence inside of this one.
+	They have no country of their own, but work for other races.
+	They exist as scattered, disunified tribes.
+REFPOWERRULETYPE
+	control
+	completely control
+	manage to control
+	barely control
+REFPOWEREXPANSEDESC
+	a rich
+	a poor
+	a wealthy
+	an impoverished
+REFPOWERRULEEXPANSE
+	<REFPOWERRULEEXPANSEPOLITICAL>
+	<REFPOWERRULEEXPANSEGEOGRAPHIC>
+REFPOWERRULEEXPANSEPOLITICAL
+	kingdom
+	empire
+	country
+	state
+	city-state
+REFPOWERRULEEXPANSEGEOGRAPHIC
+	continent
+	land
+	island
+	island chain
+	peninsula
+REFPOWERRULEEXPANSEREF
+	<REFPOWERRULEEXPANSEPOLITICALREF>
+	<REFPOWERRULEEXPANSEGEOGRAPHICREF>
+REFPOWERRULEEXPANSEPOLITICALREF
+	a kingdom
+	an empire
+	a country
+	a state
+	a city-state
+REFPOWERRULEEXPANSEGEOGRAPHICREF
+	a continent
+	a land
+	an island
+	an island chain
+	a peninsula
+REFPOWERRULEMODIFIERROUTE
+	that has been devastated by war
+	that is dotted with mysterious ruins
+	that bears a terrible curse
+	that is beset by a mysterious evil
+	that, in the past, was blessed by the powers that be
+	whose recorded history goes back to the dawn of time
+	that is the site of many ancient tombs
+	that is haunted by many ghosts and other undead
+	that is known for its wild weather
+	that is known for its predictable weather
+	that is known for its exotic plant life
+	that is known for its exotic animal life
+	that is known as a home for monstrous creatures
+	that has been altered significantly by magic in the past
+	that requires regular sacrifices to certain powers to maintain its prosperity
+	that holds many ancient, lost treasures
+	that is the site of a lost civilization
+	that is prone to earthquakes
+	that is actually a living being they exist in harmony with
+	that is known as a source of strange minerals
+	that is known for its incredible beauty
+// government
+REFROUTEGOVERMENT
+	Their government is <REFGOVERMENTTYPE>.
+	Their government is <REFGOVERMENTTYPEFUNCTION>.
+	Their government is <REFGOVERMENTTYPE> that is <REFGOVERMENTTYPEFUNCTION>.
+REFGOVERMENTTYPE
+	an aristocracy
+	a bureaucracy
+	a confederacy
+	a democracy
+	a dictatorship
+	a feudal system
+	a magiocracy
+	a meritocracy
+	a plutocracy
+	a representative democracy
+	a theocracy
+	a technocracy
+REFGOVERMENTTYPEFUNCTION
+	efficient
+	functional
+	inefficient
+	non-functional
+	corrupt
+	ethical in its own way
+	extremely corrupt
+	entirely dysfunctional
+//World Extras
+REFWORLDEXTRA
+	The <REFWORLDEXTRAGOD> that created them in turn abandoned them.
+	No one knows where they came from.
+	They are the descendents of <REFWORLDEXTRADESCENT>.
+	Their history is unknown even to them.
+	Their history conceals a great secret.
+	They are intimately connected to an important prophecy.
+	They seem to have a special purpose on the world.
+	A great destiny awaits them, and they wait for it patiently.
+	A great destiny awaits them, yet they know it not.
+	A great doom awaits them, and they know it not.
+	A great doom awaits them, and they are all too aware of it.
+	They tend to be mistrusted by others - but no one can say why. 
+	They were created as part of a magical experiment <REFWORLDEXTRAEXPERIMENTRESULT>.
+	They were created as part of a breeding experiment <REFWORLDEXTRAEXPERIMENTRESULT>.
+	They are the reincarnation of another species.
+	They are the descendents of another race.
+	They are a magical mutation of another race.
+	They came from another world.
+	They came from another dimension.
+REFWORLDEXTRAEXPERIMENTRESULT
+	that went horribly wrong
+	that was unexepctedly successful
+	that was successful
+	that failed - creating them instead
+REFWORLDEXTRAGOD
+	god
+	gods
+	goddess
+	goddesses
+	deity
+	deities
+REFWORLDEXTRADESCENT
+	demons
+	angels
+	gods
+	another species
+	an alien species
+//WORLD SETTING
+ROUTELANDASSOCIATE
+//desert
+//Forest
+	<*>
+		RETLANDAFFINITY
+			deserts
+			great deserts
+		RETLANDMAGIC
+			sand
+			water
+			wind
+		RETLANDRULE
+			desert
+		RETLANDRULEINDICATE
+			a desert
+//Forest
+	<*>
+		RETLANDAFFINITY
+			arboreal lands
+			forests
+			trees
+		RETLANDMAGIC
+			plant
+		RETLANDRULE
+			forest
+		RETLANDRULEINDICATE
+			a forest
+//jungle
+	<*>
+		RETLANDAFFINITY
+			jungles
+		RETLANDMAGIC
+			plant
+			water
+		RETLANDRULE
+			jungle
+			tropical
+		RETLANDRULEINDICATE
+			a jungle
+			a tropical
+//grassland
+	<*>
+		RETLANDAFFINITY
+			grasslands
+			plains
+			great plains
+		RETLANDRULE
+			grassland
+			plains-covered
+		RETLANDRULEINDICATE
+			a grassland
+			a plains-covered
+//Mountain
+	<*>
+		RETLANDAFFINITY
+			mountains
+			mountain ranges
+		RETLANDMAGIC
+			earth
+			stone
+		RETLANDRULE
+			mountain
+			mountainous
+		RETLANDRULEINDICATE
+			a mountain
+			a mountainous
+//Swamp
+	<*>
+		RETLANDAFFINITY
+			swamps
+			swampland
+		RETLANDMAGIC
+			death
+			decay
+			plant
+			water
+		RETLANDRULE
+			swampy
+		RETLANDRULEINDICATE
+			a swampy
+//underground
+	<*>
+		RETLANDAFFINITY
+			caves
+			caverns
+			tunnels
+		RETLANDMAGIC
+			earth
+			stone
+		RETLANDRULE
+			subterranean
+			underground
+		RETLANDRULEINDICATE
+			a subterranean
+			an underground
+//water
+	<*>
+		RETLANDAFFINITY
+			islands
+			oceans
+			seas
+			water
+		RETLANDMAGIC
+			water
+		RETLANDRULE
+			island
+			ocean
+			water
+		RETLANDRULEINDICATE
+			an island
+			an island-chain
+			an ocean-base
+			a water-based
+RETLANDAFFINITY
+	DEFINED LAND
+RETLANDMAGIC
+	<REFMAGICELEMENT>
+RETLANDRULE
+	DEFINED RULED LAND
+RETLANDRULEINDICATE
+//GENERAL REFS
+REFCOLOR
+	black
+	blue
+	brown
+	gold
+	gray
+	green
+	orange
+	purple
+	red
+	silver
+	white
+	yellow
+	dark
+	light
+REFNUMBERPLUSONE
+	two
+	three
+	four
+	five
+	six
+REFSKINCOLORGENERAL
+	white
+	pale
+	dusky
+	dark
+	black
+REFHAIRCOLORGENERAL
+	fair
+	dark
+REFCOLOREYESGENERAL
+	dark-colored
+	light-colored
+	cold-colored
+	warmly-colored
+REFWINGNUM
+	two
+	four
+	six
+REFENVIROROUTE
+	great heat
+	extreme cold

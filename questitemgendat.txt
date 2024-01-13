@@ -1,0 +1,429 @@
+//Vocab types:
+// 1 Description
+// 2 Object
+// 4 Actor
+// 8 Actors
+// 16 Quality
+// 32 Pieces
+// 64 Numbers
+--ORGANIZATION
+//There are duplicates of the Basics and In Pieces for proper ratios
+//Basics
+1,2,4
+, , ,
+1,4,16
+, , of ,
+4,16
+, of ,
+1,2,4
+, , ,
+1,4,16
+, , of ,
+4,16
+, of ,
+//In pieces
+64,32,1,2,4
+The , , of the , , ,
+64,32,1,4,16
+The , , of the , , of ,
+64,32,4,16
+The , , of the , of ,
+64,32,1,2,4
+The , , of the , , ,
+64,32,1,4,16
+The , , of the , , of ,
+64,32,4,16
+The , , of the , of ,
+//Parts of
+8,16,16,16
+The , of ,<COMMA> ,<COMMA> and ,
+8,16,16,16,16
+The , of ,<COMMA> ,<COMMA> ,<COMMA> and ,
+8,16,16,16,16,16
+The , of ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,
+8,16,16,16,16,16,16
+The , of ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,
+8,16,16,16,16,16,16,16
+The , of ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,
+8,16,16,16,16,16,16,16,16
+The , of ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> ,<COMMA> and ,
+--VOCABULARY
+// 1 Description
+Adamantine,1
+Ancestral,1
+Ancient,1
+Angelic,1
+Astral,1
+Black,1
+Blasphemous,1
+Blessed,1
+Bloodstained,1
+Bloody,1
+Brilliant,1
+Burning,1
+Celestial,1
+Chaotic,1
+Cursed,1
+Damned,1
+Dark,1
+Deadly,1
+Decrepid,1
+Demonic,1
+Desecrated,1
+Diamond,1
+Elemental,1
+Emerald,1
+Enchanted,1
+Ensorceled,1
+Eternal,1
+Ethereal,1
+Ever-changing,1
+Evil,1
+Forbidden,1
+Forgotten,1
+Foul,1
+Ghastly,1
+Ghostly,1
+Gold,1
+Golden,1
+Grand,1
+Great,1
+Heavenly,1
+Hellish,1
+Holy,1
+Infernal,1
+Legendary,1
+Living,1
+Lordly,1
+Magic,19
+Magical,1
+Mysterious,1
+Mystic,1
+Mystical,1
+Necromantic,1
+Perfect,1
+Portable,1
+Prismatic,1
+Profane,1
+Profane,1
+Ritual,1
+Ruby,1
+Runed,1
+Sacred,1
+Sapphire,1
+Savage,1
+Secret,1
+Shadowed,1
+Shadowy,1
+Silent,1
+Silver,1
+Sorcerous,1
+Spectral,1
+Terrible,1
+Terrifying,1
+Triumphant,1
+True,1
+Twisted,1
+Unholy,1
+Universal,1
+Unknowable,1
+Unknown,1
+Unspeakable,1
+Unthinkable,1
+Warped,1
+White,1
+Wicked,1
+// 2 Object
+Action,2
+Agony,2
+Annihilation,18
+Bane,2
+Battle,18
+Blasphemy,18
+Blessing,2
+Blight,18
+Blood,18
+Bone,2
+Chaos,18
+Cloud,2
+Cold,2
+Combat,18
+Curse,2
+Danger,18
+Day,2
+Death,18
+Despair,18
+Destiny,18
+Destruction,18
+Devil,18
+Doom,18
+Dream,2
+Energy,18
+Faith,18
+Fate,18
+Fear,18
+Fire,18
+Flame,18
+Flesh,18
+Fog,18
+Glory,18
+Good,18
+Gore,18
+Hell,18
+Horror,18
+Ice,18
+Illusion,18
+Life,18
+Light,18
+Lightning,18
+Love,18
+Mind,2
+Moon,2
+Mountain,2
+Night,2
+Oath,2
+Oblivion,2
+Omen,2
+Pain,18
+Panic,2
+Plane,2
+Poison,18
+Power,18
+Prayer,18
+Shadow,18
+Silence,18
+Snare,2
+Soul,2
+Spell,2
+Star,2
+Storm,2
+Sun,2
+Tear,2
+Terror,18
+Thunder,18
+Time,18
+Truth,18
+Venom,18
+Victory,18
+War,18
+Wind,18
+Wonder,18
+// 4 Actor
+Amulet,4
+Apparatus,4
+Armor,4
+Axe,4
+Blade,4
+Circlet,4
+Crown,4
+Crystal,4
+Cube,4
+Diadem,4
+Disk,4
+Fetish,4
+Gate,4
+Gauntlet,4
+Gem,4
+Hammer,4
+Helmet,4
+Idol,4
+Jewel,4
+Lance,4
+Lens,4
+Lute,4
+Lyre,4
+Mace,4
+Mask,4
+Medallion,4
+Necklace,4
+Orb,4
+Pendant,4
+Peripat,4
+Phylactery,4
+Pick,4
+Pike,4
+Portal,4
+Ring,4
+Rod,4
+Scarab,4
+Sceptre,4
+Scimtar,4
+Scythe,4
+Shield,4
+Sigil,4
+Skull,4
+Spear,4
+Staff,4
+Statue,4
+Talisman,4
+Token,4
+Torc,4
+Trident,4
+Wand,4
+Warhammer,4
+// 8 Actors
+Amulets,8
+Armors,8
+Axes,8
+Beads,8
+Blades,8
+Circlets,8
+Crowns,8
+Crystals,8
+Cubes,8
+Diadems,8
+Disks,8
+Gems,8
+Idols,8
+Jewels,8
+Lenses,8
+Masks,8
+Medallions,8
+Necklaces,8
+Orbs,8
+Pendants,8
+Peripats,8
+Phylacteries,8
+Rings,8
+Rods,8
+Scarabs,8
+Sceptres,8
+Shields,8
+Sigils,8
+Skulls,8
+Staves,8
+Statues,8
+Talismans,8
+Tokens,8
+Torcs,8
+Wands,8
+// 16 Quality
+Abjuration,16
+Acid,16
+Adroitness,16
+Air,16
+Armageddon,16
+Blessings,16
+Bones,16
+Chance,16
+Charisma,16
+Clarity,16
+Clouds,16
+Confusion,16
+Conjuration,16
+Courage,16
+Curses,16
+Damnation,16
+Darkness,16
+Days,16
+Decay,16
+Deceit,16
+Deception,16
+Demons,16
+Desolation,16
+Devils,16
+Disease,16
+Dissolution,16
+Divination,16
+Dreams,16
+Earth,16
+Elements,16
+Enchantment,16
+Enchantments,16
+Falsehood,16
+Fortune,16
+Foulness,16
+Frost,16
+Ghosts,16
+Glaciers,16
+Happiness,16
+Hate,16
+Health,16
+Heaven,16
+Illness,16
+Illusions,16
+Impurity,16
+Insanity,16
+Insight,16
+Intelligence,16
+Invocation,16
+Knowledge,16
+Law,16
+Lies,16
+Luck,16
+Madness,16
+Memories,16
+Might,16
+Minerals,16
+Mirages,16
+Misery,16
+Monsters,16
+Mysteries,16
+Necromancy,16
+Nothingness,16
+Omens,16
+Paralysis,16
+Peace,16
+Plants,16
+Prayers,16
+Radiance,16
+Remedy,16
+Secrets,16
+Shadows,16
+Snares,16
+Solitude,16
+Sorcery,16
+Souls,16
+Sound,16
+Speed,16
+Speed,16
+Spirits,16
+Storms,16
+Strategy,16
+Suffering,16
+Summoning,16
+Tears,16
+the Apocalypse,16
+the Arctic,16
+the Desert,16
+the Forest,16
+the Moon,16
+the Mountains,16
+the Ocean,16
+the Plains,16
+the Sea,16
+the Stars,16
+the Sun,16
+the Winds,16
+the Winterlands,16
+Thoughs,16
+Thought,16
+Thunderbolts,16
+Torture,16
+Traps,16
+Travel,16
+Vigor,16
+Visions,16
+Water,16
+Wickedness,16
+Wisdom,16
+Wishes,16
+Wizardry,16
+Words,16
+Worlds,16
+// 32 Pieces
+fragments,32
+parts,32
+pieces,32
+sections,32
+// 64 Numbers
+three,64
+four,64
+five,64
+six,64
+seven,64
+eight,64
+nine,64
+ten,64
+eleven,64
+twelve,64

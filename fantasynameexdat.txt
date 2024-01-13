@@ -1,0 +1,243 @@
+//1 - First name
+//2 - Standalone second name
+//4 - Descriptor
+//8 - Object
+//16 -Being
+//32 - Being-part (note many of these are also objects)
+//64 - Interactor
+--ORGANIZATION
+//Single (50%)
+1,2
+, ,
+1,2
+, ,
+1,2
+, ,
+1,2
+, ,
+1,2
+, ,
+1,2
+, ,
+//
+//Multiple non-being (25%)
+1,4,8
+, ,,
+1,4,64
+, ,,
+1,8,8
+, ,,
+1,8,64
+, ,,
+//Multiple being (25%)
+1,4,16
+, ,,
+1,8,16
+, ,,
+1,16,32
+, ,,
+1,16,64
+, ,,
+--VOCABULARY
+//1 - First name
+//2 - Standalone second name
+//4 - Descriptor
+//8 - Object
+//16 -Being
+//32 - Being-part (note many of these are also objects)
+//64 - Interactor
+Zeal,9
+Zealot,19
+Icon,25
+Roamer,2
+Wanderer,2
+Wanderlust,2
+Warden,19
+Beast,20
+Radical,1
+Melody,1
+Harmony,1
+Lance,9
+Claymore,1
+Dagger,9
+Machete,1
+Stiletto,1
+Rouge,23
+Sinner,17
+Watcher,34
+Maverick,3
+Opera,9
+Song,43
+Anchor,10
+Lone,4
+Child,32
+Eden,9
+Wise,4
+Tarot,1
+Amber,15
+Ruby,15
+Rogue,15
+River,9
+Raven,23
+Spawn,32
+Ivy,9
+Tempest,11
+Belladonna,1
+Gunner,3
+Brand,11
+Magus,19
+Maxim,3
+Veil,11
+Blizzard,3
+Gale,11
+Furor,3
+Typhoon,3
+Gust,11
+Seraph,19
+Fiend,20
+Rascal,23
+Sin,9
+Sinner,21
+Honor,11
+Flora,15
+Fauna,15
+Jasmine,1
+Violet,15
+Rose,15
+Saber,11
+Katana,11
+Seraphim,3
+Sephiroth,3
+Solitaire,3
+Purity,5
+Victory,3
+Chastity,3
+Nazareth,2
+Comet,9
+Ever,4
+Jericho,3
+Bedlam,3
+Pandemonium,2
+Ragnarok,3
+Victor,33
+Reaper,67
+Grail,9
+Blade,9
+Edge,9
+Royal,6
+Noble,30
+Sunrise,3
+Sunset,3
+Albion,3
+Paradox,3
+Sheol,3
+Aeon,11
+Angel,17
+Anger,40
+Arcane,3
+Arcana,3
+Axe,9
+Bane,63
+Battler,67
+Black,4
+Blood,43
+Caster,64
+Chanter,64
+Chaos,11
+Clash,11
+Claw,43
+Cloud,9
+Cult,11
+Curse,9
+Dark,14
+Dawn,11
+Demon,16
+Devil,16
+Dire,6
+Dirk,1
+Doom,10
+Dragon,18
+Drake,17
+Dread,48
+Dream,40
+Eternity,11
+Eye,32
+Fate,11
+Fell,4
+Finder,64
+Fire,8
+Flame,11
+Ghost,29
+God,28
+Gold,12
+Grave,15
+Grief,41
+Griffon,19
+Grim,7
+Grimoire,3
+Guard,72
+Hate,8
+Hawk,35
+Heart,40
+Hell,10
+Holy,4
+Honor,11
+Howl,40
+Hunter,67
+Ice,13
+Iron,12
+Jackal,19
+Jester,3
+Killer,68
+King,23
+Knight,23
+Lady,30
+Law,11
+Legend,3
+Leo,1
+Light,11
+Lightning,3
+Lion,16
+Lord,31
+Lore,9
+Mad,4
+Mage,28
+Magic,12
+Midnight,11
+Mist,11
+Mourner,67
+Mystery,11
+Nemesis,23
+Quake,11
+Queen,22
+Rage,43
+Rain,11
+Raven,16
+Red,4
+Rune,11
+Seeker,67
+Shadow,43
+Shroud,11
+Silver,12
+Slayer,67
+Soul,40
+Spell,8
+Spirit,45
+Squall,11
+Star,9
+Steel,12
+Storm,11
+Strife,43
+Talon,43
+Tiger,17
+Tomb,8
+Tome,9
+Totem,9
+Tsunami,3
+Valentine,3
+War,8
+Warlock,23
+White,4
+Wind,11
+Witch,20
+Wolf,35

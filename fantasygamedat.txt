@@ -1,0 +1,226 @@
+//Vocab types:
+--ORGANIZATION
+//Oddball
+1,1
+, and ,
+2,2
+, and ,
+4,4
+, and ,
+8,8
+, and ,
+16,16
+, and ,
+32,32
+, and ,
+64,64
+, and ,
+128,128
+, and ,
+256,256
+, and ,
+512,512
+, and ,
+1024,1024
+, and ,
+2048,2048
+, and ,
+4096,4096
+, and ,
+--VOCABULARY
+//A-1
+Adventure,1
+Adventurers,1
+Aether,1
+Alchemists,1
+Alchemy,1
+Altar,1
+Altars,1
+Amazons,1
+Amulets,1
+Angels,1
+Archers,1
+Archmages,1
+Armor,1
+Arrows,1
+Artifacts,1
+Assasins,1
+Axes,1
+Artificers,1
+//B - 2
+Barbarians,2
+Battlements,2
+Battles,2
+Beasts,2
+Blades,2
+Bowmen,2
+Ballistas,2
+Bows,2
+Bravery,2
+Broadswords,2
+//C- 4
+Catapults,4
+Castles,4
+Catacombs,4
+Caves,4
+Caverns,4
+Centaurs,4
+Chainmail,4
+Champions,4
+Charms,4
+Citadels,4
+Clerics,4
+Conjurers,4
+Conquerors,4
+Conquest,4
+Courage,4
+Crossbows,4
+Crusaders,4
+Crusades,4
+Crypts,4
+Cutlasses,4
+//D - 8
+Daggers,8
+Daring,8
+Deities,8
+Demigods,8
+Demons,8
+Destiny,8
+Devils,8
+Divinities,8
+Dragons,8
+Druids,8
+Dungeons,8
+Dwarves,8
+//E- 16
+Elementalists,16
+Elementals,16
+Elves,16
+Emperesses,16
+Emperors,16
+Empires,16
+Enchanters,16
+Enchantment,16
+Enchantments,16
+Ether,16
+Exorcists,16
+Exploration,16
+Explorers,16
+Exorcisms,16
+//G - 32
+Gargoyles,32
+Genies,32
+Ghosts,32
+Ghouls,32
+Gladiators,32
+Goblins,32
+Goddesses,32
+Gods,32
+Gold,32
+Golems,32
+Griffons,32
+Grimoires,32
+//H-64
+Hauntings,64
+Hellspawn,64
+Helmets,64
+Heroes,64
+Heroines,64
+Heroism,64
+Hoards,64
+Horrors,64
+Halbierds,64
+Halflings,64
+//m - 128
+Maces,128
+Mages,128
+Magic,128
+Magicians,128
+Martial Artists,128
+Martyrs,128
+Mayhem,128
+Mazes,128
+Mercenaries,128
+Might,128
+Mines,128
+Minotaurs,128
+Miracles,128
+Mithril,128
+Monks,128
+Monsters,128
+Mummies,128
+Mysteries,128
+Mysticism,128
+Mystics,128
+//P - 256
+Paladins,256
+Phantoms,256
+Pirates,256
+Plots,256
+Potions,256
+Priestesses,256
+Priests,256
+Princes,256
+Princesses,256
+Prophecy,256
+Prophets,256
+Pyramids,256
+//R - 512
+Ramparts,512
+Rangers,512
+Rapiers,512
+Relics,512
+Rituals,512
+Rogues,512
+Ruins,512
+Runes,512
+//S - 1024
+Sabres,1024
+Saints,1024
+Samurai,1024
+Sanctuaries,1024
+Schemes,1024
+Scimtars,1024
+Scrolls,1024
+Secrets,1024
+Shields,1024
+Shrines,1024
+Shurikens,1024
+Sorceries,1024
+Sorcery,1024
+Souls,1024
+Spears,1024
+Spells,1024
+Sphinxes,1024
+Spirits,1024
+Staves,1024
+Strength,1024
+Summoners,1024
+Swashbucklers,1024
+Swords,1024
+//T - 2048
+Talismans,2048
+Temples,2048
+Terrors,2048
+Thieves,2048
+Thrones,2048
+Tombs,2048
+Traps,2048
+Treasure,2048
+Trolls,2048
+Tunnels,2048
+Treasure,2048
+//W - 4096
+Wanderers,4096
+Wands,4096
+War,4096
+Warfare,4096
+Warlocks,4096
+Warlords,4096
+Warriors,4096
+Weapons,4096
+Werewolves,4096
+Witchcraft,4096
+Witches,4096
+Wizardry,4096
+Wizards,4096

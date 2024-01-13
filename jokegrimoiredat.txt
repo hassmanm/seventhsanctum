@@ -1,0 +1,347 @@
+//Vocab types:
+//1 - Element
+//2 - Trait
+//4 - Elemental Being
+//8 - Being(s)
+//16 - Form
+//32 - Trait Alterer
+//64 - Being affector
+//128 - Spell Form Alterer
+//256 - Spell form
+--ORGANIZATION
+16,1
+, of ,
+16,2
+, of ,
+1,16
+, ,
+128,16,1
+, , of ,
+128,16,2
+, , of ,
+128,1,16
+, , ,
+32,2
+, ,
+64,8
+, ,
+64,1,4
+, , ,
+32,2,8
+, , in ,
+//new stuff
+128,256,1
+, , of ,
+128,256,2
+, , of ,
+128,256,8
+, , of the ,
+128,256,1,4
+, , of the , ,
+//Vocabulary
+--VOCABULARY
+//1 - Element
+Bacon,1
+Balsa,1
+Batter,1
+Bile,1
+Butter,1
+Cabbage,1
+Caffene,1
+Cardboard,1
+Champaigne,1
+Chocolate,1
+Cheese,1
+Coffee,1
+Cola,1
+Confetti,1
+Corn,1
+Cotton,1
+Cotton Candy,1
+Cream,1
+Deoderant,1
+Detergent,1
+Drool,1
+Earwax,1
+Fertlizer,1
+Hair,1
+Hummus,1
+Ice Cream,1
+Juice,1
+Lettuce,1
+Meat,1
+Milk,1
+Mouthwash,1
+Mucus,1
+Mustard,1
+Noodles,1
+Onion Dip,1
+Pasta,1
+Peanut Butter,1
+Persperation,1
+Pornography,1
+Pudding,1
+Pus,1
+Ramen,1
+Salad Dressing,1
+Saliva,1
+Sausage,1
+Sawdust,1
+Snot,1
+Steak Sauce,1
+Sweat,1
+Syrup,1
+Tea,1
+Tinsel,1
+Toothpaste,1
+Urine,1
+Vaseline,1
+Vinegar,1
+Yarn,1
+Yogurt,1
+//2 - Trait
+Acne,2
+Anal-Retentiveness,2
+Annoyance,2
+Arrogance,2
+Athlete's Foot,2
+Baldness,2
+Back Pain,2
+Bad Hair,2
+Bad Hygene,2
+Bad Taste,2
+Belching,2
+Bedhead,2
+Blathering,2
+Complaining,2
+Constipation,2
+Cowlicks,2
+Cramps,2
+Crossdressing,2
+Dandruff,3
+Diarrhea,3
+Drooling,2
+Drunkeness,2
+Halitosis,3
+Hemorrhoids,2
+Flatulence,3
+Foot Fetish,2
+Foot Odor,3
+Grumpiness,2
+Immaturity,2
+Impoliteness,2
+Incontinence,2
+Inconvenience,2
+Irregularity,2
+Irritation,2
+Low Self-Esteem,2
+Nervousness,2
+Neuroses,2
+Nose Picking,2
+Piles,2
+Ranting,2
+Salivation,2
+Silliness,2
+Sinus Drainage,2
+Stomach Upset,2
+Stupidity,2
+Split Ends,2
+Sunburn,2
+Toejam,3
+Vindictiveness,2
+Warts,2
+Whining,2
+//4 - Elemental Being
+Angel,4
+Demon,4
+Devil,4
+Dragon,4
+Elemental,4
+Entity,4
+Fairy,4
+Giant,4
+Golem,4
+Spirit,4
+//8 - Being(s)
+Accountant,8
+Accountants,8
+Babysitter,8
+Babysitters,8
+Boyband,8
+Boybands,8
+Chimneysweep,8
+Chimneysweeps,8
+Church Lady,8
+Church Ladies,8
+Clown,8
+Clowns,8
+Cobbler,8
+Cobblers,8
+Comedian,8
+Comedians,8
+Costumer,8
+Costumers,8
+Crossdresser,8
+Crossdressers,8
+Dentist,8
+Dentists,8
+Editor,8
+Editors,8
+Elvis Impersonator,8
+Elvis Impersonators,8
+Fanboy,8
+Fanboys,8
+Fangirl,8
+Fangirls,8
+Female Impersonator,8
+Female Impersonators,8
+Florist,8
+Florists,8
+Geek,8
+Geeks,8
+Goth,8
+Goths,8
+Groupie,8
+Groupies,8
+Gym Teacher,8
+Gym Teachers,8
+Haberdasher,8
+Haberdashers,8
+Lounge Singer,8
+Lounge Singers,8
+Manicurist,8
+Manicurists,8
+Milkmaid,8
+Milkmaids,8
+Panhandler,8
+Panhandlers,8
+Poser,8
+Posers,8
+Raver,8
+Ravers,8
+Schoolteacher,8
+Schoolteachers,8
+Stripper,8
+Strippers,8
+Stunt Double,8
+Stunt Doubles,8
+Tap Dancer,8
+Tap Dancers,8
+Wannabe,8
+Wannabes,8
+Wrestler,8
+Wrestlers,8
+//16 - Form
+Armor,16
+Assault,16
+Aura,16
+Ball,16
+Beam,16
+Blast,16
+Blob,16
+Bolt,16
+Cage,16
+Cube,16
+Curse,16
+Disc,16
+Erruption,16
+Field,16
+Glob,16
+Globe,16
+Jet,16
+Maelstorm,16
+Pool,16
+Puddle,16
+Ray,16
+Shield,16
+Sphere,16
+Spout,16
+Spray,16
+Storm,16
+Torus,16
+Vortex,16
+Wall,16
+Warp,16
+Zone,16
+//32 - Trait Alterer
+Cause,32
+Create,32
+Cure,32
+Dispell,96
+Eliminate,96
+Heal,32
+Induce,32
+Invoke,96
+//64 - Being affector
+Annoy,64
+Banish,64
+Bind,64
+Call,64
+Communicate with,64
+Conceal,64
+Concealment from,64
+Conjure,64
+Control,64
+Destroy,64
+Dominate,64
+Invisibility to,64
+Irritate,64
+Protection from,64
+Slay,64
+Spank,64
+Talk to,64
+Tickle,64
+Transform,64
+Transmute,64
+Speak with,64
+Summon,64
+//128 - Spell Form Alterer
+Alchemical,128
+Amazing,128
+Astonishing,128
+Astounding,128
+Astrological,128
+Astral,128
+Burning,128
+Cabalistic,128
+Cosmic,128
+Cursed,128
+Damned,128
+Dark,128
+Divine,128
+Dread,128
+Extra-Planar,128
+Etheral,128
+Flaming,128
+Grand,128
+Great,128
+Heavenly,128
+Hellish,128
+Hermetic,128
+Holy,128
+Illusionary,128
+Infernal,128
+Luminous,128
+Magical,128
+Mystic,128
+Necromantic,128
+Occult,128
+Overwhelming,128
+Prismatic,128
+Sorcerous,128
+Spastic,128
+Spiritual,128
+Ultimate,128
+Unbelievable,128
+Unholy,128
+//256 - Spell forms
+Ceremony,256
+Chant,256
+Enchantment,256
+Evocation,256
+Incantation,256
+Invocation,256
+Rite,256
+Ritual,256
+Spell,256
+Transfiguration,256

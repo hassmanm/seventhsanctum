@@ -1,0 +1,145 @@
+//Vocab types:
+//Qualifiers 1
+//Modifiers 2
+//Prefix 4
+//Suffix 8
+//Specialty 16
+--ORGANIZATION
+1,2,16
+, ,,
+1,2,4,8
+, ,,,
+1,2,4,16
+, ,,,
+1,4,8
+, ,,
+1,4,4,8
+, ,,,
+1,4,16
+, ,,
+2,16
+,,
+2,4,8
+,,,
+2,4,16
+,,,
+4,8
+,,
+4,4,8
+,,,
+4,16
+,,
+--VOCABULARY
+//Qualifiers 1
+//Modifiers 2
+//Prefix 4
+//Suffix 8
+//Specialty 16
+//Qualifier
+Agricultural,1
+Analytical,1
+Atomic,1
+Biomedical,1
+Cellular,1
+Civil,1
+Cognitive,1
+Computational,1
+Developmental,1
+Environmental,1
+Evolutionary,1
+Experimental,1
+Fluid,1
+Inorganic,1
+Institutional,1
+Material,1
+Mathematical,1
+Military,1
+Molecular,1
+Nuclear,1
+Optical,1
+Organic,1
+Particle,1
+Physical,1
+Plasma,1
+Polymer,1
+Quantum,1
+Social,1
+Statistical,1
+Structural,1
+Vehicular,1
+Veteranary,1
+//Modifier
+Meta,2
+Para,2
+Poly,2
+Stereo,2
+Ultra,2
+//Prefix
+Agro,4
+Antrho,4
+Astro,4
+Bio,4
+Chemo,4
+Climato,4
+Cyto,4
+Eco,4
+Electro,4
+Entomo,4
+Epidemo,4
+Etho,4
+Geo,4
+Histo,4
+Hydro,4
+Immuno,4
+Limno,4
+Mineralo,4
+Morpho,4
+Neuro,4
+Neuro,4
+Oceano,4
+Paleo,4
+Paleonto,4
+Pharmaco,4
+Phyco,4
+Phylo,4
+Psycho,4
+Radio,4
+Seismo,4
+Socio,4
+Spectro,4
+Thermo,4
+Topo,4
+Toxi,4
+Toxico,4
+Viro,4
+Volcano,4
+Zoo,4
+//Suffix
+genics,8
+graphy,8
+Informatics,24
+logy,8
+metrics,8
+morphology,8
+nomy,8
+scopy,8
+//Speciality
+Acoustics,16
+Anatomy,16
+Botany,16
+Chemistry,16
+Dynamics,16
+Economics,16
+Engineering,16
+Finance,16
+Genetics,16
+Geography,16
+History,16
+Linguistics,16
+Logistics,16
+Mathematics,16
+Optics,16
+Ontology,16
+Physics,16
+Statics,16
+Statistics,16

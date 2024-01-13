@@ -1,0 +1,381 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Organizational Configurations
+//These are basic configurations
+--ORGANIZATION
+1,8
+The , ,.
+2,8
+The , ,.
+4,8
+The , ,.
+8,16
+The , ,.
+1,2,8
+The ,<COMMA>, ,.
+1,4,8
+The ,<COMMA>, ,.
+1,8,16
+The , , ,.
+2,4,8
+The ,<COMMA>, ,.
+1,2,4,8
+The ,<COMMA>,<COMMA>, ,.
+2,8,16
+The , , ,.
+4,8,16
+The , , ,.
+1,4,8,16
+The ,<COMMA>, , ,.
+2,4,8,16
+The ,<COMMA>, , ,.
+1,2,4,8,16
+The ,<COMMA>,<COMMA>, , ,.
+//Vocabulary
+--VOCABULARY
+absent-minded,2
+acrobatic,1
+addled,2
+aged,1
+aggravated,2
+agile,1
+alienated,6
+aloof,6
+altruistic,6
+ambitious,2
+amiable,4
+antisocial,4
+anxious,2
+apathetic,2
+arrogant,6
+artistic,2
+atheistic,2
+athletic,1
+attractive,4
+awestruck,2
+awkward,5
+biased,6
+bigoted,4
+bitter,2
+bloodthirsty,6
+boastful,6
+boring,6
+brave,6
+broken-hearted,6
+brutal,6
+bullying,4
+burnt-out,2
+calm,2
+charismatic,4
+chaste,4
+cheerful,2
+clever,2
+clinging,6
+clueless,2
+clumsy,1
+combative,2
+committed,2
+compassionate,2
+complacent,2
+composed,2
+conceited,2
+confident,2
+conformist,2
+confused,2
+contemplative,2
+cooperative,6
+corrupt,6
+courageous,2
+cowardly,2
+craven,2
+crazy,2
+creative,2
+crippled,1
+cruel,4
+cunning,2
+cute,4
+cynical,2
+delusional,2
+depressed,2
+detached,2
+dexterous,1
+diabolical,2
+disillusioned,2
+disloyal,4
+disorganized,2
+dispirited,2
+dissatisfied,2
+distant,6
+domineering,4
+driven,2
+drunken,2
+eccentric,6
+educated,2
+elegant,2
+enduring,3
+energetic,2
+ethical,4
+experienced,2
+extraverted,4
+fearful,2
+fear-ridden,2
+fearsome,6
+focused,2
+forceful,2
+friendly,4
+frustrated,2
+funny,4
+generous,4
+gentle,4
+graceful,1
+greedy,6
+grim,2
+happy,2
+hateful,6
+healthy,1
+heroic,6
+homely,4
+humble,6
+hypocritical,6
+hysterical,2
+ignorant,2
+ignored,4
+illogical,2
+immature,6
+immoral,4
+incoherent,2
+indecisive,2
+industrious,2
+inexperienced,2
+infamous,4
+inhibited,6
+innocent,2
+intelligent,2
+intimidating,4
+introverted,4
+intuitive,2
+irrational,2
+joyful,2
+just,2
+kind,6
+laid-back,2
+lazy,2
+logical,2
+lonely,6
+loudmouthed,2
+manipulative,6
+materialistic,2
+mature,2
+mean-spirited,6
+melancholy,2
+militant,2
+miserable,2
+miserly,2
+misguided,2
+misunderstood,2
+moral,4
+moralistic,6
+moralizing,4
+mysterious,2
+mystical,2
+naive,2
+narrow-minded,2
+negative,2
+nervous,2
+neurotic,2
+nice,2
+nihilistic,2
+nimble,1
+noisy,2
+nostalgic,2
+nurturing,4
+obedient,4
+obsessive,2
+odd,6
+open-minded,6
+opinionated,6
+opportunistic,2
+optimistic,2
+organized,2
+outgoing,4
+paranoid,6
+patriotic,6
+patronizing,4
+peaceful,2
+peace-loving,2
+persistent,2
+persuasive,6
+pessimistic,2
+philandering,6
+philosophical,2
+pious,2
+plain,1
+playful,4
+plucky,2
+poised,1
+pompous,4
+popular,4
+posturing,4
+pragmatic,2
+predictable,2
+principled,2
+private,2
+promiscuous,6
+puerile,2
+pure,2
+quiet,2
+realistic,2
+rebellious,2
+religious,2
+righteous,6
+romantic,2
+rude,4
+ruthless,2
+sadistic,6
+sarcastic,6
+scatterbrained,2
+seasoned,2
+secretive,2
+selfish,6
+selfless,6
+self-righteous,6
+serene,2
+serious,2
+shiftless,2
+shifty,2
+short-tempered,6
+sickly,1
+silly,2
+sleazy,6
+sloppy,2
+slothful,2
+slovenly,2
+smart,2
+smooth,4
+snide,2
+social,4
+spendthrift,2
+spiritual,2
+stingy,2
+stressed,2
+striking,5
+strong,1
+studious,2
+stupid,2
+tactful,6
+tactless,6
+tired,2
+tireless,3
+tolerant,6
+tough,3
+ugly,4
+unambitious,2
+unathletic,1
+unbalanced,2
+unconfident,2
+uncreative,2
+unethical,4
+unfriendly,4
+unhappy,2
+unhealthy,1
+unheroic,6
+unjust,6
+unpopular,4
+unpredictable,2
+unremarkable,2
+unstable,2
+unwise,2
+vicious,6
+violent,2
+vocal,4
+watchful,2
+weak,3
+weak-willed,2
+weary,2
+whiny,6
+wild,2
+willful,2
+wily,2
+wise,2
+wistful,2
+withdrawn,4
+worldwise,2
+worried,2
+young,1
+//Element
+coping with mental illness,16
+escpaing the past,16
+from a bad family,16
+from a big family,16
+from a good family,16
+from a small family,16
+from an unusual family line,16
+from nowhere,16
+hiding a dark secret,16
+haunted by dark memories,16
+haunted by flashbacks,16
+living on borrowed time,16
+looking for a challenge,16
+looking for love,16
+needing a friend,16
+on the run from the law,16
+on the wrong side of the law,16
+searching for a family member,16
+searching for a lost friend,16
+searching for employment,16
+searching for justice,16
+searching for purpose,16
+searching for truth,16
+trapped by the past,16
+who belongs to a secret organization,16
+who can't resist a fight,16
+who can't resist helping people,16
+who fears people think he/she is a fraud,16
+who fears the future,16
+who fell in with the wrong crowd,16
+who had a near-death experience that changed them significantly,16
+who has an odd way of speaking,16
+who has several nervous habits,16
+who hates animals,16
+who hates children,16
+who hopes to be the best in his/her profession,16
+who is a complete fraud,16
+who is an outsider,16
+who is considered the best in his/her profession,16
+who is considered the worst in his/her profession,16
+who is cursed with bad luck,16
+who is dependent on medication,16
+who is estranged from family members,16
+who is given to moments of deep introspection,16
+who is more than meets the eye,16
+who is part of a secret society
+who is prone to odd statements,16
+who is seeking meaning in life,16
+who lost meaning in life,16
+who loves animals,16
+who loves children,16
+who seems insane,16
+who suffers from a chronic disease,16
+who suffers from a chronic medical condition,16
+with a chemical dependency,16
+with a dark past,16
+with a false identity,16
+with a heart of gold,16
+with a knack for trouble,16
+with a large fortune,16
+with a lot of friends,16
+with a rival in his/her profession,16
+with an odd birthmark,16
+with an unexpected destiny,16
+with big dreams,16
+with little money,16
+with no hope,16
+with repressed memories,16
+with uncanny abilities,16
+with unexpected depths,16
+with unusual luck,16

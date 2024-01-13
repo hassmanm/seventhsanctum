@@ -1,0 +1,263 @@
+//Vocab types:
+//1-Attitude
+//2-Location
+//4-Type
+//8-Tech
+//16-Remains
+//32-Reason Destroyed
+//64-Internal Cause
+//128-External Cause
+//256-Singular cause
+//Organizational Configurations
+--ORGANIZATION
+1,2,4,8,64,16,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,64,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,64,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,64,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,64,32,16,16
+This , , , was noted for its advanced ,.  It was destroyed by , caused by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,64,32,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , caused by ,<COMMA> leaving behind only ,.
+1,2,4,8,64,32,16
+This , , , was noted for its advanced ,.  It was destroyed by , caused by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,64,32,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , caused by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,128,32,16,16
+This , , , was noted for its advanced ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,128,32,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only ,.
+1,2,4,8,128,32,16
+This , , , was noted for its advanced ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only ,.
+1,2,4,8,8,128,32,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only , and ,.
+1,2,4,8,256,16,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,256,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,256,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,256,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+//Vocabulary
+--VOCABULARY
+//1-Attitude
+alienated,1
+altruistic,1
+arrogant,1
+artistic,1
+atheistic,1
+benevolent,1
+bigoted,1
+bloodthirsty,1
+combative,1
+compassionate,1
+contemplative,1
+corrupt,1
+courageous,1
+cowardly,1
+creative,1
+cruel,1
+cunning,1
+cynical,1
+driven,1
+eccentric,1
+educated,1
+energetic,1
+ethical,1
+fear-ridden,1
+generous,1
+humble,1
+hypocritical,1
+industrious,1
+intelligent,1
+irrational,1
+just,1
+materialistic,1
+militant,1
+militaristic,1
+miserly,1
+moralistic,1
+mysterious,1
+mystic,1
+mystical,1
+narrow-minded,1
+open-minded,1
+opportunistic,1
+paranoid,1
+patriotic,1
+peaceful,1
+peace-loving,1
+philosophical,1
+pious,1
+pragmatic,1
+principled,1
+religious,1
+ruthless,1
+sadistic,1
+secretive,1
+spiritual,1
+stingy,1
+tolerant,1
+uncreative,1
+unethical,1
+unfriendly,1
+unjust,1
+unstable,1
+vicious,1
+violent,1
+withdrawn,1
+//2-Location
+planetary,2
+interestellar,2
+interplanetary,2
+intergalactic,2
+solar-system-spanning,2
+translunar,2
+inner system,2
+star-spanning,2
+galaxy-spanning,2
+//4-Type
+commonwealth,4
+democracy,4
+domain,4
+empire,4
+groupmind,4
+imperium,4
+kingdom,4
+plutocracy,4
+republic,4
+socialist system,4
+technocacy,4
+theocracy,4
+tyranny,4
+//8-Tech
+agriculture,8
+architecture,8
+art,8
+bio-engineering,8
+botany,8
+business skills,8
+cartography,8
+chemistry,8
+city-building,8
+combat skills,8
+computer technology,8
+cybernetics,8
+electronics,8
+engineering,8
+extra-dimensional science,8
+farming,8
+forestry,8
+genetics,8
+geology,8
+history,8
+hyperspatial science,8
+manufacturing,8
+mathematics,8
+mechanics,8
+medicine,8
+mercantile skills,8
+metallurgy,8
+meteorology,8
+mining,8
+nanotechnology,8
+natural science,8
+pharmacology,8
+philosophy,8
+physics,8
+planetology,8
+robotics,8
+stellar cartography,8
+tactics,8
+telecommunications,8
+temporal science,8
+terraforming,8
+terraforming,8
+theology,8
+weaponry,8
+zoology,8
+//16-Remains
+art,16
+artifacts,16
+artistic theories,16
+bio-engineered creations,16
+business records,16
+colonies,16
+culinary knowledge,16
+currency,16
+economic theories,16
+government buildings,16
+its language,16
+its religion,16
+laboratories,16
+legends,16
+machinery,16
+manufacturing plants,16
+maps,16
+methods of transportation,16
+military conquests,16
+monuments,16
+political theories,16
+records,16
+recreational buildings,16
+relics,16
+robots,16
+ruins,16
+scientific knowledge,16
+spacecraft,16
+superstitions,16
+technology,16
+temples,16
+terraforming devices,16
+tombs,16
+trade routes,16
+treasures,16
+weapons,16
+//32-Reason Destroyed
+arrogance,32
+disrespect,32
+greed,32
+immorality,32
+interest in forbidden things,32
+jealousy,32
+over-indulgence,32
+perversion,32
+religious differences,32
+slavery,32
+sloth,32
+warmongering,32
+//64-Internal Cause
+bizarre experiments,64
+civil war,64
+class warfare,64
+economic conflict,64
+gradual social decline,64
+political coruption,64
+religious conflict,64
+social breakdown,64
+//128-External Cause
+//Non-supernatural
+an invasion,128
+a neighboring civilization,128
+a religious cult,128
+a conspiracy,128
+an alliance of its neighbors,128
+//256-Singular
+a black hole,256
+a chronal disaster,256
+a computer virus,256
+a gradual decline,256
+a hyperspatial disaster,256
+a mysterious occurance that caused the population to vanish,256
+a nanovirus,256
+a plague,256
+a series of natural disasters,256
+a supernova,256
+an economic downturn,256
+depletion of natural resources,256
+their own artificial life forms,320
+their own robotic creations,320

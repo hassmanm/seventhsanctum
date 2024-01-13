@@ -1,0 +1,268 @@
+//Vocab types:
+//1-Attitude
+//2-Location
+//4-Type
+//8-Tech
+//16-Remains
+//32-Reason Destroyed
+//64-Internal Cause
+//128-External Cause
+//256-Singular cause
+//Organizational Configurations
+--ORGANIZATION
+1,2,4,8,64,16,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,64,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,64,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,64,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,64,32,16,16
+This , , , was noted for its advanced ,.  It was destroyed by , caused by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,64,32,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , caused by ,<COMMA> leaving behind only ,.
+1,2,4,8,64,32,16
+This , , , was noted for its advanced ,.  It was destroyed by , caused by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,64,32,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , caused by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,128,32,16,16
+This , , , was noted for its advanced ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,128,32,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only ,.
+1,2,4,8,128,32,16
+This , , , was noted for its advanced ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only ,.
+1,2,4,8,8,128,32,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by , because of the people's extreme ,<COMMA> leaving behind only , and ,.
+1,2,4,8,256,16,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+1,2,4,8,8,256,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,256,16
+This , , , was noted for its advanced ,.  It was destroyed by ,<COMMA> leaving behind only ,.
+1,2,4,8,8,256,16,16
+This , , , was noted for its advanced , and ,.  It was destroyed by ,<COMMA> leaving behind only , and ,.
+//Vocabulary
+--VOCABULARY
+//1-Attitude
+alienated,1
+altruistic,1
+arrogant,1
+artistic,1
+atheistic,1
+benevolent,1
+bigoted,1
+bloodthirsty,1
+combative,1
+compassionate,1
+contemplative,1
+corrupt,1
+courageous,1
+cowardly,1
+creative,1
+cruel,1
+cunning,1
+cynical,1
+driven,1
+eccentric,1
+educated,1
+energetic,1
+ethical,1
+fear-ridden,1
+generous,1
+humble,1
+hypocritical,1
+industrious,1
+intelligent,1
+irrational,1
+just,1
+materialistic,1
+militant,1
+militaristic,1
+miserly,1
+moralistic,1
+mysterious,1
+mystic,1
+mystical,1
+narrow-minded,1
+open-minded,1
+opportunistic,1
+paranoid,1
+patriotic,1
+peaceful,1
+peace-loving,1
+philosophical,1
+pious,1
+pragmatic,1
+principled,1
+religious,1
+ruthless,1
+sadistic,1
+secretive,1
+spiritual,1
+stingy,1
+tolerant,1
+uncreative,1
+unethical,1
+unfriendly,1
+unjust,1
+unstable,1
+vicious,1
+violent,1
+withdrawn,1
+//2-Location
+aerial,2
+aquatic,2
+arctic,2
+desert,2
+expansive,2
+island,2
+mountain,2
+grassland,2
+savannah,2
+swamp,2
+tundra,2
+underground,2
+waseland,2
+wide-ranging,2
+woodland,2
+//4-Type
+commonwealth,4
+country,4
+domain,4
+empire,4
+imperium,4
+kingdom,4
+republic,4
+theocracy,4
+//8-Tech
+agriculture,8
+air travel,8
+alchemy,8
+animal husbandry,8
+architecture,8
+art,8
+astrology,8
+astronomy,8
+botany,8
+brewing,8
+business skills,8
+canal-building,8
+cartography,8
+city-building,8
+combat skills,8
+divination,8
+engineering,8
+farming,8
+forestry,8
+geology,8
+ground travel,8
+herbology,8
+history,8
+hunting,8
+magic,8
+mathematics,8
+mechanics,8
+medicine,8
+mercantile skills,8
+metallurgy,8
+meteorology,8
+mining,8
+natural science,8
+painting,8
+pharmacology,8
+philosophy,8
+pottery,8
+road-building,8
+sculpture,8
+tactics,8
+theology,8
+water travel,8
+weaponry,8
+woodworking,8
+zoology,8
+//16-Remains
+art,16
+artifacts,16
+artistic theories,16
+business records,16
+culinary knowledge,16
+currency,16
+economic theories,16
+government buildings,16
+its language,16
+its religion,16
+legends,16
+maps,16
+methods of transportation,16
+military conquests,16
+monuments,16
+political theories,16
+records,16
+recreational buildings,16
+relics,16
+ruins,16
+superstitions,16
+technology,16
+temples,16
+tombs,16
+trade routes,16
+treasures,16
+weapons,16
+//32-Reason Destroyed
+arrogance,32
+disrespect,32
+greed,32
+immorality,32
+interest in forbidden things,32
+jealousy,32
+over-indulgence,32
+perversion,32
+religious differences,32
+slavery,32
+sloth,32
+warmongering,32
+//64-Internal Cause
+bizarre experiments,64
+civil war,64
+class warfare,64
+economic conflict,64
+gradual social decline,64
+political coruption,64
+religious conflict,64
+social breakdown,64
+//128-External Cause
+//Spiritual
+the gods,128
+the underworld,128
+the civilization's patron diety,128
+angels,128
+demons,128
+spirits,128
+the heavens,128
+the underworld,128
+nature spirits,128
+//Non-supernatural
+a neighboring country,128
+a religious cult,128
+a conspiracy,128
+an alliance of its neighbors,128
+foreign invaders,128
+a neighboring country,128
+a religious cult,128
+a conspiracy,128
+an alliance of its neighbors,128
+foreign invaders,128
+//256-Singular
+a climactic shift,256
+a drought,256
+a flood,256
+a gradual decline,256
+a plague,256
+a series of natural disasters,256
+a volcanic erruption,256
+an earthquake,256
+an economic downturn,256
+depletion of natural resources,256
+massive crop failure,256
+weather changes,256

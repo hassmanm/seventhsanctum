@@ -1,0 +1,18 @@
+Any
+	SEED
+		pokehumandat.txt
+Anime
+	SEEDANIME
+		pokehumandat.txt
+Fantasy
+	SEEDFANTASY
+		pokehumandat.txt
+Modern
+	SEEDMODERN
+		pokehumandat.txt
+Science Fiction
+	SEEDSF
+		pokehumandat.txt
+Steampunk
+	SEEDSTEAMPUNK
+		pokehumandat.txt

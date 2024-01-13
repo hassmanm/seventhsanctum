@@ -1,0 +1,261 @@
+//Vocab types:
+//1 - Mod General
+//2 - Mod Nautical/Piratical
+//4 - Actor General
+//8 - Actor Nautical/Piratical
+//16 - Trailer General
+//32 - Trailer Nautical/Piratical.
+--ORGANIZATION
+1,8
+, ,
+2,4
+, ,
+2,8
+, ,
+4,32
+, of ,
+8,16
+, of ,
+8,32
+, of ,
+//Vocabulary
+--VOCABULARY
+//32 - Trailer Nautical/Piratical.
+Silver,1
+Abyss,4
+Admiral's,2
+Anchor,2
+Anchorage,10
+Atoll,8
+Barkadeer,8
+Barnacle,2
+Bay,8
+Bilge,2
+Bilgewater,2
+Black Spot,2
+Black,1
+Blasphemous,1
+Blasphemy,16
+Blood,17
+Bloodstained,1
+Bloody,1
+Booty,2
+Bowsprit,2
+Breakwater,10
+Brethren's,2
+Brigand's,2
+Brigands,32
+Brine,2
+Briny,2
+Broadside,3
+Bucko's,2
+Cairn,4
+Calypso,32
+Calypso's,2
+Capstan,2
+Captain's,2
+Castle,4
+Catacomb,4
+Cave,4
+Cave,4
+Cavern,4
+Chantey,2
+Citadel,4
+Citadel,4
+Cliffs,4
+Coffer,1
+Compass,2
+Compass,3
+Coral,2
+Corpse,1
+Corpses,16
+Corsair's,2
+Cove,12
+Coxswain's,2
+Crag,4
+Crossbones,2
+Crown,1
+Crow's Nest,2
+Crypt,4
+Cursed,1
+Curses,16
+Cutlass,1
+Dark,1
+Dark,1
+Darkness,16
+Davy Jones,34
+Dead Man's,2
+Death,17
+Death's,2
+Devil's,2
+Doom,17
+Doubloon,3
+Drowning,2
+Dungeon,4
+Dunjon,4
+Executioner's,1
+Fathom,2
+Fear,16
+Flogging,2
+Forbidden,1
+Forgotten,1
+Fortress,4
+Freebooter's,2
+Gaff,2
+Galleon,2
+Gangplank,2
+Gauntlet,4
+Ghastly,1
+Ghostly,1
+Ghost's,1
+Ghosts,16
+Gold,1
+Golden,1
+Gorge,4
+Grapeshot,3
+Grapple,3
+Grog,3
+Grotto,4
+Hall,4
+Hammerhead,2
+Hangman's,3
+Harbor,8
+Hell,16
+Horizon,3
+Infernal,1
+Inferno,1
+Iron,1
+Island,12
+Jack Ketch,48
+Jack Ketch's,3
+Jetty,8
+Jolly Roger's,2
+Jonah,32
+Jonah's,2
+Keep,4
+King,1
+the King,16
+King's,1
+Kraken's,2
+Labrynth,4
+Landlubber,2
+Leatherneck's,2
+Longboat,2
+Lonley,1
+Lost,1
+Mad,1
+Madness,16
+Marauder's,3
+Marauders,48
+Mariner,2
+Mariner's,2
+Maze,4
+Midnight,1
+Monument,4
+Moor,4
+Mountain,4
+Murder,16
+Musket,1
+Necropolis,4
+Neptue,32
+Neptune's,2
+Nightmare,1
+Nightmares,16
+Oubliette,4
+Parley,3
+Pier,8
+Pirate's,2
+Pirates,32
+Pit,4
+Plague,1
+Plunder,2
+Plunderer's,2
+Plunderers,32
+Port,12
+Posideon,2
+Posideon's,2
+Privateer's,2
+Queen's,1
+Raiders',2
+Reef,2
+Road,4
+Rogue,3
+Rogue's,2
+Rogues,48
+Rotgut,3
+Ruins,4
+Saint Elmo,32
+Saint Elmo's,2
+Saltwater,2
+Sanctuary,4
+Sanctuary,5
+Sanctum,4
+Satan's,2
+Scallywag's,2
+Screaming,1
+Screams,16
+Scurvy,3
+Seadog,2
+Seadog's,2
+Sepulcher,4
+Shark,2
+Sharks,32
+Shellback's,2
+Shipwreck,2
+Shipwrecks,32
+Shrine,4
+Silent,1
+Skeleton,1
+Skeletons,16
+Skull,3
+Spire,4
+Spirit's,1
+Spirits,16
+Spyglass,3
+Sterling,1
+Stronghold,4
+Sunken,2
+Swabbie's,2
+Swamp,4
+Temple,4
+Terror,16
+the Abyss,48
+the Admiral,32
+the Captain,32
+the Depths,32
+the Devil,16
+the Drowned,32
+The Executioner,16
+The Freebooters,32
+the Infero,16
+the Kraken,32
+the Lost,16
+the Mariners,32
+the Marooned,32
+the Privateers,32
+the Queen,16
+the Scallywags,32
+the Seadogs,32
+The Triton,32
+Theives',2
+Thieves,32
+Tomb,4
+Topmast,2
+Topsail,2
+Tower,4
+Tower,4
+Town,4
+Treasure,3
+Triton,2
+Triton's,2
+Tunnel,4
+Valley,4
+Vault,4
+Wharf,8
+Whispering,1
+Whispers,16
+Wicked,1
+Wickedness,16
+World's-Edge,3
+Yardarm,2
+Yellow Jack,2

@@ -1,0 +1,522 @@
+//Vocab types:
+//1 - Prefix (all Tech)
+//2 - Descriptor
+//4 - Descriptor, tech
+//8-  Object
+//16 - Object (Tech)
+//32 - Actor, general
+//64 - Actor, Tech
+//128 - Actor Romantic
+//256 - Actor, Generic
+//512 - Actor, Suffix
+--ORGANIZATION
+1,32
+,,
+1,64
+,,
+1,128
+,,
+1,256
+,,
+1,512
+,,
+2,64
+, ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+4,256
+, ,
+8,64
+, ,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16, 256
+, ,
+16,512
+,,
+//Needed dupes
+2,64
+, ,
+2,64
+, ,
+8,64
+, ,
+8,64
+, ,
+16,512
+,,
+16,512
+,,
+1,512
+,,
+1,512
+,,
+//Extended
+2,1,32
+, ,,
+2,1,64
+, ,,
+2,1,128
+, ,,
+2,1,256
+, ,,
+2,1,512
+, ,,
+2,4,32
+, , ,
+2,4,64
+, , ,
+2,4,128
+, , ,
+2,4,256
+, , ,
+4,8,64
+, , ,
+2,16,32
+, , ,
+2,16,64
+, , ,
+2,16,128
+, , ,
+2,16, 256
+, , ,
+2,16,512
+, ,,
+//Vocabulary
+//1 - Prefix (all Tech)
+//2 - Descriptor
+//4 - Descriptor, tech
+//8-  Object
+//16 - Object (Tech)
+//32 - Actor, general
+//64 - Actor, Tech
+//128 - Actor Romantic
+//256 - Actor, Generic
+//512 - Actor, Suffix
+--VOCABULARY
+Abyss,8
+Acid,16
+Acolyte,162
+Aero,1
+Air,8
+Airborne,6
+Alchemist,192
+Alchemo,1
+Ambassador,160
+Amphibious,6
+Apothecary,102
+Aquatic,6
+Arcane,6
+Archer,32
+Archivist,224
+Arctic,2
+Armed,2
+Armiger,160
+Armor,24
+Army,2
+Artificer,64
+Assasin,160
+Astral,4
+Astro,1
+Atmoshpere,24
+Atmospheric,6
+Auto,1
+Automata,16
+Automatic,4
+Automaton,16
+Automator,576
+Aviator,96
+Baloon,24
+Bandit,160
+Barbarian,32
+Bard,160
+Battle,8
+Beam,16
+Beast,8
+Black,2
+Blade,8
+Blighted,2
+Blimp,16
+Blitz,10
+Blood,8
+Blue,2
+Bodyguard,162
+Boiler,16
+Bomb,24
+Bombadier,160
+Bomber,256
+Brain,24
+Brain,24
+Brawler,416
+Builder,320
+Bullet,24
+Bullet,24
+Burrower,256
+Cannon,24
+Captain,160
+Carrier,256
+Caster,256
+Castle,8
+Cavalier,160
+Chemical,20
+Chemist,64
+Chemo,1
+Chrono,1
+Church,10
+Circuit,22
+City,10
+Clank,16
+Clock,16
+Clockwork,22
+Cloud,8
+Cog,16
+Collector,256
+Commander,160
+Contraption,16
+Cosmo,1
+Crusader,384
+Cryo,1
+Crypt,8
+Dark,2
+Darkness,8
+Death,8
+Defender,256
+Desert,10
+Detective,128
+Digger,256
+Doctor,416
+Driver,256
+Driver,288
+Duelist,288
+Dyna,1
+Electric,4
+Electricity,16
+Electro,1
+Engine,16
+Engineer,64
+Ether,24
+Etheric,4
+Exo,1
+Exoskeleton,16
+Explorer,288
+Explosive,16
+Explosive,24
+Factory,12
+Far,2
+Fighter,258
+Fighting,2
+Finder,256
+Fire,8
+Flame,8
+Flange,16
+Flux,16
+Flyer,256
+Fog,8
+Force,16
+Force,24
+Forge,16
+Foundry,24
+Freelance,2
+Frost,8
+Fuel,24
+Gadgeteer,68
+Gauss,17
+Gear,16
+Gem,8
+Geo,1
+Ghost,162
+Gold,10
+Golden,2
+Government,2
+Gravi,1
+Gravity,16
+Grease,24
+Green,2
+Grenade,16
+Grenadier,160
+Grifter,160
+Guardian,256
+Gun,16
+Gunner,32
+Gyro,17
+Gyroscopic,4
+Halberdier,160
+Hammer,24
+Harrier, 162
+Healer,224
+Helio,1
+Hellfire,8
+Heretic,34
+Hermit,160
+High,2
+Homonculus,16
+Horde,8
+Hunter,288
+Hunting,2
+Hyperion,2
+Illusion,8
+Impulse,16
+Industrial,4
+Infantry,34
+Informer,256
+Inquisitor,162
+Inspector,256
+Iron,10
+Steel,10
+Javelineer, 288
+Jewel,8
+Journeyman,34
+Jungle,10
+Kaiser,768
+Keeper,256
+Killer,256
+Killer,256
+Knight,128
+Lady,256
+Lance,8
+Lancer,416
+Lantern,24
+Launcher,256
+Lava,8
+Legionnaire,256
+Librarian,288
+Life,8
+Light,14
+Lignthing,24
+Link,24
+Lookout,288
+Lord,256
+Lunar,6
+Lurker,256
+Machine,16
+Machinist,64
+Mage,160
+Magician,162
+Magnetic,4
+Magnetism,16
+Manipulator,256
+Marine,162
+Mariner,418
+Marksman,128
+Master,770
+Mecha,1
+Mechanic,64
+Mechanical,4
+Medical,4
+Medium,32
+Meister,512
+Memory,24
+Mercenary,162
+Mercenary,34
+Mesmerist,160
+Metal,24
+Metal,8
+Metallo,1
+Mine,24
+Miner,470
+Minstrel,160
+Missionary,160
+Mistress,768
+Mnemonic,6
+Mongerer 768
+Monitor,256
+Monk,160
+Moon,8
+Mountain,10
+Mountaineer,32
+Musketeer,160
+Mystic,258
+Naturalist,32
+Nature,8
+Naval,2
+Navigator,160
+Navy,2
+Necropolis,8
+Night,8
+Noble,130
+Noble-born,2
+Noctournal,2
+Nomad,256
+Obsidian,10
+Ocean,8
+Oil,24
+Oracle,160
+Ornithopter,16
+Outcast,256
+Overseer,256
+Paladin,160
+Paratrooper,192
+Pathfinder,290
+Peackeeper,290
+Penumbra,8
+Pestilence,8
+Plague,8
+Phantom,2
+Pharmacist,222
+Physician,38
+Pilgrim,162
+Pirate,130
+Piston,16
+Platinum,10
+Pneumatic,4
+Polymer,16
+Power,24
+Priest,32
+Priest,32
+Priestess,32
+Prodigal,2
+Professor,96
+Psychic,162
+Pulse,16
+Pyramid,8
+Pyre,8
+Pyro,1
+Quake,8
+Queen,256
+Quester,256
+Radiant,6
+Radiation,16
+Raider,288
+Rainbow,8
+Rampart,8
+Rampart,8
+Ravager,256
+Ray,16
+Razor,24
+Reanimator,256
+Reaper,256
+Red,2
+Rider,288
+Rifle,16
+River,8
+Rivet,16
+Roamer,160
+Roaming,2
+Robber,416
+Rock,10
+Rogue,130
+Royal,2
+Ruin,8
+Runner,256
+Sailor,160
+Salvage,8
+Salvager,256
+Salvo,16
+Sanctum,8
+Sapper,160
+Scarab,8
+Scavenger,64
+Scholar,192
+Scrap,24
+Scrounger,256
+Seeker,256
+Seer,160
+Sentinel,258
+Sergeant,160
+Sewer,16
+Sharpshooter,32
+Shock,16
+Shootist,256
+Shot,16
+Shroud,8
+Siege,24
+Silver,2
+Singer,256
+Sky,8
+Slayer,256
+Slipstream,8
+Smith,576
+Snow,8
+Solar,6
+Soldier,32
+Song,8
+Sonic,4
+Sound,16
+Spark,80
+Spectral,2
+Spike,24
+Spirit,8
+Spiritualist,160
+Sprocket,16
+Stalker,256
+Star,8
+Stasis,24
+Steam,16
+Sterling,10
+Storm,8
+Storm,8
+Striker,256
+Subterranean,6
+Sun,8
+Surgeon,160
+Sword,24
+Swordsman,160
+Synthesist,576
+Tyrant,258
+Tremor,8
+Trench,8
+Trapper,258
+Trader,256
+Torque,24
+Tide,8
+Tinker,68
+Tomb,8
+Torpedo,16
+Thunder,8
+Templar,162
+Tactician,162
+Tactical,2
+Tamer,256
+Taskmaster,32
+Targeteer,256
+Techni,1
+Technician,64
+Techno,1
+Temple,8
+Tesla,20
+Thief,160
+Thunder,8
+Time,24
+Town,10
+Toxin,16
+Tracker,256
+Tunneler,256
+Turbine,16
+Turbo,1
+Warden,258
+Watcher,256
+Watchtower,8
+Wayfarer,256
+Weapon,24
+Web,8
+Vortex,24
+Void,10
+Vale,8
+Vandal,2
+Vault,24
+Venom,24
+Vigilante,386
+Valve,16
+Voltage,16
+Wandering,2
+War,8
+Water,8
+Watt,16
+Wavelength,16
+Wheel,16
+White,2
+Wind,8
+Wing,16
+Winger,256
+Wire,16
+Worker,512
+Wright,512
+Zepplin,16

@@ -1,0 +1,710 @@
+//Vocab types:
+//1 - Character
+//2 - Class
+--ORGANIZATION
+1,2
+,-,
+--VOCABULARY
+//1 - Character
+Zelda (Legend of Zelda),1
+Link (Legend of Zelda),1
+Linkle (Legend of Zelda),1
+Ganondorf (Legend of Zelda),1
+Wizzro (Legend of Zelda),1
+Tingle (Legend of Zelda),1
+Shiek (Legend of Zelda),1
+Impa (Legend of Zelda),1
+Midna (Legend of Zelda),1
+Sonic the Hedgehog,1
+Tails the Fox,1
+Doctor Robotnik,1
+Rouge The Bat,1
+Amy Rose,1
+Knuckles The Echnida,1
+Big The Cat,1
+Shadow The Hedgehog,1
+Blaze The Cat,1
+Dean Venture (Venture Brothers),1
+Hank Venture (Venture Brothers),1
+Doctor Venture (Venture Brothers),1
+Brock Sampson (Venture Brothers),1
+The Monarch (Venture Brothers),1
+Dr. Girlfriend (Venture Brothers),1
+Doctor Orpheus (Venture Brothers),1
+Sergeant Hatred (Venture Brothers),1
+Billy Quizboy (Venture Brothers),1
+Peter White (Venture Brothers),1
+Sailor Mercury,1
+Sailor Venus,1
+Tuxedo Mask,1
+Sailor Moon,1
+Sailor Mars,1
+Sailor Jupiter,1
+Sailor Saturn,1
+Sailor Neptune,1
+Sailor Uranus,1
+Sailor Pluto,1
+Steven Universe,1
+Connie (Steven Universe),1
+Greg Universe (Steven Universe),1
+Amethyst (Steven Universe),1
+Garnet (Steven Universe),1
+Pearl (Steven Universe),1
+Jasper (Steven Universe),1
+Peridot (Steven Universe),1
+Lapis (Steven Universe),1
+Ruby (Steven Universe),1
+Sapphire (Steven Universe),1
+Rose Quartz (Steven Universe),1
+Opal (Steven Universe),1
+Sugilite (Steven Universe),1
+Sardonyx (Steven Universe),1
+Malachite (Steven Universe),1
+Twilight Sparkle (My Little Pony),1
+Fluttershy (My Little Pony),1
+Rarity (My Little Pony),1
+Appejack (My Little Pony),1
+Pinkie Pie (My Little Pony),1
+Rainbow Dash (My Little Pony),1
+Big Macintosh (My Little Pony),1
+Princess Celestia (My Little Pony),1
+Princess Luna (My Little Pony),1
+Discord (My Little Pony),1
+Nightmare Moon (My Little Pony),1
+Tirek (My Little Pony),1
+Shining Armor (My Little Pony),1
+Princess Cadence (My Little Pony),1
+Batman,1
+Superman,1
+Wonder Woman,1
+Aquaman,1
+Green Lantern,1
+Martian Manhunter,1
+Supergirl,1
+Catwoman,1
+Joker,1
+Harley Quinn,1
+Two-Face,1
+Lex Luthor,1
+Sinestro,1
+Captain America,1
+Thor,1
+Iron Man,1
+Black Widow,1
+Hawkeye,1
+Spider-Man,1
+Loki,1
+Green Goblin,1
+Doctor Doom,1
+Reed Richards,1
+Sue Storm,1
+Johnny Storm,1
+Ben Grimm,1
+Nick Fury,1
+Stan Marsh (South Park),1
+Kyle Broflovski (South Park),1
+Eric Cartman (South Park),1
+Kenny McCormick (South Park),1
+Naruto Uzumaki (Naruto),1
+Sakura Haruno (Naruto),1
+Kakashi Hatake (Naruto),1
+Itachi Uchiha (Naruto),1
+Hinata Hyuga (Naruto),1
+Kiba Inuzuka (Naruto),1
+Shino Aburame (Naruto),1
+Kurenai Yuhi (Naruto),1
+Shikamaru Nara (Naruto),1
+Choji Akimichi (Naruto),1
+Ino Yamanaka (Naruto),1
+Asuma Sarutobi (Naruto),1
+Rock Lee (Naruto),1
+Neji Hyuga (Naruto),1
+Tenten (Naruto),1
+Might Guy (Naruto),1
+Sasuke Uchiha (Naruto),1
+Fry (Futurama),1
+Leela (Futurama),1
+Bender (Futurama),1
+Zoidberg (Futurama),1
+Amy Wong (Futurama),1
+Professor Farnsworth (Futurama),1
+Zapp Brannigan (Futurama),1
+Kif Kroker (Futurama),1
+Android #18 (Dragonball Z),1
+Beerus (Dragonball Z),1
+Bulma (Dragonball Z),1
+Cell (Dragonball Z),1
+Chaozu (Dragonball Z),1
+Chi-Chi (Dragonball Z),1
+Freeza (Dragonball Z),1
+Kame-Sennin (Dragonball Z),1
+Kuririn (Dragonball Z),1
+Lunch (Dragonball Z),1
+Mr. Satan (Dragonball Z),1
+Oolong (Dragonball Z),1
+Piccolo (Dragonball Z),1
+Son Gohan (Dragonball Z),1
+Son Goku (Dragonball Z),1
+Tenshinhan (Dragonball Z),1
+Trunks (Dragonball Z),1
+Vegeta (Dragonball Z),1
+Yamcha (Dragonball Z),1
+Mario (Mario Brothers' Games),1
+Luigi (Mario Brothers' Games),1
+Wario (Mario Brothers' Games),1
+Waluigi (Mario Brothers' Games),1
+Daisy (Mario Brothers' Games),1
+Peach (Mario Brothers' Games),1
+Bowser (Mario Brothers' Games),1
+Jasmine (Disney Princess),1
+Rapunzel (Disney Princess),1
+Ariel (Disney Princess),1
+Snow White (Disney Princess),1
+Aurora (Sleeping Beauty) (Disney Princess),1
+Cinderella (Disney Princess),1
+Fa Mulan (Disney Princess),1
+Princess Jasmine (Disney Princess),1
+Tiana (Disney Princess),1
+Belle (Disney Princess),1
+Pochahontas (Disney Princess),1
+Meridia (Disney Princess),1
+Chibi-Usa (Sailor Moon),1
+Sailor Star Fighter (Sailor Moon),1
+Sailor Star Maker (Sailor Moon),1
+Sailor Star Healer (Sailor Moon),1
+Jonathan Joestar (JoJo's Bizarre Adventure),1
+Dio Brando (JoJo's Bizarre Adventure),1
+Robert E.O. Speedwagon (JoJo's Bizarre Adventure),1
+Joseph Joestar (JoJo's Bizarre Adventure),1
+Caesar Zeppli (JoJo's Bizarre Adventure),1
+Baron Zeppli (JoJo's Bizarre Adventure),1
+Rudol Von Stroheim (JoJo's Bizarre Adventure),1
+Jotaro Kujo (JoJo's Bizarre Adventure),1
+Muhammad Avdol (JoJo's Bizarre Adventure),1
+Noriaki Kakyoin (JoJo's Bizarre Adventure),1
+Jean Pierre Poinareff (JoJo's Bizarre Adventure),1
+Daenerys Targaryen (Game Of Thrones),1
+Jon Snow (Game Of Thrones),1
+Arya Stark (Game Of Thrones),1
+Sansa Stark (Game Of Thrones),1
+Joffrey Baratheon (Game Of Thrones),1
+Tyrion Lannister (Game Of Thrones),1
+Theon Grayjoy (Game Of Thrones),1
+Ceresi Lannister (Game Of Thrones),1
+Stannis Baratheon (Game Of Thrones),1
+Jamie Lannister (Game Of Thrones),1
+Robb Stark (Game Of Thrones),1
+Eddard Star (Game Of Thrones),1
+Prince Charming (Disney-Any),1
+Prince Phillip (Disney),1
+Prince Eric (Disney),1
+Beast/Prince Adam (Disney),1
+Aladdin (Disney),1
+Li Shang (Disney),1
+Prince Naveen (Disney),1
+Flynn Rider (Disney),1
+Blanka (Street Fighter),1
+Fei Long (Street Fighter),1
+Guile (Street Fighter),1
+Vega (Street Fighter),1
+Chun-Li (Street Fighter),1
+Sagat (Street Fighter),1
+Cammy (Street Fighter),1
+Ryui (Street Fighter),1
+Ken (Street Fighter),1
+Zangief (Street Fighter),1
+Mileena (Mortal Kombat),1
+Sonya Blade (Mortal Kombat),1
+Baraka (Mortal Kombat),1
+Johnny Cage (Mortal Kombat),1
+Kitana (Mortal Kombat),1
+Smoke (Mortal Kombat),1
+Reptile (Mortal Kombat),1
+Kung Lao (Mortal Kombat),1
+Liu Kang (Mortal Kombat),1
+Sub Zero (Mortal Kombat),1
+Raiden (Mortal Kombat),1
+Scorpion (Mortal Kombat),1
+Optimus Prime (Transformers),1
+Bumblebee (Transformers),1
+Megatron (Transformers),1
+Scarscream (Transformers),1
+Dinobot (Transformers),1
+Soundwave (Transformers),1
+Waspinator (Transformers),1
+Grimlock (Transformers),1
+Jaz (Transformers),1
+Shockwave (Transformers),1
+Wheejack (Transformers),1
+Ratchet (Transformers),1
+Ironhide (Transformers),1
+Hot Rod/Rodimus Prime (Transformers),1
+Arcee (Transformers),1
+Soul Evans (Soul Eater),1
+Maka (Soul Eater),1
+Blair (Soul Eater),1
+Lord Death (Soul Eater),1
+Spirit (Soul Eater),1
+Death The Kid (Soul Eater),1
+Black Star (Soul Eater),1
+Tsubaki (Soul Eater),1
+Patty Thompson (Soul Eater),1
+Elizabeth Thompson (Soul Eater),1
+Doctor Stein (Soul Eater),1
+Madam Medusa (Soul Eater),1
+Edward Elric (Full Metal Alchemist),1
+Alphonse Elric (Full Metal Alchemist),1
+Roy Mustang (Full Metal Alchemist),1
+Maes Hughes (Full Metal Alchemist),1
+Riza Hawkeye (Full Metal Alchemist),1
+Winry Rockbell (Full Metal Alchemist),1
+Greed (Full Metal Alchemist),1
+Wrath (Full Metal Alchemist),1
+Sloth (Full Metal Alchemist),1
+Lust (Full Metal Alchemist),1
+Gluttony (Full Metal Alchemist),1
+Pride (Full Metal Alchemist),1
+Envy (Full Metal Alchemist),1
+Kermit The Frog (Muppets),1
+Miss Piggy (Muppets),1
+Animal (Muppets),1
+Doctor Teeth (Muppets),1
+Fozzie Bear (Muppets),1
+Gonzo (Muppets),1
+Swedish Chef (Muppets),1
+Statler (Muppets),1
+Waldorf (Muppets),1
+Rolf The Dog (Muppets),1
+James Kirk (Star Trek),1
+Scotty (Star Trek),1
+Bones McCoy (Star Trek),1
+Mister Spock (Star Trek),1
+Pavel Chekov (Star Trek),1
+Hikaru Sulu (Star Trek),1
+Jean-Luc Picard (Star Trek: TNG),1
+William Riker (Star Trek: TNG),1
+Beverly Crusher (Star Trek: TNG),1
+Geordi La Forge (Star Trek: TNG),1
+Mister Worf (Star Trek: TNG),1
+Deanna Troi (Star Trek: TNG),1
+Data (Star Trek: TNG),1
+Katryn Janeway (Star Trek: Voyager),1
+B'Elanna Torres (Star Trek: Voyager),1
+Chakotay (Star Trek: Voyager),1
+Tom Paris (Star Trek: Voyager),1
+Tuvok (Star Trek: Voyager),1
+The Doctor (Star Trek: Voyager),1
+Jonathan Archer (Star Trek: Enterprise),1
+T'Pol (Star Trek: Enterprise),1
+Charles Tucker (Star Trek: Enterprise),1
+Malcom Reed (Star Trek: Enterprise),1
+Hoshi Sato (Star Trek: Enterprise),1
+Travis Mayweather (Star Trek: Enterprise),1
+Dr. Phlox (Star Trek: Enterprise),1
+Buffy Summers,1
+Xander Harris,1
+Willow Rosenberg,1
+Rupert Giles,1
+Spike (Buffy/Angel),1
+Angel,1
+Dipper Pines (Gravity Falls),1
+Mabel Pines (Gravity Falls),1
+Grunkle Stan (Gravity Falls),1
+Soos Ramirez (Gravity Falls),1
+Wendy Courduroy (Gravity Falls),1
+Gomez Adams,1
+Morticia Adams,1
+Pugsley Adams,1
+Wednesday Adams,1
+Uncle Fester,1
+Lurch,1
+Batgirl,1
+Homer Simpson,1
+Marge Simpson,1
+Bart Simpson,1
+Lisa Simpson,1
+Vash The Stampede (Trigun),1
+Meryl Stryfe (Trigun),1
+Millie Thompson (Trigun),1
+Nicholas D. Wolfwood (Trigun),1
+Millions Knives (Trigun),1
+Legato Bluesummers (Trigun),1
+Rem Savererem (Trigun),1
+Amelia (Trigun),1
+Gasback (Trigun),1
+Cheshire Cat (Wonderland),1
+Alice (Wonderland),1
+Mad Hatter (Wonderland),1
+Queen Of Hearts (Wonderland),1
+Doormouse (Wonderland),1
+White Rabit (Wonderland),1
+Dave Lister (Red Dwarf),1
+Arnold Rimmer (Red Dwarf),1
+The Cat (Red Dwarf),1
+Kryten (Red Dwarf),1
+Luke Skywalker,1
+Han Solo,1
+Leia Organa,1
+Chewbacca,1
+Obi-Wan Kenobi,1
+Darth Vader,1
+Emperor Palpatine,1
+Harley Quinn,1
+Dr. Manhattan (Watchmen),1
+Nite Owl (Watchmen),1
+Rorschach (Watchmen),1
+Silk Spectre (Watchmen),1
+The Comedian (Watchmen),1
+Ozymandias (Watchmen),1
+John Sheridan (Babylon 5),1
+Delenn (Babylon 5),1
+G'Kar (Babylon 5),1
+Susan Ivannova (Babylon 5),1
+Lyta Alexander (Babylon 5),1
+Lennier (Babylon 5),1
+Michael Garabaldi (Babylon 5),1
+Vir Cotto (Babylon 5),1
+Marcus Cole (Babylon 5),1
+Londo Mollari (Babylon 5),1
+Stephen Franklin (Babylon 5),1
+Shrek (Shrek series),1
+Princess Fiona (Shrek series),1
+Donkey (Shrek series),1
+Lord Farquaad (Shrek series),1
+Gingerbread Man (Shrek series),1
+Pinocchio (Shrek series),1
+Puss In Boots (Shrek series),1
+Gir (Invader Zim),1
+Zim (Invader Zim),1
+Dib (Invader Zim),1
+Gaz (Invader Zim),1
+Professor Membrane  (Invader Zim),1
+Howard The Duck,1
+Maleficent,1
+Cruella De Vil,1
+Ursula (Little Mermaid),1
+Captain Hook,1
+Jafar (Aladdin),1
+Hades (Disney),1
+Dr. Facillier (Disney),1
+Jack Skellington,1
+Malcolm Reynolds (Firefly),1
+River Tam (Firefly),1
+Kaylee Frye (Firefly),1
+Jayne Cobb (Firefly),1
+Inara Serra (Firefly),1
+Shepherd Book (Firefly),1
+Simon Tam (Firefly),1
+Oogie Boogie,1
+Lex Luthor,1
+Sally (Nightmare Before Christmas),1
+Dr. Finkelstein (Nightmare Before Christmas),1
+Ichigo Kurosaki (Bleach),1
+Rukia Kuchiki (Bleach),1
+Orihime Inoue (Bleach),1
+Uryu Ishida (Bleach),1
+Yasutora Sado (Bleach),1
+Renji Abari (Bleach),1
+Ash Ketchum (Pokemon),1
+Misty (Pokemon),1
+Brock (Pokemon),1
+Gary Oak (Pokemon),1
+Professor Oak (Pokemon),1
+Jessie Rocket (Pokemon),1
+James Rocket (Pokemon),1
+Butch Rocket (Pokemon),1
+Cassidy Rocket (Pokemon),1
+Meowth (Pokemon),1
+Maxxie (Pokemon),1
+Archie (Pokemon),1
+Cyrus (Pokemon),1
+Ghetsis (Pokemon),1
+Aldith (Pokemon),1
+Lysandre (Pokemon),1
+Bugs Bunny,1
+Daffy Duck,1
+Yosemitie Sam,1
+Elmer Fudd,1
+Babs Bunny,1
+Buster Bunny,1
+Pepe La Pew,1
+Fifi La Fume,1
+Yakko Warner,1
+Wakko Warner,1
+Dot Warner,1
+Slappy Squirrel,1
+Minerva Mink,1
+Pinky (Pinkie And The Brain),1
+Brain (Pinkie And The Brain),1
+//2 - Desc - class
+Warrior (Ogre Battle Tactics),2
+Archer (Ogre Battle Tactics),2
+Wizard/Enchantress (Ogre Battle Tactics),2
+Cleric (Ogre Battle Tactics),2
+Rune Fencer/Valkyrie (Ogre Battle Tactics),2
+Knight (Ogre Battle Tactics),2
+Terror Knight (Ogre Battle Tactics),2
+Berserker (Ogre Battle Tactics),2
+Swordmaster (Ogre Battle Tactics),2
+Dragoon (Ogre Battle Tactics),2
+Ninja/Kunoichi (Ogre Battle Tactics),2
+Rogue (Ogre Battle Tactics),2
+Fusilier (Ogre Battle Tactics),2
+Beast Tamer (Ogre Battle Tactics),2
+Necromancer (Ogre Battle Tactics),2
+Lich (Ogre Battle Tactics),2
+Divine Knight (Ogre Battle Tactics),2
+Martial Artist (Disgaea),2
+Fight Mistress (Disgaea),2
+Warrior (Disgaea),2
+Valkyrie (Disgaea),2
+Mage (Disgaea),2
+Skull (Disgaea),2
+Healer (Disgaea),2
+Thief (Disgaea),2
+Magic Knight (Disgaea),2
+Ninja/Kuonichi (Disgaea),2
+Ranger (Disgaea),2
+Gunslinger (Disgaea),2
+Brute Warrior (Disgaea),2
+Sorcerer (Disgaea),2
+Masked Hero (Disgaea),2
+Cheerleader (Disgaea),2
+Bouncer (Disgaea),2
+Onmyo Monk (Disgaea),2
+Professor (Disgaea),2
+Battle Suit (Disgaea),2
+Android (Disgaea),2
+Medic (Disgaea),2
+Necromancer (Disgaea),2
+Angel (Disgaea),2
+Maid (Disgaea),2
+Wrestler (Disgaea),2
+Sage (Disgaea),2
+Pirate (Disgaea),2
+Dark Knight (Disgaea),2
+Scout (Disgaea),2
+Samurai (Disgaea),2
+Celestial Host (Disgaea),2
+Majin (Disgaea),2
+Sinner (Disgaea),2
+Beastmaster (Disgaea),2
+Geomancer (Disgaea),2
+Armor Knight (Disgaea),2
+Gunner (Disgaea),2
+Hero (Dragon Quest),2
+Warrior  (Dragon Quest),2
+Priest (Dragon Quest),2
+Mage (Dragon Quest),2
+Martial Artist (Dragon Quest),2
+Thief (Dragon Quest),2
+Minstrel (Dragon Quest),2
+Gladiator (Dragon Quest),2
+Sage (Dragon Quest),2
+Paladin (Dragon Quest),2
+Ranger (Dragon Quest),2
+Armamentalist (Dragon Quest),2
+Luminary (Dragon Quest),2
+Fighter (Dragon Quest),2
+Cleric (Dragon Quest),2
+Dancer (Dragon Quest),2
+Bard (Dragon Quest),2
+Jester (Dragon Quest),2
+Mariner (Dragon Quest),2
+Shepard (Dragon Quest),2
+Dragoon (Dragon Quest),2
+Ranger (Dragon Quest),2
+Teenidol (Dragon Quest),2
+Pirate (Dragon Quest),2
+Tamer (Dragon Quest),2
+Godhand (Dragon Quest),2
+Summoner (Dragon Quest),2
+Hero (Dragon Quest),2
+Warrior (Diablo),2
+Rogue (Diablo),2
+Sorcerer (Diablo),2
+Monk (Diablo),2
+Barbarian (Diablo),2
+Bard (Diablo),2
+Amazon (Diablo),2
+Necromancer (Diablo),2
+Paladin (Diablo),2
+Sorceress (Diablo),2
+Assasin (Diablo),2
+Druid (Diablo),2
+Witch Doctor (Diablo),2
+Wizard (Diablo),2
+Demon Hunter (Diablo),2
+Crusader (Diablo),2
+Alchemist (Etrian Odyssey),2
+Arbalist (Etrian Odyssey),2
+Arcanist (Etrian Odyssey),2
+Beast (Etrian Odyssey),2
+Buccaneer (Etrian Odyssey),2
+Bushi (Etrian Odyssey),2
+Dancer (Etrian Odyssey),2
+Dark Hunter (Etrian Odyssey),2
+Farmer (Etrian Odyssey),2
+Fortress (Etrian Odyssey),2
+Gladiator (Etrian Odyssey),2
+Gunner (Etrian Odyssey),2
+Hexer (Etrian Odyssey),2
+Hoplite (Etrian Odyssey),2
+Imperial (Etrian Odyssey),2
+Landsknecht (Etrian Odyssey),2
+Medic (Etrian Odyssey),2
+Monk (Etrian Odyssey),2
+Nightseeker (Etrian Odyssey),2
+Ninja (Etrian Odyssey),2
+Prince (Etrian Odyssey),2
+Protector (Etrian Odyssey),2
+Ronin (Etrian Odyssey),2
+Runemaster (Etrian Odyssey),2
+Shogun (Etrian Odyssey),2
+Sniper (Etrian Odyssey),2
+Survivalist (Etrian Odyssey),2
+Troubadour(Bard) (Etrian Odyssey),2
+War Magus (Etrian Odyssey),2
+Wilding (Etrian Odyssey),2
+Yggdroid (Etrian Odyssey),2
+Zodiac (Etrian Odyssey),2
+Acolyte (Ragnarok Online),2
+Alchemist (Final Fantasy),2
+Alchemist (Ragnarok Online),2
+Arch Bishop (Ragnarok Online),2
+Archer (Ragnarok Online),2
+Assassin (Ragnarok Online),2
+Assassin Cross (Ragnarok Online),2
+Barbarian (D&D),2
+Bard (D&D),2
+Bard (Final Fantasy),2
+Bard/Dancer (Ragnarok Online),2
+Beastmaster/Trainer (Final Fantasy),2
+Berserker (Final Fantasy),2
+Biochemist (Ragnarok Online),2
+Black Mage (Final Fantasy),2
+Blacksmith (Ragnarok Online),2
+Blue Mage (Final Fantasy),2
+Bounty Hunter (Star Wars: TOR),2
+Champion (Ragnarok Online),2
+Cleric (D&D),2
+Creator (Dungeon Fighter Online),2
+Crusader (Ragnarok Online),2
+Dancer (Final Fantasy),2
+Dark Knight (Dungeon Fighter Online),2
+Dark Knight (Final Fantasy),2
+Death Knight (World Of Warcraft),2
+Demoman (Team Fortress 2),2
+Demon Hunter (World Of Warcraft),2
+Devout (Final Fantasy),2
+Dragoon (Final Fantasy),2
+Druid (D&D),2
+Druid (World Of Warcraft),2
+Engineer (Team Fortress 2),2
+Engineer (Wildstar),2
+Esper (Wildstar),2
+Fighter (D&D),2
+Fighter (Dungeon Fighter Online),2
+Freelancer (Final Fantasy),2
+Gambler/Lady Luck (Final Fantasy),2
+Geneticist (Ragnarok Online),2
+Geomancer (Final Fantasy),2
+Green Mage (Final Fantasy),2
+Guillotine Cross (Ragnarok Online),2
+Gun Mage (Final Fantasy),2
+Gunner (Dungeon Fighter Online),2
+Gunner (Final Fantasy),2
+Heavy (Team Fortress 2),2
+High Priest (Ragnarok Online),2
+High Wizard (Ragnarok Online),2
+Hunter (Destiny),2
+Hunter (Final Fantasy),2
+Hunter (Ragnarok Online),2
+Hunter (World Of Warcraft),2
+Imperial Agent (Star Wars: TOR),2
+Jedi Consular (Star Wars: TOR),2
+Jedi Knight (Star Wars: TOR),2
+Knight (Dungeon Fighter Online),2
+Knight (Ragnarok Online),2
+Lord Knight (Ragnarok Online),2
+Machinist (Final Fantasy),2
+Maestro/Wanderer (Ragnarok Online),2
+Mage (Dungeon Fighter Online),2
+Mage (Ragnarok Online),2
+Mage (World Of Warcraft),2
+Magus (Final Fantasy),2
+Mascot (Final Fantasy),2
+Mastersmith (Ragnarok Online),2
+Mechanic (Ragnarok Online),2
+Medic (Team Fortress 2),2
+Medic (Wildstar),2
+Memorist (Final Fantasy),2
+Merchant (Ragnarok Online),2
+Mime (Final Fantasy),2
+Minstrel/Gypsy (Ragnarok Online),2
+Monk (D&D),2
+Monk (Final Fantasy),2
+Monk (Ragnarok Online),2
+Monk (World Of Warcraft),2
+Mystic Knight (Final Fantasy),2
+Ninja (Final Fantasy),2
+Onion Knight (Final Fantasy),2
+Paladin (D&D),2
+Paladin (Final Fantasy),2
+Paladin (Ragnarok Online),2
+Paladin (World Of Warcraft),2
+Priest (Dungeon Fighter Online),2
+Priest (Ragnarok Online),2
+Priest (World Of Warcraft),2
+Puppet Master (Final Fantasy),2
+Pyro (Team Fortress 2),2
+Ranger (D&D),2
+Ranger (Ragnarok Online),2
+Red Mage (Final Fantasy),2
+Rogue (D&D),2
+Rogue (Ragnarok Online),2
+Rogue (World Of Warcraft),2
+Royal Guard (Ragnarok Online),2
+Rune Knight (Ragnarok Online),2
+Sage (Final Fantasy),2
+Sage (Ragnarok Online),2
+Samurai (Final Fantasy),2
+Scholar (Final Fantasy),2
+Scholar (Ragnarok Online),2
+Scout (Team Fortress 2),2
+Shadow Chaser (Ragnarok Online),2
+Shaman (World Of Warcraft),2
+Singer/Songstress (Final Fantasy),2
+Sith Inquisitor (Star Wars: TOR),2
+Sith Warrior (Star Wars: TOR),2
+Slayer (Dungeon Fighter Online),2
+Smuggler (Star Wars: TOR),2
+Sniper (Ragnarok Online),2
+Sniper (Team Fortress 2),2
+Soldier (Team Fortress 2),2
+Sorcerer (D&D),2
+Sorcerer (Ragnarok Online),2
+Spellslinger (Wildstar),2
+Spy (Team Fortress 2),2
+Stalker (Ragnarok Online),2
+Stalker (Wildstar),2
+Summoner (Final Fantasy),2
+Sura (Ragnarok Online),2
+Swordman (Ragnarok Online),2
+Thief (Dungeon Fighter Online),2
+Thief (Final Fantasy),2
+Thief (Ragnarok Online),2
+Time Mage (Final Fantasy),2
+Titan (Destiny),2
+Trooper (Star Wars: TOR),2
+Viking (Final Fantasy),2
+Warlock (D&D),2
+Warlock (Destiny),2
+Warlock (Ragnarok Online),2
+Warlock (World Of Warcraft),2
+Warrior (Final Fantasy),2
+Warrior (Wildstar),2
+Warrior (World Of Warcraft),2
+White Mage (Final Fantasy),2
+Wizard (D&D),2
+Wizard (Ragnarok Online),2

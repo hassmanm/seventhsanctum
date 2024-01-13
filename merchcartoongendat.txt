@@ -1,0 +1,341 @@
+//1 Descriptor
+//2 Prefix
+//4 Title
+//8 Element
+//16 Being-single
+//32 Being-Actor
+//64 Abstract Actor
+//128 Cool Abstract
+//256 Personal Abstract
+//512 Suffix
+//1024 Name
+--ORGANIZATION
+//Regular
+1,32
+, ,
+1,64
+, ,
+2,32
+,,
+2,512
+,,
+8,32
+,,
+8,64
+, ,
+16,64
+, ,
+16,512
+,,
+64,128
+The , of ,
+//Names
+4,256
+, ,
+1024,256
+, ,
+//Regular Doubling
+1,32
+, ,
+1,64
+, ,
+2,32
+,,
+2,512
+,,
+8,32
+,,
+8,64
+, ,
+16,64
+, ,
+16,512
+,,
+64,128
+The , of ,
+//Names
+4,256
+, ,
+1024,256
+, ,
+//Regular Doubling #2
+1,32
+, ,
+1,64
+, ,
+2,32
+,,
+2,512
+,,
+8,32
+,,
+8,64
+, ,
+16,64
+, ,
+16,512
+,,
+64,128
+The , of ,
+//Names
+4,256
+, ,
+1024,256
+, ,
+//end doubling
+//Pairings
+4,256,1,32
+, , and the , ,
+4,256,1,64
+, , and the , ,
+4,256,2,32
+, , and the ,,
+4,256,2,512
+, , and the ,,
+4,256,8,32
+, , and the ,,
+4,256,8,64
+, , and the , ,
+4,256,16,64
+, , and the , ,
+4,256,16,512
+, , and the ,,
+4,256,64,128
+, , and the , of ,
+1024,256,1,32
+, , and the , ,
+1024,256,1,64
+, , and the , ,
+1024,256,2,32
+, , and the ,,
+1024,256,2,512
+, , and the ,,
+1024,256,8,32
+, , and the ,,
+1024,256,8,64
+, , and the , ,
+1024,256,16,64
+, , and the , ,
+1024,256,16,512
+, , and the ,,
+1024,256,64,128
+, , and the , of ,
+--VOCABULARY
+//1 Descriptor
+Atomic,257
+Blaster,9
+Brave,9
+Commando,257
+Cosmic,257
+Extreme,257
+Final,1
+Galactic,257
+Impossible,257
+Incredible,256
+Kid,1
+Magical,1
+Maximum,257
+Mighty,257
+Monster,1
+Police,65
+Solar,265
+Super,257
+Teen,1
+Wheeled,1
+Ultimate,257
+//2 Prefix
+Astro,2
+Bioni,2
+Chrono,2
+Cosmo,2
+Dino,2
+Dyno,2
+Electro,2
+Gyro,2
+Magno,2
+Mega,2
+Micro,2
+Nitro,2
+Techno,2
+Ultra,2
+//4 Title
+Captain,4
+Doctor,4
+Major,4
+Mister,4
+Miss,4
+Sergeant,4
+King,1028
+Queen,4
+Prince,4
+Princess,4
+Professor,4
+Lord,4
+Lady,4
+//8 Element
+Atom,8
+Battle,264
+Blast,264
+Danger,264
+Flash,1288
+Galaxy,264
+Game,8
+Ghost,25
+Gold,8
+Iron,8
+Laser,264
+Light,8
+Magic,265
+Moon,8
+Night,8
+Nuke,8
+Phaontom,25
+Planet,8
+Power,392
+Rush,264
+Saber,8
+Sky,8
+Silver,8
+Space,8
+Speed,1288
+Sport,8
+Sun,8
+Star,265
+Thunder,264
+Road,8
+Space,8
+Star,8
+Sun,8
+Street,8
+War,8
+Warp,8
+Wind,8
+Zap,264
+//16 Being-single
+Ape,16
+Bat,16
+Bear,16
+Bird,16
+Bug,16
+Cat,16
+Dog,16
+Dragon,16
+Eagle,16
+Frog,16
+Fox,16
+Hawk,16
+Insect,16
+Mouse,16
+Monkey,16
+Mutt,16
+Panther,16
+Shark,16
+Toad,16
+Tiger,16
+Wolf,16
+//32 Being-Actor
+Apes,32
+Bats,32
+Bears,32
+Birds,32
+Bugs,32
+Cats,32
+Dogs,32
+Dragons,32
+Eagles,32
+Frogs,32
+Ghosts,32
+Foxes,32
+Hawks,32
+Insects,32
+Mice,32
+Monkeys,32
+Mutts,32
+Panthers,32
+Phantoms,32
+Sharks,32
+Tigers,32
+Toads,32
+Wolves,32
+//64 Abstract Actor
+Agents,64
+Blasters,64
+Boys,64
+Challengers,64
+Crusaders,64
+Centurions,64
+Commandos,64
+Cops,64
+Fighters,64
+Girls,64
+Kids,64
+Knights,64
+Masters,64
+Raiders,64
+Riders,64
+Rovers,64
+Sherrifs,64
+Soldiers,64
+Strikers,64
+Teens,64
+Troopers,64
+Warriors,64
+Wizards,64
+//128 Cool Abstract
+the Future,128
+the Past,128
+the Impossible,128
+Space,136
+Time,136
+Action,392
+the Universe,128
+Forever,392
+//256 Personal Abstract
+Chronos,256
+Future,257
+Justice,384
+Infinity,384
+Midnight,257
+Omega,256
+Photon,256
+Zoom,256
+Velocity,256
+//512 Suffix
+bots,512
+tix,512
+trons,512
+saurs,512
+sects,512
+droids,512
+noids,512
+//1024 Name
+Ace,1028
+Adam,1024
+Billy,1024
+Brock,1024
+Dirk,1024
+Drake,1024
+Freddie,1024
+Jake,1024
+Johnny,1024
+Max,1024
+Quenton,1024
+Race,1024
+Rex,1024
+Tommy,1024
+Alice,1024
+Amy,1024
+Betty,1024
+Cassandra,1024
+Dana,1024
+Dawn,1024
+Delta,1024
+Eve,1024
+Felicia,1024
+Jackie,1024
+Kelly,1024
+Nancy,1024
+Stacy,1024
+Tiffany,1024
+Vicky,1024
+Zoe,1024

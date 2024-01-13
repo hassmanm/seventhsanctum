@@ -1,0 +1,175 @@
+//Vocab types:
+//1 consonant
+//2 vowell
+//4 size
+//8 shape
+//16 color
+--ORGANIZATION
+1,2,1,2,1,4,8,16
+,,,,, - ,<COMMA> ,<COMMA> , pills.
+1,2,1,1,2,1,4,8,16
+,,,,,, - ,<COMMA> ,<COMMA> , pills.
+1,2,1,2,1,2,4,8,16
+,,,,,, - ,<COMMA> ,<COMMA> , pills.
+1,2,1,2,1,2,1,4,8,16
+,,,,,,, - ,<COMMA> ,<COMMA> , pills.
+2,1,2,1,2,1,4,8,16
+,,,,,, - ,<COMMA> ,<COMMA> , pills.
+2,1,2,1,1,2,1,4,8,16
+,,,,,,, - ,<COMMA> ,<COMMA> , pills.
+2,1,2,1,2,1,2,1,4,8,16
+,,,,,,,, - ,<COMMA> ,<COMMA> , pills.
+--VOCABULARY
+//Vowels
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+a,2
+e,2
+e,2
+e,2
+e,2
+e,2
+e,2
+i,2
+i,2
+i,2
+i,2
+i,2
+i,2
+i,2
+o,2
+o,2
+o,2
+o,2
+o,2
+u,2
+//Consonants
+b,1
+b,1
+b,1
+c,1
+c,1
+c,1
+c,1
+c,1
+c,1
+d,1
+d,1
+d,1
+f,1
+f,1
+g,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+l,1
+m,1
+m,1
+m,1
+m,1
+m,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+n,1
+p,1
+p,1
+p,1
+p,1
+p,1
+p,1
+p,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+r,1
+s,1
+s,1
+s,1
+s,1
+t,1
+t,1
+t,1
+t,1
+t,1
+t,1
+t,1
+t,1
+t,1
+t,1
+v,1
+v,1
+x,1
+x,1
+x,1
+x,1
+x,1
+y,1
+z,1
+z,1
+z,1
+//Form elements
+//4 size
+huge,4
+large,4
+medium-sized,4
+small,4
+tiny,4
+//8 shape
+hexagonal,8
+oblong,8
+octagonal,8
+pentagonal,8
+rectangular,8
+round,8
+square,8
+triangular,8
+//16 color
+azure,16
+black,16
+blue,16
+brown,16
+crimson,16
+emerald,16
+golden,16
+gray,16
+green,16
+ivory,16
+ochre,16
+orange,16
+purple,16
+red,16
+silver,16
+violet,16
+white,16
+yellow,16

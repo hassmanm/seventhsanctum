@@ -1,0 +1,30 @@
+Any
+	SEED
+		vampiregendat.txt
+Regular
+	SEEDANY
+		vampiregendat.txt
+Male-Regular
+	SEEDMALE
+		vampiregendat.txt
+Female-Regular
+	SEEDFEMALE
+		vampiregendat.txt
+Anime
+	SEEDANIMEANY
+		vampiregendat.txt
+Male-Anime
+	SEEDANIMEMALE
+		vampiregendat.txt
+Female-Anime
+	SEEDANIMEFEMALE
+		vampiregendat.txt
+Monstrous
+	SEEDMONSTERANY
+		vampiregendat.txt
+Male-Monstrous
+	SEEDMONSTERMALE
+		vampiregendat.txt
+Female-Monstrous
+	SEEDMONSTERFEMALE
+		vampiregendat.txt

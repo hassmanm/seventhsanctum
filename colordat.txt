@@ -1,0 +1,1755 @@
+//Seeds
+SEED
+	<SEEDNAME> - <SEEDDESCROUTE>.
+SEEDNAME
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYDIGRP><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYTRIGRP><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYCONS><BODYVOWELTWO><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYCONSPAIR><BODYVOWEL><BODYCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYCONSPAIR><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><BODYVOWELTWO><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYDIGRP><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><BODYVOWELTWO><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDDIGRP>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDTRIGRP>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><BODYVOWELTWO><ENDCONS>
+	<STARTCONS><BODYVOWEL><BODYDIGRP><ENDVOWELTWO>
+	<STARTCONS><BODYVOWEL><BODYTRIGRP><ENDVOWEL>
+	<STARTCONS><BODYVOWEL><BODYTRIGRP><ENDVOWELTWO>
+	<STARTCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWEL><ENDDIGRP>
+	<STARTCONS><BODYVOWELTWO><BODYCONS><BODYVOWEL><ENDCONS>
+	<STARTCONS><BODYVOWELTWO><BODYCONS><ENDVOWEL>
+	<STARTCONS><BODYVOWELTWO><BODYCONSPAIR><ENDVOWEL>
+	<STARTCONS><BODYVOWELTWO><ENDDIGRP>
+	<STARTDIGRP><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTDIGRP><BODYVOWEL><BODYCONSPAIR><BODYVOWEL><ENDCONS>
+	<STARTDIGRP><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTDIGRP><BODYVOWEL><BODYDIGRP><ENDVOWEL>
+	<STARTDIGRP><BODYVOWEL><ENDCONS>
+	<STARTDIGRP><BODYVOWEL><ENDDIGRP>
+	<STARTDIGRP><BODYVOWELPAIR><ENDCONS>
+	<STARTDIGRP><ENDVOWELTWO>
+	<STARTVOWEL><BODYCONS><BODYVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTVOWEL><BODYCONS><BODYVOWEL><BODYCONS><BODYVOWEL><ENDDIGRP>
+	<STARTVOWEL><BODYCONS><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><BODYVOWEL><ENDDIGRP>
+	<STARTVOWEL><BODYCONS><BODYVOWEL><BODYDIGRP><ENDVOWEL>
+	<STARTVOWEL><BODYDIGRP><BODYVOWEL><BODYCONS><ENDVOWEL>
+	<STARTVOWEL><BODYDIGRP><BODYVOWEL><ENDCONS>
+	<STARTVOWEL><BODYDIGRP><ENDVOWEL>
+	<STARTVOWEL><BODYTRIGRP><ENDVOWEL>
+	<STARTVOWEL><ENDDIGRP>
+	<STARTVOWELTWO><BODYCONS><BODYVOWEL><ENDDIGRP>
+	<STARTVOWELTWO><BODYCONS><BODYVOWELTWO><BODYCONS><ENDVOWEL>
+	<STARTVOWELTWO><BODYCONS><ENDVOWEL>
+//This is a placeholder.
+SEEDDESCROUTE
+	<SEEDADORNMENTS>
+	<SEEDCREATURETRAIT>
+	<SEEDDESCLIGHTROUTE>
+	<SEEDDESCROUTEMENTAL>
+	<SEEDDESCORIGINROUTE>
+	<SEEDDESCPAINTINGROUTE>
+	<SEEDDESCPEOPLE>
+	<SEEDDESCPEOPLETRAIT>
+	<SEEDDESCPSYCHOLOGYROUTE>
+	<SEEDDESCSPECIFICROUTE>
+	<SEEDDESCTHINGROUTE>
+	<SEEDDESCWRITINGROUTE>
+//Note in the end I need to mix routes as some can combine.
+//Routes, to make sure similar things don't "pile up"
+SEEDADORNMENTS
+// Gems
+	<SEEDDESCUNSPECIFIC>.  The <REFSTONETYPE> of this color are associated with <REFASSOCIATIONS>
+	<SEEDDESCUNSPECIFIC>.  The <REFSTONETYPE> of this color are associated with <REFASSOCIATIONS>
+	<SEEDDESCUNSPECIFIC>.  The <REFSTONETYPE> of this color are said to grant one <REFPOSITIVETRAIT>
+	<SEEDDESCUNSPECIFIC>.  The <REFSTONETYPE> of this color are said to harm one's <REFPOSITIVETRAIT>
+// Charms
+	<SEEDCOLOREITHEROR>.  There are <REFCHARMTYPE> of this color that are said to grant one <REFPOSITIVETRAIT>
+	<SEEDCOLOREITHEROR>.  There are <REFCHARMTYPE> of this color that are said to grant one <REFPOSITIVETRAIT>
+	<SEEDCOLOREITHEROR>.  There are <REFCHARMTYPE> of this color that are said harm the <REFPOSITIVETRAIT> of one's enemies
+	<SEEDCOLOREITHEROR>.  There are <REFCHARMTYPE> of this color that are said harm the <REFPOSITIVETRAIT> of one's enemies
+//Tatoos
+	<SEEDCOLOREITHEROR>.  Tattoos of this color are said to grant one <REFPOSITIVETRAIT><REFTATTOOROUTE>
+	<SEEDCOLOREITHEROR>.  Tattoos of this color are the mark of <REFPEOPLEROUTE><REFTATTOOROUTE>
+	<SEEDCOLOREITHEROR>.  Tattoos of this color are associated with <REFASSOCIATIONS><REFTATTOOROUTE>
+SEEDCREATURETRAIT
+// Basics
+	<SEEDCOLOREITHEROR>.  The eye color of <REFCREATUREROUTE>
+	<SEEDCOLOREITHEROR>.  The eye color of <REFCREATUREROUTE>
+	<SEEDCOLOREITHEROR>.  <REFCREATUREINTEGUMENTROUTE>
+	<SEEDCOLOREITHEROR>.  <REFCREATUREINTEGUMENTROUTE>
+	<SEEDDESCSPECIFICROUTE>.  The eye color of <REFCREATUREROUTE>
+	<SEEDDESCSPECIFICROUTE>.  <REFCREATUREINTEGUMENTROUTE>
+SEEDDESCLIGHTROUTE
+//This route is a bit of a catchall as luminsity is a heavy effect.  Some doubling up here.
+	<SEEDDESCUNSPECIFIC>.  Under light of this color <REFLIGHTEFFECTROUTE>
+	<SEEDDESCUNSPECIFIC>.  Under light of this color <REFLIGHTEFFECTROUTE>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <RETCOLORTHINGMOD>.  Under light of this color <REFLIGHTEFFECTROUTE>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFDESCRIPTORTHING> <RETCOLORTHINGTOMOD>.  Under light of this color <REFLIGHTEFFECTROUTE>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>.  Under light of this color <REFLIGHTEFFECTROUTE>
+	<SEEDDESCUNSPECIFIC>.  Under light of this color <REFLIGHTEFFECTROUTE>
+SEEDDESCROUTEMENTAL
+	<SEEDCOLOREITHEROR>. The color of <REFMENTALDESC> <REFMENTALBASE>
+	<SEEDCOLOREITHEROR>. The color of both <REFMENTALDESC> <REFMENTALBASE> and of <REFASSOCIATIONS>
+	<SEEDCOLOREITHEROR>.  This is the color of <REFWHOREASONSPEC> <REFMENTALSPIRITUAL>
+SEEDDESCORIGINROUTE
+//The route of some kind of archetypical element
+//doubling
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>, and the color of <REFASSOCIATIONS>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>, and the color of <REFASSOCIATIONS>
+//additions.
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>. <SEEDDESCDIRECTIVE>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>. <SEEDDESCWRITING>
+	The <*RELAYCOLOR><REFORIGIN> <RETBASECOLOR>. <SEEDDESCPSYCHOLOGY>
+SEEDDESCPAINTINGROUTE
+//General
+	<SEEDDESCUNSPECIFIC>.  Paint of this color <REFMEDIAORIGIN>
+	<SEEDDESCTHINGROUTE>.  Paint of this color <REFMEDIAORIGIN>
+	<SEEDDESCSPECIFICROUTE>.  Paint of this color <REFMEDIAORIGIN>
+//Social
+	<SEEDDESCUNSPECIFIC>.  Used for <REFWRITINGDESC> paintings
+	<SEEDDESCTHINGROUTE>.  Used for <REFWRITINGDESC> paintings
+	<SEEDDESCSPECIFICROUTE>.  Used for <REFWRITINGDESC> paintings
+//Causes
+	<SEEDDESCUNSPECIFIC>.  Paintings using this color <REFINDUCE> <REFASSOCIATIONS>
+	<SEEDDESCTHINGROUTE>.  Paintings using this color <REFINDUCE> <REFASSOCIATIONS>
+SEEDDESCPEOPLE
+// a bit of doubling.
+	<SEEDCOLOREITHEROR>. The color <REFASSOCIATEPEOPLE> <REFPEOPLEROUTE><REFDYEROUTE>
+	<SEEDCOLOREITHEROR>. The color <REFASSOCIATEPEOPLE> <REFPEOPLEROUTE><REFDYEROUTE>
+	<SEEDCOLOREITHEROR>. The color <REFASSOCIATEPEOPLE> <REFPEOPLEROUTE><REFDYEROUTE>
+	<SEEDCOLOREITHEROR>. The color <REFASSOCIATEPEOPLE> <REFPEOPLEROUTE><REFDYEROUTE>
+	<SEEDCOLOREITHEROR>.  Once the color of <REFPEOPLESPEC>, but now associated with <REFWHOREASON><REFCHANGEREASONROUTE><REFDYEROUTE>
+	<SEEDCOLOREITHEROR>.  Once the color of <REFPEOPLESPEC>, but now associated with <REFWHOREASON><REFCHANGEREASONROUTE><REFDYEROUTE>
+//GENERAL CLOTHING
+	<SEEDCOLOREITHEROR>. The color of clothing worn by <REFPEOPLESPEC>
+	<SEEDCOLOREITHEROR>. The color of clothing once worn by <REFPEOPLESPEC>
+	<SEEDCOLOREITHEROR>. The color of clothing once worn by <REFPEOPLESPEC>, but that changed <REFCHANGEREASONROUTEDEFINITE>
+//SPECIFIC CLOTHING AND RELATED
+	<SEEDCOLOREITHEROR>. The color of <REFADORN> worn by <REFPEOPLESPEC>
+	<SEEDCOLOREITHEROR>. The color of <REFADORN> once worn by <REFPEOPLESPEC>
+	<SEEDCOLOREITHEROR>. The color of <REFADORN> once worn by <REFPEOPLESPEC>, but that changed <REFCHANGEREASONROUTEDEFINITE>
+SEEDDESCPEOPLETRAIT
+	<SEEDCOLOREITHEROR>.  You'll see this color in the eyes of <REFWHOREASON>
+	<SEEDCOLOREITHEROR>.  It's said those who are fond of this color will have a career among <REFPEOPLESPEC>
+	<SEEDCOLOREITHEROR>.  If you meet someone with eyes this color, <REFREACTTOPEOPLE>
+	<SEEDCOLOREITHEROR>.  If you meet someone fond of this color, <REFREACTTOPEOPLE>
+SEEDDESCPSYCHOLOGYROUTE
+//a bit of doubling.
+	<SEEDDESCUNSPECIFIC>. <SEEDDESCDIRECTIVE>
+	<SEEDDESCUNSPECIFIC>. <SEEDDESCDIRECTIVE>
+	<SEEDDESCUNSPECIFIC>.  <SEEDDESCPSYCHOLOGY>
+	<SEEDDESCUNSPECIFIC>.  <SEEDDESCPSYCHOLOGY>
+// Now some details
+	<SEEDDESCTHINGROUTE>. <SEEDDESCDIRECTIVE>
+	<SEEDDESCTHINGROUTE>.  <SEEDDESCPSYCHOLOGY>
+SEEDDESCSPECIFICROUTE
+//The route of things having associations.  A little doubling up here for detail.
+	<SEEDDESCSPECIFIC> of <REFASSOCIATIONS>
+	<SEEDDESCSPECIFIC> of <REFASSOCIATIONS>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFASSOCIATIONS> and of <RETCOLORTHING>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFASSOCIATIONS> and of <RETCOLORTHINGMOD>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFASSOCIATIONS> and of <REFDESCRIPTORTHING> <RETCOLORTHINGTOMOD>
+SEEDDESCTHINGROUTE
+//The route of things having some kind of basic color of something else.
+	The<*RELAYCOLOR> <RETBASECOLOR> of <RETCOLORTHING>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <RETCOLORTHINGMOD>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFDESCRIPTORTHING> <RETCOLORTHINGTOMOD>
+SEEDDESCWRITINGROUTE
+//Some doubling
+	<SEEDDESCUNSPECIFIC>. <SEEDDESCWRITING>
+	<SEEDDESCUNSPECIFIC>. <SEEDDESCWRITING>
+	<SEEDDESCUNSPECIFIC>. <SEEDDESCWRITING>
+//Regular
+	<SEEDDESCUNSPECIFIC>.  Ink of this color <REFMEDIAORIGIN>
+	<SEEDDESCUNSPECIFIC>.  Paper of this color <REFMEDIAORIGIN>
+//Descriptive combinations.
+//Color routes.
+SEEDCOLOREITHEROR
+	<SEEDDESCUNSPECIFIC>
+	<SEEDDESCTHINGROUTE>
+SEEDDESCUNSPECIFIC
+	<REFCOLORDESCINT><*RELAYCOLOR> <ROUTECOLORMOD>
+SEEDDESCSPECIFIC
+	<REFCOLORDESCLEAD><*RELAYCOLOR> <ROUTECOLORMOD>
+//Descriptive routes.
+SEEDDESCDIRECTIVE
+//Colors have powerful influences.
+	It is the color of things that <REFDIRECTIVE> <REFCOLORACTIVE>
+	The color of things that <REFMEMORY>
+SEEDDESCPSYCHOLOGY
+	Those that see this color <REFCOLOREFFECT>
+SEEDDESCWRITING
+	<SEEDDESCWRITINGSPECIFIC>
+	<SEEDDESCWRITINGGENERAL>
+SEEDDESCWRITINGSPECIFIC
+//General effects
+	Ink of this color is used for <REFWRITINGDESC> <REFWRITINGITEM>
+	Ink of this color is used only for <REFWRITINGDESC> <REFWRITINGITEM>
+	Paper of this color is used for <REFWRITINGDESC> <REFWRITINGITEM>
+	Paper of this color is used only for <REFWRITINGDESC> <REFWRITINGITEM>
+//manufacturing in addition
+	Ink of this color is used for <REFWRITINGDESC> <REFWRITINGITEM>, and <REFMEDIAORIGIN>
+	Paper of this color is used for <REFWRITINGDESC> <REFWRITINGITEM>, and <REFMEDIAORIGIN>
+SEEDDESCWRITINGGENERAL
+//colors have odd writing effects.
+//Some doubling
+	Used to write about <REFASSOCIATIONS>
+	Used to write about <REFASSOCIATIONS>
+// Substances
+	Things written in this color <REFFWRITING>
+	Things written on paper of this color <REFFWRITING>
+	Used to write about <REFASSOCIATIONS>. Things written in this color	<REFFWRITING>
+	Used to write about <REFASSOCIATIONS>. Things written on paper of this color <REFFWRITING>
+//Older stuff - START
+SEEDDESCLIVINGCOLOR
+//colors that have an attitude.
+//some doubling up.
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>
+//Mix mods.
+	The<*RELAYCOLOR> <RETBASECOLOR> of <RETCOLORTHING>, because it is <RETBASECOLOR> when it <REFCOLORMOOD>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <RETCOLORTHINGMOD>, because it is <RETBASECOLOR> when it <REFCOLORMOOD>
+	The<*RELAYCOLOR> <RETBASECOLOR> of <REFDESCRIPTORTHING> <RETCOLORTHINGTOMOD>, because it is <RETBASECOLOR> when it <REFCOLORMOOD>
+//mods
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>.  <SEEDDESCDIRECTIVE>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>. <SEEDDESCWRITING>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>. <SEEDDESCPSYCHOLOGY>
+	Is the color of <*RELAYCOLOR> <RETBASECOLOR> when it <REFCOLORMOOD>.  Under light of this color <REFLIGHTEFFECTROUTE>
+SEEDDESCOLD
+	<REFCOLORDESCINT> <REFBASECOLOR>
+	<SEEEDDESCASSOCIATIONS>
+	<SEEDDESCWRITING>
+	<SEEDDESCPSYCHOLOGY>
+	<SEEDDESCPERSONS>
+SEEEDDESCASSOCIATIONS
+	<REFCOLORDESCLEAD> <RELAYCOLOR> of <REFASSOCIATIONS>
+	The <RELAYCOLOR> of <REFASSOCIATIONS>
+SEEDDESCPERSONS
+	<REFCOLORDESCINT> <RELAYCOLOR>.  The color of clothes typically worn by <REFPROFESSION>.
+//Older stuff - END
+//TYPES:
+//STARTVOWEL
+//STARTVOWELTWO
+//STARTCONS
+//STARTDIGRP
+//BODYVOWEL
+//BOVDYVOWELPAIR
+//BODYCONS
+//BODYCONSPAIR
+//BODYDIGRP
+//BODYTRIGRP
+//ENDVOWEL
+//ENDCONS
+//ENDDIGRP
+//ENDTRIGRP
+//STARTS
+STARTVOWEL
+	A
+	A
+	A
+	A
+	A
+	A
+	A
+	A
+	E
+	E
+	E
+	I
+	I
+	O
+	O
+	O
+	U
+STARTVOWELTWO
+	Ae
+	Ai
+	Ao
+	Au
+	Ea
+	Ei
+	Eo
+	Eu
+	Ia
+	Ie
+	Io
+	Iu
+	Oa
+	Oe
+	Oi
+	Ou
+	Ua
+	Ue
+	Uo
+	Ui
+STARTCONS
+	B
+	B
+	B
+	B
+	B
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	C
+	D
+	F
+	F
+	G
+	G
+	H
+	J
+	J
+	K
+	L
+	L
+	L
+	L
+	M
+	M
+	M
+	M
+	M
+	N
+	P
+	P
+	P
+	P
+	P
+	P
+	P
+	R
+	R
+	R
+	R
+	S
+	S
+	S
+	S
+	T
+	T
+	T
+	T
+	T
+	V
+	V
+	Y
+STARTDIGRP
+	Bl
+	Br
+	Ch
+	Cr
+	Cy
+	Gr
+	Kh
+	Pl
+	Sc
+	St
+	Th
+	Wh
+//BODY
+BODYVOWEL
+	a
+	a
+	a
+	a
+	e
+	e
+	e
+	e
+	e
+	e
+	i
+	i
+	i
+	o
+	o
+	o
+	u
+	u
+	y
+BODYVOWELPAIR
+	ee
+	ee
+	oo
+BODYVOWELTWO
+	ae
+	ai
+	ao
+	au
+	ea
+	ei
+	eo
+	eu
+	ia
+	ie
+	io
+	iu
+	oa
+	oe
+	oi
+	ou
+	ua
+	ue
+	uo
+	ui
+BODYCONS
+	b
+	c
+	d
+	d
+	f
+	g
+	h
+	h
+	h
+	l
+	l
+	m
+	n
+	n
+	n
+	n
+	r
+	r
+	r
+	s
+	s
+	s
+	s
+	t
+	t
+	t
+	t
+	t
+	w
+BODYCONSPAIR
+	ff
+	ll
+	nn
+	pp
+	rr
+BODYDIGRP
+	ch
+	ch
+	cl
+	cr
+	fr
+	ld
+	lv
+	mb
+	ms
+	nd
+	nd
+	ng
+	ng
+	nt
+	nt
+	ph
+	rl
+	rm
+	rn
+	rp
+	sp
+	st
+	st
+	th
+	tr
+	tr
+	tr
+BODYTRIGRP
+	chr
+	chs
+	nkl
+	str
+//Endings
+ENDVOWEL
+	a
+	a
+	a
+	a
+	a
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	e
+	i
+	o
+	o
+	u
+	y
+ENDVOWELTWO
+	ae
+	ao
+	au
+	ea
+	eo
+	eu
+	ia
+	io
+	oa
+	oe
+	ou
+	ua
+	ue
+	uo
+ENDCONS
+	c
+	d
+	l
+	l
+	l
+	m
+	m
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	n
+	r
+	r
+	r
+	r
+	r
+	r
+	s
+	s
+	s
+	t
+	t
+	t
+	t
+	w
+ENDDIGRP
+	by
+	ck
+	ld
+	ld
+	nd
+	ng
+	nt
+	rl
+	rn
+	rn
+	ry
+	sh
+	st
+	th
+	vy
+	wn
+ENDTRIGRP
+	ndy
+//added
+	tch
+	chd
+	dsh
+	rng
+//COLORS
+REFBASECOLOR
+	red
+	orange
+	yellow
+	blue
+	green
+	indigo
+	purple
+	crimson
+	umber
+	gold
+	cyan
+	viridian
+	violet
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+ROUTERED
+	red
+		RETBASECOLOR,true
+			red
+		RETMODCOLOR,true
+			purpleish
+			orangeish
+		RETCOLORTHING,true
+			autum leaves
+			blood
+			a sunrise
+			a sunset
+			rust
+			molten metal
+			a rose
+			lips
+			meat
+			wine
+			coral
+			rubies
+		RETCOLORTHINGMOD,true
+			autum leaves <REFIMAGERY>
+			blood shed <REFCONREASON>
+			blood shed by <REFWHOREASON>
+			a sunrise <REFIMAGERY>
+			a sunset <REFIMAGERY>		
+			rust <REFIMAGERY>		
+			molten metal <REFIMAGERY>
+			fires set by <REFWHOREASON>
+			fires set <REFCONREASON>
+			roses given <REFCONREASON>
+			the lips of <REFWHOREASON>
+			wine drunk by <REFWHOREASON>
+			wine served by <REFWHOREASON>
+			roses <REFIMAGERY>
+			wine <REFIMAGERY>
+			coral <REFIMAGERY>
+			rubies <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			autum leaves
+			blood
+			sunrises
+			sunsets
+			rust
+			molten metal
+			fire
+			embers
+			roses
+			lips
+			wine
+			coral
+			rubies
+ROUTEORANGE
+	orange
+		RETBASECOLOR,true
+			orange
+		RETMODCOLOR,true
+			reddish
+			yellowish
+		RETCOLORTHING,true
+			a sunrise
+			a sunset
+			flames
+			fires
+			copper
+		RETCOLORTHINGMOD,true
+			amber <REFIMAGERY>
+			a sunrise <REFIMAGERY>
+			a sunset <REFIMAGERY>
+			fires <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			sunrises
+			sunsets
+			flames
+			fires
+			copper
+ROUTEYELLOW
+	yellow
+		RETBASECOLOR,true
+			yellow
+		RETMODCOLOR,true
+			orangeish
+			greenish
+		RETCOLORTHING,true
+			gold
+			sunlight
+			agates
+		RETCOLORTHINGMOD,true
+			amber <REFIMAGERY>
+			gold <REFIMAGERY>
+			sunlight falling on <REFWHOREASON>
+			sunlight <REFIMAGERY>
+			agates <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			gold
+			sunlight
+			suns
+			agates
+ROUTEGREEN
+	green
+		RETBASECOLOR,true
+			green
+		RETMODCOLOR,true
+			yellowish
+			blueish
+		RETCOLORTHING,true
+			the deep forest
+			new leaves
+			leaves
+			a dying forest
+			mysterious plants
+			grasslands
+			emeralds
+			seaweed
+			moss
+			jade
+		RETCOLORTHINGMOD,true
+			the deep forest <REFIMAGERY>
+			new leaves <REFIMAGERY>
+			leaves <REFIMAGERY>
+			a dying forest <REFIMAGERY>
+			mysterious plants <REFIMAGERY>
+			a grassland <REFIMAGERY>
+			emeralds <REFIMAGERY>
+			moss <REFIMAGERY>
+			jade <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			forests
+			leaves
+			plants
+			trees
+			grasslands
+			emeralds
+			moss
+			jade
+			seaweed
+ROUTEBLUE
+	blue
+		RETBASECOLOR,true
+			blue
+		RETMODCOLOR,true
+			greenish
+			purpleish
+		RETCOLORTHING,true
+			deep water
+			deepest water
+			shallow water
+			the afternoon sky
+			the dawn sky
+			sapphires
+			ice
+			frozen water
+			glaciers
+		RETCOLORTHINGMOD,true
+			deep water <REFIMAGERY>
+			deepest water <REFIMAGERY>
+			shallow water <REFIMAGERY>
+			the afternoon sky <REFIMAGERY>
+			the dawn sky <REFIMAGERY>
+			water that has drowned <REFWHOREASON>
+			water used to cleanse <REFWHOREASON>
+			ice that has frozen <REFWHOREASON>
+			sapphires <REFIMAGERY>
+			glaciers <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			deep waters
+			deepest waters
+			shallow waters
+			afternoon skies
+			dawn skies
+			skies
+			sapphires
+			ice
+			glaciers
+			frozen waters
+ROUTEVIOLET
+	purple
+		RETBASECOLOR,true
+			purple
+		RETMODCOLOR,true
+			reddish
+			blueish
+		RETCOLORTHING,true
+			a bruise
+			the evening sky
+			the early morning sky
+			wine
+			amethysts
+		RETCOLORTHINGMOD,true
+			the evening sky <REFIMAGERY>
+			the early morning sky <REFIMAGERY>
+			wine drunk by <REFWHOREASON>
+			wine served by <REFWHOREASON>
+			amethysts <REFIMAGERY>
+		RETCOLORTHINGTOMOD,true
+			bruises
+			evening skies
+			early morning skies
+			wine
+			amethysts
+ROUTECOLORMOD
+	<RETBASECOLOR>
+	<RETBASECOLOR>
+	<RETMODCOLOR>-<RETBASECOLOR>
+//Descriptions
+REFADORN
+	belts
+	coats
+	funeral outfits
+	gloves
+	goggles
+	hats
+	headgear
+	holiday outfits
+	jackets
+	jewelry
+	robes
+	shoes
+REFASSOCIATEPEOPLE
+	associated with
+	once associated with
+REFCOLORDESCINT
+	A bleached
+	A bold
+	A brash
+	A bright
+	A dark
+	A light
+	A deep
+	A delicate
+	A fiery
+	A flamboyant
+	A fluorescent
+	A harsh
+	An iridescent
+	A light
+	A loud
+	A mellow
+	A muted
+	An opalescent
+	A pure
+	A rich
+	A sickly
+	A sober
+	A vibrant
+	A washed-out
+	A vivid
+REFCOLORDESCLEAD
+	The bleached
+	The bold
+	The brash
+	The bright
+	The dark
+	The light
+	The deep
+	The delicate
+	The fiery
+	The flamboyant
+	The fluorescent
+	The harsh
+	The iridescent
+	The light
+	The loud
+	The mellow
+	The muted
+	The opalescent
+	The pure
+	The rich
+	The sickly
+	The sober
+	The vibrant
+	The washed-out
+	The vivid
+//CONNECTIONS
+REFASSOCIATIONS
+	ambition
+	anger
+	arrogance
+	boldness
+	bravery
+	chaos
+	charisma
+	compassion
+	courage
+	cowardice
+	creativity
+	cruelty
+	curiosity
+	deception
+	disgust
+	doubt
+	dread
+	dreams
+	envy
+	fear
+	forgetfulness
+	friendship
+	generosity
+	greed
+	happiness
+	hate
+	hatred
+	horror
+	humor
+	inebriation
+	insanity
+	insight
+	inspiration
+	intelligence
+	jealousy
+	joy
+	kindness
+	knowledge
+	laughter
+	laziness
+	love
+	loyalty
+	lust
+	memory
+	order
+	patience
+	rage
+	revolution
+	revulsion
+	rulership
+	sadness
+	sloth
+	sobriety
+	stability
+	terror
+	wisdom
+REFBODYPARTINDIC
+	both hands
+	the arms
+	the arms
+	the back
+	the back
+	the back of the neck
+	the back of the neck
+	the belly
+	the belly
+	the cheeks
+	the cheeks
+	the chest
+	the chest
+	the face
+	the face
+	the feet
+	the feet
+	the forehead
+	the forehead
+	the left arm
+	the left cheek
+	the left foot
+	the left hand
+	the left leg
+	the legs
+	the legs
+	the neck
+	the neck
+	the right arm
+	the right cheek
+	the right foot
+	the right hand
+	the right leg
+REFCHANGEREASONROUTE
+//50 50 change of note
+	<*>
+	<*>
+	<*>
+	<*>
+	 because of <REFCHANGEREASONKNOWN>
+	 because of <REFCHANGEREASONKNOWN>
+	 because of <REFCHANGEREASONSTRANGE>
+	 because of <REFCHANGEREASONSTRANGE> (<REFCHANGEREASONSTRANGEADD>)
+REFCHANGEREASONROUTEDEFINITE
+	 because of <REFCHANGEREASONKNOWN>
+	 because of <REFCHANGEREASONKNOWN>
+	 because of <REFCHANGEREASONSTRANGE>
+	 because of <REFCHANGEREASONSTRANGE> (<REFCHANGEREASONSTRANGEADD>)
+REFCHANGEREASONKNOWN
+	a change in fashion
+	a fashion trend
+	a government edict
+	a military occupation
+	a prophecy
+	a religious edict
+	changes in tradition
+	ethical reasons
+	financial reasons
+	military reasons
+	mystical reasons
+	practical reasons
+	religious reasons
+	social reasons
+	superstitions
+	the celebration of a historical event
+REFCHANGEREASONSTRANGE
+	unknown reasons
+	mysterious reasons
+	forbidden reasons
+	hidden reasons
+	concealed reasons
+REFCHANGEREASONSTRANGEADD
+	but bloodshed was probably involved
+	a conspiracy was likely involved
+	money changing hands was probably the real cause
+	a horrible crime is the suspected reason
+	a murder was probably involved
+	a terrible ritual was apparently involved
+	an awful story in the news was probably the cause
+	a hideous rumor was probably the cause
+REFCHARMTYPE
+	charms
+	talismans
+	amulets
+REFCOLOREFFECT
+	lose their memories
+	cannot forget it
+	relive the past
+	have glimpses of the future
+	will dream of what they saw
+	become enraged
+	become inspired
+	are filled with lust
+	go insane
+	experience terror
+	experience ecstacy
+	see other worlds
+	hallucinate
+	experience dreams of <REFASSOCIATIONS>
+	become strangely obsessed with <REFASSOCIATIONS>
+	relive their childhood
+	develop strange obsessions
+	see things that are not there
+	see otherworldly creatures
+	speak in tongues
+	become obsessed with this color
+	become sane
+	will forever have this color in their eyes
+	will see things differently than others
+REFCREATUREROUTE
+	<REFCREATURESCALED>
+	<REFCREATURESKIN>
+	<REFCREATUREFEATHER>
+	<REFCREATUREFURRED>
+REFCREATUREINTEGUMENTROUTE
+	The same color as the scales of <REFCREATURESCALED>
+	The skin color of <REFCREATURESKIN>
+	The same color as the feathers of <REFCREATUREFEATHER>
+	The fur color of <REFCREATUREFURRED>
+REFCREATURESCALED
+	a breed of <REFCREATURETRAITGENERAL> fish
+	a breed of <REFCREATURETRAITGENERAL> lizards
+	a kind of <REFCREATURETRAITELEMENT> demons
+	a kind of <REFCREATURETRAITELEMENT> dragons
+	a breed of <REFCREATURETRAITGENERAL> snakes
+	a breed of <REFCREATURETRAITGENERAL> serpents
+	a breed of <REFCREATURETRAITGENERAL> crocodiles
+	a breed of <REFCREATURETRAITGENERAL> alligators
+	a breed of <REFCREATURETRAITGENERAL> salamanders
+REFCREATURESKIN
+	a breed of <REFCREATURETRAITGENERAL> dolphins
+	a breed of <REFCREATURETRAITGENERAL> elephants
+	a breed of <REFCREATURETRAITGENERAL> hairless cats
+	a breed of <REFCREATURETRAITGENERAL> moles
+	a breed of <REFCREATURETRAITGENERAL> rhinocerous
+	a breed of <REFCREATURETRAITGENERAL> squid
+	a breed of <REFCREATURETRAITGENERAL> whales
+	a kind of <REFCREATURETRAITELEMENT> angels
+	a kind of <REFCREATURETRAITELEMENT> spirits
+REFCREATUREFEATHER
+	a breed of <REFCREATURETRAITGENERAL> birds
+	a breed of <REFCREATURETRAITGENERAL> owls
+	a breed of <REFCREATURETRAITGENERAL> avians
+	a breed of <REFCREATURETRAITGENERAL> rocs
+	a kind of <REFCREATURETRAITELEMENT> angels
+REFCREATUREFURRED
+	a breed of <REFCREATURETRAITGENERAL> bats
+	a breed of <REFCREATURETRAITGENERAL> wolves
+	a breed of <REFCREATURETRAITGENERAL> foxes
+	a breed of <REFCREATURETRAITGENERAL> gorillas
+	a breed of <REFCREATURETRAITGENERAL> apes
+	a breed of <REFCREATURETRAITGENERAL> monkeys
+	a breed of <REFCREATURETRAITGENERAL> cats
+	a breed of <REFCREATURETRAITGENERAL> dogs
+	a breed of <REFCREATURETRAITGENERAL> jackals
+	a breed of <REFCREATURETRAITGENERAL> minks
+	a breed of <REFCREATURETRAITGENERAL> rabbits
+	a breed of <REFCREATURETRAITGENERAL> raccoons
+	a breed of <REFCREATURETRAITGENERAL> skunks
+REFCREATURETRAITGENERAL
+	poisonous
+	aggressive
+	clever
+	swift
+	toxic
+	foul
+	disgusting
+	deadly
+	friendly
+	social
+	antisocial
+	hostile
+	magical
+	demonic
+	celestial
+	infernal
+	rare
+	obscure
+REFCREATURETRAITELEMENT
+	celestial
+	infernal
+	fire
+	ice
+	water
+	earth
+	toxic
+	mud
+	mystical
+	lava
+	wood
+	nature
+	forest
+	mountain
+REFCREATURETRAITGENERALEXTRA
+	amazingly
+	disturbingly
+	notably
+	strangely
+	terrifyingly
+	unusually
+	wonderfully
+	remarkably
+	exceptionally
+REFDESCRIPTORTHING
+	an artist's idea of
+	archetypical
+	disappointing
+	dreaded
+	dreamed
+	feared
+	fictional
+	forgotten
+	half-forgotten
+	half-remembered
+	hallucinated
+	hoped-for
+	ideal
+	idealized
+	imaginary
+	lied about
+	lost
+	made-up
+	mis-remembered
+	prayed-for
+	rediscovered
+	remembered
+	the gods' own
+	unknown
+REFDIRECTIVE
+	can never be
+	cannot be
+	have to be
+	must always be
+	must be
+	should be
+	should never be
+	will always be
+	will be
+	will never be
+	will someday be
+	you wish could be
+REFCOLORACTIVE
+	understood by <REFWHOREASON>
+	dreamed about
+	erased
+	forgotten
+	lied about
+	memorized
+	put out of your mind
+	recalled
+	remembered
+	spoken of
+	suppressed
+	talked about
+	told to <REFWHOREASON>
+	told to anyone
+	understood
+REFCOLORMOOD
+	dies
+	is born
+	ages
+	achieves enlightenment
+	sickens
+	dies
+	grows up
+	is reborn
+	is happy
+	is sad
+	is angry
+	is in love
+	has left the world
+	has returned to the world
+REFCONREASON
+	for anger
+	for hate
+	for love
+	for greed
+	for the sake of knowledge
+	to prove a point
+	for one's country
+	to hide the truth
+	to reveal the truth
+	to punish the guilty
+	to protect the innocent
+	because of falsehood
+	because of the truth
+REFDYEROUTE
+	<*>
+	<*>
+	. Dye of this color <REFMEDIAORIGIN>
+REFIMAGERY
+	in dreams
+	in fiction
+	in legends
+	in lies
+	in your memories
+	that can never be imagined
+	that can only be imagined
+	that only the gods know
+	that you fear seeing
+	that you must see
+	that you'll always remember
+	that you've forgotten
+	that you've heard of in tales
+	that you've never seen
+	in one's hopes
+	in one's fears
+	that only exists in the past
+	that can only exist in the future
+	that you will one day see
+REFINDUCE
+	create
+	cause
+	prevent
+	stop
+	ward off
+	invite
+REFLIGHTEFFECTROUTE
+	people <REFLIGHTEFFECTMIND>
+	<REFLIGHTEFFECTBIOLOGICAL>
+	<REFLIGHTEFFECTINANIMATE>
+	<REFLIGHTEFFECTINFORMATION>
+REFLIGHTEFFECTMIND
+	are filled with lust
+	become enraged
+	become inspired
+	become sane
+	cannot dream
+	dream vividly
+	experience ecstacy
+	experience terror
+	go insane
+	go mad
+	hallucinate
+	have religious visions
+	lose their memories
+	relive the past
+	relive their childhood
+	see other worlds
+	see otherworldly creatures
+	see the departed
+	see the future
+	see things that are not there
+	see what could have been
+	speak in tongues
+REFLIGHTEFFECTBIOLOGICAL
+	plants grow
+	plants wither
+	fungus grows
+	fungus withers
+	disease spreads
+	diseases seem to vanish
+	wounds heal
+	wounds fester
+	plants grow strangely
+	fungus grows strangely
+	living creatures develop strangely
+	living things become unnaturally twisted
+	food seems to spoil
+	food seems to be preserved
+	flesh warps
+	wine will never go bad
+	drugs stop working
+	wine goes bad
+	drugs have strange new effects
+REFLIGHTEFFECTINANIMATE
+	iron rusts
+	gold tarnishes
+	machinery breaks down
+	glass reflects strange images
+	burnable things may catch fire
+	broken machinery may start to work
+	iron never rusts
+	gold will never tarnish
+	chemical reactions happen faster
+	chemical reactions happen slower
+REFLIGHTEFFECTINFORMATION
+	mirrors reveal truths
+	mirrors show falsehoods
+	codes are revealed
+	the truth is concealed
+	falsehoods are concealed
+	the truth is revealed
+	falsehoods are revealed
+	writing becomes strangely twisted
+	songs sound wrong
+	songs reveal unexpected truths
+	writing reveals new truths
+	paintings show strange imagery
+	paintings seem to move
+	music sounds different
+	it seems one can hear the thoughts of others
+	one's thoughts come unbidden to one's lips
+	people speak in different voices
+	people's voices sound different
+REFMEDIAORIGIN
+	requires expensive <REFMEDIAORIGINSTUFF>
+	requires illegal <REFMEDIAORIGINSTUFF>
+	requires highly regulated <REFMEDIAORIGINSTUFF>
+	requires dangerous <REFMEDIAORIGINSTUFF>
+	requires obscure <REFMEDIAORIGINSTUFF>
+	is hard to manufacture
+	is dangerous to manufacture
+	requires special skills to manufacture
+	is only made by	a single person
+	is only made by a single <REFMEDIAORIGINMAKER>
+	is easy to make
+	is all too easy to make
+	is something everyone knows how to make
+	is made from common components
+REFMEDIAORIGINMAKER
+	company
+	cult
+	expert
+	family
+	individual
+	organization
+	religious group
+	school
+	secret society
+REFMEDIAORIGINSTUFF
+	materials
+	components
+	substances
+REFMENTALBASE
+	ideas
+	dreams
+	concepts
+	thoughts
+	theories
+	insights
+REFMENTALDESC
+	boring
+	commonplace
+	disastrous
+	grand
+	helpful
+	innovative
+	insane
+	inspired
+	mysterious
+	new
+	old
+	predictable
+	simple
+	unforeseen
+	unique
+	unknown
+	wild
+	world-changing
+REFMENTALSPIRITUAL
+	spirit
+	mind
+	soul
+	heart
+REFORIGIN
+	archetypical
+	final
+	foundational
+	fundamental
+	last
+	model
+	oldest
+	one true
+	penultimate
+	perfect
+	perfected
+	primal
+	primordial
+	proper
+	prototypical
+	quintessential
+	supreme
+	true
+	truest
+	ultimate
+	universal
+REFPEOPLEROUTE
+	<REFPEOPLESPEC>
+	<REFWHOREASON>
+	both <REFPEOPLESPEC> and <REFWHOREASON>
+REFPEOPLESPEC
+	accountants
+	alchemists
+	archers
+	architects
+	artists
+	assassins
+	astrologers
+	astronomers
+	bankers
+	barbers
+	blackmailers
+	blacksmiths
+	bohemians
+	bookkeepers
+	bureaucrats
+	buskers
+	chandlers
+	chemists
+	comedians
+	commoners
+	counterfeiters
+	criminals
+	demonologists
+	doctors
+	entertainers
+	explorers
+	farmers
+	fletchers
+	fortune-tellers
+	gladiators
+	goldsmiths
+	gossips
+	guards
+	heretics
+	inquisitors
+	jesters
+	jugglers
+	knights
+	laborers
+	lawyers
+	liars
+	librarians
+	magicians
+	marines
+	merchants
+	miners
+	morticians
+	musicians
+	necromancers
+	nurses
+	peasants
+	peddlers
+	poisoners
+	prisoners
+	prophets
+	rag-and-bone men
+	revolutionaries
+	royalty
+	sailors
+	scholars
+	scientists
+	scribes
+	sculptors
+	servants
+	sharpshooters
+	shipwrights
+	singers
+	spies
+	tailors
+	the clergy
+	the military
+	theologians
+	thieves
+	undertakers
+	warriors
+	watch-keepers
+	witches
+	writers
+	zookeepers
+	zoologists
+REFPOSITIVETRAIT
+	agility
+	agility
+	charisma
+	charm
+	concealment from enemies
+	fame
+	health
+	intelligence
+	knowledge
+	magical powers
+	protection from demons
+	resistance to deception
+	resistance to disease
+	resistance to magic
+	resistance to poison
+	resistance to the elements
+	sexual potency
+	skill
+	stealth
+	strength
+	wealth
+	wisdom
+REFREACTTOPEOPLE
+	always lie to them - about everything
+	ask about their dreams
+	ask them to grant you a wish
+	ask them to sing for you
+	assume everything they say is a lie
+	avoid them
+	befriend them
+	ignore them
+	kill them
+	listen to them
+	marry them
+	never ask them about their dreams
+	never be alone with them
+	never fall in love with them
+	never let them sing
+	never lie to them
+	never look at their reflection
+	never make a deal with them
+	never steal from them
+	never tell them about your hopes
+	never tell them about your past
+	observe them carefully - for your own sake
+	perform an exorcism immediately
+	run away from them
+	tell the authorities about them
+	tell the religious authorities about them
+	tell them about your hopes
+	try to look at them in a mirror
+	you can make deals with them confidently
+	you may assume every word they say is the truth
+REFSTONETYPE
+	jewels
+	gems
+	gemstones
+	crystals
+REFTATTOOROUTE
+	<*>
+	<REFTATTOOMOD>
+REFTATTOOMOD
+	 - but only if concealed
+	 - but only if concealed
+	 - but only if worn openly
+	 - but only if worn openly
+	 - but only if worn on <REFBODYPARTINDIC>
+	 - but only if concealed and only if worn on <REFBODYPARTINDIC>
+	 - but only if worn openly on <REFBODYPARTINDIC>
+	 - but only if worn on <REFBODYPARTINDIC>
+REFWHOREASON
+	the accused
+	the ambitious
+	the angry
+	the bold
+	the compassionate
+	the courageous
+	the cowardly
+	the creative
+	the cruel
+	the curious
+	the deceptive
+	the dreaming
+	the enraged
+	the envious
+	the foolish
+	the greedy
+	the guilty
+	the happy
+	the hateful
+	the hopeful
+	the hopeless
+	the illiterate
+	the incurious
+	the industrious
+	the innocent
+	the insane
+	the inspired
+	the inspired
+	the kind
+	the lazy
+	the literate
+	the lost
+	the lustful
+	the sad
+	the scholarly
+	the wise
+REFWHOREASONSPEC
+	an accused
+	an ambitious
+	an angry
+	a bold
+	a compassionate
+	a courageous
+	a cowardly
+	a creative
+	a cruel
+	a curious
+	a deceptive
+	a dreaming
+	a enraged
+	an envious
+	a foolish
+	a greedy
+	a guilty
+	a happy
+	a hateful
+	a hopeful
+	a hopeless
+	an illiterate
+	an incurious
+	an industrious
+	an innocent
+	an insane
+	an inspired
+	a kind
+	a lazy
+	a literate
+	a lost
+	a lustful
+	a sad
+	a scholarly
+	a wise
+REFWRITINGDESC
+	important
+	the most important
+	desperate
+	the most desperate
+	secret
+	the most secret
+	forbidden
+	the most forbidden
+	the truest
+REFWRITINGITEM
+	academic records
+	books
+	contracts
+	criminal records
+	financial records
+	genealogical records
+	government decrees
+	government records
+	historical records
+	holy books
+	maps
+	military orders
+	occult books
+	occult writing
+	records of the deceased
+	religious decrees
+	religious hymns
+	translations
+	treaties
+	wills
+REFFWRITING
+	are easy to forget
+	are easy to reproduce
+	are hard to reproduce
+	can be seen out of the corner of your eye after you read them
+	can never be encoded no matter how hard you try
+	cannot be erased
+	cannot be forgotten
+	come back to you in the interlude between sleep and dreams
+	may come to your lips even when you slumber
+	will never entirely tell the truth
+	will obsess the reader
+	will spring to memory easily
+	will vanish from memory
+	will visit you in dreams
+	will visit you in nightmares
+	will visit you in idle moments
+	will come to your lips when you pray
+	will enter the minds of those near you
+	will appear in mirrors when you look at them
+//OLD STUFF
+REFMEMORY
+	are forgotten
+	are remembered
+	should be forgotten
+	should be remembered
+	are regretted
+	should be regretted
+	are taught
+	should be taught
+	are preserved
+	should be preserved
+	are forbidden
+	should be forbidden
+	should be known to all
+	are known to all
+REFPROFESSION
+	the clergy
+	royalty
+	prisoners
+	the impoverished
+	the outcast
+	bohemians
+	members of law enforcement
+	scholars
+	bureaucrats
+	servants
+	the military
+	doctors and nurses
+//rets
+RETBASECOLOR
+	color
+RETCOLORTHING
+	stuff
+RETCOLORTHINGMOD
+	stuff to mod
+RETCOLORTHINGTOMOD
+	modded stuff
+RETMODCOLOR
+	modification

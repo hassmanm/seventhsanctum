@@ -1,0 +1,497 @@
+//Seeds
+SEEDSUPERVILLAIN
+	<*GETGENTYPE>This <REFPERSONALITY> <REFSVTYPE> <ROUTEPOWER>, and is <REFMOTIVATIONCONNECT> <REFMOTIVATION>.  <GENINDICATORCAP> <REFPLOTCHOICE> <REFGENPLOT> to <REFPLOTTIEUP>.  <REFEXTRA>
+//Gets
+GETGENTYPE
+	<*>
+		GENGENERAL,true
+			man
+		GENPOSESSIVE,true
+			his
+		GENPOSESSIVECAP,true
+			His
+		GENINDICATORCAP,true
+			He
+		GENPERREF,true
+			him
+		GENSELFREF,true
+			himself
+	<*>
+		GENGENERAL,true
+			woman
+		GENPOSESSIVE,true
+			her
+		GENPOSESSIVECAP,true
+			Her
+		GENINDICATORCAP,true
+			She
+		GENPERREF,true
+			her
+		GENSELFREF,true
+			herself
+//ROUTEPOWERS
+ROUTEPOWER
+	<REFORIGIN>
+	<REFORIGINPOWERS>
+	has <REFPOWERS> powers
+//REFS
+REFANIMAL
+	alligator
+	badger
+	bat
+	bear
+	cat
+	crocodile
+	deer
+	dog
+	eagle
+	elephant
+	ferret
+	fox
+	gazelle
+	hawk
+	horse
+	kangaroo
+	lemur
+	lion
+	monkey
+	moth
+	mouse
+	octopus
+	panther
+	puma
+	rabbit
+	rat
+	scorpion
+	shark
+	skunk
+	sloth
+	snake
+	spider
+	tiger
+	weasel
+	whale
+	wolf
+REFEXTRA
+	<GENINDICATORCAP> belongs to a secret organization.
+	<GENINDICATORCAP> can see invisible entities
+	<GENINDICATORCAP> can't resist a fight.
+	<GENINDICATORCAP> can't resist helping people.
+	<GENINDICATORCAP> fears a particular alien species
+	<GENINDICATORCAP> fears non-human beings
+	<GENINDICATORCAP> fears people think he/she is a fraud.
+	<GENINDICATORCAP> fears supernatural entities
+	<GENINDICATORCAP> fears the future.
+	<GENINDICATORCAP> fell in with the wrong crowd.
+	<GENINDICATORCAP> had a near-death experience that changed <GENPERREF> significantly.
+	<GENINDICATORCAP> has a chemical dependency.
+	<GENINDICATORCAP> has a dark past.
+	<GENINDICATORCAP> has a demonic connection
+	<GENINDICATORCAP> has a divine connection
+	<GENINDICATORCAP> has a false identity.
+	<GENINDICATORCAP> has a knack for trouble.
+	<GENINDICATORCAP> has a large fortune.
+	<GENINDICATORCAP> has a lot of friends.
+	<GENINDICATORCAP> has a peculiar affinity for magic
+	<GENINDICATORCAP> has a peculiar affinity for magical items
+	<GENINDICATORCAP> has a rival.
+	<GENINDICATORCAP> has a strange rapport with non-humans
+	<GENINDICATORCAP> has a strange rapport with supernatural beings
+	<GENINDICATORCAP> has an obsessive attraction to a particular alien species
+	<GENINDICATORCAP> has an odd birthmark.
+	<GENINDICATORCAP> has an odd way of speaking.
+	<GENINDICATORCAP> has annoyed the gods
+	<GENINDICATORCAP> has big dreams.
+	<GENINDICATORCAP> has demonic blood
+	<GENINDICATORCAP> has divine blood
+	<GENINDICATORCAP> has gift for understanding non-human cultures
+	<GENINDICATORCAP> has gift for understanding non-human languages
+	<GENINDICATORCAP> has little money.
+	<GENINDICATORCAP> has lost meaning in life.
+	<GENINDICATORCAP> has no hope.
+	<GENINDICATORCAP> has no past.
+	<GENINDICATORCAP> has non-human ancestry
+	<GENINDICATORCAP> has rare occult knowledge
+	<GENINDICATORCAP> has repressed memories.
+	<GENINDICATORCAP> has seen parts of the universe few have
+	<GENINDICATORCAP> has several nervous habits.
+	<GENINDICATORCAP> has strange powers that only work when emotionally agitated
+	<GENINDICATORCAP> has uncanny abilities.
+	<GENINDICATORCAP> has unexpected depths.
+	<GENINDICATORCAP> has unusual luck.
+	<GENINDICATORCAP> hates a particular alien species
+	<GENINDICATORCAP> hates animals.
+	<GENINDICATORCAP> hates children.
+	<GENINDICATORCAP> hopes to be the best in <GENPOSESSIVE> profession.
+	<GENINDICATORCAP> inherited a family curse
+	<GENINDICATORCAP> is a complete fraud.
+	<GENINDICATORCAP> is addicted to an otherworldly drug
+	<GENINDICATORCAP> is addicted to virtual reality
+	<GENINDICATORCAP> is an outsider.
+	<GENINDICATORCAP> is burdened <GENINDICATORCAP> has dark knowlege
+	<GENINDICATORCAP> is considered the best in <GENPOSESSIVE> profession.
+	<GENINDICATORCAP> is considered the worst in <GENPOSESSIVE> profession.
+	<GENINDICATORCAP> is cursed with bad luck.
+	<GENINDICATORCAP> is dependent on medication.
+	<GENINDICATORCAP> is easily affected by magic
+	<GENINDICATORCAP> is escpaing the past.
+	<GENINDICATORCAP> is estranged from family members.
+	<GENINDICATORCAP> is estranged nobility
+	<GENINDICATORCAP> is fighting an alien occupation force
+	<GENINDICATORCAP> is from a bad family.
+	<GENINDICATORCAP> is from a big family.
+	<GENINDICATORCAP> is from a good family.
+	<GENINDICATORCAP> is from a parallel dimension
+	<GENINDICATORCAP> is from a parallel universe
+	<GENINDICATORCAP> is from a small family.
+	<GENINDICATORCAP> is from an unusual family line.
+	<GENINDICATORCAP> is from the future
+	<GENINDICATORCAP> is from the past
+	<GENINDICATORCAP> is given to moments of deep introspection.
+	<GENINDICATORCAP> is haunted by a ghost
+	<GENINDICATORCAP> is haunted by dark memories.
+	<GENINDICATORCAP> is haunted by flashbacks.
+	<GENINDICATORCAP> is heir to a kingdom
+	<GENINDICATORCAP> is heir to a kingdom but doesn't know it
+	<GENINDICATORCAP> is hiding a dark secret.
+	<GENINDICATORCAP> is hitch-hiking across the known universe
+	<GENINDICATORCAP> is in love with an artificial life form
+	<GENINDICATORCAP> is in love with someone of another species
+	<GENINDICATORCAP> is in posession of an alien artifact
+	<GENINDICATORCAP> is in posession of coordinates to a great secret
+	<GENINDICATORCAP> is in posession of stolen technology
+	<GENINDICATORCAP> is infected with an alien disease
+	<GENINDICATORCAP> is infected with nanites
+	<GENINDICATORCAP> is living on borrowed time.
+	<GENINDICATORCAP> is looking for a challenge.
+	<GENINDICATORCAP> is looking for love.
+	<GENINDICATORCAP> is more than meets the eye.
+	<GENINDICATORCAP> is on an important journey through space
+	<GENINDICATORCAP> is on an important journey through time
+	<GENINDICATORCAP> is on an important journey to a parallel world
+	<GENINDICATORCAP> is part of a secret society.
+	<GENINDICATORCAP> is prone to odd statements.
+	<GENINDICATORCAP> is searching for a family member.
+	<GENINDICATORCAP> is searching for a lost friend.
+	<GENINDICATORCAP> is seeking meaning in life.
+	<GENINDICATORCAP> is trapped by the past.
+	<GENINDICATORCAP> just awoke from suspended animation
+	<GENINDICATORCAP> lives under a curse
+	<GENINDICATORCAP> needs a friend.
+	<GENINDICATORCAP> posesses a strange map
+	<GENINDICATORCAP> posesses a strong immunity to magic
+	<GENINDICATORCAP> secretly worships forbidden gods
+	<GENINDICATORCAP> suffers from a chronic disease.
+	<GENINDICATORCAP> suffers from a chronic medical condition.
+	<GENINDICATORCAP> tends to annoy demonic beings
+	<GENINDICATORCAP> tends to annoy divine beings
+	<GENINDICATORCAP> tends to annoy non-humans
+	<GENINDICATORCAP> was blessed by the gods
+	<GENINDICATORCAP> was exiled to another dimension
+	<GENINDICATORCAP> was exiled to another world
+	<GENINDICATORCAP> was victimized by an alien race
+	<GENINDICATORCAP> was victimized by an artificial intelligence
+	<GENINDICATORCAP> wields an unusual artifact
+	<GENINDICATORCAP> worships unknown gods
+	<GENPOSESSIVECAP> dwelling is haunted
+	<GENPOSESSIVECAP> family line was magically enhanced
+REFGENPLOT
+	engaging in blackmail of <REFIMPORTANTPERSON>
+	kidnapping <REFIMPORTANTPERSON>
+	stealing advanced technology
+	stealing rare valuables
+REFIMPORTANTPERSON
+	business leaders
+	financial leaders
+	media stars
+	political leaders
+	scientific leaders
+REFMOTIVATION
+	a need to compensate for personal inadequacies
+	curiosity
+	egotism
+	fear
+	greed
+	hatred
+	insanity
+	megalomania
+	power-lust
+	religious fanaticism
+	revenge
+	sadism
+	thrill-seeking
+	unrequited love
+	vengeance
+REFMOTIVATIONCONNECT
+	driven by
+	motivated by
+	spurred onward by
+REFSVTYPE
+	super-criminal
+	super-villain
+REFPERSONALITY
+	acrobatic
+	agile
+	alienated
+	ambitious
+	antisocial
+	arrogant
+	artistic
+	athletic
+	attractive
+	awkward
+	biased
+	bigoted
+	bloodthirsty
+	boastful
+	boring
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	charismatic
+	chaste
+	cheerful
+	clever
+	clumsy
+	combative
+	complacent
+	composed
+	conceited
+	confident
+	conformist
+	confused
+	contemplative
+	corrupt
+	courageous
+	cowardly
+	creative
+	crippled
+	cruel
+	cunning
+	cute
+	delusional
+	depressed
+	detached
+	dexterous
+	disillusioned
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	elegant
+	enduring
+	energetic
+	experienced
+	fearful
+	fear-ridden
+	focused
+	forceful
+	frustrated
+	funny
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	healthy
+	homely
+	humble
+	hypocritical
+	hysterical
+	ignorant
+	ignored
+	illogical
+	indecisive
+	industrious
+	inexperienced
+	infamous
+	inhibited
+	intelligent
+	intimidating
+	intuitive
+	irrational
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	materialistic
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	mystical
+	naive
+	narrow-minded
+	negative
+	neurotic
+	nostalgic
+	obsessive
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	outgoing
+	paranoid
+	patronizing
+	persistent
+	persuasive
+	pessimistic
+	philosophical
+	plain
+	plucky
+	poised
+	pragmatic
+	predictable
+	principled
+	promiscuous
+	quiet
+	rebellious
+	romantic
+	ruthless
+	sadistic
+	scatterbrained
+	seasoned
+	secretive
+	serene
+	serious
+	short-tempered
+	sickly
+	silly
+	smart
+	social
+	spendthrift
+	stingy
+	stressed
+	striking
+	strong
+	studious
+	suave
+	tired
+	tolerant
+	tough
+	two-fisted
+	ugly
+	unathletic
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unhealthy
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	unwise
+	vicious
+	violent
+	weak
+	well-proportioned
+	wise
+	withdrawn
+	worldwise
+REFORIGIN
+	is an alien
+	is an android
+	is a magical construct
+	is a supernatural entity
+	is posessed by an alien entity
+	is posessed by a supernatural entity
+	posesses an alien artifact
+	posesses a magical artifact
+	posesses a series of gadgets
+	posesses a series of magical artifacts
+	had <GENPOSESSIVE> DNA spliced <REFORIGINSUBREASON> with a <REFANIMAL>
+	was bitten by a <REFANIMAL> that was esposed to <REFORIGINSUB>
+	was touched by the gods
+	was trained in magical disciplines
+	was trained in martial arts
+REFORIGINPOWERS
+	is an alien with <REFPOWERS> powers
+	is an android with <REFPOWERS> powers
+	is a magical construct with <REFPOWERS> powers
+	is a mutant with <REFPOWERS> powers
+	is posessed by an alien entity with <REFPOWERS> powers
+	is posessed by a supernatural entity with <REFPOWERS> powers
+	is a supernatural entity with <REFPOWERS> powers
+	recieved <REFPOWERS> powers after being altered <REFORIGINSUBREASON> by <REFORIGINSUB>
+	posesses an alien artifact with <REFPOWERS> powers
+	posesses a magical artifact with <REFPOWERS> powers
+	posesses a series of gadgets, most with <REFPOWERS> powers
+	posesses a series of magical artifacts, most with <REFPOWERS> powers
+	was touched by the gods and recieved <REFPOWERS> powers
+	was trained in magical disciplines that provide <REFPOWERS> abilities
+REFORIGINSUBREASON
+	against <GENPOSESSIVE> will
+	intentionally
+	unintentionally
+REFORIGINSUB
+	an alien parasite
+	alien blood
+	cosmic energy
+	cybernetics
+	chemicals
+	magic
+	nanites
+	radiation
+REFPLANUSE
+	plans
+	plots
+	schemes
+REFPLOTCHOICE
+	is always
+	is commonly
+	is often
+	is usually
+REFPLOTTIEUP
+	achieve <GENPOSESSIVE> goals
+REFPOWERS
+	air
+	arachind
+	atomic
+	avian
+	biological
+	canine
+	chemical
+	cold
+	darkness
+	earth
+	feline
+	fire
+	fish
+	flight
+	gravity
+	hearing
+	heat
+	ice
+	insect
+	light
+	mental
+	metal
+	nuclear
+	phasing
+	precognitive
+	shapeshifting
+	sound
+	speed
+	super-mental
+	super-physical
+	super-strength
+	telepathic
+	telepathic
+	teleporation
+	time travel
+	ursine
+	viral
+	vision

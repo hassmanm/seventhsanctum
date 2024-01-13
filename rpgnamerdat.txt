@@ -1,0 +1,282 @@
+//Vocab types:
+// Descriptor - 1
+// Abstract-2
+// Thing-4 (Single and Plural)
+// BeingPosessor-8
+// Location-16
+// Number-32
+// Enhancer - 64
+//
+--ORGANIZATION
+1,2,32
+, , ,
+1,4,32
+, , ,
+2,16,4,2
+, of ,: The , of ,
+4,16,4,2
+, of ,: The , of ,
+1,2
+, ,
+1,4
+, ,
+2,4,1,4
+,: , of the , ,
+4,16
+, of ,
+1,4
+, ,
+1,2
+, ,
+8,2
+, ,
+8,4
+, ,
+8,2,1,2
+, ,: , ,
+8,4,1,2
+, ,: , ,
+1,2,64
+, , ,
+1,4,64
+, , ,
+4,4
+, ,
+//Vocabulary
+--VOCABULARY
+//Descriptor
+Amethyst,7
+Alien,7
+Armored,1
+Azure,1
+Big,1
+Bio,1
+Black,1
+Blessed,1
+Blue,1
+Brave,1
+Brilliant,1
+Bronze,1
+Calm,1
+Celestial,1
+Cerulian,1
+Chaotic,1
+Chrono,1
+Cinnibar,1
+Cold,1
+Copper,1
+Coral,1
+Crystal,1
+Dancing,1
+Dark,1
+Deadly,1
+Diamond,7
+Dry,1
+Dying,1
+East,1
+Ebony,1
+Emerald,1
+Ephemeral,1
+Ethereal,1
+Evil,1
+Exo,1
+Fall,1
+False,1
+Fierce,1
+Final,1
+Firey,1
+First,1
+Flaming,1
+Flying,1
+Ghostly,1
+Gold,1
+Golden,1
+Good,1
+Grand,1
+Gray,1
+Great,1
+Green,1
+Guardian,7
+Happy,1
+Hard,1
+Healing,1
+Heroic,1
+High,1
+Holy,1
+Icy,1
+Infernal,1
+Infinite,17
+Intergalactic,1
+Interplanetary,1
+Interstellar,1
+Invincible,1
+Iron,1
+Ivory,1
+Jade,1
+Lawful,1
+Light,1
+Living,1
+Misty,1
+Mixed,1
+Mystic,7
+Necro,1
+New,1
+Noble,1
+North,1
+Northeast,1
+Northwest,1
+Old,1
+Orange,1
+Platinum,1
+Phantom,5
+Purple,1
+Radiant,1
+Red,1
+Roaring,1
+Royal,1
+Ruby,5
+Sad,1
+Saintly,1
+Savage,1
+Silent,1
+Silver,1
+South,1
+Southeast,1
+Southwest,1
+Spring,1
+Steel,1
+Stone,1
+Superior,1
+Techno,1
+Thundering,1
+Triumphant,1
+True,1
+Twin,1
+Unholy,1
+Unnamed,1
+Viridian,1
+West,1
+White,1
+Wild,1
+Winter,1
+Wise,1
+Wounded,1
+Xeno,1
+Yellow,1
+//Abstract Objects
+Amazement,2
+Battle,6
+Blitz,6
+Chaos,2
+Combat,6
+Core,7
+Death,2
+Divinity,2
+Doom,2
+Evolution,2
+Fantasia,2
+Fantasy,2
+Force,6
+Future,3
+Greatness,2
+Holiness,2
+Infinity,2
+Justice,2
+Law,2
+Magical,6
+Mystery,2
+Night,6
+Order,2
+Peace,2
+Space,6
+Star,6
+Time,2
+Victory,2
+War,2
+//Objects
+Airship,4
+Air,4
+Blade,4
+Cave,4
+Cavern,4
+Demon,5
+Devil,5
+Gate,4
+Gear,6
+Ghost,4
+Hell,5
+Image,4
+Lute,4
+Machine,7
+Monster,7
+Nexus,4
+Ocarina,4
+Ocean,4
+Portal,4
+Planet,6
+Quake,4
+Quest,4
+Skies,4
+Sky,4
+Sword,4
+Thunder,4
+Wizard,5
+World,6
+//Being Posessives
+Aerith's,8
+Artemis',8
+Baldur's,8
+Cloud's,8
+Cyan's,8
+Devil's,8
+Dracula's,8
+Edgar's,8
+Ender's,8
+Eris',8
+Gilder's,8
+Hercules',8
+Kid's,8
+Link's,8
+Locke's,8
+Mercury's,8
+Neptune's,8
+Sabin's,8
+Sephiroth's,8
+Setzer's,8
+Simon's,8
+Tidus',8
+Venus',8
+Vyse's,8
+Zidane's,8
+Zeus',8
+//Locations
+Atlantis,16
+Arcadia,16
+Elysium,16
+Eternity,18
+Grandia,16
+Heaven,18
+Hel,18
+Spira,16
+Zelda,16
+//Numbers
+I,32
+II,32
+III,32
+IV,32
+V,32
+VI,32
+VII,32
+VIII,32
+IX,32
+X,32
+XI,32
+//Extenders
+Alpha,64
+Expanded,64
+Next,64
+Omega,64
+Reborn,64
+Revised,64
+Tactics,64
+Unlimited,64

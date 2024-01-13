@@ -1,0 +1,9 @@
+Either Gender
+	SEEDANY
+		superninjadat.txt
+Male
+	SEEDMALE
+		superninjadat.txt
+Female
+	SEEDFEMALE
+		superninjadat.txt

@@ -1,0 +1,297 @@
+//Vocab types:
+//1 - Preffix
+//2 - Descriptor
+//4 - Object
+//8 - Object-specific
+//16 - Actor
+//32 - Suffix
+//64 - Magical Item
+//128 - Magical Actor
+//256 - Nonmagical actor
+--ORGANIZATION
+1,32
+,,
+2,1,32
+, ,,
+2,4,1,32
+, , ,,
+2,4,16
+, , ,
+2,8,16
+, , ,
+2,16
+, ,
+4,16
+, ,
+4,1,32
+, ,,
+8,16
+, ,
+//Additional
+64,256
+,,
+4,128
+,,
+2,64,256
+, ,,
+2,4,128
+, ,,
+--VOCABULARY
+//1 - Preffix
+//2 - Descriptor
+//4 - Object
+//8 - Object-specific
+//16 - Actor
+//32 - Suffix
+//Prefix,1
+Aero,1
+Agri,1
+Aqua,1
+Anti,1
+Audio,1
+Bio,1
+Cardio,1
+Carno,1
+Chroma,1
+Chrono,1
+Contra,1
+Cryo,1
+Dyna,1
+Ecto,1
+Electro,1
+Geo,1
+Helio,1
+Hydro,1
+Hypno,1
+Litho,1
+Lumo,1
+Macro,1
+Magno,1
+Micro,1
+Metallo,1
+Necro,1
+Osteo,1
+Photo,1
+Psycho,1
+Pyro,1
+Seismo,1
+Soni,1
+Tele,1
+Terra,1
+Thanato,1
+Theo,1
+Thermo,1
+Toxi,1
+Xeno,1
+Zoo,1
+//Descriptors,2
+Alchemical,2
+Astral,2
+Black,2
+Blessed,2
+Blue,2
+Bonded,2
+Bound,2
+Celestial,2
+Chant,2
+Chanting,2
+Chaotic,2
+Common,2
+Criminal,2
+Cursed,2
+Damned,2
+Demonic,2
+Divine,2
+Dreaming,2
+Empty,2
+Enlightened,2
+Eternal,2
+Etheral,2
+Free,2
+Golden,2
+Gray,2
+Green,2
+Heavenly,2
+Holy,2
+Illuminated,2
+Impure,2
+Infernal,2
+Legendary,2
+Official,2
+Pure,2
+Red,2
+Rogue,2
+Royal,2
+Runic,2
+Sacred,2
+Sanctioned,2
+Silent,2
+Spectral,2
+Spritual,2
+Unholy,2
+Unofficial,2
+Unscanctioned,2
+White,2
+//Object,4 Object-Specific,8
+Air,8
+Arctic,8
+Autumn,8
+Battle,4
+Blade,4
+Blood,4
+Brood,4
+Castle,4
+Cave,4
+Chaos,12
+City,4
+Cloud,8
+Crypt,4
+Crystal,8
+Curse,68
+Dark,10
+Day,8
+Death,4
+Decay,12
+Desert,8
+Destiny,4
+Dream,6
+Dungeon,4
+Earth,8
+Fate,4
+Fire,8
+Flame,8
+Forge,8
+Ghost,6
+Gold,74
+Honor,4
+Ice,8
+Illusion,8
+Iron,8
+Jewel,8
+Key,8
+Law,4
+Legend,4
+Light,10
+Lock,8
+Militia,4
+Mountain,8
+Mystery,4
+Night,8
+Ocean,8
+Order,8
+Path,8
+Patrol,8
+Plague,8
+Plain,8
+Poison,8
+Prayer,72
+River,8
+Road,8
+Rock,8
+Rune,4
+Sea,8
+Secret,4
+Shadow,10
+Siege,8
+Silver,8
+Soil,8
+Song,4
+Soul,68
+Spirit,70
+Spring,8
+Steel,8
+Storm,8
+Summer,8
+Time,8
+Tomb,8
+Town,8
+Toxin,8
+Void,6
+War,4
+Warp,6
+Water,8
+Wind,8
+Winter,8
+Woodland,8
+//Actor,16
+Alchemist,16
+Augurer,16
+Charmer,144
+Conjurer,16
+Diabolist,16
+Diviner,16
+Enchanter,16
+Enchantress,16
+Exorcist,16
+Healer,144
+Illusionist,16
+Mage,48
+Magician,16
+Magna,48
+Magus,48
+Medium,48
+Necromancer,16
+Occultist,16
+Seer,176
+Sorcerer,16
+Thaumaturge,16
+Theurgist,16
+Warlock,16
+Witch,48
+//Suffixes,32
+mancer,32
+//64 - Magical Item
+Angel,64
+Chant,64
+Charm,64
+Demon,64
+Devil,64
+Elixir,68
+Fetish,64
+God,64
+Glyph,64
+Hex,64
+Magic,64
+Mana,64
+Potion,64
+Rite,64
+Rune,64
+Scroll,64
+Sigil,64
+Spell,64
+Spirit,66
+Totem,64
+//128 - Magical Actor
+Caller,128
+Caster,128
+Chanter,128
+Charmer,128
+Hexer,128
+Witcher,128
+//256 - Nonmagical actor
+Bender,256
+Blaster,256
+Breaker,256
+Catcher,256
+Crasher,256
+Dancer,256
+Eater,256
+Figther,256
+Forger,256
+Gazer,256
+Holder,256
+Killer,256
+Lancer,256
+Locker,256
+Maker,256
+Reader,256
+Raiser,256
+Ripper,256
+Saver,256
+Scribe,256
+Singer,256
+Slayer,256
+Slinger,256
+Smasher,256
+Speaker,256
+Taker,256

@@ -1,0 +1,61 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+accountant,8
+advertising executive,8
+airline pilot,8
+astronomer,8
+astronaut,8
+baseball player,8
+biologist,8
+botanist,8
+cab driver,8
+CEO,8
+chemist,8
+chemical engineer,8
+clerk,8
+computer programmer,8
+construction worker,8
+corporate official,8
+daycare employee,8
+detective,8
+doctor,8
+fighter pilot,8
+fire fighter,8
+football player,8
+garbageman,8
+hacker,8
+hockey player,8
+jock,8
+investor,8
+librarian,8
+linguist,8
+manager,8
+media personality,8
+media technician,8
+mobster,8
+novelist,8
+nurse,8
+police chief,8
+policeman,8
+physicist,8
+professor,8
+psychologist,8
+psychiatrist,8
+repairman,8
+reporter,8
+salesperson,8
+scientist,8
+secret agent,8
+secretary,8
+stockbroker,8
+technician,8
+vetrenarian,8
+zookeeper,8
+zoologist,8

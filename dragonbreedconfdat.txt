@@ -1,0 +1,8 @@
+Earth-setting
+	REALWORLD
+		dragonbreedrlorgdat.txt
+		dragonbreeddat.txt
+General Fantasy
+	GENWORLD
+		dragonbreedgenorgdat.txt
+		dragonbreeddat.txt

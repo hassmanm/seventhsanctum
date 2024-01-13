@@ -1,0 +1,136 @@
+//Vocab types:
+//1 - Cheese
+//2 - Toppings
+//4 - Meat
+//8- Spices
+//16-Sauces
+//
+--VOCABULARY
+//Vocabulary
+//1 - Cheese
+//2 - Toppings
+//4 - Meat
+//8- Spices
+//16-Sauces
+//1 - Cheese
+Asiago,1
+Bleu Cheese,1
+Cheddar,1
+Colby,1
+Cream Cheese,1
+Emmental,1
+Fontina,1
+Goat Cheese,1
+Gouda,1
+Gruyère,1
+Havarti,1
+Mascarpone,1
+Mozzarella,1
+Paneer,1
+Parmesian,1
+Provolone,1
+Ricotta,1
+Swiss Cheese,1
+//2 - Toppings
+Almonds,2
+Apple,2
+Arugala,2
+Artichoke Hearts,2
+Bannana,2
+Bean Sprouts,2
+Bell Pepper,2
+Black Beans,2
+Black Olives,2
+Broccoli,2
+Burdok Root,2
+Butternut Squash,2
+Cabbage,2
+Capers,2
+Carmelized Onions,2
+Cashews,2
+Cauliflower,2
+Chipotle Pepper,2
+Eggplant,2
+Garbanzo Beans,2
+Garlic Puree,2
+Green Pepper,2
+Kidney Beans,2
+Kimchi,2
+Lotus Root,2
+Mango,2
+Mushrooms,2
+Natto,2
+Olives,2
+Pickled Garlic,2
+Pickled Ginger,2
+Pickled Jalapenos,2
+Pickles,2
+Pine Nuts,2
+Pineapple,2
+Pinto Beans,2
+Pistachos,2
+Potatoes,2
+Red Onion,2
+Red Pepper,2
+Romaine Lettuce,2
+Sauerkraut,2
+Scallions,2
+Shredded Carrots,2
+Spinach,2
+Sweet Corn,2
+Tomatoes,2
+White Onion,2
+Yellow Onion,2
+Zucchini,2
+//4 - Meat
+Bacon,4
+Buffalo Meat,4
+Butter Chicken,4
+Canadian Bacon,4
+Carnitas,4
+Chicken,4
+Clams,4
+Egg,4
+Ground Beef,4
+Ham,4
+Hot Dogs,4
+Linguica,4
+Meatballs,4
+Pepperoni,4
+Prosiccuto,4
+Pulled Pork,4
+Salami,4
+Sausage,4
+Short Rib Meat,4
+Shrimp,4
+Steak,4
+Tuna,4
+//8- Spices
+Basil,8
+Cajun Spices,8
+Cilantro,8
+Fennel,8
+Garlic,8
+Jalapenos,10
+Parsley,8
+Red Chillies,8
+Roasted Fennel,10
+Bannana Peppers,8
+Herbs De Province,8
+Italian Spices,8
+//16-Sauces
+Barbeque Sauce,16
+Brown Sauce,16
+Bulgogi Sauce,16
+Cheese Sauce,16
+Clam Sauce,16
+Hot Sauce,16
+Japanese Curry,16
+Mint Chutney,16
+Mustard,16
+Paneer Sauce,16
+Pesto Sauce,16
+Tandoori Sauce,16
+Tobasco,16
+Tomato Sauce,16
+White Sauce,16

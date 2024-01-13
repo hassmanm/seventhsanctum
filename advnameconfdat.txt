@@ -1,0 +1,12 @@
+Fantasy
+	FANTASY
+		advnamedungeondat.txt
+Horror
+	HORROR
+		advnamehorrordat.txt
+Pirates
+	PIRATE
+		advnamepiratedat.txt
+Sci-Fi
+	SCIFI
+		advnamescifidat.txt

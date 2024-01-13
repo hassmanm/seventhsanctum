@@ -1,0 +1,448 @@
+//Seeds
+SEEDEVILMAGICUSER
+	<*GETGENTYPE>This <REFPERSONALITY> <GENPROFNAME> is <REFMOTIVATIONCONNECT> <REFMOTIVATION>.  <GENINDICATORCAP> <REFSKILLUSE> <*GETSKILL> <GENSKILL> in <GENPOSESSIVE> <REFPLANUSE>, <REFPLOTCHOICE> <ROUTEPLOT> to <REFPLOTTIEUP>.  <REFEXTRA>.
+//Gets
+GETGENTYPE
+	<*>
+		GENGENERAL,true
+			man
+		GENPOSESSIVE,true
+			his
+		GENPOSESSIVECAP,true
+			His
+		GENINDICATORCAP,true
+			He
+		GENPROFNAME,true
+			mage
+			magician
+			magus
+			magic-user
+			sorceror
+			warlock
+			wizard
+		GENPERREF,true
+			him
+		GENSELFREF,true
+			himself
+	<*>
+		GENGENERAL,true
+			woman
+		GENPOSESSIVE,true
+			her
+		GENPOSESSIVECAP,true
+			Her
+		GENINDICATORCAP,true
+			She
+		GENPROFNAME,true
+			mage
+			magic-user
+			sorceress
+			witch
+		GENPERREF,true
+			her
+		GENSELFREF,true
+			herself
+GETSKILL
+	<*>
+		GENSKILL,true
+			alchemy
+		GENSPECPLOT,true
+			creating exotic poisons
+			creating magical traps
+			selling alchemical weapons
+			using a variety of potions
+	<*>
+		GENSKILL,true
+			battle magic
+		GENSPECPLOT,true
+			assasinating <REFIMPORTANTPERSON>
+			decemating entire areas
+			killing off <REFIMPORTANTPERSON>
+			stealing valuable artifacts
+			taking control of bands of monsters
+	<*>
+		GENSKILL,true
+			demonology
+		GENSPECPLOT,true
+			bargaining with demons
+			conjuring demons to posess <REFIMPORTANTPERSON>
+			querying demons on their knowledge
+			summoning demon troops
+			summoning demons of deception
+			unleashing demonic madness
+	<*>
+		GENSKILL,true
+			divination
+		GENSPECPLOT,true
+			blackmailing others with magically-acquired knowledge
+			seeking forbidden knowlege
+			seeking powerful artifacts
+			spying on <REFIMPORTANTPERSON>
+			stealing magical knowledge via sorcery
+	<*>
+		GENSKILL,true
+			elemental magic
+		GENSPECPLOT,true
+			conjuring armies of elementals
+			magically causing natural disasters
+			magically taking advantage of natural disasters
+	<*>
+		GENSKILL,true
+			enchantment
+		GENSPECPLOT,true
+			altering common magical items
+			controlling the minds of <REFIMPORTANTPERSON>
+			creating exotic magical weapons
+			creating magical snares
+	<*>
+		GENSKILL,true
+			forbidden magic
+		GENSPECPLOT,true
+			exploring dark dimensions
+			seeking unspeakable artifacts
+			stealing the souls of others
+			summoning forgotten gods
+			twisting the fabric of reality itself
+			unleashing unspeakable dark forces
+	<*>
+		GENSKILL,true
+			high magic
+		GENSPECPLOT,true
+			crafting world-shaking magical items
+			exploring distant dimensions
+			summoning powerful beings
+			using reality-altering sorceries
+	<*>
+		GENSKILL,true
+			illusions
+		GENSPECPLOT,true
+			ambushing others
+			decieving others with complex illusions
+			disgusing <GENSELFREF> as <REFIMPORTANTPERSON>
+			ensnaring <REFIMPORTANTPERSON> in complex schemes
+	<*>
+		GENSKILL,true
+			necromancy
+		GENSPECPLOT,true
+			creating an army of undead
+			raising the spirits of famous mages
+			ressurecting the dead to gain their knowledge
+			stealing the souls of <REFIMPORTANTPERSON>
+			unleashing unholy forces
+//ROUTES
+ROUTEPLOT
+	<GENSPECPLOT>
+	<REFGENPLOT>
+//REFS
+REFEXTRA
+	<GENINDICATORCAP> belongs to a secret organization
+	<GENINDICATORCAP> can see invisible entities
+	<GENINDICATORCAP> can't resist a fight
+	<GENINDICATORCAP> can't resist helping people
+	<GENINDICATORCAP> fears non-human beings
+	<GENINDICATORCAP> fears people think he/she is a fraud
+	<GENINDICATORCAP> fears supernatural entities
+	<GENINDICATORCAP> fears the future
+	<GENINDICATORCAP> fell in with the wrong crowd
+	<GENINDICATORCAP> had a near-death experience that changed <GENPERREF> significantly
+	<GENINDICATORCAP> has a chemical dependency
+	<GENINDICATORCAP> has a dark past
+	<GENINDICATORCAP> has a demonic connection
+	<GENINDICATORCAP> has a divine connection
+	<GENINDICATORCAP> has a false identity
+	<GENINDICATORCAP> has a knack for trouble
+	<GENINDICATORCAP> has a large fortune
+	<GENINDICATORCAP> has a lot of friends
+	<GENINDICATORCAP> has a peculiar affinity for magic
+	<GENINDICATORCAP> has a peculiar affinity for magical items
+	<GENINDICATORCAP> has a rival
+	<GENINDICATORCAP> has a strange rapport with non-humans
+	<GENINDICATORCAP> has a strange rapport with supernatural beings
+	<GENINDICATORCAP> has an odd birthmark
+	<GENINDICATORCAP> has an odd way of speaking
+	<GENINDICATORCAP> has annoyed the gods
+	<GENINDICATORCAP> has big dreams
+	<GENINDICATORCAP> has demonic blood
+	<GENINDICATORCAP> has divine blood
+	<GENINDICATORCAP> has little money
+	<GENINDICATORCAP> has lost meaning in life
+	<GENINDICATORCAP> has no hope
+	<GENINDICATORCAP> has no past
+	<GENINDICATORCAP> has non-human ancestry
+	<GENINDICATORCAP> has rare occult knowledge
+	<GENINDICATORCAP> has repressed memories
+	<GENINDICATORCAP> has several nervous habits
+	<GENINDICATORCAP> has uncanny abilities
+	<GENINDICATORCAP> has unexpected depths
+	<GENINDICATORCAP> has unusual luck
+	<GENINDICATORCAP> hates animals
+	<GENINDICATORCAP> hates children
+	<GENINDICATORCAP> hopes to be the best in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> inherited a family curse
+	<GENINDICATORCAP> is a complete fraud
+	<GENINDICATORCAP> is an outsider
+	<GENINDICATORCAP> is burdened <GENINDICATORCAP> has dark knowlege
+	<GENINDICATORCAP> is considered the best in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> is considered the worst in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> is cursed with bad luck
+	<GENINDICATORCAP> is dependent on medication
+	<GENINDICATORCAP> is easily affected by magic
+	<GENINDICATORCAP> is escpaing the past
+	<GENINDICATORCAP> is estranged from family members
+	<GENINDICATORCAP> is estranged nobility
+	<GENINDICATORCAP> is from a bad family
+	<GENINDICATORCAP> is from a big family
+	<GENINDICATORCAP> is from a good family
+	<GENINDICATORCAP> is from a small family
+	<GENINDICATORCAP> is from an unusual family line
+	<GENINDICATORCAP> is given to moments of deep introspection
+	<GENINDICATORCAP> is haunted by a ghost
+	<GENINDICATORCAP> is haunted by dark memories
+	<GENINDICATORCAP> is haunted by flashbacks
+	<GENINDICATORCAP> is heir to a kingdom
+	<GENINDICATORCAP> is heir to a kingdom but doesn't know it
+	<GENINDICATORCAP> is hiding a dark secret
+	<GENINDICATORCAP> is living on borrowed time
+	<GENINDICATORCAP> is looking for a challenge
+	<GENINDICATORCAP> is looking for love
+	<GENINDICATORCAP> is more than meets the eye
+	<GENINDICATORCAP> is part of a secret society
+	<GENINDICATORCAP> is prone to odd statements
+	<GENINDICATORCAP> is searching for a family member
+	<GENINDICATORCAP> is searching for a lost friend
+	<GENINDICATORCAP> is seeking meaning in life
+	<GENINDICATORCAP> is trapped by the past
+	<GENINDICATORCAP> lives under a curse
+	<GENINDICATORCAP> needs a friend
+	<GENINDICATORCAP> posesses a strange map
+	<GENINDICATORCAP> posesses a strong immunity to magic
+	<GENINDICATORCAP> secretly worships forbidden gods
+	<GENINDICATORCAP> suffers from a chronic disease
+	<GENINDICATORCAP> suffers from a chronic medical condition
+	<GENINDICATORCAP> tends to annoy demonic beings
+	<GENINDICATORCAP> tends to annoy divine beings
+	<GENINDICATORCAP> tends to annoy non-humans
+	<GENINDICATORCAP> was blessed by the gods
+	<GENINDICATORCAP> wields an unusual artifact
+	<GENINDICATORCAP> worships unknown gods
+	<GENPOSESSIVECAP> dwelling is haunted
+	<GENPOSESSIVECAP> family line was magically enhanced
+REFGENPLOT
+	corrupting other magic-users
+	creating exotic artifacts
+	engaging in blackmail of <REFIMPORTANTPERSON>
+	kidnapping <REFIMPORTANTPERSON>
+	stealing magical artifacts
+	stealing and corrupting the magical research of other
+	taking over instutitions of magical training
+REFIMPORTANTPERSON
+	business leaders
+	clerical leaders
+	political leaders
+	important magic-users
+REFMOTIVATION
+	a drive for discovery
+	a need to compensate for personal inadequacies
+	curiosity
+	egotism
+	fear
+	greed
+	hatred
+	insanity
+	megalomania
+	power-lust
+	religious fanaticism
+	revenge
+	unrequited love
+	thrill-seeking
+	vengeance
+REFMOTIVATIONCONNECT
+	driven by
+	motivated by
+	spurred onward by
+REFPERSONALITY
+	acrobatic
+	agile
+	alienated
+	ambitious
+	antisocial
+	arrogant
+	artistic
+	athletic
+	attractive
+	awkward
+	biased
+	bigoted
+	bloodthirsty
+	boastful
+	boring
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	charismatic
+	chaste
+	cheerful
+	clever
+	clumsy
+	combative
+	complacent
+	composed
+	conceited
+	confident
+	conformist
+	confused
+	contemplative
+	corrupt
+	courageous
+	cowardly
+	creative
+	crippled
+	cruel
+	cunning
+	cute
+	delusional
+	depressed
+	detached
+	dexterous
+	disillusioned
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	elegant
+	enduring
+	energetic
+	experienced
+	fearful
+	fear-ridden
+	focused
+	forceful
+	frustrated
+	funny
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	healthy
+	homely
+	humble
+	hypocritical
+	hysterical
+	ignorant
+	ignored
+	illogical
+	indecisive
+	industrious
+	inexperienced
+	infamous
+	inhibited
+	intelligent
+	intimidating
+	intuitive
+	irrational
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	materialistic
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	mystical
+	naive
+	narrow-minded
+	negative
+	neurotic
+	nostalgic
+	obsessive
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	outgoing
+	paranoid
+	patronizing
+	persistent
+	persuasive
+	pessimistic
+	philosophical
+	plain
+	plucky
+	poised
+	pragmatic
+	predictable
+	principled
+	promiscuous
+	quiet
+	rebellious
+	romantic
+	ruthless
+	sadistic
+	scatterbrained
+	seasoned
+	secretive
+	serene
+	serious
+	short-tempered
+	sickly
+	silly
+	smart
+	social
+	spendthrift
+	stingy
+	stressed
+	striking
+	strong
+	studious
+	suave
+	tired
+	tolerant
+	tough
+	two-fisted
+	ugly
+	unathletic
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unhealthy
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	unwise
+	vicious
+	violent
+	weak
+	well-proportioned
+	wise
+	withdrawn
+	worldwise
+REFPLANUSE
+	plans
+	plots
+	schemes
+REFPLOTCHOICE
+	always
+	commonly
+	often
+	usually
+REFPLOTTIEUP
+	achieve <GENPOSESSIVE> goals
+REFSKILLUSE
+	uses
+	employs

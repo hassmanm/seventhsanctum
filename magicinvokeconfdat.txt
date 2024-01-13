@@ -1,0 +1,12 @@
+Any
+	SEED
+		magicinvokedat.txt
+Neutral-Themed
+	SEEDNEUTRAL
+		magicinvokedat.txt
+Evil-Themed
+	SEEDDARK
+		magicinvokedat.txt
+Good-Themed
+	SEEDLIGHT
+		magicinvokedat.txt

@@ -1,0 +1,9 @@
+Complete
+	SEEDSETTING
+		alienracedat.txt
+Detail
+	SEEDDETAILED
+		alienracedat.txt
+Description
+	SEEDBASIC
+		alienracedat.txt

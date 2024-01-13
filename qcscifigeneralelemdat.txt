@@ -1,0 +1,63 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//16 - Element
+addicted to an otherworldly drug,16
+addicted to virtual reality,16
+fighting against a culture that won't allow him/her to reproduce,16
+from a distant colony,16
+from a dying race,16
+from an ancient race,16
+from an infamous race,16
+from the past,16
+from the future,16
+hitch-hiking across the known universe,16
+in love with someone of another species,16
+in love with an artificial life form,16
+in posession of an alien artifact,16
+in posession of coordinates to a great secret,16
+in posession of stolen technology,16
+infected with an alien disease,16
+infected with nanites,16
+just awoke from suspended animation,16
+on an important journey to a parallel world,16
+on an important journey through space,16
+on an important journey through time,16
+who fears a particular alien species,16
+who has an obsessive attraction to a particular alien species,16
+who has seen parts of the universe few have,16
+who hates a particular alien species,16
+who is a crossbreed of two species,16
+who is estranged from his/her race,16
+who is fighting an alien occupation force,16
+who is from a parallel dimension,16
+who is from a parallel universe,16
+who is actually an alien entity,16
+who is seeking to return to his/her homeworld,16
+who is the last member of his/her race,16
+who tragically misunderstood an alien custom,16
+who was exiled to another dimension,16
+who was exiled to another world,16
+who was genetically engineered,16
+who was granted strange abilities by an alien species,16
+who was victimized by an artificial intelligence,16
+who was victimized by an alien race,16
+who plans to exploit another world,16
+whose body was infected by an alien seeking to reproduce,16
+whose culture has collapsed,16
+whose mind was controlled by a parasite,16
+whose species has odd reproductive habits,16
+whose species is being exterminated,16
+whose species reproduces by cloning or similar technology,16
+whose world is run by a computer,16
+whose world is threatened by a space disaster,16
+whose world is threatened by a technological disaster,16
+with a gift for understanding non-human cultures,16
+with a gift for understanding non-human languages,16
+with strange powers that only work when emotionally agitated,16

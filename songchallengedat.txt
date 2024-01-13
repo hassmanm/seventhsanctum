@@ -1,0 +1,1391 @@
+//Vocab types:
+//1	Music Type
+//2	Theme
+//4	Element
+//8	Element Plural
+//16	Being
+//32	Being Plural
+--ORGANIZATION
+//Theme only
+1,2
+This , song is about ,.
+1,2
+This , song is about ,.
+1,2
+This , song is about ,.
+1,2
+This , song is about ,.
+1,2
+This , song is about ,.
+1,2
+This , song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,1,2
+This ,/, song is about ,.
+1,2,2
+This , song is about , and ,.
+1,2,2
+This , song is about , and ,.
+1,2,2
+This , song is about , and ,.
+1,1,2,2
+This ,/, song is about , and ,.
+1,1,2,2
+This ,/, song is about , and ,.
+1,1,2,2
+This ,/, song is about , and ,.
+1,1,2,2
+This ,/, song is about , and ,.
+//Elements
+1,4
+This , song is about ,.
+1,4
+This , song is about ,.
+1,4
+This , song is about ,.
+1,1,4
+This ,/, song is about ,.
+1,1,4
+This ,/, song is about ,.
+1,1,4
+This ,/, song is about ,.
+1,1,4
+This ,/, song is about ,.
+1,4,4
+This , song is about , and ,.
+1,1,4,4
+This ,/, song is about , and ,.
+1,8
+This , song is about ,.
+1,8
+This , song is about ,.
+1,8
+This , song is about ,.
+1,1,8
+This ,/, song is about ,.
+1,1,8
+This ,/, song is about ,.
+1,1,8
+This ,/, song is about ,.
+1,8,8
+This , song is about , and ,.
+1,1,8,8
+This ,/, song is about , and ,.
+//Beings
+1,16
+This , song is about ,.
+1,16
+This , song is about ,.
+1,16
+This , song is about ,.
+1,1,16
+This ,/, song is about ,.
+1,1,16
+This ,/, song is about ,.
+1,1,16
+This ,/, song is about ,.
+1,16,16
+This , song is about , and ,.
+1,1,16,16
+This ,/, song is about , and ,.
+1,32
+This , song is about ,.
+1,32
+This , song is about ,.
+1,32
+This , song is about ,.
+1,1,32
+This ,/, song is about ,.
+1,1,32
+This ,/, song is about ,.
+1,1,32
+This ,/, song is about ,.
+1,32,32
+This , song is about , and ,.
+1,1,32,32
+This ,/, song is about , and ,.
+//Vocabulary
+--VOCABULARY
+//Music type
+Big Band,1
+Bluegrass,1
+Blues,1
+Classical,1
+Commercial Jingle,1
+Country,1
+Death Metal,1
+Disco,1
+Elevator Music,1
+Experimental,1
+Folk,1
+Funk,1
+Glam Rock,1
+Gospel,1
+Grunge,1
+Hair Metal,1
+Hard Rock,1
+Heavy Metal,1
+Hip-Hop,1
+House,1
+Industrial,1
+Jazz,1
+J-Pop,1
+Lounge,1
+Merengue,1
+Pop Rock,1
+Power Metal,1
+Psychedelic,1
+Punk,1
+R & B,1
+Rap,1
+Rasta,1
+Rockabilly,1
+Salsa,1
+Ska,1
+Soft Rock,1
+Soul,1
+Speed Metal,1
+Surf,1
+Techno,1
+Trance,1
+World Music,1
+//Theme
+,2
+Abstinence,2
+Accounting,2
+Acting,2
+Alchoholism,2
+Ambition,2
+Anger,2
+Angst,2
+Archaeology,2
+Arguing,2
+Arrogance,2
+Astral Projection,2
+Auto Repair,2
+Biology,2
+Birth,2
+Blinking,2
+Bloating,2
+Boat Accidents,2
+Boat Racing,2
+Boating,2
+Boredom,2
+Breakups,2
+Cannibalism,2
+Car Crashes,2
+Car Racing,2
+Celebacy,2
+Celibacy,2
+Chaos,2
+Charisma,2
+Chemistry,2
+Childbirth,2
+Clapping,2
+College,2
+Competence,2
+Cooking,2
+Cooking,2
+Creation,2
+Crushes,2
+Crying,2
+Dancing,2
+Dating,2
+Death,2
+Dentistry,2
+Desire,2
+Despair,2
+Destruction,2
+Disaster,2
+Disorder,2
+Drawing,2
+Drug Addiction,2
+Eating,2
+Eating,2
+Egotism,2
+Electricity,2
+Elementary School,2
+Engine Repair,2
+Evil,2
+Falling,2
+Fame,2
+Family,2
+Fandom,2
+Fetishes,2
+Fighting,2
+Financial Activities,2
+Flying,2
+Freedom,2
+Gaming,2
+Genocide,2
+Good,2
+Government,2
+Greed,2
+Happiness,2
+Hate,2
+Healing,2
+High School,2
+History,2
+Hope,2
+Hunger,2
+Illness,2
+Incest,2
+Incompetence,2
+Indecision,2
+Infamy,2
+Infidellity,2
+Infinity,2
+Injustice,2
+Insanity,2
+Insecurity,2
+Intelligence,2
+Joking,2
+Justice,2
+Killing,2
+Laughter,2
+Law,2
+Laziness,2
+Life,2
+Loneliness,2
+Love,2
+Magic,2
+Medicine,2
+Music,2
+Mysticism,2
+Nhilism,2
+Nuclear Energy,2
+Obsession,2
+Oppression,2
+Optimism,2
+Order,2
+Painting,2
+Performing,2
+Pessimism,2
+Plane Accidents,2
+PMS,2
+Poetry,2
+Postal Work,2
+Praying,2
+Programming,2
+Quantumn Physics,2
+Questioning,2
+Religion,2
+Religion,2
+Running,2
+Sadness,2
+Sanity,2
+Science,2
+Sculpting,2
+Sculpting,2
+Sex,2
+Sex Addiction,2
+Silence,2
+Sin,2
+Singing,2
+Singing,2
+Slavery,2
+Slipping,2
+Sorcery,2
+Space,2
+Space Travel,2
+Sports,2
+Stupidity,2
+Surgery,2
+Swimming,2
+Talking,2
+the Future,2
+the Past,2
+Time,2
+Vengeance,2
+Violence,2
+Virtue,2
+Vomiting,2
+Wailing,2
+Walking,2
+Watching Television,2
+Weather,2
+Weeping,2
+Wisdom,2
+Work,2
+Zoology,2
+//Element
+an abbey,4
+an AC adapter,4
+an action figure,4
+an alarm clock,4
+an almond,4
+an amusement park,4
+an apple,4
+an apple,4
+an axe,4
+a backhoe,4
+a ballpoint pen,4
+a baloon,4
+a bannana,4
+a bar,4
+a bar of soap,4
+a baseball bat,4
+a baseball mitt,4
+a basket,4
+a battery,4
+a battleship,4
+a beach,4
+beef jerky,12
+a biscut,4
+a blanket,4
+a board game,4
+a boat,4
+a booger,4
+a bottle of shampoo,4
+a bottlecap,4
+a box,4
+a box of tissues,4
+a bra,4
+a bracelet,4
+a breakfast cerial,4
+a building,4
+a bulldozer,4
+a bungee cord,4
+a button,4
+a cake,4
+a calculator,4
+a caligraphy set,4
+a cameo brooch,4
+a can,4
+a candy,4
+a candy jar,4
+a canyon,4
+a car,4
+a cargo plane,4
+a carrot,4
+a cavern,4
+a CD,4
+a ceiling fan,4
+a chainsaw,4
+a chair,4
+a chamber pot,4
+a checkbook,4
+a cheerleader's skirt,4
+a chessboard,4
+a chocolate,4
+a church,4
+a cigar,4
+a cigarette,4
+a clothespin,4
+a communication sattilite,4
+a compass,4
+a computer,4
+a computer mouse,4
+a condom,4
+a cookbook,4
+a cow bell,4
+a crayon,4
+a creek,4
+a crown,4
+a crown,4
+a crystal ball,4
+a cubicle,4
+a cucumber,4
+a cup,4
+a daffodil,4
+a deck of cards,4
+a desk,4
+a diamond,4
+a diaper,4
+a diary,4
+a die,4
+a diving mask,4
+a dog collar,4
+a doll,4
+a door,4
+a dreamcatcher,4
+a dress,4
+a dumpster,4
+a DVD,4
+an egg,4
+an emerald,4
+an engine,4
+a feather,4
+a femur,4
+a fence,4
+a ferris wheel,4
+a file folder,4
+a filing cabinet,4
+a fingernail clipping,4
+a flowerpot,4
+a football,4
+a forceps,4
+a forest,4
+a fork,4
+a game,4
+a garbage bag,4
+a garden,4
+a garden hose,4
+a gazebo,4
+a gem,4
+a glove,4
+a grandfather clock,4
+a grimoire,4
+a grindstone,4
+a guitar,4
+a gum wrapper,4
+a gyroscope,4
+a hankerchief,4
+a hospital,4
+a house,4
+an ice cube,4
+an idol,4
+an insect in amber,4
+an instructional manual,4
+a jigsaw puzzle,4
+a jockstrap,4
+a kelin bottle,4
+a key,4
+a keychain,4
+a knife,4
+a lamp,4
+a lawn,4
+a lawnmower,4
+a lever,4
+a lingere,4
+a magnet,4
+a maid outfit,4
+a mason jar,4
+a meal,4
+a medicine,4
+a mobius strip,4
+a mood ring,4
+a moon,4
+a mountain,4
+a movie ticket,4
+a nail file,4
+a newspaper,4
+a newspaper,4
+a notebook,4
+a notepad,4
+a nut,4
+an ointment,4
+an onion,4
+an orange,4
+an orange,4
+a painting,4
+a pair of dentures,4
+a pair of high-heeled shoes,4
+a pair of moccasins,4
+a pair of pants,4
+a pair of underwear,4
+a paper bag,4
+a paperclip,4
+a paperweight,4
+a parsnip,4
+a path,4
+a peacock feather,4
+a pear,4
+a pecan,4
+a pen,4
+a pencil,4
+a pencil box,4
+a pencil sharpener,4
+a pendant,4
+a penknife,4
+a perfume,4
+a picture frame,4
+a pie,4
+a piece of rope,4
+a pill,4
+a pill,4
+a pinapple,4
+a pipe,4
+a pizza,4
+a plane,4
+a planet,4
+a plant hanger,4
+a plastic bag,4
+a plate,4
+a plum,4
+a pocket watch,4
+a porn magazine,4
+a poster,4
+a potato,4
+a potion,4
+a power plant,4
+a protractor,4
+a pudding,4
+a puddle,4
+a puddle of mud,4
+a quill,4
+a racetrack,4
+a radio,4
+a raindrop,4
+a rake,4
+a recepie,4
+a restraunt,4
+a rib,4
+a ring,4
+a river,4
+a road,4
+a rock,4
+a rocket,4
+a rod,4
+a rose,4
+a rubber band,4
+a rubber chicken,4
+a ruler,4
+a rutbega,4
+a sapphire,4
+a sausage,4
+a scalpel,4
+a schoolbook,4
+a set of chopsticks,4
+a shack,4
+a shirt,4
+a shoe,4
+a shotgun,4
+a shower cap,4
+a shower curtain,4
+a sketchbook,4
+a skull,4
+a slinky,4
+a sock,4
+a soda bottle,4
+a soup,4
+a speaker,4
+a spoon,4
+a spring,4
+a staff,4
+a star,4
+a starship,4
+a statue,4
+a steak,4
+a stick,4
+a strawberry,4
+a street,4
+a string,4
+a stuffed animal,4
+a suction cup,4
+a suit,4
+a sun,4
+a sunflower,4
+a suppository,4
+a surfboard,4
+a sweater,4
+a swimsuit,4
+a pair of swimtrunks,4
+a swiss army knife,4
+a sword,4
+a synthesizer,4
+a table,4
+a tea bag,4
+a teacup,4
+a television,4
+a temple,4
+a tent,4
+a tiara,4
+a tie,4
+a tie,4
+a toilet,4
+a toilet seat,4
+a tomahawk,4
+a toothbrush,4
+a toy,4
+a toy train,4
+a train,4
+a trashcan,4
+a tree,4
+a trombone,4
+a truss,4
+a tube of toothpaste,4
+a turkey baster,4
+a tweezer,4
+a twist-tie,4
+an umbrella,4
+a video game console,4
+a videotape,4
+a walnut,4
+a wand,4
+a water tower,4
+a wedding ring,4
+a weed,4
+a whoopie cushion,4
+a window,4
+a winebottle,4
+a wineglass,4
+a wishbone,4
+a xylophone,4
+//Element Plural
+abbeys,8
+AC adapters,8
+action figures,8
+alarm clocks,8
+almonds,8
+amusement parks,8
+apples,8
+apples,8
+axes,8
+backhoes,8
+ballpoint pens,8
+baloons,8
+bannanas,8
+bars,8
+bar of soaps,8
+baseball bats,8
+baseball mitts,8
+baskets,8
+batterys,8
+battleships,8
+beachs,8
+biscuts,8
+blankets,8
+board games,8
+boats,8
+boogers,8
+Bottles of shampoo,8
+bottlecaps,8
+boxes,8
+boxes of tissues,8
+bras,8
+bracelets,8
+breakfast cerials,8
+buildings,8
+bulldozers,8
+bungee cords,8
+buttons,8
+cakes,8
+calculators,8
+caligraphy sets,8
+cameo brooches,8
+cans,8
+candys,8
+candy jars,8
+canyons,8
+cars,8
+cargo planes,8
+carrots,8
+caverns,8
+CDs,8
+ceiling fans,8
+chainsaws,8
+chairs,8
+chamber pots,8
+checkbooks,8
+cheerleader's skirts,8
+chessboards,8
+chocolates,8
+churches,8
+cigars,8
+cigarettes,8
+clothespins,8
+communication sattilites,8
+compasss,8
+computers,8
+computer mouses,8
+condoms,8
+cookbooks,8
+cow bells,8
+crayons,8
+creeks,8
+crowns,8
+crowns,8
+crystal balls,8
+cubicles,8
+cucumbers,8
+cups,8
+daffodils,8
+deck of cardss,8
+desks,8
+diamonds,8
+diapers,8
+diarys,8
+dies,8
+diving masks,8
+dog collars,8
+dolls,8
+doors,8
+dreamcatchers,8
+dresss,8
+dumpsters,8
+DVDs,8
+eggs,8
+emeralds,8
+engines,8
+feathers,8
+femurs,8
+fences,8
+ferris wheels,8
+file folders,8
+filing cabinets,8
+fingernail clippings,8
+flowerpots,8
+footballs,8
+forcepss,8
+forests,8
+forks,8
+games,8
+garbage bags,8
+gardens,8
+garden hoses,8
+gazebos,8
+gems,8
+gloves,8
+grandfather clocks,8
+grimoires,8
+grindstones,8
+guitars,8
+gum wrappers,8
+gyroscopes,8
+hankerchiefs,8
+hospitals,8
+houses,8
+ice cubes,8
+idols,8
+insects in amber,8
+instructional manuals,8
+jigsaw puzzles,8
+jockstraps,8
+kelin bottles,8
+keys,8
+keychains,8
+knives,8
+lamps,8
+lawns,8
+lawnmowers,8
+levers,8
+lingeres,8
+magnets,8
+maid outfits,8
+mason jars,8
+meals,8
+medicines,8
+mobius strips,8
+mood rings,8
+moons,8
+mountains,8
+movie tickets,8
+nail files,8
+newspapers,8
+newspapers,8
+notebooks,8
+notepads,8
+nuts,8
+ointments,8
+onions,8
+oranges,8
+oranges,8
+paintings,8
+pairs of dentures,8
+pairs of high-heeled shoes,8
+pairs of moccasins,8
+pairs of pants,8
+pairs of underwears,8
+paper bags,8
+paperclips,8
+paperweights,8
+parsnips,8
+paths,8
+peacock feathers,8
+pears,8
+pecans,8
+pens,8
+pencils,8
+pencil boxs,8
+pencil sharpeners,8
+pendants,8
+penknifes,8
+perfumes,8
+picture frames,8
+pies,8
+piece of ropes,8
+pills,8
+pills,8
+pinapples,8
+pipes,8
+pizzas,8
+planes,8
+planets,8
+plant hangers,8
+plastic bags,8
+plates,8
+plums,8
+pocket watchs,8
+porn magazines,8
+posters,8
+potatos,8
+potions,8
+power plants,8
+protractors,8
+puddings,8
+puddles,8
+puddles of mud,8
+quills,8
+racetracks,8
+radios,8
+raindrops,8
+rakes,8
+recepies,8
+restraunts,8
+ribs,8
+rings,8
+rivers,8
+roads,8
+rocks,8
+rockets,8
+rods,8
+roses,8
+rubber bands,8
+rubber chickens,8
+rulers,8
+rutbegas,8
+sapphires,8
+sausages,8
+scalpels,8
+schoolbooks,8
+sets of chopsticks,8
+shacks,8
+shirts,8
+shoes,8
+shotguns,8
+shower caps,8
+shower curtains,8
+sketchbooks,8
+skulls,8
+slinkys,8
+socks,8
+soda bottles,8
+soups,8
+speakers,8
+spoons,8
+springs,8
+staffs,8
+stars,8
+starships,8
+statues,8
+steaks,8
+sticks,8
+strawberries,8
+streets,8
+strings,8
+stuffed animals,8
+suction cups,8
+suits,8
+suns,8
+sunflowers,8
+suppositories,8
+surfboards,8
+sweaters,8
+swimsuits,8
+swimtrunks,8
+swiss army knives,8
+swords,8
+synthesizers,8
+tables,8
+tebags,8
+teacups,8
+televisions,8
+temples,8
+tents,8
+tiaras,8
+ties,8
+ties,8
+toilets,8
+toilet seats,8
+tomahawks,8
+toothbrushs,8
+toys,8
+toy trains,8
+trains,8
+trashcans,8
+trees,8
+trombones,8
+trusss,8
+tubes of toothpaste,8
+turkey basters,8
+tweezers,8
+twist-ties,8
+umbrellas,8
+video game consoles,8
+videotapes,8
+walnuts,8
+wands,8
+water towers,8
+wedding rings,8
+weeds,8
+whoopie cushions,8
+windows,8
+winebottles,8
+wineglasss,8
+wishbones,8
+xylophones,8
+//Being
+an accountant,16
+an acrobat,16
+an actor,16
+an adventurer,16
+an advertising executive,16
+an AI computer,16
+an airline pilot,16
+an alchemist,16
+an alien,16
+an ambassador,16
+an ancient entity,16
+an android,16
+an arch-druid,16
+an archer,16
+an architect,16
+an archivist,16
+an arch-mage,16
+an artificial life form,16
+an assassin,16
+an assistant,16
+an astrologer,16
+an astronaut,16
+an astronomer,16
+a bandit,16
+a barbarian,16
+a bard,16
+a bartender,16
+a baseball player,16
+a beggar,16
+a biologist,16
+a blacksmith,16
+a boatman,16
+a bodyguard,16
+a botanist,16
+a bounty hunter,16
+a bowman,16
+a businessperson,16
+a cab driver,16
+a cartographer,16
+a CEO,16
+a champion,16
+a chemical engineer,16
+a chemist,16
+a chief engineer,16
+a circuit priest,16
+a circuit priestess,16
+a cleric,16
+a clerk,16
+a clone,16
+a coachman,16
+a colonist,16
+a comic,16
+a communications officer,16
+a communications technician,16
+a computer programmer,16
+a computer technician,16
+a conjurer,16
+a construction worker,16
+a corporate official,16
+a cyberneticist,16
+a cyberpunk,16
+a cyborg,16
+a dancer,16
+a daycare employee,16
+a demonologist,16
+a detective,16
+a doctor,16
+a doctor,16
+a druid,16
+a duke,16
+a dungeon delver,16
+a dutchess,16
+a dwarf,16
+an elementalist,16
+an elf,16
+an engineer,16
+an exorcist,16
+an explorer,16
+a farmer,16
+a fence,16
+a fighter pilot,16
+a fire fighter,16
+a first contact specialist,16
+a first officer,16
+a fisherman,16
+a football player,16
+a fortune-teller,16
+a freak,16
+a gambler,16
+a garbageman,16
+a gigolo,16
+a gladiator,16
+a grave robber,16
+a guitarist,16
+a hacker,16
+a halfling,16
+a healer,16
+a heir,16
+a herbologist,16
+a hermit,16
+a hero,16
+a heroine,16
+a hockey player,16
+a hunter,16
+an impostor,16
+an inventor,16
+an investor,16
+a jailer,16
+a jock,16
+a king,16
+a knight,16
+a laborer,16
+a lawman,16
+a leader,16
+a librarian,16
+a life support technician,16
+a linguist,16
+a linquistics expert,16
+a magician,16
+a manager,16
+a marine,16
+a martial artist,16
+a media personality,16
+a medical officer,16
+a medical technician,16
+a mentor,16
+a mercenary,16
+a merchant,16
+a midwife,16
+a miner,16
+a mobster,16
+a monk,16
+a murderer,16
+a musician,16
+a mutant,16
+a nanotechnologist,16
+a necromancer,16
+a noble,16
+a novelist,16
+a nun,16
+a nurse,16
+an occultist,16
+an official,16
+an operations manager,16
+an outlaw,16
+a paladin,16
+a peasant,16
+a pedlar,16
+a pharmacist,16
+a philanthropist,16
+a philosopher,16
+a physicist,16
+a planetary explorer,16
+a planetologist,16
+a poet,16
+a police chief,16
+a policeman,16
+a politician,16
+a politician,16
+a pretender,16
+a priest,16
+a priestess,16
+a prince,16
+a princess,16
+a professor,16
+a prophet,16
+a prospector,16
+a prostitute,16
+a psychiatrist,16
+a psychologist,16
+a quartermaster,16
+a queen,16
+a rabble-rouser,16
+a ranger,16
+a rascal,16
+a rat-catcher,16
+a repairman,16
+a reporter,16
+a robot,16
+a rock star,16
+a rogue,16
+a sailor,16
+a salesperson,16
+a scientist,16
+a scribe,16
+a secret agent,16
+a secretary,16
+a security agent,16
+a security officer,16
+a seer,16
+a servant,16
+a shaman,16
+a shuttlecraft pilot,16
+a singer,16
+a smuggler,16
+a soldier,16
+a space fighter,16
+a space hitchiker,16
+a space pirate,16
+a spy,16
+a starship captain,16
+a starship engineer,16
+a starship navigator,16
+a starship pilot,16
+a starship salesperson,16
+a stellar cartographer,16
+a stockbroker,16
+a student,16
+a super computer,16
+a tactical officer,16
+a teacher,16
+a technician,16
+a terraformer,16
+a theologian,16
+a thief,16
+a time traveler,16
+a tomb-robber,16
+a trader,16
+a traitor,16
+a traveler,16
+a treasure-hunter,16
+a veterinarian,16
+a virtual reality engineer,16
+a virtual reality programmer,16
+a wanderer,16
+a watchman,16
+a weapons master,16
+a weapons officer,16
+a witch-hunter,16
+a wizard,16
+a zookeeper,16
+a zoologist,16
+//Being Plural
+
+accountants,32
+acrobats,32
+actors,32
+adventurers,32
+advertising executives,32
+AI computers,32
+airline pilots,32
+alchemists,32
+aliens,32
+ambassadors,32
+ancient entites,32
+androids,32
+arch-druids,32
+archers,32
+architects,32
+archivists,32
+arch-mages,32
+artificial life forms,32
+assassins,32
+assistants,32
+astrologers,32
+astronauts,32
+astronomers,32
+bandits,32
+barbarians,32
+bards,32
+bartenders,32
+baseball players,32
+beggars,32
+biologists,32
+blacksmiths,32
+boatmen,32
+bodyguards,32
+botanists,32
+bounty hunters,32
+bowmen,32
+businesspersons,32
+cab drivers,32
+cartographers,32
+CEOs,32
+champions,32
+chemical engineers,32
+chemists,32
+chief engineers,32
+circuit priests,32
+circuit priestesses,32
+clerics,32
+clerks,32
+clones,32
+coachmem,32
+colonists,32
+comics,32
+communications officers,32
+communications technicians,32
+computer programmers,32
+computer technicians,32
+conjurers,32
+construction workers,32
+corporate officials,32
+cyberneticists,32
+cyberpunks,32
+cyborgs,32
+dancers,32
+daycare employees,32
+demonologists,32
+detectives,32
+doctors,32
+druids,32
+dukes,32
+dungeon delvers,32
+dutchesss,32
+dwarves,32
+elementalists,32
+elves,32
+engineers,32
+exorcists,32
+explorers,32
+farmers,32
+fences,32
+fighter pilots,32
+fire fighters,32
+first contact specialists,32
+first officers,32
+fishermen,32
+football players,32
+fortune-tellers,32
+freaks,32
+gamblers,32
+garbagemen,32
+gigolos,32
+gladiators,32
+grave robbers,32
+guitarists,32
+hackers,32
+halflings,32
+healers,32
+heirs,32
+herbologists,32
+hermits,32
+heros,32
+heroines,32
+hockey players,32
+hunters,32
+impostors,32
+inventors,32
+investors,32
+jailers,32
+jocks,32
+kings,32
+knights,32
+laborers,32
+lawmen,32
+leaders,32
+librarians,32
+life support technicians,32
+linguists,32
+linquistics experts,32
+magicians,32
+managers,32
+marines,32
+martial artists,32
+media personalitys,32
+medical officers,32
+medical technicians,32
+mentors,32
+mercenarys,32
+merchants,32
+midwifes,32
+miners,32
+mobsters,32
+monks,32
+murderers,32
+musicians,32
+mutants,32
+nanotechnologists,32
+necromancers,32
+nobles,32
+novelists,32
+nuns,32
+nurses,32
+occultists,32
+officials,32
+operations managers,32
+outlaws,32
+paladins,32
+peasants,32
+pedlars,32
+pharmacists,32
+philanthropists,32
+philosophers,32
+physicists,32
+planetary explorers,32
+planetologists,32
+poets,32
+police chiefs,32
+policemen,32
+politicians,32
+pretenders,32
+priests,32
+priestesses,32
+princes,32
+princesses,32
+professors,32
+prophets,32
+prospectors,32
+prostitutes,32
+psychiatrists,32
+psychologists,32
+quartermasters,32
+queens,32
+rabble-rousers,32
+rangers,32
+rascals,32
+rat-catchers,32
+repairmen,32
+reporters,32
+robots,32
+rock stars,32
+rogues,32
+sailors,32
+salespersons,32
+scientists,32
+scribes,32
+secret agents,32
+secretarys,32
+security agents,32
+security officers,32
+seers,32
+servants,32
+shamans,32
+shuttlecraft pilots,32
+singers,32
+smugglers,32
+soldiers,32
+space fighters,32
+space hitchikers,32
+space pirates,32
+spies,32
+starship captains,32
+starship engineers,32
+starship navigators,32
+starship pilots,32
+starship salespersons,32
+stellar cartographers,32
+stockbrokers,32
+students,32
+super computers,32
+tactical officers,32
+teachers,32
+technicians,32
+terraformers,32
+theologians,32
+thieves,32
+time travelers,32
+tomb-robbers,32
+traders,32
+traitors,32
+travelers,32
+treasure-hunters,32
+veterinarians,32
+virtual reality engineers,32
+virtual reality programmers,32
+wanderers,32
+watchmen,32
+weapons masters,32
+weapons officers,32
+witch-hunters,32
+wizards,32
+zookeepers,32
+zoologists,32

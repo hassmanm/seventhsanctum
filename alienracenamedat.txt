@@ -1,0 +1,1053 @@
+//Vocab types:
+//1 Prefix
+//2 Descriptor
+//4 Spec Descriptor
+//8 Object
+//16 Spec Object
+//32 Actor
+//64 Interactor
+//128 Common Actor
+//256 Common Actor Mod
+//512 Suffix
+//1024 Location
+//2048 Com Location
+//4096 Spec Location
+//8192 Numerator
+--ORGANIZATION
+//Some of these will ONLY be locational
+1,32
+,,
+1,64
+,,
+1,128
+,,
+1,512
+,,
+2,128
+, ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+8,32
+, ,
+8,64
+, ,
+8,128
+, ,
+8,512
+,,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16,512
+,,
+256,32
+, ,
+256,64
+, ,
+256,128
+,-,
+//Dupes (x3)
+1,32
+,,
+1,64
+,,
+1,128
+,,
+1,512
+,,
+2,128
+, ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+8,32
+, ,
+8,64
+, ,
+8,128
+, ,
+8,512
+,,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16,512
+,,
+256,32
+, ,
+256,64
+, ,
+256,128
+,-,
+1,32
+,,
+1,64
+,,
+1,128
+,,
+1,512
+,,
+2,128
+, ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+8,32
+, ,
+8,64
+, ,
+8,128
+, ,
+8,512
+,,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16,512
+,,
+256,32
+, ,
+256,64
+, ,
+256,128
+,-,
+1,32
+,,
+1,64
+,,
+1,128
+,,
+1,512
+,,
+2,128
+, ,
+4,32
+, ,
+4,64
+, ,
+4,128
+, ,
+8,32
+, ,
+8,64
+, ,
+8,128
+, ,
+8,512
+,,
+16,32
+, ,
+16,64
+, ,
+16,128
+, ,
+16,512
+,,
+256,32
+, ,
+256,64
+, ,
+256,128
+,-,
+//Locations
+1,32,1024
+,, of ,
+1,32,2,2048
+,, of the , ,
+1,32,4096
+,, of ,
+1,32,4096,8192
+,, of , ,
+1,64,1024
+,, of ,
+1,64,2,2048
+,, of the , ,
+1,64,4096
+,, of ,
+1,64,4096,8192
+,, of , ,
+1,128,1024
+,, of ,
+1,128,2,2048
+,, of the , ,
+1,128,4096
+,, of ,
+1,128,4096,8192
+,, of , ,
+1,512,1024
+,, of ,
+1,512,2,2048
+,, of the , ,
+1,512,4096
+,, of ,
+1,512,4096,8192
+,, of , ,
+2,64,1024
+, , of ,
+2,64,2,2048
+, , of the , ,
+2,64,4096
+, , of ,
+2,64,4096,8192
+, , of , ,
+2,128,1024
+, , of ,
+2,128,2,2048
+, , of the , ,
+2,128,4096
+, , of ,
+2,128,4096,8192
+, , of , ,
+4,32,1024
+, , of ,
+4,32,2,2048
+, , of the , ,
+4,32,4096
+, , of ,
+4,32,4096,8192
+, , of , ,
+4,128,1024
+, , of ,
+4,128,2,2048
+, , of the , ,
+4,128,4096
+, , of ,
+4,128,4096,8192
+, , of , ,
+8,64,1024
+, , of ,
+8,64,2,2048
+, , of the , ,
+8,64,4096
+, , of ,
+8,64,4096,8192
+, , of , ,
+8,128,1024
+, , of ,
+8,128,2,2048
+, , of the , ,
+8,128,4096
+, , of ,
+8,128,4096,8192
+, , of , ,
+8,512,1024
+,, of ,
+8,512,2,2048
+,, of the , ,
+8,512,4096
+,, of ,
+8,512,4096,8192
+,, of , ,
+16,32,1024
+, , of ,
+16,32,2,2048
+, , of the , ,
+16,32,4096
+, , of ,
+16,32,4096,8192
+, , of , ,
+16,64,1024
+, , of ,
+16,64,2,2048
+, , of the , ,
+16,64,4096
+, , of ,
+16,64,4096,8192
+, , of , ,
+16,128,1024
+, , of ,
+16,128,2,2048
+, , of the , ,
+16,128,4096
+, , of ,
+16,128,4096,8192
+, , of , ,
+16,512,1024
+,, of ,
+16,512,2,2048
+,, of the , ,
+16,512,4096
+,, of ,
+16,512,4096,8192
+,, of , ,
+256,32,1024
+, , of ,
+256,32,2,2048
+, , of the , ,
+256,32,4096
+, , of ,
+256,32,4096,8192
+, , of , ,
+256,128,1024
+,-, of ,
+256,128,2,2048
+,-, of the , ,
+256,128,4096
+,-, of ,
+256,128,4096,8192
+,-, of , ,
+--VOCABULARY
+//1 Prefix
+//2 Descriptor
+//4 Spec Descriptor
+//8 Object
+//16 Spec Object
+//32 Actor
+//64 Interactor
+//128 Common Actor
+//256 Common Actor Mod
+//512 Suffix
+//1024 Location
+//2048 Com Location
+//4096 Spec Location
+//8192 Numerator
+//Prefixes
+Aero,1
+Anti,1
+Aqua,1
+Astro,1
+Auto,1
+Bio,1
+Biono,1
+Crono,1
+Cryo,1
+Cyber,1
+Dyna,1
+Electro,1
+Evo,1
+Giga,1
+Gyro,1
+Helio,1
+Hyper,1
+Macro,1
+Magno,1
+Mecha,1
+Mega,1
+Micro,1
+Multi,1
+Nano,1
+Necro,1
+Neo,1
+Non,1
+Nucleo,1
+Omni,1
+Para,1
+Proto,1
+Pseudo,1
+Psycho,1
+Pyro,1
+Quasi,1
+Robo,1
+Schizo,1
+Terra,1
+Trans,1
+Ultra,1
+Un,1
+Were,1
+Xeno,1
+//Others
+Acid,2
+Aerial,2
+Altered,6
+Ancient,2
+Angel,256
+Angels,128
+Annihilators,32
+Ant,256
+Antimatter,20
+Ants,128
+Ape,256
+Apes,128
+Aquatic,2
+Area,16
+Armor,8
+Armored,2
+Artifical,6
+Assasins,64
+Asteroid,2064
+Astral,6
+Astral,6
+Astrologers,64
+Attackers,32
+Aura,8
+Bandits,32
+Bane,2
+Banshee,256
+Banshees,128
+Barbarians,32
+Bashers,32
+Basilisk,256
+Basilisks,128
+Bat,256
+Bats,128
+Battle,8
+Battlers,64
+Bear,256
+Bears,128
+Beast,258
+Beastial,2
+Beastly,2
+Beasts,128
+Mantises,128
+Mantis,256
+Beetle,256
+Beetles,128
+Behemoths,128
+Monsters,128
+Beholders,64
+Belt,16
+Berserkers,32
+Binders,64
+Bird,256
+Birds,128
+Black,2
+Blade,8
+Blasters,64
+Blaze,8
+Blessed,2
+Blind,2
+Blood,8
+Bloom,8
+Blue,8
+Bolt,8
+Bone,8
+Brain,8
+Breeders,64
+Brood,32
+Brutes,32
+Bugs,128
+Bug,256
+Burners,64
+Butterflies,128
+Butterfly,256
+Carnivorous,2
+Carrion,2
+Carvers,64
+Casters,64
+Cat,256
+Cats,128
+Cave,2
+Celestial,4
+Centaur,256
+Centaurs,128
+Cerebral,2
+Neural,6
+Chameleon,258
+Chameleons,128
+Changers,64
+Chaos,10
+Charnel,2
+Chillers,64
+Chimera,256
+Chimeras,128
+Chitinous,2
+Chromatic,2
+Rainbow,10
+Clockwork,4
+Cloud,8
+Cloud,24
+Cluster,24
+Cobras,128
+Cobra,256
+Coffin,8
+Cold,10
+Collapsar,16
+Comet,2064
+Conquerors,64
+Controller,96
+Copper,10
+Corona,16
+Coronal,4
+Cosmic,4
+Crabs,128
+Crab,256
+Creators,64
+Creepers,64
+Crimson,2
+Crypt,8
+Crystal,10
+Cursed,2
+Custodians,64
+Cyclops,384
+Dancers,32
+Dark,10
+Darkened,2
+Dead,2
+Deadly,2
+Death,8
+Demon,256
+Demons,128
+Desecrators,64
+Desert,8
+Destroyers,64
+Devil,256
+Devils,128
+Devourers,64
+Diamond,10
+Dimensional,4
+Dire,2
+Dirge,8
+Disk,24
+Diviners,32
+Djinn,384
+Dog,128
+Dogs,256
+Dolphin,256
+Dolphins,128
+Dominators,64
+Doom,8
+Dopplegangers,128
+Dragon,256
+Dragons,128
+Drainers,64
+Drakes,128
+Dreak,256
+Dream,8
+Dreamers,64
+Dreaming,2
+Dryads,128
+Dryad,256
+Dune,8
+Dusk,8
+Dust,8
+Dwellers,64
+Earth,8
+Eaters,64
+Eclipse,16
+Eels,128
+Eel,256
+Elder,2
+Electric,6
+Elemental,6
+Emerald,10
+Empyrean,2
+Energy,8
+Entities,64
+Eternal,2
+Ethereal,2
+Executioners,96
+Fallen,2
+Fear,2
+Field,2048
+Fiends,64
+Fighters,96
+Fire,8
+Firey,2
+Fish,384
+Flare,8
+Flash,8
+Flayers,64
+Flesh,10
+Flux,24
+Fog,8
+Foresters,32
+Forgotten,2
+Foul,2
+Fox,256
+Foxes,128
+Frigid,2
+Frilled,2
+Frost,8
+Fungus,10
+Fury,8
+Galactic,4
+Galaxy,2064
+Gar,128
+Gargantuan,2
+Gargoyle,128
+Gargoyles,128
+Gas,8
+Gear,8
+Ghasts,128
+Ghast,256
+Ghastly,2
+Ghost,258
+Ghost,258
+Ghostly,2
+Ghosts,128
+Ghosts,128
+Ghouls,128
+Ghoul,256
+Gladiators,32
+Glass,10
+Gloom,8
+Glowing,2
+Goblin,256
+Goblins,128
+Golems,128
+Golem,264
+Robot,264
+Robots,128
+Gorgon,256
+Gorgons,128
+Gorillas,128
+Gorilla,256
+Grand,2
+Grave,10
+Gravitic,4
+Green,2
+Gremlins,128
+Grim,2
+Grubs,128
+Grub,256
+Gryphon,256
+Gryphons,128
+Guardians,64
+Hags,128
+Hag,2
+Harpies,128
+Harpy,256
+Hawk,256
+Hawks,128
+Healers,96
+Hell,8
+Herders,32
+Heretics,32
+Hidden,2
+Holy,2
+Hooded,2
+Hornets,128
+Hornet,256
+Horrors,128
+Horse,256
+Horses,128
+Hounds,128
+Hounds,256
+Howlers,64
+Hunters,96
+Ice,8
+Icy,2
+Illuminated,2
+Illusion,8
+Illusionary,2
+Illusionists,32
+Imps,128
+Indigo,2
+Infernal,2
+Interdimensional,4
+Intergalactic,4
+Interplanetary,4
+Interspatial,4
+Invisible,2
+Iron,10
+Jackal,256
+Jackals,128
+Jaguars,128
+Jaguar,256
+Jesters,32
+Jungle,8
+Keepers,64
+Killers,96
+Kings,32
+Knights,32
+Kraken,384
+Ladies,32
+Lake,8
+Lamias,128
+Lamia,256
+Lampreys,128
+Lamprey,256
+Larva,136
+Lava,8
+Leech,128
+Leeches,256
+Legendary,2
+Liches,128
+Lich,258
+Light,10
+Lightning,8
+Lions,128
+Lion,256
+Liquid,10
+Lizard,256
+Lizards,128
+Lords,32
+Lost,2
+Luminous,2
+Lunar,4
+Lurkers,64
+Lurking,2
+Mad,2
+Madness,8
+Maelstrom,24
+Mages,32
+Magicians,32
+Magnetic,4
+Mammoth,258
+Mammoths,128
+Manipulators,64
+Masked,2
+Mass,8
+Masters,96
+Mastodons,128
+Mastodon,256
+Matrix,24
+Matter,8
+Mechanical,2
+Medusae,128
+Mesdusa,256
+Memory,8
+Men,32
+Mental,2
+Metal,10
+Metallic,2
+Meteor,16
+Mind,8
+Miners,32
+Minotaur,256
+Minotaurs,128
+Mirage,8
+Mirror,8
+Mist,8
+Mongrel,2
+Monks,32
+Monsters,128
+Monster,2
+Moon,2064
+Murk,8
+Mysterious,2
+Mystery,8
+Mystic,2
+Nebula,2064
+Necrotic,2
+Nexus,16
+Night,8
+Node,16
+Nova,16
+Nuclear,4
+Oblivion,8
+Ocean,8
+Ogre,256
+Ogres,128
+Omen,8
+Onyx,10
+Ophidian,256
+Ophidians,128
+Oracles,64
+Orbit,16
+Orbiting,4
+Outlaws,32
+Parasite,2
+Phantom,130
+Phantoms,128
+Phased,6
+Phoenix,256
+Phoenixes,128
+Pirates,32
+Plague,8
+Planar,2
+Planet,2064
+Planetary,4
+Platinum,10
+Poison,10
+Poisonous,2
+Polar,2
+Posessors,64
+Power,8
+Primal,2
+Primordial,2
+Prismatic,2
+Prohpets,32
+Psionic,2
+Pulsar,16
+Purple,2
+Quake,8
+Quantum,4
+Quasar,16
+Radiant,2
+Radiation,16
+Radioactive,4
+Raiders,32
+Rainbow,10
+Rat,256
+Rats,128
+Ravens,128
+Raven,256
+Ray,16
+Red,2
+Regulators,64
+Resurrected,2
+Revenants,128
+Revenant,258
+Riders,64
+Rift,16
+Rippers,64
+River,8
+Rock,10
+Rogue,2
+Ruby,10
+Rulers,96
+Sages,32
+Sand,8
+Sapphire,10
+Satyr,256
+Satyrs,128
+Savage,2
+Scarab,256
+Scarabs,256
+Scavengers,64
+Scions,32
+Scorpion,256
+Scorpions,128
+Sea,8
+Searchers,64
+Secret,2
+Seekers,64
+Seers,32
+Sentinels,32
+Serpent,256
+Serpents,128
+Shadow,8
+Shark,256
+Sharks,128
+Shroud,8
+Silence,8
+Silent,2
+Singers,64
+Sirens,160
+Skin,8
+Skunk,256
+Skunks,128
+Sky,8
+Slayers,64
+Smiths,32
+Snake,256
+Snakes,128
+Solar,4
+Sonic,2
+Soul,8
+Space,2068
+Spark,8
+Spatial,4
+Spawn,96
+Spectral,2
+Spectral,2
+Spectre,256
+Spectres,128
+Speed,8
+Sphinx,256
+Sphinxes,128
+Spiders,128
+Spider,256
+Spiral,24
+Spirit,258
+Spirits,128
+Spore,8
+Squids,128
+Squid,256
+Stalkers,64
+Star,2064
+Steel,10
+Stellar,4
+Stone,10
+Storm,8
+Subspace,20
+Subterranian,2
+Succubi,128
+Succubus,256
+Summoners,32
+Sun,2064
+Swamp,8
+Swarm,136
+Symbiotic,2
+System,2064
+System,24
+Takers,64
+Technology,16
+Tempest,8
+Temporal,6
+Theives,32
+Thermal,6
+Thorn,8
+Thunder,8
+Tigers,128
+Tiger,256
+Time,24
+Titans,128
+Titan,258
+Toads,128
+Toad,256
+Tomb,8
+Torturers,96
+Toxic,2
+Traders,96
+Transdimensional,4
+Trappers,64
+Tree,8
+Tritons,128
+Trolls,256
+Turtles,128
+Turtle,256
+Undying,2
+Universal,2
+Vampire,258
+Vampires,128
+Venom,8
+Venomous,2
+Violet,8
+Volcano,8
+Vortex,24
+Vortex,8
+Vulture,256
+Vultures,128
+Wandering,2
+War,8
+Warlocks,32
+Warp,16
+Warpers,64
+Molders,64
+Warriors,32
+Wasps,128
+Wasp,256
+Watchers,64
+Water,8
+Wave,8
+Weasels,128
+Weasel,256
+Web,8
+Weed,8
+Whale,256
+Whales,128
+White,2
+Wights,128
+Wight,256
+Wild,2
+Wind,8
+Wisps,128
+Witches,32
+Wolf,256
+Wolves,128
+Women,32
+Wood,10
+Worms,128
+Worm,256
+Wormhole,16
+Wraiths,128
+Wraith,256
+Wyverns,128
+Wyvern,256
+Yellow,2
+Yeti, 384
+Zombies,128
+Zombie,258
+//Suffixes
+logers,512
+vores,512
+mancers,512
+tors,512
+bots,512
+kin,512
+droids,512
+saurs,512
+//spec locations
+the Pit,1024
+the Warp,1024
+the Mirror Universe,1024
+Counter-Earth,1024
+Vulcan,1024
+the Black Hole,1024
+the Asteroid Belt,1024
+the Vortex,1024
+the Sun,1024
+the Moon,1024
+Mercury,1024
+Venus,1024
+Mars,1024
+Jupiter,1024
+Saturn,1024
+Uranus,1024
+Neptune,1024
+Pluto,1024
+Planet X,1024
+Time,1032
+//Locations, definable.
+Zone,2064
+Sphere,2064
+//stars/places
+Acamar,4096
+Achernar,4096
+Alphacca,4096
+Alpha Bootis,4096
+Alpha Centauri,4096
+Altair,4096
+Alcyone,4096
+Aldebaran,4096
+Antares,4096
+Alpha Eridani,4096
+Arcturus,4096
+Alpha Crucis,4096
+Alpha Cyngi,4096
+Antares,4096
+Algol,4096
+Alpha Pegasi,4096
+Bellatrix,4096
+Betelgeuse,4096
+Beta Orionis,4096
+Canopus,4096
+Denebola,4096
+Capella,4096
+Castor,4096
+Delta Scorpii,4096
+Deneb,4096
+Elgebar,4096
+Fomalhaut,4096
+Gallina,4096
+Hadar,4096
+Kableced,4096
+Kochab,4096
+Mimosa,4096
+Markab,4096
+Mira,4096
+Mizar,4096
+Polaris,4096
+Pollux,4096
+Procyon,4096
+Regulus,4096
+Rigel,4096
+Sirius,4096
+Spica,4096
+Vega,4096
+//numerators
+Alpha,8192
+Beta,8192
+Gamma,8192
+Delta,8192
+Epsilon,8192
+Zeta,8192
+Eta,8192
+Theta,8192
+Iota,8192
+Kappa,8192
+Lambda,8192
+Mu,8192
+One,8192
+Two,8192
+Three,8192
+Four,8192
+Five,8192
+Six,8192
+Seven,8192
+Eight,8192
+Nine,8192
+Ten,8192
+Eleven,8192
+Twelve,8192

@@ -1,0 +1,78 @@
+BKEXSEED
+	Examining the book, one will find: <BKEXALTERATIONS>
+	Examining the book, one will find: <BKEXINCLUSIONS>
+	Examining the book, one will find: <BKEXALTERATIONS> <BKEXINCLUSIONS>
+//
+BKEXALTERATIONS
+	<BKEXALTERATIONSUSE>
+	<BKEXALTERATIONSNOUSE>
+BKEXALTERATIONSUSE
+	Folded-down pages <BKEXREFRELEVANCEPAGES>
+	Written notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>
+	Folded-down pages <BKEXREFRELEVANCEPAGES>.  Written notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+BKEXALTERATIONSNOUSE
+	A written dedication in the beginning <BKEXREFWRITTENROUTE2>.
+	Some personal notes<BKEXREFWRITTENROUTE> unrelated to the book, <BKEXREFPAGEWHERE>.
+	Some notes<BKEXREFWRITTENROUTE> <BKEXREFPAGEWHERE>, that have nothing whatsoever to do with the book's contents.
+BKEXINCLUSIONS
+	Bookmarks <BKEXREFRELEVANCEPAGES>.
+	Pieces of paper with notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+	<BKEXINCLUSIONSMORE>
+	Bookmarks <BKEXREFRELEVANCEPAGES>.  Pieces of paper with notes<BKEXREFWRITTENROUTE> <BKEXREFRELEVANCEINFO>.
+BKEXINCLUSIONSMORE
+	A map <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION>.
+	A list of <BKEXREFLISTFOCUS> <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION>.
+	Some document listing <BKEXREFLISTFOCUS> <BKEXREFWRITTENROUTE2> can be found <BKEXBOOKLOCATION><BKEXLISTRELEVANT>.
+//REFERENCES
+BKEXBOOKLOCATION
+	in the back of the book
+	secreted in the binding
+	in a hidden compartment
+	stuck halfphazardly into the book
+BKEXLISTRELEVANT
+	<*>
+	, and seem to be <BKEXREFRELATE> to the book's subject
+BKEXREFLISTFOCUS
+	allies
+	birthdays
+	dates
+	enemies
+	friends
+	locations
+	prices
+	scolars
+	supplies
+BKEXREFPAGEWHERE
+	concentrated in select sections of the book
+	on one page
+	on several concurrent pages
+	scattered throughout the book
+BKEXREFRELATE
+	partially-related
+	related
+	unrelated
+BKEXREFRELEVANCEINFO
+	commenting on informative information in the book
+	expanding on informative information in the book
+	commenting critically on related elements in the book
+	commenting critically on various parts of the book
+	that seem to have to have no single purpose
+	that comment on errors in the book
+BKEXREFRELEVANCEPAGES
+	marking informative information
+	marking pages with similar information
+	marking pages that seem to have no similar or related information
+	marking pages that seem to have some errors in them
+	that show no pattern in their location
+//WRITING QUALITY REFERENCES
+BKEXREFWRITTENROUTE
+	<*>
+	, <BKEXREFWRITTENQUALITY>,
+BKEXREFWRITTENROUTE2
+	<*>
+	<BKEXREFWRITTENQUALITY>
+BKEXREFWRITTENQUALITY
+	in an archaic tongue
+	in some kind of code
+	in a recognizable, but foreign language
+	in incoherent writing

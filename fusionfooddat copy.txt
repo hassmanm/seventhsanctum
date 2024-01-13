@@ -1,0 +1,203 @@
+//Vocab types:
+//1 Meta Modifier
+//2 Modifier/Ingredient
+//4 Food
+//8 Form
+//16 Saucable Form
+//32 Saucable
+//64 "onable"
+//128 Can "be on"
+--ORGANIZATION
+// basics
+1,2,4
+, , ,
+1,2,8
+, , ,
+1,2,4,8
+, , , ,
+1,4
+, ,
+1,4,8
+, , ,
+2,4,8
+, , ,
+2,4
+, ,
+2,8
+, ,
+4,8
+, ,
+// basics x2
+1,2,4
+, , ,
+1,2,8
+, , ,
+1,2,4,8
+, , , ,
+1,4
+, ,
+1,4,8
+, , ,
+2,4,8
+, , ,
+2,4
+, ,
+2,8
+, ,
+4,8
+, ,
+// ands
+2,2,4
+, and , ,
+2,2,8
+, and , ,
+//Ands x2
+2,2,4
+, and , ,
+2,2,8
+, and , ,
+//Amplified Ands
+2,1,2,4
+, and , , ,
+2,1,2,8
+, and , , ,
+1,2,2,4
+, , and , ,
+1,2,2,8
+, , and , ,
+1,2,1,2,4
+, , and , , ,
+1,2,1,2,8
+, , and , , ,
+--VOCABULARY
+Artichoke,6
+Bacon,6
+Baked,1
+Barbecue,1
+Battered,1
+Bean,2
+Beef,4
+Bento,8
+Biscuit,12
+Couscous,4
+Tabbouleh,4
+Bites,8
+Bowl,8
+Bread,12
+Breaded,1
+Burger,8
+Burrito,8
+Buttered,1
+Cabbage,2
+Cajun,1
+Candied,1
+Cheese,6
+Cheeseburger,4
+Cheesy,1
+Chicken,6
+Chili,6
+Chimichanga,4
+Chips,8
+Cool Ranch,1
+Corn,2
+Crab,6
+Cream,3
+Croquettes,8
+Curried,1
+Curry,8
+Daikon,2
+Deep-Fried,1
+Deviled,1
+Duck,4
+Dumplings,8
+Egg,4
+Eggplant,4
+Fajita,8
+Falafel,6
+Firey,1
+Fried,1
+Fries,8
+Garlic,3
+Gingered,1
+Grilled,1
+Gyro,8
+Ham,4
+Honey,2
+Honied,1
+Hummus,14
+Jerked,1
+Jerky,8
+Kimchi,6
+Lamb,4
+Lasagna,12
+Lemon,3
+Loaf,8
+Mango,2
+Maple,1
+Mint,3
+Miso,3
+Mushroom,2
+Mustard,1
+Nacho,3
+Nachos,8
+Noodles,8
+Nuggets,8
+Octopus
+Okonomiyaki
+Okra,2
+Omelette,8
+On Rice,8
+On-a-stick,8
+Onigiri,8
+Onion,6
+Orange,3
+Oyster,6
+Parmesan,2
+Pasta,8
+Pilaf,8
+Peanut,2
+Peppered,1
+Pepperoni,2
+Pesto,3
+Pickled,1
+Pickles,8
+Pizza,12
+Polenta,2
+Pork,6
+Potato,6
+Poutine,8
+Quesadilla,8
+Quinoa,6
+Ramen,8
+Rice Cakes,8
+Rice,8
+Rings,8
+Risotto,8
+Roe,2
+Roll,8
+Salad,8
+Salmon,2
+Sandwich,8
+Sausage,6
+Sesame,1
+Shrimp,6
+Soup,8
+Spicy,1
+Squid,4
+Steak,6
+Stew,8
+Stuffed,1
+Stuffed,1
+Sushi,8
+Taco,12
+Tempura,12
+Teriyaki,1
+Toast,12
+Toasted,1
+Tofu,4
+Tomato,4
+Tuna,2
+Vinegared,1
+Wasabi,1
+Wings,8
+Wrap,8

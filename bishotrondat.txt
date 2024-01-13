@@ -1,0 +1,1455 @@
+//Seeds
+SEED
+	<SEEDATTSTART>.  <SEEDEYES>.  <SEEDHAIR>.  <SEEDBODYTYPE>.<SEEDTRAITS>
+	<SEEDATTSTART>.  <SEEDBODYTYPE>.  <SEEDHAIR>.  <SEEDEYES>.<SEEDTRAITS>
+	<SEEDEYESSTART>.  <SEEDHAIR>.  <SEEDBODYTYPE>.  <SEEDATTEND>.<SEEDTRAITS>
+	<SEEDEYESATTSTART>.  <SEEDHAIR>.  <SEEDBODYTYPE>.
+//SEED RELAYS - ATTITUDE
+//START ATTITUDE
+SEEDATTSTART
+	<SEEDATTCOMPSTART>
+	<SEEDATTGENERALSTART>
+	<SEEDATTTERMSTART>
+SEEDATTGENERALSTART
+	<*ROUTEATTGENERAL><REFSTART> has <REFAURAAIRPRIME> of <REFATTOBJ> about him
+	<*ROUTEATTGENERAL><REFSTART> has <REFATTCONNECT> <REFATTDESC> <REFAURAAIR> about him
+SEEDATTCOMPSTART
+	<REFSTART> gives you the impression of <ROUTEATTCOMPARE>
+	<REFSTART> reminds you of <ROUTEATTCOMPARE>
+	You can't help but compare this gentleman to <ROUTEATTCOMPARE>
+SEEDATTTERMSTART
+	The term "<REFATTTERM>" comes to mind when you first see this man
+	In trying to describe this man, "<REFATTTERM>" is the best term you can think of
+//END ATTITUDES
+SEEDATTEND
+	<SEEDATTCOMPEND>
+	<SEEDATTGENERALEND>
+SEEDATTGENERALEND
+	<*ROUTEATTGENERAL>You find he has <REFAURAAIRPRIME> of <REFATTOBJ> about him
+	<*ROUTEATTGENERAL>To you, he has <REFATTCONNECT> <REFATTDESC> <REFAURAAIR> about him
+	<*ROUTEATTGENERAL>An <REFAURAAIR> of <REFATTOBJ> <REFAURAAIRROUTE> him
+SEEDATTCOMPEND
+	His mannerisms give you an impression of <ROUTEATTCOMPARE>
+	You can't help but compare him to <ROUTEATTCOMPARE>
+	You find it all to easy to compare him to <ROUTEATTCOMPARE>
+//EYES
+SEEDEYES
+	<REFENDPOS> <REFEYEFORM> eyes are <RELAYCOLOREYE><REFFANCYCOLOR>
+	<REFENDPOS> <REFEYEFORM> eyes are <REFCOLORSHOW> <RELAYCOLOREYE><REFCOLORTHING>
+	<REFENDPOS> <REFEYEFORM> eyes are <RELAYCOLOREYE><REFFANCYCOLOR> and <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+SEEDEYESSTART
+	<REFSTART> has <REFEYEFORM> <RELAYCOLOREYE><REFFANCYCOLOR> eyes
+	<REFSTART> has <REFEYEFORM> eyes that are <REFCOLORSHOW> <RELAYCOLOREYE><REFCOLORTHING>
+	<REFSTART> has <REFEYEFORM>, <RELAYCOLOREYE><REFFANCYCOLOR> eyes that <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+//EYES - attitude
+SEEDEYESATTSTART
+	<SEEDEYESATTSTARTBASE>
+	<SEEDEYESATTSTARTMETA>
+SEEDEYESATTSTARTBASE
+	<*ROUTEATTGENERAL><REFSTART> has <REFATTDESC> <RELAYCOLOREYE><REFFANCYCOLOR> eyes
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC> eyes are <RELAYCOLOREYE><REFFANCYCOLOR>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC> eyes are <REFCOLORSHOW> <RELAYCOLOREYE><REFCOLORTHING>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC>, <REFEYEFORM> eyes are <RELAYCOLOREYE><REFFANCYCOLOR>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC>, <REFEYEFORM> eyes are <REFCOLORSHOW> <RELAYCOLOREYE><REFCOLORTHING>
+	<*ROUTEATTGENERAL><REFSTART> has <REFATTDESC>, <RELAYCOLOREYE><REFFANCYCOLOR> eyes that <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC> eyes are <RELAYCOLOREYE><REFFANCYCOLOR> and <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC>, <REFEYEFORM> eyes are <RELAYCOLOREYE><REFFANCYCOLOR> and <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+	<*ROUTEATTGENERAL><REFSTART>'s <REFATTDESC>, <REFEYEFORM> eyes are <REFCOLORSHOW> <RELAYCOLOREYE><REFCOLORTHING>, and they <REFEYEEXTRAFORM> <REFEYEEXTRADESC>
+SEEDEYESATTSTARTMETA
+	<REFSTART>'s <RELAYCOLOREYE><REFFANCYCOLOR> eyes are those of <ROUTEATTCOMPARELIVING>
+//HAIR
+SEEDHAIR
+	<SEEDHAIRMETA>
+	<SEEDHAIRNOFORM>
+	<SEEDHAIRENHANCE>
+SEEDHAIRNOFORM
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRFORM>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRFORM>, <REFHAIRTYPE> hair <REFCOLORSHOW> <RELAYCOLOR><REFCOLORTHING>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE> hair <REFCOLORSHOW> <RELAYCOLOR><REFCOLORTHING>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <RELAYCOLOR><REFFANCYCOLOR> hair
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH> hair <REFCOLORSHOW> <RELAYCOLOR><REFCOLORTHING>
+SEEDHAIRENHANCE
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFHAIRENHANCE>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFHAIRENHANCE>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFHAIRENHANCE>
+SEEDHAIRMETA
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFSTYLETYPE> <REFHAIRMETA>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <REFHAIRTYPE>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFSTYLETYPE> <REFHAIRMETA>
+	He has <RELAYHAIRLENGTH><REFHAIRLENGTH>, <RELAYCOLOR><REFFANCYCOLOR> hair <REFSTYLETYPE> <REFHAIRMETA>
+//Body
+SEEDBODYTYPE
+	His build is <REFCLASS> <REFBODYTYPE>
+	His body is <REFCLASS> <REFBODYTYPE>
+	His form is <REFCLASS> <REFBODYTYPE>
+	His physical form is <REFCLASS> <REFBODYTYPE>
+	His physique is <REFCLASS> <REFBODYTYPE>
+//GENERALS
+REFSTART
+	This man
+	This gentleman
+REFEND
+	He
+REFENDPOS
+	His
+REFATTLINK
+	body language gives
+	mannerisms give
+REFAURAAIR
+	aura
+	air
+REFAURAAIRROUTE
+	surrounds
+	radiates from
+	eminates from
+REFAURAAIRPRIME
+	an aura
+	an air
+REFLOWNUM
+	two
+	three
+	four
+REFARTTYPE
+	artistically
+	elegantly
+	fetchingly
+REFSTYLETYPE
+	that is styled in a way reminicent of
+	which has a form that reminds you of
+	which is in a style that reminds you of
+REFCLASS
+	rather
+	very
+	noteably
+REFCOLORSHOW
+	the color of 
+	the exact color of
+//COLORS
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+RELAYCOLOREYE
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+		REFCOLORTHING,true
+			autum leaves
+			fresh blood
+			red bricks
+			ripe cherries
+			dying embers
+			fresh roses
+			rust
+			valuable rubies
+		RELAYCOLOR,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+		REFCOLORTHING,true
+			burning flames
+			ripe apricots
+			fresh peaches
+			ripe tangerines
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+		REFCOLORTHING,true
+			polished amber
+			fine gold
+			ripe lemons
+			desert sand
+			the sun
+			yellowed ivory
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEBLACK>
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple green
+			aquamarine
+			beyrl green
+			jade-colored
+			moss green
+			olive green
+			pine green
+			grass green
+		REFCOLORTHING,true
+			fresh green apples
+			beyrl
+			valuable emeralds
+			wild grass
+			fine jade
+			wild moss
+			pine needles
+			summer leaves
+		RELAYCOLOR,true
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky blue
+			sapphire
+			azure
+			cobalt blue
+			indigo
+			teal
+			turquoise
+		REFCOLORTHING,true
+			blue tropical waters
+			blueberries
+			sapphires
+			the afternoon sky
+			the evening sky
+			turquoises
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+		REFCOLORTHING,true
+			amethysts
+			ripe plums
+			blooming violets
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone white
+			ivory
+			alabaster
+			chalk white
+			milky white
+			cream-colored
+		REFCOLORTHING,true
+			alabaster
+			bleached bone
+			rich cream
+			fine china
+			ivory
+			milk
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+		REFCOLORTHING,true
+			charcoal
+			black coffee
+			obsidian
+			the midnight sky
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate gray
+			ash gray
+			silver
+			iron gray
+			smoke gray
+		REFCOLORTHING,true
+			an overcast sky
+			cold ashes
+			burnished iron
+			smoke
+			fine silver
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+		REFCOLORTHING,true
+			chestnuts
+			coffee with cream
+			dark chocolate
+			milk chocolate
+			varnished wood
+		RELAYCOLOR,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+REFBASECOLOR
+	BASECOLOR
+REFFANCYCOLOR
+	FANCYCOLOR
+REFCOLORTHING
+	COLORTHING
+//EYE - FORMS
+REFEYEFORM
+	almond-shaped
+	narrow
+	slanted
+	droopy
+	hooded
+	large
+	slitted
+	deep-set
+	round
+	wide
+//EYE - others
+REFEYEEXTRAFORM
+	gleam
+	glitter
+	glow
+	sparkle
+	twinkle
+REFEYEEXTRADESC
+	fascinatingly
+	hypnotically
+	interestingly
+	mysteriously
+	oddly
+	strangely
+//HAIR
+RELAYHAIRLENGTH
+	<REFHAIRSHORT>
+	<REFHAIRSHORT>
+	<REFHAIRNECK>
+	<REFHAIRNECK>
+	<REFHAIRNECK>
+	<REFHAIRSHOULDER>
+	<REFHAIRSHOULDER>
+	<REFHAIRSHOULDER>
+	<REFHAIRSHOULDER>
+	<REFHAIRLONG>
+	<REFHAIRLONG>
+	<REFHAIRLONG>
+	<REFHAIRWAIST>
+	<REFHAIRWAIST>
+	<REFHAIRANKLE>
+REFHAIRSHORT
+	<*>
+		REFHAIRLENGTH,true
+			short
+		REFHAIRMETA,true
+			a bird's wing
+			a burning fire
+			a complex device
+			a crown
+			a devil's horns
+			a dragon's scales
+			a flower's petals
+			a flowing stream
+			a helmet
+			a holy halo
+			a pair of horns
+			a pair of wings
+			a pile of leaves
+			a rocky outcropping
+			a rooster's crest
+			a seashell
+			a shark's fin
+			a strange headdress
+			a turtle's shell
+			an animal's ears
+			the petals of a flower
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILPLUS>
+			<REFHAIRBANGS>
+REFHAIRNECK
+	<*>
+		REFHAIRLENGTH,true
+			neck-length
+		REFHAIRMETA,true
+			a bale of hay
+			a bird's wing
+			a burning fire
+			a cascading waterfall
+			a cobra's hood
+			a comet's trail
+			a complex device
+			a dragon's scales
+			a drifting cloud
+			a dustball
+			a flame
+			a flower's petals
+			a flowing stream
+			a gush of water
+			a helmet
+			a holy halo
+			a horse's mane
+			a lionfish's spines
+			a lion's mane
+			a monk's cowl
+			a mysterious hood
+			a pair of wings
+			a peacock's tail
+			a pile of leaves
+			a plume of smoke
+			a porcupine's quills
+			a puffy dandelion
+			a rocky outcropping
+			a rooster's crest
+			a sea urchin
+			a seashell
+			a shark's fin
+			a strange headdress
+			a tangled bush
+			a trailing ribbon
+			a waterfall
+			a wave of water
+			an animal's ears
+			an elaborate sculpture
+			an overused mop
+			the aurora borealis
+			the petals of a flower
+			the rays of the sun
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSFORM>
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILFORM>
+			<REFHAIRPONYTAILPLUS>
+			<REFHAIRBANGS>
+			<REFHAIRFACE>
+REFHAIRSHOULDER
+	<*>
+		REFHAIRLENGTH,true
+			shoulder-length
+		REFHAIRMETA,true
+			a bale of hay
+			a bird's wing
+			a burning fire
+			a cascading waterfall
+			a cobra's hood
+			a comet's trail
+			a complex device
+			a dragon's scales
+			a drifting cloud
+			a dustball
+			a flame
+			a flower's petals
+			a flowing stream
+			a gush of water
+			a helmet
+			a holy halo
+			a horse's mane
+			a lionfish's spines
+			a lion's mane
+			a monk's cowl
+			a mysterious hood
+			a pair of wings
+			a peacock's tail
+			a pile of leaves
+			a plume of smoke
+			a porcupine's quills
+			a puffy dandelion
+			a rocky outcropping
+			a rooster's crest
+			a sea urchin
+			a seashell
+			a shark's fin
+			a strange headdress
+			a tangled bush
+			a trailing ribbon
+			a waterfall
+			a wave of water
+			an animal's ears
+			an elaborate sculpture
+			an overused mop
+			the aurora borealis
+			the petals of a flower
+			the rays of the sun
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSFORM>
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILFORM>
+			<REFHAIRPONYTAILPLUS>
+			<REFHAIRBANGS>
+			<REFHAIRFACE>
+			<REFHAIRSHOULDERS>
+REFHAIRLONG
+	<*>
+		REFHAIRLENGTH,true
+			long
+		REFHAIRMETA,true
+			a bird's wing
+			a cascading waterfall
+			a cobra's hood
+			a comet's trail
+			a complex device
+			a drifting cloud
+			a flower's petals
+			a flowing stream
+			a fluttering flag
+			a gush of water
+			a horse's mane
+			a lionfish's spines
+			a lion's mane
+			a monk's cowl
+			a mysterious hood
+			a pair of wings
+			a peacock's tail
+			a pennant blowing in the wind
+			a pile of leaves
+			a pile of shredded paper
+			a plume of smoke
+			a porcupine's quills
+			a sea urchin
+			a seashell
+			a strange headdress
+			a tangled bush
+			a trailing ribbon
+			a waterfall
+			an elaborate sculpture
+			an overused mop
+			the petals of a flower
+			the rays of the sun
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSFORM>
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILFORM>
+			<REFHAIRBANGS>
+			<REFHAIRFACE>
+			<REFHAIRSHOULDERS>
+REFHAIRWAIST
+	<*>
+		REFHAIRLENGTH,true
+			waist-length
+		REFHAIRMETA,true
+			a bird's wing
+			a cascading waterfall
+			a cobra's hood
+			a comet's trail
+			a complex device
+			a drifting cloud
+			a flower's petals
+			a flowing stream
+			a fluttering flag
+			a gush of water
+			a horse's mane
+			a lionfish's spines
+			a lion's mane
+			a monk's cowl
+			a mysterious hood
+			a pair of wings
+			a peacock's tail
+			a pennant blowing in the wind
+			a pile of leaves
+			a pile of shredded paper
+			a plume of smoke
+			a porcupine's quills
+			a sea urchin
+			a seashell
+			a strange headdress
+			a tangled bush
+			a trailing ribbon
+			a waterfall
+			an elaborate sculpture
+			an overused mop
+			the petals of a flower
+			the rays of the sun
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSFORM>
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILFORM>
+			<REFHAIRBANGS>
+			<REFHAIRFACE>
+			<REFHAIRSHOULDERS>
+REFHAIRANKLE
+	<*>
+		REFHAIRLENGTH,true
+			ankle length
+		REFHAIRMETA,true
+			a bird's wing
+			a cascading waterfall
+			a cobra's hood
+			a comet's trail
+			a complex device
+			a drifting cloud
+			a flower's petals
+			a flowing stream
+			a fluttering flag
+			a gush of water
+			a horse's mane
+			a lionfish's spines
+			a lion's mane
+			a monk's cowl
+			a mysterious hood
+			a pair of wings
+			a peacock's tail
+			a pennant blowing in the wind
+			a pile of leaves
+			a pile of shredded paper
+			a plume of smoke
+			a porcupine's quills
+			a sea urchin
+			a seashell
+			a strange headdress
+			a tangled bush
+			a trailing ribbon
+			a waterfall
+			an elaborate sculpture
+			an overused mop
+			the petals of a flower
+			the rays of the sun
+		REFHAIRENHANCE,true
+			<REFHAIRBRAIDSFORM>
+			<REFHAIRBRAIDSPLUS>
+			<REFHAIRPONYTAILFORM>
+			<REFHAIRBANGS>
+			<REFHAIRFACE>
+			<REFHAIRSHOULDERS>
+REFHAIRTYPE
+	curly
+	straight
+	straight
+	straight
+	wavy
+REFHAIRFORM
+	fine
+	luxurious
+	silky
+	thick
+	thin
+REFHAIRBRAIDSFORM
+	bound in a series of braids
+	mostly bound in a series of braids
+REFHAIRBRAIDSPLUS
+	with two braids framing his face
+	with one braid on the left side of his face
+	with one braid on the right side of his face
+REFHAIRPONYTAILFORM
+	bound in one large ponytail
+REFHAIRPONYTAILPLUS
+	with a ponytail
+REFHAIRBANGS
+	with prominent bangs
+	with bangs <REFARTTYPE> framing his eyes
+	with bangs <REFARTTYPE> framing his face
+	with prominent bangs on the right side of his face
+	with prominent bangs on the left side of his face
+	with <REFLOWNUM> prominent bangs
+REFHAIRFACE
+	which <REFARTTYPE> frames his face
+	which partially conceals his face
+	which partially conceals his eyes
+REFHAIRSHOULDERS
+	which flows <REFARTTYPE> over his shoulders
+	which lies on his shoulders <REFARTTYPE>
+REFHAIRENHANCE
+	REFHAIRENCHANCE
+REFHAIRLENGTH
+	REFHAIRLENGTH
+REFHAIRMETA
+	REFHAIRMETA
+//ATTITUDE - general
+ROUTEATTGENERAL
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			aloof
+		REFATTOBJ,true
+			aloofness
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			aristocratic
+		REFATTOBJ,true
+			aristocraticy
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			arrogant
+		REFATTOBJ,true
+			arrogance
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			brave
+		REFATTOBJ,true
+			bravery
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			calm
+		REFATTOBJ,true
+			calm
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			cheerful
+		REFATTOBJ,true
+			cheerfulness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			clever
+		REFATTOBJ,true
+			cleverness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			compassionate
+		REFATTOBJ,true
+			compassion
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			composed
+		REFATTOBJ,true
+			composure
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			confident
+		REFATTOBJ,true
+			confidence
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			confused
+		REFATTOBJ,true
+			confusion
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			contemplative
+		REFATTOBJ,true
+			contemplation
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			courageous
+		REFATTOBJ,true
+			courage
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			cruel
+		REFATTOBJ,true
+			cruelty
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			cunning
+		REFATTOBJ,true
+			cunning
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			curious
+		REFATTOBJ,true
+			curiousity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			dangerous
+		REFATTOBJ,true
+			dangerousness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			determined
+		REFATTOBJ,true
+			determination
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			dishonest
+		REFATTOBJ,true
+			dishonesty
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			energetic
+		REFATTOBJ,true
+			energy
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			enthusiastic
+		REFATTOBJ,true
+			enthusiasm
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			friendly
+		REFATTOBJ,true
+			friendliness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			frustrated
+		REFATTOBJ,true
+			frustration
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			generous
+		REFATTOBJ,true
+			generosity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			gentle
+		REFATTOBJ,true
+			gentleness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			hateful
+		REFATTOBJ,true
+			hate
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			humorous
+		REFATTOBJ,true
+			humor
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			innocent
+		REFATTOBJ,true
+			innocence
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			insane
+		REFATTOBJ,true
+			insanity
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			intelligent
+		REFATTOBJ,true
+			intelligence
+	<*>
+		REFATTCONNECT,true
+			an
+		REFATTDESC,true
+			intimidating
+		REFATTOBJ,true
+			intimidation
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			lazy
+		REFATTOBJ,true
+			laziness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			lonely
+		REFATTOBJ,true
+			loneliness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			menacing
+		REFATTOBJ,true
+			menace
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			mistrustful
+		REFATTOBJ,true
+			mistrust
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			murderous
+		REFATTOBJ,true
+			murderousness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			mysterious
+		REFATTOBJ,true
+			mystery
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			noble
+		REFATTOBJ,true
+			nobility
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			pained
+		REFATTOBJ,true
+			pain
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			peaceful
+		REFATTOBJ,true
+			peace
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			placid
+		REFATTOBJ,true
+			placidity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			playful
+		REFATTOBJ,true
+			playfulness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			proud
+		REFATTOBJ,true
+			pride
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			rage-filled
+		REFATTOBJ,true
+			rage
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			romantic
+		REFATTOBJ,true
+			romance
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			seductive
+		REFATTOBJ,true
+			seductiveness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			sensitive
+		REFATTOBJ,true
+			sensitivity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			sensual
+		REFATTOBJ,true
+			sensuality
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			serene
+		REFATTOBJ,true
+			serenity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			serious
+		REFATTOBJ,true
+			seriousness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			sneaky
+		REFATTOBJ,true
+			sneakiness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			solem
+		REFATTOBJ,true
+			solemnity
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			soulful
+		REFATTOBJ,true
+			soulfulness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			strong
+		REFATTOBJ,true
+			strength
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			studious
+		REFATTOBJ,true
+			studiousness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			tense
+		REFATTOBJ,true
+			tension
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			trusting
+		REFATTOBJ,true
+			trust
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			vicious
+		REFATTOBJ,true
+			viciousness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			violent
+		REFATTOBJ,true
+			violence
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			wild
+		REFATTOBJ,true
+			wildness
+	<*>
+		REFATTCONNECT,true
+			a
+		REFATTDESC,true
+			wise
+		REFATTOBJ,true
+			wisdom
+REFATTDESC
+	ATTEDESC
+REFATTCONNECT
+	ATTDESCCONNECT
+REFATTOBJ
+	ATTOBJ
+//ATTITUDES - Terms
+REFATTTERM
+	academic
+	alley cat
+	aristocrat
+	artful dodger
+	artist
+	attention-seeker
+	brawler
+	charlatan
+	clothes horse
+	clown
+	confidant
+	daredevil
+	eccentric
+	effeminine
+	gangster
+	guardian
+	healer
+	heartbreaker
+	hero
+	homebody
+	intellectual
+	jester
+	joker
+	killer
+	know-it-all
+	life of the party
+	lunatic
+	madcap
+	magnificent bastard
+	man-about-town
+	murderer
+	narcissist
+	overworked
+	pirate
+	playboy
+	prima donna
+	protector
+	rascal
+	rogue
+	ruler
+	scholar
+	scrapper
+	snake in the grass
+	soldier
+	thinker
+	tomcat
+	too serious
+	villain
+//ATTITUDES - Comparisons
+ROUTEATTCOMPARE
+	<REFFATTAQUATIC>
+	<REFATTARTIFICE>
+	<REFATTAVIAN>
+	<REFATTCANINE>
+	<REFATTFELINE>
+	<REFATTINSECTILE>
+	<REFATTMISCMAMMAL>
+	<REFATTNATURE>
+	<REFATTPEOPLE>
+	<REFATTREPTILE>
+	<REFATTSUPERNAT>
+ROUTEATTCOMPARELIVING
+	<REFFATTAQUATIC>
+	<REFATTAVIAN>
+	<REFATTCANINE>
+	<REFATTFELINE>
+	<REFATTMISCMAMMAL>
+	<REFATTPEOPLE>
+	<REFATTREPTILE>
+	<REFATTSUPERNAT>
+REFFATTAQUATIC
+	a playful dolphin
+	a menacing shark
+	a mysterious manta ray
+	a darting, exotic fish
+	a vicious barracuda
+REFATTARTIFICE
+	a precise mechanism
+	a perfect arrow
+	an elegant piece of art.
+	a clockwork mechanism
+	an unstoppable machine
+	a dangerous weapon
+	a tightly-coiled spring
+REFATTAVIAN
+	a joyous songbird
+	a waiting vulture
+	a wise owl
+	a fluttering hummingbird
+	a proud peacock
+	a noble eagle
+	a dignified swan
+	a mysterious raven
+	a dangerous bird of prey
+REFATTCANINE
+	a playful puppy
+	a lone wolf
+	a loyal dog
+	a prowling jackal
+	a clever fox
+	an unstoppable hunting dog
+REFATTFELINE
+	a proud lion
+	a hunting tiger
+	a playful kitten
+	a strutting tomcat
+	a curious cat
+	a prowling panther
+	a wary cheetah
+	a savvy alley cat
+REFATTINSECTILE
+	a dangerous spider
+	a flutering butterfly
+	a deadly scorpion
+	an elegant dragonfly
+	a moth hovering around a flame
+REFATTMISCMAMMAL
+	a wild animal
+	an enraged bear
+	a randy rabbit
+	a playful otter
+	an industrious beaver
+	a flighty gazelle
+	a curious squirrel
+	a menacing bat
+	a cautious chipmunk
+REFATTNATURE
+	a raging river
+	a sturdy tree
+	an immovable mountain
+	a placid lake
+	a deep ocean
+	a billowing sandstorm
+	a looming thundercloud
+	an unstoppable storm
+	a bolt of lightning
+	a menacing tornado
+	a shooting star
+REFATTPEOPLE
+	a dishonest salesman
+	a regal king
+	a brilliant inventor
+	a sensitive artist
+	a witty comedian
+	a crazed madman
+	a clever stage magician
+	a shameless gigolo
+	a thoughtful scholar
+REFATTREPTILE
+	a sneaky serpent
+	a cobra waiting to strike
+REFATTSUPERNAT
+	a mysterious sphinx
+	a regal dragon
+	a glorious phoenix
+	an elusive unicorn
+	a dangerous vampire
+	a malevolent demon
+	a benevolent angel
+	a randy incubus
+//Bodytypes
+REFBODYTYPE
+	angular
+	athletic
+	elegant
+	femminine
+	lean
+	muscular
+	sleek
+	slender
+	thin
+	willowy
+//Body extras
+SEEDTRAITS
+	<*>
+	  He has <ROUTETRAITS>.
+ROUTETRAITS
+	<ROUTETRAITSONE>
+	<ROUTETRAITSTWO>
+ROUTETRAITSONE
+	<REFFOREHEAD>
+	<REFNOSE>
+	<REFCHEEKBONES>
+	<REFEARS>
+	<REFEYES>
+	<REFMOUTH>
+	<REFCHIN>
+	<REFHANDS>
+ROUTETRAITSTWO
+	<REFFOREHEAD> and <REFNOSE>
+	<REFFOREHEAD> and <REFCHEEKBONES>
+	<REFFOREHEAD> and <REFEARS>
+	<REFFOREHEAD> and <REFEYES>
+	<REFFOREHEAD> and <REFMOUTH>
+	<REFFOREHEAD> and <REFCHIN>
+	<REFFOREHEAD> and <REFHANDS>
+	<REFNOSE> and <REFCHEEKBONES>
+	<REFNOSE> and <REFEARS>
+	<REFNOSE> and <REFEYES>
+	<REFNOSE> and <REFMOUTH>
+	<REFNOSE> and <REFCHIN>
+	<REFNOSE> and <REFHANDS>
+	<REFCHEEKBONES> and <REFEARS>
+	<REFCHEEKBONES> and <REFEYES>
+	<REFCHEEKBONES> and <REFMOUTH>
+	<REFCHEEKBONES> and <REFCHIN>
+	<REFCHEEKBONES> and <REFHANDS>
+	<REFEARS> and <REFEYES>
+	<REFEARS> and <REFMOUTH>
+	<REFEARS> and <REFCHIN>
+	<REFEARS> and <REFHANDS>
+	<REFEYES> and <REFMOUTH>
+	<REFEYES> and <REFCHIN>
+	<REFEYES> and <REFHANDS>
+	<REFMOUTH> and <REFCHIN>
+	<REFMOUTH> and <REFHANDS>
+	<REFCHIN> and <REFHANDS>
+REFFOREHEAD
+	a high forehead
+	a wide forehead
+	a domed forehead
+REFNOSE
+	an upturned nose
+	an elegant nose
+	a pointed nose
+	a small nose
+REFCHEEKBONES
+	high cheekbones
+	prominent cheekbones
+REFEARS
+	small ears
+	pointed ears
+	delicate ears
+REFEYES
+	thin eyebrows
+	thick eyebrows
+	long eyelashes
+REFMOUTH
+	full lips
+	a large mouth
+	a small mouth
+	a pouting mouth
+REFCHIN
+	a pointed chin
+	a strong chin
+REFHANDS
+	elegant hands
+	large hands
+	long-fingered hands

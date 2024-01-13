@@ -1,0 +1,9 @@
+Any
+	SEED
+		fantasycrossdat.txt
+Female
+	SEEDFEMALE
+		fantasycrossdat.txt
+Male
+	SEEDMALE
+		fantasycrossdat.txt

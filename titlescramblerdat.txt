@@ -1,0 +1,3595 @@
+//Vocab types:
+//1 Name
+//2 Pre-name
+//4 - Post name.
+//Organizational Configurations
+--ORGANIZATION
+2,1
+, ,
+1,4
+,<COMMA> ,
+//1 Name
+//2 Pre-name
+//4 - Post name.
+//Organizational Configurations
+--VOCABULARY
+//Titles
+1/2,4
+(Wo)Man from U.N.C.L.E.,4
+(wo)Man of Mystery,4
+Abbot and Costello meet,2
+Ace Attorney,4
+Ace Pilot,4
+Agent of S.H.E.I.L.D.,4
+All-Purpose Cultural Catgirl/boy,2
+Ambassador,2
+and his/her Orchestra,4
+and the Planetteers,4
+Attorney at Law,4
+Battle Angel,2
+Bizarro,2
+Black Mage,4
+Blitzball Champion,6
+Boy/Girl Genius.4
+Boy/Girl Wonder,4
+Brave Fencer,2
+Card Captor,2
+Cardinal,2
+Chief Engineer,2
+Codename: ,2
+Dark Lord/Lady of the Sith,4
+Darth,2
+Death Eater,6
+Defender of the Crown,4
+Defender of the Faith,4
+Defense Against the Dark Arts Teacher,4
+Despearte Housewife/Husband,4
+Detective,2
+DJ,2
+Fairy Godmother(father),6
+First Officer,6
+Flying Ace,6
+Former Child Star,6
+Go Go Gadget,2
+God of Thunder,6
+Good Witch/Warlock of the East,4
+Governor,2
+Great Teacher,2
+Green Beret,6
+Gundam Pilot,4
+Heisman Trophy Winner,4
+Inspector,2
+International (wo)man of Mystery,4
+Iron Chef,6
+Jedi Knight,6
+Jedi Master,6
+King/Queen of Braves,4
+King/Queen of Pop,6
+King/Queen of the Pirates,4
+King/Queen of the Witches,4
+Knight of the Round Table,4
+l33t hax0r,6
+Last Child of Krypton,4
+Legendary Hero,6
+Legendary Swordsman,2
+Licensed to Kill,4
+Lord of the Apes,4
+Lord/Lady of Darkness,4
+Lord/Lady of the Dance,4
+Lord/Lady of the Underworld,4
+Magic Knight,2
+Master of Disguise,4
+Master of Magic,4
+Master of Orion,4
+Master of Shaolin,4
+Master of the Universe,4
+MC,2
+MD,4
+Mighty Morphin,2
+Mild-mannered Reporter,6
+Mixmaster,2
+Monsignor,2
+more than meets the eye!,4
+Motocross Champion,6
+Mutant Master of Magnetism,4
+Neo King/Queen,2
+Nobel Laureate,2
+Now pitching . . .,2
+Officer,2
+Order of Merlin first class,4
+P.I.,4
+Padawan,2
+Pet Detective,4
+Pinball Wizard,6
+Pirate King,6
+Pokemon Master,6
+Pope,2
+Potions-Master,6
+President,2
+Prime Minister,6
+Prince of Thieves,4
+Prince(ess) of Darkness,4
+Prisoner of Azkaban,4
+Private Eye,4
+Queen of the Desert,4
+Quiddich Champion,6
+Rebel Without a cause,4
+Red Mage,4
+Registered Nurse,6
+Reverend Mother/Father,2
+Reverned,2
+Ringbearer,2
+Ringwraith,4
+Robot Fighter,6
+Robot in Disguise,4
+Rock Legend,6
+Sailor,2
+Senator,2
+Sex Pistols Front(wo)man,2
+Shaman King,6
+Space Marine,6
+Space Pirate,6
+Special Agent,6
+Starfighter,4
+Starfleet Captain,6
+Steel Angel,2
+Stone-Cold,2
+Street Fighter,6
+Sultan of Swat,4
+Super Genius,4
+Superman's Pal,4
+Super-Saiyan,6
+Teenage Mutant Ninja,2
+Texas Ranger,4
+The (wo)man from U.N.C.L.E.,4
+The (wo)Man of Tomorrow,4
+The Artist Formerly Known As,2
+The Ayatollah of Rock-and-Rolla,6
+The Barbarian,4
+the Boy/Girl Who Lived,4
+The Caped Crusader,4
+The Dark Knight,4
+The Dread Pirate,2
+The Full Metal Alchemist,4
+The Greatest American Hero,4
+The Irresponsible Captain,2
+The Last Airbender,4
+The Last of the Mohicans,4
+The Last Vampire,4
+The legendary,2
+the Lone Ranger,4
+The Mighty,4
+The Ninja Girl/Boy,4
+The Once And Future King/Queen,4
+The Outlaw,2
+The Pumpkin King/Queen,4
+The Stampede,4
+The Vampire Slayer,4
+The Very Model of a Modern Major General,4
+The White Serpent,4
+Tri-Wizard Champion,6
+Tuxedo,2
+Unlimited,4
+Vampire Hunter,6
+Vampire Prince(ess),6
+Version 2.0,4
+Warlord of Mars,4
+White Mage,4
+Wicked Witch/Warlock of the West,4
+Wicket Stepmother/father,4
+Witch Hunter,2
+Wizard of Oz,4
+World Heavyweight Champion,2
+//Names
+343 Guilty Spark (Halo),1
+A Tachikoma (Ghost in the Shell),1
+Aaron Burr,1
+Abarai Renji (Bleach),1
+Abby (NCIS),1
+Abby Brewster (Arsenic and Old Lace),1
+Abby Morgan (Dawson's Creek),1
+Abby Sciuto (NCIS),1
+Abby Wambach (soccer RPFS),1
+Abe no Seimei (Onmyouji),1
+Abe Sapien (Hellboy),1
+Abigail (The Crucible),1
+Abraham Lincoln,1
+Abraham Whistler (Blade movies),1
+Abu (Aladdin),1
+Aburame Shino (Naruto),1
+Ace Rimmer (Red Dwarf),1
+Achilles (Troy),1
+Adam (BtVS),1
+Adam Newman (Tomorrow People - new series),1
+Adam Smith ("Wealth of Nations"),1
+Adama (Battlestar Galactica),1
+Adrian Monk (Monk),1
+Aeryn Sun (Farscape),1
+Agador (The Birdcage) ,1
+Agamemnon (Troy),1
+Agatsuma Soubi (Loveless),1
+Agrippina the Younger,1
+Ahab (Moby Dick),1
+Ahaz  (Another Fine Myth),1
+Ai (Video Girl Ai),1
+Ainsley Hayes (West Wing),1
+AJ (Armageddon),1
+AJ Chegwidden (JAG),1
+Ajax (Troy),1
+Ajedrez (Once Upon a Time in Mexico),1
+Akane Tendou (Ranma 1/2),1
+Akku (Samurai Jack),1
+Al Borland (Home Improvement) ,1
+Al Calavicci (Quantum Leap),1
+Al Swearengen (Deadwood),1
+Aladdin,1
+Aladdin (Disney),1
+Alan (Thunderbirds),1
+Alan Grant (Jurassic Park),1
+Alan Grant (Jurassic Park),1
+Alan Shore (Boston Legal),1
+Alan Shore (Practice),1
+Alan Statham (Green Wing),1
+Alan Turing,1
+Alastor Moody (HP),1
+Albert (Twin Peaks),1
+Albert Eberts (The Invisible Man),1
+Albert Einstein,1
+Albert Rosenfield (Twin Peaks),1
+Albert Victor Edward (The Ripper),1
+Albus Dumbledore (HP),1
+Aldric (Who),1
+Alec (Dark Angel),1
+Alex (A Clockwork Orange),1
+Alex Cabot (L&O:SVU),1
+Alex Eades (Law and Order: Criminal Intent),1
+Alex Krycek (The X-Files),1
+Alex Murphy (Robocop),1
+Alex P. Keaton (Family Ties),1
+Alex Rieger (Taxi),1
+Alex Rosewater (Big O),1
+Alex Trebek (Jeopardy),1
+Alex Wilder (Runaways),1
+Alexander (Alexander the Great),1
+Alexander Dane (Galaxy Quest),1
+Alexander Hamilton,1
+Alexander Hartdegen (The Time Machine),1
+Alfred (Batman Begins),1
+Alfred Bester (Babylon 5),1
+Algernon (Importance of Being Earnest),1
+Algernon Swinburne,1
+Alice (Alice in Wonderland),1
+Alice (American McGee's Alice),1
+Alice (Dilbert),1
+Alice (The L Word),1
+Alice Tompkins (The Critic),1
+Alison Reynolds (Breakfast Club),1
+Allan Quatermain (LoEG),1
+Allison Dubois (Medium),1
+Allison Reynolds (The Breakfast Club),1
+Ally McBeal,1
+Alphonse Elric (Fullmetal Alchemist),1
+Alton Brown (Good Eats),1
+Alucard (Hellsing),1
+Alyssa Jones (Chasing Amy),1
+Amanda (Highlander),1
+Amber Atkins (Drop Dead Gorgeous),1
+Ambrose Monk (Monk),1
+Amelie Poulain (Amelie),1
+Amita Ramanujan (Numb3rs),1
+Amos Hart (Chicago),1
+Amsterdam Vallon (Gangs of New York),1
+Amy (BtVS),1
+Amy Gardner (West Wing),1
+Amy Rose (Sonic the Hedgehog),1
+Amy Tan,1
+An Orc (LotR),1
+Anakin Skywalker (Star Wars),1
+Anamaria (PotC),1
+Anathema Device (Good Omens) ,1
+Andi Wyatt (West Wing),1
+Andre Marek (Timeline),1
+Andrew (BtVS),1
+Dag Hammarskjold,1
+Andrew (Buffy),1
+Andrew Aguecheek (Twelfth Night),1
+Andrew Carnegie,1
+Andrew Van De Kamp (Desperate Housewives),1
+Andrew Wells (BtVS),1
+Android 18 (DBZ),1
+Andromeda (The Iliad),1
+Andy Carmichael (Goonies),1
+Andy Clark (The Breakfast Club),1
+Andy Dufresne (The Shawshank Redemption) ,1
+Angel (Angel),1
+Angel Dumott Schunard (RENT),1
+Angel Face (Fight Club),1
+Angelo Espinosa (X-Men/Gen-X),1
+Angelus (Angel/Buffy),1
+Angua (Discworld),1
+Angua (Discworld),1
+Animal (The Muppets),1
+Anita (ROD the TV),1
+Anita Blake,1
+Ankhesenamen,1
+Anna Espinosa (Alias),1
+Anna Foster (Chasing Liberty),1
+Anna Stern (O.C.),1
+Annabeth Schott (West Wing),1
+Annas (Jesus Christ Superstar) ,1
+Anne (A Little Night Music),1
+Anne Boleyn,1
+Annihilus (Fantastic Four),1
+Ansem (Kingdom Hearts),1
+Antonin Scalia (US Supreme Court),1
+Antonio Salieri (Amadeus),1
+Anubis,1
+Any Queen of England,1
+Anya (BtVS),1
+Aoyagi Ritsuka (Loveless),1
+Aoyagi Seimei (Loveless),1
+Aphrodite (Greek mythology),1
+Apollo (Battlestar Galactica),1
+Apollo (Greek mythology),1
+Apollo Creed (Rocky),1
+Apophis (Stargate SG-1),1
+Apu (The Simpsons),1
+Aquaman,1
+Arabella Strange (Jonathan Strange and Mr. Norrell),1
+Aragorn (Lord of the Rings),1
+Aramis (The Three Musketeers),1
+Aravis (The Chronicles of Narnia),1
+Arcee (Transformers),1
+Archie Bunker,1
+Archie Goodwin (Nero Wolfe),1
+Archie Kennedy (Horatio Hornblower),1
+Ares (Mythology),1
+Argo (Xena),1
+Argyle (Die Hard),1
+Ari Haswari (NCIS),1
+Ariel (The Little Mermaid),1
+Arioch of the Seven Darks (Elric Saga) ,1
+Aris Boch (Stargate SG-1),1
+Armand (Vampire Chronicles),1
+Armand Goldman (The Birdcage),1
+Armitage (Armitage III),1
+Arnaud de Fohn (The Invisible Man),1
+Arnold J. Rimmer (Red Dwarf),1
+Arsenal (Teen Titans),1
+Artemis Fowl (Artemis Fowl),1
+Artemus Gordon (Wild West West),1
+Arthur Dent (Hitchhiker's Guide),1
+Arthur Dimmesdale (Scarlet Letter) ,1
+Arvin Sloane (Alias),1
+Arwen (Lord of the Rings),1
+Arya (Song of Ice and Fire),1
+Ash (Evil Dead trilogy),1
+Ash Ketchum (Pokemon),1
+Asher (Anita Blake series),1
+Ashley Wilkes (Gone with the Wind),1
+Aslan (Chronicles of Narnia),1
+Asmodean (The Wheel of Time),1
+Astroboy (Astroboy),1
+Athena (Battlestar Galactica),1
+Athos (The Three Musketeers),1
+Athrun Zala (Gundam SEED),1
+Atreyu (Neverending Story) ,1
+Atticus Finch (To Kill A Mockingbird),1
+Audrey (Moulin Rouge),1
+Audrey Horne (Twin Peaks),1
+Audrey II (Little Shop of Horrors),1
+Aunt May (Spider-Man),1
+Aunt Petunia (HP),1
+Auron (Final Fantasy X),1
+Autolycus (Hercules/Xena),1
+Axel Foley,1
+Ayame (Fruits Basket),1
+Ayla (Clan of the Cave Bear),1
+Azaroth (Cthulhu Mythos),1
+Azelma Thenardier (Les Miserables),1
+Aziraphale (Good Omens),1
+Ba'al (SG1),1
+Baba Yaga,1
+Babe (All My Children),1
+Babe (Babe),1
+Babs Bunny (Tiny Toons),1
+Baby Houseman (Dirty Dancing),1
+Badger (Firefly),1
+Bail Organa (Star Wars),1
+Bakura (Yu-Gi-Oh),1
+Baldrick (Blackadder),1
+Baltar (Battlestar Galactica 2004),1
+Baltar (Battlestar Galactica),1
+Bao Dur (Star Wars: Knights of the Old Republic II),1
+Baralai (FFX-2),1
+Barbara Gordon (Birds of Prey),1
+Barbara Novak (Down With Love),1
+Barbarella,1
+Barbossa (PotC),1
+Barbossa (PotC),1
+Barclay (Star Trek: TNG),1
+Barnabas Collins (Dark Shadows),1
+Bart Allen (Impulse),1
+Bartleby (Dogma),1
+Basil (The Picture of Dorian Gray),1
+Basil Fawlty (Fawlty Towers),1
+Bast (Sandman),1
+Bastian (Neverending Story),1
+Batman,1
+Baxter (Anchorman),1
+Bayliss (Homicide),1
+Beadle Bamford (Sweeney Todd),1
+Beast (X-Men),1
+Beast Boy,1
+Beatice Potter,1
+Beatrice (Dante's Divine Comedy),1
+Beatrice (Much Ado About Nothing),1
+Beau Felton (Homicide) ,1
+Becky Sharp (Vanity Fair),1
+Beecher (Oz),1
+Beeker (The Muppets),1
+Beetle Bailey,1
+Beetlejuice,1
+Beka Valentine (Andromeda),1
+B'Elanna Torres (ST:Voyager),1
+Belgarath (The Belgariad series),1
+Bellatrix Black (HP),1
+Bellatrix Lestrange (HP),1
+Belle (Beauty and the Beast),1
+Ben Franklin ,1
+Ben Grimm (Fantastic Four),1
+Ben Krieg (Seaquest DSV),1
+Ben Mears (Salem's Lot),1
+Ben Willard (Apocalypse Now),1
+Bender (Futurama),1
+Benjamin Braddock (The Graduate),1
+Benjamin Britten (composer),1
+Benjamin Franklin,1
+Benny (The Mummy),1
+Benny Hill,1
+Benoit (Martin Guerre),1
+Bentley (Sly Cooper),1
+Benton Fraser (Due South),1
+Beowulf Kadmus (Final Fantasy Tactics),1
+Berko (Empire Records),1
+Bernard Black (Black Books),1
+Bert Gummer (Tremors),1
+Bertie Wooster (Jeeves and Wooster),1
+Bester (Babylon 5),1
+Bette Porter (The L Word),1
+Betty Cooper (Archie comics),1
+Beverly Crusher (Star Trek),1
+Beverly Crusher (Star Trek: TNG),1
+Biff (Back to the Future),1
+Big Barda (New Gods),1
+Bilar Crais (Farscape),1
+Bilbo Baggins (LotR),1
+Bill (Kill Bill),1
+Bill Gates,1
+Bill Harris (Lost in Translation),1
+Bill McNeil (Newsradio),1
+Bill the Pony (LotR),1
+Bill Weasley (Harry Potter),1
+Billy Bibbit (One Flew Over The Cuckoo's Nest),1
+Billy Budd,1
+Billy Chenowith (Six Feet Under) ,1
+Billy Elliot (Billy Elliot),1
+Billy Hicks (St. Elmo's Fire),1
+Billy Keikeya (Battlestar Galactica),1
+Billy Mack (Love Actually),1
+Billy Prior (The Regeneration trilogy),1
+Billy the Kid,1
+Bilquis (American Gods),1
+Binky the ghost (Pac-Man) ,1
+Bishop (Aliens),1
+Black Arachnia (Transformers),1
+Black Bart,1
+Black Rabbit of Ina (Watership Down),1
+BlackAdder (BlackAdder),1
+Blair Sandburg (The Sentinel),1
+Blair Warner (The Facts of Life),1
+Blanche Devereaux (Golden Girls),1
+Blanche Dubois (A Streetcar Named Desire),1
+Blastarr (Fantastic Four),1
+Bloo (Foster's Home for Imaginary Friensd),1
+Bloodrayne (Bloodrayne),1
+BloodRayne (BloodRayne),1
+Bo Duke (Dukes of Hazzard),1
+Bob (Reboot),1
+Bob Dylan,1
+Bob Oblongs (Oblongs),1
+Boba Fett (Star Wars),1
+Bobby Drake (X-Men),1
+Bobby Goren (Law & Order:Criminal Intent),1
+Bobo (Fraggle Rock),1
+Bon Bon (Before Night Falls),1
+'Bones' McCoy,1
+Bono (U2),1
+Boo Radley (To Kill A Mockingbird),1
+Booger (Revenge of the Nerds),1
+Boomer (Battlestar Galactica 2004),1
+Boone (Lost),1
+Boone Carlisle (Lost),1
+Booster Gold,1
+Boromir (Lord of the Rings),1
+Boss Nass (Star Wars),1
+Boss Ogi (Zatoichi),1
+Botan (YYH),1
+Boudicca (Gargoyles),1
+Bowser (Super Mario games),1
+Braca (Farscape),1
+Brad Crawford (Weiss Kreuz),1
+Brainy Smurf,1
+Brandon (Sense and Sensibility),1
+Bree Van De Kamp (Desperate Housewives),1
+Brenda Chenowith (Six Feet Under),1
+Brenda Walsh (Beverly Hills 90210),1
+Brennan Mulwray (Mutant X),1
+Brent (Corner Gas),1
+Brian (Family Guy),1
+Brian (Good Omens),1
+Brian (Life of Brian),1
+Brian (The Day After Tomorrow),1
+Brian Curtis (Da Vinci's Inquest),1
+Brian Griffin (Family Guy),1
+Brian Kinney (Queer as Folk US),1
+Brian Slade (Velvet Goldmine),1
+Brick Tamland (Anchorman),1
+Brick Top (Snatch),1
+Bridge Carson (Power Rangers SPD),1
+Bridget (Guilty Gear XX),1
+Bridget (Sisterhood of the Traveling Pants),1
+Bridget Jones (Bridget Jones's Diary),1
+Brigette Fitzgerald (Ginger Snaps),1
+Brigitte (Ginger Snaps),1
+Brisco County Jr.,1
+Britney Spears,1
+Brock Sampson (Venture Brothers),1
+Brock/Takeshi (Pokemon),1
+Brody (Mallrats),1
+Broken Sword (Hero),1
+Brooke (One Tree Hill),1
+Brooke McQueen (Popular),1
+Broots (The Pretender),1
+Brother (Final Fantasy X-2),1
+Brother Francis (Canticle for Leibowitz),1
+Brother Justin (Carnivale),1
+Bruce Banner (Hulk),1
+Bruce Wayne (Batman),1
+Bubbles (Powerpuff Girls),1
+Budd (Kill Bill),1
+Buddy (Elf),1
+Buffy Summers (BtVS),1
+Bug (Crossing Jordan),1
+Bugs Bunny,1
+Bull Shannon (Night Court),1
+Bullseye (Daredevil),1
+Bullwinkle (Rocky and Bullwinkle),1
+Bumblbee (Transformers),1
+Burt Gummer (Tremors),1
+Buster (Mythbusters),1
+Butler (Artemis Fowl),1
+Buttercup (the Princess Bride),1
+Butters (South Park),1
+Butters (South Park),1
+Buzz Lightyear (Toy Story) ,1
+C3PO (Star Wars),1
+Caesar (The Boondocks),1
+Caesar Augstus,1
+Caine (Trigun anime),1
+Calcifer (Howl's Moving Castle),1
+Cale Tucker (Titan A.E.),1
+Caleb (BtVS),1
+Calleigh Duquesne (CSI Miami),1
+Callisto (Xena),1
+Cally (BSG 2004),1
+Cameron Frye (Ferris Beuller's Day Off),1
+Cameron Mitchell (Stargate SG-1),1
+Cameron Mitchell (Stargate SG-1),1
+Canti (FLCL),1
+Carcer (Discworld),1
+Carl (Van Helsing) ,1
+Carl Kolchak (The Night Stalker),1
+Carlotta (Phantom of the Opera),1
+Carmelita Fox (Sly Cooper),1
+Carmen (Carmen),1
+Carmen (Sisterhood of the Traveling Pants),1
+Carmen Sandiego (Where in Time is Carmen Sandiego?),1
+Carol Brady (Brady Bunch),1
+Carol Danvers (Avengers),1
+Carol Fitzpatrick (West Wing),1
+Caroline Todd (Green Wing),1
+Carrie Bradshaw (Sex and the City),1
+Carson Beckett (Stargate Atlantis),1
+Carson Beckett (Stargate Atlantis),1
+Cartagia (Babylon 5),1
+Cartman (South Park),1
+Casanova Frankenstein (Mystery Men),1
+Casey (Sports Night),1
+Casey McCall (Sports Night),1
+Casey Novak (SVU),1
+Caspian (HL),1
+Cassandra (Greek mythology),1
+Cassandra (HL),1
+Cassandra Cain (Batman),1
+Cassandra of Troy,1
+Cassidy (Preacher),1
+Cassie (Buffy),1
+CatBus (My Neighbor Totoro),1
+Catcher Block (Down With Love),1
+Caterina Sforza (Trinity Blood),1
+Catharine Parr,1
+Catherine (CSI),1
+Catherine de Medici,1
+Catherine the Great,1
+Catherine Willowes (CSI),1
+Cathy Ames (East of Eden),1
+Cats (Zero Wing),1
+Catwoman,1
+CD Bales (Roxanne),1
+Cecil B. Demille,1
+Cedric Diggory (HP),1
+Celena Schezar (Vision of Escaflowne),1
+Ceres (Ceres),1
+Cesar Milan (The Dog Whisperer),1
+Cesare Borgia,1
+Chablis (Midnight at the Garden of Good and Evil),1
+Chakotay (ST:Voyager),1
+Chamberlain Yanagisawa (Sano Ichiro series),1
+Champ Terrace (Cupid),1
+Chance Harper (Strange Luck),1
+Chandler Bing (Friends),1
+Chang Wufei (Gundam Wing),1
+Charles Dexter Ward,1
+Charles Emerson Winchester III (M*A*S*H),1
+Charles Foster Kane (Citizen Kane),1
+Charles Gunn (Angel),1
+Charles Tucker III (Enterprise),1
+Charles Wallace Murry (L'Engle - A Wrinkle in Time),1
+Charles Xavier (X-Men),1
+Charlie (Dead Like Me),1
+Charlie (Lost),1
+Charlie Barret (Suicide Kings),1
+Charlie Chaplin (Chaplin),1
+Charlie Dalton (Dead Poets Society),1
+Charlie Epps (Numb3rs),1
+Charlie Pace (Lost),1
+Charlie Salinger (Party of Five),1
+Charlie Young (West Wing),1
+Charlotte (Lost in Translation),1
+Chatterer (Hellraiser),1
+Chauvelin (The Scarlet Pimpernel),1
+Chaz Kramer (Constantine),1
+Che (Evita),1
+Chef (South Park),1
+Cheops,1
+Cher (Clueless) ,1
+Cheri Littlebottom (Discworld),1
+Cheshire Cat (Alice in Wonderland),1
+Chewbacca (Star Wars),1
+Chiana (Farscape),1
+Chicken Boo (Animaniacs),1
+Chii (Chobots),1
+Childremas (Jonathan Strange and Mr. Norrell),1
+Chloe (Gothika),1
+Chloe O'Brien (24),1
+Chloe Sullivan (Smallville),1
+Cho Chang (Harry Potter),1
+Cho Hakkai (Saiyuki),1
+Chris (Charmed),1
+Chris (Stand by Me),1
+Chris Finch (The Office),1
+Chris Halliwell (Charmed) ,1
+Chris Keller (OZ),1
+Chris Lorenzo (Silk Stalkings),1
+Chris Orcot (Petshop of Horrors),1
+Chris Perry Halliwell (Charmed),1
+Christian (Moulin Rouge),1
+Christian Troy (Nip/Tuck),1
+Christian Walker (Powers),1
+Christina Aguilera,1
+Christine (PotC),1
+Christine Daae (Phantom of the Opera),1
+Christine Kochanski (Red Dwarf),1
+Christopher Columbus,1
+Christopher Hitchcock (Everworld),1
+Christopher Pike (Star Trek),1
+Christopher Robin (Winnie the Pooh),1
+Chucky (Child's Play),1
+Cindy Brady (The Brady Bunch),1
+Cirdan (Lord of the Rings) ,1
+Cissie King-Jones (Young Justice),1
+CJ Cregg (The West Wing),1
+Clair Fisher (Six Feet Under),1
+Clair Howell (Oz),1
+Claire (Lost),1
+Claire Kincaid (Law & Order),1
+Clank (Ratchet and Clank),1
+Clara Barton,1
+Clarice Starling (The Silence of the Lambs),1
+Clark Kent,1
+Clark Kent (Smallville),1
+Claude Casey (Less Than Perfect),1
+Claude Monet (painter),1
+Claude Winchester (Gravitation),1
+Claudia (Interview With A Vampire),1
+Claudia Kishi (Babysitter's Club),1
+Clay Aiken (American Idol),1
+Clayton Webb,1
+Clea Duvall,1
+Clem (Buffy),1
+Clementine (Eternal Sunshine of the Spotless Mind),1
+Cleolanta (Rocky Jones),1
+Cleopatra,1
+Cliff Buxton (The Dish),1
+Cloud Strife (Final Fantasy VII),1
+Clow Reed (Card Captor Sakura),1
+CmFranky Cook (Sky Captain),1
+Cogsworth (Beauty and the Beast),1
+Cole (Charmed),1
+Cole Sear (Sixth Sense),1
+Cole Turner (Charmed),1
+Colin Creevey (HP),1
+Colin the security robot (HHGttG),1
+Colonel Brandon (Sense and Sensibility),1
+Colonel Dixon (SG-1),1
+Colonel K (Dangermouse),1
+Colossus (X-Men),1
+Commodus (Gladiator),1
+Condoleeza Rice,1
+Conner Kent (Teen Titans),1
+Conner McKnight (Power Rangers Dino Thunder),1
+Connor (Angel),1
+Constable Neyla (Sly Cooper),1
+Talia Winters (B5),1
+Cookie Monster,1
+Coop (Megas XLR),1
+Cordelia Chase (Buffy/Angel),1
+Corwin,1
+Corwin (Chronicles of Amber),1
+Cosette (Les Miserables),1
+Cosmo (The Fairly Oddparents),1
+Cosmo Brown (Singin' in the Rain),1
+Counselor Troi (ST:TNG),1
+Count D. (Petshop of Horrors),1
+Count Malt (Phantom Brave),1
+Count Olaf (A Series of Unfortunate Events),1
+Count Rugin (Princess Bride),1
+Crash Bandicoot (Crash Bandicoot),1
+Crawford Mackenzie (The Big Tease),1
+Creasy (Man on Fire),1
+Creedy (Reign of Fire),1
+Creegan (Touching Evil),1
+Crispin Hellion Glover,1
+Cristina (Grey's Anatomy),1
+Crow T. Robot (MST3K),1
+Crowley (Good Omens),1
+Crush (Finding Nemo),1
+Crysta (Ferngully),1
+Cthulhu,1
+Cuddy (House),1
+Cutter (Elfquest),1
+Cuzco (The Emperor's New Groove),1
+Cyborg (Teen Titans),1
+Cyclops (X-Men),1
+Da'an (Earth: Final Conflict),1
+Dade Murphy (Hackers),1
+Daemon (Reboot),1
+Dagny Taggart (Atlas Shrugged),1
+Dagon (Good Omens),1
+Daisy (The Great Gatsby),1
+Daisy Adair (Dead Like Me),1
+Daisy Duke,1
+Dale Arden (Flash Gordon),1
+Dale Cooper (Twin Peaks),1
+Dale Cooper (Twin Peaks),1
+Dan Rydell (Sports Night),1
+Dan Scott (One Tree Hill),1
+Dana Fairbanks (The L Word),1
+Dana Scully (X-Files) ,1
+Dana Scully (X-Files),1
+Dani Moonstar,1
+Danica Patrick,1
+Daniel Boone,1
+Daniel Jackson,1
+Daniel Jackson (Stargate SG-1),1
+Daniel Rydell (Sports Night),1
+Danielle Rousseau (Lost),1
+Danilo Thann (Forgotten Realms),1
+Danny Dunn,1
+Danny Kaye ,1
+Danny McCoy (Las Vegas),1
+Danny Messer (CSI: NY),1
+Danny Ocean (Ocean's Eleven),1
+Danny Walker (Pearl Harbor),1
+Dante (Clerks),1
+Dante (Devil May Cry),1
+Dante (Fullmetal Alchemist),1
+Dante Hicks (Clerks),1
+Darcy (Pride and Prejudice),1
+D'Argo (Farscape),1
+Daria (Daria),1
+Daria Morgendorffer (Daria) ,1
+Darien Fawkes (The Invisible Man),1
+Darien Lambert (Time Trax),1
+Dark (D.N. Angel),1
+Dark Helmet (Spaceballs),1
+Darkness (Legend),1
+Darla (Buffy/Angel),1
+Darla (Finding Nemo),1
+D'Artagnan (Three Musketeers),1
+Darwin (Seaquest) ,1
+Data (ST:TNG),1
+Dave Davenport (Narbonic),1
+Dave Kovic (Dave),1
+Dave Lister (Red Dwarf),1
+David (Lost Boys),1
+David (original Village of the Damned),1
+David Brent (The Office),1
+David Caravaggio (English Patient),1
+David Creegan (Touching Evil),1
+David Dunn (Unbreakable),1
+David Fisher (Six Feet Under) ,1
+David Shaw (A Perfect Murder),1
+David St. Hubbins (Spinal Tap),1
+David Talbot (The Vampire Chronicles),1
+David Xanatos (Gargoyles),1
+Davis (Tru Calling),1
+Dawn (The Office),1
+Dawn Summers (Buffy),1
+Dawson Leery (Dawson's Creek),1
+Dazzler (X-Men) ,1
+Deadpool (Marvel comics),1
+Dean Venture  (Venture Brothers),1
+Deanna Troi (ST:TNG),1
+Dearka Ellsman (Gundam SEED),1
+DEATH (Discworld),1
+Death (Sandman),1
+Death of Rats (Discworld),1
+Deathstrike (X-Men),1
+Deckard Kain (Diablo),1
+Dee Dee (The Opposite of Sex),1
+Dee Laytner (FAKE),1
+Dee-ari (The Dark Crystal),1
+Deedee Truitt (The Opposite of Sex),1
+Deedlit (Record of Lodoss War),1
+Delenn (Babylon 5),1
+Delerium (Sandman),1
+Delinda Deline (Las Vegas),1
+Delirium (Sandman),1
+Demona (Gargoyles),1
+Denethor (Lord of the Rings),1
+Dennis (Monty Python and the Holy Grail),1
+Denny Crane (Boston Legal),1
+Derek Zoolander,1
+Desire (Sandman),1
+Despair (Sandman) ,1
+Destiny (Sandman),1
+Destiny (X-Men),1
+Destruction (Sandman),1
+Detritus (Discworld),1
+Devon (BtVS),1
+Devon Maguire (Crossing Jordan),1
+Devon Miles (Knight Rider),1
+Dewey (School of Rock),1
+Diana Fowley (X-Files),1
+Diana Spacey (FAKE),1
+Diana Villiers (Master and Commander),1
+Dib (Invader Zim),1
+Dibbler (Discworld),1
+Dick Grayson (Batman),1
+Dido (The Aeneid),1
+Die Fledermaus (The Tick cartoon),1
+Diefenbaker (Due South),1
+Dilandau (Escaflowne),1
+Dilbert,1
+Dillamond (Wicked),1
+Dina Araz (24),1
+Dinah Lance (Birds of Prey comics),1
+Dingo (Gargoyles),1
+Dirk Gently (Dirk Gently),1
+Dirk Pitt (Sahara),1
+Dizzy Flores (Starship Troopers),1
+Dobby (HP),1
+Dodger (Oliver Twist) ,1
+Dog-walking old lady (A Fish Called Wanda),1
+Dolley Madison,1
+Dolly Levi (Hello Dolly),1
+Dolores Haze (Lolita),1
+Dolores Umbridge (Harry Potter),1
+Dominic Monaghan,1
+Domino (X-Men),1
+Don Eppes (Numb3rs),1
+Don Lockwood (Singin' in the Rain),1
+Don Quixote,1
+Donald Kaufman (Adaptation),1
+Donald Trump (The Apprentice),1
+Donatello (TMNT),1
+Donkey (Shrek),1
+Donna (90210),1
+Donna Cavanaugh (The Sandman),1
+Donna Hayward (Twin Peaks),1
+Donna Moss (West Wing),1
+Donnie Darko,1
+Donny (The Big Lebowski) ,1
+Dooku (Star Wars),1
+Door (Neverwhere),1
+Dorian Gray (Oscar Wilde),1
+Dorian Gray (The Picture of Dorian Gray),1
+Dorothy (Blue Velvet),1
+Dorothy Catalonia (Gundam Wing),1
+Dorothy Parker,1
+Dorthy (Big O),1
+Dory (Finding Nemo),1
+Dot (Animaniacs),1
+Dotty Campbell (Family Guy),1
+Doug Penhall (21 Jump Street),1
+Douglas Adams,1
+Doyle (Angel),1
+Draco Malfoy (Harry Potter) ,1
+Dracula (Dracula 2000),1
+Drago Museveni (Andromeda),1
+Dragon (Shrek),1
+Drake (Read or Die),1
+Drake Anderson (Read or Die),1
+Dream (Sandman),1
+Drizzt Do'Urden (Dark Elf Saga),1
+Drogyn (Angel),1
+Drusilla (BtVS),1
+Dryden Fassa (Escaflowne),1
+Duchess of Devonshire,1
+Ducky Mallard (NCIS),1
+Duncan Kane (Veronica Mars),1
+Duncan MacLeod (Highlander),1
+Duo Maxwell (Gundam Wing),1
+Dupin (Edgar Allen Poe mysteries),1
+Dustin Brooks (Power Rangers Ninja Storm),1
+Dwight (Sin City),1
+Dylan Hunt (Andromeda),1
+Dylan Moran (Shaun of the Dead),1
+Dynasty Warriors),1
+Eberts (The Invisible Man),1
+Eboshi (Princess Mononoke),1
+Echo (Greek mythology),1
+Eclipse (Demon Diary),1
+Ed (Cowboy Bebop),1
+Ed (Fullmetal Alchemist),1
+Ed Elric (Fullmetal Alchemist),1
+Ed Gein,1
+Ed Rooney (Ferris Bueller's Day Off),1
+Ed Wood,1
+Edgar Allan Poe,1
+Edie Britt (Desperate Housewives),1
+Edina Monsoon (Absolutely Fabulous),1
+Edmond Dantes (The Count of Monte Cristo),1
+Edmund Blackadder (Blackadder -  any season),1
+Edmund Pevensie (Narnia),1
+Edna Krabappel (The Simpsons),1
+Edna Mode (The Incredibles),1
+Edward (Anita Blake novels),1
+Edward Elric (Full Metal Alchemist),1
+Edward Hyde,1
+Edward Scissorhands ,1
+Edward Teach (Blackbeard),1
+Edward Wong Hau Pepulu Tivrusky the 4th (Cowboy Bebop),1
+Ein (Cowboy Bebop),1
+Eiri Yuki (Gravitation),1
+El Mariachi,1
+Elaine Benes (Seinfeld),1
+Eleanor of Acquitaine,1
+Eleanor Roosevelt,1
+Elektra (Marvel),1
+Elfangor (Animorphs),1
+Eli (The Girl Next Door),1
+Eli Weevil Navarro (Veronica Mars),1
+Elim Garak (DS9),1
+Eliot Stabler (Law and Order SVU),1
+Elisa Maza (Gargoyles),1
+Elisa Maza (Gargoyles),1
+Elisabeth Braddock (X-Men),1
+Eliza Maza (Gargoyles),1
+Elizabeth Bathory,1
+Elizabeth Bennet (Pride and Prejudice),1
+Elizabeth Cady Stanton,1
+Elizabeth Darko (Donnie Darko),1
+Elizabeth I,1
+Elizabeth Lochley (Babylon 5),1
+Elizabeth Swann (PotC),1
+Elizabeth Weir (Stargate Atlantis),1
+Ella (Ella Enchanted),1
+Elladan (LotR),1
+Elle Driver (Kill Bill) ,1
+Ellen (Miss Saigon),1
+Ellen Ripley (Aliens),1
+Ellie Arroway (Contact),1
+Ellie Brass (CSI),1
+Elliot Reid (Scrubs),1
+Elliot Stabler (Law and Order SVU),1
+Elminister (Forgotten Realms),1
+Elmo (Sesame Street),1
+Elora Danan (Shadow Moon series),1
+Elphaba (Wicked),1
+Elric of Melnibone (Michael Moorcock's Elric series),1
+Elrond (LOTR),1
+Elsa (Power Rangers: Dino Thunder),1
+Elvis Presley,1
+Elwood P. Dowd (Harvey),1
+Emily Howard (Little Britain),1
+Emily Sloan (Alias),1
+Eminem,1
+Emma DeLauro (Mutant X),1
+Emma Frost (X-Men),1
+Emma Peel (Avengers),1
+Emma Woodhouse (Emma) ,1
+Emmett Brown (Back to the Future),1
+Emmett Honeycutt (QAFUS) ,1
+Ender Wiggins (Ender's Game),1
+Endora (Bewitched),1
+Enid (Ghost World),1
+Enjolras (Les Miserables),1
+Enos (Dukes of Hazzard),1
+Enrico Maxwell (Hellsing),1
+Ensign Ro (Star Trek TNG),1
+Envy (Fullmetal Alchemist),1
+Eomer (Lord of the Rings) ,1
+Eowyn (LotR),1
+Ephram Brown (Everwood),1
+Eponine (Les Miserables),1
+Eragon (Eragon),1
+Eric (Bananaman),1
+Eric (Wonderfalls),1
+Eric Delko (CSI: Miami),1
+Eric Draven (The Crow),1
+Eric Foreman (House),1
+Eric Foreman (House),1
+Eric Matthew (Boy Meets World),1
+Eric Weiss (Alias),1
+Erik (Phantom of the Opera),1
+Erik Lehnsherr (X-Men),1
+Erik the Red,1
+Erika Hayasaka (Megatokyo),1
+Erin Brockovich,1
+Eriol (Card Captor Sakura),1
+Eris (Greek mythology),1
+Eros (Greek mythology),1
+Errol (Discworld),1
+Esme Squalor (A Series of Unfortunate Events),1
+Esther Blanchett (Trinity Blood),1
+Ethan Rayne (BtVS),1
+Ethel Hallow (Worst Witch),1
+Etienne Navarre (Ladyhawke) ,1
+Etna (Disgaea),1
+Eustace Scrubb (Narnia Chronicles),1
+Evey Hammond (V for Vendetta),1
+Evil (Austin Powers),1
+Evil the Cat (Earthworm Jim),1
+Evil-Lynn,1
+Excel (Excel Saga),1
+Ezekiel Stone (Brimstone) ,1
+F. Scott Fitzgerald,1
+Fa Mu Lan (The Woman Warrior),1
+Fafhrd,1
+Fai D. Flowright (Tsubasa Chronicle),1
+Faile (Wheel of Time),1
+Fairer Than (Magical Witch Girl Bunny),1
+Fairy Godmother (Shrek 2),1
+Faith (BtVS),1
+Falco (Starfox),1
+Faramir (Lord of the Rings),1
+Farmer Ted (Sixteen Candles),1
+Fat Bastard (Austin Powers),1
+Fat Tony (Simpsons),1
+Fawkes (HP),1
+Faye Valentine (Cowboy Bebop),1
+Feanor (The Silmarillion),1
+Felicia (The Adventures of Priscilla Queen of the Desert),1
+Felix Mendelssohn,1
+Felix Tholomyes (Les Miserables),1
+Fenchurch (HHGttG),1
+Fenster (The Usual Suspects),1
+Ferris Bueller,1
+Feste (Twelfth Night),1
+Fester (Addams Family),1
+Feyd-Rautha Harkonnen (Dune),1
+Fidel Castro,1
+Fidelio Gunn (Charlie Bone),1
+Fighter (8-bit Theatre),1
+Fingolfin (Silmarillion),1
+Finn MacCool,1
+Finrod Felagund (The Silmarillion),1
+Fiona (Shrek),1
+Fitzwilliam Darcy (Pride and Prejudice),1
+Fixit (Teen Titans cartoon),1
+Fiyero (Wicked),1
+Fizzy (My Little Pony),1
+Flagg (M*A*S*H),1
+Flash (Justice League) ,1
+Flash Gordon,1
+Flash/Wally West (Justice League),1
+Fleur (HP),1
+Flitwick (HP),1
+Flonne (Disgaea:Hour of Darkness),1
+Florence Nightengale,1
+Fonzie (Happy Days),1
+Ford Prefect (Hitchhiker's Guide To The Galaxy),1
+Forrest Gump,1
+Fortibras (Hamlet),1
+Fox McCloud (Starfox games),1
+Fox Mulder (X-Files),1
+Fran (Black Books),1
+Francesca Vecchio (Due South),1
+Frank (Donnie Darko),1
+Frank (Once Upon a Time in the West),1
+Frank (Rocky Horror Picture Show),1
+Frank Black (Millenium),1
+Frank Donovan (UC Undercover),1
+Frank N Furter (Rocky Horror Picture Show),1
+Frank Pembleton (Homicide),1
+Frank the Postman (Bod),1
+Frank White (King of New York),1
+Frankenstein (Hammer Films),1
+Frankenstein (Young Frankenstein),1
+Franklin Richards (Fantastic Four),1
+Frasier Crane (Frasier),1
+Frau Blucher (Young Frankenstein),1
+Fred Burkle (Angel) ,1
+Fred Cassidy (Doorways in the Sand),1
+Fred Kelman (Might Morphin Power Rangers: The Movie),1
+Fred Weasley (HP),1
+Freddy Eynesford-Hill (My Fair Lady),1
+Frederick Douglass,1
+Freyr (Scandinavian mythology),1
+Frida Kahlo (Frida),1
+Friedman (Joan of Arcadia) ,1
+Fritz Brenner (Nero Wolfe),1
+Frodo Baggins (Lord of the Rings),1
+Frohike (XF),1
+Frollo (Hunchback of Notre Dame),1
+Frosty the Snowman,1
+Fry (Futurama),1
+Fujitaka Kinomoto (Cardcaptor Sakura),1
+Furlow (Farscape),1
+Furura (Pokemon),1
+Fuu (Samurai Champloo),1
+Gaara (Naruto),1
+Gabe (Penny Arcade),1
+Gabriel (Constantine),1
+Gabriel Van Helsing (Van Helsing),1
+Gabrielle (Xena),1
+Gackt,1
+Gaeta (Battlestar Galactica),1
+Gai (Naruto),1
+Gail (Sin City),1
+Gaius Baltar (Battlestar Galactica 2004),1
+Galadriel (LOTR),1
+Galahad (King Arthur),1
+Galen (Crusade),1
+Galen (Planet of the Apes),1
+Galinda (Wicked),1
+Gambit (X-Men),1
+Gandalf (Lord of the Rings),1
+Ganondorf (The Legend of Zelda: Ocarina of Time),1
+Ganymede (As You Like It),1
+Garak (Deep Space Nine),1
+Gareth (The Office),1
+Gareth Keenan (The Office),1
+Garfield,1
+Gargamel (Smurfs),1
+Garibaldi (Babylon 5),1
+Garion (The Belgariad),1
+Garrett (Thief computer game),1
+Garrett Macy (Crossing Jordan),1
+Garth (Wayne's World) ,1
+Gary (Early Edition),1
+Gary (Spongebob Squarepants),1
+Gary Hobson (Early Edition),1
+Gary Johnston (Team America),1
+Gaspode (Discworld) ,1
+Gaston (Beauty and the Beast),1
+Gatomon (Digimon),1
+Gatsby (The Great Gatsby),1
+Gavin Park (Angel),1
+Gavroche Thenardier (Les Miserables),1
+Gawain (King Arthur) ,1
+Gaz (Full Monty),1
+Gaz (Invader Zim),1
+GBH (Good Omens),1
+Ged (Earthsea books),1
+Gemini Man (Mega Man 3),1
+Gen. George Washington,1
+Gendo Ikari (Evangelion),1
+Genghis Khan,1
+Genie (Aladdin),1
+Genji (The Tale of Genji),1
+Genma Santome (Ranma 1/2),1
+Geoffrey Chaucer (A Knight's Tale),1
+George (Dead Like Me),1
+George Banks (Mary Poppins),1
+George Costanza (Seinfeld),1
+George Hammond (Stargate SG-1),1
+George Lass (Dead Like Me),1
+George McFly (Back to the Future),1
+George O'Malley (Grey's Anatomy),1
+George W. Bush,1
+George W. Bush Jr.,1
+George Williams (Desperate Housewives),1
+Georgia (Georgia),1
+Georgiana,1
+Gerald "Eggman" Robotnik (Sonic the Hedgehog games),1
+Gerard Way (My Chemical Romance frontman),1
+Getafix (Asterix),1
+Gewn Raiden (Angel),1
+Gibbs (NCIS),1
+Gibbs (PotC),1
+Gigolo Joe (A.I),1
+Gil "The Arm" Hamilton (Larry Niven),1
+Gil Grissom (CSI),1
+Gilad Pallaeon (Star Wars EU),1
+Gilbert Grape (What's Eating Gilbert Grape),1
+Gilder (Skies of Arcadia),1
+Gilderoy Lockhart (Harry Potter) ,1
+Giles (BtVS),1
+Giles Vicary (Red Cap),1
+Gilgamesh (Final Fantasy V),1
+Gilgamesh (Mythology),1
+Gillette (PotC),1
+Gilraen (LotR),1
+Gimli (Lord of the Rings),1
+Ginger (Ginger Snaps) ,1
+Ginger (West Wing),1
+Ginger Fitzgerald (Ginger Snaps),1
+Ginji Amano (Get Backers),1
+Ginny Weasley (Harry Potter),1
+Gippal (Final Fantasy X-2),1
+GIR (Invader Zim),1
+Girlfriend (The Venture Brothers),1
+Girlfriend (Venture Brothers),1
+Gizmoduck (Darkwing Duck),1
+Glenn Danzig (lead singer of the Misfits),1
+Glorfindel (Fellowship of the Ring),1
+Gloria Cleary (Wedding Crashers),1
+Glory (BtVS),1
+Gluttony (Fullmetal Alchemist),1
+Go Go Yubari (Kill Bill),1
+GOB (Arrested Development),1
+GOB Bluth (Arrested Development),1
+God (Bible),1
+God (Dogma),1
+God (Joan of Arcadia),1
+Godzilla,1
+Gogo Yubari (Kill Bill),1
+Goku (Saiyuki),1
+Goldie (Gunsmith Cats),1
+Gollum (LotR),1
+Gomez Adams,1
+Gonzo (Muppets),1
+Gordie (Stand By Me),1
+Gordon Freeman (Half-Life),1
+Gordon Shumway (ALF),1
+Gordon Tracy (Thunderbirds),1
+Governor Swann (PotC),1
+Goyle (Harry Potter) ,1
+Grace (Beetlejuice),1
+Grace (Buffy the Vampire Slayer,1
+Grace (Joan of Arcadia),1
+Grace (Will & Grace),1
+Grace Polk (Joan of Arcadia),1
+Gracie Hart (Miss Congeniality),1
+Graham (Buffy the Vampire Slayer) ,1
+Graham Dalton (Sex in the City),1
+Granny Weatherwax (Discworld),1
+Grantaire (Les Miserables),1
+Greebo (Discworld),1
+Greed (Fullmetal Alchemist),1
+Greedo (Star Wars),1
+Greg House (House),1
+Greg Sanders (CSI),1
+Gregory House (House),1
+Gregory House (House),1
+Grendel (Beowulf),1
+Gretchen (Donnie Darko),1
+Gretel (Hansel and Gretel),1
+Griffin (Griffin and Sabine books),1
+Grim (The Grim Adventures of Billy & Mandy),1
+Grima Wormtongue (LotR),1
+Groo the Wanderer,1
+Groundskeeper Willie (The Simpsons),1
+Gruad (Illuminatus Trillogy),1
+Grumpy Bear,1
+Guenevere,1
+Guido Orefice (Life is Beautiful),1
+Gumby,1
+Gunn (Angel),1
+Gurney Halleck (Dune),1
+Gushoushin (Yami no Matsuei),1
+Guy (Galaxy Quest),1
+Guy (Rosemary's Baby),1
+Guy Burgess,1
+Guy Fleegman (Galaxy Quest),1
+Guy Montag (Fahrenheit 451),1
+Guy Noir (A Prairie Home Companion),1
+Guy of Gisbourne (Robin of Sherwood),1
+Guybrush Threepwood (Monkey Island),1
+Gwen Raiden (Angel),1
+Gwendolyn Post (BtVS),1
+Hades (Disney's Hercules),1
+Hagbard Celine (Illuminatus Trillogy),1
+Hagrid (HP),1
+Hailey Nichol (The O.C.),1
+Haku (Spirited Away),1
+HAL (2001: A Space Odyssey),1
+Hal Evans (RSVP),1
+Hal Sparks (I Love the 70s/80's/90's),1
+Haldir (Lord of the Rings) ,1
+Haley (Road Waffles 1),1
+Hallie Lowenthal (My So-Called Life),1
+Hamilton (Angel) ,1
+Hamlet (Shakespeare),1
+Hammond (M*A*S*H),1
+Hammond (Stargate),1
+Han Solo (Star Wars),1
+Hank McCoy (X-Men) ,1
+Hank Venture (Venture Brothers),1
+Hannibal Hays (Alias Smith and Jones),1
+Hannibal Lecter (Silence of the Lambs),1
+Hans (Hellsing),1
+Hans Gruber (Die Hard),1
+Hanson (21 Jump Street),1
+Harleen "Harley Quinn" Quinzel (DC Comics),1
+Harley Quinn (DC Comics),1
+Harmon Rabb (JAG),1
+Harmony Kendall (Buffy/Angel),1
+Harold (Harold and the Purple Crayon),1
+Harold (Neighbours),1
+Harold Hill (The Music Man),1
+Harold Maybourne(SG-1),1
+Harold Potter (Monty Python's Flying Circus),1
+Harper Pitt (Angels in America),1
+Harpo Marx (Marx Brothers),1
+Harriet Welsch (Harriet the Spy),1
+Harris (Sharpe) ,1
+Harrison Davies (Tru Calling),1
+Harry Bergs (When Harry Met Sally),1
+Harry Dresden (Dresden Files),1
+Harry Flashman (Flashman Chronicles),1
+Harry Flashman (Flashman Chronicles),1
+Harry Kim (Voyager),1
+Harry Maybourne (Stargate SG-1),1
+Harry Osborn (Spider-Man),1
+Harry Potter,1
+Harry Solomon (3rd Rock From The Sun),1
+Haruhara Haruko (FLCL) ,1
+Haruka Suzushiro (My HiMe),1
+Harvey (Farscape),1
+Hastur (Good Omens),1
+Hatcher (The Rundown),1
+Hatori Sohma (Fruits Basket),1
+Havelock Vetinari (Discworld),1
+Hawatari Yuiko (Loveless),1
+Hawk (AppleGeeks),1
+Hawkeye (Avengers),1
+Hawkeye Pierce (M*A*S*H),1
+Hawkgirl (Justice League),1
+Hayasaka Erica (Megatokyo),1
+Heathcliff (Wuthering Heights),1
+Hector (The Iliad),1
+Heero (Gundam Wing),1
+Heffer (Rocko's Modern Life),1
+Hefty Smurf,1
+Heihachi Mishima (Tekken),1
+Heine Westenfluss (Gundam SEED Destiny),1
+Heinkel Wolfe (Hellsing),1
+Hel (Scandinavian mythology),1
+Helen Gaius Mohaim (Dune books),1
+Helen Narbon (Narbonic),1
+Helen of Troy (the Illiad),1
+Hellboy,1
+He-Man,1
+Henry Ford,1
+Henry Jekyll-Edward Hyde (LXG) ,1
+Henry Kissinger ,1
+Henry Wellard (Horatio Hornblower),1
+Hephaistion,1
+Herbert West (Re-Animator),1
+Herbie (Herbie movies),1
+Hercule Poirot (Agatha Christie),1
+Hercules (HtLJ),1
+Hermione Granger (Harry Potter),1
+Hevn (Get Backers),1
+Hexx (Discworld),1
+Hiei (Yuu Yuu Hakusho),1
+Highfather (New Gods),1
+Hikaru (Angelic Layer),1
+Hikaru Shindou (Hikaru no Go),1
+Hillary (Tomb Raider),1
+Himiko Kudou (GetBackers),1
+Hiro Protagonist (Snow Crash),1
+Hiroshige Ando (Japanese artist),1
+Hisoka (Hunter x Hunter),1
+Hitomi (Escaflowne),1
+Hiwatari Satoshi (D.N. Angel),1
+HK-47 (Knights of the Old Republic),1
+Hob Gadling (Sandman),1
+Hobbes (Calvin and Hobbes),1
+Hojo (Final Fantasy VII),1
+Hokuto (Tokyo Babylon),1
+Holden Webster (BtVW),1
+Holly Short (Artemis Fowl),1
+Homer (poet),1
+Homer Simpson (The Simpsons),1
+Homestar Runner,1
+Homura (Saiyuki),1
+Horace (poet),1
+Horace Greeley,1
+Horace Slughorn (HP),1
+Horatio Caine (CSI: Miami),1
+Horatio Hornblower,1
+Horatio Nelson,1
+Horatio Nelson,1
+Hoshi Sato (Enterprise),1
+Hoshigaki Kisame (Naruto),1
+Hot Rod (Transformers),1
+Hotaru Tomoe (Sailor Moon),1
+Hotlips Houlihan (MASH),1
+Howard Hughes,1
+Howard the Duck,1
+Howl (Howl's Moving Castle),1
+Howlin' Mad Murdock (The A-Team),1
+Huck Finn (Huck Finn),1
+Hudson Clark Kent,1
+Huey (The Boondocks),1
+Huggy Bear (Starsky & Hutch),1
+Hugh Fitzcairn (HL),1
+Hugh Laurie,1
+Hugh of Borg (ST:TNG),1
+Humbert Humbert (Lolita),1
+Hunter (Neverwhere),1
+Hunter (Queer as Folk US),1
+Huntress (Birds of Prey),1
+Hurley (Lost),1
+Hyatt (Excel Saga),1
+Hyde (League of Extraordinary Gentlemen),1
+Hyoga (Saint Seiya),1
+Hypatia,1
+Iago (Aladdin),1
+Iago (Othello),1
+Ian Hislop,1
+Ian Malcolm (Jurassic Park),1
+Ian Malcolm (Jurassic Park),1
+Ichabod Crane (Sleepy Hollow),1
+Ichigo Kurosaki (Bleach),1
+Ifurita (El Hazard),1
+Ikari Shinji (NGE),1
+Il Palazzo (Excel Saga),1
+Illyana Rasputin (X-Men),1
+Illyria (Angel),1
+Inara (Firefly),1
+Indiana Jones,1
+Inigo Montoya (The Princess Bride),1
+Inspector Gadget,1
+Inspector Stottlemeyer (Monk),1
+Integra Hellsing (Hellsing),1
+Inu-Yasha,1
+Invincible (Invincible),1
+Io (Greek mythology),1
+Iolaus (Hercules),1
+Ioreth (Lord of the Rings),1
+Ira Cain (Evolution) ,1
+Irene Adler (Sherlock Holmes),1
+Irina Derevko (Alias),1
+Irmo (Silmarillion),1
+Iron Chicken (The Clangers),1
+Iron Man (Marvel Comics),1
+Irvine Kinneas (FF8),1
+Isaac Jaffe (Sports Night),1
+Isabeau d'Anjou (Ladyhawke),1
+Isabel Evans (Roswell),1
+Ishida Uryuu (Bleach),1
+Ishmael (Moby Dick),1
+Isshin Kurosaki (Bleach),1
+Itachi Uchiha (Naruto),1
+Ivana Humpalot (Austin Powers),1
+Izumi Maki (Nadesico),1
+Izzy (Grey's Anatomy),1
+J (Men in Black),1
+J. Jonah Jameson (Spider-Man) ,1
+J.D. (Scrubs),1
+J.R.R. Tolkien,1
+Jabba the Hutt,1
+Jack (Chronicles of Riddick),1
+Jack (Jack in the Box spokesman),1
+Jack (Lord of the Flies) ,1
+Jack (Pitch Black),1
+Jack (Samurai Jack),1
+Jack (Titanic),1
+Jack (Will and Grace) ,1
+Jack Bauer (24),1
+Jack Black ,1
+Jack Brigance (A Time to Kill),1
+Jack Bristow (Alias),1
+Jack Burton (Big Trouble in Little China),1
+Jack Crow (Vampires),1
+Jack Dawson (Titanic),1
+Jack Fairy (Velvet Goldmine),1
+Jack Foley (Out of Sight),1
+Jack Goodman (An American Werewolf In London),1
+Jack Hall (Day After Tomorrow),1
+Jack Harkness (Doctor Who),1
+Jack Logan (Timecop),1
+Jack McCoy (Law & Order),1
+Jack O'Neill (Stargate SG-1),1
+Jack O'Neill (Stargate SG-1),1
+Jack Skellington (Nightmare Before Christmas),1
+Jack Sparrow (Pirates of the Caribbean),1
+Jack the Ripper,1
+Jack Traven (Speed),1
+Jackrum (Discworld),1
+Jade (Outsiders),1
+Jadzia Dax (DS9),1
+Jafar (Aladdin),1
+Jafar (Disney's Aladdin),1
+Jaime Ross (Law & Order),1
+Jaina Solo (Star Wars),1
+Jake Berenson (Animorphs),1
+Jake McCarty (Witchblade),1
+Jake Sisko (ST:DS9),1
+Jamal (Ghostwriter),1
+James (Pokemon),1
+James Bond,1
+James Leer (Wonder Boys),1
+James Potter (HP),1
+James T. Kirk (Star Trek),1
+Jamie (Love Actually),1
+Jamie (Megas XLR),1
+Jamie Hyneman (Mythbusters),1
+Jamie Madrox (X-men universe),1
+Jane (Coupling),1
+Jane (Daria),1
+Jane (Tarzan),1
+Jane Burnham (American Beauty),1
+Jane Eyre,1
+Jane Lane (Daria),1
+Jane Seymour (Henry VIII's wife),1
+Janet Fraiser (Stargate SG-1),1
+Janet Frasier (Stargate SG-1),1
+Janette Ducharme (Forever Knight),1
+Janeway (ST:Voyager),1
+Janice Lester (Star Trek),1
+Jar Jar Binks (Star Wars) ,1
+Jareth (Labyrinth),1
+Jareth the Goblin King (Labyrinth),1
+Jar-Jar (Star Wars),1
+Jarrod (The Pretender),1
+Jason Locke (Essex Boys),1
+Jason Scott (Mighty Morphin Power Rangers),1
+Jason Todd (DC Comics),1
+Javert (Les Miserables),1
+Jaws,1
+Jaws (James Bond),1
+Jay (Askewniverse),1
+Jay Gatsby (The Great Gatsby) ,1
+Jay Sherman (The Critic),1
+Jaye (Wonderfalls),1
+Jaye Tyler (Wonderfalls),1
+Jayne (Firefly),1
+Jayne Cobb (Firefly),1
+Jazz Hoyt (Oz),1
+JC Chasez,1
+JD (Scrubs),1
+Jean Grey (X-Men),1
+Jean Havoc (Fullmetal Alchemist),1
+Jean Lafitte,1
+Jean Valjean (Les Miserables),1
+Jean-Claude (Anita Blake books),1
+Jean-Luc Picard (Star Trek) ,1
+Jeannie (I Dream Of Jeannie),1
+Jeannie Bueller (Ferris Bueller's Day Off),1
+Jean-Paul Beaubier (X-Men),1
+Jeff Bebe (Almost Famous),1
+Jeff Gordon (NASCAR),1
+Jefferson Smith (Mr. Smith Goes To Washington),1
+Jeffrey (Coupling),1
+Jem (Jem!),1
+Jem Finch (To Kill A Mockingbird),1
+Jen (Dark Crystal),1
+Jen (The Dark Crystal),1
+Jennifer (Pleasantville),1
+Jennifer Lopez,1
+Jennifer Walters (She-Hulk),1
+Jenny Calendar (Buffy),1
+Jenny Hill (Big Fish),1
+Jenny Sparks (The Authority),1
+Jephraim Tallow (Michael Moorcock's Eternal Champions),1
+Jeremy (Sports Night),1
+Jeremy Boob (Yellow Submarine),1
+Jeremy Goodwin (Sports Night),1
+Jerri (Strangers With Candy),1
+Jeryline (Tales From The Crypt: Demon Knight),1
+Jesse Custer (Preacher),1
+Jessica Atreides (Dune),1
+Jessica Rabbit (Who Framed Roger Rabbit),1
+Jesus,1
+Jet Black (Cowboy Bebop),1
+Jethro Bodine (The Beverly Hillbillies),1
+Jethro Gibbs (Navy NCIS),1
+Jhonen Vasquez (comic artist),1
+Jiang Wei (Dynasty Warriors),1
+Jiji (Kiki's Delivery Service),1
+Jim Brass (CSI),1
+Jim Dangle (Reno 911!),1
+Jim Ellison (The Sentinel),1
+Jim Hansen (Providence),1
+Jim Malone (Untouchables),1
+Jimmy Bond (The Lone Gunmen),1
+Jimmy Cooper (O.C.),1
+Jimmy James (NewsRadio),1
+Jimmy Olsen (Superman),1
+Jin (Lost),1
+Jin (Samurai Champloo),1
+Jin (Tekken),1
+Jinnai (El Hazard),1
+Jiraiya (Naruto),1
+Jo March (Little Women),1
+Joan Girardi (Joan of Arcadia),1
+Joan of Arc,1
+Jodi Chang (Tremors: The Series),1
+Jodie (Daria),1
+Jodie Landon (Daria),1
+Joe (Sky Captain),1
+Joe Dawson (Highlander),1
+Joey (Dawson's Creek) ,1
+Joey Tribbiani (Friends),1
+Joffy Next (Thursday Next),1
+John (John Doe),1
+John Adams,1
+John Allerdyce (X-Men),1
+John Allerdyce/Pyro (X-Men),1
+John Blaylock (The Hunger),1
+John Cage (Ally McBeal),1
+John Carter (ER),1
+John Carter (ER),1
+John Connor (Terminator 3),1
+John Constantine (Hellblazer),1
+John Crichton (Farscape),1
+John Danziger (Earth 2),1
+John Doggett (X-Files),1
+John Edwards (American politics),1
+John Hartigan (Sin City),1
+John Laroche (Adaptation) ,1
+John Littleton (Picket Fences),1
+John Locke (Lost),1
+John Lyman (West Wing),1
+John Malkovich (Being John Malkovich),1
+John Marbury (The West Wing),1
+John Matheson (Crusade),1
+John Meyers (Hellboy),1
+John Munch (Homicide; Law and Order),1
+John Munch (Law and Order: SVU),1
+John Pierpont Morgan,1
+John Sheppard (Stargate Atlantis),1
+John Sheppard (Stargate Atlantis),1
+John Sheridan (Babylon 5),1
+John Smith (The Dead Zone),1
+John Steed (Avengers),1
+John Watson (Sherlock Holmes),1
+Johnathan Crane (Batman Begins),1
+Johnny (Airplane!),1
+Johnny (The Homicidal Maniac),1
+Johnny Cage (Mortal Kombat),1
+Johnny Damon (The Boston Red Sox),1
+Johnny Depp,1
+Johnny Fever (WKRP in Cincinnati),1
+Johnny Five (Short Circuit),1
+Johnny Smith (Dead Zone),1
+Johnny Storm (Fantastic Four),1
+Johnny Theremin (Neil Gaiman),1
+Jolinar of Malkshur (Stargate SG-1),1
+Jon Arbuckle (Garfield),1
+Jon Dalton (Survivor),1
+Jon Proudstar (Exiles),1
+Jon Stewart (The Daily Show),1
+Jonas (Stargate SG-1) ,1
+Jonas Quinn (Stargate SG-1),1
+Jonathan (Buffy),1
+Jonathan Archer (Enterprise),1
+Jonathan Carnahan (The Mummy) ,1
+Jonathan Crane (Batman Begins),1
+Jonathan Kent (Smallville),1
+Jonathan Levinson (BtVS),1
+Jonathan Strange,1
+Jonathan Teatime (Discworld),1
+Jonathan Turner (Boy Meets World),1
+Jonathan son of Saul (Bible),1
+Jonathon (The Mummy series),1
+Jonny Quest,1
+Jool (Farscape),1
+Jordan (Crossing Jordan),1
+Jordan Cochran (Real Genius),1
+Jordan Sullivan (Scrubs),1
+Jordan Tate (Under Seige),1
+Jordan-Two-Delta (The Island),1
+Jorunn (Sophie's World),1
+Josef Stalin,1
+Josh (Clueless),1
+Josh Lyman (The West Wing),1
+Joxer (Xena),1
+Juan Valdez (Columbian Coffee Growers ads),1
+Jubilee (X-Men),1
+Judas Iscariot (Jesus Christ Superstar),1
+Judith (Joan of Arcadia),1
+Jughead Jones (Archie comics),1
+Jules (Bend It Like Beckham),1
+Jules Paxton (Bend It Like Beckham),1
+Jules Winnfield (Pulp Fiction),1
+Julia Sugarbaker (Designing Women) ,1
+Julian Bashir (Deep Space Nine),1
+Julian Bashir (Star Trek DS9),1
+Julian Luna (Kindred: The Embraced),1
+Julian Sark (Alias),1
+Julie Cooper (The O.C.),1
+Juliet (Romeo and Juliet),1
+Juliet Butler (Artermis Fowl),1
+Juliet Capulet (Romeo and Juliet),1
+Julio (Y Tu Mama Tambien),1
+Julius Belmont (Castlevania: Aria of Sorrow),1
+Julius Caesar,1
+Jumba Jookiba (Lilo and Stitch),1
+Juri Arisugawa (Shoujo Kakumei Utena),1
+Justin (Secret of NIMH),1
+Justin Crowe (Carnivale),1
+Justin Sinclair (City of Heroes),1
+K (Gravitation),1
+K (Men in Black),1
+K-9 (Doctor Who),1
+Kabuki (Kabuki),1
+Kaga (Iron Chef),1
+Kagome (Inuyasha),1
+Kagura (Azumanga Daioh),1
+Kagura Souma (Fruits Basket),1
+Kaho (Cardcaptor Sakura),1
+Kai (Lexx),1
+Kai Winn (ST:DS9),1
+Kain Blueriver (Lost Universe),1
+Kain Highwind (Final Fantasy IV),1
+Kakashi Hatake (Naruto),1
+Kaname (Full Metal Panic),1
+Kang (Marvel comics),1
+Kanna (Inuyasha),1
+Kara 'Starbuck' Thrace (Battlestar Galactica 2004),1
+Kara Thrace (BSG 2004),1
+Karen Sisco (Karen Sisco),1
+Karen Sisco (Out of Sight),1
+Kari Byron (Mythbusters),1
+Kari Kamiya (Digimon Adventure),1
+Karl 'Helo' Agathon (Battlestar Galactica 2004),1
+Karl Rove,1
+Karl Ruprecht Kroenen (Hellboy),1
+Karolina (Runaways),1
+Kasumi (Pokemon),1
+Kate (Angel),1
+Kate (From Dusk Till Dawn),1
+Kate (Lost),1
+Kate Todd (NCIS),1
+Katherine (Cruel Intentions),1
+Katherine Pryde (X-Men),1
+Kathleen Clayton (Tarzan),1
+Kathryn Janeway (Star Trek Voyager),1
+Katie Hitchcock (seaQuest DSV),1
+Katsuhiko Jinnai (El Hazard),1
+Katsumi Liqueur (Silent Mobius),1
+Katsumoto (Last Samurai),1
+Kavanagh (Stargate Atlantis),1
+Kawalski (Stargate SG-1),1
+Kay (Once and Future King),1
+Kaylee (Firefly),1
+Kazuki (Getbackers),1
+Kefka (Final Fantasy VI) ,1
+K'Ehleyr (Star Trek TNG),1
+Keisuke Yuuki (Fushugi Yuugi),1
+Keith (Voltron),1
+Keith Mars (Veronica Mars),1
+Keith Scott (One Tree Hill),1
+Kelso (That 70s Show),1
+Ken Hutchinson (Starsky & Hutch),1
+Kennedy (BtVS),1
+Kennedy (Neighbours),1
+Kenny (South Park),1
+Kermit the Frog (Muppets),1
+Kevin Girardi (Joan of Arcadia),1
+Kevin Wilson (New Series Tomorrow People),1
+Keyser Soze (The Usual Suspects),1
+Khan (Star Trek),1
+Kid (The Animatrix),1
+Kiing Kelson (Deryni Books),1
+Kikyou (Inuyasha),1
+Killick,1
+Killua (Hunter X Hunter),1
+Kim (Kath & Kim),1
+Kim (Something Positive),1
+Kim Bauer (24),1
+Kim Possible ,1
+Kimimaro (Naruto),1
+King Arthur (The Once and Future King),1
+King George III,1
+King Henry IV,1
+King Henry VIII,1
+King Louis XIV,1
+King Louis XVI,1
+King Ludwig II of Bavaria,1
+King Mob (The Invisibles),1
+Kingsley Shacklebolt (HP),1
+Kio (Loveless),1
+Kip (Napoleon Dynamite),1
+Kira Nerys (Star Trek DS9),1
+Kira Yamato (Gundam SEED Destiny),1
+Kirby (Kirby),1
+Kirby (St. Elmo's Fire),1
+Kirk (Gilmore Girls),1
+Kirsty (Johnny Maxwell trilogy),1
+Kirsty (Ultraviolet),1
+Kisa (Fruits Basket),1
+Kisara (Yu-Gi-Oh!),1
+Kitiara Uth Matar (Dragonlance),1
+KITT (Knight Rider),1
+Kitty Pryde (X-Men),1
+Kiva (Megas XLR),1
+Kivrin (Doomsday Book),1
+Klaus Baudelaire (A Series of Unfortunate Events),1
+Knights of the Zodiac),1
+Knuckles the Echidna (Sonic the Hedgehog games),1
+Kolchak (Kolchak the Night Stalker),1
+Kon-el (DC comics),1
+Korbin Dallas (The Fifth Element),1
+Kosh I (Babylon 5),1
+Kosh II (Babylon 5),1
+KOS-MOS (Xenosaga),1
+Kouga (Inuyasha),1
+Kouichi Kimura (Digimon 04),1
+Kouji (Fushugi Yuugi),1
+Kowalski (SG-1),1
+Kreacher (HP),1
+Kristin Westphalen (seaQuest DSV),1
+Kristine Kochanski (Red Dwarf),1
+Kristy Thomas (Baby-Sitters Club),1
+Kronk (The Emporer's New Groove),1
+Kronos (Highlander),1
+Krycek (The X-Files),1
+Kryten (Red Dwarf),1
+Kuja (Final Fantasy 9),1
+Kuni (UHF),1
+Kupop,1
+Kurosaki Hisoka (Yami no Matseui),1
+Kurt Barlow (Salem's Lot) ,1
+Kuwabara (YYH),1
+Kyle Rayner (Green Lantern),1
+Kyle Reese (Terminator),1
+Kyle Valenti (Roswell),1
+Kyo (Fruits Basket),1
+Kyou (Fruits Basket) ,1
+L (Death Note),1
+La Carlotta (Phantom of the Opera,1
+LaBarbara Conrad (Futurama),1
+Lacroix (Forever Knight),1
+Lain (Serial Experiment Lain),1
+Lamont Cranston (The Shadow),1
+Lana Lang (Smallville),1
+Lance Bass,1
+Lancelot (King Arthur),1
+Lancelot (Monty Python and the Holy Grail),1
+Land Shark (SNL),1
+Lando Calrissian (Star Wars),1
+Lang Walton (Shoulder Arms),1
+Langston Hughes,1
+Lara (Zhivago),1
+Lara Croft (Tomb Raider),1
+Lara Perkins (The L Word),1
+Larry "Pinto" Kroger (Animal House),1
+Larry (Closer),1
+Larry Fleinhardt (Numb3rs),1
+Larry Mullen Jr,1
+Larry Smith (Double Star),1
+Larry the Cable Guy (Blue Collar Comedy),1
+Larvelle Jones (Police Academy),1
+Lattice (Lost Skeleton of Cadavra),1
+Laura (American Gods),1
+Laura Ballard (Homicide),1
+Laura Ingalls Wilder (Little House on the Prarie),1
+Laura Palmer (Twin Peaks),1
+Laura Roslin (Battlestar Galactica 2004),1
+Laurel (Midnight Nation),1
+Lauren Reed (Alias),1
+Laurie (Little Women),1
+Laurie Forman (That 70's Show),1
+Lavaeolus (Discworld),1
+Lavender Brown (HP),1
+Lawrence of Arabia,1
+Layne (River's Edge),1
+Lazarus Long (Heinlein),1
+Lee "Apollo" Adama (Battlestar Galactica 2005),1
+Lee Holloway (Secretary),1
+Leela (Futurama),1
+Leeloo (The Fifth Element),1
+Leetah (Elfquest),1
+Legato Bluesummers (Trigun),1
+Legolas (Lord of the Rings),1
+Leia (Star Wars),1
+Leia Organa (Star Wars),1
+Leif Erikson,1
+Lemina (Lunar 2: Eternal Blue),1
+Lemony Snicket (A Series of Unfortunate Events),1
+Lena (Sisterhood of the Traveling Pants),1
+Lena Kundera (All My Children),1
+Lennier (B5),1
+Lenny Brisco (Law and Order),1
+Lenny Briscoe (Law and Order),1
+Lenny Nero (Strange Days),1
+Leo McGarry (West Wing),1
+Leo Wyatt (Charmed),1
+Leon (The Professional),1
+Leonard Betts (X-Files),1
+Leonard of Quirm (Discworld),1
+Leonard Shelby (Memento),1
+Leonardo da Vinci,1
+Leporello (Don Giovanni),1
+Lestat (Vampire Chronicles),1
+Lester Burnham (American Beauty),1
+Leto Atreides II (Dune),1
+Lex Luthor,1
+Lex Luthor (Smallville),1
+Lexington (Gargoyles),1
+Liam Kincaid (Earth: Final Conflict),1
+Liam Pace (Lost),1
+Libby Mae Brown (Waiting for Guffman),1
+Lieutenant Barkley (Star Trek TNG),1
+Lieutenant Chang (Mulan),1
+Lieutenant Malcolm Reed (Enterprise),1
+Light Yagami (Death Note),1
+Lightray (New Gods),1
+Lilah (Carnivale),1
+Lilah Morgan (Angel),1
+Lilandra (X-Men),1
+Lilly Kane (Veronica Mars),1
+Lilly Rush (Cold Case),1
+Lilo (Lilo and Stitch),1
+Lily von Shtupp (Blazing Saddles),1
+Lincoln Six-Echo (The Island),1
+Linda Day (Press Gang),1
+Lindsey (Angel),1
+Lindsey Bluth-Funke (Arrested Development),1
+Ling Ling (Steam Detectives),1
+Linh Tamiya (Hawaii),1
+Link (The Legend of Zelda),1
+Linus (Ocean's 11),1
+Linus (Peanuts),1
+Linus Torvalds,1
+Lionel Luthor (Smallville),1
+Lion-O (Thundercats),1
+Lisa Cuddy (House),1
+Lisa Simpson (The Simpsons),1
+Little Red Riding Hood,1
+Liu Zhuzen (Shadow Hearts),1
+Livia (Xena),1
+Liz (Hellboy),1
+Liz Parker (Roswell),1
+Lizzie McGuire (Lizzie McGuire),1
+Llama Kuzco (Emperor's New Groove),1
+Lloyd Dobbler (Say Anything),1
+Lobelia Sackville-Baggins (LotR),1
+Locke (Lost),1
+Logan (X-Men),1
+Logan 5 (Logan's Run),1
+Logan Cale (Dark Angel) ,1
+Logan Echolls (Veronica Mars),1
+Lois Griffin (Family Guy),1
+Loki (Dogma),1
+Loki (Norse Mythology),1
+Lola (Run Lola Run),1
+Lon Suder (ST:Voyager),1
+Londo Mollari (Babylon 5),1
+Lone Star (Spaceballs),1
+Long John Silver,1
+Lonnie Henderson (Seaquest),1
+Lorelei Gilmore (Gilmore Girls),1
+Loren Singer (JAG),1
+Lorne (Angel),1
+Lou Grant (The Mary Tyler More Show),1
+Louie (Rune Soldier Louie),1
+Louie de Palma (Taxi),1
+Louis (Interview with the Vampire),1
+Louis (Vampire Chronicles),1
+Low Key (American Gods),1
+Lu Bu (Dynasty Warriors),1
+Lu Bu (Romance of the Three Kingdoms,1
+Lu Xun (Dynasty Warriors),1
+Lucas (Empire Records),1
+Lucas Kendall (Power Rangers: Time Force),1
+Lucas Wolenczak (Seaquest),1
+Lucca (Chrono Trigger),1
+Lucien (Sandman),1
+Lucien Lacroix (Forever Knight),1
+Lucifer (Biblical),1
+Lucifer (Sandman),1
+Lucille Bluth (Arrested Development),1
+Lucius Malfoy (Harry Potter),1
+Lucky Day (Three Amigos),1
+Lucy (50 First Dates),1
+Lucy (Jekyll & Hyde),1
+Lucy Knight (ER),1
+Lucy Pevensie (Chronicles of Narnia),1
+Lucy Ricardo (I Love Lucy),1
+Lucy Whitmore (50 First Dates),1
+Ludo (Labyrinth),1
+Luigi (Super Mario Brothers),1
+Luka Kovac (ER),1
+Luka Kovac (ER),1
+Luke (Joan of Arcadia),1
+Luke Duke,1
+Luke Skywalker ,1
+Lulu Archer (The Guardian),1
+Lumiere (Beauty and the Beast),1
+Luna (Sailor Moon),1
+Luna Lovegood (Harry Potter),1
+Lurtz (LotR),1
+Lust (Fullmetal Alchemist),1
+Lwaxana Troi (ST:NG),1
+Lwaxana Troi (Star Trek),1
+Lynn Minmei (Macross) ,1
+Lyra Belacqua (His Dark Materials),1
+Lysander Sage (Charlie Bone),1
+Lyta Alexander (Babylon 5),1
+M (James Bond - Judi Dench version),1
+M. Gillenormand (Les Miserables),1
+Ma Kettle ,1
+Mac Taylor (CSI:NY),1
+Macbeth (Gargoyles),1
+Macduff (Macbeth),1
+Mace Windu (Star Wars),1
+Macnair (Harry Potter),1
+Maddie (Jonathan Creek),1
+Maddie Hayes (Moonlighting),1
+Maddy (Jonathan Creek),1
+Mad-Eye Moody (HP),1
+Maeby (Arrested Development),1
+Maeby Funke (Arrested Development) ,1
+Maedhros (Silmarillion),1
+Maelgwn Gwynedd,1
+Maes Hughes (Fullmetal Alchemist),1
+Maggie Simpson (The Simpsons),1
+Magic Voice (MST3K),1
+Magneto (X-Men) ,1
+Magrat (Discworld),1
+Magus (Chronos Trigger),1
+Mal Reynolds (Firefly),1
+Maladict(a) (Discworld),1
+Malcolm (Malcolm in the Middle),1
+Malcolm Bridges (Babylon 5: The Legend of the Rangers),1
+Malcolm Reed (Enterprise),1
+Malcolm Reed (Star Trek: Enterprise),1
+Maleficent (Sleeping Beauty),1
+Malik (Yu-Gi-Oh),1
+Mallory Pike (Babysitters Club),1
+Mama Morton (Chicago),1
+Mamoru (Sailor Moon),1
+Manny Bianco (Black Books),1
+Mara Jade (Star Wars),1
+Marco (Animorphs),1
+Marcus Brody (Indiana Jones),1
+Marcus Cole (Babylon 5),1
+Marcus Hamilton (Angel),1
+Margaret (West Wing),1
+Margaret Blaine de Slitheen (Doctor Who),1
+Margaret of Anjou (Henry VI),1
+Margaret Yang (Rushmore),1
+Margarette (Shadow Hearts),1
+Marge Gunderson (Fargo),1
+Maria (Roswell),1
+Maria Tachibana (Sakura Wars),1
+Marianne Dashwood (Sense & Sensibility),1
+Marie Antoinette,1
+Marie Curie,1
+Mariel (Mariel of Redwall),1
+Marietta (HP),1
+Marilyn Monroe,1
+Marion Ravenwood (Raiders of the Lost Ark) ,1
+Marissa Cooper(The O.C.),1
+Marita Covarrubias (The X-Files),1
+Marius (Vampire Chronicles),1
+Marius St. Croix (Generation X),1
+Mark (Love Actually),1
+Mark Cohen (RENT),1
+Mark Darcy (Bridget Jones's Diary),1
+Marla (Fight Club),1
+Marla Singer (Fight Club),1
+Marlena (Days of Our Lives),1
+Marlin (Finding Nemo),1
+Marquis de Sade,1
+Marrow (X-Men),1
+Marshall (Alias),1
+Marshall Flinkman (Alias),1
+Martha Kent (Smallville),1
+Martin Dear (Green Wing),1
+Martin Fitzgerald (Without a Trace),1
+Martin Q. Blank (Grosse Point Blank),1
+Martin van Buren,1
+Martine Desroubins (Tad Williams' Otherland),1
+Martouf (SG-1),1
+Marty McFly (Back to the Future),1
+Marv (Sin City),1
+Marvin (Hitchhiker's Guide),1
+Marvin the Martian (Looney Tunes),1
+Mary (Gosford Park),1
+Mary Cherry (Popular),1
+Mary Jane (Spider-Man),1
+Mary Kelly (From Hell),1
+Mary Lennox (The Secret Garden),1
+Mary Malone (His Dark Materials),1
+Mary Reilly (Mary Reilly),1
+Mary Shelley,1
+Mason (Dead Like Me),1
+Mason Eckhart (Mutant X),1
+Master Chief (Halo),1
+Mata Hari,1
+Ma-Ti (Captain Planet),1
+Matilda (Matilda),1
+Matilda (Roahd Dahl),1
+Matrim Cauthon (Wheel of Time),1
+Matsumoto aka Shinesman Red (Shinesman),1
+Matthew (Fire Emblem),1
+Matthew Gideon (Crusade),1
+Matthew McCormick (HL),1
+Matthew Quigley (Quigley Down Under),1
+Matthew Sikes (Alien Nation),1
+Mattimeo (Redwall),1
+Maturin series),1
+Maude Flanders (The Simpsons),1
+Maverick (Top Gun),1
+Max (Brimstone),1
+Max (Dark Angel),1
+Max (Roswell),1
+Max Bailystock (The Producers),1
+Max California (8mm),1
+Max Eilerson (B5 Crusade),1
+Max Fischer (Rushmore),1
+Max Sterling (Robotech/Macross),1
+Maximus (Gladiator),1
+Maximus (Gladiator),1
+Maxwell Lord (DC Universe),1
+May (Pokemon),1
+May Parker (Ultimate Spider-Man),1
+Mayor Richard Wilkins (BtVS),1
+Mayor Wilkins (BtVS),1
+Mazikeen (Lucifer) ,1
+McGonagell (Harry Potter),1
+McKay (SG Atlantis),1
+Media (American Gods),1
+Meer Campbell (Gundam SEED Destiny),1
+Meg Giry (Phantom of the Opera),1
+Meg Murray (A Wrinkle In Time) ,1
+Megabyte Damon (New Series Tomorrow People),1
+Megan (My Little Ponies),1
+Megatron,1
+Melanie Wilkes (Gone with the Wind),1
+Mele-On Grayza (Farscape),1
+Melman (Madagascar),1
+Melody,1
+Melody Valentine (Josie & the Pussycats),1
+Melvin Frohike (X-Files),1
+Melvin Smiley (The Big Hit),1
+Menchi (Excel Saga),1
+Menolly (Dragonriders of Pern novels),1
+Meowth (Pokemon),1
+Mephistopheles (Faust),1
+Mercutio (Romeo and Juliet),1
+Merrill Hess (Signs),1
+Merriman (The Dark is Rising) ,1
+Merry Brandybuck (LotR),1
+Mervyn Bunter (Dorothy Sayers novels),1
+Mervyn Pumpkinhead (Sandman),1
+Metatron (Angel Sanctuary),1
+Methos (Highlander),1
+Methos (HL),1
+Metroid (Metroid),1
+Mia Thermopolis (The Princess Diaries) ,1
+Mia Wallace (Pulp Fiction),1
+Miaka (Fushigi Yugi),1
+Micah (Anita Blake),1
+Michael (Arrested Development),1
+Michael (La Femme Nikita),1
+Michael (Michael),1
+Michael (Underworld),1
+Michael Bluth (Arrested Development),1
+Michael Carter (DC Comics),1
+Michael Cassio (Othello),1
+Michael Corleone (The Godfather trilogy),1
+Michael Garibaldi (Babylon 5),1
+Michael Guerin (Roswell),1
+Michael Moskovitz (The Princess Diaries),1
+Michael Samuelle (Le Femme Nikita),1
+Michel Gerard (Gilmore Girls),1
+Michelangelo (TMNT),1
+Michele Flaherty (American Pie),1
+Michelle Dessler (24),1
+Mickey Mouse,1
+Miguel (Road to El Dorado),1
+Miguel Alvarez (OZ),1
+Miho (Sin City),1
+Mike (Stranger in a Strange Land),1
+Mike Donovan (V),1
+Mike Logan (Law and Order),1
+Mike Nelson (MST3K),1
+Mike Silletti (Rescue Me),1
+Mike Toreno (Grand Theft Auto: San Andreas),1
+Mike Watt (Spaced),1
+Mike Wazowski (Monsters Inc.),1
+Mileena (Mortal Kombat),1
+Miles O'Brien (Star Trek),1
+Millerna Aston (Escaflowne),1
+Millicent Bulstrode (HP),1
+Milo (Milo and Otis),1
+Milton (Office Space),1
+Mimi (Rent),1
+Min (Wheel of Time),1
+Mina Harker,1
+Mina Murray (League of Extraordinary Gentlemen),1
+Ming the Merciless,1
+Minnie Mouse (Disney),1
+Mint (Galaxy Angel),1
+Miracle Max (Princess Bride),1
+Mirage (The Incredibles) ,1
+Miranda (Sex and the City),1
+Miranda Frost (Die Another Day),1
+Mirelle (Noir),1
+Miroku (Inuyasha),1
+Misato (Evangelion),1
+Miss Dashwood the Elder (Sense and Sensibility) ,1
+Miss Marple,1
+Miss Moneypenny (James Bond),1
+Miss Parker (The Pretender),1
+Miss Piggy (The Muppets),1
+Miss Scarlet (Clue),1
+Miss Trunchbull (Matilda),1
+Mister Miracle (New Gods),1
+Misty (Pokemon),1
+Mitch (A Mighty Wind),1
+Miyako (Digimon),1
+Mme Thenardier (Les Miserables),1
+Moaning Myrtle (HP),1
+Moiraine Damodred (Wheel of Time),1
+Mojo Jojo (Powerpuff Girls),1
+Molly Grue (Last Unicorn),1
+Molly Millions (Neuromancer),1
+Molotov Cocktease (Venture Brothers),1
+Moltar (Space Ghost: Coast to Coast),1
+Momoji Sohma (Fruits Basket) ,1
+Momoko Hanasaki (Wedding Peach),1
+Momoshiro Takeshi (Prince of Tennis),1
+Mon Mothma (Star Wars),1
+Monica Reyes (X-Files),1
+Monk McGann (Gangs of New York),1
+Monsieur Gillenormand (Les Miserables),1
+Montgomery Scott (Star Trek),1
+Montparnasse (Les Miserables),1
+Moonglum (Eternal Champions),1
+Mordred (Dark Tower),1
+Moreta (Dragonriders of Pern),1
+Morgan Edge (Smallville),1
+Morgoth (Silmarillion),1
+Morn (DS9),1
+Morph (X-Men),1
+Morpheus (Sandman),1
+Morpheus (The Matrix),1
+Morris Delancey (Newsies),1
+Morticia Adams,1
+Mortimer Brewster (Arsenic and Old Lace),1
+Moses (Biblical),1
+Mother Theresa,1
+Motoko Kusanagi (Ghost in the Shell),1
+Mouse (Ladyhawke),1
+Moya (Farscape),1
+Mozart,1
+Bananagrabber (Arrested Development),1
+Mr. Bean,1
+Mr. Beaver (Chronicles of Narnia),1
+Mr. Belding (Saved By The Bell),1
+Mr. Big (Sex and the City),1
+Mr. Blonde(Resevoir Dogs),1
+Mr. Brown (PotC),1
+Mr. Burns (The Simpsons),1
+Mr. Collins (Pride and Prejudice),1
+Mr. Cotton's parrot (PotC),1
+Mr. Croup (Neverwhere),1
+Mr. Darcy (Pride and Prejudice),1
+Mr. Dark (Something Wicked This Way Comes),1
+Mr. Fantastic (Fantastic Four),1
+Mr. Fizzwidget (Ratchet and Clank),1
+Mr. Flibble (Red Dwarf),1
+Mr. Hanky (South Park),1
+Mr. Hat (South Park),1
+Mr. Ibis (American Gods),1
+Mr. Joker (Read or Die),1
+Mr. K (Gravitation),1
+Mr. Mistoffeles (Cats),1
+Mr. Miyagi (Karate Kid),1
+Mr. Nancy (American Gods),1
+Mr. O'Neil (Daria),1
+Mr. Pink (Reservoir Dogs),1
+Mr. Prosser (Hitchhiker's Guide to the Galaxy),1
+Mr. Pump (Discworld),1
+Mr. Rice (Mr. Rice's Secret),1
+Mr. Snuffleupagus (Sesame Street),1
+Mr. Spock,1
+Mr. Tumnus (Chronicles of Narnia),1
+Mr. Wickham (Pride and Prejudice),1
+Mrs. Bennett (Jane Austen),1
+Mrs. Brisby (The Secret of NIMH),1
+Mrs. Coulter (His Dark Materials),1
+Mrs. Doubtfire,1
+Mrs. Norris (Mansfield Park),1
+Mrs. Smith (Mr. and Mrs. Smith),1
+Mrs. Tachyon (Johnny Maxwell series),1
+Mrs. White (Clue),1
+Ms. Deep (Read or Die),1
+Ms. Spider (James and the Giant Peach),1
+Mugen (Samurai Champloo),1
+Mulcahy (M*A*S*H),1
+Mulder (X-Files),1
+Munch (Law and Order SVU),1
+Munch (SVU),1
+Mundungus Fletcher (HP),1
+Muraki (Yami no Matsuei),1
+Murasaki Shikibu,1
+Murata Azrael (Gundam SEED),1
+Murray (Monkey Island),1
+Murray (Sly Cooper),1
+Muruta Azrael (Gundam SEED),1
+Mushu (Mulan),1
+Mustrum Ridcully (Discworld),1
+Myn Donos (Star Wars),1
+Mystique (X-Men),1
+Nabeshin (Excel Saga),1
+Nabiki Tendou (Ranma 1/2),1
+Nadia (Lost),1
+Nadia Santos (Alias),1
+Naga (Slayers),1
+Nakago (Fushigi Yuugi),1
+Namor (Marvel comics),1
+Nan Pilgrim (Chrestomanci Chronicles),1
+Nanami (Revolutionary Girl Utena),1
+Nancy (The Craft),1
+Nancy Drew,1
+Nancy Gribble (King of the Hill),1
+Nancy Ogg (Discworld) ,1
+Nancy Thompson (Nightmare on Elm Street),1
+Nanmu (Utena),1
+Nanny Ogg (Discworld),1
+Napoleon,1
+Naraku (Inuyasha),1
+Narcissa Malfoy (HP),1
+Naru (Sailor Moon),1
+Naruto,1
+Natalie Hurley (Sports Night),1
+Natalie Teeger (Monk),1
+Nate Fisher (Six Feet Under),1
+Nate Grey (X-Man),1
+Nate Grey (X-Men comicverse),1
+Nathaniel (Anita Blake series),1
+Nathaniel Fisher,1
+Nathaniel Fisher Jr. (Six Feet Under),1
+Natsumi Hinata (Sgt. Frog),1
+Navarre (Ladyhawke),1
+Navi the Fairy (Legend of Zelda),1
+Nealan of Queenscove (Tamora Pierce),1
+Ned Flanders (The Simpsons),1
+Neela Rasgostra (ER),1
+Neelix (Voyager),1
+Neil Gaiman,1
+Neil McCauley (Heat),1
+Neil Perry (Dead Poets Society),1
+Nekki Basara (Macross 7),1
+Nelix (ST Voyager),1
+Nelle Porter (Ally McBeal),1
+Nellie Olson (Little House on the Prairie),1
+Neo (Matrix trilogy),1
+Neo (The Matrix),1
+Neroon (Babylon 5),1
+Neville Longbottom (Harry Potter) ,1
+New Jersey (Buckaroo Banzai),1
+Newman (Seinfeld),1
+Newt Pulsifier (Good Omens),1
+Nibbler (Futurama),1
+Nicholas D. Wolfwood,1
+Nick (CSI),1
+Nick (The Forsaken),1
+Nick Charles (The Thin Man),1
+Nick Fallin (The Guardian),1
+Nick Knight (Forever Knight),1
+Nick Stokes (CSI),1
+Nick Wolfe (HL: The Raven),1
+Nicolae Carpathia (Left Behind),1
+Nicole Julian (Popular),1
+Nicole Wallace (Law and Order:CI),1
+Nicolette Raye (Kevin Hill),1
+Nigel Townsend (Crossing Jordan),1
+Nigel Tufnel (This Is Spinal Tap),1
+Night Owl (Watchmen),1
+Nightcrawler (X-Men),1
+Nightwing (DC),1
+Nikki (Chrono Cross),1
+Nikki Wood (BtVS),1
+Niles Crane (Frasier),1
+Nimue (King Arthur),1
+Nino (Amelie),1
+Niou (Prince of Tennis),1
+Nishi Jouichirou (Gantz),1
+Niska (Firefly),1
+Nobby Nobbs (Discworld),1
+Nocturne (Exiles),1
+No-Face (Spirited Away),1
+Noodle (Gorillaz),1
+Nora Charles (The Thin Man),1
+Norman (Big O),1
+Norman Osborn (Spider-Man),1
+Norman Stansfield (The Professional),1
+Norrington (PotC),1
+Northstar,1
+Nuala (Sandman),1
+Number 6 (Battlestar Galactica 2004),1
+Number 6 (The Prisoner),1
+Nuriko (Fushigi Yugi),1
+Nurse (Romeo + Juliet),1
+Nurse Kelleye (M*A*S*H),1
+Nursie (Blackadder II) ,1
+Nyarlathotep,1
+Nymphadora Tonks (Harry Potter) ,1
+Nynaeve al'Meara (Wheel of Time),1
+Nyota Uhura (ST),1
+Obelix (Asterix the Gaul),1
+Obi-Wan Kenobi (Star Wars),1
+Odin (Scandinavian mythology),1
+Odo (DS9),1
+Odysseus (Iliad/Odyssey),1
+Offred (Handmaid's Tale),1
+Okkotonushi (Princess Mononoke),1
+Oliver Queen (DC comics),1
+Oliver Trask (O.C.),1
+Oliver Wood (Harry Potter) ,1
+Olivia Benson (Law and Order: SVU),1
+Ophelia (Hamlet),1
+Optimus Prime (Transformers),1
+Oracle (DC),1
+Orange Guy (The Front),1
+O-Ren Ishii (Kill Bill),1
+Orestes (The Oresteia) ,1
+Orient,1
+Original Cindy (Dark Angel),1
+Original Silk Spectre (Watchmen),1
+Orin (Little Shop of Horrors),1
+Orion (New Gods),1
+Orko,1
+Orlando Bloom,1
+Orochimaru (Naruto),1
+Osaka (Azumanga Daioh),1
+Oscar Wilde ,1
+Oskar Schindler,1
+Otacon (Metal Gear Solid),1
+Otter (Animal House),1
+Owen Burnett (Gargoyles),1
+Owen Crawford (Taken),1
+Owen Lars (Star Wars),1
+Oy the Billy Bumbler (Dark Tower),1
+Oz (Buffy),1
+Ozymandias (Watchmen),1
+Ozymandias (X-Men),1
+Pacey Witter (Dawson's Creek),1
+Pac-Man,1
+Padadu (Magical Play),1
+Padme Skywalker,1
+Pagan Kidrouk (Pagan's Crusade),1
+Pai (3x3 Eyes),1
+Paige Halliwell (Charmed),1
+Paige Matthews (Charmed),1
+Paine (Final Fantasy X-2),1
+Pandora (Vampire Chronicles),1
+Pansy Parkinson (Harry Potter),1
+Pantalaimon (His Dark Materials),1
+Papa Smurf (Smurfs),1
+Paris (Iliad),1
+Paris Hilton,1
+Parker Lewis (Parker Lewis Can't Lose),1
+Parry,1
+Parvati Patil (Harry Potter),1
+Pat Mustard (Father Ted),1
+Patience (Wyrms),1
+Patrick (Coupling),1
+Patrick (Spongebob Squarepants),1
+Patrick Bateman (American Psycho),1
+Patrocles (Troy),1
+Patsy Stone (Absolutely Fabulous),1
+Paul (The Wonder Years),1
+Paul Atreides (Dune),1
+Paul Davis (Stargate SG-1),1
+Paul Falsone (Homicide),1
+Paul Merton (HIGNFY),1
+Paul Muadib (Dune),1
+Paul Wang (Space: Above and Beyond),1
+Pavel Chekov (Star Trek),1
+PC Plum (Balamory),1
+Peach (Finding Nemo),1
+Pearl (Legend of Mana),1
+Pearl Forrester,1
+Pebbles (Flintstones),1
+PeeJee (Something Positive),1
+Pee-Wee Herman,1
+Peg Powell (Tam Lin),1
+Pegasus (Sailor Moon),1
+Peggy Hill (King of the Hill),1
+Pellew (Hornblower),1
+Pembleton (Homicide),1
+Penance (Generation X),1
+Pendergast,1
+Pendrell (X-Files),1
+Penelope (The Odyssey),1
+Penelope Clearwater (HP),1
+Circe (the Odyssey),1
+Penelope Pitstop (The Perils of ...),1
+Penfold (Danger Mouse),1
+Penny Gadget (Inspector Gadget cartoon),1
+Pepe the Shrimp (Muppets),1
+Pepper (Good Omens),1
+Percy Weasley (Harry Potter),1
+Peregrin Took (Lord of the Rings),1
+Perfect Tommy (Buckaroo Banzai),1
+Perry Cox (Scrubs),1
+Pervinca Took (Lord of the Rings),1
+Petaline (Firefly),1
+Pete Ross (Smallville),1
+Peter (Narnia),1
+Peter Dragon (Action),1
+Peter Gibbons (Office Space),1
+Peter Griffin (Family Guy),1
+Peter Grodin (Stargate Atlantis),1
+Peter Grodin (Stargate Atlantis),1
+Peter Pan,1
+Peter Parker (Spider-Man),1
+Peter Pettigrew (Harry Potter) ,1
+Peter Raedar (The Flight Engineer Saga),1
+Peter Wiggin (Ender's Game),1
+Peter Wimsey (Dorothy L Sayers),1
+Petra (Ender's Game),1
+Petrefax (Sandman),1
+Petros (1602),1
+Petty Officer Jennifer Coates (JAG),1
+Petunia Dursley (HP),1
+Phil (The Amazing Race),1
+Phil Diffy (Phil of the Future),1
+Phil Koeghan (Amazing Race),1
+Phil Martin (Neighbours),1
+Phil McNeil (NewsRadio),1
+Phillip Marlowe (Raymond Chandler novels),1
+Phillipe (Ladyhawke),1
+Phineas Boff (Voyagers),1
+Phlox (Enterprise),1
+Phoebe (Hey Arnold),1
+Phoebe Halliwell (Charmed),1
+Piccolo (DBZ),1
+Piers Gaveston,1
+Piers Polkiss (HP),1
+Piffany (Noodwick),1
+Piggy (Lord of the Flies),1
+Piglet (Winnie the Pooh),1
+Pigwidgeon (Harry Potter),1
+Pikachu,1
+Pilot (Farscape),1
+Pinhead (Hellraiser),1
+Pink (Pink Floyd's The Wall),1
+Pink Panther,1
+Pinky (Pinky and the Brain),1
+Pinocchio (Harsh Realm),1
+Pint-Size (Questionable Content),1
+Piper Halliwell (Charmed),1
+Pippi Longstocking,1
+Pippin (Lord of the Rings),1
+Piro (MegaTokyo webcomic),1
+Pit Stain (Adventures of Pete and Pete),1
+Piter de Vries (Dune),1
+Pizzazz (Jem),1
+Plastic Man,1
+Plato,1
+Pocahontas,1
+Poison Ivy (Batman),1
+Polgara (David Eddings' novels),1
+Pollution (Good Omens),1
+Polly Perkins (Sky Captain),1
+Polly Perks (Discworld),1
+Pontius Pilate (Jesus Christ Superstar),1
+Ponyboy Curtis (Outsiders),1
+Pope Gregory I,1
+Poppy Pomfrey (HP),1
+Porthos (Enterprise),1
+Preparation H Raymond (Late Night With Conan O'Brien),1
+Prior Walter (Angels in America),1
+Priss Asagiri (Bubblegum Crisis 2040),1
+Private Vasquez (Aliens),1
+Proinsias Cassidy (Preacher),1
+Proto Man (Bob & George),1
+PsyDuck (Pokemon),1
+Psylocke (X-Men comics),1
+Pteppic (Discworld),1
+Pubert Addams (Addams Family Values),1
+Puck (A Midsummer Night's Dream),1
+Puck (Gargoyles) ,1
+Puddleglum (The Silver Chair),1
+Pullings (Master and Commander),1
+Pumbaa (The Lion King),1
+Pumyra (Thundercats),1
+Puni Puni Poemy),1
+Punky Brewster ,1
+Puss in Boots (Shrek 2),1
+Pyro (X-Men movieverse),1
+Q (James Bond),1
+Q (ST:TNG),1
+Quagmire (Family Guy),1
+Quark (ST:DS9),1
+Queenie (Blackadder) ,1
+Queequeg (The X-Files),1
+Queer Duck (Queer Duck),1
+Quentin Collins (Dark Shadows),1
+Qui-Gon Jinn (Star Wars),1
+Quinn (Quinn Medicine Woman),1
+Quinn Mallory (Sliders),1
+Quinn Morgendorfer (Daria),1
+Qwark (Ratchet and Clank),1
+R.Buckminster Fuller,1
+R2D2 (Star Wars),1
+Ra (Egyptian mythology),1
+Ra (Stargate,1
+Rabbi Aleva ,1
+Racetrack (Newsies),1
+Racetrack Higgens (Newsies),1
+Rachel Dawes (Batman Begins),1
+Rachel Green (Friends),1
+Radar (M*A*S*H),1
+Radar O'Reilly (M*A*S*H) ,1
+Radek Zalenka (Stargate Atlantis),1
+Radek Zelenka (Stargate Atlantic),1
+Rage (Gravitation),1
+Raiel (Violinist of Hameln),1
+Rain (Immortal Rain),1
+Rainbow Brite,1
+Raistlin Majere (Dragonlance),1
+Ralph Hinkley (The Greatest American Hero),1
+Ralph Ross Lanyon (The Charioteer),1
+Ralph Wiggum (The Simpsons),1
+Ram (The Tribe),1
+Ramona (Ramona the Brave),1
+Ramses Emerson (Amelia Peabody series),1
+Ran (Detective Conan),1
+Ran Fan (Fullmetal Alchemist),1
+Rand al'Thor (Wheel of Time) ,1
+Randal Prichard Waterhouse,1
+Randall (Clerks),1
+Randall Boggs (Monsters Inc.),1
+Randall Flagg (The Stand),1
+Randi (ER),1
+Random (Hitchhiker's Guide),1
+Random (Mostly Harmless),1
+Random Dent (Hitchhiker's Guide to the Galaxy),1
+Randy Disher (Monk) ,1
+Ranma (Boy-Type),1
+Ranma (Girl-Type),1
+Raoul (Phantom of the Opera),1
+Raoul de Chagny (Phantom of the Opera),1
+Raphael (TMNT),1
+Rapunzel's Prince (Into The Woods),1
+Ra's al Ghul (Batman Begins),1
+Rasputin,1
+Ratchet (Ratchet and Clank),1
+Raven (Snow Crash),1
+Raven (Teen Titans),1
+Raven (That's So Raven),1
+Rawhide (Buckaroo Banzai),1
+Ray Kowalski (Due South),1
+Ray Singh (The Lovely Bones),1
+Ray Vecchio (Due South),1
+Raymond Caine (CSI Miami),1
+Raymond Chandler,1
+Rebecca (Tank Girl),1
+Rebecca Locke (The Inside),1
+Red (Shawshank Redemption),1
+Red Foreman (That '70s Show),1
+Red Queen (Resident Evil movies),1
+Spike (BtVS),1
+Reepicheep (The Chronicles of Narnia),1
+Reese (Malcolm in the Middle),1
+Reg Shoe (Discworld),1
+Regan Cole (HL),1
+Reggie Higgins (Fame),1
+Regina George (Mean Girls),1
+Regis Hastur (Darkover series),1
+Regulus Black (HP),1
+Rei Ayanami (Neon Genesis Evangelion),1
+Relena Peacecraft (Gundam Wing),1
+Rembrandt van Rijn,1
+Remus Lupin (Harry Potter) ,1
+Remy Lebeau (X-Men),1
+Ren McCormack (Footloose),1
+Renaldo (Hellsing),1
+Renfield (Dracula),1
+Reno (Final Fantasy 7),1
+RepliCarter (Stargate SG1),1
+Rev Camden (7th Heaven),1
+Rex Manning (Empire Records),1
+Rex Van De Kamp (Desperate Housewives),1
+Rhett Butler (Gone with the Wind),1
+Richard (Caroline in the City),1
+Richard Bucket (Keeping Up Appearances),1
+Richard Hammond (Top Gear),1
+Richard II (Shakespeare),1
+Richard III,1
+Richard MacDuff (Dirk Gently's Holistic Detective Agency),1
+Richard Mayhew (Neverwhere),1
+Richard Nixon,1
+Richard Seaton (Skylark Series),1
+Richard Sharpe (Sharpe),1
+Richard Weineman (Emma Bull's Finder),1
+Ash (Nightworld),1
+Richie Ryan (Highlander),1
+Richie Tenenbaum (The Royal Tenenbaums),1
+Richie Tozier (Stephen King's It),1
+Richter Belmont (Castlevania: Symphony of the Night),1
+Rick Blaine (Casablanca),1
+Rick Deckard (Blade Runner),1
+Rick Hunter (Hunter),1
+Rick O'Connell (The Mummy),1
+Rick Santorum,1
+Rickie Vasquez (My So-Called Life),1
+Ricky (Better Off Dead),1
+Riddick (The Chronicles of Riddick) ,1
+Riff (Sluggy Freelance),1
+Riff (West Side Story),1
+Riff Raff (Rocky Horror Picture Show),1
+Riker (ST:TNG),1
+Riku (Kingdom Hearts),1
+Riku Harada (DNAngel),1
+Riley Finn (BtVS),1
+Riley Poole (National Treasure),1
+Rin (Final Fantasy X),1
+Rin (Spirited Away),1
+Rin Sohma (Fruits Basket),1
+Rincewind (Discworld),1
+Ringo Starr (Beatles),1
+Rinoa (Final Fantasy VIII),1
+Ripley (Alien series),1
+Ripper (BtVS),1
+Rita Skeeter (HP),1
+Ritchie Tenenbaum (Royal Tenenbaums),1
+Ritsuka Aoyagi (Loveless),1
+River Tam (Firefly),1
+Riza Hawkeye (Fullmetal Alchemist),1
+Rizzo (Grease),1
+Ro Laren (Star Trek),1
+Roast Beef Kazenzakis (Achewood),1
+Rob Zombie,1
+Robbespierre,1
+Robert Chase (House),1
+Robert Chase (House),1
+Robert E. Lee,1
+Robert Kennedy,1
+Robert Langdon (The Da Vinci Code),1
+Robert Paulson (Fight Club),1
+Robin (Batman),1
+Robin (Monty Python and the Holy Grail),1
+Robin (Witch Hunter Robin),1
+Robin Hood,1
+Robin Sena (Witch Hunter Robin),1
+Robin Wood (Buffy),1
+Robotnick (Sonic the Hedgehog),1
+Rochefort (Three Musketeers),1
+Rock Lee (Naruto),1
+Rodney McKay (Stargate Atlantis),1
+Roger Lococco (Wiseguy),1
+Roger Smith (Big O),1
+Roger the Homoculus (Hellboy),1
+Rogue (X-Men),1
+Rogue the Bat (Sonic the Hedgehog),1
+Roland of Gilead (Dark Tower),1
+Romana (Doctor Who),1
+Romano (ER),1
+Romilda Vane (HP),1
+Rommie (Andromeda),1
+Ron (HP),1
+Ron Stoppable (Kim Possible),1
+Ron Weasley (Harry Potter) ,1
+Ronald McDonald,1
+Ronna (Go),1
+Roronoa Zoro (One Piece),1
+Rorschach (Watchmen) ,1
+Rory Gilmore (Gilmore Girls),1
+Rosa Parks,1
+Rosalita Sanchez (Tremors: The Series),1
+Rosalyn Stone (Brimstone),1
+Rosario (Will and Grace),1
+Roscoe P. Coltrane (Dukes of Hazzard),1
+Rose (Fullmetal Alchemist),1
+Rose Red (Fables),1
+Rose Tyler (Doctor Who),1
+Rose Walker(Sandman) ,1
+Rosengurtle Baumgartener (Boondock Saints),1
+Rosie Cotton (LotR),1
+Rosiel (Angel Sanctuary),1
+Ross (Are You Afraid of the Dark?),1
+Ross Gellar (Friends),1
+Ross Villiers (Midsomer Murders),1
+Roux (Chocolat),1
+Rover (The Prisoner),1
+Rowdy Yates (Rawhide),1
+Roy Fokker (Robotech),1
+Roy Mustang (Fullmetal Alchemist),1
+Rube (Dead Like Me),1
+Rubeus Hagrid,1
+Ruby Moon (Cardcaptor Sakura),1
+Ruby Thewes (Cold Mountain),1
+Rufus (Bill and Ted's Excellent Adventure),1
+Rufus (Dogma),1
+Runa (Ronin Warriors),1
+Running Man (Intellivision),1
+Rupert Giles (Buffy),1
+Rusty Ryan (Ocean's Eleven),1
+Rusty the Emo Dalek (Doctor Who),1
+Ruth Fisher (Six Feet Under),1
+Rutherford B. Hayes,1
+Ryan Atwood (The OC),1
+Ryan O'Reilly (OZ),1
+Ryan Pierce (West Wing),1
+Ryan Seacrest (Americon Idol),1
+Rygel (Farscape),1
+Ryoko,1
+Ryuichi (Gravitation),1
+S.O. Baldrick (Blackadder - any season),1
+Saavik (ST),1
+Sabrina Spellman (Sabrina the Teenage Witch),1
+Sadako (The Ring),1
+Saddam Hussein (South Park),1
+Saffron (Firefly),1
+Sagara (Full Metal Panic),1
+Said (La Haine),1
+Saigo Takamori,1
+Sailor Moon,1
+Saionji Kyouichi (Revolutionary Girl Utena),1
+Sakaki (Azumanga Daioh),1
+Saki Hanajima (Fruits Basket),1
+Sakuma Ryuichi (Gravitation),1
+Sakura (Card Captor Sakura),1
+Sakura (Naruto),1
+Salem (Sabrina the Teenage Witch),1
+Sallah (Indiana Jones movies),1
+Sally Acorn (Sonic Comic Archie verse),1
+Sally Brown (Peanuts),1
+Sam (Benny & Joon),1
+Sam (Green Eggs And Ham),1
+Sam (Life as a House),1
+Sam (The Lost Boys),1
+Sam Beckett (Quantum Leap),1
+Sam Beckett (Quantum Leap),1
+Sam Black Crow (American Gods) ,1
+Sam Carter (Stargate SG-1),1
+Sam Clay (The Amazing Adventures of Kavalier and Clay),1
+Sam Gamgee (LOTR),1
+Sam Hall (Day After Tomorrow),1
+Sam Lowry (Brazil),1
+Sam Monroe (Life as a House),1
+Sam Seaborn (West Wing) ,1
+Sam Spade,1
+Sam Vimes (Discworld),1
+Sam Weir (Freaks and Geeks),1
+Samantha (Bewitched),1
+Samantha Carter (Stargate SG-1),1
+Samantha Jones (Sex and the City),1
+Samantha Mulder (The X-Files),1
+Samara (The Ring) ,1
+Sami Brady (Days of Our Lives),1
+Samson (Carnivale),1
+Samuel Clemens,1
+Samuel Taylor Coleridge,1
+Sandor Clegane (A Song of Fire and Ice),1
+Sandy (Grease),1
+Sandy Cheeks (Spongebob Squarepants),1
+Sapphire (Sapphire and Steel),1
+Sara Jane Smith (Doctor Who),1
+Sara Sidle (CSI),1
+Sarah (Labyrinth),1
+Sarah Bannerman (Dead Zone),1
+Sarah Brown (Guys and Dolls),1
+Sarah Connor (Terminator) ,1
+Sarah Jane Smith (Doctor Who),1
+Sarah Kerrigan - post-chrysalis (StarCraft),1
+Sarah MacKenzie (JAG),1
+Sarah O'Neill (Stargate SG-1),1
+Sark (Alias),1
+Saruman (LOTR),1
+Sasaki Kojiro (Mushashi),1
+Sasha (Kindred: The Embraced),1
+Sasshi (Magical Shopping Arcade Abenobashi),1
+Satan (Paradise Lost),1
+Satan (South Park),1
+Satine (Moulin Rouge),1
+Satoshi Hiwatari (D.N. Angel),1
+Sauron (Lord of the Rings),1
+Savil (The Last Herald-Mage Trilogy),1
+Sawyer (Lost),1
+Sayid Jarrah (Lost),1
+Scar (Fullmetal Alchemist),1
+Scar (The Lion King),1
+Scaramanga (James Bond),1
+Scaramanga (The Man with the Golden Gun),1
+Scaramouche (We Will Rock You),1
+Scarlett (G.I. Joe),1
+Scarlett O'Hara,1
+Schillinger (Oz),1
+Schmendrick the Magician (The Last Unicorn),1
+Schroedinger (Hellsing),1
+Schuldig (Weiss Kreuz),1
+Scoop (Bob the Builder),1
+Scorpion (Mortal Kombat),1
+Scorpius (Farscape),1
+Scott (Rocky Horror Picture Show),1
+Scott Summers (X-Men) ,1
+Scotty (Star Trek),1
+Scrat (Ice Age),1
+Scribble (Vurt),1
+Scrooge McDuck (Duck Tales),1
+Seamus Harper (Andromeda),1
+Sean McNamara (Nip/Tuck),1
+Seifer Almasy (Final Fantasy VIII),1
+Seimei Aoyagi (Loveless),1
+Seiya (Sailor Moon),1
+Seiya (Saint Seiya),1
+Selene (Underworld),1
+Seline Kyle (Catwoman),1
+Semyaza (Book of Enoch),1
+Senator Kelly (X-Men),1
+Senator Robert Kinsey (Stargate SG-1),1
+Sephiroth (FFVII),1
+Septimus Hodge (Arcadia),1
+Serafina Pekkala (His Dark Materials),1
+Seras Victoria (Hellsing),1
+Serendipity the Muse (Dogma),1
+Serenity (Dogma),1
+Sergeant Detritus (Discworld),1
+Sergeant Neal Howie (The Wicker Man),1
+Servalan (Blake's 7),1
+Sesshoumaru (Inuyasha),1
+Seth (The Authority),1
+Seth (The O.C.),1
+Seth Bullock (Deadwood) ,1
+Seth Cohen (The OC),1
+Seto Kaiba (Yu-Gi-Oh),1
+Setsuna Meioh (Sailor Moon),1
+Setzer Gabbiani (Final Fantasy VI),1
+Seven of Nine (ST: Voyager),1
+Sevigny (Lymond series),1
+Seymour (Ghost World),1
+Sha Gojyo (Saiyuki),1
+Shadow (American Gods),1
+Shadow (Final Fantasy VI),1
+Shadow Girl (Shoujo Kakumi Utena),1
+Shadowfax (LotR),1
+Shaggy (Scooby Doo),1
+Shakespeare,1
+Shampoo (Ranma 1/2),1
+Shane McCutcheon (The L Word),1
+Shannon (Lost),1
+Sha're (Stargate movie SG-1),1
+Sharon 'Boomer' Valerii (Battlestar Galactica 2003),1
+Sharon Tyler (Wonderfalls),1
+Sharona Fleming (Monk) ,1
+Sharpner (Dragonball Z),1
+Shaun (Shaun of the Dead),1
+Shayera Hol (Justice League),1
+Shazzer (Bridget Jones' Diary),1
+Shazzer (Pitch Black),1
+Sheemie Ruiz (Dark Tower cycle),1
+She-Hulk (Marvel Comics),1
+Sheldon Sands,1
+Shelinda (Final Fantasy X),1
+Shelob (LotR),1
+Shen Li Min (The Authority),1
+Shepherd Book (Firefly),1
+Sheppard (Stargate Atlantis),1
+She-Ra Princess of Power,1
+Sheriff Lucas Buck (American Gothic),1
+Sheriff of Nottingham (Robin Hood: Prince of Thieves),1
+Sherlock Holmes,1
+Shigeru (Pokemon),1
+Shigure Sohma (Fruits Basket),1
+Shinji Ikari (Neon Genesis Evangelion),1
+Shinji Mimura (Battle Royale),1
+Shinn Asuka (Gundam SEED Destiny),1
+Shinoori Aoshi (Kenshin),1
+Shion Uzuki (Xenosaga),1
+Shirley Jackson,1
+Shiryu (Saint Seiya),1
+Shizu (Kino no Tabi),1
+Sho (Crimson Sea),1
+SHODAN (System Shock),1
+Sholto (Merry Gentry books),1
+Shun (Saint Seiya),1
+Shuten (Ronin Warriors),1
+Shuuichi (Gravitation),1
+Sibyl Trelawney (Harry Potter),1
+Sick Boy (Trainspotting),1
+Sideshow Bob (Simpsons) ,1
+Sideshow Mel (The Simpsons),1
+Sigmund the Penguin (Anita Blake),1
+Sikozu Shanu (Farscape),1
+Silent Bob (View Askewniverse),1
+Silk Spectre (Watchmen),1
+Silvio Dante (Sopranos),1
+Simon (Lord of the Flies),1
+Simon Adebisi (Oz),1
+Simon Archard (Ruse),1
+Simon Cowell (American Idol),1
+Simon Donovan (West Wing),1
+Simon Tam (Firefly),1
+Siren (Fullmetal Alchemist),1
+Siri (Star Wars: Jedi Apprentice),1
+Sirius Black (Harry Potter),1
+Sister Mary Loquacious (Good Omens),1
+Sister Peta Marie (OZ),1
+'Skank' Marden,1
+Skeeve (Another Fine Myth),1
+Skeletor,1
+Sky Masterson (Guys and Dolls),1
+Skywise (Elfquest),1
+Slade (Teen Titans cartoon),1
+Slappy Squirrel (Animaniacs),1
+Slick (Sinfest),1
+Sloth (The Goonies),1
+Slugworth (Charlie,1
+Sly Cooper,1
+Small Zenki (Zenki),1
+Smaug (The Hobbit),1
+Snake (The Simpsons),1
+Snape (Harry Potter),1
+Snarf (Thundercats),1
+Snoopy,1
+Snow White,1
+Socrates,1
+Sofia Curtis (CSI),1
+Sohma Kyou (Fruits Basket),1
+Sohma Shigure (Fruits Basket),1
+Sokka (Avatar: The Last Airbender),1
+Solid Snake (Metal Gear Solid),1
+Solomon (Bible),1
+Sonic the Hedgehog ,1
+Sonomi Daidouji (Card Captor Sakura),1
+Sophie (Carnivale),1
+Sophie (Howl's Moving Castle),1
+Sora (Kalediostar),1
+Sora (Kingdom Hearts),1
+Sorsha (Willow),1
+Soubi Agatsuma (Loveless),1
+Souji Mikage (Shoujo Kakumei Utena),1
+Southpaw (She-Hulk),1
+Space Ghost (... Coast to Coast),1
+Spider Jerusalem (Transmetropolitan),1
+Spider-Man ,1
+Spike (Buffy the Vampire Slayer),1
+Spike Spiegel (Cowboy Bebop),1
+Spiller (The Borrowers) ,1
+Splinter (Teenage Mutant Ninja Turtles),1
+Spock (Star Trek) ,1
+Spongebob Squarepants,1
+Sport (Harriet the Spy),1
+Spud (Trainspotting),1
+Spyro the Dragon (Spyro the Dragon),1
+Squidward (Spongebob Squarepants),1
+Staanz (Farscape),1
+Stacey London (What Not To Wear),1
+Stacia Van de Veer (Promethea),1
+Stacy Rowe (Daria),1
+Staleek (Farscape),1
+Stan (Life of Brian) ,1
+Stan (South Park),1
+Stan Shunpike (HP),1
+Stanley Jobson (Swordfish),1
+Starbuck (original Battlestar Galactica),1
+Starfire (Teen Titans),1
+Stark (Farscape),1
+Starscream (Transformers),1
+Steerpike (Gormengast),1
+Stella (CSI NY),1
+Steph Brown (DC Comics),1
+Stephanie (Lazytown),1
+Stephanie McMahon (WWE),1
+Stephen Caldwell (Stargate Atlantis),1
+Stephen Colbert,1
+Stephen Maturin (Master and Commander),1
+Stephen Maturin (Master and Commander),1
+Steve (Stargate Atlantis),1
+Steve Dallas (Bloom County),1
+Steve Taylor (Coupling),1
+Steve Urkel (Family Matters),1
+Stewie (Family Guy),1
+Stitch (Lilo and Stitch),1
+Storm (X-Men),1
+Stormbringer (Elric of Melnibone),1
+Stormer (Jem and the Holograms),1
+Straight Cougar (S.cry.ed),1
+Strawberry Shortcake (Strawberry Shortcake),1
+Strong Bad (Strong Bad),1
+Strong Sad (Homestar Runner),1
+Stuart (QAF),1
+Stuart Allan Jones (Queer as Folk UK),1
+Stuart Jones (Queer as Folk UK),1
+Sue Storm (Fantastic Four),1
+Sugar Cane Kowalczyk,1
+Sully (Monsters Inc.),1
+Sully (Doctor Quinn),1
+Sulu (Star Trek),1
+Sumeragi Subaru (Tokyo Babylon),1
+Summer Roberts (The OC),1
+Sun (Lost),1
+Sunday (BtVS),1
+Superboy (DC),1
+Supergirl (Peter David comics),1
+Superman,1
+Supersoldier (Resident Evil: Apocalypse),1
+Supreme Chancellor Palpatine (Star Wars),1
+Susan (Chronicles of Narnia),1
+Susan (Coupling),1
+Susan (Desperate Housewives),1
+Susan (Discworld) ,1
+Susan Bones (HP),1
+Susan Francisco (Alien Nation),1
+Susan Ivanova (Babylon 5),1
+Susan Lewis (ER),1
+Susan Pevensie (Narnia),1
+Susan Smith,1
+Susan Sto Helit (Discworld),1
+Susan Trinder (Fingersmith),1
+Susie Derkins (Calvin and Hobbes),1
+Susie Sweet (Balamory),1
+Svidrigailov (Crime and Punishment),1
+Swan (DekaRanger),1
+Sweet (BtVS),1
+Swift (The Authority),1
+Switch (The Matrix),1
+Sybil Ramkin (Discworld),1
+Sybil Trelawney (Harry Potter) ,1
+Sydney (Alias),1
+Sydney Bristow (Alias),1
+Sydney Carton (Tale of Two Cities),1
+Sydney Drew (Power Rangers SPD),1
+T.J. Hooker,1
+T.S Garp (World According to Garp),1
+T-1000 (Terminator 2),1
+Taishi (Comic Party),1
+Tajoumaru (Rashomon),1
+Takagi Yumiko (Hellsing),1
+Talia Winters (Babylon 5),1
+Talim (Soul Calibur),1
+Tamahome (Fushigi Yugi),1
+Tanda  (Another Fine Myth),1
+Tanis Half-Elven (Dragonlance),1
+Tara (Buffy) ,1
+Tara Chace (Queen and Country),1
+Taro Kagami (Death Note: Pilot),1
+Tars Tarkas (Barsoom),1
+Tarzan,1
+Tasha Yar,1
+Tasslehoff Burrfoot (Dragonlance),1
+Tatewaki Kuno (Ranma 1,1
+Tatsumi (Yami no Matsuei),1
+Tazendra (Dragaera series),1
+Teal'c (Stargate SG-1),1
+Ted "Theodore" Loban (Bill & Ted),1
+Ted Allen (Queer Eye for the Straight Guy),1
+Ted Logan (Bill and Ted's Excellent Adventure),1
+Ted Schmidt (QAF),1
+Teddy (Mr. Bean),1
+Teela,1
+Tefe Holland (Swamp Thing),1
+Tegan Jovanka (Doctor Who),1
+Telemain (Enchanted Forest Chronicles),1
+Temple Page (The District),1
+Tenar (Earthsea),1
+Tenchi,1
+Tenderheart Bear (Care Bears),1
+Teodor (Achewood) ,1
+Teresa Moreno (Sharpe),1
+Teresa Ortiz (Boomtown),1
+Terk (Disney's Tarzan),1
+Terminatrix (Terminator 3),1
+Terry Lake (Numb3rs),1
+Terry McGinnis (Batman Beyond),1
+Tess (Roswell),1
+Tess Harding (Roswell),1
+Tetra (Legend of Zelda),1
+Tetsusaiga (Inuyasha),1
+Teyla Emmagan (Stargate Atlantis),1
+Tezuka Kunimitsu (Prince of Tennis) ,1
+Tezuka Nagisa (Here is Greenwood),1
+Thaddeus Venture (Venture Brothers),1
+The "Dude",1
+Thelma (Hex),1
+Theoden (Lord of the Rings),1
+Theodora (Justinian's wife),1
+Theodore Roosevelt,1
+Therem Harth rem ir Estraven (The Left Hand of Darkness),1
+Thessaly (Sandman),1
+Thierry Henry (Arsenal football player),1
+Thomas Crown (The Thomas Crown Affair),1
+Thomas Edison,1
+Thomas Jefferson,1
+Thomas Jerome Newton (The Man Who Fell To Earth) ,1
+Thomas Oliver (Power Rangers: Dino Thunder),1
+Thomas Paine,1
+Thomas Raith (The Dresden Files),1
+Thomas the Tank Engine (The Railway Stories),1
+Thor (Stargate SG1),1
+Thor (Ultimates),1
+Thor Asgard (Stargate SG-1),1
+Thor of Asgard,1
+Thumper (Bambi),1
+Thundarr the Barbarian,1
+Thunderhead (The Incredibles),1
+Tibby (Sisterhood of the Traveling Pants),1
+Tidus (FFX),1
+Tiffany Aching (Discworld),1
+Tigger (Winnie the Pooh),1
+Tim (The Office),1
+Tim Bayliss (Homicide: Life on the Street),1
+Tim Burton,1
+Tim Drake (DC),1
+Tim Hunter (Books of Magic),1
+Tim Marco (Fullmetal Alchemist),1
+Tim McGee (NCIS),1
+Tim O'Neill (Seaquest),1
+Tim Speedle (CSI Miami),1
+Tim the Enchanter (Monty Python and the Holy Grail),1
+Timon (The Lion King),1
+Timov (Babylon 5),1
+Tinkerbell (Peter Pan),1
+Tinky Winky (Teletubbies),1
+Titania (A Midsummer Night's Dream),1
+Titus (Gormenghast),1
+Titus Andronicus (Shakespeare),1
+TJ Newton (The Man Who Fell To Earth),1
+Tkaa the Basilisk (Tamora Pierce),1
+Toad (X-Men),1
+Tobias Beecher (Oz) ,1
+Tobias Funke (Arrested Development),1
+Toby (Labyrinth) ,1
+Toby Ziegler (West Wing),1
+Tohru (Fruits Basket),1
+Tom Beck (Deep Impact),1
+Tom Berensen (Animorphs),1
+Tom Bombadil (LOTR),1
+Tom Collins (Rent),1
+Tom Cruise,1
+Tom Delay (US House of Representatives),1
+Tom Hanson (21 Jump Street) ,1
+Tom Paris (ST Voyager),1
+Tom Paris (ST Voyager),1
+Tom Pullings (Master & Commander),1
+Tom Quinn (Spooks),1
+Tom Riddle (Harry Potter),1
+Tom Sawyer,1
+Tom Swift,1
+Tommy (Rescue Me),1
+Tommy Corn (I Heart Huckabee's),1
+Tommy Gavin (Rescue Me),1
+Tommy Gnosis (Hedwig and the Angry Inch),1
+Tommy Oliver (Mighty Morphin Power Rangers),1
+Tomo Takino (Azumanga Diaoh),1
+Tomoe Sakura (Weiss Kreuz),1
+Tony Almeida (24),1
+Tony Dinozzo (NCIS) ,1
+Tony Rodriguez (NYPD Blue),1
+Tony Rodriguez (NYPD Blue),1
+Tony the Tiger (Frosted Flakes commercials),1
+Top Dollar (The Crow),1
+Topanga Lawrence (Boy Meets World),1
+Topato Potato (WIGU Webcomic),1
+Tor (The Hero and the Crown),1
+Torg (Sluggy Freelance),1
+Toru Watanabe (Excel Saga),1
+Touchstone (Sabriel),1
+Tougu Kiryuu (Revolutionary Girl Utena),1
+Toulouse-Latrec,1
+T'Pol (Enterprise),1
+Tracy Lord (The Philadelphia Story),1
+Trance Gemini (Andromeda) ,1
+Travis Bickle (Taxi Driver),1
+Treebeard (Lord of the Rings),1
+Trelawney (HP),1
+Trent Mercer (PR: Dino Thunder),1
+Trevor (Cupid),1
+Trevor Goodchild (Aeon Flux),1
+Trevor Reznik (The Machinist),1
+Trillian (Hitchhiker's Guide to the Galaxy),1
+Trinity (The Matrix) ,1
+Trip Tucker III (Enterprise),1
+Triple-X (XXX),1
+Trisana Chandler (Emelan),1
+Tristan (King Arthur movie),1
+Triumph the Insult Comic Dog (Conan O'Brien),1
+Trixie (Deadwood),1
+Tron Bonne (Megaman Legends),1
+Trowa Barton (Gundam Wing),1
+Tru Davies (Tru Calling),1
+Trudy Wiegel (Reno 911!),1
+Tsujimoto Natsumi,1
+Tsunami (Tenchi Muyo OVA),1
+Tsuzuki Asota (Yami no Matsuei),1
+Tucker Carlson (ex-Crossfire),1
+Tulio (Road to El Dorado),1
+Tumnus the Faun (Chronicles of Narnia) ,1
+Turin Turambar (The Silmarillion),1
+Turlough (Doctor Who),1
+Tuxedo Mask (Sailor Moon),1
+Twink the Sprite (Rainbow Brite),1
+Tybalt (Romeo and Juliet),1
+Tyler Durden (Fight Club),1
+Tyler Reed (Tremors: The Series),1
+Typhoid Mary,1
+Tyr Anasazi (Andromeda),1
+Tyra Banks (America's Next Top Model),1
+Uchiha Itachi (Naruto),1
+Uchiha Sasuke (Naruto),1
+Ug (Critters),1
+Ugly Stepsister (Shrek 2),1
+Uhura (Star Trek),1
+Ulfin (Merlin Trilogy),1
+Ulrike (Kyou Kara Maou),1
+Ulysses Everett McGill (O Brother Where Art Thou?),1
+Ulysses S. Grant,1
+Umeda-sensei (Hanakimi),1
+Uncas (Last of the Mohicans),1
+Uncle Monty (A Series of Unfortunate Events),1
+Uncle Raoul Duke (Doonesbury),1
+Unicron (Transformers),1
+Uotani Arisa (Fruits Basket),1
+Up Arrow (Dance Dance Revolution),1
+Urd (Ah My Goddess),1
+Ursula (Kiki's Delivery Service),1
+Ursula (The Little Mermaid),1
+Ussop (One Piece),1
+Utena (Revolutionary Girl Utena),1
+V (V for Vendetta),1
+Vachon (Forever Knight),1
+Vala (Stargate SG-1),1
+Vala Malduran (Stargate SG-1),1
+Valentine Michael Smith (Stranger in a Strange Land) ,1
+Valentine Wiggin (Ender's Game),1
+Valerie Warner (Jake 2.0),1
+Valmont (Dangerous Liaisons),1
+Harmony (Buffy),1
+Vampire Hunter D (original or Bloodlust),1
+Van Ray (Fastlane),1
+Vanyel Ashkevron (Heralds of Valdemar),1
+Vash (Star Trek TNG),1
+Vash (Trigun),1
+Vega (Super Street Fighter 2 Turbo),1
+Vegeta (Dragonball Z),1
+Velkan (Van Helsing),1
+Velma (Scooby-Doo),1
+Velma Kelly (Chicago) ,1
+Vendetta (Making Fiends),1
+Ventinari (Discworld),1
+Venus Flytrap (WKRP in Cincinnati),1
+Vera (Oh My Gods!),1
+Verbal Kint (The Usual Suspects),1
+Verin Mathwin (Wheel of Time),1
+Vernon Dursley,1
+Veronica Franco,1
+Veronica Mars (Veronica Mars),1
+Veronica Sawyer (Heathers),1
+Veruca Salt (Charlie and the Chocolate Factory),1
+Vexx (Vexx - video game),1
+Vianne (Chocolat),1
+Vic Fontaine (Star Trek DS9),1
+Vic Mackey (The Shield),1
+Victor Emmanuel (King of Italy),1
+Victoria Metcalf (Due South),1
+Viggo (Ghostbusters 2),1
+Viktor (Suikoden games),1
+Viktor Krum (HP),1
+Vila Restal (Blake's Seven),1
+Vin Tanner (Magnificent Seven),1
+Vince Tyler (Queer as Folk UK),1
+Vincent (Crime & Punishment in Suburbia),1
+Vincent Chase (Entourage),1
+Vincent Freeman (Gattaca),1
+Vincent Valentine (Final Fantasy VII),1
+Vinnie Delpino (Doogie Howser),1
+Viola (Twelfth Night),1
+Viola-Cesario (Twelfth Night),1
+Violet (The Incredibles),1
+Violet Baudelaire (A Series of Unfortunate Events),1
+Violet Beauregard (Charlie and the Chocolate Factory),1
+Violet Sanford (Coyote Ugly),1
+Vir Cotto (Babylon 5),1
+Virgil (The Divine Comedy),1
+Virgil Hiltz (The Great Escape),1
+Virgil Tracy (Thunderbirds),1
+Visser Three (Animorphs),1
+Vivi Ornitier (Final Fantasy 9),1
+Vizzini (Princess Bride),1
+Vlad Taltos (Taltos novels),1
+Vlad the Impaler,1
+Vlada Vladimirovich (The Critic),1
+Voldemort (HP),1
+Voldemort (HP),1
+Vorik (Voyager),1
+Voula (My Big Fat Greek Wedding) ,1
+Vyers (Disgaea: Hour of Darkness),1
+Wadsworth (Clue),1
+Wakka (Final Fantasy 10),1
+Wakko Warner (Animaniacs),1
+Wallace Fennell (Veronica Mars),1
+Wally Tusket (Ultimate Muscle),1
+Wally West (Justice League),1
+Walnut (Phantom Brave),1
+Walt Bannerman (The Dead Zone),1
+Walt Disney,1
+Walter (Hellsing),1
+Walter C. Ddollneaz (Hellsing),1
+Walter Dornez (Hellsing),1
+Walter Harriman (Stargate SG-1),1
+Walter O'Dim (Dark Tower),1
+Walter Skinner (X-Files),1
+Wanda (Sandman),1
+Wanda (The Fairly OddParents),1
+Wang Ta (Flower Drum Song),1
+War (Good Omens),1
+Warren (BtVS),1
+Warren Meers (BtVS),1
+Warren Peace (Sky High),1
+Warren Worthington III (X-Men),1
+Warrick Brown (CSI),1
+Warrior Thor (Gauntlet),1
+Wash (Firefly),1
+Washu (Tenchi Muyo),1
+Watanabe (Excel Saga),1
+Watanuki Kimihiro (XXXHolic),1
+Watari (Yami no Matsuei),1
+Watson,1
+Watson (Sherlock Holmes),1
+Watson (Sherlock Holmes),1
+Wedge Antilles (Star Wars),1
+Weir (Stargate Atlantis),1
+Well-Manicured Man (X-Files),1
+Wembley (Fraggle Rock),1
+Wendy (Peter Pan),1
+Werther (Die Leiden des Jungen Werthers),1
+Wes Janson (Star Wars),1
+Wesley Crusher (Star Trek TNG),1
+Wesley Wyndham-Pryce (Angel),1
+Westley (Princess Bride),1
+Westley (The Princess Bride),1
+White Rabbit (Alice in Wonderland),1
+White Witch (Narnia),1
+Wiegel (Reno 911!),1
+Wil Ohmsford (Shannara series),1
+Wilbur Whately (HP Lovecraft's Mythos),1
+Wile E. Coyote,1
+Will Bailey (West Wing),1
+Will Graham (Manhunter),1
+Will Hunting (Good Will Hunting),1
+Will Parry (His Dark Materials),1
+Will Scarlett (Robin Hood: Prince of Thieves),1
+Will Stanton (The Dark Is Rising),1
+Will Tippin (Alias),1
+Will Truman (Will and Grace),1
+Will Turner (PotC),1
+Willard (Willard),1
+William (Code 46),1
+William Howard Taft,1
+William Jennings Bryan,1
+William Lee (Naked Lunch),1
+William Munny (Unforgiven),1
+William Shakespeare,1
+William Stryker (X-Men),1
+William Wordsworth,1
+Willie (Anita Blake),1
+Willie Wonka (Charlie and the Chocolate Factory),1
+Willow (BtVS),1
+Willow (Buffy the Vampire Slayer),1
+Willy (Free Willy),1
+Willy the bartender (Buffy),1
+Willy Wonka ,1
+Willy Wonka (Charlie and the Chocolate Factory),1
+Wilson (Cast Away),1
+Wilson (Home Improvement),1
+Wilson (House),1
+Wilt (Foster's Home for Imaginary Friends),1
+Wily-kit (Thundercats),1
+Winifred Banks (Mary Poppins),1
+Winnowill (Elfquest),1
+Winston (1984),1
+Winston Churchill,1
+Wolf (10th Kingdom),1
+Wolfwood (Trigun),1
+Wolverine (X-Men) ,1
+Wonder Woman,1
+Woody Hoyt (Crossing Jordan),1
+Worf (ST:TNG),1
+Wormtongue (LOTR),1
+Wowbagger (Hitchhiker's Guide to the Galaxy),1
+Wyatt Earp,1
+Wyatt Frame (Josie and the Pussycats),1
+Wyatt Halliwell (Charmed),1
+X-23 (X-Men Evo),1
+Xanatos (Gargoyles),1
+Xander Harris (Buffy) ,1
+Xena,1
+Xion (Bloody Roar: Primal Fury),1
+Yago (Remnants),1
+Yamamura Sadako (Ringu),1
+Yamato Ishida (Digimon),1
+Yami Bakura (Yu-Gi-Oh),1
+Yelena Rossini (Transmetropolitan),1
+Yellow Peanut M&M,1
+Yitzhak (Hedwig and the Angry Inch),1
+Yoko Ono,1
+Yo-less (Jonny Trilogy),1
+Yomiko Readman (Read or Die),1
+Yorick Brown (Y: The Last Man),1
+Yoshi (Mario),1
+Yossarian (Catch-22),1
+Young Man (Dark Harbor),1
+Yu Law (The One),1
+Yu Shu Lien,1
+Yue (CCS),1
+Yuffie (Final Fantasy VII),1
+Yugi's grandfather (Yu-Gi-Oh),1
+Yuki (Gravitation),1
+Yuki Souma (Fruits Basket),1
+Yuki Tsukishiro (Card Captor Sakura),1
+Yukino Miyazawa (His and Her Circumstances),1
+Yukio Oikawa (Digimon Adventure),1
+Yumi (Someday's Dreamers),1
+Yuna (Final Fantasy 10),1
+Yuuko Ichihara (xxxHolic),1
+Yuuri Shibuya (Kyou Kara Maou),1
+Yuusuke Urameshi (Yu Yu Hakusho),1
+Yvaine (Stardust),1
+Yves Harlow (The Lone Gunmen),1
+Yvette (Clue),1
+Yvette (Most Haunted),1
+Yzma (Emporer's New Groove),1
+Zach Stevens (The OC),1
+Zach Young (Desperate Housewives),1
+Zacharias Smith (HP),1
+Zachary Smith (Lost in Space),1
+Zack (Dark Angel),1
+Zack Allen (B5),1
+Zaius (Planet of the Apes),1
+Zak the Brikar (Star Trek: New Frontier books),1
+Zalbag Beoulve (Final Fantasy Tactics),1
+Zan (Metanoia),1
+Zaphod Beeblebrox (Hitchhiker's Guide),1
+Zarathustra (Thus Spoke Zarathustra),1
+Zatanna Zatarra (Justice League),1
+Zaza the cat (Hector's House),1
+Zeke Stone (Brimstone),1
+Zekk (Star Wars EU),1
+Zelda (Legend of Zelda),1
+Zelenka (Stargate: Atlantis),1
+Zelgadis Greywords (Slayers),1
+Zerg Lurker (Starcraft: Brood War),1
+Zero (Megaman X),1
+Zhaan (Farscape),1
+Zharkov (Flash Gordon),1
+Ziggy (Quantum Leap),1
+Zim (Invader Zim),1
+Zippy (Rainbow),1
+Zippy the Pinhead,1
+Zoe (Firefly),1
+Zoe Reynolds (Spooks MI-5),1
+Zoidberg (Futurama),1
+Zooey Glass (J.D. Salinger),1
+Zoot (Monty Python and the Holy Grail),1
+Zorg (Fifth Element),1

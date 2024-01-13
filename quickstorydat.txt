@@ -1,0 +1,469 @@
+//Vocab types:
+//1 -Story Descriptor
+//2 - Character descriptor
+//4 - Story Type
+//8 - Basic event
+//16 - Fantasy Character
+//32 - Modern
+//64 - SF
+--ORGANIZATION
+//Fantasy
+1,4,2,16,8
+The theme of this story: , ,.   The main character: , ,.  The major event of the story: ,.
+1,4,2,16,8,8
+The theme of this story: , ,.   The main character: , ,.  The start of the story: ,. The end of the story: ,.
+1,4,2,16,2,16,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The major event of the story: ,.
+1,4,2,16,2,16,8,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The start of the story: ,. The end of the story: ,.
+//Modern
+1,4,2,32,8
+The theme of this story: , ,.   The main character: , ,.  The major event of the story: ,.
+1,4,2,32,8,8
+The theme of this story: , ,.   The main character: , ,.  The start of the story: ,. The end of the story: ,.
+1,4,2,32,2,32,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The major event of the story: ,.
+1,4,2,32,2,32,8,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The start of the story: ,. The end of the story: ,.
+//SF
+1,4,2,64,8
+The theme of this story: , ,.   The main character: , ,.  The major event of the story: ,.
+1,4,2,64,8,8
+The theme of this story: , ,.   The main character: , ,.  The start of the story: ,. The end of the story: ,.
+1,4,2,64,2,64,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The major event of the story: ,.
+1,4,2,64,2,64,8,8
+The theme of this story: , ,.   The main characters: , , and , ,.  The start of the story: ,. The end of the story: ,.
+//Vocabulary
+--VOCABULARY
+//1 -Story Descriptor
+allegorical,1
+dark,1
+dramatic,1
+epic,1
+humorous,1
+light-hearted,1
+metaphorical,1
+noir,1
+parody,1
+psychological,1
+romantic,1
+satirical,1
+serious,1
+surreal,1
+tragic,1
+wacky,1
+weird,1
+//2 - Character descriptor
+acrobatic,2
+awkward,2
+alienated,2
+altruistic,2
+ambitious,2
+antisocial,2
+arrogant,2
+atheistic,2
+artistic,2
+athletic,2
+attractive,2
+biased,2
+bigoted,2
+boastful,2
+boring,2
+brave,2
+brutal,2
+burnt-out,2
+calm,2
+charismatic,2
+clumsy,2
+committed,2
+compassionate,2
+complacent,2
+composed,2
+concieted,2
+conformist,2
+confused,2
+contemplative,2
+corrupt,2
+courageous,2
+cowardly,2
+crazy,2
+creative,2
+crippled,2
+cruel,2
+cunning,2
+cynical,2
+delusional,2
+depressed,2
+detached,2
+disillusioned,2
+distant,2
+divorced,2
+domineering,2
+doomed,2
+driven,2
+drunken,2
+educated,2
+enduring,2
+energetic,2
+ethical,2
+experienced,2
+famous,2
+fearful,2
+fear-ridden,2
+focused,2
+forcefull,2
+friendly,2
+frustrated,2
+funny,2
+generous,2
+gentle,2
+graceful,2
+greedy,2
+grim,2
+happy,2
+hateful,2
+heroic,2
+humble,2
+humble,2
+hypcritical,2
+hysterical,2
+ignorant,2
+ignored,2
+illogical,2
+indecisive,2
+industrious,2
+inhibited,2
+infamous,2
+innocent,2
+insane,2
+intelligent,2
+intimidating,2
+intuitive,2
+irrational,2
+kind,2
+laid-back,2
+lazy,2
+logical,2
+lonely,2
+lucky,2
+manipulative,2
+materialistic,2
+mean-spirited,2
+melancholy,2
+militant,2
+miserable,2
+miserly,2
+misguided,2
+misunderstood,2
+mysterious,2
+mystic,2
+naive,2
+narrow-minded,2
+negative,2
+neurotic,2
+newlywed,2
+nostolgic,2
+nurturing,2
+obedient,2
+obscure,2
+obsessive,2
+old,2
+open-minded,2
+opinionated,2
+opporrtunistic,2
+optimistic,2
+outgoing,2
+overworked,2
+patriotic,2
+patronizing,2
+peaceful,2
+peace-loving,2
+persistant,2
+persuasive,2
+pessimistic,2
+philosophical,2
+pious,2
+plain,2
+poised,2
+poor,2
+pragmatic,2
+predictable,2
+principled,2
+pucky,2
+rebellious,2
+religious,2
+romantic,2
+ruthless,2
+sadistic,2
+scatterbrained,2
+seasoned,2
+secretive,2
+serene,2
+serious,2
+short-tempered,2
+sickly,2
+silly,2
+social,2
+spendthrift,2
+spiritual,2
+stingy,2
+stressed,2
+strong,2
+studious,2
+stupid,2
+suave,2
+tired,2
+ugly,2
+unambitious,2
+unathletic,2
+unbalanced,2
+uncreative,2
+unethical,2
+unfriendly,2
+unhappy,2
+unpredictable,2
+unremarkable,2
+unstable,2
+unstable,2
+unwise,2
+vicious,2
+violent,2
+weak,2
+wealthy,2
+well-traveled,2
+wise,2
+withdrawn,2
+youthful,2
+//4 - Story Type
+action,4
+adventure,4
+caper,4
+character study,4
+comedy,4
+conflict,4
+conspiracy,12
+crime,12
+drama,4
+horror,4
+mystery,4
+quest,4
+relationship,4
+revenge,4
+romance,4
+slice-of-life,4
+thriller,4
+tragety,4
+transformation,4
+//8 - Basic event
+accident,8
+addiction,8
+adoration,8
+advice,8
+alienation,8
+argument,8
+apocalyptic event,8
+betrayal,8
+birth,8
+copromise,8
+confession,8
+conversion,8
+critical injury,8
+death,8
+deception,8
+delusion,8
+destruction,8
+discovery,8
+dream,8
+education,8
+engagement,8
+failure,8
+flashback,8
+funeral,8
+getting lost,8
+growth,8
+guilt,8
+hunting,8
+inheritance,8
+intimidation,8
+infiltration,8
+insight,8
+joke,8
+journey,8
+keepsake,8
+lecture,8
+longing,8
+miscommunication,8
+misunderstanding,8
+natural disaster,8
+party,8
+political conflict,8
+premonition,8
+promition,8
+reconciliation,8
+repentance,8
+research,8
+resignation,8
+revelation,8
+service,8
+smuggling,8
+spiritual experience,8
+sport,8
+spying,8
+surgery,8
+surrender,8
+temptation,8
+theft,8
+training,8
+tragety,8
+travel,8
+treason,8
+quest,8
+unveiling,8
+violence,8
+war,8
+wedding,8
+//Universal characters
+actor,112
+acrobat,112
+adventurer,112
+ambassador,112
+archivist,112
+assisant,112
+assasin,112
+bandit,112
+bartender,112
+beggar,112
+boatman,112
+bodyguard,112
+bounty hunter,112
+businessman,112
+champion,112
+cleric,112
+comic,112
+dancer,112
+explorer,112
+farmer,112
+gambler,112
+heir,112
+hermit,112
+hero,112
+heroine,112
+hunter,112
+impostor,112
+inventor,112
+jailer,112
+laborer,112
+lawman,112
+leader,112
+marine,112
+martial artist,112
+mercenary,112
+merchant,112
+mentor,112
+miner,112
+military leader,112
+military professional,112
+murderer,112
+musician,112
+official,112
+outlaw,112
+pedlar,112
+pharmacist,112
+philosopher,112
+poet,112
+politician,112
+pretender,112
+priest,112
+priestess,112
+prospector,112
+psychic,112
+rascal,112
+rogue,112
+sailor,112
+schoolboy,112
+schoolgirl,112
+servant,112
+singer,112
+smuggler,112
+soldier,112
+student,112
+traitor,112
+teacher,112
+thief,112
+trader,112
+traveler,112
+wanderer,112
+weapons master,112
+//16 - Fantasy Character
+archer,16
+astrologer,16
+barbarian,16
+blacksmith,16
+cartographer,16
+coachman,16
+druid,16
+exorcist,48
+fisherman,48
+gladiator,16
+fortune-teller,48
+grave robber,48
+healer,16
+king,16
+knight,16
+monk,48
+noble,48
+paladin,16
+peasant,16
+prince,16
+princess,16
+queen,16
+ranger,16
+rat-catcher,16
+scribe,16
+tomb-robber,16
+treasure-hunter,16
+wizard,16
+//32 - Modern
+accountant,96
+airline pilot,32
+astronomer,96
+astronaut,96
+biologist,96
+cab driver,96
+chemist,96
+clerk,32
+computer programmer,96
+corporate official,96
+daycare employee,96
+detective,96
+fighter pilot,96
+garbageman,96
+hacker,96
+librarian,96
+linguist,96
+manager,96
+mobster,32
+novelist,96
+policeman,96
+physicist,96
+psychologist,96
+psychiatrist,96
+repairman,96
+reporter,96
+scientist,96
+secret agent,96
+secretary,96
+student,96
+technician,96
+//64 - SF
+alien,64
+android,64
+artificial intelligence,64
+cyborg,64
+half-alien,64
+mutant,64
+robot,64
+space captain,64
+spaceship engineer,64
+spaceship navigator,64

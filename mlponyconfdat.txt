@@ -1,0 +1,9 @@
+Either Gender
+	SEEDANY
+		mlponydat.txt
+Male
+	SEEDMALE
+		mlponydat.txt
+Female
+	SEEDFEMALE
+		mlponydat.txt

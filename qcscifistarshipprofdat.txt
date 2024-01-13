@@ -1,0 +1,42 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Vocabulary
+--VOCABULARY
+//8 - Profession
+chief engineer,8
+communications officer,8
+communications technician,8
+computer techician,8
+engineer,8
+fighter pilot,8
+first contact specialist,8
+first officer,8
+life support technician,8
+linquistics expert,8
+medical officer,8
+medical technician,8
+operations manager,8
+planetologist,8
+quartermaster,8
+security agent,8
+security officer,8
+shuttlecraft pilot,8
+stellar cartographer,8
+starship captain,8
+starship engineer,8
+starship navigator,8
+starship pilot,8
+tactical officer,8
+technician,8
+weapons officer,8
+xenoarcheologist,8
+xenobiologist,8
+xenobotanist,8
+xenolinguist,8
+xenomedical expert,8
+xenosociologist,8

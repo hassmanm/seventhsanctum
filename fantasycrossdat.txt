@@ -1,0 +1,624 @@
+SEED
+	<SEEDFEMALE>
+	<SEEDMALE>
+SEEDFEMALE
+	The <*SETGENDERFEMALE><REFDESCRIPTIVE> <RETDIRREF> half-<REFANIMALTYPE> <REFPROFTYPEGENERALFANTASYREGULAR><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE> <REFAPPEARANCEMOD>
+SEEDMALE
+	The <*SETGENDERMALE><REFDESCRIPTIVE> <RETDIRREF> half-<REFANIMALTYPE> <REFPROFTYPEGENERALFANTASYREGULAR><REFEXTRAMODROUTE>.<REFEXTRABUILDROUTE><REFEXTRAWARDROBEROUTE> <REFAPPEARANCEMOD>
+//REFSROUTES
+REFDESCRIPTIVE
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+	<REFDESCRIPTIVESINGLE>
+REFDESCRIPTIVESINGLE
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEPERSONALITY>
+REFEXTRAMODROUTE
+	 <REFEXTRAMODROUTEUSE>
+	<*>
+	<*>
+REFEXTRAMODROUTEUSE
+	<REFEXTRAMODREGULAR>
+REFEXTRABUILDROUTE
+	 <RETGENDERCAP> has <RETBUILD> build.
+	<*>
+REFEXTRAWARDROBEROUTE
+	 <RETPOSESSIVECAP> wardrobe is <REFWARDROBE>.
+	<*>
+REFDESCRIPTIVEPERSONALITY
+	<REFDESCRIPTIVEPERSONALITYONE>
+	<REFDESCRIPTIVEPERSONALITYONE>
+	<REFDESCRIPTIVEPERSONALITYONE>
+	<REFDESCRIPTIVEPERSONALITYTWO>
+	<REFDESCRIPTIVEPERSONALITYTWO>
+	<REFDESCRIPTIVEPERSONALITYTHREE>
+REFDESCRIPTIVEPERSONALITYONE
+//1s
+	<REFDESCRIPTIVEMENTAL>
+	<REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEEXPERIENCE>
+REFDESCRIPTIVEPERSONALITYTWO
+//2s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVESOCIAL>,	<REFDESCRIPTIVEEXPERIENCE>
+REFDESCRIPTIVEPERSONALITYTHREE
+//3s
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>
+	<REFDESCRIPTIVEMENTAL>, <REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVEEXPERIENCE>
+	<REFDESCRIPTIVEMENTAL>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+	<REDESCRIPTIVEPERSONALITY>, <REFDESCRIPTIVESOCIAL>, <REFDESCRIPTIVEEXPERIENCE>
+REFDESCRIPTIVEMENTAL
+	addled
+	clever
+	clueless
+	confused
+	cunning
+	educated
+	ignorant
+	illogical
+	intelligent
+	intuitive
+	irrational
+	scatterbrained
+	smart
+	wise
+	unwise
+REDESCRIPTIVEPERSONALITY
+	aggravated
+	aloof
+	altruistic
+	ambitious
+	anxious
+	apathetic
+	arrogant
+	artistic
+	awkward
+	biased
+	bigoted
+	bitter
+	bloodthirsty
+	boastful
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	cheerful
+	clinging
+	combative
+	committed
+	compassionate
+	complacent
+	composed
+	conceited
+	confident
+	contemplative
+	courageous
+	cowardly
+	craven
+	crazy
+	creative
+	cruel
+	cynical
+	delusional
+	depressed
+	detached
+	diabolical
+	disillusioned
+	disorganized
+	dispirited
+	dissatisfied
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	enduring
+	energetic
+	ethical
+	fearful
+	fear-ridden
+	fearsome
+	focused
+	forceful
+	frustrated
+	funny
+	generous
+	gentle
+	greedy
+	grim
+	happy
+	heroic
+	humble
+	hypocritical
+	hysterical
+	immature
+	immoral
+	incoherent
+	indecisive
+	industrious
+	inhibited
+	innocent
+	intimidating
+	joyful
+	just
+	kind
+	laid-back
+	lazy
+	logical
+	loudmouthed
+	manipulative
+	materialistic
+	mature
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	misguided
+	misunderstood
+	moral
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	naive
+	narrow-minded
+	negative
+	nervous
+	neurotic
+	nice
+	nihilistic
+	noisy
+	nostalgic
+	nurturing
+	obedient
+	obsessive
+	odd
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	organized
+	outgoing
+	paranoid
+	patriotic
+	patronizing
+	peaceful
+	peace-loving
+	persistent
+	persuasive
+	pessimistic
+	philandering
+	philosophical
+	pious
+	plucky
+	pompous
+	popular
+	posturing
+	pragmatic
+	predictable
+	principled
+	puerile
+	pure
+	quiet
+	realistic
+	rebellious
+	religious
+	righteous
+	ruthless
+	sadistic
+	sarcastic
+	secretive
+	serene
+	serious
+	shiftless
+	shifty
+	short-tempered
+	silly
+	sleazy
+	sloppy
+	slothful
+	slovenly
+	snide
+	spendthrift
+	spiritual
+	stingy
+	stressed
+	studious
+	stupid
+	tired
+	tireless
+	tough
+	unambitious
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unheroic
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	vicious
+	violent
+	watchful
+	weak-willed
+	weary
+	whiny
+	wild
+	willful
+	wily
+	wise
+	wistful
+	withdrawn
+	worried
+REFDESCRIPTIVESOCIAL
+	alienated
+	amiable
+	antisocial
+	boring
+	broken-hearted
+	charismatic
+	chaste
+	conformist
+	cooperative
+	corrupt
+	disloyal
+	extraverted
+	friendly
+	hateful
+	introverted
+	lonely
+	playful
+	private
+	promiscuous
+	romantic
+	rude
+	selfish
+	selfless
+	self-righteous
+	smooth
+	social
+	tactful
+	tactless
+	tolerant
+	unpopular
+	vocal
+REFDESCRIPTIVEEXPERIENCE
+	educated
+	experienced
+	inexperienced
+	seasoned
+	sheltered
+	world-weary
+	worldwise
+	uneducated
+//MOD REFS
+REFEXTRAMODREGULAR
+	coping with mental illness
+	escpaing the past
+	hiding a dark secret
+	haunted by dark memories
+	haunted by flashbacks
+	living on borrowed time
+	looking for a challenge
+	looking for love
+	needing a friend
+	on the run from the law
+	on the wrong side of the law
+	searching for a lost friend
+	searching for justice
+	searching for purpose
+	searching for truth
+	trapped by the past
+	who belongs to a secret organization
+	who can't resist a fight
+	who can't resist helping people
+	who fears people think he/she is a fraud
+	who fears the future
+	who fell in with the wrong crowd
+	who had a near-death experience that changed them significantly
+	who has an odd way of speaking
+	who has several nervous habits
+	who hates animals
+	who hates children
+	who hopes to be the best in his/her profession
+	who is considered the best in his/her profession
+	who is considered the worst in his/her profession
+	who is cursed with bad luck
+	who is dependent on medication
+	who is estranged from family members
+	who is given to moments of deep introspection
+	who is more than meets the eye
+	who is part of a secret society
+	who is prone to odd statements
+	who is seeking meaning in life
+	who lost meaning in life
+	who loves animals
+	who loves children
+	who seems insane
+	who suffers from a chronic disease
+	who suffers from a chronic medical condition
+	with a chemical dependency
+	with a dark past
+	with a false identity
+	with a heart of gold
+	with a knack for trouble
+	with a large fortune
+	with a lot of friends
+	with a rival in his/her profession
+	with an unexpected destiny
+	with big dreams
+	with little money
+	with no hope
+	with repressed memories
+	with unexpected depths
+	with unusual luck
+REFAPPEARANCEMOD
+	<RETPOSESSIVECAP> non-human ancestry gives <RETGENDERREF> a strangely attractive appearance.
+	<RETPOSESSIVECAP> non-human ancestry gives <RETGENDERREF> a horribly inhuman appearance.
+	<RETPOSESSIVECAP> non-human ancestry is very obvious and not-concealable, but not particuarly disturbing.
+	<RETPOSESSIVECAP> non-human ancestry isn't obvious, but <RETGENDER> has some odd traits hinting at <RETPOSESSIVE> parentage.
+	<RETPOSESSIVECAP> non-human ancestry is very obvious and not-concealable.
+	<RETGENDERCAP> appears far more non-human than human.
+	<RETPOSESSIVECAP> face hints at <RETPOSESSIVE> non-human ancestry, but <RETGENDER> otherwise appears human.
+	<RETPOSESSIVECAP> body is that of a human for the most part, but <RETPOSESSIVE> head is more like that of <RETPOSESSIVE> non-human parent.
+	<RETPOSESSIVECAP> body is a mismatched composite of <RETPOSESSIVE> human and non-human ancestry.
+	<RETPOSESSIVECAP> appearance is that of a normal human - but under certain conditions <RETGENDER> turns into a member of <RETPOSESSIVE> non-human ancestor's species.
+	<RETGENDERCAP> appears human - but has the personality and habits of <RETPOSESSIVE> non-human ancestor.
+	<RETGENDERCAP> can shapeshift, taking the form of a human, or taking after <RETPOSESSIVE> non-human ancestor.
+	<RETGENDERCAP> appears human - but those who interact with <RETGENDERREF> keep getting the impression that <RETGENDER> isn't human.
+	<RETPOSESSIVECAP> body is one half human - one half taking after <RETPOSESSIVE> non-human ancestor.
+//<RETPOSESSIVECAP>
+	<RETGENDERCAP> appears to have multiple personalities - at times being human, at times taking after <RETPOSESSIVE> non-human parent.
+	<RETGENDERCAP> appears as an 'humanized' version of <RETPOSESSIVE> non-human parent, but it is an attractive, not monstrous appearance.
+	<RETGENDERCAP> appears as an 'humanized' version of <RETPOSESSIVE> non-human parent, but the result is very disturbing.
+	<RETGENDERCAP> appears human - yet <RETPOSESSIVE> shadow is always that of <RETPOSESSIVE> non-human parent's species.
+	<RETGENDERCAP> has a perfectly human head and face - but <RETPOSESSIVE> body is that of <RETPOSESSIVE> non-human parent's species.
+//<RETGENDERCAP>
+//Professions
+REFPROFTYPEGENERALFANTASYREGULAR
+	alchemist
+	archer
+	armorer
+	assassin
+	barbarian
+	berserker
+	blacksmith
+	bodyguard
+	brigand
+	cavalier
+	cleric
+	conjurer
+	crusader
+	demonologist
+	diviner
+	druid
+	elementalist
+	exorcist
+	fence
+	guard
+	herbologist
+	heretic
+	hunter
+	illusionist
+	inquisitor
+	knight
+	jester
+	mage
+	marine
+	martial artist
+	mercenary
+	necromancer
+	paladin
+	poacher
+	prophet
+	ranger
+	scribe
+	seer
+	shaman
+	soldier
+	sorcerer
+	spy
+	thief
+	tomb robber
+	watchman
+	witch/warlock
+	witch-hunter
+//ANIMAL REFS
+//REFS
+REFBUILDGENERAL
+	an athletic
+	an angular
+	an elegant
+	a feminine
+	a graceful
+	a lean
+	a lithe
+	a plump
+	a narrow
+	a slender
+	a thin
+REFBUILDFEMALE
+	an amazonian
+	a busty
+	a curvy
+	an hourglass
+	a leggy
+	a muscular
+	a voluptuous
+	a wasp-waisted
+	a wide-hipped
+REFBUILDMALE
+	a boyish
+	a broad-shouldered
+	a graceful
+	a masculine
+	an overmuscled
+	a wide-chested
+REFWARDROBE
+	artistic
+	attractive
+	bizarre
+	businesslike
+	classy
+	complicated
+	dignified
+	elaborate
+	elegant
+	fashionable
+	flattering
+	impractical
+	mysterious
+	non-nonsense
+	odd
+	plain
+	practical
+	professional
+	revealing
+	risque
+	severe
+	sexy
+	simple
+	strange
+	tight-fitting
+	uncomplicated
+	unconventional
+	unusual
+	utilitarian
+	weird
+//MIXED ROUTES
+REFGENDERTYPE
+	male
+	female
+//SETS
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			female
+		RETGENDERREF,true
+			her
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDFEMALE>
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			male
+		RETGENDERREF,true
+			him
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+		RETBUILD,true
+			<REFBUILDGENERAL>
+			<REFBUILDMALE>
+//RETS
+//GENDER RETS
+RETDIRREF
+	genderless
+RETGENDER
+	it
+RETGENDERREF
+	it
+RETGENDERCAP
+	It
+RETPOSESSIVE
+	its
+RETPOSESSIVECAP
+	Its
+RETBUILD
+	<REFBUILDGENERAL>
+//REFANIMALS
+//LEVEL 1
+REFANIMALTYPE
+	<REFDRAGON>
+	<REFELEMENTAL>
+	Angel
+	Bakeneko
+	Basilisk
+	Catoblepas
+	Centaur
+	Chimera
+	Cockatrice
+	Cyclops
+	Demon
+	Devil
+	Divinity
+	Dragon Turtle
+	Djinn
+	Fairy
+	Gargoyle
+	Goblin
+	Gorgon
+	Griffon
+	Hellhound
+	Hippocampus
+	Hippogriff
+	Hydra
+	Kappa
+	Keplie
+	Ki-Rin
+	Kitsune
+	Kraken
+	Manticore
+	Nightmare
+	Nymph
+	Oroborous
+	Pegasus
+	Phoenix
+	Roc
+	Satyr
+	Sea Serpent
+	Sphinx
+	Tanuki
+	Tengu
+	Thunderbird
+	Troll
+	Unicorn
+	Vampire
+	Werecat
+	Werewolf
+	Will-O-The-Wisp
+	Wyvern
+	Yeti
+REFDRAGON
+	Dragon
+	<REFDRAGONELEMENT>
+REFDRAGONELEMENT
+	Fire Dragon
+	Ice dragon
+	Lightning dragon
+	Shadow dragon
+	Light dragon
+REFELEMENTAL
+	Earth Elemental
+	Water Elemental
+	Fire Elemental
+	Air Elemental

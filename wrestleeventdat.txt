@@ -1,0 +1,194 @@
+//Vocab types:
+//1 Meta Descriptor
+//2 Descriptor
+//4 Object
+//8 Abstract
+//16 Action
+//32 Time
+//64 Event
+//128 Location
+--ORGANIZATION
+//Basic
+//Fusions
+4,64
+, ,
+4,32
+, ,
+4,16
+, ,
+4,8
+, ,
+1,4
+, ,
+2,4
+, ,
+128,4
+, ,
+1,32
+, ,
+1,64
+The , ,
+1,2,8
+, , ,
+1,2,16
+, , ,
+1,2,64
+, , ,
+1,128,16
+, , ,
+1,128,64
+, , ,
+32,8
+, ,
+32,16
+, ,
+32,64
+, ,
+2,8
+, ,
+2,16
+, ,
+2,64
+, ,
+16
+The ,
+128,16
+, ,
+128,64
+, ,
+32,128
+, in ,
+//Vocabulary
+//1 Meta Descriptor
+//2 Descriptor
+//4 Object
+//8 Abstract
+//16 Action
+//32 Time
+//64 Event
+//128 Location
+--VOCABULARY
+American,2
+Anarchy,8
+Armageddon,8
+Assault,80
+Battle,88
+Beach,128
+Bestial,3
+Blast,20
+Blitz,64
+Blood,4
+Bowl,64
+Cage,4
+California,130
+Campaign,64
+Capitol,130
+Carnage,24
+Championship,64
+Chicago,130
+Christmas,32
+Classic,3
+Coastal,1
+Combat,64
+Confrontation,80
+Crusade,80
+Crush,16
+Day,32
+Death,12
+Destruction,80
+Duel,64
+Encounter,80
+Eternal,1
+European,2
+Feud,72
+Fight,64
+Final,1
+Fire,4
+Fist,4
+Florida,128
+Forbidden,1
+Force,12
+Friday,32
+Future,11
+Great,1
+Greed,8
+Halloween,32
+Hatred,12
+Havoc,16
+Hawaii,128
+Heavyweight,1
+Hell,8
+Hell,8
+Hellish,2
+High-Rise,2
+Hijinks,24
+Holiday,35
+Holiday,99
+Horror,8
+Hour,32
+Insane,2
+Insanity,8
+International,1
+Joust,64
+Judgement,10
+Killer,3
+Knockout,80
+Last,1
+Los Angeles,130
+Madness,24
+Main,1
+Marathon,67
+Matchup,64
+Mayhem,24
+Miami,128
+Monday,32
+Mountain,4
+Murderous,3
+Muscle,4
+National,1
+New Jersey,128
+New York,130
+Night,14
+Pain,12
+Pain,8
+Power,12
+Ring,4
+Rumble,80
+Saturday,32
+Secret,3
+Series,64
+Shootout,80
+Showdown,80
+Sin,24
+Sin,8
+Sinful,3
+Slam,16
+Slam,16
+Slaughter,24
+Smackdown,80
+Stampede,16
+Strife,12
+Sudden,3
+Suffering,8
+Sunday,32
+Sweat,12
+Taboo,2
+Tears,4
+Texas,128
+Thanksgiving,32
+Thunder,4
+Thursday,32
+Total,1
+Tournament,64
+Tourney,64
+Tuesday,32
+Ultimate,1
+Unforgiven,3
+Unforgiving,1
+Unstoppable,1
+Vengeance,24
+War,80
+Wednesday,32
+Week,64
+Wild,3
+World,13

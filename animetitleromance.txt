@@ -1,0 +1,1640 @@
+//Vocab types:
+// 1 Romantic Tag
+// 2 Posessive Abstract
+// 4 POsessive Specific
+// 8 Posessive Specific Plural
+// 16 Descriptor
+// 32 Object
+// 64 Object Plural
+// 128 Abstract
+// 256 Actor
+// 512 Actor Plural
+// 1024 Connector
+// 2048 Character
+//Some of these will ONLY be locational
+--ORGANIZATION
+//Posessives
+2,33
+, ,
+2,65
+, ,
+2,129
+, ,
+2,257
+, ,
+2,513
+, ,
+4,33
+, ,
+4,65
+, ,
+4,129
+, ,
+4,257
+, ,
+4,513
+, ,
+5,32
+, ,
+5,64
+, ,
+5,128
+, ,
+5,256
+, ,
+5,512
+, ,
+8,33
+, ,
+8,65
+, ,
+8,129
+, ,
+8,257
+, ,
+8,513
+, ,
+9,32
+, ,
+9,64
+, ,
+9,128
+, ,
+9,256
+, ,
+9,512
+, ,
+//Posessives complex
+//2
+2,16,33
+, , ,
+2,16,65
+, , ,
+2,16,129
+, , ,
+2,16,257
+, , ,
+2,16,513
+, , ,
+2,17,32
+, , ,
+2,17,64
+, , ,
+2,17,128
+, , ,
+2,17,256
+, , ,
+2,17,512
+, , ,
+2,16,33
+, , ,
+2,17,32
+, , ,
+2,16,65
+, , ,
+2,17,64
+, , ,
+2,16,129
+, , ,
+2,17,128
+, , ,
+2,16,257
+, , ,
+2,17,256
+, , ,
+2,16,513
+, , ,
+2,17,512
+, , ,
+//4
+4,16,33
+, , ,
+4,16,65
+, , ,
+4,16,129
+, , ,
+4,16,257
+, , ,
+4,16,513
+, , ,
+4,17,32
+, , ,
+4,17,64
+, , ,
+4,17,128
+, , ,
+4,17,256
+, , ,
+4,17,512
+, , ,
+4,16,33
+, , ,
+4,17,32
+, , ,
+4,16,65
+, , ,
+4,17,64
+, , ,
+4,16,129
+, , ,
+4,17,128
+, , ,
+4,16,257
+, , ,
+4,17,256
+, , ,
+4,16,513
+, , ,
+4,17,512
+, , ,
+//9
+8,16,33
+, , ,
+8,16,65
+, , ,
+8,16,129
+, , ,
+8,16,257
+, , ,
+8,16,513
+, , ,
+8,17,32
+, , ,
+8,17,64
+, , ,
+8,17,128
+, , ,
+8,17,256
+, , ,
+8,17,512
+, , ,
+8,16,33
+, , ,
+8,17,32
+, , ,
+8,16,65
+, , ,
+8,17,64
+, , ,
+8,16,129
+, , ,
+8,17,128
+, , ,
+8,16,257
+, , ,
+8,17,256
+, , ,
+8,16,513
+, , ,
+8,17,512
+, , ,
+//stacked posessives non-complex Level 1
+2,4,33
+, , ,
+2,4,65
+, , ,
+2,4,129
+, , ,
+2,4,257
+, , ,
+2,4,513
+, , ,
+2,5,32
+, , ,
+2,5,64
+, , ,
+2,5,128
+, , ,
+2,5,256
+, , ,
+2,5,512
+, , ,
+2,8,33
+, , ,
+2,8,65
+, , ,
+2,8,129
+, , ,
+2,8,257
+, , ,
+2,8,513
+, , ,
+2,9,32
+, , ,
+2,9,64
+, , ,
+2,9,128
+, , ,
+2,9,256
+, , ,
+2,9,512
+, , ,
+//Regulars
+//Basic description
+16,17
+, ,
+17,16
+, ,
+16,33
+, ,
+16,65
+, ,
+16,129
+, ,
+16,257
+, ,
+16,513
+, ,
+17,32
+, ,
+17,64
+, ,
+17,128
+, ,
+17,256
+, ,
+17,512
+, ,
+//Basic Combo
+16,33
+, ,
+17,32
+, ,
+16,65
+, ,
+17,64
+, ,
+16,129
+, ,
+17,128
+, ,
+16,257
+, ,
+17,256
+, ,
+16,513
+, ,
+17,512
+, ,
+//Odd - ands
+64,1024,65
+, , ,
+65,1024,64
+, , ,
+128,1024,129
+, , ,
+129,1024,128
+, , ,
+32,1024,129
+, , ,
+33,1024,128
+, , ,
+512,1024,513
+, , ,
+513,1024,512
+, , ,
+//Odd - ands description
+16,64,1024,65
+, , , ,
+16,65,1024,64
+, , , ,
+16,128,1024,129
+, , , ,
+16,129,1024,128
+, , , ,
+16,32,1024,129
+, , , ,
+16,33,1024,128
+, , , ,
+16,512,1024,513
+, , , ,
+16,513,1024,512
+, , , ,
+//Odds - ofs
+33,1024,128
+, , ,
+32,1024,129
+, , ,
+65,1024,128
+, , ,
+64,1024,129
+, , ,
+257,1024,128
+, , ,
+256,1024,129
+, , ,
+257,1024,64
+, , ,
+256,1024,65
+, , ,
+//Basic description
+16,17
+, ,
+16,33
+, ,
+16,65
+, ,
+16,129
+, ,
+16,257
+, ,
+16,513
+, ,
+17,16
+, ,
+17,32
+, ,
+17,64
+, ,
+17,128
+, ,
+17,256
+, ,
+17,512
+, ,
+//Basic Combo
+16,33
+, ,
+17,32
+, ,
+16,65
+, ,
+17,64
+, ,
+16,129
+, ,
+17,128
+, ,
+16,257
+, ,
+17,256
+, ,
+16,513
+, ,
+17,512
+, ,
+//Odd - with connector
+64,1024,65
+, , ,
+65,1024,64
+, , ,
+128,1024,129
+, , ,
+129,1024,128
+, , ,
+32,1024,129
+, , ,
+33,1024,128
+, , ,
+65,1024,128
+, , ,
+64,1024,129
+, , ,
+257,1024,128
+, , ,
+256,1024,129
+, , ,
+257,1024,64
+, , ,
+256,1024,65
+, , ,
+512,1024,513
+, , ,
+513,1024,512
+, , ,
+//Odd - ands description
+16,64,1024,65
+, , , ,
+16,65,1024,64
+, , , ,
+16,128,1024,129
+, , , ,
+16,129,1024,128
+, , , ,
+16,32,1024,129
+, , , ,
+16,33,1024,128
+, , , ,
+16,512,1024,513
+, , , ,
+16,513,1024,512
+, , , ,
+//Character mixes.
+17,2048,17
+, , ,
+16,2048,17
+, , ,
+32,2048,33
+, , ,
+33,2048,32
+, , ,
+64,2048,65
+, , ,
+65,2048,64
+, , ,
+128,2048,129
+, , ,
+129,2048,128
+, , ,
+256,2048,257
+, , ,
+257,2048,256
+, , ,
+512,2048,513
+, , ,
+513,2048,512
+, , ,
+//Regulars Duped
+//Regulars
+//Basic description
+16,17
+, ,
+17,16
+, ,
+16,33
+, ,
+16,65
+, ,
+16,129
+, ,
+16,257
+, ,
+16,513
+, ,
+17,32
+, ,
+17,64
+, ,
+17,128
+, ,
+17,256
+, ,
+17,512
+, ,
+//Basic Combo
+16,33
+, ,
+17,32
+, ,
+16,65
+, ,
+17,64
+, ,
+16,129
+, ,
+17,128
+, ,
+16,257
+, ,
+17,256
+, ,
+16,513
+, ,
+17,512
+, ,
+//Odd - ands
+64,1024,65
+, , ,
+65,1024,64
+, , ,
+128,1024,129
+, , ,
+129,1024,128
+, , ,
+32,1024,129
+, , ,
+33,1024,128
+, , ,
+512,1024,513
+, , ,
+513,1024,512
+, , ,
+//Odd - ands description
+16,64,1024,65
+, , , ,
+16,65,1024,64
+, , , ,
+16,128,1024,129
+, , , ,
+16,129,1024,128
+, , , ,
+16,32,1024,129
+, , , ,
+16,33,1024,128
+, , , ,
+16,512,1024,513
+, , , ,
+16,513,1024,512
+, , , ,
+//Odds - ofs
+33,1024,128
+, , ,
+32,1024,129
+, , ,
+65,1024,128
+, , ,
+64,1024,129
+, , ,
+257,1024,128
+, , ,
+256,1024,129
+, , ,
+257,1024,64
+, , ,
+256,1024,65
+, , ,
+//Basic description
+16,17
+, ,
+16,33
+, ,
+16,65
+, ,
+16,129
+, ,
+16,257
+, ,
+16,513
+, ,
+17,16
+, ,
+17,32
+, ,
+17,64
+, ,
+17,128
+, ,
+17,256
+, ,
+17,512
+, ,
+//Basic Combo
+16,33
+, ,
+17,32
+, ,
+16,65
+, ,
+17,64
+, ,
+16,129
+, ,
+17,128
+, ,
+16,257
+, ,
+17,256
+, ,
+16,513
+, ,
+17,512
+, ,
+//Odd - with connector
+64,1024,65
+, , ,
+65,1024,64
+, , ,
+128,1024,129
+, , ,
+129,1024,128
+, , ,
+32,1024,129
+, , ,
+33,1024,128
+, , ,
+65,1024,128
+, , ,
+64,1024,129
+, , ,
+257,1024,128
+, , ,
+256,1024,129
+, , ,
+257,1024,64
+, , ,
+256,1024,65
+, , ,
+512,1024,513
+, , ,
+513,1024,512
+, , ,
+//Odd - ands description
+16,64,1024,65
+, , , ,
+16,65,1024,64
+, , , ,
+16,128,1024,129
+, , , ,
+16,129,1024,128
+, , , ,
+16,32,1024,129
+, , , ,
+16,33,1024,128
+, , , ,
+16,512,1024,513
+, , , ,
+16,513,1024,512
+, , , ,
+//Character mixes.
+17,2048,17
+, , ,
+16,2048,17
+, , ,
+32,2048,33
+, , ,
+33,2048,32
+, , ,
+64,2048,65
+, , ,
+65,2048,64
+, , ,
+128,2048,129
+, , ,
+129,2048,128
+, , ,
+256,2048,257
+, , ,
+257,2048,256
+, , ,
+512,2048,513
+, , ,
+513,2048,512
+, , ,
+--VOCABULARY
+// 1 Romantic Tag
+// 2 Posessive Abstract
+// 4 POsessive Specific
+// 8 Posessive Specific Plural
+// 16 Descriptor
+// 32 Object
+// 64 Object Plural
+// 128 Abstract
+// 256 Actor
+// 512 Actor Plural
+// 1024 Connector
+// 2048 Character
+//Neutral
+Candle,33
+Candles,65
+Sweet,17
+Savage,17
+Delicious,17
+Delicate,17
+Need,161
+Needs,65
+Perfect,16
+Perfection,128
+Laughing,16
+Laughter,160
+Conquest,33
+Conquests,65
+Conquered,17
+Conquering,17
+Heart,33
+Hearts,65
+Heartbeat,33
+Heartbeats,65
+Heart's,7
+Hearts',9
+Harem,33
+Harems,65
+Whisper,33
+Whispers,65
+Whispering,17
+Blushing,17
+Blush,32
+Able,16
+Abominable,16
+Absolute,16
+Acrobat,256
+Acrobat's,4
+Acrobats,512
+Acrobats',8
+Actor,257
+Actor's,5
+Actors,513
+Actors',9
+Adventurer,273
+Adventurer's,5
+Adventurers,513
+Adventurers',9
+Affair,128
+Affair,33
+Affairs,65
+Affairs,65
+Agent,273
+Agent's,5
+Agents,513
+Agents',9
+Airborne,16
+Airport,32
+Airports,64
+Alchemy,128
+Alchemist,256
+Alchemist's,4
+Alchemists,512
+Alchemists',8
+Aliance,160
+Alien,273
+Alien's,4
+Aliens,512
+Aliens',8
+Allies,512
+Alluring,17
+Amazed,16
+Amazing,16
+Ambassador,256
+Ambassador's,4
+Ambassadors,512
+Ambassadors',8
+Android,256
+Android's,4
+Androids,512
+Androids',8
+Angel,257
+Angelic,17
+Angel's,5
+Angels,513
+Angels',9
+Anger,128
+Animal,16
+Antique,16
+Apocalypse,128
+Arc,32
+Archer,256
+Archer's,4
+Archers,512
+Archers',8
+Architect,256
+Architect's,4
+Architects,512
+Architects',8
+Archivist,256
+Archivist's,4
+Archivists,512
+Archivists',8
+Arcs,64
+Arena,32
+Arenas,64
+Armageddon,128
+Artificial,16
+Artist,256
+Artist's,4
+Artists,512
+Artists',8
+Ashen,16
+Assassin,256
+Assassin's,4
+Assassins,513
+Assassins',9
+Assistant,256
+Assistant's,4
+Assistants,512
+Assistants',8
+Astral,16
+Astro,16
+Astrologer,256
+Astrologer's,4
+Astrologers,512
+Astrologers',8
+Astronaut,256
+Astronaut's,4
+Astronauts,512
+Automatic,16
+Awe,128
+Awful,16
+Bad,16
+Bakeries,64
+Bakery,32
+Bandit,256
+Bandit's,4
+Bandits,512
+Bank,32
+Banks,64
+Barbarian,273
+Barbarian's,5
+Barbarians,513
+Barbaric,16
+Bard,257
+Bard's,5
+Bards,513
+Bastard,272
+Bastard's,4
+Bastards,512
+Bastards',8
+Beam,32
+Beams,64
+Beast,273
+Beastly,17
+Beast's,5
+Beasts,513
+Beasts',9
+Beautiful,17
+Bed,33
+Beds,65
+Bejeweled,17
+Bell,32
+Bells,64
+Beloved,49
+Beloved's,5
+Beloveds,65
+Beloveds',9
+Bitter,16
+Black,16
+Blackness,128
+Blacksmith,256
+Blacksmith's,4
+Blacksmiths,512
+Blatant,17
+Blind,16
+Blindness,128
+Bodyguard,257
+Bodyguard's,5
+Bodyguards,513
+Boosted,16
+Boredom,128
+Bottle,32
+Bottles,64
+Bound,17
+Bounty Hunter,256
+Bounty Hunter's,4
+Bounty Hunters,512
+Bracelet,32
+Bracelets,64
+Breaker,256
+Breaker,256
+Breaker's,4
+Breakers,512
+Breakers,512
+Breakers',8
+Breeze,32
+Breezes,64
+Bridge,32
+Bridges,64
+Brilliance,128
+Brilliant,16
+Broken,16
+Brothel,33
+Brothels,65
+Cake,33
+Cakes,65
+Candied,17
+Candy,49
+Captor,257
+Captor's,5
+Captors,513
+Captors',9
+Card,32
+Cards,64
+Castle,33
+Castles,65
+Chains,65
+Champion,256
+Champion's,4
+Champions,513
+Chance,128
+Chance,144
+Charming,17
+Church,33
+Churches,65
+Cities,64
+Cities,64
+City,32
+City,32
+Clear,16
+Cleric,256
+Cleric's,4
+Clerics,512
+Clerics',8
+Clerk,256
+Clerk's,4
+Clerks,512
+Clerks',8
+Clone,272
+Clone,272
+Clones,512
+Clones',8
+Club,32
+Clubs,64
+Coach,256
+Coach's,4
+Coachs,512
+Coachs',8
+Complete,16
+Conjurer,256
+Conjurer's,4
+Conjurers,512
+Conjurers',8
+Correct,16
+Corrector,256
+Corrector's,4
+Correctors,512
+Correctors,8
+Cosmic,16
+Craving,129
+Curse,32
+Cursed,16
+Curses,64
+Cybernetic,16
+Cyberpunk,272
+Cyberpunk's,5
+Cyberpunks,512
+Cyberpunks',8
+Cyborg,272
+Cyborg's,4
+Cyborgs,512
+Cyborgs',8
+Dance,161
+Dancer,257
+Dancer's,5
+Dancers,513
+Dancers',9
+Dances,65
+Dancing,128
+Danger,128
+Dangerous,17
+Daring,17
+Darkness,128
+Date,33
+Dates,64
+Death,128
+Demonic,16
+Demonologist,256
+Demonologist's,4
+Demonologists,512
+Demonologists',8
+Desire,161
+Desireable,17
+Desires,65
+Desolate,16
+Desolation,128
+Destinies,65
+Destiny,145
+Destiny's,5
+Detective,257
+Detective,273
+Detective's,5
+Detective's,5
+Detectives,513
+Detectives,513
+Detectives',9
+Detectives',9
+Devilish,17
+Diamond,48
+Diamonds,64
+Distance,128
+Diver,256
+Diver's,4
+Divers,512
+Divers',8
+Doctor,257
+Doctor's,5
+Doctors,513
+Doctors',9
+Dormitories,64
+Dormitory,32
+Drama,161
+Dramas,65
+Dramatic,17
+Dream,33
+Dreams,65
+Dress,33
+Dresses,65
+Driver,256
+Driver's,4
+Drivers,512
+Drivers',8
+Drug,33
+Drugs,65
+Druid,256
+Druid's,4
+Druids,512
+Druids',8
+Dual,16
+Electronic,16
+Elegant,17
+Elite,16
+Emblem,32
+Emblems,64
+Emotional,17
+Empire,32
+Empires,64
+Enchanting,17
+Engineer,256
+Engineer's,4
+Engineers,512
+Engineers',8
+Enthralling,17
+Entrancing,17
+Epic,48
+Epics,64
+Exorcist,257
+Exorcist's,5
+Exorcists,513
+Exorcists',9
+Explorer,257
+Explorer's,5
+Explorers,513
+Explorers',9
+Factories,64
+Factory,32
+Fancy,17
+Fantastic,16
+Fatal,16
+Fatalities,64
+Fatality,160
+Fate,128
+Fate's,5
+Fire,32
+Firey,17
+Flame,32
+Flames,64
+Flight,160
+Flights,64
+Flower,33
+Flowers,65
+Foolish,16
+Fortune-Teller,257
+Fortune-Teller's,5
+Fortune-Tellers,513
+Fortune-Tellers',9
+Full,16
+Furious,16
+Furious,16
+Fury,128
+Future,144
+Galactic,16
+Galactic,16
+Galaxies,64
+Galaxy,32
+Gallant,17
+Gallantry,129
+Gambler,256
+Gambler,256
+Gambler's,4
+Gambler's,4
+Gamblers,512
+Gamblers,512
+Gamblers',8
+Gamblers',8
+Gate,32
+Gates,64
+Gems,64
+Gemstone,48
+Gemstones,64
+Gender,160
+Genders,64
+Genesis,128
+Gentle,16
+Ghost,257
+Ghostly,17
+Ghost's,5
+Ghosts,513
+Ghosts',9
+Glass,48
+Glasses,64
+Gold,48
+Golden,16
+Good,144
+Good,16
+Goodness,128
+Gorgeous,17
+Gothic,17
+Great,16
+Guardian,256
+Guardian's,4
+Guardians,512
+Guardians',8
+Hacker,256
+Hacker's,4
+Hackers,512
+Hackers',8
+Handsome,17
+Hated,16
+Hatred,128
+Haunted,17
+Healer,256
+Healer's,4
+Healers,512
+Healers',8
+Heaven,161
+Heavenly,17
+Heavens,65
+Hell,160
+Hells,64
+Helpful,16
+Helping,16
+Heroic,17
+High,16
+Holy,17
+Home,32
+Homes,64
+Honey,48
+Hotel,33
+Hotels,65
+House,32
+Houses,64
+Hunter,257
+Hunter's,5
+Hunters,513
+Hunters',9
+Hurricane,32
+Hurricanes,64
+Ideal,48
+Ideals,64
+Illegal,16
+Immoral,17
+Immortal,272
+Immortal's,4
+Immortals,512
+Immortals',8
+Impostor,256
+Impostor's,4
+Impostors,512
+Impostors',8
+Incomplete,16
+Incorrect,16
+Inspiration,128
+Interplanetary,16
+Invulnerable,16
+Irrational,16
+Irrepressible,16
+Irresponsible,16
+Jewel,32
+Jeweled,17
+Jewels,64
+Journey,32
+Journies,64
+Joy,161
+Joyous,17
+Justice,128
+Karma,128
+Killer,256
+Killer's,4
+Killers,512
+Killers',8
+Kingdom,32
+Kingdoms,64
+Sugar,33
+Sugared,17
+Candy,33
+Candies,65
+Spark,33
+Sparks,65
+Deep,17
+Kissing,17
+Caressing,17
+Kiss,33
+Kisses,65
+Lake,32
+Lakes,64
+Laughing,16
+Laughter,128
+Leader,256
+Leader's,4
+Leaders,512
+Leaders',8
+Leather,17
+Legal,16
+Legend,160
+Legendary,16
+Legends,64
+Librarian,256
+Librarian's,4
+Librarians,512
+Librarians',8
+Libraries,64
+Library,32
+Light,160
+Living,16
+Longing,129
+Lonliness,129
+Lost,16
+Love,129
+Loved,17
+Lover,257
+Lover's,5
+Lovers,513
+Lovers',9
+Loving,17
+Lust,161
+Lusts,65
+Magic,160
+Magic,48
+Magician,257
+Magician's,5
+Magicians,513
+Magicians',9
+Manager,256
+Manager's,4
+Managers,512
+Managers',8
+Mansion,33
+Mansions,65
+Marine,256
+Marine's,4
+Marines,512
+Marines',8
+Marionette,288
+Marionette's,4
+Marionettes,512
+Marionettes',8
+Mental,16
+Mentor,256
+Mentor's,4
+Mentors,513
+Mentors',9
+Mercenaries,513
+Mercenaries',9
+Mercenary,273
+Mercenary's,5
+Merchant,256
+Merchant's,4
+Merchants,512
+Merchants',8
+Metal,48
+Miner,256
+Miner's,4
+Miners,512
+Miners',8
+Miracle,32
+Miracles,64
+Miraculous,16
+Mode,32
+Modes,64
+Moral,16
+Mortal,48
+Mortal's,4
+Mortals,64
+Mortals',8
+Mountain,16
+Mountains,32
+Murderer,256
+Murderer's,4
+Murderers,512
+Murderers',8
+Music,128
+Musical,49
+Musician,273
+Musician's,5
+Musicians,513
+Musicians',9
+Mutant,272
+Mutant's,4
+Mutants,512
+Mutants',8
+My,2
+Mystical,16
+Myth,32
+Mythic,16
+Mythical,16
+Myths,64
+Necromancer,257
+Necromancer's,5
+Necromancers,513
+Necromancers',9
+Necromantic,17
+Need,129
+Newscaster,256
+Newscaster's,4
+Newscasters,512
+Newscasters',8
+Night,49
+Nights,65
+Nighttime,128
+Noble,273
+Noble's,5
+Nobles,513
+Nobles',9
+Noctoure,128
+Nocturnal,17
+Novel,48
+Novelist,257
+Novelist's,5
+Novelists,513
+Novelists',9
+Novels,64
+Oblivion,128
+Oblivious,16
+Ocean,16
+Oceans,32
+Official,272
+Official's,4
+Officials,512
+Officials',8
+Our,2
+Outlaw,273
+Outlaw's,5
+Outlaws,513
+Outlaws',9
+Outrage,128
+Outrageous,16
+Paladin,257
+Paladin's,5
+Paladins,513
+Paladins',9
+Passion,129
+Passions,65
+Passionate,17
+Peasants,512
+Peasants',8
+Philosopher,256
+Philosopher's,4
+Philosophers,512
+Philosophers',8
+Philosophical,16
+Philosophical,16
+Philosophy,128
+Pilot,272
+Pilot's,4
+Pilots,512
+Pilots',8
+Pirate,273
+Pirate's,5
+Pirates,513
+Pirates',9
+Planet,32
+Planetary,16
+Planets,64
+Play,32
+Plays,64
+Pleading,128
+Pleasure,161
+Pleasures,65
+Plural,16
+Poem,33
+Poems,65
+Poet,273
+Poetic,17
+Poet's,5
+Poets,513
+Poets',9
+Pretender,256
+Pretender's,4
+Pretenders,512
+Pretenders',8
+Professional,272
+Professional's,4
+Professionals,512
+Professionals',8
+Professor,256
+Professor's,4
+Professors,512
+Professors',8
+Project,32
+Projects,64
+Promise,33
+Promised,17
+Promises,65
+Psychic,272
+Psychic,512
+Psychic's,4
+Psychics',8
+Ragnarok,128
+Ranger,256
+Ranger's,4
+Rangers,512
+Rangers',8
+Rascal,273
+Rascals,513
+Rascals',9
+Rascal's.5
+Rational,16
+Reason,160
+Reasonable,16
+Reasons,64
+Reporter,256
+Reporter's,4
+Reporters,512
+Reporters',8
+Repressed,16
+Restraunt,16
+Restraunts,32
+Ribbon,33
+Ribbons,65
+Ring,33
+Risky,17
+Rival,273
+Rival's,5
+Rivals,513
+Rivals',9
+Robot,272
+Robot's,4
+Robots,512
+Robots',8
+Rogue,273
+Rogues,513
+Rogues',9
+Rogue's.5
+Romance,129
+Romance,161
+Romances,65
+Romantic,17
+Rope,33
+Ropes,65
+Rose,33
+Roses,65
+Royal,16
+Rubies,64
+Ruby,48
+Rune,32
+Runes,64
+Sanctuaries,65
+Saga,32
+Saga,32
+Sagas,64
+Sagas,64
+Sailor,273
+Sailor's,5
+Sailors,513
+Sailors',9
+Sanctuary,33
+Sapphire,48
+Sapphires,64
+School,32
+Schools,64
+Scientist,256
+Scientist's,4
+Scientists,512
+Scientists',8
+Scribe,256
+Scribe's,4
+Scribes,512
+Scribes',8
+Secretaries,512
+Secretaries',8
+Secretary,256
+Secretary's,4
+Seducer,256
+Seducer's,5
+Seducers,512
+Seducers',9
+Seduction,129
+Seductions,65
+Seductive,17
+Seeker,256
+Seeker's,4
+Seekers,512
+Seekers',8
+Seeking,16
+Seer,257
+Seer's,5
+Seers,512
+Seers',8
+Seraphic,16
+Servant,273
+Servant's,4
+Servants,513
+Servants',9
+Sexy,17
+Shadow,32
+Shadows,64
+Shadowy,16
+Shaman,256
+Shaman's,4
+Shamans,512
+Shamans',8
+Ship,32
+Ships,64
+Shop,32
+Shops,64
+Shrine,32
+Shrines,64
+Silk,33
+Silken,17
+Silks,65
+Silky,17
+Silver,48
+Singer,256
+Singer,257
+Singer's,5
+Singers,512
+Singers,513
+Singers',9
+Singing,16
+Smuggler,257
+Smuggler's,5
+Smugglers,513
+Smugglers',9
+Soldier,257
+Soldier's,5
+Soldiers,513
+Soldiers',9
+Song,32
+Songs,64
+Sonnet,33
+Sonnets,64
+Spell,64
+Spells,65
+Spies,513
+Spies',9
+Spirit,160
+Spirit's,4
+Spirits,64
+Spirits',8
+Spiritual,16
+Spiritual,17
+Sports,128
+Spy,273
+Spy's,5
+Star,33
+Stars,64
+Store,32
+Stores,64
+Strange,16
+Student,256
+Student's,4
+Students,512
+Students',8
+Super,16
+Surgeon,256
+Surgeon's,4
+Surgeons,513
+Surgeons',9
+Swords,64
+Tail,32
+Tails,64
+Tatoo,33
+Tatoos,65
+Tavern,32
+Taverns,65
+Teacher,256
+Teacher's,4
+Teachers,512
+Teachers',8
+Technician,256
+Technician's,4
+Technicians,512
+Technicians',8
+Their,2
+Thief,257
+Thief's,5
+Thieves,513
+Thieves',9
+Tomb,32
+Tombs,64
+Tornado,32
+Tornados,64
+Touch,33
+Touches,65
+Trader,256
+Trader's,4
+Traders,512
+Traders',8
+Traitor,256
+Traitor's,4
+Traitors,512
+Traitors',8
+Travel,128
+Traveler,256
+Traveler's,4
+Travelers,513
+Travelers',9
+Triple,16
+Tuxedo,33
+Tuxedoes,65
+Twilight,177
+Twilight,48
+Twin,16
+Twins,512
+Twins',8
+Unbound,16
+Unholy,16
+Unreasonable,16
+Vampiric,16
+Variable,16
+Veil,33
+Veils,65
+Voice,32
+Voices,64
+Vulnerable,17
+Wanderer,256
+Wanderers,512
+Watcher,257
+Watcher's,5
+Watchers,513
+Watchers',9
+Wine,33
+Wines,65
+Worker,256
+Worker's,4
+Workers,512
+Workers',8
+World,32
+Your,2
+//1024 - Connector
+of,1024
+and,1024
+before,1024
+after,1024
+with,1024
+or,1024
+// 2048 - Character
+X,2048
+-,2048
+/,2048
+=,2048
+:,2048
+*,2048
++,2048
+~,2048

@@ -1,0 +1,6 @@
+Any
+	SEED
+		magicpowergendat.txt
+'Artistic' - Alliterated
+	SEEDALPHA
+		magicpowergendat.txt

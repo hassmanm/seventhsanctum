@@ -1,0 +1,328 @@
+//1 - Male Figure
+//2 - Female Figure
+//4 - Male Archetype
+//8 - Female Archetype
+--ORGANIZATION
+//Basics
+1,4
+, - ,
+2,8
+, - ,
+--VOCABULARY
+//1 - Male Figure
+Abraham Lincoln,1
+Adam Smith,1
+Aggamemnon,1
+Al Capone,1
+Alan Turing,1
+Albert Einstein,1
+Aleister Crowley,1
+Alexander Bell,1
+Alexander the Great,1
+Alfred Hitchcock,1
+Alfred Nobel,1
+Archemedes,1
+Aristotle,1
+Arthur Conan Doyle,1
+Bach,1
+Beethoven,1
+Ben Franklin,1
+Benedict Arnold,1
+Benjamin Franklin,1
+Buckminster Fuller,1
+Buddha,1
+Buddy Holly,1
+Caeser,1
+Carl Jung,1
+Charles Babbage,1
+Charles Chaplin,1
+Charles Darwin,1
+Charles De Gaulle,1
+Charles Dickens,1
+Chiang Kai Shek,1
+Christopher Columbus,1
+Columbus,1
+Confucius,1
+Copernicus,1
+Cormac Mac Airt,1
+CS Lewis,1
+Ed Wood,1
+Edgar Allen Poe,1
+Elliot Ness,1
+Elpihas Levi,1
+Elvis,1
+Elvis Presley,1
+Emmanuel Kant,1
+Emperor Hadrian,1
+Ernest Hemmingway,1
+Finn Mac Cumhail,1
+Franklin Roosevelt,1
+Franz Kafka,1
+Frederick the Great,1
+Galileo,1
+Galileo Galilei,1
+George Orwell,1
+George Patton,1
+George Washington,1
+Gershwin,1
+Ghandi,1
+Ghengis Khan,1
+Goethe,1
+Gutenberg,1
+H.G. Wells,1
+H.P. Lovecraft,1
+Haile Selassie,1
+Hammurabi,1
+Harun Al-Rashid,1
+Heisenberg,1
+Henry Ford,1
+Henry the Eighth,1
+Heraclitus,1
+Herman Mellville,1
+HG Wells,1
+Hiawatha,1
+Imhotep,1
+Immanuel Kant,1
+Isaac Asimov,1
+Isaac Newton,1
+J.M. Barre,1
+J.R.R. Tolkein,1
+James Joyce,1
+Jessie James,1
+John Adams,1
+John Lennon,1
+JRR Tolkien,1
+Jules Verne,1
+Julius Ceaser,1
+Karl Marx,1
+Kepler,1
+King Arthur,1
+King George III,1
+Kublai Khan,1
+Leif Ericson,1
+Lenin,1
+Leonardo Da Vinci,1
+Lewis Carroll,1
+Lincoln,1
+Linnaeus,1
+Magellan,1
+Mao Tse Tung,1
+Marco Polo,1
+Marconi,1
+Mark Twain,1
+Marquis De Sade,1
+Martin Luther,1
+Mohammed,1
+Montezuma,1
+Moses,1
+Mozart,1
+Napoleon,1
+Nero,1
+Newton,1
+Nicolai Tesla,1
+Nietzsche,1
+Nikolai Tesla,1
+Orville Wright,1
+Oscar Wilde,1
+Pablo Picasso,1
+Paracelsius,1
+Paul Revere,1
+Pavlov,1
+Percy Bysshe Shelley,1
+Plato,1
+Pontious Pilate,1
+Ptolemy,1
+Pythagoreas,1
+Queen Victoria,1
+Robert Oppenheimer,1
+Roger Bacon,1
+Saint Dominic,1
+Saint Francis,1
+Saint Jerome,1
+Saint Luke,1
+Saint Paul,1
+Saint Peter,1
+Saint Thomas,1
+Saladin,1
+Sigmund Freud,1
+Socrates,1
+Stalin,1
+Tacitus,1
+Tecumseh,1
+Teddy Roosevelt,1
+Thomas Agrippa,1
+Thomas Edison,1
+Thomas Malthus,1
+Tomas Edison,1
+Tutankhamen,1
+Ulysses S. Grant,1
+Van Gough,1
+Voltaire,1
+Wilbur Wright,1
+Willaim Penn,1
+William Blake,1
+William Shakespeare,1
+Winston Churchill,1
+Wolfgang Amadeus Mozart,1
+Wyatt Earp,1
+//2 - Female Figure
+Abigail Adams,2
+Ada Lovelace,2
+Agatha Christie,2
+Amelia Earhart,2
+Anne Hutchinson,2
+Annie Oakley,2
+Beatrix Potter,2
+Betsy Ross,2
+Boudica,2
+Calamity Jane,2
+Catherine the Great,2
+Cassandra,2
+Cleopatra,2
+Clytemnestra,2
+Eleanor Roosevelt,2
+Eleanor of Aquataine,2
+Elizabeth Blackwell,2
+Emily Bronte,2
+Emily Dickenson,2
+Eva Peron,2
+Florence Nightengale,2
+Gertrude Stein,2
+Golda Meir,2
+Harriet Tubman,2
+Hatshepsut,2
+Hypatia,2
+Indira Ghandi,2
+Isadora Duncan,2
+Jane Adams,2
+Jane Austen,2
+Joan of Arc,2
+Laura Ingalls Wilder,2
+Louisa May Alcott,2
+Madame Blatavsky,2
+Madame De Pompadour,2
+Margaret Mead,2
+Margaret Murray,2
+Marie Antoinette,2
+Marie Curie,2
+Marie Tussard,2
+Marilyn Monroe,2
+Mary Baker Eddy,2
+Mary 'Mother' Jones,2
+Mary (Queen of Scots),2
+Mary Shelly,2
+Mata Hari,2
+Muraski Shikibu,2
+Nefertiti,2
+Pocahontas,2
+Queen Elizabeth,2
+Queen Victoria,2
+Sacagawea,2
+Sappho,2
+Susan B. Anthony,2
+Virginia Woolf,2
+Zenobia,2
+//4 - Male Archetype
+//8 - Female Archetype
+Action Hero,4
+Action Heroine,8
+Alchemist,12
+Alien Abductee,12
+Alien Fighter,12
+Alien Invader,12
+Amazon Princess,8
+Anime Catboy,4
+Anime Catgirl,8
+Anime Magical Girl,8
+Anime Magical Knight,4
+Assasin,12
+Barbarian Warrior,4
+Beastmaster,4
+Biker,12
+Black Ops Agent,12
+Boy Wonder,4
+Computer Hacker,12
+Computer Nerd,12
+Computer Simulation,12
+Cute Mascot,12
+Cyborg,12
+Dark Knight,12
+Dark Lord,4
+Demon Slayer,12
+Disco Sensation,12
+Dragon-slayer,12
+Emo Kid,12
+Exorcist,12
+Exotic Dancer,12
+Fairytale Evil Queen,8
+Fallen Angel,12
+Fighter Pilot,12
+Game Show Host,12
+Girl Wonder,8
+Glam Rocker,12
+Goofy Sidekick,12
+Goth Girl,8
+Gothboy,4
+Guardian Angel,12
+Gunslinger,12
+Heavy Metal Musician,12
+High Priest,4
+High Priestess,8
+Jazz Musician,12
+Jungle Queen,8
+Lord of the Jungle,4
+Luchadore,12
+Mad Scientist,12
+Martial Artist,12
+Masked Avenger,12
+Master of Hand-To-Hand Combat,12
+Movie Mogul,12
+Mutant,12
+Ninja,12
+Paranormal Investigator,12
+Pin-up Girl,8
+Pin-up Prettyboy,4
+Pirate Captain,12
+Post-Apocalyptic Hero,4
+Post-Apocalyptic Heroine,8
+Private Detective,12
+Pro Wrestler,12
+Psychic,12
+Punk Rocker,12
+Racing Legend,12
+Rap Artist,12
+Robot Pilot,12
+Rock and Roll Sensation,12
+Samurai,12
+Secret Agent,12
+Sexy Bishounen,4
+Singing Sensation,12
+Skatepunk,12
+Space Explorer,12
+Space Marine,12
+Space Pirate,12
+Starship Captain,12
+Steampunk Hero,4
+Steampunk Heroine,8
+Stereotypical Romance Novel Hero,4
+Stereotypical Romance Novel Heroine,8
+Street Fighter,12
+Superhero,4
+Superheroine,8
+Supermodel,12
+Super-soldier,12
+Supervillain,4
+Supervillainess,8
+Swashbuckling Hero,4
+Swashbuckling Heroine,8
+Time Traveller,12
+Torch Singer,8
+Unrepentant Redneck,12
+Vampire Hunter,12
+Vampire,12
+Vigilante,12
+Warlock,4
+Warlord,12
+Werewolf,12
+Witch,8
+Wizard,4

@@ -1,0 +1,318 @@
+//Vocab types:
+//1 - Descriptor
+//2 - Describable Posessive
+//4 - Non-Describable Posessive
+//8 - Associative
+//16 - Dungeon
+--ORGANIZATION
+1,16
+, ,
+1,16,2
+, , of ,
+1,16,4
+, , of ,
+1,16,1,2
+, , of , ,
+1,16,8
+, , of the ,
+16,2
+, of ,
+16,4
+, of ,
+16,1,2
+, of , ,
+16,8
+, of the ,
+//Vocabulary
+--VOCABULARY
+//1 - Descriptor
+Aerial,1
+Ancestral,1
+Ancient,1
+Animated,1
+Aquatic,1
+Astral,1
+Black,1
+Blasphemous,1
+Blessed,1
+Bloodstained,1
+Bloody,1
+Buried,1
+Burning,1
+Celestial,1
+Chaotic,1
+Cursed,1
+Dark,1
+Deadly,1
+Decrepid,1
+Demonic,1
+Desecrated,1
+Despicable,1
+Drowned,1
+Enchanted,1
+Eternal,1
+Ethereal,1
+Ensorceled,1
+Ever-changing,1
+Firey,1
+Forbidden,1
+Foul,1
+Fallen,1
+Floating,1
+Flying,1
+Forbidden,1
+Forgotten,1
+Frozen,1
+Grand,1
+Great,1
+Ghastly,1
+Ghostly,1
+Heavenly,1
+Hellish,1
+Hidden,1
+Haunted,1
+Inescapable,1
+Infernal,1
+Insane,1
+Legendary,1
+Living,1
+Magic,3
+Mysterious,1
+Mystic,1
+Necromantic,1
+Profane,1
+Sacred,1
+Secret,1
+Shadowy,1
+Shadowed,1
+Spectral,1
+Subterranian,1
+Terrifying,1
+Terrible,1
+Titanic,1
+Twisted,1
+Underwater,1
+Unholy,9
+Unknowable,9
+Unknown,9
+Unspeakable,9
+Unthinkable,9
+Warped,1
+Wicked,1
+//2 - Describable Posessive
+Agony,2
+Battle,2
+Blasphemy,2
+Combat,2
+Danger,2
+Death,2
+Decay,2
+Demons,10
+Devils,10
+Doom,2
+Dreams,2
+Enchantment,2
+Enchantments,2
+Ghosts,10
+Hate,2
+Horror,2
+Illusions,2
+Insanity,2
+Lies,2
+Madness,2
+Memories,2
+Mirages,2
+Misery,2
+Monsters,10
+Mysteries,2
+Pain,2
+Panic,2
+Prayers,2
+Runes,2
+Secrets,2
+Snares,2
+Sorcery,2
+Souls,10
+Spirits,10
+Storms,2
+Terror,2
+Thunder,2
+Torture,2
+Traps,2
+Visions,2
+War,2
+Wickedness,2
+Words,2
+Writings,2
+//4 - Non-Describable Posessive
+Air,4
+Annihilation,4
+Automatons,4
+Blessings,4
+Blood,4
+Bone,4
+Chaos,4
+Confusion,4
+Crystal,5
+Darkness,4
+Deception,4
+Despair,4
+Desolation,4
+Destiny,4
+Destruction,4
+Dissolution,4
+Earth,4
+Elements,4
+Falsehood,4
+Fate,4
+Fear,4
+Fire,4
+Flame,4
+Flesh,4
+Foulness,4
+Hate,4
+Hell,4
+Hopelessness,4
+Ice,4
+Illusion,4
+Iron,5
+Knowledge,4
+Metal,5
+Nothingness,4
+No Return,4
+Oblivion,4
+Pain,4
+Shadows,4
+Silence,4
+Solitude,4
+Steel,5
+Suffering,4
+Warfare,4
+Water,4
+Wisdom,4
+//8 - Associative
+Arch-Lich,8
+Arch-Mage,8
+Barbarian King,8
+Blood God,8
+Cannibal King,8
+Cannibals,8
+Chaos Lord,8
+Conqueror,8
+Cursed,9
+Damned,9
+Dark Knight,8
+Dark Lord,8
+Deciever,8
+Demon Lord,8
+Demon King,8
+Demonologist,8
+Destroyer,8
+Dragon,8
+Elementals,8
+Elementalist,8
+Executioner,8
+Giants,8
+Ghouls,8
+Ghoul Lord,8
+Heavens,8
+High Priest,8
+High Priestess,8
+Inferno,8
+Inquisitor,8
+King,8
+Lost,9
+Mummy,8
+Necromancer,8
+Pharoah,8
+Prophet,8
+Queen,8
+Snake God,8
+Sorceror,8
+Sorceress,8
+Summoner,8
+Undead,8
+Vampire Lord,8
+Void,8
+War God,8
+Warlock,8
+Warlord,8
+Warriors,8
+Wind,8
+Witchlord,8
+Witch-queen,8
+Wraith-king,8
+Wraiths,8
+Zombie Master,8
+//16 - Dungeon
+Abyss,24
+Arena,16
+Battlefield,16
+Cairn,16
+Canyon,16
+Castle,16
+Catacomb,16
+Catacombs,16
+Cave,16
+Caves,16
+Cenotaph,16
+Church,16
+Citadel,16
+Cliffs,16
+Coleoseum,16
+Crag,16
+Crypt,16
+Demense,16
+Desert,16
+Domain,16
+Domicile,16
+Dungeon,16
+Dunjon,16
+Durance,16
+Forest,16
+Fort,16
+Fortress,16
+Gauntlet,16
+Gorge,16
+Grave,16
+Grotto,16
+Hall,16
+Halls,16
+Island,16
+Islands,16
+Jungle,16
+Keep,16
+Labrynth,16
+Manse,16
+Mansion,16
+Marsh,16
+Maze,16
+Monolith,16
+Monument,16
+Moor,16
+Mountain,16
+Mountains,16
+Necropolis,16
+Ossuary,16
+Oubliette,16
+Pavillion,16
+Pit,16
+Ruins,16
+Sanctuary,16
+Sanctum,16
+Sepulcher,16
+Shrine,16
+Spire,16
+Stronghold,16
+Swamp,16
+Temple,16
+Tomb,16
+Tower,16
+Tunnel,16
+Tunnels,16
+Valley,16
+Vault,16
+Vortex,24
+Woodland,16
+Woodlands,16
+Woods,16

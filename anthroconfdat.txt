@@ -1,0 +1,108 @@
+General
+	SEEDGENERAL
+		anthrodat.txt
+Any Profession/Time Period
+	SEED
+		anthrodat.txt
+Fantasy
+	SEEDFANTASY
+		anthrodat.txt
+Modern
+	SEEDMODERN
+		anthrodat.txt
+Science Fiction
+	SEEDSF
+		anthrodat.txt
+Steampunk
+	SEEDSTEAMPUNK
+		anthrodat.txt
+General - Female
+	SEEDGENERALFEMALE
+		anthrodat.txt
+General - Male
+	SEEDGENERALMALE
+		anthrodat.txt
+Any Profession/Time Period - Female
+	SEEDANYFEMALE
+		anthrodat.txt
+Any Profession/Time Period - Male
+	SEEDANYMALE
+		anthrodat.txt
+Fantasy - Female
+	SEEDFANTASYFEMALE
+		anthrodat.txt
+Fantasy - Male
+	SEEDFANTASYMALE
+		anthrodat.txt
+Modern - Female
+	SEEDMODERNFEMALE
+		anthrodat.txt
+Modern - Male
+	SEEDMODERNMALE
+		anthrodat.txt
+Science Fiction - Female
+	SEEDSFFEMALE
+		anthrodat.txt
+Science Fiction - Male
+	SEEDSFMALE
+		anthrodat.txt
+Steampunk - Female
+	SEEDSTEAMPUNKFEMALE
+		anthrodat.txt
+Steampunk - Male
+	SEEDSTEAMPUNKMALE
+		anthrodat.txt
+General Mythical
+	SEEDGENERALMYTH
+		anthrodat.txt
+Mythical - Any Profession/Time Period
+	SEEDMYTH
+		anthrodat.txt
+Mythical - Fantasy
+	SEEDFANTASYMYTH
+		anthrodat.txt
+Mythical - Modern
+	SEEDMODERNMYTH
+		anthrodat.txt
+Mythical - Science Fiction
+	SEEDSFMYTH
+		anthrodat.txt
+Mythical - Steampunk
+	SEEDSTEAMPUNKMYTH
+		anthrodat.txt
+Mythical - General - Female
+	SEEDGENERALFEMALEMYTH
+		anthrodat.txt
+Mythical - General - Male
+	SEEDGENERALMALEMYTH
+		anthrodat.txt
+Mythical - Any Profession/Time Period - Female
+	SEEDANYFEMALEMYTH
+		anthrodat.txt
+Mythical - Any Profession/Time Period - Male
+	SEEDANYMALEMYTH
+		anthrodat.txt
+Mythical - Fantasy - Female
+	SEEDFANTASYFEMALEMYTH
+		anthrodat.txt
+Mythical - Fantasy - Male
+	SEEDFANTASYMALEMYTH
+		anthrodat.txt
+Mythical - Modern - Female
+	SEEDMODERNFEMALEMYTH
+		anthrodat.txt
+Mythical - Modern - Male
+	SEEDMODERNMALEMYTH
+		anthrodat.txt
+Mythical - Science Fiction - Female
+	SEEDSFFEMALEMYTH
+		anthrodat.txt
+Mythical - Science Fiction - Male
+	SEEDSFMALEMYTH
+		anthrodat.txt
+Mythical - Steampunk - Female
+	SEEDSTEAMPUNKFEMALEMYTH
+		anthrodat.txt
+Mythical - Steampunk - Male
+	SEEDSTEAMPUNKMALEMYTH
+		anthrodat.txt

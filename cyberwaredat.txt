@@ -1,0 +1,491 @@
+//Vocab types:
+//1	Descriptive Mod*
+//2	Bio Prefix Mod
+//4	Regular Prefix Mod
+//8	Relation*
+//16	Body Relation
+//32	Process
+//64	Function
+//128	Body-Function
+//256	Body-Element
+//512	Function-Object
+//1024	Object
+//2048	Bio-Object
+//4096	Process
+//8192	Suffix Mod
+--ORGANIZATION
+2,512
+,,
+2,1024
+,,
+4,256
+,,
+4,2048
+,,
+16,512
+, ,
+16,8192
+,,
+32,256
+, ,
+32,2048
+, ,
+64,2048
+, ,
+128,512
+, ,
+128,1024
+, ,
+128,2048
+, ,
+128,8192
+,,
+512,256
+, ,
+2048,512
+, ,
+2048,8192
+,,
+//Redoubled
+4,256
+,,
+4,2048
+,,
+16,512
+, ,
+16,8192
+,,
+32,256
+, ,
+32,2048
+, ,
+64,2048
+, ,
+128,512
+, ,
+128,1024
+, ,
+128,2048
+, ,
+128,8192
+,,
+512,256
+, ,
+2048,512
+, ,
+//Modified
+1,2,512
+, ,,
+1,2,1024
+, ,,
+1,4,256
+, ,,
+1,4,2048
+, ,,
+1,16,512
+, , ,
+1,16,8192
+, ,,
+1,32,256
+, , ,
+1,32,2048
+, , ,
+1,64,2048
+, , ,
+1,128,512
+, , ,
+1,128,1024
+, , ,
+1,128,2048
+, , ,
+1,128,8192
+, ,,
+1,512,256
+, , ,
+1,2048,512
+, , ,
+1,2048,8192
+, ,,
+//Redoubled
+1,4,256
+, ,,
+1,4,2048
+, ,,
+1,16,512
+, , ,
+1,16,8192
+, ,,
+1,32,256
+, , ,
+1,32,2048
+, , ,
+1,64,2048
+, , ,
+1,128,512
+, , ,
+1,128,1024
+, , ,
+1,128,2048
+, , ,
+1,128,8192
+, ,,
+1,512,256
+, , ,
+1,2048,512
+, , ,
+//Relation
+8,2,512
+, ,,
+8,2,1024
+, ,,
+8,4,2048
+, ,,
+8,32,2048
+, , ,
+8,64,2048
+, , ,
+8,128,512
+, , ,
+8,128,1024
+, , ,
+8,128,2048
+, , ,
+8,128,8192
+, ,,
+8,2048,512
+, , ,
+8,2048,8192
+, ,,
+//Redoubled
+8,4,2048
+, ,,
+8,32,2048
+, , ,
+8,64,2048
+, , ,
+8,128,512
+, , ,
+8,128,1024
+, , ,
+8,128,2048
+, , ,
+8,128,8192
+, ,,
+8,2048,512
+, , ,
+//Additional body-relation
+16,2,512
+, ,,
+16,2,1024
+, ,,
+16,4,2048
+, ,,
+16,32,2048
+, , ,
+16,64,2048
+, , ,
+16,128,512
+, , ,
+16,128,1024
+, , ,
+16,128,2048
+, , ,
+16,128,8192
+, ,,
+16,2048,512
+, , ,
+16,2048,8192
+, ,,
+//Redoubled
+16,4,2048
+, ,,
+16,32,2048
+, , ,
+16,64,2048
+, , ,
+16,128,512
+, , ,
+16,128,1024
+, , ,
+16,128,2048
+, , ,
+16,128,8192
+, ,,
+16,2048,512
+, , ,
+//Vocabulary
+--VOCABULARY
+Advanced,1
+Articulated,1
+Modified,1
+Configurable,1
+Ablative,1
+Integrated,9
+Dynamic,1
+Computerized,1
+Bionic,1
+Electrical,33
+Magnetic,33
+Electromagnetic,33
+High-Speed,1
+Rapid,1
+Fault-Tolerant,1
+Powered,1
+Polymorphic,1
+High-Powered,1
+Experimental,1
+Automated,1
+Automatic,1
+Gravitic,1
+Nuclear,1
+Atomic,1
+Self-Regulating,1
+Military-Issue,1
+Adaptable,1
+Adaptive,1
+Responsive,1
+Variable,1
+Black-Market,1
+Industrial,1
+Bio,6
+Chemo,6
+Neuro,2
+Gastro,2
+Cardio,2
+Osteo,2
+Dermo,2
+Cranio,2
+Cyber,4
+Techno,4
+Electro,4
+Magno,4
+Nano,4
+Pyro,4
+Cryo,4
+Robo,4
+Auto,4
+Dyna,4
+Gyro,4
+Auto,4
+Aero,4
+Nucleo,4
+Atomi,4
+Internal,8
+Embedded,8
+Implanted,8
+Intrinsic,9
+Detachable,1
+Cranial,16
+Cardial,16
+Neural,16
+Skeletal,16
+Vocal,16
+Gastric,16
+Intestinal,16
+Respiratory,16
+Glandular,16
+Adrenal,16
+Optical,16
+Aural,16
+Olfactory,16
+Oral,16
+Myo,2
+Muscular,16
+Dermal,16
+Subdermal,16
+Targeting,96
+Scanning,96
+Protective,32
+Analytical,32
+Assault,1
+Explosive,32
+Magnetized,33
+Repulsing,32
+Shielding,32
+Filtering,32
+Stabilizing,32
+Guiding,32
+Tracking,32
+Seeking,32
+Incinerating,32
+Freezing,32
+Processing,32
+Illuminating,32
+Charging,32
+Supporting,32
+Magnetizing,32
+Healing,32
+Repairing,32
+Regenerating,32
+Transmitting,32
+Altering,32
+Transmuting,32
+Shocking,32
+Irradiating,32
+Healing,160
+Repairing,32
+Stabilizing,32
+Stasis,64
+Death,64
+Life,64
+Infection,2112
+Infecting,32
+Health,192
+Thought,192
+Paralysis,0
+Boosting,32
+Analysis,64
+Speed,64
+Velocity,64
+Dream,64
+Contigation,2112
+Doom,64
+Fury,64
+Fear,64
+Terror,64
+Hypnosis,64
+Induction,64
+Flight,64
+Teleportation,64
+Propulsion,64
+Navigation,64
+Recall,64
+Circulation,128
+Digestion,128
+Respiration,128
+Growth,128
+Ressurection,128
+Cognition,128
+Visualization,128
+Hearing,128
+Smell,128
+Perspiration,128
+Eyes,256
+Eye,256
+Legs,256
+Leg,256
+Brain,256
+Heart,256
+Liver,256
+Lung,256
+Lungs,256
+Stomach,256
+Intestines,256
+Gland,256
+Glands,256
+Cortex,256
+Spine,256
+Bones,256
+Skull,256
+Muscles,256
+Skin,256
+Hand,256
+Hands,256
+Analyzer,512
+Enhancer,512
+Booster,512
+Catcher,512
+Targeter,512
+Tracker,512
+Snarer,512
+Ensnaer,512
+Counterer,512
+Canceller,512
+Terminator,512
+Devestator,512
+Deleter,512
+Healer,512
+Repairer,512
+Electrifier,512
+Magnitizer,512
+Negator,512
+Incinerator,512
+Freezer,512
+Preserver,512
+Lacerator,512
+Piercer,512
+Supporter,512
+Modifier,512
+Obliterator,512
+Purifier,512
+Rectifier,512
+Rebuilder,512
+Stunner,512
+Bridge,1024
+Circuit,1024
+Circle,1024
+Sphere,1024
+Gear,1024
+Joint,1024
+Connector,1024
+Capacitor,1024
+Wire,1024
+Annexer,512
+Motor,1024
+Chip,1024
+Drive,1536
+Driver,512
+Engine,1536
+Amplifier,1536
+Regulator,1536
+Snare,1024
+Battery,1024
+Digitizer,1536
+Display,512
+Rectifier,1024
+Simulator,512
+Stimulator,512
+Controller,512
+Reverser,512
+Adapter,512
+Probe,1024
+Relay,1024
+Resistor,1024
+Divider,1536
+Parallel,1
+Polarized,1
+Antenna,1024
+Reciever,1536
+Chain,1024
+Virus,2048
+Secretion,6144
+Bacteria,2048
+Organ,2048
+Cell,2048
+Structure,3072
+Tissue,2048
+Limb,2048
+System,3584
+Fluid,2048
+Mucosa,2304
+Epithelium,2304
+Patch,3072
+Antigens,2048
+Retrovirus,2048
+Cluster,3072
+Hormones,2048
+Hormonal,4112
+Reconstruction,4096
+Insulation,4096
+Adaption,4096
+Adapter,1024
+Connection,4096
+Stimulation,4096
+Improvement,4096
+Restructuring,4096
+Enhancement,4096
+Shielding,4096
+Protection,4096
+Guard,4096
+Modification,4096
+Alteration,4096
+Re-organization,4096
+Recalibration,4096
+yzer,8192
+ator,8192
+ion,8192
+oid,8192
+anoid,8192
+izer,8192
+azer,8192
+org,8192

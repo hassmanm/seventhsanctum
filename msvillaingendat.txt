@@ -1,0 +1,448 @@
+//Seeds
+SEEDMADSCIENTIST
+	<*GETGENTYPE>This <REFPERSONALITY><REFBASEMSTYPE> is <REFMOTIVATIONCONNECT> <REFMOTIVATION>.  <GENINDICATORCAP> <REFSKILLUSE> <*GETSKILL> <GENSKILL> in <GENPOSESSIVE> <REFPLANUSE>, <REFPLOTCHOICE> <ROUTEPLOT> to <REFPLOTTIEUP>.  <REFEXTRA>.
+//Gets
+GETGENTYPE
+	<*>
+		GENGENERAL,true
+			man
+		GENPOSESSIVE,true
+			his
+		GENPOSESSIVECAP,true
+			His
+		GENINDICATORCAP,true
+			He
+	<*>
+		GENGENERAL,true
+			woman
+		GENPOSESSIVE,true
+			her
+		GENPOSESSIVECAP,true
+			Her
+		GENINDICATORCAP,true
+			She
+GETSKILL
+	<*>
+		GENSKILL,true
+			biology
+		GENSPECPLOT,true
+			creating an army of clones
+			cloning <REFIMPORTANTPERSON> to work <GENPOSESSIVE> schemes
+			creating hideous monstrosities
+			creating Frankensteinian monsters
+			creating deadly plagues
+			tainting household products with intricate poisons
+	<*>
+		GENSKILL,true
+			botany
+		GENSPECPLOT,true
+			creating killer plants
+			creating killer plants for the perfect murder
+			creating nasty allergen-based poisions
+			deforesting huge regions
+			destroying vital crops
+			mutating important crops
+	<*>
+		GENSKILL,true
+			chemistry
+		GENSPECPLOT,true
+			assasinating <REFIMPORTANTPERSON> with combination poisons
+			creating mind-control chemicals
+			creating super-poisons
+			destroying important structures with super-acids
+			tainting household products with intricate poisons
+	<*>
+		GENSKILL,true
+			computers
+		GENSPECPLOT,true
+			controlling software companies covertly
+			corrupting commerical software
+			creating computer virii
+			hijacking communications sattelites
+			robbing banks via computers
+			running mind-controlling websites
+			scrambling security agency records
+			stealing government secrets
+			stealing military secrets
+	<*>
+		GENSKILL,true
+			cybernetics
+		GENSPECPLOT,true
+			creating an army of cyborgs
+			improving <GENPOSESSIVE> own body with technology
+			improving <GENPOSESSIVE> own body and mind with technology
+			improving <GENPOSESSIVE> own mind with technology
+			selling dangerous medical technology
+			using mind-control implants
+	<*>
+		GENSKILL,true
+			electronics
+		GENSPECPLOT,true
+			building robotic henchmen
+			creating super-vehicles
+			creating superweapons
+			hijacking communications sattelites
+			robbing banks electronically
+	<*>
+		GENSKILL,true
+			metallurgy
+		GENSPECPLOT,true
+			building robotic henchmen
+			creating meta-destroying superweapons
+			creating super-armor
+			creating super-vehicles
+	<*>
+		GENSKILL,true
+			nuclear physics
+		GENSPECPLOT,true
+			creating superweapons
+			threatening nuclear blackmail
+			threatening to disrupt nuclear power plants
+	<*>
+		GENSKILL,true
+			optics
+		GENSPECPLOT,true
+			creating hypnotic technology
+			creating invisibility devices
+			creating super-laser weapons
+			creating sun-blocking technology
+	<*>
+		GENSKILL,true
+			pharmacology
+		GENSPECPLOT,true
+			creating exotic recreational drugs
+			creating mind-control drugs
+			manipulating everyday drugs to control others
+			manipulating everyday drugs for blackmail purposes
+			poisoning those that get in <GENPOSESSIVE> way
+	<*>
+		GENSKILL,true
+			physics
+		GENSPECPLOT,true
+			creating superweapons using <REFPHYSICSTYPE>
+			employing force fields to get away with crimes
+			using EMP weapons
+			using teleportation gadgets
+	<*>
+		GENSKILL,true
+			robotics
+		GENSPECPLOT,true
+			creating assasin robots
+			creating robotic henchmen
+			siezing control of important robotic equipment
+	<*>
+		GENSKILL,true
+			zoology
+		GENSPECPLOT,true
+			controlling the minds of domestic animals
+			creating animal-men
+			creating unnatural cross-breeds
+			destroying domestic animals in untracable ways
+//ROUTES
+ROUTEPLOT
+	<GENSPECPLOT>
+	<REFGENPLOT>
+//REFS
+REFBASEMSTYPE
+	, <REFMSPERSONALITY> <REFMSTYPE>
+	 <REFMSTYPE>
+REFEXTRA
+	<GENINDICATORCAP> belongs to a secret organization
+	<GENINDICATORCAP> can't resist a fight
+	<GENINDICATORCAP> can't resist helping people
+	<GENINDICATORCAP> fears people think he/she is a fraud
+	<GENINDICATORCAP> fears the future
+	<GENINDICATORCAP> fell in with the wrong crowd
+	<GENINDICATORCAP> had a near-death experience that changed them significantly
+	<GENINDICATORCAP> has a chemical dependency
+	<GENINDICATORCAP> has a dark past
+	<GENINDICATORCAP> has a false identity
+	<GENINDICATORCAP> has a knack for trouble
+	<GENINDICATORCAP> has a large fortune
+	<GENINDICATORCAP> has a lot of friends
+	<GENINDICATORCAP> has a rival
+	<GENINDICATORCAP> has an odd birthmark
+	<GENINDICATORCAP> has an odd way of speaking
+	<GENINDICATORCAP> has big dreams
+	<GENINDICATORCAP> has little money
+	<GENINDICATORCAP> has no hope
+	<GENINDICATORCAP> has no past
+	<GENINDICATORCAP> has repressed memories
+	<GENINDICATORCAP> has several nervous habits
+	<GENINDICATORCAP> has uncanny abilities
+	<GENINDICATORCAP> has unexpected depths
+	<GENINDICATORCAP> has unusual luck
+	<GENINDICATORCAP> hates animals
+	<GENINDICATORCAP> hates children
+	<GENINDICATORCAP> hopes to be the best in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> is a complete fraud
+	<GENINDICATORCAP> is an outsider
+	<GENINDICATORCAP> is considered the best in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> is considered the worst in <GENPOSESSIVE> profession
+	<GENINDICATORCAP> is cursed with bad luck
+	<GENINDICATORCAP> is dependent on medication
+	<GENINDICATORCAP> is escpaing the past
+	<GENINDICATORCAP> is estranged from family members
+	<GENINDICATORCAP> is from a bad family
+	<GENINDICATORCAP> is from a big family
+	<GENINDICATORCAP> is from a good family
+	<GENINDICATORCAP> is from a small family
+	<GENINDICATORCAP> is from an unusual family line
+	<GENINDICATORCAP> is given to moments of deep introspection
+	<GENINDICATORCAP> is haunted by dark memories
+	<GENINDICATORCAP> is haunted by flashbacks
+	<GENINDICATORCAP> is hiding a dark secret
+	<GENINDICATORCAP> is living on borrowed time
+	<GENINDICATORCAP> is looking for a challenge
+	<GENINDICATORCAP> is looking for love
+	<GENINDICATORCAP> is more than meets the eye
+	<GENINDICATORCAP> is part of a secret society
+	<GENINDICATORCAP> is prone to odd statements
+	<GENINDICATORCAP> is searching for a family member
+	<GENINDICATORCAP> is searching for a lost friend
+	<GENINDICATORCAP> is seeking meaning in life
+	<GENINDICATORCAP> is trapped by the past
+	<GENINDICATORCAP> has lost meaning in life
+	<GENINDICATORCAP> needs a friend
+	<GENINDICATORCAP> suffers from a chronic disease
+	<GENINDICATORCAP> suffers from a chronic medical condition
+REFGENPLOT
+	commiting crimes behind the shield of a legitimate corporation
+	corrupting other scientists
+	creating exotic gadgets
+	engaging in blackmail of <REFIMPORTANTPERSON>
+	kidnapping <REFIMPORTANTPERSON>
+	stealing advanced technology
+	stealing and corrupting the research of other
+	taking over scientific institutions
+REFIMPORTANTPERSON
+	business leaders
+	financial leaders
+	media stars
+	political leaders
+	scientific leaders
+REFMOTIVATION
+	a drive to discover and invent no matter what the cost
+	a need to compensate for personal inadequacies
+	curiosity
+	egotism
+	fear
+	greed
+	hatred
+	insanity
+	megalomania
+	religious fanaticism
+	power-lust
+	sadism
+	thrill-seeking
+	revenge
+	unrequited love
+	vengeance
+REFMOTIVATIONCONNECT
+	driven by
+	motivated by
+	spurred onward by
+REFMSPERSONALITY
+	crazed
+	cynical
+	dangerous
+	insane
+	misguided
+	misunderstood
+	twisted
+REFMSTYPE
+	<GENGENERAL> of science
+	inventor
+	scientist
+	thinker
+REFPERSONALITY
+	acrobatic
+	agile
+	alienated
+	ambitious
+	antisocial
+	arrogant
+	artistic
+	athletic
+	attractive
+	awkward
+	biased
+	bigoted
+	bloodthirsty
+	boastful
+	boring
+	brave
+	brutal
+	bullying
+	burnt-out
+	calm
+	charismatic
+	chaste
+	cheerful
+	clever
+	clumsy
+	combative
+	complacent
+	composed
+	conceited
+	confident
+	conformist
+	confused
+	contemplative
+	corrupt
+	courageous
+	cowardly
+	creative
+	crippled
+	cruel
+	cunning
+	cute
+	delusional
+	depressed
+	detached
+	dexterous
+	disillusioned
+	distant
+	domineering
+	driven
+	drunken
+	eccentric
+	elegant
+	enduring
+	energetic
+	experienced
+	fearful
+	fear-ridden
+	focused
+	forceful
+	frustrated
+	funny
+	graceful
+	greedy
+	grim
+	happy
+	hateful
+	healthy
+	homely
+	humble
+	hypocritical
+	hysterical
+	ignorant
+	ignored
+	illogical
+	indecisive
+	industrious
+	inexperienced
+	infamous
+	inhibited
+	intelligent
+	intimidating
+	intuitive
+	irrational
+	laid-back
+	lazy
+	logical
+	lonely
+	loudmouthed
+	manipulative
+	materialistic
+	mean-spirited
+	melancholy
+	militant
+	miserable
+	miserly
+	moralistic
+	moralizing
+	mysterious
+	mystical
+	mystical
+	naive
+	narrow-minded
+	negative
+	neurotic
+	nostalgic
+	obsessive
+	open-minded
+	opinionated
+	opportunistic
+	optimistic
+	outgoing
+	paranoid
+	patronizing
+	persistent
+	persuasive
+	pessimistic
+	philosophical
+	plain
+	plucky
+	poised
+	pragmatic
+	predictable
+	principled
+	promiscuous
+	quiet
+	rebellious
+	romantic
+	ruthless
+	sadistic
+	scatterbrained
+	seasoned
+	secretive
+	serene
+	serious
+	short-tempered
+	sickly
+	silly
+	smart
+	social
+	spendthrift
+	stingy
+	stressed
+	striking
+	strong
+	studious
+	suave
+	tired
+	tolerant
+	tough
+	two-fisted
+	ugly
+	unathletic
+	unbalanced
+	unconfident
+	uncreative
+	unethical
+	unfriendly
+	unhappy
+	unhealthy
+	unjust
+	unpredictable
+	unremarkable
+	unstable
+	unwise
+	vicious
+	violent
+	weak
+	well-proportioned
+	wise
+	withdrawn
+	worldwise
+REFPLANUSE
+	plans
+	plots
+	schemes
+REFPLOTCHOICE
+	always
+	commonly
+	often
+	usually
+REFPLOTTIEUP
+	achieve <GENPOSESSIVE> goals
+REFPHYSICSTYPE
+	electromagnetism
+	gravity
+	quantumn forces
+	nuclear energy
+REFSKILLUSE
+	uses
+	employs

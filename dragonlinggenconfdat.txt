@@ -1,0 +1,39 @@
+Any
+	SEED
+		dragonlingdat.txt
+Type 1 - Any
+	SEEDTYPE1ANY
+		dragonlingdat.txt
+Type 1 - Female
+	SEEDTYPE1FEMALE
+		dragonlingdat.txt
+Type 1 - Male
+	SEEDTYPE1MALE
+		dragonlingdat.txt
+Type 2 - Any
+	SEEDTYPE2ANY
+		dragonlingdat.txt
+Type 2 - Female
+	SEEDTYPE2FEMALE
+		dragonlingdat.txt
+Type 2 - Male
+	SEEDTYPE2MALE
+		dragonlingdat.txt
+Type 3 - Any
+	SEEDTYPE3ANY
+		dragonlingdat.txt
+Type 3 - Female
+	SEEDTYPE3FEMALE
+		dragonlingdat.txt
+Type 3 - Male
+	SEEDTYPE3MALE
+		dragonlingdat.txt
+Type 4 - Any
+	SEEDTYPE4ANY
+		dragonlingdat.txt
+Type 4 - Female
+	SEEDTYPE4FEMALE
+		dragonlingdat.txt
+Type 4 - Male
+	SEEDTYPE4MALE
+		dragonlingdat.txt

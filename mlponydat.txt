@@ -1,0 +1,1390 @@
+//ROUTES
+SEED
+	<SEEDANY>
+	<SEEDMALE>
+	<SEEDFEMALE>
+SEEDANY
+	<*SETGENDEREITHER><SEEDSHOW>
+SEEDMALE
+	<*SETGENDERMALE><SEEDSHOW>
+SEEDFEMALE
+	<*SETGENDERFEMALE><SEEDSHOW>
+SEEDSHOW
+	This <RETBUILD> <RETDIRREF> is <REFTYPES> who is <ROUTEPERSONALITY>.  <SEEDHIDE>.  <SEEDMANE>.  <SEEDEYES>.  <SEEDMARK>.
+// Parts
+//Parts-Pony types
+REFTYPES
+	an earth pony
+	an earth pony
+	an earth pony
+	a pegasus
+	a unicorn
+// Parts-Hide
+SEEDHIDE
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDESINGLE>
+	<SEEDHIDEDUAL>
+SEEDHIDESINGLE
+	<*RELAYCOLOR><RETPOSESSIVECAP> coat is <ROUTECOLORREF>
+SEEDHIDEDUAL
+	<*RELAYCOLOR><RETPOSESSIVECAP> coat is <REFBASECOLOR> and <*ROUTECOLOROTHER><REFBASECOLOR>
+	<*RELAYCOLOR><RETPOSESSIVECAP> coat is <REFBASECOLOR> with <*ROUTECOLOROTHER><REFBASECOLOR> patches
+	<*RELAYCOLOR><RETPOSESSIVECAP> coat is <REFBASECOLOR> with <*ROUTECOLOROTHER><REFBASECOLOR> spots
+	<*RELAYCOLOR><RETPOSESSIVECAP> coat is <REFBASECOLOR> shading into <*ROUTECOLOROTHER><REFBASECOLOR>
+//Parts-Mane
+SEEDMANE
+	<SEEDMANEGENERAL>
+	<SEEDMANESINGLE>
+	<SEEDMANESINGLE>
+	<SEEDMANESINGLE>
+	<SEEDMANEDUAL>
+SEEDMANEGENERAL
+	<SEEDMANEGENERALMETAPHOR>
+	<SEEDMANEGENERALREGULAR>
+SEEDMANEGENERALMETAPHOR
+	<RETGENDERCAP> has a mane that reminds you of <REFMANEMETAPHOR>
+SEEDMANEGENERALREGULAR
+	<RETGENDERCAP> has <REFMANELENGTHREF>, <REFMANESTYLE> mane
+	<RETGENDERCAP> has <REFMANELENGTHREF> mane
+	<RETGENDERCAP> has <REFMANESTYLEREF> mane
+SEEDMANESINGLE
+	<SEEDMANEGENERALREGULAR> that is <*ROUTECOLOROTHER><REFBASECOLOR>
+	<RETGENDERCAP> has a mane that is <*ROUTECOLOROTHER><REFBASECOLOR>, and it reminds you of <REFMANEMETAPHOR>
+SEEDMANEDUAL
+	<SEEDMANEGENERALREGULAR> that is <*ROUTECOLOROTHER><REFBASECOLOR> and <*ROUTECOLOROTHER><REFBASECOLOR>
+	<RETGENDERCAP> has a mane that is <*ROUTECOLOROTHER><REFBASECOLOR> and <*ROUTECOLOROTHER><REFBASECOLOR>, and it reminds you of <REFMANEMETAPHOR>
+//Eyes
+SEEDEYES
+	<RETPOSESSIVECAP> eyes are <*RELAYCOLOR><ROUTECOLORREF>
+	<RETPOSESSIVECAP> <REFFEYEFORM> eyes are <*RELAYCOLOR><ROUTECOLORREF>
+REFFEYEFORM
+	almond-shaped
+	beady
+	deep-set
+	droopy
+	hooded
+	large
+	narrow
+	round
+	slanted
+	slitted
+	wide
+//Manes
+REFMANELENGTH
+	unusually short
+	short
+	long
+	extremely long
+REFMANELENGTHREF
+	an unusually short
+	a short
+	a long
+	an extremely long
+REFMANESTYLE
+	curly
+	straight
+	spiky
+	luxurious
+	wavy
+	elaborately-styled
+	sloppily-styled
+	unstyled
+REFMANESTYLEREF
+	a curly
+	a straight
+	a spiky
+	a luxurious
+	a wavy
+	an elaborately-styled
+	a sloppily-styled
+	an unstyled
+REFMANEMETAPHOR
+	a burning fire
+	a cascading waterfall
+	a comet's trail
+	a drifting cloud
+	a flame
+	a flower's petals
+	a flowing cape
+	a flowing stream
+	a fluttering flag
+	a gush of water
+	a pennant blowing in the wind
+	a pile of leaves
+	a pile of shredded paper
+	a plume of smoke
+	a porcupine's quills
+	a puffy dandelion
+	a rocky outcropping
+	a shark's fin
+	a tangled bush
+	a trailing ribbon
+	a waterfall
+	a wave of water
+	an elaborate sculpture
+	an overused mop
+	the aurora borealis
+	the petals of a flower
+	the rays of the sun
+//MARKS
+SEEDMARK
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF>
+	<RETPOSESSIVECAP> mark is <REFMARKNUMBERS> <REFMARKPLURAL>
+	<RETPOSESSIVECAP> mark is <REFMARKNUMBERS> <REFMARKPLURAL>
+	<RETPOSESSIVECAP> mark is <REFMARKNUMBERS> <REFMARKPLURAL>
+	<RETPOSESSIVECAP> mark is <REFMARKSINGLEREF> and <REFMARKSINGLEREF>
+REFMARKNUMBERS
+	two
+	three
+	three
+	four
+REFMARKSINGLEREF
+	a 4-leaf clover
+	a bag
+	a ball
+	a balloon
+	a basket
+	a bat
+	a bear
+	a bird
+	a bone
+	a bonfire
+	a book
+	a bottle
+	a bow
+	a brush
+	a bundle of yarn
+	a butterfly
+	a caduceus
+	a cake
+	a candy
+	a card
+	a castle
+	a cat
+	a cat's-cradle
+	a chess knight
+	a chess piece
+	a circle
+	a clock
+	a clothespin
+	a clover
+	a club
+	a coconut
+	a coffin
+	a coin
+	a comb
+	a compass
+	a cookie
+	a cross
+	a crossbow
+	a crown
+	a deck of cards
+	a diamond
+	a dog
+	a dragon
+	a drawing
+	a drum
+	a fang
+	a feather
+	a flag
+	a flame
+	a flask
+	a flower
+	a fly
+	a forge
+	a gear
+	a ghost
+	a guitar
+	a halo
+	a hammer
+	a harp
+	a harp
+	a heart
+	a helment
+	a house
+	a jester's cap
+	a jewel
+	a jolly roger
+	a kite
+	a knight
+	a knitting needle
+	a knot
+	a lamp
+	a lathe
+	a leaf
+	a lighning bolt
+	a lime
+	a lute
+	a magic wand
+	a mahjong tile
+	a mandolin
+	a map
+	a mask
+	a maze
+	a moon
+	a musical note
+	a necklace
+	a needle
+	a needle and thread
+	a net
+	a nut
+	a pair of glasses
+	a palm tree
+	a peace symbol
+	a pear
+	a pen
+	a pentagram
+	a pile of jewels
+	a pipe
+	a puzzle piece
+	a quill
+	a ring
+	a rook
+	a rope
+	a rose
+	a ruby
+	a satchel
+	a saw
+	a scroll
+	a sheet of music
+	a shell
+	a shield
+	a shovel
+	a sickle
+	a skull
+	a spade
+	a spiral
+	a spool of thread
+	a square
+	a staff
+	a stalk of grain
+	a star
+	a starburst
+	a suitcase
+	a sun
+	a sunflower
+	a sword
+	a tarot card
+	a tiara
+	a tooth
+	a torch
+	a tornado
+	a tower
+	a tree
+	a triangle
+	a triskelion
+	a violin
+	a watch
+	a wave
+	a wheel
+	a wizard's hat
+	a wolf
+	a wrench
+	a yin-yang
+	an ankh
+	an apple
+	an arrow
+	an artist's palette
+	an axe
+	an ear of corn
+	an emerald
+	an hourglass
+	an ingot
+	an orange
+	an oroborous
+	a chevron
+	a top hat
+	a comb
+	a snail
+	a lion
+	a pillow
+	an anvil
+	a vase
+	a treasure chest
+	a boat
+	a ship
+	an oar
+	a ringed planet
+	a rocket
+	a firework burst
+	a beaker
+	a glass
+	a pair of glasses
+	a zipper
+	a box
+	a stylized gust of wind
+	a set of crosshairs
+	a candle
+	a pickaxe
+	a mouse
+	a pumpkin
+	a jack-o-lantern
+	a doll
+	a mirror
+	a pot
+	a pan
+	a dish
+	a bowl
+	a pair of chopsticks
+	a fork
+	a spoon
+	a kinfe
+	a bookshelf
+	a campfire
+	a flag
+	a camera
+	an apple
+	a pile of ash
+	an acorn
+	a piece of cheese
+	a bead
+	a pile of beads
+	a bead necklace
+	a berry
+	a bunch of berries
+	a biscuit
+	a bell
+	a bomb
+	a barrel
+	a rake
+	a cabbage
+	a carrot
+	a bean
+	a pile of beans
+	a garbage can
+	a doughnut
+	a dart
+	a disc
+	an earthwork
+	an earthworm
+	a worm
+	an egg
+	an eggplant
+	an easel
+	an umbrella
+	a parasol
+	a piece of fabric
+	a loom
+	a nest
+	a knot
+	a feather
+	a gold bar
+	a door
+	a bunch of grapes
+	a gate
+	an inkwell
+	an inkblot
+	a harmonica
+	a tuning fork
+	a goal post
+	a scoreboard
+	a piece of paper
+	confetti
+	an apple core
+	a bannana peel
+	a dollar sign
+	a xylophone
+	a piano
+	a lock
+	a walnut
+	a watermelon
+	a nut
+	a slug
+	a snake
+	a fishing hook
+	a fishing pole
+	a pyramid
+	a sphinx
+	a crystal ball
+	a magician's hat
+	a hankerchief
+	a paper fan
+	a fan
+	a wisp of smoke
+	a backpack
+	a dumbbell
+	a soccer ball
+	a golf ball
+	a golf club
+	a bag of golf clubs
+	a bubble
+	a bunch of bubbles
+	a bar of soap
+	a bottle of shampoo
+	a brush
+	a towel
+	a basket of laundry
+	a camera
+	a roll of film
+	a microphone
+	a record
+	a set of headphones
+	an acupuncture needle
+	a doctor's bag
+	a treasure chest
+	an arch
+	an archstone
+	a brick
+	a pile of bricks
+	a crane
+	a bomb
+	a stick of dynamite
+	a gold nugget
+	an owl
+	a railroad spike
+	a railroad track
+	a railroad train
+	a railroad engine
+	a demon
+	an angel
+	a storm cloud
+	a bone
+	a monocole
+	a whip
+	a smiley face
+	a frowning face
+	a die
+	an abacus
+	a ledger
+	a mousetrap
+	a diving board
+	a swimming pool
+	a scythe
+	a spreadsheet
+	a hatchet
+	a gameboard
+	a pile of poker chips
+	a chart
+	a rune
+	a tower
+	a lasso
+	a ball of string
+	a magnifying glass
+	a gavel
+	a chain
+	a pie
+	a slice of pie
+	a cookie
+	a firetruck
+	a fire extinguisher
+	a stretcher
+	a bandage
+	an anvil
+	a wheelchair
+	a crutch
+	an observatory
+	a mop
+	a broom
+	a hole
+	a mountain
+	an island
+	a scooter
+	a mouth
+	an eye
+	a can
+	an infinity symbol
+	an explosion
+	a goblet
+	a dreamcatcher
+	a tent
+	a road
+	a sunset
+	a sunrise
+	a cart
+	a bed
+	a knife and fork
+	an anchor
+	a pair of skis
+	a barber pole
+	a globe
+	the zodiac
+	a zodiac sign
+	a lotus
+	a pin
+	a chandelier
+	an angry face
+	a sad face
+	a floorplan
+	a piece of sushi
+	a pair of chopsticks
+	a spork
+	a mushroom
+	a rug
+	a pillow
+	a pair of pliers
+	a bunch of numbers
+	a bunch of letters
+	a prism
+	a dirigible
+	a pair of wings
+	a flying saucer
+	a sock
+REFMARKPLURAL
+	flying saucers
+	pairs of wings
+	dirigibles
+	prisms
+	pairs of pliers
+	pillows
+	rugs
+	mushrooms
+	sporks
+	pieces of sushi
+	pairs of chopsticks
+	floorplans
+	sad faces
+	angry faces
+	pins
+	lotus flowers
+	zodiac signs
+	blobes
+	barber poles
+	skis
+	anchors
+	beds
+	carts
+	roads
+	tents
+	dreamcathers
+	goblets
+	explosions
+	infinity symbols
+	cans
+	mouths
+	eyes
+	scooters
+	mountains
+	islands
+	mops
+	brooms
+	wheelchairs
+	crutches
+	anvils
+	stretchers
+	bandages
+	fire extinguishers
+	firetrucks
+	cookies
+	pies
+	slices of pies\
+	chains
+	gavels
+	magnifying glasses
+	balls of string
+	lassos
+	towers
+	runes
+	charts
+	poker chips
+	hatchets
+	spreadsheets
+	scythes
+	mousetraps
+	ledgers
+	abacuses
+	dice
+	smiley faces
+	frowning faces
+	bones
+	whips
+	storm clouds
+	demons
+	angels
+	railroad spikes
+	railroad tracks
+	railroad trains
+	railroad engines
+	owls
+	bombs
+	sticks of dynamite
+	gold nuggets
+	cranes
+	bricks
+	treasure chests
+	arches
+	archstones
+	doctor's bags
+	acupuncture needles
+	cameras
+	rolls of film
+	microphones
+	records
+	sets of headphones
+	bars of soap
+	bottles of shampoo
+	brushes
+	towels
+	laundry baskets
+	bubbles
+	soccer balls
+	golf balls
+	golf clubs
+	dumbbells
+	backpacks
+	wisps of smoke
+	paper fans
+	fans
+	magician's hats
+	hankerchiefs
+	crystal balls
+	pyramids
+	locks
+	walnuts
+	nuts
+	watermelons
+	slugs
+	snakes
+	fishing hooks
+	fishing poles
+	dollar signs
+	bannana peels
+	apple cores
+	pieces of paper
+	goal posts
+	scoreboards
+	tuning forks
+	harmonicas
+	inkblots
+	inkwells
+	gates
+	doors
+	gold bars
+	feathers
+	knots
+	nests
+	looms
+	fabrics
+	an umbrella
+	a parasol
+	easels
+	eggs
+	eggplants
+	earthworms
+	worms
+	earthworks
+	darts
+	disk
+	doughnuts
+	garbage cans
+	beans
+	carrots
+	cabbages
+	rakes
+	barrels
+	bombs
+	bells
+	bisctuits
+	berries
+	beads
+	cheeses
+	acorns
+	apples
+	cameras
+	flags
+	campfires
+	bookshelves
+	pots
+	pans
+	dishes
+	bowls
+	forks
+	spoons
+	knives
+	mirrors
+	dolls
+	jack-o-lanterns
+	pumpkins
+	maces
+	pickaxes
+	candles
+	boxes
+	zippers
+	glasses
+	beakers
+	firework bursts
+	rockets
+	planets
+	boats
+	ships
+	oars
+	treasure chests
+	vases
+	anvils
+	pillows
+	lions
+	snails
+	combs
+	top hats
+	chevrons
+	ankhs
+	apples
+	arrows
+	axes
+	bags
+	balls
+	baloons
+	baskets
+	bats
+	bears
+	birds
+	bones
+	books
+	bottles
+	bows
+	brushes
+	butterflies
+	cakes
+	candies
+	cards
+	castles
+	cats
+	chess knights
+	chess pieces
+	circles
+	clocks
+	clothespins
+	clovers
+	clubs
+	coconuts
+	coffins
+	coins
+	combs
+	compasses
+	cookies
+	crossbows
+	crosses
+	crowns
+	decks of cards
+	diamonds
+	dogs
+	dragons
+	drawings
+	drums
+	ears of corn
+	emeralds
+	fangs
+	feathers
+	flags
+	flames
+	flasks
+	flies
+	flowers
+	forges
+	gears
+	ghosts
+	guitars
+	halos
+	hammers
+	harps
+	harps
+	hearts
+	helments
+	hourglasses
+	houses
+	ingots
+	jester's caps
+	jewels
+	kites
+	knights
+	knitting needles
+	knots
+	lamps
+	lathes
+	leaves
+	lighning bolts
+	limes
+	lutes
+	magic wands
+	mahjong tiles
+	mandolins
+	maps
+	masks
+	moons
+	musical notes
+	needles
+	nets
+	nuts
+	oranges
+	pairs of glasses
+	palm trees
+	peace symbols
+	pears
+	pens
+	pentagrams
+	pipes
+	puzzle pieces
+	quills
+	rings
+	rooks
+	ropes
+	roses
+	rubies
+	satchels
+	saws
+	scrolls
+	sheets of music
+	sheilds
+	shells
+	shovels
+	sickles
+	skulls
+	spades
+	spirals
+	spools of thread
+	squares
+	stalks of grain
+	starbursts
+	stars
+	staves
+	suitcases
+	sunflowers
+	suns
+	swords
+	teeth
+	torches
+	tornados
+	towers
+	traingles
+	trees
+	triskelions
+	violins
+	watches
+	waves
+	wheels
+	wizard's hats
+	wolves
+	wrenches
+	yin-yangs
+	socks
+//Personalities
+ROUTEPERSONALITY
+	<ROUTEPERSONALITYSINGLE>
+	<ROUTEPERSONALITYDOUBLE>
+	<ROUTEPERSONALITYDOUBLE>
+	<ROUTEPERSONALITYTRIPLE>
+ROUTEPERSONALITYSINGLE
+	<REFPER>
+	<REFINT>
+	<REFETHICS>
+ROUTEPERSONALITYDOUBLE
+	<REFPER> and <REFINT>
+	<REFPER> and <REFETHICS>
+	<REFINT> and <REFETHICS>
+ROUTEPERSONALITYTRIPLE
+	<REFPER>, <REFINT>, and <REFETHICS>
+REFPER
+	<REFPERPOS>
+	<REFPERNEG>
+REFPERPOS
+	aloof
+	ambitious
+	amiable
+	cheerful
+	bouncy
+	brave
+	calm
+	charmismatic
+	comitted
+	composed
+	confident
+	courageous
+	cultured
+	calm
+	polite
+	bold
+	protective
+	loyal
+	flirty
+	playful
+	social
+	fashionable
+	classy
+	down-to-earth
+	practical
+	fun-loving
+	imaginative
+	creative
+	neat
+	playful
+	fashionable
+	inquisitive
+	trusting
+	shy
+	eccentric
+	energetic
+	innocent
+	laid-back
+	mysterious
+	mystical
+	nurturing
+	organized
+	playful
+	plucky
+	poised
+	pragmatic
+	private
+	quiet
+	romantic
+	serene
+	stressed
+	tactful
+	tolerant
+REFPERNEG
+	cynical
+	disillusioned
+	unbalanced
+	unfriendly
+	unconfident
+	unhappy
+	unpredictable
+	unstable
+	sarcastic
+	secretive
+	puerile
+	pompous
+	paranoid
+	obedient
+	obsessive
+	opinionated
+	naive
+	narrow-minded
+	nervous
+	neurotic
+	misguided
+	withdrawn
+	intimidating
+	grim
+	aggrivated
+	alienated
+	antisocial
+	anxious
+	apathetic
+	biased
+	bitter
+	boring
+	combative
+	conformist
+	paranoid
+	fearful
+	fear-ridden
+	uninquisitive
+	sloppy
+	distractable
+	impractical
+	arrogant
+	antisocial
+	brash
+	impolite
+	boring
+	uncultured
+	angry
+	temperamental
+	unimaginative
+	messy
+	self-destructive
+	nosy
+	whiny
+	widhtrdawn
+	worried
+REFINT
+	<REFINTPOS>
+	<REFINTNEG>
+REFINTPOS
+	smart
+	wise
+	clever
+	witty
+	educated
+	studious
+	contemplative
+	cunning
+	focused
+	logical
+	philosophical
+	smooth-talking
+	worldwise
+	bookish
+REFINTNEG
+	confused
+	absent-minded
+	air-headed
+	ignorant
+	uneducated
+	slow-witted
+	unwise
+	unintelligent
+	scatterbrained
+	illogical
+	irrational
+	incoherent
+REFETHICS
+	<REFETHICSPOS>
+	<REFETHICSNEG>
+REFETHICSPOS
+	nice
+	industrious
+	heroic
+	humble
+	cooperative
+	altruistic
+	ethical
+	moral
+	selfless
+	honest
+	reliable
+	generous
+	honorable
+	hard-working
+	kind
+	caring
+	principled
+	humble
+	gentle
+	peace-loving
+REFETHICSNEG
+	vicious
+	nihlistic
+	manipulative
+	mean-spirited
+	hypocritical
+	concieted
+	boastful
+	arrogant
+	gluttonous
+	self-aggrandizing
+	egotistical
+	unprincipled
+	envious
+	mean
+	cruel
+	unethical
+	deceptive
+	unreliable
+	selfish
+	dishonest
+	greedy
+	dishonorable
+	lazy
+//Builds
+RETBUILD
+	elegant
+	muscular
+	lean
+	pudgy
+	long-legged
+	stubby-legged
+	gangly
+	statusesque
+	ungainly
+	bulky
+	leanly-built
+	large
+	small
+RETBUILDOLD
+	an elegant
+	a muscular
+	a lean
+	a pudgy
+	a long-legged
+	a stubby-legged
+	a gangly
+	a statusesque
+	an ungainly
+	a bulky
+	a leanly-built
+	a large
+	a small
+//Colors
+RELAYCOLOR
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTERED
+	<*>
+		REFBASECOLOR,true
+			red
+		REFFANCYCOLOR,true
+			crimson
+			blood-red
+			brick-red
+			burgandy
+			cherry red
+			rose-red
+			rust-colored
+			vermillion
+			scarlet
+		ROUTECOLOROTHER,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEORANGE
+	<*>
+		REFBASECOLOR,true
+			orange
+		REFFANCYCOLOR,true
+			umber
+			apricot-colored
+			peach-colored
+			tangerine-colored
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEYELLOW
+	<*>
+		REFBASECOLOR,true
+			yellow
+		REFFANCYCOLOR,true
+			gold
+			amber
+			lemon-yellow
+			sand-colored
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEGREEN
+	<*>
+		REFBASECOLOR,true
+			green
+		REFFANCYCOLOR,true
+			emerald
+			apple-green
+			aquamarine
+			beyrl-green
+			jade-colored
+			moss green
+			olive-green
+			pine-green
+			grass-green
+		ROUTECOLOROTHER,true
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEBLUE
+	<*>
+		REFBASECOLOR,true
+			blue
+		REFFANCYCOLOR,true
+			sky-blue
+			sapphire
+			azure
+			cobalt-blue
+			indigo
+			teal
+			turquoise
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEVIOLET
+	<*>
+		REFBASECOLOR,true
+			purple
+			violet
+		REFFANCYCOLOR,true
+			royal purple
+			lavender
+			plum-colored
+			amethyst
+			magenta
+			mauve
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEWHITE
+	<*>
+		REFBASECOLOR,true
+			white
+		REFFANCYCOLOR,true
+			bone-white
+			ivory
+			alabaster
+			chalk-white
+			milky-white
+			cream-colored
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEBLACK
+	<*>
+		REFBASECOLOR,true
+			black
+		REFFANCYCOLOR,true
+			jet black
+			charcoal-colored
+			ebony
+			soot-black
+			obsidian
+			midnight black
+			night-black
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEGRAY>
+			<ROUTEBROWN>
+ROUTEGRAY
+	<*>
+		REFBASECOLOR,true
+			gray
+		REFFANCYCOLOR,true
+			slate-gray
+			ash-gray
+			silver
+			iron-gray
+			smoke-gray
+			gunmetal-gray
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEBROWN>
+ROUTEBROWN
+	<*>
+		REFBASECOLOR,true
+			brown
+		REFFANCYCOLOR,true
+			chocolate-colored
+			beige
+			chestnut
+			coffee-colored
+		ROUTECOLOROTHER,true
+			<ROUTERED>
+			<ROUTEORANGE>
+			<ROUTEYELLOW>
+			<ROUTEGREEN>
+			<ROUTEBLUE>
+			<ROUTEVIOLET>
+			<ROUTEWHITE>
+			<ROUTEBLACK>
+			<ROUTEGRAY>
+REFBASECOLOR
+	REFBASECOLOR
+REFFANCYCOLOR
+	REFFANCYCOLOR
+ROUTECOLOROTHER
+	<ROUTERED>
+	<ROUTEORANGE>
+	<ROUTEYELLOW>
+	<ROUTEGREEN>
+	<ROUTEBLUE>
+	<ROUTEVIOLET>
+	<ROUTEWHITE>
+	<ROUTEBLACK>
+	<ROUTEGRAY>
+	<ROUTEBROWN>
+ROUTECOLORREF
+	<REFBASECOLOR>
+	<REFFANCYCOLOR>
+//Genders
+SETGENDEREITHER
+	<SETGENDERFEMALE>
+	<SETGENDERMALE>
+SETGENDERFEMALE
+	<*>
+		RETDIRREF,true
+			filly
+			female pony
+			female pony
+		RETGENDER,true
+			she
+		RETGENDERCAP,true
+			She
+		RETPOSESSIVE,true
+			her
+		RETPOSESSIVECAP,true
+			Her
+SETGENDERMALE
+	<*>
+		RETDIRREF,true
+			stallion
+			colt
+			male pony
+			male pony
+		RETGENDER,true
+			he
+		RETGENDERCAP,true
+			He
+		RETPOSESSIVE,true
+			his
+		RETPOSESSIVECAP,true
+			His
+//RETS
+RETDIRREF
+	pony
+RETGENDER
+	it
+RETGENDERCAP
+	it
+RETPOSESSIVE
+	it's
+RETPOSESSIVECAP
+	It's
+//Cutoff

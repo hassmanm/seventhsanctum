@@ -1,0 +1,12 @@
+First Names
+	FIRSTNAME
+		catbeingnamerdat.txt
+Full Names
+	SEED
+		catbeingnamerdat.txt
+Last Names/Pack Name
+	LASTNAME
+		catbeingnamerdat.txt
+Retro/Pulp/'Thundercatish'
+	RPTCSTYLENAME
+		catbeingnamerdat.txt

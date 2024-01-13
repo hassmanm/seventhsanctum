@@ -1,0 +1,8 @@
+Female
+	FEMALE
+		westernnamerfemaledat.txt
+		westernnamermaindat.txt
+Male
+	MALE
+		westernnamermaledat.txt
+		westernnamermaindat.txt

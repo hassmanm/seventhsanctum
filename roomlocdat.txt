@@ -1,0 +1,835 @@
+//Vocab types:
+//1 Posessive
+//2 Being Mod
+//4 Room Mod
+//8 General Room
+//16 Specific Room
+//32 General/Abstract Extra
+//64 Specific Extra
+//128 Designated Extras
+//256 Designated beings
+--ORGANIZATION
+1,8
+, ,
+2,1,8
+, , ,
+4,8
+, ,
+4,8,32
+, , of ,
+4,8,64
+, , of ,
+4,8,128
+, , of the ,
+4,8,256
+, , of the ,
+8,32
+, of ,
+8,64
+, of ,
+8,128
+, of the ,
+8,256
+, of the ,
+8,2,256
+, of the , ,
+8,32,32
+, of , and ,
+8,64,64
+, of , and ,
+1,16
+, ,
+2,1,16
+, , ,
+4,16
+, ,
+4,16,32
+, , of ,
+4,16,128
+, , of the ,
+4,16,256
+, , of the ,
+16,32
+, of ,
+16,128
+, of the ,
+16,256
+, of the ,
+16,2,256
+, of the , ,
+//Compensators for counts
+4,8
+, ,
+4,8
+, ,
+4,8
+, ,
+4,16
+, ,
+4,16
+, ,
+4,16
+, ,
+8,32
+, of ,
+8,32
+, of ,
+8,32
+, of ,
+8,64
+, of ,
+8,64
+, of ,
+8,64
+, of ,
+16,32
+, of ,
+16,32
+, of ,
+16,32
+, of ,
+16,32
+, of ,
+//General
+4,8
+, ,
+4,8,32
+, , of ,
+4,8,64
+, , of ,
+4,8,128
+, , of the ,
+8,32
+, of ,
+8,64
+, of ,
+8,128
+, of the ,
+8,32,32
+, of , and ,
+8,64,64
+, of , and ,
+//SPecific
+4,16
+, ,
+4,16,32
+, , of ,
+4,16,128
+, , of the ,
+4,16,256
+, , of the ,
+16,32
+, of ,
+16,128
+, of the ,
+4,16
+, ,
+4,16,32
+, , of ,
+4,16,128
+, , of the ,
+4,16,256
+, , of the ,
+16,32
+, of ,
+16,128
+, of the ,
+//Vocabulary
+--VOCABULARY
+//1 posessives
+Alchemist's,1
+Amazon's,1
+Angel's,1
+Archangel's,1
+Archivist's,1
+Archmagi's,1
+Assasin's,1
+Banshee's,1
+Barbarian's,1
+Berserker's,1
+Centaur's,1
+Cleric's,1
+Cyclops's,1
+Demon's,1
+Devil's,1
+Djinn's,1
+Dragon's,1
+Drake's,1
+Dwarf's,1
+Efreet's,1
+Elemental's,1
+Elf's,1
+Executioner's,1
+Fairy's,1
+Fiend's,1
+Fox's,1
+Gargoyle's,1
+Genie's,1
+Ghost's,1
+Giant's,1
+Gnome's,1
+Goblin's,1
+God's,1
+Golem's,1
+Griffin's,1
+Haunt's,1
+Headsman's,1
+Hydra's,1
+Knight's,1
+Kraken's,1
+Librarian's,1
+Lich's,1
+Miner's,1
+Nymph's,1
+Ogre's,1
+Ophidian's,1
+Outlaw's,1
+Panther's,1
+Poet's,1
+Priest's,1
+Scorpion's,1
+Sea Serpent's,1
+Serpent's,1
+Shade's,1
+Shaman's,1
+Skeleton's,1
+Sorceress's,1
+Sorceror's,1
+Specter's,1
+Spider's,1
+Spirit's,1
+Tiger's,1
+Titan's,1
+Triton's,1
+Vampire's,1
+Viper's,1
+Wanderer's,1
+Warlock's,1
+Warrior's,1
+Witch's,1
+Wizard's,1
+Wolf's,1
+Wyrm's,1
+Zombie's,1
+// 1 Plural posessive
+Alchemists',1
+Amazons',1
+Angels',1
+Archangels',1
+Archivists',1
+Archmagis',1
+Assasins',1
+Banshees',1
+Barbarians',1
+Berserkers',1
+Centaurs',1
+Clerics',1
+Cyclopss',1
+Demons',1
+Devils',1
+Djinns',1
+Dragons',1
+Drakes',1
+Dwarfs',1
+Efreets',1
+Elementals',1
+Elfs',1
+Executioners',1
+Fairies',1
+Fiends',1
+Foxes',1
+Gargoyles',1
+Genies',1
+Ghosts',1
+Giants',1
+Gnomes',1
+Goblins',1
+Gods',1
+Golems',1
+Griffins',1
+Haunts',1
+Headsmans',1
+Hydras',1
+Knights',1
+Krakens',1
+Librarians',1
+Lichs',1
+Miners',1
+Nymphs',1
+Ogres',1
+Ophidians',1
+Outlaws',1
+Panthers',1
+Poets',1
+Priests',1
+Scorpions',1
+Sea Serpents',1
+Serpents',1
+Shades',1
+Shamans',1
+Skeletons',1
+Sorceress',1
+Sorcerors',1
+Specters',1
+Spiders',1
+Spirits',1
+Tigers',1
+Titans',1
+Tritons',1
+Vampires',1
+Vipers',1
+Wanderers',1
+Warlocks',1
+Warriors',1
+Witchs',1
+Wizards',1
+Wolves',1
+Wyrms',1
+Zombies',1
+//Descriptions
+Aerial,4
+Alabaster,4
+Ancient,6
+Angry,2
+Aquatic,4
+Black,4
+Blaspheming,2
+Blasphemous,6
+Bleeding,6
+Blue,4
+Buried,4
+Brass,4
+Brave,2
+Bronze,4
+Brutal,2
+Burning,4
+Charnel,4
+Charred,4
+Clever,2
+Courageous,2
+Crimson,4
+Crippled,2
+Crystal,164
+Cunning,2
+Cursed,6
+Dark,4
+Damned,6
+Dangerous,6
+Dead,4
+Deceptive,4
+Deserted,4
+Desolate,4
+Diamond,132
+Dying,2
+Emerald,132
+Enchanted,6
+Entomed,6
+Famous,6
+Fearful,4
+Forgotten,6
+Frozen,4
+Furious,2
+Ghostly,6
+Glass,36
+Gold,36
+Granite,4
+Gray,4
+Green,4
+Hallowed,4
+Hidden,6
+High,4
+Holy,6
+Hunted,4
+Icy,4
+Illuminated,6
+Infamous,6
+Insane,2
+Iron,36
+Jade,4
+Lost,134
+Low,4
+Luminous,4
+Lying,2
+Marble,36
+Missing,6
+Mystic,4
+Obsidian,36
+Ominous,6
+Onyx,36
+Pillared,4
+Ruby,132
+Ruined,4
+Sad,2
+Sandstone,4
+Sapphire,132
+Scarlet,4
+Secret,6
+Shadowed,4
+Shadowy,6
+Steel,36
+Spectral,4
+Silver,36
+Stone,196
+Sunken,4
+Underground,2
+Underwater,4
+Unholy,6
+Unhallowed,4
+Unwise,2
+Vicious,6
+Violent,4
+Wise,2
+//8, 16 Rooms
+Alcove,8
+Amphitheater,16
+Antechamber,8
+Armory,16
+Asylum,24
+Atrium,8
+Battlement,24
+Belfry,24
+Catacombs,8
+Cave,8
+Cavern,8
+Chamber,8
+Chapel,16
+Charnel House,16
+Cloister,24
+Coliseum,16
+Conservatory,16
+Corridor,8
+Courtyard,8
+Crypt,16
+Depository,24
+Dining Room,16
+Dungeon,24
+Foyer,8
+Gallery,24
+Garden,16
+Garderobe,16
+Gateway,8
+Greenhouse,16
+Gymnasium,16
+Hall,8
+Hallway,8
+Hideaway,8
+Hold,24
+Infirmary,16
+Keep,24
+Kitchen,16
+Laboratory,16
+Labrynth,8
+Lecture Hall
+Library,16
+Mausoleum,16
+Minaret,24
+Mine,24
+Mortuary,16
+Museum,16
+Necropolis,16
+Nursery,16
+Observatory,16
+Office,24
+Ossuary,24
+Oubliette,24
+Pantry,16
+Park,24
+Passage,8
+Passageway,8
+Plaza,24
+Prison,16
+Rampart,24
+Refuge,24
+Repository,24
+Room,8
+Sanctum,24
+Sepulcher,16
+Shrine,16
+Sickroom,16
+Solarium,16
+Spire,24
+Stage,16
+Stairwell,8
+Steeple,24
+Storage Room,16
+Strongroom,16
+Study,16
+Sunroom,16
+Temple,16
+Theater,16
+Threshold,24
+Throne Room,16
+Tomb,16
+Tower,8
+Treasury,16
+Tunnel,8
+Turret,24
+Vault,24
+Vestibule,8
+Walkway,8
+Watchtower,24
+//32 General/Abstract Extra
+Abysses,32
+Agony,32
+Amnesia,32
+Anger,32
+Anihilation,32
+Antipathy,32
+Barriers,32
+Beginning,160
+Blasphemy,32
+Blessedness,32
+Blood,32
+Calm,32
+Centuries,32
+Chaos,32
+Clarity,32
+Clockwork,36
+Cold,32
+Confusion,32
+Darkness,160
+Damnation,32
+Death,32
+Deception,32
+Destiny,32
+Dishonor,32
+Divination,32
+Doom,32
+Ending,160
+Eternity,32
+Evil,32
+Evocation,32
+Execution,32
+Falsehood,32
+Fire,96
+Flames,96
+Fumes,32
+Fury,32
+Healing,32
+Heat,32
+Heaven,32
+Hell,32
+Holiness,32
+Honor,32
+Ice,96
+Ignorance,32
+Illumination,32
+Illusion,160
+Infinity,32
+Insanity,32
+Invocation,32
+Knowledge,32
+Lies,32
+Life,32
+Light,32
+Lucidity,32
+Lunacy,32
+Machines,32
+Machinery,32
+Magic,32
+Mastery,32
+Mystery,32
+Murder,32
+Necromancy,32
+Noise,32
+Pain,32
+Passing,32
+Poison,32
+Protection,32
+Prayers,32
+Puzzles,32
+Questions,32
+Rain,32
+Redemption,32
+Riddles,32
+Salvation,32
+Sanctification,32
+Secrets,32
+Screams,32
+Shade,32
+Silence,32
+Snow,32
+Sorcery,32
+Storms,32
+Time,32
+Torture,32
+Truth,32
+Years,32
+Voices,32
+Vortices,32
+Wisdom,32
+//64 Specific Extra
+Abysses,64
+Altars,64
+Armors,64
+Arrows,64
+Axes,64
+Bells,64
+Blades,64
+Bones,64
+Books,64
+Bows,64
+Cages,64
+Candles,64
+Chains,64
+Chests,64
+Chimes,64
+Circles,64
+Clocks,64
+Coffers,64
+Coffins,64
+Coins,64
+Crowns,64
+Doors,64
+Gates,64
+Gems,64
+Grails,64
+Grimoires,64
+Hoards,64
+Holes,64
+Idols,64
+Illusions,64
+Jewels,64
+Ladders,64
+Lamps,64
+Lamps,64
+Lanterns,64
+Lights,64
+Locks,64
+Masks,64
+Mirrors,64
+Moons,64
+Passages,64
+Pits,64
+Portals,64
+Runes,64
+Sarcophagi,64
+Scrolls,64
+Scrolls,64
+Shackles,64
+Shadows,64
+Shields,64
+Sigils,64
+Skulls,64
+Smoke,64
+Snares,64
+Spikes,64
+Stars,64
+Statues,64
+Suns,64
+Swords,64
+Tiaras,64
+Tomes,64
+Torchs,64
+Traps,64
+Water,64
+Weapons,64
+Windows,64
+//128 Designated Extras
+Abyss,128
+Altar,128
+Armor,128
+Arrow,128
+Axe,128
+Bell,128
+Blade,128
+Book,128
+Bow,128
+Cage,128
+Candle,128
+Chain,128
+Chest,128
+Chime,128
+Circle,128
+Clock,128
+Coffer,128
+Coffin,128
+Coin,128
+Crown,128
+Crystal,128
+Door,128
+Gate,128
+Gem,128
+Grail,128
+Grimoire,128
+Hoard,128
+Hole,128
+Idol,128
+Jewel,128
+Ladder,128
+Lamp,128
+Lantern,128
+Mask,128
+Mirror,128
+Moon,128
+Pit,128
+Portal,128
+Rune,128
+Sacophagous,128
+Scroll,128
+Shackle,128
+Shield,128
+Sigl,128
+Skull,128
+Snare,128
+Star,128
+Statue,128
+Sun,128
+Sword,128
+Tiara,128
+Tome,128
+Torch,128
+Trap,128
+Void,128
+Vortex,128
+Weapon,128
+//256 Designated beings
+Alchemist,256
+Amazon,256
+Angel,256
+Archangel,256
+Archivist,256
+Archmagi,256
+Assasin,256
+Banshee,256
+Barbarian,256
+Berserker,256
+Centaur,256
+Cleric,256
+Cyclops,256
+Demon,256
+Devil,256
+Djinn,256
+Dragon,256
+Drake,256
+Dwarf,256
+Efreet,256
+Elemental,256
+Elf,256
+Executioner,256
+Fairy,256
+Fiend,256
+Fox,256
+Gargoyle,256
+Genie,256
+Ghost,256
+Giant,256
+Gnome,256
+Goblin,256
+God,256
+Golem,256
+Griffin,256
+Haunt,256
+Headsman,256
+Hydra,256
+Knight,256
+Kraken,256
+Librarian,256
+Lich,256
+Miner,256
+Nymph,256
+Ogre,256
+Ophidian,256
+Outlaw,256
+Panther,256
+Poet,256
+Priest,256
+Scorpion,256
+Sea Serpent,256
+Serpent,256
+Shade,256
+Shaman,256
+Skeleton,386
+Sorceress,256
+Sorceror,256
+Specter,256
+Spider,256
+Spirit,256
+Tiger,256
+Titan,256
+Triton,256
+Vampire,256
+Viper,256
+Wanderer,256
+Warlock,256
+Warrior,256
+Witch,256
+Wizard,256
+Wolf,256
+Wyrm,256
+Zombie,256
+//256 Designated beings plural
+Alchemists,256
+Amazons,256
+Angels,256
+Archangels,256
+Archivists,256
+Archmagis,256
+Assasins,256
+Banshees,256
+Barbarians,256
+Berserkers,256
+Centaurs,256
+Clerics,256
+Cyclopss,256
+Demons,256
+Devils,256
+Djinni256
+Dragons,256
+Drakes,256
+Dwarfs,256
+Efreets,256
+Elementals,256
+Elves56
+Executioners,256
+Fairies,256
+Fiends,256
+Foxes,256
+Gargoyles,256
+Genies,256
+Ghosts,256
+Giants,256
+Gnomes,256
+Goblins,256
+Gods,256
+Golems,256
+Griffins,256
+Haunts,256
+Headsmans,256
+Hydras,256
+Knights,256
+Krakens,256
+Librarians,256
+Liches,256
+Miners,256
+Nymphs,256
+Ogres,256
+Ophidians,256
+Outlaws,256
+Panthers,256
+Poets,256
+Priests,256
+Scorpions,256
+Sea Serpents,256
+Serpents,256
+Shades,256
+Shamans,256
+Skeletons,320
+Sorceresss,256
+Sorcerors,256
+Specters,256
+Spiders,256
+Spirits,256
+Tigers,256
+Titans,256
+Tritons,256
+Vampires,256
+Vipers,256
+Wanderers,256
+Warlocks,256
+Warriors,256
+Witchs,256
+Wizards,256
+Wolves,256
+Wyrms,256
+Zombies,256

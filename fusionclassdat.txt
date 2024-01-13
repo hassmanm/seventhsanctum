@@ -1,0 +1,524 @@
+SEED
+	<SEEDFANSF>
+	<SEEDFANMOD>
+	<SEEDFANSTE>
+	<SEEDFANWES>
+	<SEEDFANHOR>
+	<SEEDSFMOD>
+	<SEEDSFSTE>
+	<SEEDSFWES>
+	<SEEDSFHOR>
+	<SEEDMODSTE>
+	<SEEDMODWES>
+	<SEETMODHOR>
+	<SEEDSTEWES>
+	<SEEDSTEHOR>
+	<SEEDWESHOR>
+//Special Seeds
+SEEDFANSF
+	<REFFANMOD> <REFSFACTOR>
+	<REFSFMOD> <REFFANACTOR>
+SEEDFANMOD
+	<REFFANMOD> <REFMODACTOR>
+	<REFMODMOD> <REFFANACTOR>
+SEEDFANSTE
+	<REFFANMOD> <REFSTEACTOR>
+	<REFSTEMOD> <REFFANACTOR>
+SEEDFANWES
+	<REFFANMOD> <REFWESACTOR>
+	<REFWESMOD> <REFFANACTOR>
+SEEDFANHOR
+	<REFFANMOD> <REFHORACTOR>
+	<REFHORMOD> <REFFANACTOR>
+SEEDSFMOD
+	<REFSFMOD> <REFMODACTOR>
+	<REFMODMOD> <REFSFACTOR>
+SEEDSFSTE
+	<REFSFMOD> <REFSTEACTOR>
+	<REFSTEMOD> <REFSFACTOR>
+SEEDSFWES
+	<REFSFMOD> <REFWESACTOR>
+	<REFWESMOD> <REFSFACTOR>
+SEEDSFHOR
+	<REFSFMOD> <REFHORACTOR>
+	<REFHORMOD> <REFSFACTOR>
+SEEDMODSTE
+	<REFMODMOD> <REFSTEACTOR>
+	<REFSTEMOD> <REFMODACTOR>
+SEEDMODWES
+	<REFMODMOD> <REFWESACTOR>
+	<REFWESMOD> <REFMODACTOR>
+SEETMODHOR
+	<REFMODMOD> <REFHORACTOR>
+	<REFHORMOD> <REFMODACTOR>
+SEEDSTEWES
+	<REFSTEMOD> <REFWESACTOR>
+	<REFWESMOD> <REFSTEACTOR>
+SEEDSTEHOR
+	<REFSTEMOD> <REFHORACTOR>
+	<REFHORMOD> <REFSTEACTOR>
+SEEDWESHOR
+	<REFWESMOD> <REFHORACTOR>
+	<REFHORMOD> <REFWESACTOR>
+//FANTASY
+REFFANMOD
+	Alchemical
+	Astral
+	Blessed
+	Castle
+	Destiny
+	Dream
+	Dungeon
+	Ethereal
+	Forge
+	Ghost
+	Heavenly
+	Holy
+	Illusion
+	Infernal
+	Legend
+	Legendary
+	Magic
+	Mystic
+	Prayer
+	Royal
+	Rune
+	Scroll
+	Sorcerous
+	Sorcery
+	Spell
+	Spirit
+	Spiritual
+	Sword
+	Unholy
+REFFANACTOR
+	Alchemist
+	Archer
+	Armorer
+	Astrologer
+	Barbarian
+	Bard
+	Bowman
+	Cleric
+	Conjurer
+	Demonologist
+	Diviner
+	Druid
+	Dungeoneer
+	Elementalist
+	Enchanter
+	Evoker
+	Exorcist
+	Gladiator
+	Healer
+	Illusionist
+	Invoker
+	Knight
+	Mage
+	Magician
+	Monk
+	Necromancer
+	Paladin
+	Pirate
+	Prophet
+	Ranger
+	Shaman
+	Socreror
+	Templar
+	Warlock
+	Witch
+//SCIENCE FICTION
+REFSFMOD
+	Alien
+	Antimatter
+	Artificial
+	Asteroid
+	Astro
+	Atomic
+	Bio-Engineered
+	Bionic
+	Black Hole
+	Cloned
+	Collapsar
+	Comet
+	Corona
+	Cosmic
+	Cybernetic
+	Cybernetics
+	Cyborg
+	Dimension
+	Dimensional
+	Extra-Dimensional
+	Galactic
+	Galaxy
+	Graviton
+	Hologram
+	Holographic
+	Hyperspace
+	Hyperspatial
+	Inter-Dimensional
+	Interfaced
+	Intergalactic
+	Inter-Planar
+	Interplanetary
+	Interstellar
+	Intra-System
+	Lunar
+	Matrix
+	Moon
+	Mutant
+	Mutation
+	Nano
+	Nanotechnological
+	Nanotechnology
+	Nebula
+	Networked
+	Neural
+	Neutron
+	Nova
+	Nuclear
+	Orbital
+	Pan-Dimensional
+	Para-Dimensional
+	Phased
+	Planet
+	Planetery
+	Plasma
+	Proton
+	Psionic
+	Pulsar
+	Quantumn
+	Quasar
+	Radiation
+	Ray
+	Robot
+	Rocket
+	Sector
+	Solar
+	Spacecraft
+	Star
+	Starship
+	Stellar
+	Sun
+	System
+	Temporal
+	Virtual
+	Warp
+	Wired
+	Wormhole
+	Xeno
+REFSFACTOR
+	Analyst
+	Android
+	Anthropologist
+	Archaeologist
+	Botanist
+	Chemist
+	Cyberneticist
+	Cyborg
+	Doctor
+	Engineer
+	Explorer
+	Hacker
+	Interfacer
+	Linguist
+	Mutant
+	Physicist
+	Pilot
+	Programmer
+	Rocketeer
+	Surgeon
+	Technician
+	Technologist
+	Terraformer
+	Xenobiologist
+	Xenolinguist
+//MODERN
+REFMODMOD
+	Accounting
+	Advertising
+	Automotive
+	Banking
+	Biology
+	Business
+	Chemical
+	Civil
+	Computer
+	Corporate
+	Data
+	Economic
+	Governmental
+	Investment
+	Mathematical
+	Media
+	Medical
+	Police
+	Political
+	Programming
+	Psychology
+	Psychyatric
+	Statistical
+	Stock
+	Vetrenary
+REFMODACTOR
+	Accountant
+	Advertiser
+	Astronomer
+	Banker
+	Biologist
+	CEO
+	Chemist
+	Clerk
+	Detective
+	Doctor
+	Driver
+	Geologist
+	Hacker
+	Instructor
+	Lawyer
+	Linguist
+	Mathematician
+	Nurse
+	Physicist
+	Politician
+	Professor
+	Psychologist
+	Psychiatrist
+	Policeman
+	Policewoman
+	Programmer
+	Reporter
+	Salesperson
+	Secretary
+	Stockbroker
+	Technician
+	Veterenarian
+	Zoologist
+//STEAMPUNK
+REFSTEMOD
+	Acid
+	Aero	
+	Alchemical
+	Anti-gravity
+	Armor
+	Armored
+	Army
+	Artifice
+	Atmospheric
+	Automata
+	Automatic
+	Automaton
+	Baloon
+	Beam
+	Blimp
+	Blitz
+	Bomb
+	Bomber
+	Chemo
+	Chemical
+	Clank
+	Clock
+	Clockwork
+	Coal
+	Cog
+	Electric
+	Electrical
+	Electro
+	Engine
+	Ether
+	Exo
+	Exoskeleton
+	Explosive
+	Factory
+	Forge
+	Foundry
+	Gauss
+	Gear
+	Gravity
+	Grease
+	Grenade
+	Gyro
+	Gyroscopic
+	Industrial
+	Iron
+	Macine
+	Magnetic
+	Magnetism
+	Magno
+	Mechanism
+	Mechanical
+	Medical
+	Metallo
+	Ornithopter
+	Parachute
+	Pharmaceutical
+	Piston
+	Pneumatic
+	Power
+	Ray
+	Rivet
+	Salvage
+	Scrap
+	Sonic
+	Sprocket
+	Steam
+	Steel
+	Technical
+	Technology
+	Techno
+	Tesla
+	Torpedo
+	Torque
+	Turbine
+	Turbo
+	Valve
+	Voltage
+	Watt
+	Wattage
+	Wavelength
+	Zepplin
+REFSTEACTOR
+	Alchemist
+	Apothecary
+	Archivist
+	Artificer
+	Automator
+	Aviator
+	Baloonist
+	Bomber
+	Bombadier
+	Captain
+	Caster
+	Chymist
+	Digger
+	Driver
+	Engineer
+	Grenadier
+	Librarian
+	Machinist
+	Miner
+	Mongerer
+	Paratrooper
+	Pharmacist
+	Physician
+	Re-animator
+	Salvager
+	Scholar
+	Scientist
+	Scrounger
+	Smith
+	Synthesist
+	Technician
+	Tinker
+	Wright
+//WESTERN
+REFWESMOD
+	Brand
+	Bullet
+	Cattle
+	Cowboy
+	Cowgirl
+	Gun
+	Gunpowder
+	Gunslinger
+	High Plains
+	High Noon
+	Homestead
+	Horse
+	Outlaw
+	Pioneer
+	Prarie
+	Quick-draw
+	Rail
+	Railroad
+	Ranch
+	Saddle
+	Sagebrush
+	Saloon
+	Sixgun
+	Shotgun
+	Showdown
+	Stagecoach
+	Sundown
+	Telegraph
+REFWESACTOR
+	Cowboy
+	Cowgirl
+	Drifter
+	Gunfighter
+	Gunslinger
+	Homesteader
+	Marshal
+	Outlaw
+	Pioneer
+	Prospector
+	Rancher
+	Rifleman
+	Rustler
+	Sheriff
+	Showgirl
+//HORROR
+REFHORMOD
+	Apocalypse
+	Agony
+	Bane
+	Baleful
+	Blasphemous
+	Blood
+	Bloody
+	Butcher
+	Chaos
+	Corrupt
+	Cult
+	Damned
+	Dark
+	Death
+	Demonic
+	Devil
+	Dread
+	Fear
+	grave
+	Hate
+	Heresy
+	Heretic
+	Hex
+	Horror
+	Malefic
+	Malice
+	Murder
+	Pain
+	Plague
+	Poison
+	Necromantic
+	Sacrificial
+	Sacrelegious
+	Scourge
+	Sin
+	Sinful
+	Sinister
+	Slaughter
+	Terror
+	Toxic
+	Torture
+	Vampiric
+REFHORACTOR
+	Blasphemer
+	Butcher
+	Corruptor
+	Crucifier
+	Cultist
+	Curser
+	Executioner
+	Gravedigger
+	Heretic
+	Killer
+	Mutilator
+	Murderer
+	Necromancer
+	Poisoner
+	Sacrificer
+	Sinner
+	Slaughterer
+	Slave
+	Torturer
+	Zealot

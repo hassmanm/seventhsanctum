@@ -1,0 +1,346 @@
+//Vocab types:
+// Type - 1
+// Emission - 2
+// Internal -4
+// Consistency - 8
+// Color - 16
+// Color modifier - 32
+// Taste/smell - 64
+--ORGANIZATION
+2,4,8,1,16,16,32,64,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+4,8,1,16,16,32,64,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,8,1,16,16,32,64,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,4,1,16,16,32,64,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,1,16,16,32,64,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+4,1,16,16,32,64,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+8,1,16,16,32,64,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+16,1,16,32,64,64,64,64
+The , , with , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,4,8,1,16,64,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+4,8,1,16,64,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,8,1,16,64,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,4,1,16,64,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,1,16,64,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+4,1,16,64,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+8,1,16,64,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like , and ,.
+16,1,64,64,64,64
+The , ,.  It smells like , and ,<COMMA> but tastes like , and ,.
+2,4,8,1,16,16,32,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+4,8,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+2,8,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+2,4,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+2,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+4,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+8,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+16,1,16,32,64,64,64
+The , , with , ,.  It smells like , and ,<COMMA> but tastes like ,.
+2,4,8,1,16,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+4,8,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+2,8,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+2,4,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+2,1,16,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+4,1,16,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+8,1,16,64,64,64
+The , , that is , in color.  It smells like , and ,<COMMA> but tastes like ,.
+16,1,64,64,64
+The , ,.  It smells like , and ,<COMMA> but tastes like ,.
+2,4,8,1,16,16,32,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+4,8,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+2,8,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+2,4,1,16,16,32,64,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+2,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+4,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+8,1,16,16,32,64,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+16,1,16,32,64,64,64
+The , , with , ,.  It smells like ,<COMMA> but tastes like , and ,.
+2,4,8,1,16,64,64,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+4,8,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+2,8,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+2,4,1,16,64,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+2,1,16,64,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+4,1,16,64,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+8,1,16,64,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like , and ,.
+16,1,64,64,64
+The , ,.  It smells like ,<COMMA> but tastes like , and ,.
+2,4,8,1,16,16,32,64,64
+The ,<COMMA> ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+4,8,1,16,16,32,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+2,8,1,16,16,32,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+2,4,1,16,16,32,64,64
+The ,<COMMA> , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+2,1,16,16,32,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+4,1,16,16,32,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+8,1,16,16,32,64,64
+The , , that is , with , ,.  It smells like ,<COMMA> but tastes like ,.
+16,1,16,32,64,64
+The , , with , ,.  It smells like ,<COMMA> but tastes like ,.
+2,4,8,1,16,64,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+4,8,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+2,8,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+2,4,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+2,1,16,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+4,1,16,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+8,1,16,64,64
+The , , that is , in color.  It smells like ,<COMMA> but tastes like ,.
+16,1,64,64
+The , ,.  It smells like ,<COMMA> but tastes like ,.
+2,4,8,1,16,16,32,64
+The ,<COMMA> ,<COMMA> , , that is , with , ,.  It smells and tastes like ,.
+4,8,1,16,16,32,64
+The ,<COMMA> , , that is , with , ,.  It smells and tastes like ,.
+2,8,1,16,16,32,64
+The ,<COMMA> , , that is , with , ,.  It smells and tastes like ,.
+2,4,1,16,16,32,64
+The ,<COMMA> , , that is , with , ,.  It smells and tastes like ,.
+2,1,16,16,32,64
+The , , that is , with , ,.  It smells and tastes like ,.
+4,1,16,16,32,64
+The , , that is , with , ,.  It smells and tastes like ,.
+8,1,16,16,32,64
+The , , that is , with , ,.  It smells and tastes like ,.
+16,1,16,32,64
+The , , with , ,.  It smells and tastes like ,.
+//Test
+2,4,8,1,16,64,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells and tastes like , and ,.
+4,8,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like , and ,.
+2,8,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like , and ,.
+2,4,1,16,64,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like , and ,.
+2,1,16,64,64
+The , , that is , in color.  It smells and tastes like , and ,.
+4,1,16,64,64
+The , , that is , in color.  It smells and tastes like , and ,.
+8,1,16,64,64
+The , , that is , in color.  It smells and tastes like , and ,.
+16,1,64,64
+The , ,.  It smells and tastes like , and ,.
+//Test
+2,4,8,1,16,64
+The ,<COMMA> ,<COMMA> , , that is , in color.  It smells and tastes like ,.
+4,8,1,16,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like ,.
+2,8,1,16,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like ,.
+2,4,1,16,64
+The ,<COMMA> , , that is , in color.  It smells and tastes like ,.
+2,1,16,64
+The , , that is , in color.  It smells and tastes like ,.
+4,1,16,64
+The , , that is , in color.  It smells and tastes like ,.
+8,1,16,64
+The , , that is , in color.  It smells and tastes like ,.
+16,1,64
+The , ,.  It smells and tastes like ,.
+--VOCABULARY
+draught,1
+elixir,1
+fluid,1
+liquid,1
+mixture,1
+potion,1
+substance,1
+tonic,1
+boiling,2
+bubbling,6
+fizzing,6
+frothing,2
+glowing,6
+moving,2
+smoking,2
+steaming,2
+swirling,6
+glowing,4
+ichorous,4
+metallic,4
+murky,4
+opalescent,4
+pulsing,4
+reflective,4
+translucent,4
+transparent,4
+chunky,8
+oily,8
+slimy,8
+thick,8
+thin,8
+viscious,8
+watery,8
+amber,16
+amethyst,16
+azure,16
+beyrl,16
+black,16
+blue,16
+brown,16
+cerulean,16
+cobolt,16
+copper,16
+crimson,16
+cyan,16
+ebony,16
+emerald,16
+gold,16
+gray,16
+green,16
+indigo,16
+ivory,16
+jade,16
+obsidian,16
+ochre,16
+orange,16
+pearl,16
+pink,16
+purple,16
+red,16
+rose,16
+ruby,16
+sapphire,16
+scarlet,16
+silver,16
+topaz,16
+vermillion,16
+violet,16
+white,16
+yellow,16
+accretions on the bottom,32
+accretions on the side,32
+bubbles,32
+flakes,32
+flashes,32
+flecks,32
+globules,32
+glows,32
+oddiments,32
+specks,32
+streaks,32
+acid,64
+acorns,64
+alchohol,64
+apples,64
+ashes,64
+bannanas,64
+beer,64
+bile,64
+black pepper,64
+blood,64
+blueberries,64
+bread,64
+butter,64
+cabbage,64
+candy,64
+cantaloupe,64
+caramel,64
+carrots,64
+celery,64
+chemicals,64
+cherries,64
+chocolate,64
+cinnamon,64
+coconut,64
+coffee,64
+cooked meat,64
+cream,64
+cucumber,64
+dirt,64
+earwax,64
+excrement,64
+fish,64
+fruit,64
+garlic,64
+ginger,64
+grapes,64
+grass,64
+green pepper,64
+herbs,64
+honey,64
+lemon,64
+lettuce,64
+licorice,64
+lime,64
+mead,64
+melon,64
+milk,64
+mud,64
+nuts,64
+oranges,64
+peach,64
+peanuts,64
+pears,64
+peppermint,64
+pinapple,64
+pine needles,64
+pumpkin,64
+raspberries,64
+raw meat,64
+red pepper,64
+rot,64
+rum,64
+salt,64
+salt water,64
+spice,64
+spinach,64
+spit,64
+strawberries,64
+sugar,64
+tea,64
+urine,64
+vanilla,64
+vegetables,64
+vomit,64
+walnuts,64
+wax,64
+wine,64

@@ -1,0 +1,3528 @@
+//Vocab types:
+//1 - Physical
+//2 - Intellectual
+//4 - Social
+//8 - Profession
+//16 - Element
+//
+//Organizational Configurations
+//These are basic configurations
+--ORGANIZATION
+64,1,8
+, - as the , ,.
+64,2,8
+, - as the , ,.
+64,4,8
+, - as the , ,.
+64,8,16
+, - as the , ,.
+64,1,2,8
+, - as the ,<COMMA>, ,.
+64,1,4,8
+, - as the ,<COMMA>, ,.
+64,1,8,16
+, - as the , , ,.
+64,2,4,8
+, - as the ,<COMMA>, ,.
+64,1,2,4,8
+, - as the ,<COMMA>,<COMMA>, ,.
+64,2,8,16
+, - as the , , ,.
+64,4,8,16
+, - as the , , ,.
+64,1,4,8,16
+, - as the ,<COMMA>, , ,.
+64,2,4,8,16
+, - as the ,<COMMA>, , ,.
+64,1,2,4,8,16
+, - as the ,<COMMA>,<COMMA>, , ,.
+//Vocabulary
+--VOCABULARY
+absent-minded,2
+acrobatic,1
+addled,2
+aged,1
+aggravated,2
+agile,1
+alienated,6
+aloof,6
+altruistic,6
+ambitious,2
+amiable,4
+antisocial,4
+anxious,2
+apathetic,2
+arrogant,6
+artistic,2
+atheistic,2
+athletic,1
+attractive,4
+awestruck,2
+awkward,5
+biased,6
+bigoted,4
+bitter,2
+bloodthirsty,6
+boastful,6
+boring,6
+brave,6
+broken-hearted,6
+brutal,6
+bullying,4
+burnt-out,2
+calm,2
+charismatic,4
+chaste,4
+cheerful,2
+clever,2
+clinging,6
+clueless,2
+clumsy,1
+combative,2
+committed,2
+compassionate,2
+complacent,2
+composed,2
+conceited,2
+confident,2
+conformist,2
+confused,2
+contemplative,2
+cooperative,6
+corrupt,6
+courageous,2
+cowardly,2
+craven,2
+crazy,2
+creative,2
+crippled,1
+cruel,4
+cunning,2
+cute,4
+cynical,2
+delusional,2
+depressed,2
+detached,2
+dexterous,1
+diabolical,2
+disillusioned,2
+disloyal,4
+disorganized,2
+dispirited,2
+dissatisfied,2
+distant,6
+domineering,4
+driven,2
+drunken,2
+eccentric,6
+educated,2
+elegant,2
+enduring,3
+energetic,2
+ethical,4
+experienced,2
+extraverted,4
+fearful,2
+fear-ridden,2
+fearsome,6
+focused,2
+forceful,2
+friendly,4
+frustrated,2
+funny,4
+generous,4
+gentle,4
+graceful,1
+greedy,6
+grim,2
+happy,2
+hateful,6
+healthy,1
+heroic,6
+homely,4
+humble,6
+hypocritical,6
+hysterical,2
+ignorant,2
+ignored,4
+illogical,2
+immature,6
+immoral,4
+incoherent,2
+indecisive,2
+industrious,2
+inexperienced,2
+infamous,4
+inhibited,6
+innocent,2
+intelligent,2
+intimidating,4
+introverted,4
+intuitive,2
+irrational,2
+joyful,2
+just,2
+kind,6
+laid-back,2
+lazy,2
+logical,2
+lonely,6
+loudmouthed,2
+manipulative,6
+materialistic,2
+mature,2
+mean-spirited,6
+melancholy,2
+militant,2
+miserable,2
+miserly,2
+misguided,2
+misunderstood,2
+moral,4
+moralistic,6
+moralizing,4
+mysterious,2
+mystical,2
+naive,2
+narrow-minded,2
+negative,2
+nervous,2
+neurotic,2
+nice,2
+nihilistic,2
+nimble,1
+noisy,2
+nostalgic,2
+nurturing,4
+obedient,4
+obsessive,2
+odd,6
+open-minded,6
+opinionated,6
+opportunistic,2
+optimistic,2
+organized,2
+outgoing,4
+paranoid,6
+patriotic,6
+patronizing,4
+peaceful,2
+peace-loving,2
+persistent,2
+persuasive,6
+pessimistic,2
+philandering,6
+philosophical,2
+pious,2
+plain,1
+playful,4
+plucky,2
+poised,1
+pompous,4
+popular,4
+posturing,4
+pragmatic,2
+predictable,2
+principled,2
+private,2
+promiscuous,6
+puerile,2
+pure,2
+quiet,2
+realistic,2
+rebellious,2
+religious,2
+righteous,6
+romantic,2
+rude,4
+ruthless,2
+sadistic,6
+sarcastic,6
+scatterbrained,2
+seasoned,2
+secretive,2
+selfish,6
+selfless,6
+self-righteous,6
+serene,2
+serious,2
+shiftless,2
+shifty,2
+short-tempered,6
+sickly,1
+silly,2
+sleazy,6
+sloppy,2
+slothful,2
+slovenly,2
+smart,2
+smooth,4
+snide,2
+social,4
+spendthrift,2
+spiritual,2
+stingy,2
+stressed,2
+striking,5
+strong,1
+studious,2
+stupid,2
+tactful,6
+tactless,6
+tired,2
+tireless,3
+tolerant,6
+tough,3
+ugly,4
+unambitious,2
+unathletic,1
+unbalanced,2
+unconfident,2
+uncreative,2
+unethical,4
+unfriendly,4
+unhappy,2
+unhealthy,1
+unheroic,6
+unjust,6
+unpopular,4
+unpredictable,2
+unremarkable,2
+unstable,2
+unwise,2
+vicious,6
+violent,2
+vocal,4
+watchful,2
+weak,3
+weak-willed,2
+weary,2
+whiny,6
+wild,2
+willful,2
+wily,2
+wise,2
+wistful,2
+withdrawn,4
+worldwise,2
+worried,2
+young,1
+//Profession
+accountant,8
+acrobat,8
+actor,8
+adventurer,8
+advertising executive,8
+AI computer,8
+airline pilot,8
+alchemist,8
+alien,8
+ambassador,8
+ancient entity,8
+android,8
+arch-druid,8
+archer,8
+architect,8
+archivist,8
+arch-mage,8
+artificial life form,8
+assassin,8
+assistant,8
+astrologer,8
+astronaut,8
+astronomer,8
+bandit,8
+barbarian,8
+bard,8
+bartender,8
+baseball player,8
+beggar,8
+biologist,8
+blacksmith,8
+boatman,8
+bodyguard,8
+botanist,8
+bounty hunter,8
+bowman,8
+businessperson,8
+cab driver,8
+cartographer,8
+CEO,8
+champion,8
+chemical engineer,8
+chemist,8
+chief engineer,8
+cleric,8
+clerk,8
+clone,8
+coachman,8
+colonist,8
+comic,8
+communications officer,8
+communications technician,8
+computer programmer,8
+computer technician,8
+conjurer,8
+construction worker,8
+corporate official,8
+cyberneticist,8
+cyberpunk,8
+cyborg,8
+dancer,8
+daycare employee,8
+demonologist,8
+detective,8
+doctor,8
+doctor,8
+druid,8
+duke,8
+dungeon delver,8
+dutchess,8
+dwarf,8
+elementalist,8
+elf,8
+engineer,8
+exorcist,8
+explorer,8
+farmer,8
+fence,8
+fighter pilot,8
+fire fighter,8
+first contact specialist,8
+first officer,8
+fisherman,8
+football player,8
+fortune-teller,8
+freak,8
+gambler,8
+garbageman,8
+gigolo,8
+gladiator,8
+grave robber,8
+guitarist,8
+hacker,8
+halfling,8
+healer,8
+heir,8
+herbologist,8
+hermit,8
+hero,8
+heroine,8
+hockey player,8
+hunter,8
+impostor,8
+inventor,8
+investor,8
+jailer,8
+jock,8
+king,8
+knight,8
+laborer,8
+lawman,8
+leader,8
+librarian,8
+life support technician,8
+linguist,8
+linquistics expert,8
+magician,8
+manager,8
+marine,8
+martial artist,8
+medical officer,8
+medical technician,8
+media personality,8
+mentor,8
+mercenary,8
+merchant,8
+midwife,8
+miner,8
+mobster,8
+monk,8
+murderer,8
+musician,8
+mutant,8
+nanotechnologist,8
+necromancer,8
+noble,8
+novelist,8
+nun,8
+nurse,8
+occultist,8
+official,8
+operations manager,8
+outlaw,8
+paladin,8
+peasant,8
+pedlar,8
+pharmacist,8
+philanthropist,8
+philosopher,8
+physicist,8
+planetary explorer,8
+planetologist,8
+poet,8
+police chief,8
+policeman,8
+politician,8
+politician,8
+pretender,8
+priest,8
+priestess,8
+prince,8
+princess,8
+professor,8
+prophet,8
+prospector,8
+prostitute,8
+psychiatrist,8
+psychologist,8
+quartermaster,8
+queen,8
+rabble-rouser,8
+ranger,8
+rascal,8
+rat-catcher,8
+repairman,8
+reporter,8
+robot,8
+rock star,8
+rogue,8
+sailor,8
+salesperson,8
+scientist,8
+scribe,8
+secret agent,8
+secretary,8
+security agent,8
+security officer,8
+seer,8
+serial killer,8
+servant,8
+shaman,8
+shuttlecraft pilot,8
+singer,8
+smuggler,8
+soldier,8
+space fighter,8
+space hitchiker,8
+space pirate,8
+spy,8
+starship captain,8
+starship engineer,8
+starship navigator,8
+starship pilot,8
+starship salesperson,8
+stellar cartographer,8
+stockbroker,8
+student,8
+super computer,8
+tactical officer,8
+teacher,8
+technician,8
+terraformer,8
+theologian,8
+thief,8
+time traveler,8
+tomb-robber,8
+trader,8
+traitor,8
+traveler,8
+treasure-hunter,8
+veterinarian,8
+virtual reality engineer,8
+virtual reality programmer,8
+wanderer,8
+watchman,8
+weapons master,8
+weapons officer,8
+witch-hunter,8
+wizard,8
+zookeeper,8
+zoologist,8
+//Modifier
+addicted to an otherworldly drug,16
+addicted to virtual reality,16
+coping with mental illness,16
+escpaing the past,16
+fighting against a culture that won't allow him/her to reproduce,16
+from a bad family,16
+from a big family,16
+from a distant colony,16
+from a dying race,16
+from a good family,16
+from a small family,16
+from an ancient race,16
+from an infamous race,16
+from an unusual family line,16
+from another dimension,16
+from another time,16
+from another world,16
+from nowhere,16
+from the future,16
+from the past,16
+haunted by dark memories,16
+haunted by flashbacks,16
+hiding a dark secret,16
+hitch-hiking across the known universe,16
+in love with an artificial life form,16
+in love with someone of another species,16
+in posession of an alien artifact,16
+in posession of coordinates to a great secret,16
+in posession of stolen technology,16
+infected with an alien disease,16
+infected with nanites,16
+just awoke from suspended animation,16
+living on borrowed time,16
+looking for a challenge,16
+looking for love,16
+needing a friend,16
+on an important journey through space,16
+on an important journey through time,16
+on an important journey to a parallel world,16
+on the run from the law,16
+on the wrong side of the law,16
+searching for a family member,16
+searching for a lost friend,16
+searching for employment,16
+searching for justice,16
+searching for purpose,16
+searching for truth,16
+trapped by the past,16
+who belongs to a secret organization,16
+who came from another world to seek his/her parents,16
+who came from the future to seek his/her parents,16
+who can see invisible entities,16
+who can't resist a fight,16
+who can't resist helping people,16
+who conceals their mystical identity carefully,16
+who exploits their mystical powers,16
+who fears a particular alien species,16
+who fears non-human beings,16
+who fears people think he/she is a fraud,16
+who fears supernatural entities,16
+who fears the future,16
+who fell in with the wrong crowd,16
+who guards a mysterious power source,16
+who had a near-death experience that changed them significantly,16
+who has a demonic connection,16
+who has a destiny to fulfill,16
+who has a divine connection,16
+who has a miraculous romance in their future,16
+who has a powerful rival,16
+who has a strange romantic chemistry with his/her enemy,16
+who has an obsessive attraction to a particular alien species,16
+who has an odd way of speaking,16
+who has annoyed the gods,16
+who has just acquired a magical guardian,16
+who has just acquired a magical power-up,16
+who has powers that may be devestating if discovered,16
+who has rare occult knowledge,16
+who has seen parts of the universe few have,16
+who has several nervous habits,16
+who has yet to come into his/her true power,16
+who hates a particular alien species,16
+who hates animals,16
+who hates children,16
+who hopes to be the best in his/her profession,16
+who inherited a family curse,16
+who is a complete fraud,16
+who is a crossbreed of two species,16
+who is a half-human/half magical being,16
+who is actually an alien entity,16
+who is an outsider,16
+who is burdened with dark knowlege,16
+who is considered the best in his/her profession,16
+who is considered the worst in his/her profession,16
+who is cursed with bad luck,16
+who is dependent on medication,16
+who is doomed if the world is to be saved,16
+who is easily affected by magic,16
+who is estranged from family members,16
+who is estranged from his/her race,16
+who is estranged nobility,16
+who is fighting an alien occupation force,16
+who is from a parallel dimension,16
+who is from a parallel universe,16
+who is given to moments of deep introspection,16
+who is haunted by a ghost,16
+who is heir to a kingdom but doesn't know it,16
+who is heir to a kingdom,16
+who is ignorant of their true power,16
+who is lost royalty,16
+who is more than meets the eye,16
+who is part of a secret society
+who is prone to odd statements,16
+who is reincarnated from another lifetime,16
+who is seeking meaning in life,16
+who is seeking to return to his/her homeworld,16
+who is the last member of his/her race,16
+who is touched by darkness,16
+who lives under a curse,16
+who lost meaning in life,16
+who loves animals,16
+who loves children,16
+who must die if the day is to be saved,16
+who plans to exploit another world,16
+who posesses a strange map,16
+who posesses a strong immunity to magic,16
+who secretly worships forbidden gods,16
+who seeks a mysterious power source,16
+who seeks to acquire a magical advisor,16
+who seeks to acquire a magical power-up,16
+who seems insane,16
+who suffers from a chronic disease,16
+who suffers from a chronic medical condition,16
+who tends to annoy demonic beings,16
+who tends to annoy divine beings,16
+who tends to annoy non-humans,16
+who tragically misunderstood an alien custom,16
+who was blessed by the gods,16
+who was exiled to another dimension,16
+who was exiled to another world,16
+who was genetically engineered,16
+who was granted strange abilities by an alien species,16
+who was reborn under strange circumstances,16
+who was victimized by an alien race,16
+who was victimized by an artificial intelligence,16
+who wields an unusual artifact,16
+who worships unkown gods,16
+whose body was infected by an alien seeking to reproduce,16
+whose culture has collapsed,16
+whose dwelling is haunted,16
+whose family line was magically enhanced,16
+whose friend turns out to be a rival,16
+whose mind was controlled by a parasite,16
+whose rival turns out to be a friend,16
+whose species has odd reproductive habits,16
+whose species is being exterminated,16
+whose species reproduces by cloning or similar technology,16
+whose true love has been turned to the other side,16
+whose true power is concealed from them,16
+whose world is run by a computer,16
+whose world is threatened by a space disaster,16
+whose world is threatened by a technological disaster,16
+with a chemical dependency,16
+with a dark past,16
+with a false identity,16
+with a gift for understanding non-human cultures,16
+with a gift for understanding non-human languages,16
+with a heart of gold,16
+with a knack for trouble,16
+with a large fortune,16
+with a lot of friends,16
+with a peculiar affinity for magic,16
+with a peculiar affinity for magical items,16
+with a peculiar lack of affinity for magical items,16
+with a peculiar lack of magical talent,16
+with a rival in his/her profession,16
+with a strange rapport with non-humans,16
+with a strange rapport with supernatural beings,16
+with an odd birthmark,16
+with an unexpected destiny,16
+with big dreams,16
+with demonic blood,16
+with divine blood,16
+with little money,16
+with no hope,16
+with non-human ancestry,16
+with repressed memories,16
+with strange powers that only work when emotionally agitated,16
+with uncanny abilities,16
+with unexpected depths,16
+with unusual luck,16
+//Characters
+"Cole" Daggon (Tracker),64
+"Half-Cocked" Jack Shaftoe (Neal Stephenson's Baroque Cycle),64
+(The) Murray (Sly Cooper),64
+343 Guilty Spark (Halo),64
+A.J. Raffles (Raffles),64
+Aaron (Titus Andronicus),64
+Aaron Burr,64
+Abbey Bartlet (WW),64
+Abby Sciuto (NCIS),64
+Abby Wambach (soccer RPFS),64
+Abe Sapien (Hellboy),64
+Abhorsen (Sabriel),64
+Abigail (The Crucible),64
+Abner Brown (Box of Delights),64
+Abraham Lincoln,64
+Aburame Shino (Naruto),64
+Ace Rimmer (Red Dwarf),64
+Acheron Hades (Thursday Next series),64
+Achilles (Troy),64
+Acid Burn (Hackers),64
+Adam (BtVS),64
+Adam (Good Omens),64
+Adam Newman (New Series Tomorrow People),64
+Adam Smith ("Wealth of Nations"),64
+Adam Whitely (Priscilla Queen of the Desert),64
+Adhemar (A Knight's Tale),64
+Admiral Ackbar (Star Wars),64
+Admiral Horatio Nelson,64
+Admiral James T. Kirk (Star Trek movieverse),64
+Adora Belle Dearhart (Discworld),64
+Adrian Monk (Monk),64
+Aeryn Sun (Farscape),64
+Agador (The Birdcage) ,64
+Agamemnon (Troy),64
+Agent Ajedrez (Once Upon a Time in Mexico),64
+Agent Bloodrayne (Bloodrayne),64
+Agent Dale Cooper (Twin Peaks),64
+Agent Dana Scully (X-Files) ,64
+Agent Pendrell (X-Files),64
+Agent Sands (Once Upon a Time in Mexico),64
+Agent Smith (Matrix),64
+Agrajag (Hitchhiker's Guide to the Galaxy),64
+Agrippina the Younger,64
+Ahaz  (Another Fine Myth),64
+Ai (Video Girl Ai),64
+Ainsley Hayes (West Wing),64
+AJ Chegwidden (JAG),64
+Ajax (Troy),64
+Akku (Samurai Jack),64
+Al (Quantum Leap),64
+Al Borland (Home Improvement) ,64
+Al Calavicci (Quantum Leap),64
+Al Swearengen (Deadwood),64
+Aladdin,64
+Alan Grant (Jurassic Park)Nate Grey (X-Men comicverse),64
+Alan Shore (Practice),64
+Alan Turing,64
+Alanna (Lioness Quartet),64
+Alastor Moody (HP),64
+Albert Einstein,64
+Albert Einstein (Picasso at the Lapin Agile),64
+Albert Rosenfield (Twin Peaks),64
+Albus Dumbledore (HP),64
+Aldric (Dr. Who),64
+Alec (Dark Angel),64
+Alex Cabot (L&O:SVU),64
+Alex Eades (Law and Order: Criminal Intent),64
+Alex Law (Shallow Grave),64
+Alex Munday (Charlies Angels),64
+Alex Murphy (Robocop),64
+Alex of Tirragen (Songs of the Lioness),64
+Alex Rieger (Taxi),64
+Alex Rosewater (Big O),64
+Alex Wilder (Runaways),64
+Alexander (Alexander the Great),64
+Alexander Dane (Galaxy Quest),64
+Alexander Hamilton,64
+Alexander the Great,64
+Alexandros (Oath of the Empire Series),64
+Algernon (Importance of Being Earnest),64
+Algernon Swinburne,64
+Alice (Alice in Wonderland),64
+Alice (Dilbert),64
+Alice (Shadow Hearts),64
+Alice (The L Word),64
+Allan Quatermain (LoEG),64
+Allison Reynolds (The Breakfast Club),64
+Ally McBeal,64
+Alphonse Elric (Fullmetal Alchemist),64
+Alyssa Jones (Chasing Amy),64
+Amanda (Highlander),64
+Ambassador Soval (Enterprise),64
+Amber Atkins (Drop Dead Gorgeous),64
+Amelie Poulain (Amelie),64
+Amos Hart (Chicago),64
+Amsterdam Vallon (Gangs of New York),64
+Amy (BtVS),64
+Amy March (Little Women),64
+Amy Rose (Sonic the Hedgehog),64
+Amy Tan,64
+Anaesthesia (Neverwhere),64
+Anakin Skywalker (Star Wars),64
+Anathema Device (Good Omens) ,64
+Andi Wyatt (West Wing),64
+Andre Marek (Timeline),64
+Andrew (Buffy),64
+Andrew Carnegie,64
+Andrew Clements (My Secret Identity),64
+Andrew Shepard (American President),64
+Andromeda (The Iliad),64
+Andy Dufresne (The Shawshank Redemption) ,64
+Angel (Angel),64
+Angel (BtVS/Angel),64
+Angel Face (Fight Club),64
+Angela (Queen of Wands),64
+Angela Cross (Ratchet and Clank),64
+Angelo Espinosa (X-Men),64
+Angel-Trainee Flonne (Disgaea:Hour of Darkness),64
+Angua (Discworld),64
+Animala (Lost Skeleton of Cadavra),64
+Anita (ROD the TV),64
+Anita Blake,64
+Ankhesenamen,64
+Anna Espinosa (Alias),64
+Anna Foster (Chasing Liberty),64
+Anna Stern (O.C.),64
+Annas (Jesus Christ Superstar) ,64
+Anne (A Little Night Music),64
+Anne Boleyn,64
+Anne Neville,64
+Annihilus (Fantastic Four),64
+Ansem (Kingdom Hearts),64
+Anthony Blunt (Cambridge Spies),64
+Antonio (Twelfth Night),64
+Antonio Salieri (Amadeus),64
+Any  Dementor (HP),64
+Any Goblin (Magical Shopping Arcade Abenobashi),64
+AoA Sabretooth of Weapon X(Exiles),64
+Aphra Behn,64
+Apollo (Battlestar Galactica),64
+Apollo (Mythology) ,64
+Apollo Creed (Rocky),64
+Apophis (Stargate SG-1),64
+Apropos (Sir Apropos of Nothing),64
+Apu (The Simpsons),64
+Arabella Strange (Jonathan Strange and Mr. Norrell),64
+Aragorn (Lord of the Rings),64
+Aragorn (LotR),64
+Aramis (Dogtanian),64
+Aramis (Three Musketeers),64
+Aravis (The Chronicles of Narnia),64
+Arcee (Transformers),64
+Archangel Michael (Michael),64
+Archie Bunker,64
+Archie Goodwin (Nero Wolfe),64
+Archie Kennedy (Horatio Hornblower),64
+Ares (Hercules) ,64
+Ares (Xena),64
+Argo (Xena),64
+Argyle (Die Hard),64
+Ariel (The Lyons Den),64
+Arioch of the Seven Darks (Elric Saga) ,64
+Arion (Arion comic books),64
+Aris Boch (Stargate SG-1),64
+Armand (Vampire Chronicles),64
+Armand Goldman (The Birdcage),64
+Armitage (Armitage III),64
+Arnaud de Fohn (The Invisible Man),64
+Arnold Rimmer (Red Dwarf),64
+Arsenal (Teen Titans),64
+Artemus Gordon (Wild West West),64
+Arthur Danker (Apt Pupil),64
+Arthur Dent (Hitchhiker's Guide),64
+Arthur Dimmesdale (Scarlet Letter) ,64
+Arthur Wellesley (1st Duke of Wellington),64
+Artie the Strongest Man in the World (The Adventures of Pete & Pete),64
+Arumi (Magical Shopping Arcade Abenobashi),64
+Arwen (Lord of the Rings),64
+Arwen (LotR),64
+Arya (A Song of Fire and Ice),64
+Ash (Evil Dead),64
+Ash (Misfile),64
+Ash (Phantom Brave),64
+Ash Ketchum (Pokemon),64
+Ashton (Star Ocean 2),64
+Aslan (Chronicles of Narnia),64
+Astrid Magnusson (White Oleander),64
+Astroboy (Astroboy),64
+Athena (Battlestar Galactica),64
+Athos (The Three Musketeers),64
+Athrun Zala (Gundam SEED),64
+Atreyu (Neverending Story) ,64
+Aubrey (Something Positive) ,64
+Audrey (Moulin Rouge),64
+Audrey Horne (Twin Peaks),64
+Audrey Two (Little Shop of Horrors),64
+Peter Wiggin (Xenocide),64
+Aunt May (Spider-Man),64
+Aunt Petunia (HP),64
+Auron (Final Fantasy X) ,64
+Autolycus (Hercules/Xena),64
+Axel Foley,64
+Axl (Megaman X),64
+Ayame (Fruits Basket),64
+Ayla (Clan of the Cave Bear),64
+Azalie (Sorcerous Stabber Orphen),64
+Aziraphale (Good Omens) ,64
+Baba Yaga,64
+Babe (All My Children),64
+Babe (the pig),64
+Badger (Firefly),64
+Baldrick (Blackadder),64
+Baltar (Battlestar Galactica),64
+Bane (Life on Forbez),64
+Baralai (FFX-2),64
+Barbara Novak (Down With Love),64
+Barbarella,64
+Barley Blair (The Russia House) ,64
+Barnabas Collins (Dark Shadows),64
+Baron Harkonnen (Dune),64
+Baron Karza (Micronauts),64
+Baron Munchausen,64
+Baron Unterbheit (Venture Brothers),64
+Baron von Frankenstein,64
+Baron von Frankenstein (Peter Cushing versions),64
+Bart Allen (Teen Titans) ,64
+Bartleby (Dogma),64
+Basil (The Picture of Dorian Gray),64
+Bast (Sandman),64
+Batman,64
+Batoux's dog (Ghost in the Shell 2: Innocence),64
+Bayliss (Homicide),64
+Beadle Bamford (Sweeney Todd),64
+Beast (X-Men),64
+Beast Boy,64
+Beatice Potter,64
+Beatrice (Dante's Divine Comedy),64
+Beatrice (Much Ado About Nothing),64
+Beau Felton (Homicide) ,64
+Becky Sharp (Vanity Fair),64
+Beecher (Oz),64
+Beeker (Muppets),64
+Beetle Bailey,64
+Beetlejuice,64
+Beka Valentine (Andromeda),64
+B'Elanna Torres (ST:Voyager),64
+Bellatrix Black (HP),64
+Bellatrix Lestrange (HP),64
+Ben Franklin ,64
+Ben Grimm (Fantastic Four),64
+Ben Krieg (Seaquest DSV),64
+Ben Mears (Salem's Lot),64
+Bender (Futurama),64
+Benjamin Braddock (The Graduate),64
+Benjamin Britten (composer),64
+Benny (The Mummy),64
+Benny Hill,64
+Benoit (Martin Guerre),64
+Bentley (Sly Cooper),64
+Benton Fraser (Due South),64
+Beowolf Shaeffer (Known Space series),64
+Beowulf Kadmus (Final Fantasy Tactics),64
+Berg (Two Guys A Girl and a Pizza Place),64
+Berko (Empire Records),64
+Bernard (Black Books),64
+Bernard Black (Black Books),64
+Bernard Mickey Wrangle (Still Life With A Woodpecker),64
+Bernard Wrangle (Still Life With Woodpecker),64
+Bester (Babylon 5),64
+Bette Porter (The L Word),64
+Biff (Back to the Future),64
+Big Barda (New Gods),64
+Bigby (Fables),64
+Bigby Wolf (Fables),64
+Bilbo Baggins (The Hobbit),64
+Bill (Kill Bill),64
+Bill Gates,64
+Bill Harris (Lost in Translation),64
+Bill McNeal (Newsradio),64
+Bill the Pony (LotR),64
+Bill Weasley (Harry Potter),64
+Billy Bibbit (One Flew Over The Cuckoo's Nest),64
+Billy Budd,64
+Billy Chenowith (Six Feet Under) ,64
+Billy Elliot (Billy Elliot),64
+Billy Tallent (Hard Core Logo),64
+Billy the Kid,64
+Bilquis (American Gods),64
+Binky the ghost (Pac-Man) ,64
+Bishop (Aliens),64
+Black Arachnia (Transformers),64
+Black Bart,64
+Black Rabbit of Ina (Watership Down),64
+Blair Sandburg (The Sentinel),64
+Blair Warner (The Facts of Life),64
+Blanche Devereaux (Golden Girls),64
+Blastarr (Fantastic Four),64
+Bo Duke,64
+Bo Duke (Dukes of Hazzard),64
+Bob (Reboot),64
+Boba Fett,64
+Bobby Drake (X-Men),64
+Bobby Goren (Law & Order:Criminal Intent),64
+Bobo (Fraggle Rock),64
+Bon Bon (Before Night Falls),64
+'Bones' McCoy,64
+Boney (Trap Door),64
+Boots O'Neal (MacDonald Hall),64
+Boromir (Lord of the Rings),64
+Borus (Suikoden III),64
+Boss Ogi (Zatoichi),64
+Botan (YYH),64
+Botticelli,64
+Boudicca (Gargoyles),64
+Box #6 (Metal Gear Solid),64
+Braca (Farscape),64
+Brad Crawford (Weiss Kreuz),64
+Brady (Chibi Cheerleaders From Outer Space),64
+Brainy Smurf,64
+Bran Davies (Dark is Rising),64
+Brave Sir Robin (Monty Python and the Holy Grail),64
+Bree Van de Camp (Desperate Housewives),64
+Brenda (Six Feet Under),64
+Brenda Chenowith (6FU),64
+Brennan (Cheysuli Chronicles),64
+Brian (Good Omens),64
+Brian (Life of Brian),64
+Brian (The Day After Tomorrow),64
+Brian (The Family Guy),64
+Brian Allen (Blow Dry),64
+Brian Curtis (Da Vinci's Inquest),64
+Brian Kinney (QAF US),64
+Brian Slade (Velvet Goldmine),64
+Brick Tamland (Anchorman),64
+Brick Top (Snatch),64
+Bridget (Guilty Gear XX),64
+Bridget Jones,64
+Bright Abbott (Everwood),64
+Brisco County Jr.,64
+Brock Sampson (Venture Brothers),64
+Brooke McQueen (Popular),64
+Broots (The Pretender),64
+Brother Francis (Canticle for Leibowitz),64
+Bruno Walton (Bruno & Boots),64
+Budd (Kill Bill),64
+Buffy Summers,64
+Bullseye (Daredevil),64
+Bullwinkle (Rocky and Bullwinkle),64
+Bumblbee (Transformers),64
+Bunny Manders (Raffles),64
+Burt Gummer (Tremors),64
+Butler (Artemis Fowl),64
+Buttercup (the Princess Bride),64
+Buzz Lightyear (Toy Story) ,64
+C3PO,64
+Caesar Augstus,64
+Cailet (The Mageborn Traitor),64
+Cale Tucker (Titan A.E.),64
+Caleb (BtVS),64
+Cameron Frye (Ferris Beuller's Day Off),64
+Capt. Ben Willard (Apocalypse Now),64
+Capt. Christopher Pike (Star Trek),64
+Captain Ahab (Moby Dick),64
+Captain Barbossa (PotC),64
+Captain Cronos,64
+Captain Elizabeth Lochley (Babylon 5),64
+Captain Fluellen (Henry V),64
+Captain Hook,64
+Captain Jack Sparrow,64
+Captain James T Kirk,64
+Captain Janeway (ST:Voyager),64
+Captain Proton (Voyager) ,64
+Captain Qwark (Ratchet and Clank),64
+Captain Rochefort (Three Musketeers),64
+Cardboard Box (Metal Gear Solid),64
+Carl (Aqua Teen Hunger Force) ,64
+Carl (Van Helsing) ,64
+Carl Kolchak (The Night Stalker),64
+Carla (War for the Oaks),64
+Carmelita Fox (Sly Cooper),64
+Carmen (Carmen),64
+Carmen Sandiego,64
+Carol Danvers (Avengers),64
+Caroline Todd (Green Wing),64
+Carrie Bradshaw (Sex and the City),64
+Carson Beckett (Stargate Atlantis),64
+Carson Kressley,64
+Cartman (South Park),64
+Carver Doone (Lorna Doone Aidan version),64
+Cary (Vegemorphs),64
+Casanova Frankenstein (Mystery Men),64
+Casey (Sports Night),64
+Casey McCall (Sports Night),64
+Casey Novak (L&O:SVU),64
+Caska (Berserk),64
+Caspian (HL),64
+Cassandra (HL),64
+Cassandra Cain (Batman),64
+Cassandra of Troy,64
+Castille (Phantom Brave),64
+Catharine Parr,64
+Catherine (CSI),64
+Catherine de Medici,64
+Catherine the Great,64
+Catherine Willowes (CSI),64
+Cats (Zero Wing),64
+Catwoman (comicverse),64
+Cecil B. Demille,64
+Cedric Diggory (HP),64
+Celena Schezar (Vision of Escaflowne),64
+Chablis (Midnight at the Garden of Good and Evil),64
+Chakotay (ST:Voyager),64
+Chamberlain Yanagisawa (Sano Ichiro series),64
+Chance Harper (Strange Luck),64
+Chandler Bing,64
+Chandra (Eternal Darkness: Sanity's Requiem),64
+Chappy Chappy (Irritability),64
+Charles Dexter Ward,64
+Charles Foster Kane (Citizen Kane),64
+Charles Gunn (Angel),64
+Charles Tucker III (Enterprise),64
+Charles Xavier (X-Men),64
+Charlie Chaplin (Chaplin),64
+Charlie Dalton (Dead Poets Society),64
+Charlotte deBerry,64
+Chaucer (A Knight's Tale),64
+Cheops,64
+Cher (Clueless) ,64
+Cher (Clueless),64
+Chester (Dude Where's My Car?),64
+Chewbacca,64
+Chewbacca (Star Wars),64
+Chiana (Farscape),64
+Chikane Himemiya (Kannaduki no Miko),64
+Childremas (Jonathan Strange and Mr. Norrell),64
+Chloe O'Brien (24),64
+Chloe Sullivan (Smallville),64
+Cho Chang (Harry Potter),64
+Cho Hakkai (Saiyuki),64
+Choad (Tripping the Rift),64
+Chrestomanci (Diana Wynne Jones),64
+Chris (Stand by Me),64
+Chris Finch (The Office),64
+Chris Halliwell (Charmed) ,64
+Chris Keller (Oz),64
+Chris Orcot (Petshop of Horrors),64
+Chris Perry Halliwell (Charmed),64
+Christian (Moulin Rouge),64
+Christian Walker (Powers),64
+Christina Aguilera,64
+Christopher Columbus,64
+Christopher Marlowe,64
+Chuck Baxter (The Apartment),64
+Chucky (Child's Play),64
+Cid (Final Fantasy),64
+Ciel (Megaman Zero),64
+Cimorene (Enchanted Forrest Series),64
+Cirdan (Lord of the Rings) ,64
+Cissie King-Jones (Young Justice),64
+CJ Cregg (The West Wing),64
+CJ Cregg (West Wing) ,64
+Clagno Cyclotron (Diesel Sweeties),64
+Clair Fisher (Six Feet Under),64
+Clair Howell (Oz),64
+Claire (Lost),64
+Claire Kincaid (Law & Order),64
+Clang (Help!),64
+Clank (Ratchet and Clank),64
+Clara Barton,64
+Clarice Starling (Silence of the Lambs),64
+Clark Kent,64
+Claude Winchester (Gravitation),64
+Claudia (Interview With A Vampire),64
+Claudia Kincaid (From the Mixed-Up Files of Mrs. Basil E. Frankweiler),64
+Claudia Kishi (Babysitters Club),64
+Clayton Webb,64
+Clem (Buffy),64
+Clementine (Eternal Sunshine of the Spotless Mind),64
+Clementine Kruczynski,64
+Cleolanta (Rocky Jones),64
+Cleopatra,64
+Cliff Buxton (The Dish),64
+Clow Reed (Card Captor Sakura),64
+Clytemnestra (Oresteid),64
+Cogsworth (Beauty and the Beast),64
+Col. Brandon (Sense and Sensibility),64
+Col. Flagg (M*A*S*H),64
+Col. Harold Maybourne(SG-1),64
+Col. Pickering (My Fair Lady),64
+Col.Pickering (My Fair Lady),64
+Cole Sear (Sixth Sense),64
+Colette (Tales of Symphonia),64
+Colin (The Brittas Empire),64
+Colin (The Secret Garden),64
+Colonel Dixon (SG-1),64
+Colonel K (Dangermouse),64
+Colossus (X-Men),64
+Commander Adama (Battlestar Galactica),64
+Commander Riker (ST:TNG),64
+Commodore Norrington (PotC),64
+Commodus (Gladiator),64
+Conner Kent (Teen Titans),64
+Connor (Angel),64
+Connor McManus (Boondock Saints),64
+Constable Neyla (Sly Cooper),64
+Cookie Monster,64
+Coop (Megas XLR),64
+Coraline (Coraline by Neil Gaiman),64
+Cordelia (BtVS),64
+Cordelia Chase (Angel),64
+Corwin Prince of Amber (Amber books),64
+Cosette (Les Miserables),64
+Cosmo Brown (Singin' in the Rain),64
+Count D. (Petshop of Horrors),64
+Count Malt (Phantom Brave),64
+Count Olaf (A Series of Unfortunate Events),64
+Count Rugen (Princess Bride),64
+Count Rugin (Princess Bride),64
+Courtney Crumrin (Courtney Crumrin comics),64
+Crawford Mackenzie (The Big Tease),64
+Creasy (Man on Fire),64
+Creedy (Reign of Fire),64
+Creegan (Touching Evil),64
+Crow T. Robot (MST3K),64
+Crowley (Good Omens),64
+Crysta (Ferngully),64
+Cthulhu,64
+Cuan (Fire Emblem: Seisen no Keifu),64
+Cullyn (Deverry Series),64
+Cutter (Elfquest),64
+Cyclops (X-Men),64
+Dade Murphy (Hackers),64
+Daemon (Reboot),64
+Dagon (Good Omens),64
+Daine (The Immortals series),64
+Daisy Adair (Dead Like Me),64
+Daisy Duke,64
+Dale Arden,64
+Dale Arden (Flash Gordon),64
+Dan (The Brotherhood),64
+Dan Rydell (Sports Night),64
+Dan Scott (One Tree Hill),64
+Dana Scully (X-Files) ,64
+Dani Moonstar,64
+Daniel Boone,64
+Daniel Jackson (Stargate SG-1),64
+Daniel Rydell (Sports Night),64
+Danilo Thann (Forgotten Realms),64
+Danny Kaye ,64
+Danny Ocean (Ocean's Eleven),64
+Danny Taylor (Without a Trace),64
+Danny Walker (Pearl Harbor),64
+Dante (Devil May Cry),64
+Dante Hicks (Clerks),64
+Darcy (Pride and Prejudice),64
+D'Argo (Farscape),64
+Daria Morgendorffer (Daria) ,64
+Darien Fawkes (The Invisible Man),64
+Dark (D.N. Angel),64
+Darkness (Legend),64
+Darla (Buffy/Angel),64
+Darla (Finding Nemo),64
+Darsha (Wolf's Rain),64
+Darth Vader,64
+Darwin (Seaquest) ,64
+Data (ST:TNG),64
+Data (Star Trek:NG),64
+Davan (Something Positive),64
+Davan McIntyre (Something Positive),64
+Dave Davenport (Narbonic),64
+Dave Lister (Red Dwarf),64
+David (Lost Boys),64
+David Brent (The Office),64
+David Caravaggio (English Patient),64
+David Creegan (Touching Evil),64
+David Fisher (Six Feet Under) ,64
+David Shaw (A Perfect Murder),64
+David St. Hubbins (Spinal Tap),64
+David Talbot (The Vampire Chronicles),64
+David Todros (Amelia Peabody Mysteries),64
+David Xanatos (Gargoyles) ,64
+Davis (Tru Calling),64
+Dawn Summers (Buffy),64
+Dawson Leery (Dawson's Creek),64
+Dazzler (X-Men) ,64
+Deadpool (Marvel comics),64
+Dean Venture  (Venture Brothers),64
+Deanna Troi (ST:TNG),64
+Dearka Ellsman (Gundam SEED),64
+Death (Discworld),64
+Death (Sandman),64
+Death of Rats (Discworld),64
+Deckard Kain (Diablo),64
+Deedee Truitt (The Opposite of Sex),64
+Dejah Thoris (Barsoom),64
+Delenn (Babylon 5),64
+Delerium (Sandman),64
+Delinda Deline (Las Vegas),64
+Delirium (Sandman),64
+Delores Van Cartier (Sister Act),64
+Demian (Hermann Hesse's Demian),64
+Demona (Gargoyles),64
+Denethor (Lord of the Rings),64
+Dennis Rickman (Eastenders),64
+Derek Jettster (Attack of the Clones),64
+Derek Zoolander,64
+Derk (Dark Lord of Derkholm),64
+Desire (Sandman),64
+Despair (Sandman) ,64
+Destiny (X-Men) ,64
+Det. Lennie Briscoe (Law and Order),64
+Det. Matthew Sikes (Alien Nation),64
+Detective Barnaby (Midsomer Murders),64
+Detective Munch (Law and Order SVU),64
+Detritus (Discworld),64
+Devon Maguire (Crossing Jordan),64
+Dewey (School of Rock),64
+Diablo (Goats) ,64
+Diana Fowley (X-Files),64
+Diana Hughes (Jake 2.0),64
+Diana Spacey (FAKE),64
+Diana Villiers (Master and Commander),64
+Diane (Jake 2.0),64
+Dib (Invader Zim),64
+Dick Grayson (Batman),64
+Dick Grayson (Nightwing),64
+Diefenbacher (Due South),64
+Dilandau (Escaflowne),64
+Dilbert,64
+Dill the Dog (Herbs),64
+Dingo (Gargoyles),64
+Dirk Gently (Dirk Gently),64
+Dirk Gently's refrigerator (Long Dark Tea-Time of the Soul) ,64
+Dizzy Flores (Starship Troopers),64
+Doc Brown (Back to the Future),64
+Doc Holliday,64
+Doc Ock (Spider-Man) ,64
+Doctor Girlfriend (Venture Brothers),64
+Doctor John Polidori (Gothic),64
+Doctor Robotnick (Sonic the Hedgehog),64
+Doctor Venture (Venture Brothers),64
+Doctor Watson,64
+Dodger (Oliver Twist) ,64
+Doggy Krueger (DekaRanger),64
+Dog-walking old lady (A Fish Called Wanda),64
+Dolley Madison,64
+Dolly (Hello Dolly!),64
+Dolores Haze (Lolita),64
+Dolores Umbridge (Harry Potter),64
+Dominic Monaghan,64
+Domino (X-Men),64
+Domitan (Protector of the Small),64
+Don Lockwood (Singin' in the Rain),64
+Don Quixote,64
+Donald Kaufman (Adaptation),64
+Donatello (TMNT),64
+Donkey (Shrek),64
+Donna (90210),64
+Donna Cavanaugh (The Sandman),64
+Donna Hayward (Twin Peaks),64
+Donna Moss (The West Wing),64
+Donnie Darko,64
+Donny (The Big Lebowski) ,64
+Dooku (Star Wars),64
+Door (Neverwhere),64
+Dorian Grey (The Picture of ...),64
+Doris Finsecker (Fame),64
+Dorothy (Blue Velvet),64
+Dorothy Parker,64
+Dorthy (Big O),64
+Dory (Finding Nemo),64
+Dotty Campbell (Family Guy),64
+Doug Penhall (21 Jump Street),64
+Doyle (Angel),64
+Dr. Alan Statham (Green Wing),64
+Dr. Daniel Jackson,64
+Dr. Dillamond (Wicked),64
+Dr. Emmett Brown (Back to the Future),64
+Dr. Eutus (Magical Shopping Arcade Abenobashi),64
+Dr. Evil (Austin Powers),64
+Dr. Girlfriend (Venture Brothers),64
+Dr. Gregory House (House),64
+ Dr. James Wilson (House),64
+Dr. Julian Bashir (Star Trek DS9),64
+Dr. Luka Kovac (ER),64
+Dr. Manhattan (Watchmen),64
+Dr. McCoy (Star Trek),64
+Dr. Orpheus (The Venture Brothers),64
+Dr. Paul Anderson (Lost Skeleton of Cadavra),64
+Dr. Richard Seaton (Skylark Series),64
+Dr. Romano (ER),64
+Dr. Scott (Rocky Horror Picture Show),64
+Dr. Scott (Rocky Horror),64
+Dr. Strangelove,64
+Dr. Thomas Oliver (Power Rangers: Dino Thunder),64
+Dr. Watson (Sherlock Holmes),64
+Dr. Zachary Smith (Lost in Space),64
+Dr. Zaius (Planet of the Apes),64
+Dr. Zelenka (Stargate: Atlantis),64
+Dr. Zharkov (Flash Gordon),64
+Dr. Zoidberg (Futurama),64
+Draco Malfoy (Harry Potter) ,64
+Drago Museveni (Andromeda),64
+Drake (Read or Die),64
+Drake Anderson (Read or Die),64
+Drogyn (Angel),64
+Drusilla (BtVS),64
+Duchess of Devonshire,64
+Duncan MacLeod (Highlander),64
+Duo Maxwell (Gundam Wing),64
+Dwar Dog Lord of Waw (Lord of the Rings),64
+Dylan Hunt (Andromeda),64
+Dylan Moran (Shaun of the Dead and Black Books),64
+Eboshi (Princess Mononoke),64
+Echo (Greek mythology),64
+Ed Gein,64
+Ed Rooney (Ferris Bueller's Day Off),64
+Ed Wood,64
+Eddie (Someone Like You),64
+Eden (Blue Crush),64
+Edgar Allan Poe,64
+Edgar Parker (Bat Boy the Musical),64
+Edina Monsoon (Absolutely Fabulous),64
+Edmond Dantes (The Count of Monte Cristo),64
+Edward (Anita Blake),64
+Edward Elric (Full Metal Alchemist),64
+Edward Hyde,64
+Edward Scissorhands ,64
+Edward Teach (Blackbeard),64
+Edwin Frazier (Frzz),64
+Eilonwy (Prydain Chronicles),64
+Ein (Cowboy Bebop),64
+El Mariachi,64
+Eleanor Lavish (A Room With a View),64
+Eleanor of Acquitaine,64
+Eleanor Roosevelt,64
+Elektra (movieverse),64
+Eli Weevil Navarro (Veronica Mars),64
+Elim Garak (DS9),64
+Eliot Stabler (Law and Order: SVU),64
+Elisabeth Braddock (X-Men),64
+Eliza Maza (Gargoyles),64
+Elizabeth Bathory,64
+Elizabeth Bennett (Pride and Prejudice),64
+Elizabeth Cady Stanton,64
+Elizabeth Darko (Donnie Darko),64
+Elizabeth Swann (PotC),64
+Elizabeth Weir (Stargate Atlantis),64
+Ella (Ella Enchanted),64
+Elle Driver (Kill Bill) ,64
+Ellen (Miss Saigon),64
+Ellen Ripley (Aliens),64
+Ellie Arroway (Contact),64
+Elliot Reid (Scrubs),64
+Elminister (Forgotten Realms),64
+Elmo (Sesame Street),64
+Elora Danan (Shadow Moon series post-'Willow'),64
+Elphaba (Wicked),64
+Elric of Melnibone (Eternal Champions),64
+Elrond (LOTR),64
+Eltoshan (Fire Emblem: Seisen no Keifu),64
+Elvis Presley,64
+Emily Sloan (Alias),64
+Emma Frost (X-Men),64
+Emma Peel (Avengers),64
+Emmett Honeycutt (QAFUS) ,64
+Emperor Cartagia (Babylon 5),64
+Emperor Norton I of the United States,64
+Emperor Zurg (Toy Story 2),64
+Empress Theodosia,64
+Empress Wu,64
+Ender Wiggins (Ender's Game),64
+Enid (Ghost World),64
+Enjolras (Les Mis),64
+Enjolras (Les Miserables),64
+Enos (Dukes of Hazzard),64
+Envy (Full Metal Alchemist) ,64
+Eomer (Lord of the Rings) ,64
+Ephraim (Fire Emblem: Seima no Kouseki),64
+Ephram Brown (Everwood),64
+Eponine (Les Miserables),64
+Eragon (Eragon),64
+Eric (Bananaman),64
+Eric (Wonderfalls),64
+Eric Delko (CSI: Miami),64
+Eric Draven (The Crow),64
+Eric Draven (The Crow:Stairway to Heaven),64
+Eric Matthews (Boy Meets World) ,64
+Eric Weiss (Alias),64
+Erik (Phantom of the Opera),64
+Erik the Red,64
+Erin Brockovich,64
+Eriol (Card Captor Sakura),64
+Eris (Greek mythology),64
+Erk (Fire Emblem:Rekka no Ken),64
+Ernest Shackleton,64
+Errol (Discworld),64
+Ethan Rayne (BtVS) ,64
+Etienne Navarre (Ladyhawke) ,64
+Etna (Disgaea),64
+Evil Gregor Mendel (Goats),64
+Evil T. Bishounen (Donut Girls),64
+Evil-Lynn,64
+Excel (Excel Saga),64
+Ezekiel Stone (Brimstone),64
+F. Scott Fitzgerald,64
+Fa Mu Lan (The Woman Warrior),64
+Factory Foreman (Les Miserables),64
+Fafhrd,64
+Faile (Wheel of Time),64
+Fairer Than (Magical Witch Girl Bunny),64
+Fairy Godmother (Shrek 2),64
+Faith (Buffy),64
+Falco (Starfox),64
+Faramir (Lord of the Rings),64
+Fat Bastard (Austin Powers),64
+Father Mulcahy (M*A*S*H),64
+Favriel no Eglantine (Kushiel's Legacy Trilogy),64
+Faye Valentine (Cowboy Bebop),64
+Feanor (The Silmarillion),64
+Feeanay (Crimson Sea),64
+Felicia (Adventures of Priscilla Queen of the Desert),64
+Felix Mendelssohn,64
+Fenryl (Pretear),64
+Fenster (The Usual Suspects),64
+Ferris Bueller,64
+Fester (Addams Family),64
+Feyd-Rautha Harkonnen (Dune),64
+Fi (So Weird),64
+Fidel Castro,64
+Fidelio Gunn (Charlie Bone),64
+Fighter (8-bit Theatre),64
+Fingolfin (Silmarillion),64
+Finn MacCool,64
+Finrod Felagund (The Silmarillion),64
+Fiona (About a Boy),64
+Fitzwilliam Darcy (Pride and Prejudice),64
+Fixit (Teen Titans cartoon),64
+Fiyero (Wicked),64
+Flannery Culp (The Basic Eight) ,64
+Flash (Justice League) ,64
+Flash Gordon,64
+Flash/Wally West (Justice League),64
+Fletcher (Hanging Garden),64
+Florence Nightengale,64
+Fool (Kalediostar),64
+Ford Prefect (Hitchhiker's Guide) ,64
+Forrest Gump,64
+Fortibras (Hamlet),64
+Fourth-season Nate Fisher (Six Feet Under),64
+Fox Mulder,64
+Fran (Black Books),64
+Francesca Vecchio (Due South),64
+Francis Crawford (Lymond Chronicles),64
+Frank (Donnie Darko),64
+Frank (Rocky Horror Picture Show),64
+Frank Black (Millenium),64
+Frank the Postman (Bod),64
+Frank White (King of New York),64
+Franklin Richards (Fantastic Four),64
+Frau Blucher (Young Frankenstein),64
+Fred Burkle (Angel) ,64
+Fred Cassidy (Doorways in the Sand),64
+Fred Kelman (Might Morphin Power Rangers: The Movie),64
+Freddy (Ghastly's Ghastly Comic),64
+Freddy Eynesford-Hill (My Fair Lady),64
+Frederick Douglass,64
+Friedman (Joan of Arcadia) ,64
+Frodo Baggins (Lord of the Rings),64
+Frohike (XF),64
+Frollo (Hunchback of Notre Dame),64
+Fry (Futurama),64
+Frylock (Aqua Teen Hunger Force),64
+Fujitaka Kinomoto (Cardcaptor Sakura),64
+Furlow (Farscape),64
+Gabriel Van Helsing (Van Helsing),64
+Gadgetron Helpdesk Girl (Ratchet and Clank),64
+Gai (Naruto),64
+Galadriel (Lord of the Rings),64
+Galadriel (Lord of the Rings),64
+Rorschach (Watchmen) ,64
+Galen (Crusade),64
+Galen (Planet of the Apes),64
+Galinda (Wicked),64
+Gambit (X-Men),64
+Gandalf (Lord of the Rings),64
+Ganymede (As You Like It),64
+Garak (Star Trek DS9),64
+Gareth Keenan (The Office),64
+Garfield,64
+Garibaldi (Babylon 5),64
+Garrett (Thief computer game),64
+Garth (Wayne's World) ,64
+Gary (Early Edition),64
+Gary Hobson (Early Edition) ,64
+Gaspode (Discworld) ,64
+Gaston (Beauty and the Beast),64
+Gavin Park (Angel),64
+Gawain (King Arthur) ,64
+Gaz (Full Monty),64
+Gaz (Invader Zim),64
+GBH (Good Omens),64
+Gen. George Washington,64
+Gen. Mike Rodgers (Tom Clancy's Ops Center),64
+Gendo Ikari (Evangelion),64
+General Maximus (Gladiator),64
+Genghis Khan,64
+Genie (Aladdin),64
+Genma Santome (Ranma 1/2),64
+George (Dead Like Me),64
+George Banks (Mary Poppins),64
+George Bush II,64
+George Costanza (Seinfeld),64
+George Dorn (Illuminatus Trillogy),64
+George Lass (Dead Like Me),64
+George Williams (Desperate Housewives),64
+Georgia (Georgia),64
+Georgiana,64
+Gerald Tarrant (The Erna Trilogy),64
+Gibbs (NCIS),64
+Gibbs (PotC),64
+Gil "The Arm" Hamilton (Larry Niven),64
+Gil Grissom (CSI),64
+Gilbert Grape (What's Eating Gilbert Grape),64
+Gilderoy Lockhart (Harry Potter) ,64
+Giles (BtVS),64
+Gilgamesh (Mythology),64
+Gillette (PotC),64
+Gillian (Practical Magic),64
+Gimli (Lord of the Rings),64
+Ginger (Ginger Snaps) ,64
+Ginger Fitzgerald (Ginger Snaps),64
+Ginny Weasley (Harry Potter),64
+Gippal (Final Fantasy X-2),64
+Gir (Invader Zim),64
+Gizmoduck (Darkwing Duck),64
+Glorfindel (Fellowship of the Ring),64
+Glory (BtVS),64
+GOB Bluth (Arrested Development),64
+God (Dogma),64
+God (Joan of Arcadia),64
+Godzilla,64
+Gogo Yubari (Kill Bill),64
+Go-Go-Yubari,64
+Goldie (Gunsmith Cats),64
+Gollum (LotR),64
+Gomez Adams,64
+Gonzo (Muppets),64
+Gonzo (The Muppet Show),64
+Gordie (Stand By Me),64
+Goyle (Harry Potter) ,64
+Grace (Beetlejuice),64
+Grace (Buffy the Vampire Slayer),64
+Grace (Joan of Arcadia),64
+Grace (Waking the Dead),64
+Grace McCallister (Jack and Bobby),64
+Grace Polk (Joan of Arcadia),64
+Gracie Hart (Miss Congeniality),64
+Graham (Buffy the Vampire Slayer) ,64
+Graham Dalton (Sex in the City),64
+Grand Admiral Thrawn (Star Wars),64
+Grand Moff Tarkin (Star Wars),64
+Grandpa (Magical Shopping Arcade Abenobashi),64
+Grandpa Simpson (Simpsons),64
+Granny Weatherwax (Discworld),64
+Grantaire (Les Miserables),64
+Greebo (Discworld),64
+Greed (Fullmetal Alchemist),64
+Greg Sanders (CSI),64
+Gretchen (Donnie Darko),64
+Gretchen Weiners (Mean Girls) ,64
+Gretel (Hansel and Gretel),64
+Griffin (Griffin and Sabine books),64
+Griffith (Berserk),64
+Grima Wormtongue (LOTR),64
+Groo the Wanderer,64
+Gruad (Illuminatus Trillogy),64
+Grumpy Bear,64
+Guenevere,64
+Gunn (Angel),64
+Gunther (Kyou Kara Maou),64
+Gus (Tripping the Rift),64
+Gushoushin (Yami no Matsuei),64
+Guy (Galaxy Quest),64
+Guy (Rosemary's Baby),64
+Guy Burgess,64
+Guy Noir (A Prairie Home Companion),64
+Gwen Raiden (Angel),64
+Hades (Disney's Hercules),64
+Hagbard Celine (Illuminatus Trillogy),64
+Hagrid (HP),64
+Hailey Nichol (The O.C.),64
+Haku (Spirited Away),64
+HAL (2001: A Space Odyssey),64
+Hal Evans (RSVP),64
+Haldir (Lord of the Rings) ,64
+Haley (Road Waffles 1),64
+Hallie Lowenthal (My So-Called Life),64
+Hamilton (Angel) ,64
+Hamlet (Shakespeare),64
+Han Solo (Star Wars) ,64
+Hank McCoy (X-Men) ,64
+Hank Venture (Venture Brothers),64
+Hannah Porter Pitt (Angels in America),64
+Hannibal Lecter (Silence of the Lambs),64
+Hans Gruber (Die Hard),64
+Hanson (21 Jump Street),64
+Harmon Rabb (JAG),64
+Harmony (Angel),64
+Harmony (BtVS),64
+Harmony (Sore Thumbs),64
+Harold (Harold and the Purple Crayon),64
+Harold Hill (The Music Man),64
+Harpo Marx (Marx Brothers),64
+Harris (Sharpe) ,64
+Harrison Davies (Tru Calling) ,64
+Harry Bergs (When Harry Met Sally),64
+Harry Dresden (Dresden Files),64
+Harry Kim (Voyager),64
+Harry Maybourne (Stargate SG-1),64
+Harry Osborn (Spider-Man),64
+Harry Potter,64
+Haruhara Haruko (FLCL) ,64
+Harvey (Farscape),64
+Hatcher (The Rundown),64
+Hatori Sohma (Fruits Basket),64
+Havelock Vetinari (Discworld),64
+Hawk (AppleGeeks),64
+Hawkeye (Avengers),64
+Hawkeye Pierce (M*A*S*H) ,64
+Heather Mason (Silent Mason 3),64
+Hector (The Iliad),64
+Hector Berlioz,64
+Hector Gorgonzolas (America's Sweethearts),64
+Hedda Gabler (Hedda Gabler),64
+Heero (Gundam Wing),64
+Hefty Smurf,64
+Heikei Kagero (Super Punch Out!),64
+Helen (Troy),64
+Helen Narbon (Narbonic),64
+Helen of Troy (the Illiad),64
+Hellboy,64
+He-Man,64
+Henry Fitzroy (The Blood Books),64
+Henry Ford,64
+Henry Jekyll-Edward Hyde (LXG) ,64
+Henry Kissinger ,64
+Henry Wellard (Horatio Hornblower),64
+Hephaistion,64
+Herbert West (Re-Animator),64
+Hercule Poirot,64
+Hercules (HtLJ),64
+Hermione Granger (Harry Potter),64
+Herr Flick ('Allo 'Allo),64
+Hexx (Discworld),64
+Highfather (New Gods),64
+Hikaru (Angelic Layer),64
+Hillary (Tomb Raider),64
+Himeno (Pretear),64
+Hiram Bingham,64
+Hiroshige Ando (Japanese artist),64
+Hisoka (Hunter x Hunter),64
+Hitomi (Escaflowne),64
+Hob Gadling (Sandman),64
+Hobbes (Calvin and Hobbes),64
+Hobbie Klivian (Star Wars),64
+Hokuto (Tokyo Babylon),64
+Holden Webster (BtVW),64
+Holly Short (Artemis Fowl),64
+Homer (poet),64
+Homer Simpson,64
+Homestar Runner,64
+Homura (Saiyuki),64
+Horace (poet),64
+Horace Greeley,64
+Horatio Caine (CSI: Miami),64
+Horatio Hornblower,64
+Horatio Nelson,64
+Hot Rod (Transformers),64
+Hotaru Tomoe (Sailor Moon),64
+Hotlips Houlihan (MASH),64
+Howard Hughes,64
+Howlin' Mad Murdock (The A-Team),64
+Huggy Bear (Starsky & Hutch),64
+Hugh Davenant (These Old Shades) ,64
+Hugh Fitzcairn (HL),64
+Hugh of Borg (ST:TNG),64
+Humbert Humbert (Lolita) ,64
+Hunter (Neverwhere),64
+Hunter (Queer as Folk US),64
+Huntress (Birds of Prey),64
+Hyate (Pretear),64
+Hyoga (Saint Seiya),64
+Hypatia,64
+Iago (Aladdin),64
+Iago (Othello),64
+Ian Malcolm (Jurassic Park),64
+Ichabod Crane (Sleepy Hollow),64
+Ichigo Kurosaki (Bleach),64
+Idgy (Fried Green Tomatoes),64
+Ifurita (El Hazard),64
+Il Palazzo (Excel Saga),64
+Illyana Rasputin (X-Men),64
+Illyria (Angel),64
+Impulse (Teen Titans),64
+Inara (Firefly),64
+Indiana Jones,64
+Inigo Montoya (Princess Bride),64
+Inspector Alan Grant (Josephine Tey novels),64
+Inspector Gadget,64
+Inspector Jack Frost (A Touch of Frost),64
+Inspector Stottlemeyer (Monk),64
+Integra Hellsing (Hellsing),64
+Inu-Yasha,64
+Invincible (Invincible comics),64
+Ioreth (Lord of the Rings),64
+Ira Cain (Evolution) ,64
+Iria (Iria the Animation),64
+Irmo (Silmarillion),64
+Iron Chicken (The Clangers),64
+Iron Man (Marvel Comics),64
+Irvine Kinneas (FF8),64
+Isaac Jaffe (Sports Night),64
+Isabeau d'Anjou (Ladyhawke),64
+Isabel Evans (Roswell),64
+Isabella (Gloom Cookie),64
+Isadora (Fire Emblem: Rekka no Ken),64
+Ishmael (Moby Dick),64
+Issei Mataloun (Evangelion fandom),64
+Ivan Vorpatril (Lois McMaster Bujold),64
+Ivana Humpalot (Austin Powers),64
+J (Men in Black) ,64
+J. Jonah Jameson (Spider-Man) ,64
+J.D. (Scrubs),64
+Jabba the Hutt,64
+Jack (Chronicles of Riddick),64
+Jack (Lord of the Flies) ,64
+Jack (Titanic),64
+Jack (Will and Grace) ,64
+Jack Bauer (24),64
+Jack Black ,64
+Jack Brigance (A Time to Kill),64
+Jack Bristow (Alias),64
+Jack Burton (Big Trouble in Little China),64
+Jack Davenport (Sin Noticias de Dios),64
+Jack Dawson (Titanic),64
+Jack Fairy (Velvet Goldmine),64
+Jack Foley (Out of Sight),64
+Jack Goodman (An American Werewolf In London),64
+Jack Hall (Day After Tomorrow),64
+Jack McCoy (Law & Order),64
+Jack O'Neill (Stargate SG-1),64
+Jack Skellington (Nightmare Before Christmas),64
+Jack the Ripper,64
+Jack Traven (Speed),64
+Jacopo Belbo (Foucault's Pendulum),64
+Jacques de Molay,64
+Jadzia Dax (DS9),64
+Jafar (Aladdin),64
+Jaime Lannister (Song of Fire and Ice),64
+Jaime Ross (Law & Order),64
+Jake Berenson (Animorphs),64
+Jake Foley (Jake 2.0),64
+Jake McCarty (Witchblade),64
+Jake Sisko (ST:DS9),64
+James (Pokemon),64
+James Bond ,64
+James Leer (Wonder Boys),64
+James Norrington (PotC),64
+James Potter (HP),64
+Jamesir Besonmum (Murder by Death),64
+Jamie (Homeward Bounders),64
+Jamie (Megas XLR),64
+Jamie Fraser (Outlander series),64
+Jamie Madrox (X-men universe),64
+Jane (Tarzan),64
+Jane Burnham (American Beauty),64
+Jane Drew (Dark Is Rising),64
+Jane Lane (Daria),64
+Jane Seymour (Henry VIII's wife),64
+Janet Fraiser (Stargate SG-1),64
+Janette Ducharme (Forever Knight),64
+Janice Lester (Star Trek),64
+Jar Jar Binks (Star Wars) ,64
+Jareth (Labyrinth) ,64
+Jar-Jar (Star Wars),64
+Jarod (The Pretender),64
+Jason Locke (Essex Boys),64
+Javert (Les Miserables),64
+Jaws (James Bond),64
+Jay (Askewniverse),64
+Jay Gatsby (The Great Gatsby) ,64
+Jay Sherman (The Critic),64
+Jaye (Wonderfalls),64
+Jaye Tyler (Wonderfalls),64
+Jayne (Firefly),64
+Jayne Cobb (Firefly) ,64
+JC Chasez,64
+JD (Scrubs),64
+Jean Grey (X-Men),64
+Jean Havoc (Fullmetal Alchemist),64
+Jean Lafitte,64
+Jean Valjean (Les Miserables),64
+Jean-Jacques Rousseau,64
+Jean-Luc Picard (Star Trek) ,64
+Jean-Paul Beaubier (X-Men),64
+Jeff Bebe (Almost Famous),64
+Jeff Gordon (NASCAR),64
+Jeffrey Wigand (The Insider),64
+Jen (Dark Crystal),64
+Jenna Rink (13 Going on 30) ,64
+Jennifer (Pleasantville),64
+Jenny Calendar (Buffy),64
+Jenny Hill (Big Fish),64
+Jenny Sparks (The Authority),64
+Jephraim Tallow (Michael Moorcock's Eternal Champions),64
+Jeremy (Sports Night),64
+Jeremy Goodwin (Sports Night),64
+Jerott Blythe (The Lymond Chronicles),64
+Jerri (Strangers With Candy),64
+Jeryline (Tales From The Crypt: Demon Knight),64
+Jess (Postman Pat),64
+Jesse Custer (Preacher),64
+Jessica Atreides (Dune),64
+Jesus,64
+Jet Black (Cowboy Bebop),64
+Jethro Gibbs (Navy NCIS),64
+Jez (Shooting Fish),64
+Jiji (Kiki's Delivery Service),64
+Jilly (Newford stories),64
+Jilly Coppercorn (Charles de Lint's Newford books),64
+Jim (28 Days Later),64
+Jim Ellison (The Sentinel),64
+Jim Hacker (Yes Prime Minister),64
+Jim Hansen (Providence),64
+Jim Malone (Untouchables),64
+Jimmy Cooper (O.C.),64
+Jin (Lost),64
+Jiraiya (Naruto),64
+Joan (... of Arcadia),64
+Joan (Joan of Arcadia),64
+Joan Girardi (Joan of Arcadia),64
+Joan of Arc,64
+Jodi Chang (Tremors: The Series),64
+Jodie (Daria),64
+Jodie Landon (Daria),64
+Joe (Sky Captain),64
+Joe Dawson (HL),64
+Joe Ferone (Up the Down Staircase),64
+Joel Stevens (Boomtown),64
+Joey (Dawson's Creek) ,64
+Joey Tribbiani (Friends),64
+John (John Doe),64
+John Adams,64
+John Allerdyce/Pyro (X-Men),64
+John Carter (Barsoom),64
+John Carter (ER),64
+John Connor (Terminator 3),64
+John Constantine (Hellblazer) ,64
+John Crichton (Farscape),64
+John Doggett (X-Files),64
+John Laroche (Adaptation) ,64
+John Locke (Lost),64
+John Lyman (West Wing),64
+John Meyers (Hellboy),64
+John Munch (Law and Order: SVU),64
+John Pierpont Morgan,64
+John Preston (Equilibrium),64
+John Rowlands (The Dark is Rising),64
+John Sheppard (Stargate Atlantis),64
+John Smith (The Dead Zone),64
+John Steed (Avengers),64
+John Yossarian (Catch-22),64
+Johnny (Airplane!),64
+Johnny (The Homicidal Maniac),64
+Johnny B (Misfits of Science),64
+Johnny Cage (Mortal Kombat),64
+Johnny Fever (WKRP in Cincinnati),64
+Johnny Smith (Dead Zone),64
+Johnny Storm (Fantastic Four),64
+Johnny Theremin (Neil Gaiman),64
+Johnny Truant (House of Leaves),64
+Jon Dalton (Survivor),64
+Jon Proudstar (Exiles),64
+Jon Stewart (The Daily Show),64
+Jonas (Stargate SG-1) ,64
+Jonas Quinn (Stargte SG-1),64
+Jonathan (Buffy),64
+Jonathan Archer (Enterprise),64
+Jonathan Carnahan (The Mummy) ,64
+Jonathan Strange,64
+Jonathan Teatime (Discworld),64
+Jonathan Turner (Boy Meets World),64
+Jonny Quest,64
+Jool (Farscape),64
+Jordan (Crossing Jordan),64
+Joren (Tamora Pierce's "Tortall" series),64
+Jorunn (Sophie's World),64
+Josef Stalin,64
+Joseph Malik (Illuminatus Trillogy),64
+Josh (Clueless),64
+Joxer (Xena),64
+Jubilee (X-Men),64
+Judas Iscariot (Jesus Christ Superstar),64
+Judith (Joan of Arcadia),64
+Jules (Bend it Like Beckham),64
+Jules Paxton (Bend It Like Beckham),64
+Jules Winnfield (Pulp Fiction),64
+Julia Sugarbaker (Designing Women) ,64
+Julian Bashir (DS9),64
+Julian Luna (Kindred: The Embraced),64
+Julian Sark (Alias),64
+Julie Cooper (The O.C.),64
+Juliet Butler (Artermis Fowl),64
+Julio (Y Tu Mama Tambien),64
+Julius Caesar,64
+Jumba Jookiba (Lilo and Stitch),64
+Juri Arisugawa (Shoujo Kakumei Utena),64
+Juror #8 (Twelve Angry Men),64
+Justin Crowe (Carnivale),64
+K (Gravitation),64
+K-9 (Doctor Who),64
+Kabuki (Kabuki),64
+Kagome (Inuyasha),64
+Kahlan (Sword of Truth Series),64
+Kaho (Cardcaptor Sakura),64
+Kai (Lexx),64
+Kai Winn (ST:DS9),64
+Kain Blueriver (Lost Universe),64
+Kain Highwind (Final Fantasy IV),64
+Kaito (Mermaid Melody Pichi Pichi Pitch),64
+Kakashi (Naruto),64
+Kaname (Full Metal Panic),64
+Kara 'Starbuck' Thrace (Battlestar Galactica 2004),64
+Karen Sisco (Karen Sisco),64
+Kari Kamiya (Digimon Adventure),64
+Karl 'Helo' Agathon (Battlestar Galactica 2004),64
+Karl Ruprecht Kroenen (Hellboy),64
+Karura (RG Veda),64
+Kate (Angel),64
+Kate (Lost),64
+Kate the Farrier (A Knight's Tale),64
+Kate Todd (NCIS),64
+Katherine Pryde (X-Men),64
+Kathryn Janeway (Star Trek Voyager),64
+Katie Hitchcock (seaQuest DSV),64
+Katsuhiko Jinnai (El Hazard),64
+Katsumoto (Last Samurai),64
+Kay (Once and Future King),64
+Kaylee (Firefly),64
+Kefka (Final Fantasy VI) ,64
+Keisuke Yuuki (Fushugi Yuugi),64
+Keith Scott (One Tree Hill),64
+Keith Valentine (Shadow Hearts),64
+Kelso (That 70s Show),64
+Ken Hutchinson (Starsky & Hutch),64
+Kennedy (BtVS),64
+Kermit the Frog (Muppets),64
+Kestrel (Queen of Wands),64
+Kevin Wilson (New Series Tomorrow People),64
+Keyser Soze (The Usual Suspects),64
+Khan (Star Trek),64
+Kid (The Animatrix),64
+Kiing Kelson (Deryni Books),64
+Kikyo (Inuyasha),64
+Killick,64
+Killua (Hunter X Hunter),64
+Kim (Kath & Kim),64
+Kim (Something Positive),64
+Kim Bauer (24),64
+Kim Possible ,64
+King Arthur (The Once and Future King),64
+King George III,64
+King Henry IV,64
+King Henry VIII,64
+King Kelson (Derinyi Chronicles),64
+King Kelson Haldane (Deryni novels),64
+King Louis XIV,64
+King Louis XVI,64
+King Ludwig II of Bavaria,64
+King Mob (The Invisibles),64
+Kino (Kino's Journeys),64
+Kip (Napoleon Dynamite),64
+Kira Nerys (Star Trek DS9),64
+Kirby (Kirby),64
+Kirby (St. Elmo's Fire),64
+Kirsty (Ultraviolet),64
+Kisa (Fruits Basket),64
+Kit (Young Wizards Series) ,64
+Kitiara Uth Matar (Dragonlance),64
+KITT (Knight Rider),64
+Kitty Pryde (X-Men),64
+Kiva (Megas XLR),64
+Kivrin (Doomsday Book),64
+Klaus Baudelaire (A Series of Unfortunate Events),64
+Kolchak (The Night Stalker),64
+Kon-el (DC comics),64
+Korbin Dallas (The Fifth Element),64
+Kosh I (Babylon 5),64
+Kouga (Inuyasha),64
+Kowalski (SG-1),64
+Kristin Westphalen (seaQuest DSV),64
+Kristine Kochanski (Red Dwarf),64
+Kro-bar (Lost Skeleton of Cadavra),64
+Kroitz (Grandia Xtreme),64
+Kronk (The Emporer's New Groove),64
+Kronos (Highlander),64
+Krycek (The X-Files),64
+Krycek (X-Files),64
+Kryten (Red Dwarf),64
+Kuja (Final Fantasy 9) ,64
+Kuni (UHF),64
+Kupop the generic moogle(Final Fantasy 6),64
+Kurai (Angel Sanctuary),64
+Kurosaki Hisoka (Yami no Matseui),64
+Kurt Barlow (Salem's Lot) ,64
+Kuwabara (YYH),64
+Kyle Duarte (Jake 2.0),64
+Kyle Reese (Terminator),64
+Kyo (Fruits Basket),64
+Kyoo (Alice 19th),64
+Kyou (Fruits Basket) ,64
+Kyp Durron (Star Wars books),64
+La Carlotta (Phantom of the Opera),64
+Lady Amalthea (Last Unicorn),64
+Lady Eboshi (Princess Mononoke),64
+Lady Heather (CSI) ,64
+Lady Jane Grey,64
+Lady MacBeth,64
+Lady Shiva (Batman),64
+Laharl (Disgaea),64
+Lamont Cranston (The Shadow),64
+Lana Lang (Smallville),64
+Lance Bass,64
+Lancelot (King Arthur),64
+Lancelot (Monty Python and the Holy Grail),64
+Lando Calrissian (Star Wars),64
+Lang Walton (Shoulder Arms),64
+Langston Hughes,64
+Lara (Dr. Zhivago),64
+Lara Croft (Tomb Raider),64
+Largo Winch (Largo),64
+Larry "Pinto" Kroger (Animal House),64
+Larry (Closer),64
+Larry Mullen Jr,64
+Larry Smith (Double Star),64
+Larvelle Jones (Police Academy),64
+Lattice (Lost Skeleton of Cadavra),64
+Laura (American Gods),64
+Laura Ballard (Homicide),64
+Laura Ingalls Wilder (Little House on the Prarie),64
+Laurel (Midnight Nation),64
+Laurel Yeung (Edgemont),64
+Laurie Forman (That 70's Show),64
+Lavaeolus (Discworld),64
+Lawrence of Arabia,64
+Lawrence Pritchard Waterhouse (Cryptonomicon),64
+Lazarus Long (Time Enough for Love),64
+Leaven the Math Student (Cube),64
+Lee Holloway (Secretary),64
+Leela (Futurama),64
+Leeloo (The Fifth Element),64
+Leetah (Elfquest),64
+Legault (Fire Emblem: Rekka no Ken),64
+Legolas (Lord of the Rings),64
+Leif Erikson,64
+Lemina (Lunar 2: Eternal Blue),64
+Lemony Snicket (Series of Unfortunate Events),64
+Lena Kundera (All My Children),64
+Lennier (B5),64
+Lenny Nero (Strange Days),64
+Leo McGarry (West Wing),64
+Leon (The Professional),64
+Leonard of Quirm (Discworld),64
+Leonardo da Vinci,64
+Leonardo Di Vinci (Ever After),64
+Leporello (Don Giovanni),64
+Lestat (Vampire Chronicles),64
+Lester Burnham (American Beauty),64
+Leto Atreides II (Dune),64
+Lex Luthor,64
+Lexington (Gargoyles),64
+Lieutenant Chang (Mulan),64
+Lightray (New Gods),64
+Lilah Morgan (Angel),64
+Lilo (Lilo and Stitch),64
+Lindsey (Angel),64
+Lindsey Bluth-Funke (Arrested Development),64
+Linh Tamiya (Hawaii),64
+Linus Torvalds,64
+Lionel Luthor (Smallville),64
+Lion-O (Thundercats),64
+Lisa Simpson (Simpsons),64
+Little Red Riding Hood,64
+Liu Zhuzen (Shadow Hearts),64
+Livia (Xena),64
+Liz Parker (Roswell),64
+Lizzie McGuire (Lizzie McGuire),64
+Llama Kuzco (Emperor's New Groove),64
+Logan (X-Men),64
+Logan 5 (Logan's Run),64
+Logan Cale (Dark Angel) ,64
+Loki (Dogma),64
+Loki (Norse Mythology),64
+Lola (Run Lola Run),64
+Lon Suder (ST:Voyager),64
+Londo Mollari (Babylon 5),64
+Lone Star (Spaceballs),64
+Long John Silver,64
+Lonnie Henderson (Seaquest),64
+Lord Dorian Red Gloria (From Eroica with Love),64
+Lord Emsworth (Blandings Castle books),64
+Lord Havelock Vetinari (Discworld),64
+Lord John Marbury (The West Wing),64
+Lord Rochester (Plunkett & Macleane),64
+Lord Vako (Chronicles of Riddick),64
+Lord Vetinari (Discworld),64
+Lorelei Gilmore (Gilmore Girls),64
+Lorne (Angel),64
+Lou Beckett (Jake 2.0),64
+Louie de Palma (Taxi),64
+Louis (Vampire Chronicles),64
+Low Key (American Gods),64
+Lt. Barclay (Star Trek: TNG),64
+Lt. Bracy (Fix Bay'nets!),64
+Lt. Malcolm Reed (Enterprise),64
+Lt. Saavik (ST),64
+Lu Bu (Dynasty Warriors),64
+Lu Xun (Dynasty Warriors),64
+Lucas (Empire Records),64
+Lucas Wolenczak (Seaquest),64
+Lucien (Sandman),64
+Lucien Lacroix (Forever Knight),64
+Lucifer (Sandman),64
+Lucille Bluth (Arrested Development),64
+Lucius Malfoy (Harry Potter),64
+Lucky Day (Three Amigos),64
+Lucy Knight (ER),64
+Lucy Pevensie (Chronicles of Narnia),64
+Lucy Ricardo (I Love Lucy),64
+Luka Kovac (ER),64
+Luke (Joan of Arcadia),64
+Luke Duke,64
+Luke Skywalker ,64
+Lulu Archer (The Guardian),64
+Lumiere (Beauty and the Beast),64
+Luna,64
+Luna Lovegood (Harry Potter),64
+Lurtz (LotR),64
+Lwaxana Troi (ST:NG),64
+Lynn Minmei (Macross) ,64
+Lyra (His Dark Materials),64
+Lyra Belacqua (His Dark Materials),64
+Lysander Sage (Charlie Bone),64
+Lyta Alexander (Babylon 5),64
+M (James Bond - Judi Dench version),64
+Ma Kettle ,64
+Macbeth (Gargoyles),64
+Macduff (Macbeth),64
+Mace Windu (Star Wars),64
+Macis Cruet (Will-O-The-Wisp),64
+Macnair (Harry Potter),64
+Madam Hooch (HP),64
+Madam Rosmerta (HP) ,64
+Madame Thenardier (Les Miserables),64
+Maddie (Jonathan Creek),64
+Maddy (Jonathan Creek),64
+Mad-Eye Moody (HP),64
+Maeby Funke (Arrested Development) ,64
+Maedhros (Silmarillion),64
+Maelgwn Gwynedd,64
+Magic Voice (MST3K),64
+Magneto (X-Men) ,64
+Magnus D'Armand (Wizard and Warlock Series),64
+Maimonides,64
+Mairelon the Magician,64
+Maj. John Sheppard (Stargate Atlantis),64
+Major Motoko Kusanagi (Ghost in the Shell),64
+Major Sheppard (Stargate Atlantis),64
+Major-General Stanley (The Pirates of Penzance) ,64
+Mal Reynolds (Firefly),64
+Maladict (Discworld),64
+Maladicta (Discworld),64
+Malcolm Bridges (Babylon 5: The Legend of the Rangers),64
+Maleficent (Sleeping Beauty),64
+Mallory Pike (Babysitters Club),64
+Mama Morton (Chicago),64
+Mamoru (Sailor Moon),64
+Mandrake the Magician,64
+Manny (Black Books),64
+Mantaro Kinniku (Kid Muscle),64
+Mara Jade (Star Wars extended universe),64
+Mara Jade (Star Wars),64
+Mara the first anguisette (The Kusheil trilogy),64
+Marco (Animorphs),64
+Marcus Alexander (Jeremiah),64
+Marcus Cole (Babylon 5),64
+Marcus Didius Falco (Falco mysteries),64
+Marcus Hamilton (Angel),64
+Margaret (West Wing),64
+Margaret of Anjou (Henry VI),64
+Margarette (Shadow Hearts),64
+Maria (Roswell),64
+Marianne Dashwood (Sense and Sensibility),64
+Marie Antoinette,64
+Marie Curie,64
+Mariel (Mariel of Redwall),64
+Marion Ravenwood (Raiders of the Lost Ark) ,64
+Marissa Cooper(The O.C.),64
+Mark (Empire Records),64
+Mark (Garden State),64
+Mark (Love Actually),64
+Mark Darcy (Bridget Jones's Diary),64
+Mark Hunter (Pump Up The Volume),64
+Mark Renton (Trainspotting),64
+Marla (Fight Club) ,64
+Marla Singer (Fight Club),64
+Marlena (Days of Our Lives),64
+Marlin (Finding Nemo),64
+Marona (Phantom Brave),64
+Marquis de Carabas (Neverwhere) ,64
+Marquis de Sade,64
+Marron Glace (Sorcerer Hunters),64
+Marrow (X-Men),64
+Martha Kent (Smallville),64
+Martin Blank (Grosse Point Blank) ,64
+Martin Dear (Green Wing),64
+Martin Fitzgerald (Without a Trace),64
+Martin van Buren,64
+Martouf (SG-1),64
+Marty McFly (Back to the Future),64
+Marvin (Hitchhiker's Guide),64
+Marvin the Martian (Looney Tunes),64
+Mary Cherry (Popular),64
+Mary Jane Watson (Spider-Man),64
+Mary Kelly (From Hell),64
+Mary Midnight (Strangers in Paradise),64
+Mary Reilly (Mary Reilly),64
+Mary Russell (the Mary Russell series),64
+Mary Shelley,64
+Mason Eckhart (Mutant X),64
+Master of Straights (Kushiel's Legacy Trilogy),64
+Mata Hari,64
+Matilda (Roahd Dahl),64
+Matt Bellamy (Muse RPF),64
+Matthew (Fire Emblem),64
+Matthew McCormick (HL),64
+Maude Flanders (The Simpsons),64
+Maverick (Top Gun),64
+Max (Brimstone),64
+Max (Dark Angel),64
+Max (Roswell),64
+Max California (8mm),64
+Max Eilerson (B5 Crusade),64
+Max Fischer (Rushmore),64
+Maximus (Gladiator),64
+May (Pokemon),64
+Mazikeen (Lucifer) ,64
+McGonagell (Harry Potter),64
+McKay (SG Atlantis),64
+Meatwad (Aqua Teen Hunger Force),64
+Medea (Medea by Euripides),64
+Meg Giry (Phantom of the Opera),64
+Meg Murray (A Wrinkle In Time) ,64
+Megabyte Damon (New Series Tomorrow People),64
+Megan (My Little Ponies),64
+Megatron,64
+Melaka Fray (Fray),64
+Melisande (Kushiel's Legacy Trilogy),64
+Melody Valentine (Josie & the Pussycats),64
+Melvin Smiley (The Big Hit),64
+Menchi (Excel Saga),64
+Mercutio (Romeo and Juliet),64
+Merrill (Signs),64
+Merriman (The Dark is Rising) ,64
+Merry Brandybuck ,64
+Mervyn Bunter (Dorothy Sayers novels),64
+Metal Steve (Diesel Sweeties),64
+Methos (Highlander) ,64
+Methos (Highlander),64
+Mia Thermopolis (The Princess Diaries) ,64
+Miaka (Fushigi Yugi),64
+Micah (Anita Blake),64
+Michael (Arrested Development),64
+Michael (La Femme Nikita),64
+Michael Cassio (Othello),64
+Michael Guerin (Roswell),64
+Michelangelo (TMNT),64
+Michelle Dessler (24),64
+Mickey Mouse,64
+Miette (City of Lost Children),64
+Miguel (Road to El Dorado),64
+Miguel Alvarez (OZ),64
+Mikage Souji (Revolutionary Girl Utena),64
+Mike (Something Positive),64
+Mike (Stranger in a Strange Land),64
+Mike Donovan (V),64
+Mike Korda (Metro),64
+Mike Logan (Law and Order),64
+Mike Nelson,64
+Mike Silletti (Rescue Me),64
+Mike Toreno (Grand Theft Auto: San Andreas),64
+Mike Watt (Spaced),64
+Mike Wazowski (Monsters Inc.),64
+Miles Logan (Blue Streak),64
+Miles Massey (Intolerable Cruelty),64
+Miles Vorkosigan,64
+Mima Kirgoe (Perfect Blue),64
+Mimi (Rent),64
+Mina Murray (League of Extraordinary Gentlemen),64
+Minerva McGonagall (HP),64
+Ming the Merciless,64
+Mirage (The Incredibles) ,64
+Miranda (Sex and the City),64
+Miranda Frost (Die Another Day),64
+Miranda Priestly (The Devil Wears Prada),64
+Mirelle (Noir),64
+Misato (Evangelion),64
+Miss Dashwood the Elder (Sense and Sensibility) ,64
+Miss Kitty Fantastico,64
+Miss Moneypenny (James Bond),64
+Miss Parker (The Pretender),64
+Miss Scarlet (Clue),64
+Miss Trunchbull (Matilda),64
+Missy Pantone (Bring It On),64
+Mister (Dresden Files),64
+Mister Miracle (New Gods),64
+Mister Smith (Jeremiah) ,64
+Misty (Pokemon),64
+Mitch (A Mighty Wind),64
+Mitchell Hundred (Ex Machina),64
+Mogget (Sabriel),64
+Moiraine Damodred (Wheel of Time),64
+Mojo Jojo (Powerpuff Girls),64
+Moleculo the Molecular Man (SNL),64
+Molly Grue (Last Unicorn),64
+Molly Millions (Neuromancer),64
+Molotov Cocktease (Venture Brothers),64
+Moltar (Space Ghost: Coast to Coast),64
+Momo (Momo by Michael Ende),64
+Momoji Sohma (Fruits Basket) ,64
+Momoshiro Takeshi (Prince of Tennis),64
+Monica Davis (UC Undercover),64
+Monica Reyes (X-Files),64
+Monk McGann (Gangs of New York),64
+Monsieur Gillenormand (Les Miserables),64
+Montparnasse (Les Miserables),64
+Monty (Withnail & I),64
+Moonglum (Eternal Champions),64
+Mordred (Dark Tower),64
+Morgaine,64
+Morgan Pym (The Collector),64
+Morgan Sloat (Talisman),64
+Morkeleb (the Dragon series),64
+Morn (DS9),64
+Morph (X-Men),64
+Morpheus (Sandman),64
+Morpheus (The Matrix),64
+Morris Delancey (Newsies),64
+Morticia Adams,64
+Mortimer Brewster (Arsenic and Old Lace),64
+Moses Jackson (The Invention of Love),64
+Mother Theresa,64
+Mouse (Ladyhawke),64
+Moya (Farscape),64
+Mozart (Amadeus),64
+Mr. Beaver (Chronicles of Narnia),64
+Mr. Belding (Saved By The Bell),64
+Mr. Big (Sex and the City),64
+Mr. Brown (PotC),64
+Mr. Burns (The Simpsons),64
+Mr. Collins (Pride and Prejudice),64
+Mr. Croup (Neverwhere),64
+Mr. Darcy (Pride and Prejudice),64
+Mr. Dark (Something Wicked This Way Comes),64
+Mr. Fizzwidget (Ratchet and Clank),64
+Mr. Flibble (Red Dwarf),64
+Mr. Hanky (South Park),64
+Mr. Ibis (American Gods),64
+Mr. Joker (Read or Die),64
+Mr. K (Gravitation),64
+Mr. Miyagi (Karate Kid),64
+Mr. Nancy (American Gods),64
+Mr. O'Neil (Daria),64
+Mr. Pink (Reservoir Dogs),64
+Mr. Pump (Discworld),64
+Mr. Spock,64
+Mr. Tanaka (Pretear),64
+Mr. Wickham (Pride and Prejudice),64
+Mr. Yotsuya (Maison Ikkoku),64
+Mr. Blonde(Resevoir Dogs),64
+Mrs. Brisby (The Secret of NIMH),64
+Mrs. Doubtfire,64
+Mrs. Tachyon (Johnny Maxwell series),64
+Mrs. White (Clue),64
+Ms. Aki (Magical Shopping Arcade Abenobashi),64
+Ms. Deep (Read or Die),64
+Ms. Perky (10 Things I Hate About You) ,64
+Mugen (Samurai Champloo),64
+Mulan (Mulan),64
+Mulder (X-Files),64
+Munch (SVU),64
+Mundungus Fletcher (HP),64
+Mune-Mune (Magical Shopping Arcade Abenobashi),64
+Muraki (Yami no Matsuei),64
+Murasaki Shikibu,64
+Mushu (Mulan),64
+Musicologist Urd (Crimson Sea),64
+Mycroft (The Moon is a Harsh Mistress),64
+Myn Donos (Star Wars),64
+Mystique (X-Men),64
+Nadia (Lost),64
+Naga the White Serpent (Slayers),64
+Najica (Najica Blitz Tactic),64
+Nakago (Fushigi Yuugi),64
+Nakatsu (Hanazakari no Kimitachi E),64
+Nanami (Revolutionary Girl Utena),64
+Nancy (The Craft),64
+Nancy Blackett (Swallows and Amazons),64
+Nancy Drew,64
+Nancy Ogg (Discworld) ,64
+Napoleon,64
+Naraku (Inuyasha),64
+Narshen (Fire Emblem: Fuuin no Tsuguri) ,64
+Naruto,64
+Natalie Hurley (Sports Night),64
+Nate Fisher (Six Feet Under),64
+Nathan Algren (Last Samurai),64
+Nathaniel Fisher,64
+Navarre (Ladyhawke),64
+Navi the Fairy (Legend of Zelda),64
+Ned Flanders (The Simpsons),64
+Need (Valdemar books),64
+Neela (ER),64
+Neelix (Voyager),64
+Neil McCauley (Heat),64
+Nelix (ST Voyager),64
+Nelle Porter (Ally McBeal),64
+Nellie Olson (Little House on the Prairie),64
+Nemi (Nemi),64
+Neo (The Matrix),64
+Neville Longbottom (Harry Potter) ,64
+New Jersey (Buckaroo Banzai),64
+Newt Pulsifer (Good Omens),64
+Newt Pulsifier (Good Omens),64
+Nibbler (Futurama),64
+Nicholas D. Wolfwood),64
+Nick (CSI),64
+Nick (The Forsaken),64
+Nick Charles (The Thin Man),64
+Nick Fallin (The Guardian),64
+Nick Stokes (CSI),64
+Nicodemus Legend (Legend),64
+Nicole Julian (Popular),64
+Nicole Wallace (Law and Order:CI),64
+Nigel Tufnel (Spianl Tap),64
+Night Owl (Watchmen),64
+Nightcrawler (X-Men) ,64
+Nightfall (The Legend of Nightfall),64
+Nightwing (DC),64
+Nikita (La Femme Nikita),64
+Niles Crane (Frasier),64
+Nimue (King Arthur),64
+Nino (Amelie),64
+Niska (Firefly),64
+Noah (The Village),64
+Nobby Nobbs (Discworld),64
+Nocturne (Exiles),64
+No-Face (Spirited Away),64
+Nora Charles (The Thin Man),64
+Norman (Big O),64
+Norman Stansfield (The Professional),64
+Norrington (Pirates of the Caribbean),64
+Northstar,64
+Nuala (Sandman),64
+Nuriko (Fushigi Yugi),64
+Nurse (Romeo + Juliet),64
+Nurse Kelleye (M*A*S*H),64
+Nursie (Blackadder II) ,64
+Nyarlathotep,64
+Nymphadora Tonks (Harry Potter) ,64
+Nynaeve al'Meara (Wheel of Time),64
+Nyota Uhura (ST),64
+Obelix (Asterix the Gaul),64
+Obi-Wan Kenobi (Star Wars),64
+Odo (DS9),64
+Odysseus (Iliad/Odyssey),64
+Odysseus (Troy),64
+Offred (Handmaid's Tale),64
+Olive Ruskette (Forgotten Realms D&D setting),64
+Oliver Queen (DC comics),64
+Oliver Trask (O.C.),64
+Oliver Wood (Harry Potter) ,64
+Olivia Benson (Law and Order SVU) ,64
+Ophelia (Hamlet),64
+Optimus Prime,64
+Oracle (DC),64
+Orange Guy (The Front),64
+O-Ren Ishii (Kill Bill),64
+Orestes (The Oresteia) ,64
+Original Silk Spectre (Watchmen),64
+Orin (Little Shop of Horrors),64
+Orion (New Gods),64
+Orko,64
+Orlando Bloom,64
+Orochiamaru (Naruto),64
+Osaka (Azumanga Daioh),64
+Oscar Wilde ,64
+Oskar Schindler,64
+Otacon (Metal Gear Solid),64
+Otter (Animal House),64
+Owen Burnett (Gargoyles),64
+Oy the Billy Bumbler (Dark Tower),64
+Oz (Buffy),64
+Ozymandias (Watchmen),64
+Ozymandias (X-Men),64
+Pac-Man,64
+Padme Skywalker,64
+Pai (3x3 Eyes),64
+Paige Halliwell (Charmed),64
+Paine (Final Fantasy X-2),64
+Paisley Tinkle (Wigu),64
+Palin Majere (Dragonlance novels),64
+Pansy Parkinson (Harry Potter),64
+Pantalaimon (His Dark Materials),64
+Papa Smurf (Smurfs),64
+Paris (Iliad),64
+Paris Hilton (South Park),64
+Parry the Incarnation of Evil (Incarnations of Immortality),64
+Parvati Patil (Harry Potter),64
+Parvati Patil (HP),64
+Patience (Wyrms),64
+Patrick (Coupling),64
+Patrick Bateman (American Psycho),64
+Patrick Harper (Sharpe),64
+Patrocles (Troy),64
+Patsy Stone (Absolutely Fabulous),64
+Paul Atreides (Dune),64
+Paul Falsone (Homicide),64
+Paul Muadib (Dune),64
+Paul Peplow (My Zinc Bed),64
+Pavel Chekov (Star Trek),64
+PC Plum (Balamory),64
+Peach (Finding Nemo),64
+Pearl (Legend of Mana),64
+Pearl Forrester,64
+Pearse Harman (Ultraviolet) ,64
+Pebbles (Flintstones),64
+PeeJee (Something Positive),64
+Peggy Hill (King of the Hill),64
+Pembleton (Homicide),64
+Penance (Generation X),64
+Pendergast,64
+Penelope (The Odyssey),64
+Penelope or Circe (the Odyssey),64
+Penfold (Danger Mouse),64
+Pepper (Good Omens),64
+Percy Weasley (Harry Potter),64
+Peregrin Took (LotR),64
+Perfect Tommy (Buckaroo Banzai),64
+Petaline (Firefly),64
+Peter Dragon (Action),64
+Peter Gibbons (Office Space),64
+Peter Griffin (Family Guy),64
+Peter LaFleur (Dodgeball),64
+Peter Pan,64
+Peter Parker (Spider-Man),64
+Peter Pettigrew (Harry Potter) ,64
+Peter Raedar (The Flight Engineer Saga),64
+Peter Wimsey (Dorothy L Sayers),64
+Petrefax (Sandman),64
+Petty Officer Jennifer Coates (JAG),64
+Phedre (Kushiel),64
+Phedre no Delawny (Kushiel books),64
+Phlox (Enterprise),64
+Phoebe Halliwell (Charmed),64
+Piers Gaveston,64
+Piffany (Noodwick),64
+Pigwidgeon (Harry Potter),64
+Pikachu,64
+Pilot (Farscape),64
+Pinhead (Hellraiser),64
+Pink Panther,64
+Pinocchio (Harsh Realm),64
+Pious Augustus (Eternal Darkness: Sanity's Requiem),64
+Pippi Longstocking,64
+Pippin (Lord of the Rings),64
+Pippin Took,64
+Piter de Vries (Dune),64
+Pizzazz (Jem) ,64
+Plastic Man,64
+Plato,64
+Pocahontas,64
+Poison Ivy (Batman),64
+Pollution (Good Omens),64
+Polly Perkins (Sky Captain),64
+Polly Perks (Discworld),64
+Pope Gregory I,64
+Poppy Pomfrey (HP),64
+Porthos (Enterprise),64
+Preparation H Raymond (Late Night With Conan O'Brien),64
+President Tom Beck (Deep Impact),64
+Prince Albert Victor Edward (The Ripper),64
+Prince Caspian (The Chronicles of Narnia),64
+Prince Humperdinck (Princess Bride),64
+Prince Imrahil (LOTR),64
+Prince Lir (The Last Unicorn),64
+Prince Phil (Slayers),64
+Princess Amy (The Ordinary Princess),64
+Princess Ann (Roman Holiday),64
+Princess Fiona (Shrek),64
+Princess Kitana (Mortal Kombat),64
+Princess Leia (Star Wars),64
+Princess Oglamar (The Neverending Story),64
+Private Vasquez (Aliens),64
+Prof. Flitwick (HP),64
+Professor Kirke (Chronicles of Narnia),64
+Professor Utonium (Powerpuff Girls) ,64
+Professor Yaffle (Bagpuss),64
+Proto Man (Bob & George),64
+PsyDuck (Pokemon),64
+Psylocke (X-Men),64
+Puck (A Midsummer Night's Dream),64
+Puck (Gargoyles) ,64
+Puck (Midsummer Night's Dream),64
+Puddleglum (The Silver Chair),64
+Puppet Angel,64
+Puss in Boots (Shrek 2),64
+Pyramid Head (Silent Hill 2),64
+Pyro (X-Men movieverse),64
+Q (ST:TNG),64
+Q (Star Trek),64
+Quark (ST:DS9),64
+Queen Andais (Merry Gentry books),64
+Queen Bodicca,64
+Queen Christine of Sweden,64
+Queen Elizabeth I,64
+Queen Victoria,64
+Queenie (Blackadder) ,64
+Queequeg (The X-Files),64
+Queer Duck (Queer Duck),64
+Quincy Tinkle (Wigu),64
+Quinn Mallory (Sliders),64
+R.Buckminster Fuller,64
+R2D2 (Star Wars),64
+Rabbi Aleva ,64
+Racetrack (Newsies),64
+Racetrack Higgens (Newsies),64
+Rachel Green (Friends),64
+Radar O'Reilly (M*A*S*H) ,64
+Rainbow Brite,64
+Raistlin Majere (Dragonlance),64
+Ralph Ross Lanyon (The Charioteer),64
+Ramona (Ramona the Brave),64
+Ramses Emerson (Amelia Peabody series),64
+Ran (Detective Conan),64
+Rand al'Thor (Wheel of Time) ,64
+Randal Prichard Waterhouse,64
+Randall Flagg (The Stand),64
+Randi (ER),64
+Random (Hitchhiker's Guide),64
+Random (Mostly Harmless),64
+Randy Disher (Monk) ,64
+Ranma (Boy-Type),64
+Ranma (Girl-Type),64
+Raoul (Phantom of the Opera),64
+Raoul de Chagny (Phantom of the Opera),64
+Raphael (TMNT),64
+Rasputin,64
+Ratchet (Ratchet and Clank),64
+Rath (Fire Emblem),64
+Raven (Teen Titans),64
+Raven (That's So Raven),64
+Rawhide (Buckaroo Banzai),64
+Ray Singh (The Lovely Bones),64
+Ray Vecchio (Due South),64
+Raymond Chandler,64
+Raymond Prentiss Shaw (Manchurian Candidate),64
+Rebecca (Tank Girl),64
+Red (No Rest for the Wicked),64
+Red (Shawshank Redemption),64
+Red Queen (Resident Evil movies),64
+Redeemed!Spike (BtVS),64
+Reepicheep (The Chronicles of Narnia),64
+Reese (Malcolm in the Middle),64
+Reg Shoe (Discworld),64
+Regan Cole (HL),64
+Reggie Higgins (Fame),64
+Regis Hastur (Darkover series),64
+Regulus Black (HP),64
+Rei Ayanami (Neon Genesis Evangelion),64
+Relena Peacecraft (Gundam Wing),64
+Rembrandt van Rijn,64
+Remus Lupin (Harry Potter) ,64
+Remy Lebeau (X-Men),64
+Ren McCormack (Footloose),64
+Renault (Fire Emblem:Rekka no Ken),64
+Renee d'Auber (Mairelon the Magician),64
+Renfield (Dracula),64
+Reno (Final Fantasy 7),64
+RepliCarter (Stargate SG1),64
+Rev. Percy Gregg (Shoulder Arms),64
+Reverend Mother Helen Gaius Mohaim (Dune books),64
+Rhett Butler,64
+Richard (Caroline in the City),64
+Richard Bucket (Keeping Up Appearances),64
+Richard Hammond (Top Gear),64
+Richard III (Historical),64
+Richard Mayhew (Neverwhere),64
+Richard Nixon,64
+Richard Sharpe (Sharpe),64
+Richie Ryan (Highlander),64
+Richie Tenenbaum (The Royal Tenenbaums),64
+Rick Blaine (Casablanca),64
+Rick Deckard (Blade Runner),64
+Rick O'Connell (The Mummy),64
+Rickie Vasquez (My So-Called Life),64
+Rickon Stark (A Song of Fire and Ice),64
+Ricky (Better Off Dead),64
+Ricky Roma (Glengarry Glen Ross),64
+Riddick (The Chronicles of Riddick) ,64
+Riff (Sluggy Freelance),64
+Rifleman Harris (Sharpe's Rifles),64
+Riley Finn (BtVS),64
+Riley Poole (National Treasure),64
+Rimmer (Red Dwarf) ,64
+Rin (Final Fantasy X),64
+Ringo Starr (Beatles),64
+Rinoa (Final Fantasy VIII),64
+Ritchie Tenenbaum (Royal Tenenbaums),64
+River Tam (Firefly),64
+Ro Laren (Star Trek),64
+Roast Beef Kazenzakis (Achewood),64
+Rob Zombie,64
+Robbespierre,64
+Robert E. Lee,64
+Robert Kennedy,64
+Robert Langdon (The DaVinci Code),64
+Robert Paulson (Fight Club),64
+Robin,64
+Robin Hood,64
+Rocio (Belle Epoque),64
+Rock Lee (Naruto),64
+Rodney McKay (Stargate),64
+Roger Smith (Big O),64
+Roger the Homoculus (Hellboy),64
+Rogue (X-Men),64
+Rogue the Bat (Sonic the Hedgehog),64
+Romana (Doctor Who),64
+Rommie (Andromeda),64
+Ron Weasley (Harry Potter) ,64
+Ronna (Go),64
+Roronoa Zoro (One Piece),64
+Rorsach (Watchmen),64
+Rosa Parks,64
+Rosalita Sanchez (Tremors: The Series),64
+Rosario (Will and Grace),64
+Rose (Fullmetal Alchemist),64
+Rose Red (Fables),64
+Rose Walker(Sandman) ,64
+Rosengurtle Baumgartener (Boondock Saints),64
+Ross Gellar (Friends),64
+Ross Villiers (Midsomer Murders),64
+Roux (Chocolat),64
+Rover (The Prisoner),64
+Roy Fokker (Robotech,64
+Roy Mallard (People Like Us),64
+Roy Mustang (FMA),64
+Roy Ravelle (Line of Fire),64
+Rube (Dead Like Me),64
+Rubeus Hagrid,64
+Ruby Moon (Cardcaptor Sakura),64
+Ruby Thewes (Cold Mountain),64
+Rufus (Bill and Ted's Excellent Adventure),64
+Rufus (Dogma),64
+Runa (Ronin Warriors),64
+Running Man (Intellivision),64
+Rupert Giles (Buffy),64
+Rusty Ryan (Ocean's Eleven),64
+Ruth Fisher (Six Feet Under),64
+Rutherford B. Hayes,64
+Ryan Pierce (West Wing),64
+Rygel (Farscape),64
+Ryoko,64
+Ryudo (Grandia II),64
+Ryuichi (Gravitation),64
+Sadako (The Ring),64
+Saffron (Firefly),64
+Sagara (Full Metal Panic),64
+Said (La Haine),64
+Saigo Takamori,64
+Sailor Moon,64
+Saionji Kyouichi (Revolutionary Girl Utena),64
+Sakaki (Azumanga Daioh),64
+Sakuma Ryuichi (Gravitation),64
+Sakura (Card Captor Sakura),64
+Sakura (Naruto),64
+Salem (Sabrina the Teenage Witch),64
+Sally Brown (Peanuts),64
+Sam (Benny & Joon),64
+Sam (Day After Tomorrow) ,64
+Sam (Spooks and MI-5),64
+Sam Beckett (Quantum Leap),64
+Sam Black Crow (American Gods) ,64
+Sam Carter (Stargate SG-1),64
+Sam Clay (The Amazing Adventures of Kavalier and Clay),64
+Sam Gamgee (LOTR),64
+Sam Monroe (Life as a House),64
+Sam Seaborn (West Wing) ,64
+Sam Spade,64
+Sam Vimes (Discworld) ,64
+Samantha (Sex and the City),64
+Samara (The Ring) ,64
+Samuel Clemens,64
+Samuel Taylor Coleridge,64
+Samurai Jack,64
+Sana (Kodomo no Omocha/Kodocha),64
+Sandy (Grease),64
+Sara Sidle (CSI),64
+Sarah (Labyrinth),64
+Sarah Bannerman (Dead Zone),64
+Sarah Connor (Terminator) ,64
+Sarah Jane Smith (Doctor Who),64
+Sarah O'Neill (Stargate SG-1),64
+Sark (Alias),64
+Saruman (LOTR),64
+Sasaki Kojiro (Mushashi),64
+Sasha (Kindred: The Embraced),64
+Sasshi (Magical Shopping Arcade Abenobashi),64
+Satine (Moulin Rouge),64
+Sauron (Lord of the Rings),64
+Sauske (Naruto),64
+Savil (The Last Herald-Mage Trilogy),64
+Sawyer (Lost),64
+Sayid (Lost),64
+Scar (Fullmetal Alchemist),64
+Scar (The Lion King),64
+Scaramouche (We Will Rock You),64
+Scarlett O'Hara,64
+Schillinger (Oz),64
+Schmendrick (The Last Unicorn) ,64
+Scoop (Bob the Builder),64
+Scorpion (Mortal Kombat),64
+Scorpius (Farscape),64
+Scott Summers (X-Men) ,64
+Scribble (Vurt),64
+Scrooge McDuck (Duck Tales),64
+Seamus Harper (Andromeda),64
+Sean McNamara (Nip/Tuck),64
+Sebastian (Little Britain),64
+Seifer Almasy (Final Fantasy 8),64
+Seiya (Saint Seiya),64
+Selene (Underworld),64
+Seline Kyle (Catwoman),64
+Selma Jezkova (Dancer in the Dark),64
+Senator Kelly (X-Men),64
+Senator Robert Kinsey (Stargate SG-1),64
+Septimus Hodge (Arcadia),64
+Serafina Pekkala (His Dark Materials),64
+Serafinna Pekkalla (His Dark Materials),64
+Serendipity (Dogma) ,64
+Sergeant Detritus (Discworld),64
+Sergeant Neal Howie (The Wicker Man),64
+Servalan (Blake's 7),64
+Sesshoumaru (Inuyasha),64
+Seth (The Authority),64
+Seth Bullock (Deadwood) ,64
+Setzer Gabbiani (Final Fantasy VI),64
+Seven of Nine (ST: Voyager),64
+Severus Snape (Harry Potter) ,64
+Sevigny (Lymond series),64
+Seymour (Ghost World),64
+Sgt Angua (Discworld),64
+Sgt Lewis (Inspector Morse),64
+Sgt. Harper (Sharpe),64
+Sgt. Orville Sacker (Adventures of Sherlock Holmes's Smarter Brother),64
+Sha Gojyo (Saiyuki) ,64
+Shade (Shade's Children),64
+Shadow (American Gods),64
+Shadow (Final Fantasy VI),64
+Shadow Girl (Shoujo Kakumi Utena),64
+Shaggy (Scooby Doo),64
+Shakespeare,64
+Shakespeare (Shakespeare in Love),64
+Shampoo (Ranma 1/2),64
+Sharon 'Boomer' Valerii (Battlestar Galactica 2003),64
+Sharon Tyler (Wonderfalls),64
+Sharona Fleming (Monk) ,64
+Sharpner (Dragonball Z),64
+Shaun (Shaun of the Dead),64
+Shazzer (Pitch Black),64
+She-Hulk (She-Hulk),64
+Sheldon Sands,64
+Shelinda (Final Fantasy X),64
+Shelob (LotR),64
+Shepherd Book (Firefly),64
+Sheriff Lucas Buck (American Gothic),64
+Sheriff of Nottingham (Robin Hood: Prince of Thieves),64
+Sherlock Holmes,64
+Shibuya Yuuri (Kyou Kara Maou),64
+Shigure (Fruits Basket) ,64
+Shigure Sohma (Fruits Basket),64
+Shinji Ikari (Evangelion),64
+Shinji Mimura (Battle Royale),64
+Shinn Asuka (Gundam SEED Destiny),64
+Shion Uzuki (Xenosaga),64
+Shirley Jackson,64
+Shiryu (Saint Seiya),64
+Sho (Crimson Sea),64
+SHODAN (System Shock),64
+Shun (Saint Seiya),64
+Shuuichi (Gravitation),64
+Sibyl Trelawney (Harry Potter),64
+Sick Boy (Trainspotting),64
+Sideshow Bob (Simpsons) ,64
+Sidney Falco (Sweet Smell of Success),64
+Sienna (Phantom Brave),64
+Sierra (Legend of Mana),64
+Sigmund the Penguin (Anita Blake),64
+Silent Bob,64
+Silent Bob,64
+Silk Spectre (Watchmen),64
+Silvio Dante (Sopranos),64
+Simon (Firefly),64
+Simon Donovan (West Wing),64
+Simon Tam (Firefly),64
+Siobhan (The Curious Incident of the Dog in the Night-Time),64
+Sir Francis Walsingham,64
+Sir Guy of Gisbourne (Robin of Sherwood),64
+Sir Henry Flashman,64
+Sir Henry Posonby,64
+Sir Humphrey Appleby (Yes Minister),64
+Sir Integra (Hellsing) ,64
+Sir Percy (The Scarlet Pimpernel),64
+Sir Richard Francis Burton (Riverworld books),64
+Sir Robin (Monty Python and the Holy Grail),64
+Sir Simon de Canterville (The Canterville Ghost),64
+Sir Thomas Fastolf,64
+Sirius Black (Harry Potter),64
+Sister Miriam Godwinson (Alpha Centauri),64
+Sisygambis mother of Darius III of Persia (Historical),64
+Six (Tripping the Rift),64
+'Skank' Marden,64
+Skeeve (Another Fine Myth),64
+Skeeve (Robert Asprin's Myth books),64
+Skeletor,64
+Skywise (Elfquest),64
+Slick (Sinfest),64
+Sly Cooper,64
+Snake (The Simpsons),64
+Snape (Harry Potter),64
+Snarf (Thundercats),64
+Snoopy,64
+Snow White (Fables),64
+Socrates,64
+Socrates (Plato's Republic),64
+Solid Snake (Metal Gear Solid),64
+Solomon (Bible),64
+Sonic the Hedgehog ,64
+Sonomi Daidouji (Card Captor Sakura),64
+Sonora Webster (Wild Hearts Can't Be Broken),64
+Sophie (Howl's Moving Castle),64
+Sophie (Sophie's World),64
+Sora (Kalediostar),64
+Soushi Minashiro (Soukyuu no Fafner),64
+Spider Jerusalem (Transmetropolitan),64
+Spider-Man ,64
+Spike (BtVS),64
+Spike (Buffy the Vampire Slayer pre-soul),64
+Spike Spiegel (Cowboy Bebop),64
+Spiller (The Borrowers) ,64
+Spock (Star Trek) ,64
+Spongebob Squarepants,64
+Spotty (Super Ted),64
+Spotty-dog (The Wooden Tops),64
+Spud (Trainspotting),64
+Squidward (Spongebob Squarepants),64
+Stacia Van de Veer (Promethea),64
+Staleek (Farscape),64
+Stan (Life of Brian) ,64
+Stan (Oh My Gods!),64
+Stan (South Park),64
+Stan Shunpike (HP),64
+Stanley Jobson (Swordfish),64
+Starbuck (Battlestar Galactica - '70s),64
+Starfire (Teen Titans),64
+Stark (Farscape),64
+Starscream (Transformers),64
+Steerpike (Gormengast),64
+Stephen Maturin (Master and Commander),64
+Steve (Stargate Atlantis),64
+Steve Dallas (Bloom County),64
+Steve the Pirate (Dodgeball) ,64
+Steve Urkel (Family Matters),64
+Stewie (Family Guy),64
+Stitch (Lilo and Stitch),64
+Storm (X-Men),64
+Strong Bad (Strong Bad),64
+Strongbad (Homestar Runner),64
+Stuart (QAF),64
+Stuart Allan Jones (QAF UK),64
+Stuart Jones (Queer as Folk UK),64
+Sugar Cane Kowalczyk,64
+Sully (Dr. Quinn Medicine Woman),64
+Sully (Monsters Inc.),64
+Sulu (Star Trek),64
+Superboy (DC),64
+Supergirl (Peter David comics),64
+Superman,64
+Supersoldier (Resident Evil: Apocalypse),64
+Susan (Chronicles of Narnia),64
+Susan (Desperate Housewives),64
+Susan (Discworld) ,64
+Susan Bones (HP),64
+Susan Francisco (Alien Nation),64
+Susan Ivanova (Babylon 5),64
+Susan Pevensie (Narnia),64
+Susan Sto Helit (Discworld) ,64
+Susie Sweet (Balamory),64
+Suzy Turquoise Blue (Keys to the Kingdom),64
+Svidrigailov (Crime and Punishment),64
+Swan (DekaRanger),64
+Swift (The Authority),64
+Sybil Trelawney (Harry Potter) ,64
+Sydney Carton (Tale of Two Cities),64
+T.J. Hooker,64
+T.S Garp (World According to Garp),64
+T-1000 (Terminator 2),64
+Taishi (Comic Party),64
+Taito Magatsu (Blade of the Immortal),64
+Takamizawa Shuuichi (Midori No Hibi),64
+Talia Winters (Babylon 5),64
+Tamahome (Fushigi Yugi),64
+Tanda  (Another Fine Myth),64
+Tanis Half-Elven (Dragonlance),64
+Tara (Buffy) ,64
+Tarma shena Tale-sedrin (Mercedes Lackey books),64
+Tars Tarkas (Barsoom),64
+Tarzan,64
+Tasha Yar,64
+Tatsumi (Yami no Matsuei),64
+Tazendra (Dragaera series),64
+Teal'c (Stargate),64
+Ted "Thedore" Logan (Bill & Ted) ,64
+Ted Schmidt (QAF),64
+Teddy (Mr. Bean),64
+Teela,64
+Telemain (Enchanted Forest Chronicles),64
+Temple Page (The District),64
+Tenar (Earthsea),64
+Tenchi,64
+Tenderheart Bear (Care Bears),64
+Tenjou Utena (Shoujo Kakumei Utena),64
+Teodor (Achewood) ,64
+Teresa Moreno (Sharpe),64
+Teresa Ortiz (Boomtown),64
+Terk (Disney's Tarzan),64
+Terminatrix (Terminator 3),64
+Terry McGinnis (Batman Beyond),64
+Tezuka Kunimitsu (Prince of Tennis) ,64
+The Abbe du Coulmier (Quills),64
+The Apocalypse Box (Crusade),64
+The Archdean (Illuminati University),64
+The Aztec priest (Everworld),64
+The Beatnik Girl (An Extremely Goofy Movie),64
+The Blob (X-Men),64
+The Blue Cat (Voltron),64
+The Bride (Kill Bill),64
+The Bursar (Discworld),64
+The Caller (Phone Booth),64
+The Cat (Red Dwarf),64
+The Cat in the Hat (Dr. Seuss),64
+The Cheat (Homestar Runner),64
+The Cheese Man (Buffy),64
+The Cigarette-Smoking Man (X-Files),64
+The Comedian (Watchmen),64
+The Conduit (Angel),64
+The Corinthian (Sandman),64
+The Count (Sesame Street),64
+The Devil (Brimstone) ,64
+The Devil (Paradise Lost) ,64
+The Doctor (Doctor Who),64
+The Doctor (The Authority) ,64
+The Doctor (Voyager),64
+The Dread Pirate Roberts of your choice,64
+The Dude (The Big Lebowski),64
+The Duke (Moulin Rouge),64
+The Duke of Wellington,64
+the elephant (Moulin Rouge),64
+The Emcee (Cabaret),64
+The Emperor (Star Wars),64
+The Escapist (The Amazing Adventures of Kavalier and Clay),64
+The Fairy Godmother (Shrek 2),64
+The female changeling (ST:DS9),64
+The Flaming Prince (Van Von Hunter),64
+The foulmouthed Irishman (Withnail and I),64
+The Goon (Archer's Goon),64
+The Gray Mouser,64
+The Guide (Hitchhiker's Guide),64
+The Hessian (Sleepy Hollow),64
+The Hessian Horseman (Sleepy Hollow),64
+The Invisible Man (LXG) ,64
+The Jogger (Gargoyles),64
+The Joker (Batman),64
+The Keeper (Invisible Man),64
+The Kid (Prisoner),64
+The Lady Chablis (Midnight in the Garden of Good and Evil),64
+The Little Matchgirl (fairytales),64
+The Log Lady (Twin Peaks),64
+The L-shaped block (Tetris) ,64
+The Luggage(Discworld),64
+The Mad Hatter (Alice in Wonderland),64
+The Man in Black (The Princess Bride),64
+The Man Who's Protected by Three-Inch Bees (Late Night With Conan O'Brien),64
+The Man with the Thistledown Hair (Jonathan Strange and Mr. Norrell),64
+The Mariner (Waterworld),64
+The marquis de Carabas (Neverwhere),64
+The Mask (The Mask),64
+The Master (Doctor Who),64
+The Metatron (Dogma),64
+The Monarch (Venture Brothers),64
+The Narrator (Ellison's Invisible Man),64
+The Narrator (Fight Club),64
+The Narrator (Into the Woods),64
+The Noo-Noo (Tellytubbies),64
+The Patchwork Girl,64
+The Phantom (Phantom of the Opera),64
+The Phouka (War of the Oaks),64
+The Player (Rosencrantz and Guildenstern are Dead),64
+The policeman in the pit (Phantom of the Opera) ,64
+The Prime Minister (Love Actually),64
+The Question,64
+The Ring (Lord of the Rings),64
+The Robot Thing (Treasure Planet),64
+The Rock,64
+The Shopkeeper (Mr. Bean),64
+The Sorceress (Masters of the Universe),64
+The Soup Nazi (Seinfeld),64
+The Squid (HP),64
+The Star (Neil Gaiman's Stardust) ,64
+The Swan Princess,64
+The T-1000 (T2: Judgment Day),64
+The Toaster (Red Dwarf),64
+The T-Rex (Jurassic Park),64
+The Twins (Matrix Reloaded) ,64
+The Twins (Men in Black),64
+The Virgin Mary,64
+The Watcher in the Water (LOTR),64
+The Witcblade (Witchblade),64
+Thelma (Hex),64
+Theoden (Lord of the Rings),64
+Theodora (Justinian's wife),64
+Theodore Roosevelt,64
+Thessaly (Sandman),64
+Thomas Crown (The Thomas Crown Affair),64
+Thomas Edison,64
+Thomas Jefferson,64
+Thomas Jerome Newton (The Man Who Fell To Earth) ,64
+Thomas Paine,64
+Thor (Stargate SG1),64
+Thor (Ultimates),64
+Thor of Asgard,64
+Thundarr the Barbarian,64
+Tidus (FFX),64
+Tigger,64
+Tim Bayliss (Homicide),64
+Tim Drake (DC),64
+Tim Hunter (Books of Magic),64
+Tim McGee (NCIS),64
+Tim O'Neill (Seaquest),64
+Tim Speedle (CSI Miami),64
+Tim the Enchanter (Monty Python and the Holy Grail),64
+Timon (The Lion King),64
+Timov (Babylon 5),64
+Titania (A Midsummer Night's Dream),64
+Titus Andronicus (Shakespeare),64
+Toad (X-Men),64
+Tobias Beecher (Oz) ,64
+Tobias Funk (Arrested Development),64
+Toby (Labyrinth) ,64
+Todd Bowden (Apt Pupil),64
+Tohru (Fruits Basket),64
+Tom Berensen (Animorphs),64
+Tom Bombadil (LOTR),64
+Tom Collins (Rent),64
+Tom Hanson (21 Jump Street) ,64
+Tom Paris (ST Voyager),64
+Tom Pullings (M&C),64
+Tom Quinn (Spooks and MI-5),64
+Tom Riddle (Harry Potter),64
+Tom Sawyer (League of Extraordinary Gentlemen) ,64
+Tommy (Rescue Me),64
+Tommy Corn (I Heart Huckabee's),64
+Tommy Gavin (Rescue Me),64
+Tommy Gnosis (Hedwig and the Angry Inch),64
+Tomoe Sakura (Weiss Kreuz),64
+Tony Almeida (24),64
+Tony Dinozzo (NCIS) ,64
+Tony Rodriguez (NYPD Blue),64
+Top Dollar (The Crow),64
+Topato Potato (WIGU Webcomic),64
+Tor (The Hero and the Crown),64
+Torg (Sluggy Freelance),64
+Toulouse-Latrec (Moulin Rouge),64
+T'Pol (Enterprise),64
+Tracy Lord (The Philadephia Story),64
+Trance Gemini (Andromeda) ,64
+Travis Bickle (Taxi Driver),64
+Treebeard (Lord of the Rings),64
+Trevor Goodchild (Aeon Flux),64
+Trillion (Hitchhiker's Guide to the Galaxy),64
+Trinity (Matrix),64
+Trinity (The Matrix) ,64
+Trip Tucker III (Enterprise),64
+Triple-X (XXX),64
+Trisana Chandler (Emelan),64
+Tron Bonne (Megaman Legends),64
+Trowa Barton (Gundam Wing),64
+Tru Davies (Tru Calling),64
+Tsujimoto Natsumi,64
+Tsuzuki Asota (Yami no Matsuei),64
+Tucker Carlson (ex-Crossfire),64
+Tulio (Road to El Dorado),64
+Tumnus the Faun (Chronicles of Narnia) ,64
+Turlough (Doctor Who),64
+Turtle Wexler (The Westing Game),64
+Tuxedo Mask (Sailor Moon),64
+Tybalt (Romeo and Juliet),64
+Tyler Durden (Fight Club),64
+Tyler Reed (Tremors: The Series),64
+Typhoid Mary,64
+Tyr (Andromeda) ,64
+Uchiha Itachi (Naruto),64
+Uchiha Sasuke (Naruto),64
+Ug (Critters),64
+Ulfin (Merlin Trilogy),64
+Ulysses Everett McGill (O Brother Where Art Thou?),64
+Ulysses S. Grant,64
+Unicron (Transformers),64
+Up Arrow (Dance Dance Revolution),64
+Urd (Ah My Goddess),64
+Ussop (One Piece),64
+Utena Tenjou (Shoujo Kakumei Utena) ,64
+V (V for Vendetta,64
+Valentine Michael Smith (Stranger in a Strange Land) ,64
+Valentine Wiggin (Ender's Game),64
+Valerie Warner (Jake 2.0),64
+Valmont (Dangerous Liaisons),64
+Vampire Harmony (Buffy),64
+Van Ray (Fastlane),64
+Vanyel (Magic's Pawn),64
+Vanyel Ashkevron (Heralds of Valdemar),64
+Vash (Star Trek TNG),64
+Vash (Trigun),64
+Velkan (Van Helsing),64
+Velma (Scooby-Doo),64
+Velma Kelly (Chicago) ,64
+Vendetta (Making Fiends),64
+Ventinari (Discworld),64
+Venus Flytrap (WKRP in Cincinnati),64
+Vera (Oh My Gods!),64
+Verbal Kint (The Usual Suspects),64
+Verin Mathwin (Wheel of Time),64
+Vernon Dursley,64
+Veronica Franco,64
+Veronica Sawyer (Heathers),64
+Vetinari (Discworld),64
+Vianne (Chocolat),64
+Victor Emmanuel (King of Italy),64
+Victor of Aveyron (The Wild Child),64
+Victoria Metcalf (Due South),64
+Viggo (Ghostbusters 2),64
+Viktor Krum (HP),64
+Vincent (Crime & Punishment in Suburbia),64
+Viola-Cesario (Twelfth Night),64
+Violet (The Incredibles),64
+Violet Baudelaire (A Series of Unfortunate Events),64
+Virgil Hiltz (The Great Escape),64
+Vivi Ornitier (Final Fantasy 9),64
+Vizzini (Princess Bride),64
+Vlad Taltos (Taltos novels),64
+Vlad the Impaler,64
+Vlada Vladimirovich (The Critic),64
+Vorik (Voyager),64
+Voula (My Big Fat Greek Wedding) ,64
+Wadsworth (Clue),64
+Wakka (Final Fantasy 10),64
+Wakko Warner (Animaniacs),64
+Walnut (Phantom Brave),64
+Walt Disney,64
+Walter (Hellsing),64
+Walter O'Dim (Dark Tower),64
+Wang Ta (Flower Drum Song),64
+War (Good Omens),64
+Warren (BtVS),64
+Warren Worthington (Angel),64
+Warrick Brown (CSI),64
+Warrior Thor (Gauntlet),64
+Wash (Firefly),64
+Washu,64
+Watanabe (Excel Saga),64
+Watari (Yami no Matsuei),64
+Wedge Antilles (Star Wars),64
+Well-Manicured Man (X-Files),64
+Wesley (Angel/Buffy),64
+Wesley Crusher (Star Trek TNG),64
+Wesley Wyndham-Pryce (Angel),64
+Westley (Princess Bride),64
+White Rabbit (Alice in Wonderland),64
+White Witch (Narnia),64
+Wiegel (Reno 911!),64
+Wilbur Whately (HP Lovecraft's Mythos),64
+Wile E. Coyote,64
+Will (His Dark Materials),64
+Will (Will & Grace) ,64
+Will Bailey (West Wing),64
+Will Graham (Manhunter),64
+Will Parry (His Dark Materials),64
+Will Tippin (Alias),64
+Will Truman (Will & Grace),64
+Will Turner (PotC),64
+Willard (Willard),64
+William Harris (Three Men in a Boat),64
+William Howard Taft,64
+William Jennings Bryan,64
+William Lichter (Can't Hardly Wait),64
+William Munny (Unforgiven),64
+William Shakespeare,64
+William Stryker (X-Men),64
+William Wordsworth,64
+Willie (Anita Blake),64
+Willow (Buffy the Vampire Slayer),64
+Willy the bartender (Buffy),64
+Willy Wonka ,64
+Wilson (Home Improvement),64
+Wily-kit (Thundercats),64
+Winnowill (Elfquest),64
+Winston Churchill,64
+Witch Baby (Weetzie Bat books),64
+Withnail (Withnail and I),64
+Wolf (Tenth Kingdom),64
+Wolfwood (Trigun),64
+Wolverine (X-Men) ,64
+Wonder Woman,64
+Woody Hoyt (Crossing Jordan),64
+Worf (ST:TNG),64
+Wormtongue (LOTR),64
+Wowbagger (Hitchhiker's Guide),64
+Wyatt Earp,64
+Wyatt Frame (Josie and the Pussycats),64
+Wyatt Halliwell (Charmed),64
+X-23 (X-Men Evo),64
+Xander Harris (Buffy) ,64
+Xena,64
+Yago (Remnants),64
+Yamato Ishida (Digimon),64
+Yami Bakura (Yu-Gi-Oh),64
+Yellow Peanut M&M,64
+Yoko Ono,64
+Yo-less (Jonny Trilogy),64
+Yomiko Readman (Read or Die),64
+Yoshi (Mario),64
+Yossarian (Catch-22),64
+Yu Law (The One),64
+Yu Shu Lien (Crouching Tiger/Hidden Dragon),64
+Yue (CCS),64
+Yuffie (Final Fantasy VII),64
+Yugi's grandfather (Yu-Gi-Oh),64
+Yuki (Fruits Basket),64
+Yuki (Gravitation),64
+Yukino Miyazawa (His and Her Circumstances),64
+Yukio Oikawa (Digimon Adventure),64
+Yumi (Someday's Dreamers),64
+Yuna (Final Fantasy 10),64
+Yuri (Kalediostar),64
+Yuri (Shadow Hearts),64
+Yuuki (Sparkling Generation Valkyrie Yuuki),64
+Yuuko Ichihara (xxxHolic),64
+Yuuske (YYH),64
+Yvaine (Stardust),64
+Yvette (Clue),64
+Zach Young (Desperate Housewives),64
+Zack Allen (B5),64
+Zan (Metanoia),64
+Zaphod Beeblebrox (Hitchhiker's Guide),64
+Zaza the cat (Hector's House),64
+Zeke Stone (Brimstone),64
+Zelgadis Greywords (Slayers),64
+Zero (Megaman X),64
+Ziggy (Quantum Leap),64
+Zippy (Rainbow),64
+Zoe Reynolds (Spooks MI-5),64
+Zooey Glass (J.D. Salinger),64
+Zoot (Monty Python and the Holy Grail),64
+Zorg (Fifth Element),64
